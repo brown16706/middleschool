@@ -1,0 +1,11 @@
+.colophon {
+  margin: 0;
+  padding: 1rem;
+  font-size: 12px;
+  display: flex;
+  color: #898989;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f3f3;
+  clear: both;
+}
