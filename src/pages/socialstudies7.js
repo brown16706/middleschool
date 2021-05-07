@@ -127,7 +127,7 @@ const SocialStudies7 = ({ data }) => {
   const [SS7Essay107, setSS7Essay107] = useLocalStorageState("SS7Essay107", "")
   const [SS7Essay108, setSS7Essay108] = useLocalStorageState("SS7Essay108", "")
   const [SS7Essay109, setSS7Essay109] = useLocalStorageState("SS7Essay109", "")
-  const [SS7Essay110, setSS7Essay110] = useLocalStorageState("SS7Essay110", "")
+  // const [SS7Essay110, setSS7Essay110] = useLocalStorageState("SS7Essay110", "")
   const [SS7Essay111, setSS7Essay111] = useLocalStorageState("SS7Essay111", "")
   const [SS7Essay112, setSS7Essay112] = useLocalStorageState("SS7Essay112", "")
   const [SS7Essay113, setSS7Essay113] = useLocalStorageState("SS7Essay113", "")
@@ -528,9 +528,9 @@ const SocialStudies7 = ({ data }) => {
   const onChangeSS7Listener109 = (event) => {
     setSS7Essay109(event.target.value)
   }
-  const onChangeSS7Listener110 = (event) => {
-    setSS7Essay110(event.target.value)
-  }
+  // const onChangeSS7Listener110 = (event) => {
+  //   setSS7Essay110(event.target.value)
+  // }
   const onChangeSS7Listener111 = (event) => {
     setSS7Essay111(event.target.value)
   }
@@ -1190,7 +1190,7 @@ const SocialStudies7 = ({ data }) => {
               </p>
               If you have no idea where to you'd like to go, get inspired by <a
               href="https://www.lifehack.org/articles/lifestyle/17-stunning-places-visit-with-google-maps.html"
-              target="_blank"> this site about stunning places</a> or this video showing some of the most
+              target="_blank" rel="noreferrer"> this site about stunning places</a> or this video showing some of the most
               beautiful places in the world.<br/>
               <Video videoUrl="https://www.youtube.com/embed/vwZBiG1_IWs"/>
               <p> Next, answer the following questions:<br/>
