@@ -47,11 +47,11 @@ const Eighth = ({ data }) => {
               <div className="subject science8">
                 <Link to="/science8">
                   <img className="week" alt="science" src={require("../../content/images/subjectimages/science.png")}/>
-                  <p className="subject-info">physical science</p>
+                  <p className="subject-info" style={{fontSize: '34px'}}>physical science</p>
                 </Link></div>
 
               <div className="subject la8">
-                <Link to="/la8">
+                <Link to="/languagearts8">
                   <img className="week" alt="la" src={require("../../content/images/subjectimages/la.png")}/>
                   <p className="subject-info">language arts</p>
                 </Link></div>

@@ -180,16 +180,17 @@ const Math8 = ({ data }) => {
   const [selectedMath168, setSelectedMath168] = React.useState(localStorage.getItem("math8-168") === "true")
   const [selectedMath169, setSelectedMath169] = React.useState(localStorage.getItem("math8-169") === "true")
   const [selectedMath170, setSelectedMath170] = React.useState(localStorage.getItem("math8-170") === "true")
-  // const [selectedMath171, setSelectedMath171] = React.useState(localStorage.getItem("math8-171") === "true")
-  // const [selectedMath172, setSelectedMath172] = React.useState(localStorage.getItem("math8-172") === "true")
-  // const [selectedMath173, setSelectedMath173] = React.useState(localStorage.getItem("math8-173") === "true")
-  // const [selectedMath174, setSelectedMath174] = React.useState(localStorage.getItem("math8-174") === "true")
-  // const [selectedMath175, setSelectedMath175] = React.useState(localStorage.getItem("math8-175") === "true")
-  // const [selectedMath176, setSelectedMath176] = React.useState(localStorage.getItem("math8-176") === "true")
-  // const [selectedMath177, setSelectedMath177] = React.useState(localStorage.getItem("math8-177") === "true")
-  // const [selectedMath178, setSelectedMath178] = React.useState(localStorage.getItem("math8-178") === "true")
-  // const [selectedMath179, setSelectedMath179] = React.useState(localStorage.getItem("math8-179") === "true")
-  // const [selectedMath180, setSelectedMath180] = React.useState(localStorage.getItem("math8-180") === "true")
+  const [selectedMath171, setSelectedMath171] = React.useState(localStorage.getItem("math8-171") === "true")
+  const [selectedMath172, setSelectedMath172] = React.useState(localStorage.getItem("math8-172") === "true")
+  const [selectedMath173, setSelectedMath173] = React.useState(localStorage.getItem("math8-173") === "true")
+  const [selectedMath174, setSelectedMath174] = React.useState(localStorage.getItem("math8-174") === "true")
+  const [selectedMath175, setSelectedMath175] = React.useState(localStorage.getItem("math8-175") === "true")
+  const [selectedMath176, setSelectedMath176] = React.useState(localStorage.getItem("math8-176") === "true")
+  const [selectedMath177, setSelectedMath177] = React.useState(localStorage.getItem("math8-177") === "true")
+  const [selectedMath178, setSelectedMath178] = React.useState(localStorage.getItem("math8-178") === "true")
+  const [selectedMath179, setSelectedMath179] = React.useState(localStorage.getItem("math8-179") === "true")
+  const [selectedMath180, setSelectedMath180] = React.useState(localStorage.getItem("math8-180") === "true")
+  const [selectedMath181, setSelectedMath181] = React.useState(localStorage.getItem("math8-181") === "true")
 
   return (
 
@@ -217,7 +218,7 @@ const Math8 = ({ data }) => {
               <h1 className="hero intro in-left">Math</h1>
               <div className="hero info-block info-block-line in-left"
                    style={{ marginBottom: "4em" }}>
-                <Link to="/seventh" className='gradeLink'>
+                <Link to="/eighth" className='gradeLink'>
                   <h2 className="hero in-left">8th Grade</h2></Link>
               </div>
             </div>
@@ -231,9 +232,10 @@ const Math8 = ({ data }) => {
               <h1 className="section-title daily-margin" id="math">Daily Lessons</h1>
               <div className="md-content">
                 <form>
-                  <p>If you don't already have one, <a href="https://support.khanacademy.org/hc/en-us/articles/204451324-How-do-I-create-my-account-"
+                  <p className="margin-para">If you don't already have one, <a
+                    href="https://support.khanacademy.org/hc/en-us/articles/204451324-How-do-I-create-my-account-"
                     rel="noreferrer" target="_blank"> set up a free account at Khan Academy </a>
-                    and begin <a href="">  </a></p><br/>
+                    and begin the lesson below.<br/></p>
 
                   <span className="days">Lesson 1</span>
                   <ToggleSwitch checked={selectedMath1}
@@ -246,7 +248,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of the lesson <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-repeating-decimals/v/converting-a-fraction-to-a-repeating-decimal"
+                    rel="noreferrer" target="_blank"> Repeating decimals</a></p>
+
                   <span className="days">Lesson 2</span>
                   <ToggleSwitch checked={selectedMath2}
                                 id='math8-2'
@@ -257,7 +262,10 @@ const Math8 = ({ data }) => {
                                     setSelectedMath2(e.target.checked)
                                     console.log(e.target.checked)
                                   }
-                                }/> <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                                }/>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-repeating-decimals/v/converting-a-fraction-to-a-repeating-decimal"
+                    rel="noreferrer" target="_blank"> Repeating decimals</a></p>
                   <span className="days">Lesson 3</span>
                   <ToggleSwitch checked={selectedMath3}
                                 id='math8-3'
@@ -268,7 +276,12 @@ const Math8 = ({ data }) => {
                                     setSelectedMath3(e.target.checked)
                                     console.log(e.target.checked)
                                   }
-                                }/> <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                                }/>
+                  <p className="margin-para"> After you watch the video below, complete  at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-roots/v/introduction-to-square-roots"
+                    rel="noreferrer" target="_blank">Square roots & cube roots </a></p>
+                  <Video videoUrl="https://www.youtube.com/embed/nUyLnjgGumg"/>
+                  
                   <span className="days">Lesson 4</span>
                   <ToggleSwitch checked={selectedMath4}
                                 id='math8-4'
@@ -279,7 +292,12 @@ const Math8 = ({ data }) => {
                                     setSelectedMath4(e.target.checked)
                                     console.log(e.target.checked)
                                   }
-                                }/><p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                                }/>
+                  <p className="margin-para"> Complete the
+                    remainder of <a
+                      href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-roots/v/introduction-to-square-roots"
+                      rel="noreferrer" target="_blank"> Square roots & cube roots</a></p>
+
                   <span className="days">Lesson 5</span>
                   <ToggleSwitch checked={selectedMath5}
                                 id='math8-5'
@@ -291,6 +309,9 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-irrational-numbers/v/introduction-to-rational-and-irrational-numbers"
+                    rel="noreferrer" target="_blank"> Irrational numbers</a></p>
                   <span className="days">Lesson 6</span>
                   <ToggleSwitch checked={selectedMath6}
                                 id='math8-6'
@@ -302,7 +323,9 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-irrational-numbers/v/introduction-to-rational-and-irrational-numbers"
+                    rel="noreferrer" target="_blank"> Irrational numbers</a></p>
                   <span className="days">Lesson 7</span>
                   <ToggleSwitch checked={selectedMath7}
                                 id='math8-7'
@@ -314,7 +337,9 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-approximating-irrational-numbers/v/approximating-square-roots-2"
+                    rel="noreferrer" target="_blank"> Approximating irrational numbers</a></p>
                   <span className="days">Lesson 8</span>
                   <ToggleSwitch checked={selectedMath8}
                                 id='math8-8'
@@ -326,7 +351,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-approximating-irrational-numbers/v/approximating-square-roots-2"
+                    rel="noreferrer" target="_blank"> Approximating irrational numbers</a></p>
+
                   <span className="days">Lesson 9</span>
                   <ToggleSwitch checked={selectedMath9}
                                 id='math8-9'
@@ -338,23 +366,24 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
-                  <p><span className="days">Lesson 10</span>
-                    <ToggleSwitch checked={selectedMath10}
-                                  id='math8-10'
-                                  label='Completed'
-                                  onChange={
-                                    (e) => {
-                                      localStorage.setItem("math8-10", `${e.target.checked}`)
-                                      setSelectedMath10(e.target.checked)
-                                      console.log(e.target.checked)
-                                    }
-                                  }/>
-                  </p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/exponents-with-negative-bases/v/exponents-with-negative-bases"
+                    rel="noreferrer" target="_blank"> Exponents with negative bases</a></p>
+                  <span className="days">Lesson 10</span>
+                  <ToggleSwitch checked={selectedMath10}
+                                id='math8-10'
+                                label='Completed'
+                                onChange={
+                                  (e) => {
+                                    localStorage.setItem("math8-10", `${e.target.checked}`)
+                                    setSelectedMath10(e.target.checked)
+                                    console.log(e.target.checked)
+                                  }
+                                }/>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/exponents-with-negative-bases/v/exponents-with-negative-bases"
+                    rel="noreferrer" target="_blank"> Exponents with negative bases</a></p>
 
-                  {/*ADD LESSON -------------------------------------*/}
-                  {/*------------------------------
-                  ------------------*/}
 
                   <span className="days">Lesson 11</span>
                   <ToggleSwitch checked={selectedMath11}
@@ -367,7 +396,12 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> After you watch the video below, complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-exponent-properties/v/exponent-properties-involving-products"
+                    rel="noreferrer" target="_blank"> Exponent properties intro</a></p>
+                  <p>Watch the video <b> An introduction to exponents and indices</b></p>
+                  <Video videoUrl="https://www.youtube.com/embed/n6Y9AEv6z6A"/>
+
                   <span className="days">Lesson 12</span>
                   <ToggleSwitch checked={selectedMath12}
                                 id='math8-12'
@@ -379,7 +413,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-exponent-properties/v/exponent-properties-involving-products"
+                    rel="noreferrer" target="_blank"> Exponent properties intro</a></p>
+
                   <span className="days">Lesson 13</span>
                   <ToggleSwitch checked={selectedMath13}
                                 id='math8-13'
@@ -391,7 +428,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-pos-neg-exponents/v/negative-exponents"
+                    rel="noreferrer" target="_blank"> Negative exponents</a></p>
+
                   <span className="days">Lesson 14</span>
                   <ToggleSwitch checked={selectedMath14}
                                 id='math8-14'
@@ -403,7 +443,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-pos-neg-exponents/v/negative-exponents"
+                    rel="noreferrer" target="_blank"> Negative exponents</a></p>
+
                   <span className="days">Lesson 15</span>
                   <ToggleSwitch checked={selectedMath15}
                                 id='math8-15'
@@ -415,7 +458,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-exp-prop-integers/v/multiplying-and-dividing-powers-with-integer-exponents"
+                    rel="noreferrer" target="_blank"> Exponent properties (integer exponents)</a></p>
+
                   <span className="days">Lesson 16</span>
                   <ToggleSwitch checked={selectedMath16}
                                 id='math8-16'
@@ -427,7 +473,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-exp-prop-integers/v/multiplying-and-dividing-powers-with-integer-exponents"
+                    rel="noreferrer" target="_blank"> Exponent properties (integer exponents)</a></p>
+
                   <span className="days">Lesson 17</span>
                   <ToggleSwitch checked={selectedMath17}
                                 id='math8-17'
@@ -439,7 +488,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-orders-of-magnitude/v/multiplying-multiples-of-powers-of-10"
+                    rel="noreferrer" target="_blank"> Working with powers of 10</a></p>
+
                   <span className="days">Lesson 18</span>
                   <ToggleSwitch checked={selectedMath18}
                                 id='math8-18'
@@ -451,7 +503,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-orders-of-magnitude/v/multiplying-multiples-of-powers-of-10"
+                    rel="noreferrer" target="_blank"> Working with powers of 10</a></p>
+
                   <span className="days">Lesson 19</span>
                   <ToggleSwitch checked={selectedMath19}
                                 id='math8-19'
@@ -463,7 +518,12 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> After you watch the video below, Math Antics - Scientific Notation,
+                    complete <a
+                      href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-scientific-notation/v/scientific-notation-i"
+                      rel="noreferrer" target="_blank"> Scientific notation intro</a></p>
+                  <Video videoUrl="https://www.youtube.com/embed/bXkewQ7WEdI"/>
+
                   <span className="days">Lesson 20</span>
                   <ToggleSwitch checked={selectedMath20}
                                 id='math8-20'
@@ -475,7 +535,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-scientific-notation/v/scientific-notation-i"
+                    rel="noreferrer" target="_blank"> Scientific notation intro</a></p>
+
                   <span className="days">Lesson 21</span>
                   <ToggleSwitch checked={selectedMath21} id='math8-21' label='Completed' onChange={
                     (e) => {
@@ -483,8 +546,10 @@ const Math8 = ({ data }) => {
                       setSelectedMath21(e.target.checked)
                       console.log(e.target.checked)
                     }}/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
-                  {/*Unit 2 Arithmetic Operations*/}
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-scientific-notation-compu/v/multiplying-and-dividing-in-scientific-notation"
+                    rel="noreferrer" target="_blank"> Arithmetic with numbers in scientific notation</a></p>
+
                   <span className="days">Lesson 22</span>
                   <ToggleSwitch checked={selectedMath22}
                                 id='math8-22'
@@ -496,9 +561,11 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  Watch the TedEd Video <i>Where do math symbols come from? </i> by John David Walters
-                  <Video videoUrl=""/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-scientific-notation-compu/v/multiplying-and-dividing-in-scientific-notation"
+                    rel="noreferrer" target="_blank"> Arithmetic with numbers in scientific notation </a></p>
+
+
                   <span className="days">Lesson 23</span>
                   <ToggleSwitch checked={selectedMath23}
                                 id='math8-23'
@@ -510,7 +577,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-scientific-notation-word-problems/v/calculating-red-blood-cells-in-the-body-using-scientific-notation"
+                    rel="noreferrer" target="_blank"> Scientific notation word problems</a></p>
+
                   <span className="days">Lesson 24</span>
                   <ToggleSwitch checked={selectedMath24}
                                 id='math8-24'
@@ -522,7 +592,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-scientific-notation-word-problems/v/calculating-red-blood-cells-in-the-body-using-scientific-notation"
+                    rel="noreferrer" target="_blank"> Scientific notation word problems</a></p>
+
                   <span className="days">Lesson 25</span>
                   <ToggleSwitch checked={selectedMath25}
                                 id='math8-25'
@@ -534,7 +607,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/test/cc-8th-numbers-operations-unit-test?modal=1"
+                    rel="noreferrer" target="_blank"> Unit Test</a></p>
+
                   <span className="days">Lesson 26</span>
                   <ToggleSwitch checked={selectedMath26}
                                 id='math8-26'
@@ -546,7 +622,11 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> After you watch the video below, Simultaneous Equations, complete at least
+                    50% of <a
+                      href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-solving-equations/variables-on-both-sides/v/equations-3"
+                      rel="noreferrer" target="_blank"> Equations with variables on both sides</a></p>
+                  <Video videoUrl="https://www.youtube.com/embed/Lwto-lQzmec"/>
                   <span className="days">Lesson 27</span>
                   <ToggleSwitch checked={selectedMath27}
                                 id='math8-27'
@@ -558,7 +638,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-solving-equations/variables-on-both-sides/v/equations-3"
+                    rel="noreferrer" target="_blank">Equations with variables on both sides </a></p>
+
                   <span className="days">Lesson 28</span>
                   <ToggleSwitch checked={selectedMath28}
                                 id='math8-28'
@@ -570,7 +653,11 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> After you watch the video below, complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-solving-equations/equations-with-parentheses/v/solving-equations-with-the-distributive-property"
+                    rel="noreferrer" target="_blank"> Equations with parentheses</a></p>
+                  <Video videoUrl="https://www.youtube.com/embed/NlpykbGDzF8"/>
+
                   <span className="days">Lesson 29</span>
                   <ToggleSwitch checked={selectedMath29}
                                 id='math8-29'
@@ -582,7 +669,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-solving-equations/equations-with-parentheses/v/solving-equations-with-the-distributive-property"
+                    rel="noreferrer" target="_blank"> Equations with parentheses</a></p>
+
                   <span className="days">Lesson 30</span>
                   <ToggleSwitch checked={selectedMath30}
                                 id='math8-30'
@@ -594,9 +684,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
-                  Watch the TedEd Video <i>Why can't you divide by zero? </i>
-                  <Video videoUrl=""/>
+                  <p className="margin-para"> After you watch the video below, complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-solving-equations/number-of-solutions-to-linear-equations/v/number-of-solutions-to-linear-equations"
+                    rel="noreferrer" target="_blank"> Number of solutions to equations</a></p>
+
                   <span className="days">Lesson 31</span>
                   <ToggleSwitch checked={selectedMath31}
                                 id='math8-31'
@@ -608,7 +699,11 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-solving-equations/number-of-solutions-to-linear-equations/v/number-of-solutions-to-linear-equations"
+                    rel="noreferrer" target="_blank"> Number of solutions to equations</a></p>
+                  <Video videoUrl="https://www.youtube.com/embed/9PqygqYo0ck"/>
+
                   <span className="days">Lesson 32</span>
                   <ToggleSwitch checked={selectedMath32}
                                 id='math8-32'
@@ -620,7 +715,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-solving-equations/linear-equations-word-problems/v/sum-consecutive-integers"
+                    rel="noreferrer" target="_blank"> Equations word problems</a></p>
+
                   <span className="days">Lesson 33</span>
                   <ToggleSwitch checked={selectedMath33}
                                 id='math8-33'
@@ -632,7 +730,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-solving-equations/linear-equations-word-problems/v/sum-consecutive-integers"
+                    rel="noreferrer" target="_blank"> Equations word problems</a></p>
+
                   <span className="days">Lesson 34</span>
                   <ToggleSwitch checked={selectedMath34}
                                 id='math8-34'
@@ -644,7 +745,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-solving-equations/test/cc-8th-solving-equations-unit-test?modal=1"
+                    rel="noreferrer" target="_blank">Unit Test </a></p>
+
                   <span className="days">Lesson 35</span>
                   <ToggleSwitch checked={selectedMath35}
                                 id='math8-35'
@@ -656,7 +760,11 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> After you watch the video below, complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions/cc-8th-graphing-prop-rel/v/comparing-proportional-relationships-exercise-2"
+                    rel="noreferrer" target="_blank"> Graphing proportional relationships</a></p>
+                  <Video videoUrl="https://www.youtube.com/embed/57aCP7Oiecs"/>
+
                   <span className="days">Lesson 36</span>
                   <ToggleSwitch checked={selectedMath36}
                                 id='math8-36'
@@ -668,7 +776,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions/cc-8th-graphing-prop-rel/v/comparing-proportional-relationships-exercise-2"
+                    rel="noreferrer" target="_blank"> Graphing proportional relationships</a></p>
+
                   <span className="days">Lesson 37</span>
                   <ToggleSwitch checked={selectedMath37}
                                 id='math8-37'
@@ -680,7 +791,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions/8th-solutions-to-two-var-linear-equations/v/descartes-and-cartesian-coordinates"
+                    rel="noreferrer" target="_blank"> </a></p>
+
                   <span className="days">Lesson 38</span>
                   <ToggleSwitch checked={selectedMath38}
                                 id='math8-38'
@@ -692,7 +806,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions/8th-solutions-to-two-var-linear-equations/v/descartes-and-cartesian-coordinates"
+                    rel="noreferrer" target="_blank"> </a></p>
+
                   <span className="days">Lesson 39</span>
                   <ToggleSwitch checked={selectedMath39}
                                 id='math8-39'
@@ -704,7 +821,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions/8th-x-and-y-intercepts/v/introduction-to-intercepts"
+                    rel="noreferrer" target="_blank"> Solutions to linear equations</a>Intercepts</p>
+
                   <span className="days">Lesson 40</span>
                   <ToggleSwitch checked={selectedMath40}
                                 id='math8-40'
@@ -716,7 +836,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions/8th-x-and-y-intercepts/v/introduction-to-intercepts"
+                    rel="noreferrer" target="_blank"> Solutions to linear equations</a>Intercepts</p>
+
                   <span className="days">Lesson 41</span>
                   <ToggleSwitch checked={selectedMath41}
                                 id='math8-41'
@@ -728,7 +851,11 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> After you watch the video below, complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions/8th-slope/v/introduction-to-slope"
+                    rel="noreferrer" target="_blank"> Slope</a></p>
+                  <Video videoUrl="https://www.youtube.com/embed/rpMu98yRk40"/>
+
                   <span className="days">Lesson 42</span>
                   <ToggleSwitch checked={selectedMath42}
                                 id='math8-42'
@@ -740,7 +867,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions/8th-slope/v/introduction-to-slope"
+                    rel="noreferrer" target="_blank"> Slope</a></p>
+
                   <span className="days">Lesson 43</span>
                   <ToggleSwitch checked={selectedMath43}
                                 id='math8-43'
@@ -752,7 +882,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions/intro-slope-intercept-form/v/slope-intercept-form"
+                    rel="noreferrer" target="_blank"> Intro to slope-intercept form</a></p>
+
                   <span className="days">Lesson 44</span>
                   <ToggleSwitch checked={selectedMath44}
                                 id='math8-44'
@@ -764,7 +897,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions/intro-slope-intercept-form/v/slope-intercept-form"
+                    rel="noreferrer" target="_blank"> Intro to slope-intercept form</a></p>
+
                   <span className="days">Lesson 45</span>
                   <ToggleSwitch checked={selectedMath45}
                                 id='math8-45'
@@ -776,7 +912,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions/8th-slope-intercept-form/v/graphing-a-line-in-slope-intercept-form"
+                    rel="noreferrer" target="_blank">Graphing slope-intercept form </a></p>
+
                   <span className="days">Lesson 46</span>
                   <ToggleSwitch checked={selectedMath46}
                                 id='math8-46'
@@ -788,7 +927,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions/8th-slope-intercept-form/v/graphing-a-line-in-slope-intercept-form"
+                    rel="noreferrer" target="_blank"> Graphing slope-intercept form</a></p>
+
                   <span className="days">Lesson 47</span>
                   <ToggleSwitch checked={selectedMath47}
                                 id='math8-47'
@@ -800,7 +942,11 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> After you watch the video below, complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions/write-slope-intercept-equations/v/graphs-using-slope-intercept-form"
+                    rel="noreferrer" target="_blank"> Writing slope-intercept equations</a></p>
+                  <Video videoUrl="https://www.youtube.com/embed/m9-_sxSU_WQ"/>
+
                   <span className="days">Lesson 48</span>
                   <ToggleSwitch checked={selectedMath48}
                                 id='math8-48'
@@ -812,7 +958,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions/write-slope-intercept-equations/v/graphs-using-slope-intercept-form"
+                    rel="noreferrer" target="_blank">Writing slope-intercept equations </a></p>
+
                   <span className="days">Lesson 49</span>
                   <ToggleSwitch checked={selectedMath49}
                                 id='math8-49'
@@ -824,7 +973,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions/8th-functions-and-function-notation/v/what-is-a-function"
+                    rel="noreferrer" target="_blank"> Functions</a></p>
+
                   <span className="days">Lesson 50</span>
                   <ToggleSwitch checked={selectedMath50}
                                 id='math8-50'
@@ -836,7 +988,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions/8th-functions-and-function-notation/v/what-is-a-function"
+                    rel="noreferrer" target="_blank"> Functions</a></p>
+
                   <span className="days">Lesson 51</span>
                   <ToggleSwitch checked={selectedMath51}
                                 id='math8-51'
@@ -848,7 +1003,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions/8th-linear-functions-modeling/v/interpreting-linear-graphs"
+                    rel="noreferrer" target="_blank"> Linear models </a></p>
+
                   <span className="days">Lesson 52</span>
                   <ToggleSwitch checked={selectedMath52}
                                 id='math8-52'
@@ -860,7 +1018,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions/8th-linear-functions-modeling/v/interpreting-linear-graphs"
+                    rel="noreferrer" target="_blank"> Linear models </a></p>
+
                   <span className="days">Lesson 53</span>
                   <ToggleSwitch checked={selectedMath53}
                                 id='math8-53'
@@ -872,7 +1033,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions/compare-linear-fuctions/v/comparing-features-of-functions-1"
+                    rel="noreferrer" target="_blank"> Comparing linear functions</a></p>
+
                   <span className="days">Lesson 54</span>
                   <ToggleSwitch checked={selectedMath54}
                                 id='math8-54'
@@ -884,7 +1048,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions/compare-linear-fuctions/v/comparing-features-of-functions-1"
+                    rel="noreferrer" target="_blank"> Comparing linear functions</a></p>
+
                   <span className="days">Lesson 55</span>
                   <ToggleSwitch checked={selectedMath55}
                                 id='math8-55'
@@ -896,7 +1063,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions/constructing-linear-models-real-world/v/graphing-linear-functions-1"
+                    rel="noreferrer" target="_blank"> Constructing linear models for real-world relationships</a></p>
+
                   <span className="days">Lesson 56</span>
                   <ToggleSwitch checked={selectedMath56}
                                 id='math8-56'
@@ -908,7 +1078,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions/constructing-linear-models-real-world/v/graphing-linear-functions-1"
+                    rel="noreferrer" target="_blank"> Constructing linear models for real-world relationships</a></p>
+
                   <span className="days">Lesson 57</span>
                   <ToggleSwitch checked={selectedMath57}
                                 id='math8-57'
@@ -919,7 +1092,11 @@ const Math8 = ({ data }) => {
                                     setSelectedMath57(e.target.checked)
                                     console.log(e.target.checked)
                                   }
-                                }/> <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                                }/>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions/cc-8th-function-intro/v/testing-if-a-relationship-is-a-function"
+                    rel="noreferrer" target="_blank"> Recognizing functions</a></p>
+
                   <span className="days">Lesson 58</span>
                   <ToggleSwitch checked={selectedMath58}
                                 id='math8-58'
@@ -931,7 +1108,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions/cc-8th-function-intro/v/testing-if-a-relationship-is-a-function"
+                    rel="noreferrer" target="_blank"> Recognizing functions</a></p>
+
                   <span className="days">Lesson 59</span>
                   <ToggleSwitch checked={selectedMath59}
                                 id='math8-59'
@@ -943,7 +1123,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions/linear-nonlinear-functions-tut/v/recognizing-linear-functions"
+                    rel="noreferrer" target="_blank"> Linear and nonlinear functions </a></p>
+
                   <span className="days">Lesson 60</span>
                   <ToggleSwitch checked={selectedMath60}
                                 id='math8-60'
@@ -955,7 +1138,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions/linear-nonlinear-functions-tut/v/recognizing-linear-functions"
+                    rel="noreferrer" target="_blank"> Linear and nonlinear functions </a></p>
+
                   <span className="days">Lesson 61</span>
                   <ToggleSwitch checked={selectedMath61}
                                 id='math8-61'
@@ -967,7 +1153,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-linear-equations-functions/test/cc-8th-linear-equations-functions-unit-test?modal=1"
+                    rel="noreferrer" target="_blank"> Unit Test</a></p>
+
                   <span className="days">Lesson 62</span>
                   <ToggleSwitch checked={selectedMath62}
                                 id='math8-62'
@@ -979,7 +1168,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-systems-topic/cc-8th-systems-overview/v/trolls-tolls-and-systems-of-equations"
+                    rel="noreferrer" target="_blank"> Intro to systems of equations</a></p>
+
                   <span className="days">Lesson 63</span>
                   <ToggleSwitch checked={selectedMath63}
                                 id='math8-63'
@@ -991,7 +1183,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-systems-topic/cc-8th-systems-overview/v/trolls-tolls-and-systems-of-equations"
+                    rel="noreferrer" target="_blank"> Intro to systems of equations</a></p>
+
                   <span className="days">Lesson 64</span>
                   <ToggleSwitch checked={selectedMath64}
                                 id='math8-64'
@@ -1003,7 +1198,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-systems-topic/cc-8th-systems-graphically/a/systems-of-equations-with-graphing"
+                    rel="noreferrer" target="_blank"> Systems of equations with graphing</a></p>
+
                   <span className="days">Lesson 65</span>
                   <ToggleSwitch checked={selectedMath65}
                                 id='math8-65'
@@ -1015,7 +1213,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-systems-topic/cc-8th-systems-graphically/a/systems-of-equations-with-graphing"
+                    rel="noreferrer" target="_blank"> Systems of equations with graphing</a></p>
+
                   <span className="days">Lesson 66</span>
                   <ToggleSwitch checked={selectedMath66}
                                 id='math8-66'
@@ -1027,7 +1228,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-systems-topic/cc-8th-systems-with-substitution/v/the-substitution-method"
+                    rel="noreferrer" target="_blank">Solving systems with substitution </a></p>
+
                   <span className="days">Lesson 67</span>
                   <ToggleSwitch checked={selectedMath67}
                                 id='math8-67'
@@ -1039,7 +1243,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-systems-topic/cc-8th-systems-with-substitution/v/the-substitution-method"
+                    rel="noreferrer" target="_blank"> Solving systems with substitution</a></p>
+
                   <span className="days">Lesson 68</span>
                   <ToggleSwitch checked={selectedMath68}
                                 id='math8-68'
@@ -1051,7 +1258,12 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-systems-topic/cc-8th-systems-solutions/v/inconsistent-systems-of-equations"
+                    rel="noreferrer" target="_blank"> Number of solutions to systems of equations</a></p>
+
+
                   <span className="days">Lesson 69</span>
                   <ToggleSwitch checked={selectedMath69}
                                 id='math8-69'
@@ -1063,7 +1275,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-systems-topic/cc-8th-systems-solutions/v/inconsistent-systems-of-equations"
+                    rel="noreferrer" target="_blank"> Number of solutions to systems of equations</a></p>
+
                   <span className="days">Lesson 70</span>
                   <ToggleSwitch checked={selectedMath70}
                                 id='math8-70'
@@ -1075,7 +1290,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-systems-topic/cc-8th-systems-word-problems/v/ex-2-age-word-problem"
+                    rel="noreferrer" target="_blank">Systems of equations word problems </a></p>
+
                   <span className="days">Lesson 71</span>
                   <ToggleSwitch checked={selectedMath71}
                                 id='math8-71'
@@ -1087,7 +1305,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-systems-topic/cc-8th-systems-word-problems/v/ex-2-age-word-problem"
+                    rel="noreferrer" target="_blank"> Systems of equations word problems</a></p>
+
                   <span className="days">Lesson 72</span>
                   <ToggleSwitch checked={selectedMath72}
                                 id='math8-72'
@@ -1099,7 +1320,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-systems-topic/test/cc-8th-systems-topic-unit-test?modal=1"
+                    rel="noreferrer" target="_blank"> Unit Test</a></p>
+
                   <span className="days">Lesson 73</span>
                   <ToggleSwitch checked={selectedMath73}
                                 id='math8-73'
@@ -1111,7 +1335,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-geometry/cc-8th-angles-between-lines/v/angles-formed-by-parallel-lines-and-transversals"
+                    rel="noreferrer" target="_blank"> Angles between intersecting lines</a></p>
+
                   <span className="days">Lesson 74</span>
                   <ToggleSwitch checked={selectedMath74}
                                 id='math8-74'
@@ -1123,7 +1350,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-geometry/cc-8th-angles-between-lines/v/angles-formed-by-parallel-lines-and-transversals"
+                    rel="noreferrer" target="_blank"> Angles between intersecting lines</a></p>
+
                   <span className="days">Lesson 75</span>
                   <ToggleSwitch checked={selectedMath75}
                                 id='math8-75'
@@ -1135,7 +1365,11 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> After you watch the video below, complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-geometry/cc-8th-triangle-angles/v/proof-sum-of-measures-of-angles-in-a-triangle-are-180"
+                    rel="noreferrer" target="_blank"> Triangle angles</a></p>
+                  <Video videoUrl="https://www.youtube.com/embed/z8_573LGKj4"/>
+
                   <span className="days">Lesson 76</span>
                   <ToggleSwitch checked={selectedMath76}
                                 id='math8-76'
@@ -1147,7 +1381,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-geometry/cc-8th-triangle-angles/v/proof-sum-of-measures-of-angles-in-a-triangle-are-180"
+                    rel="noreferrer" target="_blank"> Triangle angles</a></p>
+
                   <span className="days">Lesson 77</span>
                   <ToggleSwitch checked={selectedMath77}
                                 id='math8-77'
@@ -1159,7 +1396,11 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> After you watch the video below, complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-geometry/cc-8th-pythagorean-theorem/v/the-pythagorean-theorem"
+                    rel="noreferrer" target="_blank"> Pythagorean theorem</a></p>
+                  <Video videoUrl="https://www.youtube.com/embed/WqhlG3Vakw8"/>
+
                   <span className="days">Lesson 78</span>
                   <ToggleSwitch checked={selectedMath78}
                                 id='math8-78'
@@ -1171,7 +1412,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-geometry/cc-8th-pythagorean-theorem/v/the-pythagorean-theorem"
+                    rel="noreferrer" target="_blank"> Pythagorean theorem</a></p>
+
                   <span className="days">Lesson 79</span>
                   <ToggleSwitch checked={selectedMath79}
                                 id='math8-79'
@@ -1183,7 +1427,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-geometry/pythagorean-theorem-application/v/area-of-an-isosceles-triangle"
+                    rel="noreferrer" target="_blank"> Pythagorean theorem application</a></p>
+
                   <span className="days">Lesson 80</span>
                   <ToggleSwitch checked={selectedMath80}
                                 id='math8-80'
@@ -1195,7 +1442,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-geometry/pythagorean-theorem-application/v/area-of-an-isosceles-triangle"
+                    rel="noreferrer" target="_blank"> Pythagorean theorem application</a></p>
+
                   <span className="days">Lesson 81</span>
                   <ToggleSwitch checked={selectedMath81}
                                 id='math8-81'
@@ -1207,7 +1457,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-geometry/pythagorean-distance/v/distance-formula"
+                    rel="noreferrer" target="_blank"> Pythagorean theorem and distance between points</a></p>
+
                   <span className="days">Lesson 82</span>
                   <ToggleSwitch checked={selectedMath82}
                                 id='math8-82'
@@ -1219,7 +1472,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-geometry/pythagorean-distance/v/distance-formula"
+                    rel="noreferrer" target="_blank"> Pythagorean theorem and distance between points</a></p>
+
                   <span className="days">Lesson 83</span>
                   <ToggleSwitch checked={selectedMath83}
                                 id='math8-83'
@@ -1231,7 +1487,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-geometry/cc-8th-pythagorean-proofs/v/garfield-s-proof-of-the-pythagorean-theorem"
+                    rel="noreferrer" target="_blank"> Pythagorean theorem proofs</a></p>
+
                   <span className="days">Lesson 84</span>
                   <ToggleSwitch checked={selectedMath84}
                                 id='math8-84'
@@ -1243,7 +1502,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-geometry/cc-8th-pythagorean-proofs/v/garfield-s-proof-of-the-pythagorean-theorem"
+                    rel="noreferrer" target="_blank"> Pythagorean theorem proofs</a></p>
+
                   <span className="days">Lesson 85</span>
                   <ToggleSwitch checked={selectedMath85}
                                 id='math8-85'
@@ -1255,7 +1517,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-geometry/cc-8th-volume/v/cylinder-volume-and-surface-area"
+                    rel="noreferrer" target="_blank"> Volume</a></p>
+
                   <span className="days">Lesson 86</span>
                   <ToggleSwitch checked={selectedMath86}
                                 id='math8-86'
@@ -1267,7 +1532,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-geometry/cc-8th-volume/v/cylinder-volume-and-surface-area"
+                    rel="noreferrer" target="_blank"> Volume</a></p>
+
                   <span className="days">Lesson 87</span>
                   <ToggleSwitch checked={selectedMath87}
                                 id='math8-87'
@@ -1279,7 +1547,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-geometry/test/cc-8th-geometry-unit-test?modal=1"
+                    rel="noreferrer" target="_blank"> Unit Test</a></p>
+
                   <span className="days">Lesson 88</span>
                   <ToggleSwitch checked={selectedMath88}
                                 id='math8-88'
@@ -1291,7 +1562,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/geometric-transformations/identify-transformations/v/introduction-to-transformations"
+                    rel="noreferrer" target="_blank"> Transformations intro</a></p>
+
                   <span className="days">Lesson 89</span>
                   <ToggleSwitch checked={selectedMath89}
                                 id='math8-89'
@@ -1303,7 +1577,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/geometric-transformations/identify-transformations/v/introduction-to-transformations"
+                    rel="noreferrer" target="_blank"> Transformations intro</a></p>
+
                   <span className="days">Lesson 90</span>
                   <ToggleSwitch checked={selectedMath90}
                                 id='math8-90'
@@ -1315,7 +1592,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/geometric-transformations/translations-8th/v/translating-points"
+                    rel="noreferrer" target="_blank"> Translations</a></p>
+
                   <span className="days">Lesson 91</span>
                   <ToggleSwitch checked={selectedMath91}
                                 id='math8-91'
@@ -1327,7 +1607,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/geometric-transformations/translations-8th/v/translating-points"
+                    rel="noreferrer" target="_blank"> Translations</a></p>
+
                   <span className="days">Lesson 92</span>
                   <ToggleSwitch checked={selectedMath92}
                                 id='math8-92'
@@ -1339,7 +1622,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/geometric-transformations/rotations-8th/v/rotating-points"
+                    rel="noreferrer" target="_blank"> Rotations</a></p>
+
                   <span className="days">Lesson 93</span>
                   <ToggleSwitch checked={selectedMath93}
                                 id='math8-93'
@@ -1351,7 +1637,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/geometric-transformations/rotations-8th/v/rotating-points"
+                    rel="noreferrer" target="_blank"> Rotations</a></p>
+
                   <span className="days">Lesson 94</span>
                   <ToggleSwitch checked={selectedMath94}
                                 id='math8-94'
@@ -1363,7 +1652,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/geometric-transformations/reflections-8th/v/reflecting-points"
+                    rel="noreferrer" target="_blank"> Reflections</a></p>
+
                   <span className="days">Lesson 95</span>
                   <ToggleSwitch checked={selectedMath95}
                                 id='math8-95'
@@ -1375,7 +1667,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/geometric-transformations/reflections-8th/v/reflecting-points"
+                    rel="noreferrer" target="_blank"> Reflections</a></p>
+
                   <span className="days">Lesson 96</span>
                   <ToggleSwitch checked={selectedMath96}
                                 id='math8-96'
@@ -1387,7 +1682,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/geometric-transformations/transformations-properties/e/find-measures-using-rigid-transformations"
+                    rel="noreferrer" target="_blank"> Properties & definitions of transformations</a></p>
+
                   <span className="days">Lesson 97</span>
                   <ToggleSwitch checked={selectedMath97}
                                 id='math8-97'
@@ -1399,7 +1697,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/geometric-transformations/transformations-properties/e/find-measures-using-rigid-transformations"
+                    rel="noreferrer" target="_blank"> Properties & definitions of transformations</a></p>
+
                   <span className="days">Lesson 98</span>
                   <ToggleSwitch checked={selectedMath98}
                                 id='math8-98'
@@ -1411,7 +1712,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/geometric-transformations/8th-dilations/v/dilating-points-example"
+                    rel="noreferrer" target="_blank"> Dilations</a></p>
+
                   <span className="days">Lesson 99</span>
                   <ToggleSwitch checked={selectedMath99}
                                 id='math8-99'
@@ -1423,7 +1727,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/geometric-transformations/8th-dilations/v/dilating-points-example"
+                    rel="noreferrer" target="_blank"> Dilations </a></p>
+
                   <span className="days">Lesson 100</span>
                   <ToggleSwitch checked={selectedMath100}
                                 id='math8-100'
@@ -1435,7 +1742,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/geometric-transformations/congruence-similarity/v/testing-congruence-by-transformations-example"
+                    rel="noreferrer" target="_blank"> Congruence and similarity</a></p>
+
                   <span className="days">Lesson 101</span>
                   <ToggleSwitch checked={selectedMath101}
                                 id='math8-101'
@@ -1447,7 +1757,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/geometric-transformations/congruence-similarity/v/testing-congruence-by-transformations-example"
+                    rel="noreferrer" target="_blank"> Congruence and similarity</a></p>
+
                   <span className="days">Lesson 102</span>
                   <ToggleSwitch checked={selectedMath102}
                                 id='math8-102'
@@ -1459,7 +1772,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/geometric-transformations/test/geometric-transformations-unit-test?modal=1"
+                    rel="noreferrer" target="_blank"> Unit Test</a></p>
+
                   <span className="days">Lesson 103</span>
                   <ToggleSwitch checked={selectedMath103}
                                 id='math8-103'
@@ -1471,7 +1787,11 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> After you watch the video below, complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-data/cc-8th-scatter-plots/v/constructing-scatter-plot"
+                    rel="noreferrer" target="_blank"> Introduction to scatter plots</a></p>
+                  <Video videoUrl="https://www.youtube.com/embed/NcgRa0uotXs"/>
+                  
                   <span className="days">Lesson 104</span>
                   <ToggleSwitch checked={selectedMath104}
                                 id='math8-104'
@@ -1483,7 +1803,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-data/cc-8th-scatter-plots/v/constructing-scatter-plot"
+                    rel="noreferrer" target="_blank"> Introduction to scatter plots</a></p>
+
                   <span className="days">Lesson 105</span>
                   <ToggleSwitch checked={selectedMath105}
                                 id='math8-105'
@@ -1495,7 +1818,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-data/cc-8th-interpreting-scatter-plots/v/scatter-plot-interpreting"
+                    rel="noreferrer" target="_blank"> Interpreting scatter plots</a></p>
+
                   <span className="days">Lesson 106</span>
                   <ToggleSwitch checked={selectedMath106}
                                 id='math8-106'
@@ -1507,7 +1833,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-data/cc-8th-interpreting-scatter-plots/v/scatter-plot-interpreting"
+                    rel="noreferrer" target="_blank"> Interpreting scatter plots</a></p>
+
                   <span className="days">Lesson 107</span>
                   <ToggleSwitch checked={selectedMath107}
                                 id='math8-107'
@@ -1519,7 +1848,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-data/cc-8th-line-of-best-fit/v/estimating-the-line-of-best-fit-exercise"
+                    rel="noreferrer" target="_blank"> Estimating lines of best fit</a></p>
+
                   <span className="days">Lesson 108</span>
                   <ToggleSwitch checked={selectedMath108}
                                 id='math8-108'
@@ -1531,7 +1863,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-data/cc-8th-line-of-best-fit/v/estimating-the-line-of-best-fit-exercise"
+                    rel="noreferrer" target="_blank"> Estimating lines of best fit</a></p>
+
                   <span className="days">Lesson 109</span>
                   <ToggleSwitch checked={selectedMath109}
                                 id='math8-109'
@@ -1543,7 +1878,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-data/two-way-tables/v/two-way-frequency-tables-and-venn-diagrams"
+                    rel="noreferrer" target="_blank"> Two-way tables</a></p>
+
                   <span className="days">Lesson 110</span>
                   <ToggleSwitch checked={selectedMath110}
                                 id='math8-110'
@@ -1555,7 +1893,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-data/two-way-tables/v/two-way-frequency-tables-and-venn-diagrams"
+                    rel="noreferrer" target="_blank"> Two-way tables</a></p>
+
                   <span className="days">Lesson 111</span>
                   <ToggleSwitch checked={selectedMath111}
                                 id='math8-111'
@@ -1567,7 +1908,12 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the <a
+                    href="https://www.khanacademy.org/math/cc-eighth-grade-math/cc-8th-data/test/cc-8th-data-unit-test?modal=1"
+                    rel="noreferrer" target="_blank"> Unit Test</a></p>
+
+                  <span className="regions">Head Start on Algebra</span><br/>
+
                   <span className="days">Lesson 112</span>
                   <ToggleSwitch checked={selectedMath112}
                                 id='math8-112'
@@ -1579,7 +1925,11 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> After you watch the video below, complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:foundation-algebra/x2f8bb11595b61c86:algebra-overview-history/v/origins-of-algebra"
+                    rel="noreferrer" target="_blank"> Origins of algebra</a></p>
+                  <Video videoUrl="https://www.youtube.com/embed/NybHckSEQBI"/>
+
                   <span className="days">Lesson 113</span>
                   <ToggleSwitch checked={selectedMath113}
                                 id='math8-113'
@@ -1591,7 +1941,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:foundation-algebra/x2f8bb11595b61c86:algebra-overview-history/v/origins-of-algebra"
+                    rel="noreferrer" target="_blank"> Origins of algebra</a></p>
+
                   <span className="days">Lesson 114</span> <ToggleSwitch checked={selectedMath114}
                                                                          id='math8-114'
                                                                          label='Completed'
@@ -1602,7 +1955,11 @@ const Math8 = ({ data }) => {
                                                                              console.log(e.target.checked)
                                                                            }
                                                                          }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> After you watch the video below, complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:foundation-algebra/x2f8bb11595b61c86:intro-variables/v/what-is-a-variable"
+                    rel="noreferrer" target="_blank"> Introduction to variables</a></p>
+                  <Video videoUrl="https://www.youtube.com/embed/lsnlPHgi3ZY"/>
+
                   <span className="days">Lesson 115</span>
                   <ToggleSwitch checked={selectedMath115}
                                 id='math8-115'
@@ -1614,7 +1971,11 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> After you watch the video below, complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:foundation-algebra/x2f8bb11595b61c86:intro-variables/v/what-is-a-variable"
+                    rel="noreferrer" target="_blank"> Introduction to variables</a></p>
+                  <Video videoUrl="https://www.youtube.com/embed/9PqygqYo0ck"/>
+
                   <span className="days">Lesson 116</span>
                   <ToggleSwitch checked={selectedMath116}
                                 id='math8-116'
@@ -1626,7 +1987,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:foundation-algebra/x2f8bb11595b61c86:substitute-evaluate-expression/v/evaluating-expressions-in-two-variables"
+                    rel="noreferrer" target="_blank"> Substitution and evaluating expressions</a></p>
+
                   <span className="days">Lesson 117</span>
                   <ToggleSwitch checked={selectedMath117}
                                 id='math8-117'
@@ -1638,7 +2002,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:foundation-algebra/x2f8bb11595b61c86:substitute-evaluate-expression/v/evaluating-expressions-in-two-variables"
+                    rel="noreferrer" target="_blank"> Substitution and evaluating expressions</a></p>
+
                   <span className="days">Lesson 118</span>
                   <ToggleSwitch checked={selectedMath118}
                                 id='math8-118'
@@ -1650,7 +2017,11 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> After you watch the video below, complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:foundation-algebra/x2f8bb11595b61c86:combine-like-terms/v/combining-like-terms"
+                    rel="noreferrer" target="_blank"> Combining like terms</a></p>
+                  <Video videoUrl="https://www.youtube.com/embed/DKC74YKJpNY"/>
+
                   <span className="days">Lesson 119</span>
                   <ToggleSwitch checked={selectedMath119}
                                 id='math8-119'
@@ -1662,7 +2033,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:foundation-algebra/x2f8bb11595b61c86:combine-like-terms/v/combining-like-terms"
+                    rel="noreferrer" target="_blank"> Combining like terms</a></p>
+
                   <span className="days">Lesson 120</span>
                   <ToggleSwitch checked={selectedMath120}
                                 id='math8-120'
@@ -1674,7 +2048,11 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> After you watch the video below, complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:foundation-algebra/x2f8bb11595b61c86:equivalent-expressions-intro/v/equivalent-algebraic-expressions-exercise"
+                    rel="noreferrer" target="_blank"> Introduction to equivalent expressions</a></p>
+                  <Video videoUrl="https://www.youtube.com/embed/v-6MShC82ow"/>
+                  
                   <span className="days">Lesson 121</span>
                   <ToggleSwitch checked={selectedMath121}
                                 id='math8-121'
@@ -1686,7 +2064,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:foundation-algebra/x2f8bb11595b61c86:equivalent-expressions-intro/v/equivalent-algebraic-expressions-exercise"
+                    rel="noreferrer" target="_blank"> Introduction to equivalent expressions</a></p>
+
                   <span className="days">Lesson 122</span>
                   <ToggleSwitch checked={selectedMath122}
                                 id='math8-122'
@@ -1698,7 +2079,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:foundation-algebra/x2f8bb11595b61c86:division-zero/v/why-dividing-by-zero-is-undefined"
+                    rel="noreferrer" target="_blank"> Division by zero</a></p>
+
                   <span className="days">Lesson 123</span>
                   <ToggleSwitch checked={selectedMath123}
                                 id='math8-123'
@@ -1710,7 +2094,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:foundation-algebra/x2f8bb11595b61c86:division-zero/v/why-dividing-by-zero-is-undefined"
+                    rel="noreferrer" target="_blank"> Division by zero</a></p>
+
                   <span className="days">Lesson 124</span>
                   <ToggleSwitch checked={selectedMath124}
                                 id='math8-124'
@@ -1722,7 +2109,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:foundation-algebra/test/x2f8bb11595b61c86:foundation-algebra-unit-test?modal=1"
+                    rel="noreferrer" target="_blank"> Unit Test</a></p>
+
                   <span className="days">Lesson 125</span>
                   <ToggleSwitch checked={selectedMath125}
                                 id='math8-125'
@@ -1734,7 +2124,11 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> After you watch the video below, complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities/x2f8bb11595b61c86:linear-equations-variables-both-sides/v/why-we-do-the-same-thing-to-both-sides-multi-step-equations"
+                    rel="noreferrer" target="_blank"> Linear equations with variables on both sides</a></p>
+                  <Video videoUrl="https://www.youtube.com/embed/tHm3X_Ta_iE"/>
+
                   <span className="days">Lesson 126</span>
                   <ToggleSwitch checked={selectedMath126}
                                 id='math8-126'
@@ -1746,7 +2140,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities/x2f8bb11595b61c86:linear-equations-variables-both-sides/v/why-we-do-the-same-thing-to-both-sides-multi-step-equations"
+                    rel="noreferrer" target="_blank"> Linear equations with variables on both sides</a></p>
+
                   <span className="days">Lesson 127</span>
                   <ToggleSwitch checked={selectedMath127}
                                 id='math8-127'
@@ -1758,7 +2155,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities/x2f8bb11595b61c86:linear-equations-parentheses/v/solving-equations-with-the-distributive-property"
+                    rel="noreferrer" target="_blank"> Linear equations with parentheses</a></p>
+
                   <span className="days">Lesson 128</span>
                   <ToggleSwitch checked={selectedMath128}
                                 id='math8-128'
@@ -1770,7 +2170,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities/x2f8bb11595b61c86:linear-equations-parentheses/v/solving-equations-with-the-distributive-property"
+                    rel="noreferrer" target="_blank"> Linear equations with parentheses</a></p>
+
                   <span className="days">Lesson 129</span>
                   <ToggleSwitch checked={selectedMath129}
                                 id='math8-129'
@@ -1782,7 +2185,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities/x2f8bb11595b61c86:num-solutions-linear-equations/v/number-of-solutions-to-linear-equations"
+                    rel="noreferrer" target="_blank"> Analyzing the number of solutions to linear equations</a></p>
+
                   <span className="days">Lesson 130</span>
                   <ToggleSwitch checked={selectedMath130}
                                 id='math8-130'
@@ -1794,7 +2200,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities/x2f8bb11595b61c86:num-solutions-linear-equations/v/number-of-solutions-to-linear-equations"
+                    rel="noreferrer" target="_blank"> Analyzing the number of solutions to linear equations</a></p>
+
                   <span className="days">Lesson 131</span>
                   <ToggleSwitch checked={selectedMath131}
                                 id='math8-131'
@@ -1806,7 +2215,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities/x2f8bb11595b61c86:linear-eqns-unknown-coefficients/v/linear-equations-with-unknown-coefficients"
+                    rel="noreferrer" target="_blank"> Linear equations with unknown coefficients</a></p>
+
                   <span className="days">Lesson 132</span>
                   <ToggleSwitch checked={selectedMath132}
                                 id='math8-132'
@@ -1818,7 +2230,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities/x2f8bb11595b61c86:linear-eqns-unknown-coefficients/v/linear-equations-with-unknown-coefficients"
+                    rel="noreferrer" target="_blank"> Linear equations with unknown coefficients</a></p>
+
                   <span className="days">Lesson 133 </span>
                   <ToggleSwitch checked={selectedMath133}
                                 id='math8-133'
@@ -1830,7 +2245,11 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> After you watch the video below, complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities/x2f8bb11595b61c86:multistep-inequalities/v/multi-step-inequalities-3"
+                    rel="noreferrer" target="_blank"> Multi-step inequalities</a></p>
+                  <Video videoUrl="https://www.youtube.com/embed/ONuIIvgkE3c"/>
+
                   <span className="days"> Lesson 134 </span>
                   <ToggleSwitch checked={selectedMath134}
                                 id='math8-134'
@@ -1842,8 +2261,11 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities/x2f8bb11595b61c86:multistep-inequalities/v/multi-step-inequalities-3"
+                    rel="noreferrer" target="_blank"> Multi-step inequalities</a></p>
 
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+
                   <span className="days">Lesson 135</span>
                   <ToggleSwitch checked={selectedMath135}
                                 id='math8-135'
@@ -1855,7 +2277,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities/x2f8bb11595b61c86:compound-inequalities/v/compund-inequalities"
+                    rel="noreferrer" target="_blank"> Compound inequalities</a></p>
+
                   <span className="days">Lesson 136</span>
                   <ToggleSwitch checked={selectedMath136}
                                 id='math8-136'
@@ -1867,7 +2292,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities/x2f8bb11595b61c86:compound-inequalities/v/compund-inequalities"
+                    rel="noreferrer" target="_blank"> Compound inequalities</a></p>
+
                   <span className="days">Lesson 137</span>
                   <ToggleSwitch checked={selectedMath137}
                                 id='math8-137'
@@ -1879,7 +2307,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:solve-equations-inequalities/test/x2f8bb11595b61c86:solve-equations-inequalities-unit-test?modal=1"
+                    rel="noreferrer" target="_blank"> Unit Test</a></p>
+
                   <span className="days">Lesson 138</span>
                   <ToggleSwitch checked={selectedMath138}
                                 id='math8-138'
@@ -1891,7 +2322,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:working-units/x2f8bb11595b61c86:rate-conversion/v/dimensional-analysis-units-algebraically"
+                    rel="noreferrer" target="_blank"> Rate conversion</a></p>
+
                   <span className="days">Lesson 139</span>
                   <ToggleSwitch checked={selectedMath139}
                                 id='math8-139'
@@ -1903,7 +2337,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:working-units/x2f8bb11595b61c86:rate-conversion/v/dimensional-analysis-units-algebraically"
+                    rel="noreferrer" target="_blank"> Rate conversion</a></p>
+
                   <span className="days">Lesson 140</span>
                   <ToggleSwitch checked={selectedMath140}
                                 id='math8-140'
@@ -1915,7 +2352,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:working-units/x2f8bb11595b61c86:appropriate-units/v/appropriate-units"
+                    rel="noreferrer" target="_blank"> Appropriate units</a></p>
+
                   <span className="days">Lesson 141</span>
                   <ToggleSwitch checked={selectedMath141}
                                 id='math8-141'
@@ -1927,7 +2367,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:working-units/x2f8bb11595b61c86:appropriate-units/v/appropriate-units"
+                    rel="noreferrer" target="_blank"> Appropriate units</a></p>
+
                   <span className="days">Lesson 142</span>
                   <ToggleSwitch checked={selectedMath142}
                                 id='math8-142'
@@ -1939,7 +2382,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:working-units/x2f8bb11595b61c86:word-problems-multiple-units/v/using-units-to-solve-problems-toy-factory"
+                    rel="noreferrer" target="_blank"> Word problems with multiple units</a></p>
+
                   <span className="days">Lesson 143</span>
                   <ToggleSwitch checked={selectedMath143}
                                 id='math8-143'
@@ -1951,7 +2397,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:working-units/x2f8bb11595b61c86:word-problems-multiple-units/v/using-units-to-solve-problems-toy-factory"
+                    rel="noreferrer" target="_blank"> Word problems with multiple units</a></p>
                   <span className="days">Lesson 144</span>
                   <ToggleSwitch checked={selectedMath144}
                                 id='math8-144'
@@ -1963,7 +2412,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:working-units/test/x2f8bb11595b61c86:working-units-unit-test?modal=1"
+                    rel="noreferrer" target="_blank"> Unit Test</a></p>
+
                   <span className="days">Lesson 145</span>
                   <ToggleSwitch checked={selectedMath145}
                                 id='math8-145'
@@ -1975,7 +2427,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:linear-equations-graphs/x2f8bb11595b61c86:two-variable-linear-equations-intro/v/2-variable-linear-equations-graphs"
+                    rel="noreferrer" target="_blank"> Two-variable linear equations intro</a></p>
+
                   <span className="days">Lesson 146</span>
                   <ToggleSwitch checked={selectedMath146}
                                 id='math8-146'
@@ -1987,7 +2442,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:linear-equations-graphs/x2f8bb11595b61c86:two-variable-linear-equations-intro/v/2-variable-linear-equations-graphs"
+                    rel="noreferrer" target="_blank"> Two-variable linear equations intro</a></p>
+
                   <span className="days">Lesson 147</span>
                   <ToggleSwitch checked={selectedMath147}
                                 id='math8-147'
@@ -1999,7 +2457,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:linear-equations-graphs/x2f8bb11595b61c86:slope/v/introduction-to-slope"
+                    rel="noreferrer" target="_blank"> Slope</a></p>
+
                   <span className="days">Lesson 148</span>
                   <ToggleSwitch checked={selectedMath148}
                                 id='math8-148'
@@ -2011,7 +2472,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:linear-equations-graphs/x2f8bb11595b61c86:slope/v/introduction-to-slope"
+                    rel="noreferrer" target="_blank"> Slope</a></p>
+
                   <span className="days">Lesson 149</span>
                   <ToggleSwitch checked={selectedMath149}
                                 id='math8-149'
@@ -2023,7 +2487,11 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> After you watch the video below, complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:linear-equations-graphs/x2f8bb11595b61c86:horizontal-vertical-lines/v/slope-of-a-line-3"
+                    rel="noreferrer" target="_blank"> Horizontal & vertical lines</a></p>
+                  <Video videoUrl="https://www.youtube.com/embed/k5etrWdIY6o"/>
+                  
                   <span className="days">Lesson 150</span>
                   <ToggleSwitch checked={selectedMath150}
                                 id='math8-150'
@@ -2035,7 +2503,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:linear-equations-graphs/x2f8bb11595b61c86:horizontal-vertical-lines/v/slope-of-a-line-3"
+                    rel="noreferrer" target="_blank"> Horizontal & vertical lines</a></p>
+
                   <span className="days">Lesson 151</span>
                   <ToggleSwitch checked={selectedMath151}
                                 id='math8-151'
@@ -2047,7 +2518,11 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> After you watch the video below, complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:linear-equations-graphs/x2f8bb11595b61c86:x-intercepts-and-y-intercepts/v/introduction-to-intercepts"
+                    rel="noreferrer" target="_blank"> x-intercepts and y-intercepts</a></p>
+                  <Video videoUrl="https://www.youtube.com/embed/_-LvA1xlQLs"/>
+                  
                   <span className="days">Lesson 152</span>
                   <ToggleSwitch checked={selectedMath152}
                                 id='math8-152'
@@ -2059,7 +2534,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:linear-equations-graphs/x2f8bb11595b61c86:x-intercepts-and-y-intercepts/v/introduction-to-intercepts"
+                    rel="noreferrer" target="_blank"> x-intercepts and y-intercepts</a></p>
+
                   <span className="days">Lesson 153</span>
                   <ToggleSwitch checked={selectedMath153}
                                 id='math8-153'
@@ -2071,7 +2549,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:linear-equations-graphs/x2f8bb11595b61c86:applying-intercepts-and-slope/v/slope-intercepts-context"
+                    rel="noreferrer" target="_blank"> Applying intercepts and slope</a></p>
+
                   <span className="days">Lesson 154</span>
                   <ToggleSwitch checked={selectedMath154}
                                 id='math8-154'
@@ -2083,7 +2564,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:linear-equations-graphs/x2f8bb11595b61c86:applying-intercepts-and-slope/v/slope-intercepts-context"
+                    rel="noreferrer" target="_blank"> Applying intercepts and slope</a></p>
+
                   <span className="days">Lesson 155</span>
                   <ToggleSwitch checked={selectedMath155}
                                 id='math8-155'
@@ -2095,7 +2579,10 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:linear-equations-graphs/test/x2f8bb11595b61c86:linear-equations-graphs-unit-test?modal=1"
+                    rel="noreferrer" target="_blank"> Unit Test</a></p>
+
                   <span className="days">Lesson 156</span>
                   <ToggleSwitch checked={selectedMath156}
                                 id='math8-156'
@@ -2107,7 +2594,11 @@ const Math8 = ({ data }) => {
                                     console.log(e.target.checked)
                                   }
                                 }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> After you watch the video below, complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:forms-of-linear-equations/x2f8bb11595b61c86:intro-to-slope-intercept-form/v/slope-intercept-form"
+                    rel="noreferrer" target="_blank"> Intro to slope-intercept form</a></p>
+                  <Video videoUrl="https://www.youtube.com/embed/7SDiuXNsack"/>
+
                   <span className="days">Lesson 157</span> <ToggleSwitch checked={selectedMath157}
                                                                          id='math8-157'
                                                                          label='Completed'
@@ -2118,7 +2609,10 @@ const Math8 = ({ data }) => {
                                                                              console.log(e.target.checked)
                                                                            }
                                                                          }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:forms-of-linear-equations/x2f8bb11595b61c86:intro-to-slope-intercept-form/v/slope-intercept-form"
+                    rel="noreferrer" target="_blank"> Intro to slope-intercept form</a></p>
+
                   <span className="days">Lesson 158</span> <ToggleSwitch checked={selectedMath158}
                                                                          id='math8-158'
                                                                          label='Completed'
@@ -2129,7 +2623,10 @@ const Math8 = ({ data }) => {
                                                                              console.log(e.target.checked)
                                                                            }
                                                                          }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:forms-of-linear-equations/x2f8bb11595b61c86:graphing-slope-intercept-equations/v/graphing-a-line-in-slope-intercept-form"
+                    rel="noreferrer" target="_blank"> Graphing slope-intercept equations</a></p>
+
                   <span className="days">Lesson 159</span> <ToggleSwitch checked={selectedMath159}
                                                                          id='math8-159'
                                                                          label='Completed'
@@ -2140,7 +2637,10 @@ const Math8 = ({ data }) => {
                                                                              console.log(e.target.checked)
                                                                            }
                                                                          }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:forms-of-linear-equations/x2f8bb11595b61c86:graphing-slope-intercept-equations/v/graphing-a-line-in-slope-intercept-form"
+                    rel="noreferrer" target="_blank"> Graphing slope-intercept equations</a></p>
+
                   <span className="days">Lesson 160</span> <ToggleSwitch checked={selectedMath160}
                                                                          id='math8-160'
                                                                          label='Completed'
@@ -2151,7 +2651,10 @@ const Math8 = ({ data }) => {
                                                                              console.log(e.target.checked)
                                                                            }
                                                                          }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:forms-of-linear-equations/x2f8bb11595b61c86:writing-slope-intercept-equations/v/graphs-using-slope-intercept-form"
+                    rel="noreferrer" target="_blank"> Writing slope-intercept equations</a></p>
+
                   <span className="days">Lesson 161</span> <ToggleSwitch checked={selectedMath161}
                                                                          id='math8-161'
                                                                          label='Completed'
@@ -2162,7 +2665,10 @@ const Math8 = ({ data }) => {
                                                                              console.log(e.target.checked)
                                                                            }
                                                                          }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:forms-of-linear-equations/x2f8bb11595b61c86:writing-slope-intercept-equations/v/graphs-using-slope-intercept-form"
+                    rel="noreferrer" target="_blank"> Writing slope-intercept equations</a></p>
+
                   <span className="days">Lesson 162</span> <ToggleSwitch checked={selectedMath162}
                                                                          id='math8-162'
                                                                          label='Completed'
@@ -2173,7 +2679,10 @@ const Math8 = ({ data }) => {
                                                                              console.log(e.target.checked)
                                                                            }
                                                                          }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:forms-of-linear-equations/x2f8bb11595b61c86:point-slope-form/v/idea-behind-point-slope-form"
+                    rel="noreferrer" target="_blank"> Point-slope form </a></p>
+
                   <span className="days">Lesson 163</span> <ToggleSwitch checked={selectedMath163}
                                                                          id='math8-163'
                                                                          label='Completed'
@@ -2184,7 +2693,11 @@ const Math8 = ({ data }) => {
                                                                              console.log(e.target.checked)
                                                                            }
                                                                          }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:forms-of-linear-equations/x2f8bb11595b61c86:point-slope-form/v/idea-behind-point-slope-form"
+                    rel="noreferrer" target="_blank"> Point-slope form </a></p>
+
+
                   <span className="days">Lesson 164</span> <ToggleSwitch checked={selectedMath164}
                                                                          id='math8-164'
                                                                          label='Completed'
@@ -2195,7 +2708,10 @@ const Math8 = ({ data }) => {
                                                                              console.log(e.target.checked)
                                                                            }
                                                                          }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:forms-of-linear-equations/x2f8bb11595b61c86:standard-form/v/standard-form-for-linear-equations"
+                    rel="noreferrer" target="_blank"> Standard form</a></p>
+
                   <span className="days">Lesson 165</span> <ToggleSwitch checked={selectedMath165}
                                                                          id='math8-165'
                                                                          label='Completed'
@@ -2206,7 +2722,10 @@ const Math8 = ({ data }) => {
                                                                              console.log(e.target.checked)
                                                                            }
                                                                          }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:forms-of-linear-equations/x2f8bb11595b61c86:standard-form/v/standard-form-for-linear-equations"
+                    rel="noreferrer" target="_blank"> Standard form</a></p>
+
                   <span className="days">Lesson 166</span> <ToggleSwitch checked={selectedMath166}
                                                                          id='math8-166'
                                                                          label='Completed'
@@ -2216,7 +2735,11 @@ const Math8 = ({ data }) => {
                                                                              setSelectedMath166(e.target.checked)
                                                                              console.log(e.target.checked)
                                                                            }
-                                                                         }/><p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                                                                         }/>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:forms-of-linear-equations/x2f8bb11595b61c86:summary-forms-of-two-variable-linear-equations/v/slope-from-equation"
+                    rel="noreferrer" target="_blank"> Summary: Forms of two-variable linear equations</a></p>
+
                   <span className="days">Lesson 167</span> <ToggleSwitch checked={selectedMath167}
                                                                          id='math8-167'
                                                                          label='Completed'
@@ -2227,7 +2750,10 @@ const Math8 = ({ data }) => {
                                                                              console.log(e.target.checked)
                                                                            }
                                                                          }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:forms-of-linear-equations/x2f8bb11595b61c86:summary-forms-of-two-variable-linear-equations/v/slope-from-equation"
+                    rel="noreferrer" target="_blank"> Summary: Forms of two-variable linear equations</a></p>
+
                   <span className="days">Lesson 168</span> <ToggleSwitch checked={selectedMath168}
                                                                          id='math8-168'
                                                                          label='Completed'
@@ -2238,7 +2764,10 @@ const Math8 = ({ data }) => {
                                                                              console.log(e.target.checked)
                                                                            }
                                                                          }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
+                  <p className="margin-para"> Complete the <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:forms-of-linear-equations/test/x2f8bb11595b61c86:forms-of-linear-equations-unit-test?modal=1"
+                    rel="noreferrer" target="_blank"> Unit Test</a></p>
+
                   <span className="days">Lesson 169</span> <ToggleSwitch checked={selectedMath169}
                                                                          id='math8-169'
                                                                          label='Completed'
@@ -2249,8 +2778,12 @@ const Math8 = ({ data }) => {
                                                                              console.log(e.target.checked)
                                                                            }
                                                                          }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
-                  <span className="days">FINAL  - LESSON 170</span> <ToggleSwitch
+                  <p className="margin-para"> After you watch the video below, complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:systems-of-equations/x2f8bb11595b61c86:introduction-to-systems-of-equations/v/trolls-tolls-and-systems-of-equations"
+                    rel="noreferrer" target="_blank"> Introduction to systems of equations</a></p>
+                  <Video videoUrl="https://www.youtube.com/embed/oKqtgz2eo-Y"/>
+                  
+                  <span className="days">LESSON 170</span> <ToggleSwitch
                   checked={selectedMath170}
                   id='math8-170'
                   label='Completed'
@@ -2261,17 +2794,174 @@ const Math8 = ({ data }) => {
                       console.log(e.target.checked)
                     }
                   }/>
-                  <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>
-                  {/*<span className="days">Lesson 171</span><p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>*/}
-                  {/*<span className="days">Lesson 172</span><p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>*/}
-                  {/*<span className="days">Lesson 173</span><p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>*/}
-                  {/*<span className="days">Lesson 174</span><p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>*/}
-                  {/*<span className="days">Lesson 175</span><p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>*/}
-                  {/*<span className="days">Lesson 176</span><p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>*/}
-                  {/*<span className="days">Lesson 177</span><p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>*/}
-                  {/*<span className="days">Lesson 178</span><p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>*/}
-                  {/*<span className="days">Lesson 179</span> <p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>*/}
-                  {/*<span className="days">Lesson 180</span><p className="margin-para"> <a href="" rel="noreferrer" target="_blank"> </a></p>*/}
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:systems-of-equations/x2f8bb11595b61c86:introduction-to-systems-of-equations/v/trolls-tolls-and-systems-of-equations"
+                    rel="noreferrer" target="_blank"> Introduction to systems of equations</a></p>
+
+                  <span className="days">Lesson 171</span> <ToggleSwitch
+                  checked={selectedMath171}
+                  id='math8-171'
+                  label='Completed'
+                  onChange={
+                    (e) => {
+                      localStorage.setItem("math8-171", `${e.target.checked}`)
+                      setSelectedMath171(e.target.checked)
+                      console.log(e.target.checked)
+                    }
+                  }/>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:systems-of-equations/x2f8bb11595b61c86:solving-systems-of-equations-with-substitution/v/solving-systems-with-substitution"
+                    rel="noreferrer" target="_blank"> Solving systems of equations with substitution</a></p>
+
+                  <span className="days">Lesson 172</span> <ToggleSwitch
+                  checked={selectedMath172}
+                  id='math8-172'
+                  label='Completed'
+                  onChange={
+                    (e) => {
+                      localStorage.setItem("math8-172", `${e.target.checked}`)
+                      setSelectedMath172(e.target.checked)
+                      console.log(e.target.checked)
+                    }
+                  }/>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:systems-of-equations/x2f8bb11595b61c86:solving-systems-of-equations-with-substitution/v/solving-systems-with-substitution"
+                    rel="noreferrer" target="_blank"> Solving systems of equations with substitution</a></p>
+
+                  <span className="days">Lesson 173</span> <ToggleSwitch
+                  checked={selectedMath173}
+                  id='math8-173'
+                  label='Completed'
+                  onChange={
+                    (e) => {
+                      localStorage.setItem("math8-173", `${e.target.checked}`)
+                      setSelectedMath173(e.target.checked)
+                      console.log(e.target.checked)
+                    }
+                  }/>
+                  <p className="margin-para"> After you watch the video below, complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:systems-of-equations/x2f8bb11595b61c86:solving-systems-elimination/v/king-s-cupcakes-solving-systems-by-elimination"
+                    rel="noreferrer" target="_blank"> Solving systems of equations with elimination</a></p>
+                  <Video videoUrl="https://www.youtube.com/embed/XOJgzW4P7T8"/>
+                  
+                  <span className="days">Lesson 174</span> <ToggleSwitch
+                  checked={selectedMath174}
+                  id='math8-174'
+                  label='Completed'
+                  onChange={
+                    (e) => {
+                      localStorage.setItem("math8-174", `${e.target.checked}`)
+                      setSelectedMath174(e.target.checked)
+                      console.log(e.target.checked)
+                    }
+                  }/>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:systems-of-equations/x2f8bb11595b61c86:solving-systems-elimination/v/king-s-cupcakes-solving-systems-by-elimination"
+                    rel="noreferrer" target="_blank"> Solving systems of equations with elimination</a></p>
+
+                  <span className="days">Lesson 175</span> <ToggleSwitch
+                  checked={selectedMath175}
+                  id='math8-175'
+                  label='Completed'
+                  onChange={
+                    (e) => {
+                      localStorage.setItem("math8-175", `${e.target.checked}`)
+                      setSelectedMath175(e.target.checked)
+                      console.log(e.target.checked)
+                    }
+                  }/>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:systems-of-equations/x2f8bb11595b61c86:equivalent-systems-equations/v/why-we-do-the-same-thing-to-both-sides-basic-systems"
+                    rel="noreferrer" target="_blank"> Equivalent systems of equations</a></p>
+
+                  <span className="days">Lesson 176</span> <ToggleSwitch
+                  checked={selectedMath176}
+                  id='math8-176'
+                  label='Completed'
+                  onChange={
+                    (e) => {
+                      localStorage.setItem("math8-176", `${e.target.checked}`)
+                      setSelectedMath176(e.target.checked)
+                      console.log(e.target.checked)
+                    }
+                  }/>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:systems-of-equations/x2f8bb11595b61c86:equivalent-systems-equations/v/why-we-do-the-same-thing-to-both-sides-basic-systems"
+                    rel="noreferrer" target="_blank"> Equivalent systems of equations</a></p>
+
+                  <span className="days">Lesson 177</span> <ToggleSwitch
+                  checked={selectedMath177}
+                  id='math8-177'
+                  label='Completed'
+                  onChange={
+                    (e) => {
+                      localStorage.setItem("math8-177", `${e.target.checked}`)
+                      setSelectedMath177(e.target.checked)
+                      console.log(e.target.checked)
+                    }
+                  }/>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:systems-of-equations/x2f8bb11595b61c86:number-of-solutions-to-systems-of-equations/v/inconsistent-systems-of-equations"
+                    rel="noreferrer" target="_blank"> Number of solutions to systems of equations</a></p>
+
+                  <span className="days">Lesson 178</span> <ToggleSwitch
+                  checked={selectedMath178}
+                  id='math8-178'
+                  label='Completed'
+                  onChange={
+                    (e) => {
+                      localStorage.setItem("math8-178", `${e.target.checked}`)
+                      setSelectedMath178(e.target.checked)
+                      console.log(e.target.checked)
+                    }
+                  }/>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:systems-of-equations/x2f8bb11595b61c86:number-of-solutions-to-systems-of-equations/v/inconsistent-systems-of-equations"
+                    rel="noreferrer" target="_blank"> Number of solutions to systems of equations</a></p>
+
+                  <span className="days">Lesson 179</span> <ToggleSwitch
+                  checked={selectedMath179}
+                  id='math8-179'
+                  label='Completed'
+                  onChange={
+                    (e) => {
+                      localStorage.setItem("math8-179", `${e.target.checked}`)
+                      setSelectedMath179(e.target.checked)
+                      console.log(e.target.checked)
+                    }
+                  }/>
+                  <p className="margin-para"> Complete at least 50% of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:systems-of-equations/x2f8bb11595b61c86:systems-of-equations-word-problems/v/ex-2-age-word-problem"
+                    rel="noreferrer" target="_blank"> Systems of equations word problems</a></p>
+
+                  <span className="days">Lesson 180</span> <ToggleSwitch
+                  checked={selectedMath180}
+                  id='math8-180'
+                  label='Completed'
+                  onChange={
+                    (e) => {
+                      localStorage.setItem("math8-180", `${e.target.checked}`)
+                      setSelectedMath180(e.target.checked)
+                      console.log(e.target.checked)
+                    }
+                  }/>
+                  <p className="margin-para"> Complete the remainder of <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:systems-of-equations/x2f8bb11595b61c86:systems-of-equations-word-problems/v/ex-2-age-word-problem"
+                    rel="noreferrer" target="_blank"> Systems of equations word problems</a></p>
+                  <span className="days">Lesson 181</span> <ToggleSwitch
+                  checked={selectedMath181}
+                  id='math8-181'
+                  label='Completed'
+                  onChange={
+                    (e) => {
+                      localStorage.setItem("math8-181", `${e.target.checked}`)
+                      setSelectedMath181(e.target.checked)
+                      console.log(e.target.checked)
+                    }
+                  }/>
+                  <p className="margin-para"> Complete the <a
+                    href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:systems-of-equations/test/x2f8bb11595b61c86:systems-of-equations-unit-test?modal=1"
+                    rel="noreferrer" target="_blank"> Unit Test</a></p>
                 </form>
               </div>
             </div>

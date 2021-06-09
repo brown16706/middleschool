@@ -1,7 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Link } from "gatsby"
 import ToggleSwitch from "../components/checkbox"
 import "../styles/styles.css"
 import ScrollToTop from "react-scroll-to-top"
@@ -45,100 +44,100 @@ const Coding = ({ data }) => {
   const [selectedCoding34, setSelectedCoding34] = React.useState(localStorage.getItem("coding-34") === "true")
   const [selectedCoding35, setSelectedCoding35] = React.useState(localStorage.getItem("coding-35") === "true")
   const [selectedCoding36, setSelectedCoding36] = React.useState(localStorage.getItem("coding-36") === "true")
-  const [selectedCoding37, setSelectedCoding37] = React.useState(localStorage.getItem("coding-37") === "true")
-  const [selectedCoding38, setSelectedCoding38] = React.useState(localStorage.getItem("coding-38") === "true")
-  const [selectedCoding39, setSelectedCoding39] = React.useState(localStorage.getItem("coding-39") === "true")
-  const [selectedCoding40, setSelectedCoding40] = React.useState(localStorage.getItem("coding-40") === "true")
-  const [selectedCoding41, setSelectedCoding41] = React.useState(localStorage.getItem("coding-41") === "true")
-  const [selectedCoding42, setSelectedCoding42] = React.useState(localStorage.getItem("coding-42") === "true")
-  const [selectedCoding43, setSelectedCoding43] = React.useState(localStorage.getItem("coding-43") === "true")
-  const [selectedCoding44, setSelectedCoding44] = React.useState(localStorage.getItem("coding-44") === "true")
-  const [selectedCoding45, setSelectedCoding45] = React.useState(localStorage.getItem("coding-45") === "true")
-  const [selectedCoding46, setSelectedCoding46] = React.useState(localStorage.getItem("coding-46") === "true")
-  const [selectedCoding47, setSelectedCoding47] = React.useState(localStorage.getItem("coding-47") === "true")
-  const [selectedCoding48, setSelectedCoding48] = React.useState(localStorage.getItem("coding-48") === "true")
-  const [selectedCoding49, setSelectedCoding49] = React.useState(localStorage.getItem("coding-49") === "true")
-  const [selectedCoding50, setSelectedCoding50] = React.useState(localStorage.getItem("coding-50") === "true")
-  const [selectedCoding51, setSelectedCoding51] = React.useState(localStorage.getItem("coding-51") === "true")
-  const [selectedCoding52, setSelectedCoding52] = React.useState(localStorage.getItem("coding-52") === "true")
-  const [selectedCoding53, setSelectedCoding53] = React.useState(localStorage.getItem("coding-53") === "true")
-  const [selectedCoding54, setSelectedCoding54] = React.useState(localStorage.getItem("coding-54") === "true")
-  const [selectedCoding55, setSelectedCoding55] = React.useState(localStorage.getItem("coding-55") === "true")
-  const [selectedCoding56, setSelectedCoding56] = React.useState(localStorage.getItem("coding-56") === "true")
-  const [selectedCoding57, setSelectedCoding57] = React.useState(localStorage.getItem("coding-57") === "true")
-  const [selectedCoding58, setSelectedCoding58] = React.useState(localStorage.getItem("coding-58") === "true")
-  const [selectedCoding59, setSelectedCoding59] = React.useState(localStorage.getItem("coding-59") === "true")
-  const [selectedCoding60, setSelectedCoding60] = React.useState(localStorage.getItem("coding-60") === "true")
-  const [selectedCoding61, setSelectedCoding61] = React.useState(localStorage.getItem("coding-61") === "true")
-  const [selectedCoding62, setSelectedCoding62] = React.useState(localStorage.getItem("coding-62") === "true")
-  const [selectedCoding63, setSelectedCoding63] = React.useState(localStorage.getItem("coding-63") === "true")
-  const [selectedCoding64, setSelectedCoding64] = React.useState(localStorage.getItem("coding-64") === "true")
-  const [selectedCoding65, setSelectedCoding65] = React.useState(localStorage.getItem("coding-65") === "true")
-  const [selectedCoding66, setSelectedCoding66] = React.useState(localStorage.getItem("coding-66") === "true")
-  const [selectedCoding67, setSelectedCoding67] = React.useState(localStorage.getItem("coding-67") === "true")
-  const [selectedCoding68, setSelectedCoding68] = React.useState(localStorage.getItem("coding-68") === "true")
-  const [selectedCoding69, setSelectedCoding69] = React.useState(localStorage.getItem("coding-69") === "true")
-  const [selectedCoding70, setSelectedCoding70] = React.useState(localStorage.getItem("coding-70") === "true")
-  const [selectedCoding71, setSelectedCoding71] = React.useState(localStorage.getItem("coding-71") === "true")
-  const [selectedCoding72, setSelectedCoding72] = React.useState(localStorage.getItem("coding-72") === "true")
-  const [selectedCoding73, setSelectedCoding73] = React.useState(localStorage.getItem("coding-73") === "true")
-  const [selectedCoding74, setSelectedCoding74] = React.useState(localStorage.getItem("coding-74") === "true")
-  const [selectedCoding75, setSelectedCoding75] = React.useState(localStorage.getItem("coding-75") === "true")
-  const [selectedCoding76, setSelectedCoding76] = React.useState(localStorage.getItem("coding-76") === "true")
-  const [selectedCoding77, setSelectedCoding77] = React.useState(localStorage.getItem("coding-77") === "true")
-  const [selectedCoding78, setSelectedCoding78] = React.useState(localStorage.getItem("coding-78") === "true")
-  const [selectedCoding79, setSelectedCoding79] = React.useState(localStorage.getItem("coding-79") === "true")
-  const [selectedCoding80, setSelectedCoding80] = React.useState(localStorage.getItem("coding-80") === "true")
-  const [selectedCoding81, setSelectedCoding81] = React.useState(localStorage.getItem("coding-81") === "true")
-  const [selectedCoding82, setSelectedCoding82] = React.useState(localStorage.getItem("coding-82") === "true")
-  const [selectedCoding83, setSelectedCoding83] = React.useState(localStorage.getItem("coding-83") === "true")
-  const [selectedCoding84, setSelectedCoding84] = React.useState(localStorage.getItem("coding-84") === "true")
-  const [selectedCoding85, setSelectedCoding85] = React.useState(localStorage.getItem("coding-85") === "true")
-  const [selectedCoding86, setSelectedCoding86] = React.useState(localStorage.getItem("coding-86") === "true")
-  const [selectedCoding87, setSelectedCoding87] = React.useState(localStorage.getItem("coding-87") === "true")
-  const [selectedCoding88, setSelectedCoding88] = React.useState(localStorage.getItem("coding-88") === "true")
-  const [selectedCoding89, setSelectedCoding89] = React.useState(localStorage.getItem("coding-89") === "true")
-  const [selectedCoding90, setSelectedCoding90] = React.useState(localStorage.getItem("coding-90") === "true")
-  const [selectedCoding91, setSelectedCoding91] = React.useState(localStorage.getItem("coding-91") === "true")
-  const [selectedCoding92, setSelectedCoding92] = React.useState(localStorage.getItem("coding-92") === "true")
-  const [selectedCoding93, setSelectedCoding93] = React.useState(localStorage.getItem("coding-93") === "true")
-  const [selectedCoding94, setSelectedCoding94] = React.useState(localStorage.getItem("coding-94") === "true")
-  const [selectedCoding95, setSelectedCoding95] = React.useState(localStorage.getItem("coding-95") === "true")
-  const [selectedCoding96, setSelectedCoding96] = React.useState(localStorage.getItem("coding-96") === "true")
-  const [selectedCoding97, setSelectedCoding97] = React.useState(localStorage.getItem("coding-97") === "true")
-  const [selectedCoding98, setSelectedCoding98] = React.useState(localStorage.getItem("coding-98") === "true")
-  const [selectedCoding99, setSelectedCoding99] = React.useState(localStorage.getItem("coding-99") === "true")
-  const [selectedCoding100, setSelectedCoding100] = React.useState(localStorage.getItem("coding-100") === "true")
-  const [selectedCoding101, setSelectedCoding101] = React.useState(localStorage.getItem("coding-101") === "true")
-  const [selectedCoding102, setSelectedCoding102] = React.useState(localStorage.getItem("coding-102") === "true")
-  const [selectedCoding103, setSelectedCoding103] = React.useState(localStorage.getItem("coding-103") === "true")
-  const [selectedCoding104, setSelectedCoding104] = React.useState(localStorage.getItem("coding-104") === "true")
-  const [selectedCoding105, setSelectedCoding105] = React.useState(localStorage.getItem("coding-105") === "true")
-  const [selectedCoding106, setSelectedCoding106] = React.useState(localStorage.getItem("coding-106") === "true")
-  const [selectedCoding107, setSelectedCoding107] = React.useState(localStorage.getItem("coding-107") === "true")
-  const [selectedCoding108, setSelectedCoding108] = React.useState(localStorage.getItem("coding-108") === "true")
-  const [selectedCoding109, setSelectedCoding109] = React.useState(localStorage.getItem("coding-109") === "true")
-  const [selectedCoding110, setSelectedCoding110] = React.useState(localStorage.getItem("coding-110") === "true")
-  const [selectedCoding111, setSelectedCoding111] = React.useState(localStorage.getItem("coding-111") === "true")
-  const [selectedCoding112, setSelectedCoding112] = React.useState(localStorage.getItem("coding-112") === "true")
-  const [selectedCoding113, setSelectedCoding113] = React.useState(localStorage.getItem("coding-113") === "true")
-  const [selectedCoding114, setSelectedCoding114] = React.useState(localStorage.getItem("coding-114") === "true")
-  const [selectedCoding115, setSelectedCoding115] = React.useState(localStorage.getItem("coding-115") === "true")
-  const [selectedCoding116, setSelectedCoding116] = React.useState(localStorage.getItem("coding-116") === "true")
-  const [selectedCoding117, setSelectedCoding117] = React.useState(localStorage.getItem("coding-117") === "true")
-  const [selectedCoding118, setSelectedCoding118] = React.useState(localStorage.getItem("coding-118") === "true")
-  const [selectedCoding119, setSelectedCoding119] = React.useState(localStorage.getItem("coding-119") === "true")
-  const [selectedCoding120, setSelectedCoding120] = React.useState(localStorage.getItem("coding-120") === "true")
-  const [selectedCoding121, setSelectedCoding121] = React.useState(localStorage.getItem("coding-121") === "true")
-  const [selectedCoding122, setSelectedCoding122] = React.useState(localStorage.getItem("coding-122") === "true")
-  const [selectedCoding123, setSelectedCoding123] = React.useState(localStorage.getItem("coding-123") === "true")
-  const [selectedCoding124, setSelectedCoding124] = React.useState(localStorage.getItem("coding-124") === "true")
-  const [selectedCoding125, setSelectedCoding125] = React.useState(localStorage.getItem("coding-125") === "true")
-  const [selectedCoding126, setSelectedCoding126] = React.useState(localStorage.getItem("coding-126") === "true")
-  const [selectedCoding127, setSelectedCoding127] = React.useState(localStorage.getItem("coding-127") === "true")
-  const [selectedCoding128, setSelectedCoding128] = React.useState(localStorage.getItem("coding-128") === "true")
-  const [selectedCoding129, setSelectedCoding129] = React.useState(localStorage.getItem("coding-129") === "true")
-  // const [selectedCoding130, setSelectedCoding130] = React.useState(localStorage.getItem("coding-130") === "true")
+  // const [selectedCoding37, setSelectedCoding37] = React.useState(localStorage.getItem("coding-37") === "true")
+  // const [selectedCoding38, setSelectedCoding38] = React.useState(localStorage.getItem("coding-38") === "true")
+  // const [selectedCoding39, setSelectedCoding39] = React.useState(localStorage.getItem("coding-39") === "true")
+  // const [selectedCoding40, setSelectedCoding40] = React.useState(localStorage.getItem("coding-40") === "true")
+  // const [selectedCoding41, setSelectedCoding41] = React.useState(localStorage.getItem("coding-41") === "true")
+  // const [selectedCoding42, setSelectedCoding42] = React.useState(localStorage.getItem("coding-42") === "true")
+  // const [selectedCoding43, setSelectedCoding43] = React.useState(localStorage.getItem("coding-43") === "true")
+  // const [selectedCoding44, setSelectedCoding44] = React.useState(localStorage.getItem("coding-44") === "true")
+  // const [selectedCoding45, setSelectedCoding45] = React.useState(localStorage.getItem("coding-45") === "true")
+  // const [selectedCoding46, setSelectedCoding46] = React.useState(localStorage.getItem("coding-46") === "true")
+  // const [selectedCoding47, setSelectedCoding47] = React.useState(localStorage.getItem("coding-47") === "true")
+  // const [selectedCoding48, setSelectedCoding48] = React.useState(localStorage.getItem("coding-48") === "true")
+  // const [selectedCoding49, setSelectedCoding49] = React.useState(localStorage.getItem("coding-49") === "true")
+  // const [selectedCoding50, setSelectedCoding50] = React.useState(localStorage.getItem("coding-50") === "true")
+  // const [selectedCoding51, setSelectedCoding51] = React.useState(localStorage.getItem("coding-51") === "true")
+  // const [selectedCoding52, setSelectedCoding52] = React.useState(localStorage.getItem("coding-52") === "true")
+  // const [selectedCoding53, setSelectedCoding53] = React.useState(localStorage.getItem("coding-53") === "true")
+  // const [selectedCoding54, setSelectedCoding54] = React.useState(localStorage.getItem("coding-54") === "true")
+  // const [selectedCoding55, setSelectedCoding55] = React.useState(localStorage.getItem("coding-55") === "true")
+  // const [selectedCoding56, setSelectedCoding56] = React.useState(localStorage.getItem("coding-56") === "true")
+  // const [selectedCoding57, setSelectedCoding57] = React.useState(localStorage.getItem("coding-57") === "true")
+  // const [selectedCoding58, setSelectedCoding58] = React.useState(localStorage.getItem("coding-58") === "true")
+  // const [selectedCoding59, setSelectedCoding59] = React.useState(localStorage.getItem("coding-59") === "true")
+  // const [selectedCoding60, setSelectedCoding60] = React.useState(localStorage.getItem("coding-60") === "true")
+  // const [selectedCoding61, setSelectedCoding61] = React.useState(localStorage.getItem("coding-61") === "true")
+  // const [selectedCoding62, setSelectedCoding62] = React.useState(localStorage.getItem("coding-62") === "true")
+  // const [selectedCoding63, setSelectedCoding63] = React.useState(localStorage.getItem("coding-63") === "true")
+  // const [selectedCoding64, setSelectedCoding64] = React.useState(localStorage.getItem("coding-64") === "true")
+  // const [selectedCoding65, setSelectedCoding65] = React.useState(localStorage.getItem("coding-65") === "true")
+  // const [selectedCoding66, setSelectedCoding66] = React.useState(localStorage.getItem("coding-66") === "true")
+  // const [selectedCoding67, setSelectedCoding67] = React.useState(localStorage.getItem("coding-67") === "true")
+  // const [selectedCoding68, setSelectedCoding68] = React.useState(localStorage.getItem("coding-68") === "true")
+  // const [selectedCoding69, setSelectedCoding69] = React.useState(localStorage.getItem("coding-69") === "true")
+  // const [selectedCoding70, setSelectedCoding70] = React.useState(localStorage.getItem("coding-70") === "true")
+  // const [selectedCoding71, setSelectedCoding71] = React.useState(localStorage.getItem("coding-71") === "true")
+  // const [selectedCoding72, setSelectedCoding72] = React.useState(localStorage.getItem("coding-72") === "true")
+  // const [selectedCoding73, setSelectedCoding73] = React.useState(localStorage.getItem("coding-73") === "true")
+  // const [selectedCoding74, setSelectedCoding74] = React.useState(localStorage.getItem("coding-74") === "true")
+  // const [selectedCoding75, setSelectedCoding75] = React.useState(localStorage.getItem("coding-75") === "true")
+  // const [selectedCoding76, setSelectedCoding76] = React.useState(localStorage.getItem("coding-76") === "true")
+  // const [selectedCoding77, setSelectedCoding77] = React.useState(localStorage.getItem("coding-77") === "true")
+  // const [selectedCoding78, setSelectedCoding78] = React.useState(localStorage.getItem("coding-78") === "true")
+  // const [selectedCoding79, setSelectedCoding79] = React.useState(localStorage.getItem("coding-79") === "true")
+  // const [selectedCoding80, setSelectedCoding80] = React.useState(localStorage.getItem("coding-80") === "true")
+  // const [selectedCoding81, setSelectedCoding81] = React.useState(localStorage.getItem("coding-81") === "true")
+  // const [selectedCoding82, setSelectedCoding82] = React.useState(localStorage.getItem("coding-82") === "true")
+  // const [selectedCoding83, setSelectedCoding83] = React.useState(localStorage.getItem("coding-83") === "true")
+  // const [selectedCoding84, setSelectedCoding84] = React.useState(localStorage.getItem("coding-84") === "true")
+  // const [selectedCoding85, setSelectedCoding85] = React.useState(localStorage.getItem("coding-85") === "true")
+  // const [selectedCoding86, setSelectedCoding86] = React.useState(localStorage.getItem("coding-86") === "true")
+  // const [selectedCoding87, setSelectedCoding87] = React.useState(localStorage.getItem("coding-87") === "true")
+  // const [selectedCoding88, setSelectedCoding88] = React.useState(localStorage.getItem("coding-88") === "true")
+  // const [selectedCoding89, setSelectedCoding89] = React.useState(localStorage.getItem("coding-89") === "true")
+  // const [selectedCoding90, setSelectedCoding90] = React.useState(localStorage.getItem("coding-90") === "true")
+  // const [selectedCoding91, setSelectedCoding91] = React.useState(localStorage.getItem("coding-91") === "true")
+  // const [selectedCoding92, setSelectedCoding92] = React.useState(localStorage.getItem("coding-92") === "true")
+  // const [selectedCoding93, setSelectedCoding93] = React.useState(localStorage.getItem("coding-93") === "true")
+  // const [selectedCoding94, setSelectedCoding94] = React.useState(localStorage.getItem("coding-94") === "true")
+  // const [selectedCoding95, setSelectedCoding95] = React.useState(localStorage.getItem("coding-95") === "true")
+  // const [selectedCoding96, setSelectedCoding96] = React.useState(localStorage.getItem("coding-96") === "true")
+  // const [selectedCoding97, setSelectedCoding97] = React.useState(localStorage.getItem("coding-97") === "true")
+  // const [selectedCoding98, setSelectedCoding98] = React.useState(localStorage.getItem("coding-98") === "true")
+  // const [selectedCoding99, setSelectedCoding99] = React.useState(localStorage.getItem("coding-99") === "true")
+  // const [selectedCoding100, setSelectedCoding100] = React.useState(localStorage.getItem("coding-100") === "true")
+  // const [selectedCoding101, setSelectedCoding101] = React.useState(localStorage.getItem("coding-101") === "true")
+  // const [selectedCoding102, setSelectedCoding102] = React.useState(localStorage.getItem("coding-102") === "true")
+  // const [selectedCoding103, setSelectedCoding103] = React.useState(localStorage.getItem("coding-103") === "true")
+  // const [selectedCoding104, setSelectedCoding104] = React.useState(localStorage.getItem("coding-104") === "true")
+  // const [selectedCoding105, setSelectedCoding105] = React.useState(localStorage.getItem("coding-105") === "true")
+  // const [selectedCoding106, setSelectedCoding106] = React.useState(localStorage.getItem("coding-106") === "true")
+  // const [selectedCoding107, setSelectedCoding107] = React.useState(localStorage.getItem("coding-107") === "true")
+  // const [selectedCoding108, setSelectedCoding108] = React.useState(localStorage.getItem("coding-108") === "true")
+  // const [selectedCoding109, setSelectedCoding109] = React.useState(localStorage.getItem("coding-109") === "true")
+  // const [selectedCoding110, setSelectedCoding110] = React.useState(localStorage.getItem("coding-110") === "true")
+  // const [selectedCoding111, setSelectedCoding111] = React.useState(localStorage.getItem("coding-111") === "true")
+  // const [selectedCoding112, setSelectedCoding112] = React.useState(localStorage.getItem("coding-112") === "true")
+  // const [selectedCoding113, setSelectedCoding113] = React.useState(localStorage.getItem("coding-113") === "true")
+  // const [selectedCoding114, setSelectedCoding114] = React.useState(localStorage.getItem("coding-114") === "true")
+  // const [selectedCoding115, setSelectedCoding115] = React.useState(localStorage.getItem("coding-115") === "true")
+  // const [selectedCoding116, setSelectedCoding116] = React.useState(localStorage.getItem("coding-116") === "true")
+  // const [selectedCoding117, setSelectedCoding117] = React.useState(localStorage.getItem("coding-117") === "true")
+  // const [selectedCoding118, setSelectedCoding118] = React.useState(localStorage.getItem("coding-118") === "true")
+  // const [selectedCoding119, setSelectedCoding119] = React.useState(localStorage.getItem("coding-119") === "true")
+  // const [selectedCoding120, setSelectedCoding120] = React.useState(localStorage.getItem("coding-120") === "true")
+  // const [selectedCoding121, setSelectedCoding121] = React.useState(localStorage.getItem("coding-121") === "true")
+  // const [selectedCoding122, setSelectedCoding122] = React.useState(localStorage.getItem("coding-122") === "true")
+  // const [selectedCoding123, setSelectedCoding123] = React.useState(localStorage.getItem("coding-123") === "true")
+  // const [selectedCoding124, setSelectedCoding124] = React.useState(localStorage.getItem("coding-124") === "true")
+  // const [selectedCoding125, setSelectedCoding125] = React.useState(localStorage.getItem("coding-125") === "true")
+  // const [selectedCoding126, setSelectedCoding126] = React.useState(localStorage.getItem("coding-126") === "true")
+  // const [selectedCoding127, setSelectedCoding127] = React.useState(localStorage.getItem("coding-127") === "true")
+  // const [selectedCoding128, setSelectedCoding128] = React.useState(localStorage.getItem("coding-128") === "true")
+  // const [selectedCoding129, setSelectedCoding129] = React.useState(localStorage.getItem("coding-129") === "true")
+  // // const [selectedCoding130, setSelectedCoding130] = React.useState(localStorage.getItem("coding-130") === "true")
   // const [selectedCoding131, setSelectedCoding131] = React.useState(localStorage.getItem("coding-131") === "true")
   // const [selectedCoding132, setSelectedCoding132] = React.useState(localStorage.getItem("coding-132") === "true")
   // const [selectedCoding133, setSelectedCoding133] = React.useState(localStorage.getItem("coding-133") === "true")
@@ -206,13 +205,13 @@ const Coding = ({ data }) => {
       <section className="block-circles">
         <div className="subjects-circle circle1"
              style={{
-               background: "#B8D8BF",
+               background: "#9fe5c1",
                transform: "translate3d(0px, 0px, 0px) scale(0.9921, 1)",
                opacity: "1"
              }}/>
 
         <div className="subjects-circle circle2"
-             style={{ background: "#B8D8BF", transform: "translate(0px, 0px)", opacity: 1 }}/>
+             style={{ background: "#9fe5c1", transform: "translate(0px, 0px)", opacity: 1 }}/>
         <div className="hero-wrapper pbn hero">
           <h1 className="hero intro" data-sal="slide-up" data-sal-duration="1000"
               data-sal-easing="ease">Coding</h1>
@@ -410,7 +409,6 @@ const Coding = ({ data }) => {
             <ToggleSwitch checked={selectedCoding9} id='code-9' label='Completed' onChange={
               (e) => {
                 localStorage.setItem("code-9", `${e.target.checked}`)
-
                 setSelectedCoding9(e.target.checked)
                 console.log(e.target.checked)
               }}/>
@@ -430,8 +428,7 @@ const Coding = ({ data }) => {
             <ToggleSwitch checked={selectedCoding10} id='code-10' label='Completed' onChange={
               (e) => {
                 localStorage.setItem("code-10", `${e.target.checked}`)
-
-                setSelectedCoding11(e.target.checked)
+                setSelectedCoding10(e.target.checked)
                 console.log(e.target.checked)
               }}/>
             <ul className="assnList">
@@ -446,7 +443,7 @@ const Coding = ({ data }) => {
             <ToggleSwitch checked={selectedCoding11} id='code-11' label='Completed' onChange={
               (e) => {
                 localStorage.setItem("code-11", `${e.target.checked}`)
-                setSelectedCoding12(e.target.checked)
+                setSelectedCoding11(e.target.checked)
                 console.log(e.target.checked)
               }}/>
             <ul className="assnList">
@@ -466,7 +463,7 @@ const Coding = ({ data }) => {
               (e) => {
                 localStorage.setItem("code-12", `${e.target.checked}`)
 
-                setSelectedCoding13(e.target.checked)
+                setSelectedCoding12(e.target.checked)
                 console.log(e.target.checked)
               }}/>
             <ul className="assnList">
@@ -486,7 +483,7 @@ const Coding = ({ data }) => {
               (e) => {
                 localStorage.setItem("code-13", `${e.target.checked}`)
 
-                setSelectedCoding14(e.target.checked)
+                setSelectedCoding13(e.target.checked)
                 console.log(e.target.checked)
               }}/>
             <ul className="assnList">
@@ -506,7 +503,7 @@ const Coding = ({ data }) => {
               (e) => {
                 localStorage.setItem("code-14", `${e.target.checked}`)
 
-                setSelectedCoding15(e.target.checked)
+                setSelectedCoding14(e.target.checked)
                 console.log(e.target.checked)
               }}/>
             <ul className="assnList">
@@ -522,7 +519,7 @@ const Coding = ({ data }) => {
               (e) => {
                 localStorage.setItem("code-15", `${e.target.checked}`)
 
-                setSelectedCoding16(e.target.checked)
+                setSelectedCoding15(e.target.checked)
                 console.log(e.target.checked)
               }}/>
             <ul className="assnList">
@@ -543,7 +540,7 @@ const Coding = ({ data }) => {
               (e) => {
                 localStorage.setItem("code-16", `${e.target.checked}`)
 
-                setSelectedCoding17(e.target.checked)
+                setSelectedCoding16(e.target.checked)
                 console.log(e.target.checked)
               }}/>
             <ul className="assnList">
@@ -563,7 +560,7 @@ const Coding = ({ data }) => {
               (e) => {
                 localStorage.setItem("code-17", `${e.target.checked}`)
 
-                setSelectedCoding18(e.target.checked)
+                setSelectedCoding17(e.target.checked)
                 console.log(e.target.checked)
               }}/>
             <ul className="assnList">
@@ -578,7 +575,7 @@ const Coding = ({ data }) => {
               (e) => {
                 localStorage.setItem("code-18", `${e.target.checked}`)
 
-                setSelectedCoding19(e.target.checked)
+                setSelectedCoding18(e.target.checked)
                 console.log(e.target.checked)
               }}/>
             <ul className="assnList">

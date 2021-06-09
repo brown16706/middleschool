@@ -5,7 +5,7 @@ import "../pages/timer.css"
 function TimerClock() {
 
   let [timeToAlarm, setTimeToAlarm] = useState(1200);
-  let [timeInputed, setTimeInputed] = useState(1200);
+  // let [timeInputed, setTimeInputed] = useState(1200);
   let [countdownShow, setCountdowmShow] = useState(false);
 
   const switchCountdownState = () => {
@@ -14,7 +14,7 @@ function TimerClock() {
 
   const setTime = e => {
     e.preventDefault();
-    setTimeToAlarm(timeInputed);
+    setTimeToAlarm();
     switchCountdownState();
   }
 

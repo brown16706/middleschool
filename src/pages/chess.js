@@ -1,11 +1,12 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import ToggleSwitch from "../components/checkbox"
 import "../styles/styles.css"
 import ScrollToTop from "react-scroll-to-top"
 import Confetti from "../components/confetti"
+import Video from "../components/video"
 
 /*  TO DO - CONGRATULATIONS FOR FINISHING COURSE https://codepen.io/andershoff/pen/ZwQRKv?editors=0010  CONFETTI*/
 
@@ -155,8 +156,7 @@ const Chess = ({ data }) => {
 
               <p className="margin-para">Watch the videos listed below and then play a game of chess against a bot.</p>
               <ul className='assnList'>
-                <li><a href="https://ed.ted.com/lessons/a-brief-history-of-chess-alex-gendler" rel="noreferrer"
-                       target="_blank">A Brief History of Chess </a>by TedEd</li>
+                <li> <Video videoUrl="https://www.youtube.com/embed/YeB-1F-UKO0"/></li>
                 <li><a href="https://www.chesskid.com/videos/an-introduction-to-chess" rel="noreferrer"
                        target="_blank"> Introduction to Chess</a></li>
                 <li><a href="https://www.chesskid.com/videos/the-rook" rel="noreferrer" target="_blank"> The Rook</a>
@@ -213,7 +213,7 @@ const Chess = ({ data }) => {
                 </ul></p>
               <p className="margin-para">Next, <a href='https://www.chess.com/play/computer' rel='noreferrer' target="_blank">play chess with
                 the bot</a> for 20 minutes. After choosing your opponent (Adaptive or Beginner), select how much help
-                you want, then click Play. Set a <a href='timer20' rel=' noreferrer' target="_blank"> 20 minute timer here. </a>
+                you want, then click Play. Set a <a href='timer20' rel='noreferrer' target="_blank"> 20 minute timer here. </a>
               </p>
 
               <span className='days lessonTop'>Lesson 3</span>
@@ -234,7 +234,7 @@ const Chess = ({ data }) => {
               </p>
               <p className="margin-para">After you complete the lesson, <a href='https://www.chess.com/play/computer'
                                                                            rel='noreferrer' target="_blank">play chess
-                with the bot</a> for 20 minutes. <a href='timer20' rel=' noreferrer' target="_blank"> Set a 20 minute
+                with the bot</a> for 20 minutes. <a href='timer20' rel='noreferrer' target="_blank"> Set a 20 minute
                 timer.</a></p>
 
 
@@ -249,7 +249,7 @@ const Chess = ({ data }) => {
                   rel='noreferrer' target='_blank'>Meet the Queen (Topics 1-5) </a></li>
                 <li>Watch a video called <a href='https://www.chesskid.com/videos/checkmate-queen-vs-king'
                                             rel='noreferrer' target='_blank'> Checkmate: Queen vs. King </a></li>
-                <li className="margin-para"><a href='https://www.chess.com/play/computer' rel='noreferrer' target="_blank">Play chess with the bot</a> for 20 minutes. <a href='timer20' rel=' noreferrer' target="_blank"> Set a 20 minute
+                <li className="margin-para"><a href='https://www.chess.com/play/computer' rel='noreferrer' target="_blank">Play chess with the bot</a> for 20 minutes. <a href='timer20' rel='noreferrer' target="_blank"> Set a 20 minute
                   timer.</a></li>
               </ul>
 
@@ -328,7 +328,7 @@ const Chess = ({ data }) => {
                   keeps the coordinates as they appear below, while black REVERSES the board. <a href='https://lichess.org/training/coordinate' rel='noreferrer' target='_blank'> See how many
                     coordinates you
                     can guess correctly in 30 seconds! Click to get started.<img
-                      src={require("../../content/images/subjects/chessCoordinates.jpg")}/> </a>
+                      src={require("../../content/images/subjects/chessCoordinates.jpg")} alt="chess coordinates"/> </a>
                 </li>
                 <li className="margin-para">Set a <a href='timer20' rel='noreferrer' target='_blank'> 20
                   minute timer </a>and <a href='https://www.chess.com/play/computer' rel='noreferrer' target='_blank'> start playing
@@ -431,7 +431,7 @@ const Chess = ({ data }) => {
                 <li>Complete <a href="https://lichess.org/learn#/13">Board Set Up (1-7) </a> on Lichess.</li>
                 <li>Watch a video called <a href='https://www.chesskid.com/videos/when-we-were-chess-kids-if-you-dont-know-ask' rel='noreferrer' target='_blank'> If You Don't Know, Ask </a></li>
                 <li className='margin-para'>Next, <a href='https://www.chess.com/play/computer' rel='noreferrer' target="_blank">play chess with the bot</a> for 20
-                  minutes. You can <a href='timer20' rel=' noreferrer' target="_blank"> set a 20 minute timer
+                  minutes. You can <a href='timer20' rel='noreferrer' target="_blank"> set a 20 minute timer
                     here.</a>
                 </li>
               </ul>
@@ -1008,7 +1008,7 @@ const Chess = ({ data }) => {
                   </ul>
                 </li>
                 <li className='margin-para'>Next, <a href='https://www.chess.com/play/computer' rel='noreferrer' target='_blank'>play chess with the bot</a> for 20 minutes. You
-                  can <a href='timer20' rel=' noreferrer' target="_blank"> set a 20 minute timer
+                  can <a href='timer20' rel='noreferrer' target="_blank"> set a 20 minute timer
                     here.</a></li>
               </ul>
 
@@ -1055,7 +1055,7 @@ const Chess = ({ data }) => {
                 <li>Watch a video called <a href='https://www.chesskid.com/videos/the-language-of-chess-opening-middlegame-endgame'
                   rel='noreferrer' target='_blank'> Language of Chess: Opening, Middlegame, Endgame </a></li>
                 <li className='margin-para'>Next, <a href='https://www.chess.com/play/computer' rel='noreferrer' target='_blank'>play chess with the bot</a> for 20 minutes. You
-                  can <a href='timer20' rel=' noreferrer' target="_blank"> set a 20 minute timer
+                  can <a href='timer20' rel='noreferrer' target="_blank"> set a 20 minute timer
                     here.</a></li>
               </ul>
 
@@ -1109,7 +1109,7 @@ const Chess = ({ data }) => {
                   correctly in 30 seconds! Practice at least 5 times.
                 </li>
                 <li className='margin-para'>Next, <a href='https://www.chess.com/play/computer' rel='noreferrer' target='_blank'>play chess with the bot</a> for 20 minutes. You
-                  can <a href='timer20' rel=' noreferrer' target="_blank"> set a 20 minute timer here.</a>
+                  can <a href='timer20' rel='noreferrer' target="_blank"> set a 20 minute timer here.</a>
                 </li>
               </ul>
 
@@ -1158,7 +1158,7 @@ const Chess = ({ data }) => {
                 </li>
                 <li>Watch a video called <a href='https://www.chesskid.com/videos/more-king-and-pawn-endgames---part-1' rel='noreferrer' target='_blank'> More King and Pawn Endgames! - Part 1 </a></li>
                 <li className='margin-para'>Next, <a href='https://www.chess.com/play/computer' rel='noreferrer' target='_blank'>play chess with the bot</a> for 20 minutes. You
-                  can <a href='timer20' rel=' noreferrer' target="_blank"> set a 20 minute timer here.</a>
+                  can <a href='timer20' rel='noreferrer' target="_blank"> set a 20 minute timer here.</a>
                 </li>
               </ul>
 
@@ -1208,7 +1208,7 @@ const Chess = ({ data }) => {
                 <li className='margin-para'>Next, <a href='https://www.chess.com/play/computer'
                                                      rel='noreferrer' target='_blank'>play chess with the bot</a> for 20 minutes.
                   You
-                  can <a href='timer20' rel=' noreferrer' target="_blank"> set a 20 minute timer here.</a>
+                  can <a href='timer20' rel='noreferrer' target="_blank"> set a 20 minute timer here.</a>
                 </li>
               </ul>
 
@@ -1266,7 +1266,7 @@ const Chess = ({ data }) => {
                 <li className='margin-para'>Next, <a href='https://www.chess.com/play/computer'
                                                      rel='noreferrer' target='_blank'>play chess with the bot</a> for 20 minutes.
                   You
-                  can <a href='timer20' rel=' noreferrer' target="_blank"> set a 20
+                  can <a href='timer20' rel='noreferrer' target="_blank"> set a 20
                     minute timer here.</a></li>
               </ul>
 
@@ -1318,7 +1318,7 @@ const Chess = ({ data }) => {
                 </li>
                 <li className='margin-para'>Next, <a href='https://www.chess.com/play/computer'
                                                      rel='noreferrer' target='_blank'>play chess with the bot</a> for 20 minutes.
-                  You can <a href='timer20' rel=' noreferrer' target="_blank"> set a 20
+                  You can <a href='timer20' rel='noreferrer' target="_blank"> set a 20
                     minute timer here.</a></li>
               </ul>
 
@@ -1373,7 +1373,7 @@ const Chess = ({ data }) => {
                 </li>
                 <li className='margin-para'>Next, <a href='https://www.chess.com/play/computer'
                                                      rel='noreferrer' target='_blank'>play chess with the bot</a> for 20 minutes.
-                  You can <a href='timer20' rel=' noreferrer' target="_blank"> set a 20
+                  You can <a href='timer20' rel='noreferrer' target="_blank"> set a 20
                     minute timer here.</a></li>
               </ul>
 
@@ -1420,7 +1420,7 @@ const Chess = ({ data }) => {
                 </li>
                 <li className='margin-para'>Next, <a href='https://www.chess.com/play/computer'
                                                      rel='noreferrer' target='_blank'>play chess with the bot</a> for 20 minutes.
-                  You can <a href='timer20' rel=' noreferrer' target="_blank"> set a 20 minute timer here.</a></li>
+                  You can <a href='timer20' rel='noreferrer' target="_blank"> set a 20 minute timer here.</a></li>
               </ul>
 
               <span className=' days'>Lesson 53</span>
@@ -1464,7 +1464,7 @@ const Chess = ({ data }) => {
                 </li>
                 <li className='margin-para'>Next, <a href='https://www.chess.com/play/computer'
                                                      rel='noreferrer' target='_blank'>play chess with the bot</a> for 20
-                  minutes. You can <a href='timer20' rel=' noreferrer' target="_blank"> set a
+                  minutes. You can <a href='timer20' rel='noreferrer' target="_blank"> set a
                     20 minute timer here.</a></li>
               </ul>
 
@@ -1514,7 +1514,7 @@ const Chess = ({ data }) => {
                 </li>
                 <li className='margin-para'>Next, <a href='https://www.chess.com/play/computer'
                                                      rel='noreferrer' target='_blank'>play chess with the bot</a> for 20
-                  minutes. You can <a href='timer20' rel=' noreferrer' target="_blank"> set
+                  minutes. You can <a href='timer20' rel='noreferrer' target="_blank"> set
                     a 20 minute timer here.</a></li>
               </ul>
 
@@ -1649,7 +1649,7 @@ const Chess = ({ data }) => {
                 <li>Watch the video called <a href='https://www.chesskid.com/videos/player/common-rook-endings'
                                               rel='noreferrer' target='_blank'> Common Rook Endings</a></li>
                 <li> Complete <a href='https://lichess.org/practice/pawn-endgames/key-squares/xebrDvFe/NcEt7RJK'
-                                 target='_blank'> Key Squares: Reach a key square(7-9)</a>
+                                 rel="noreferrer" target='_blank'> Key Squares: Reach a key square(7-9)</a>
                   <ul className='assnList2'>
                     <li>Knight pawn on the 6th exception #2</li>
                     <li>Pawn on the 7th rank</li>
@@ -2085,10 +2085,10 @@ const Chess = ({ data }) => {
                             }}/>
 
               <ul className='assnList'>
+                <li>This is your final lesson for this course.</li>
                 <li>Play <a href="https://lichess.org/training" rel='noreferrer' target='_blank'>5 puzzles at Lichess. </a></li>
                 <li className='margin-para'>Next, <a href='https://www.chess.com/play/computer' rel='noreferrer' target='_blank'>play chess with the bot</a> for 20 minutes. <a href='timer20' rel='noreferrer' target="_blank">Set a 20 minute timer
                   here.</a></li>
-                <li>This is your final lesson for this course.</li>
               </ul>
             </form>
           </div>
