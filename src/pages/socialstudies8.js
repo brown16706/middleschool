@@ -126,8 +126,8 @@ const SocialStudies8 = ({ data }) => {
   const [SS8Essay107, setSS8Essay107] = useLocalStorageState("SS8Essay107", "")
   const [SS8Essay108, setSS8Essay108] = useLocalStorageState("SS8Essay108", "")
   const [SS8Essay109, setSS8Essay109] = useLocalStorageState("SS8Essay109", "")
-  const [SS8Essay110, setSS8Essay110] = useLocalStorageState("SS8Essay110", "")
-  const [SS8Essay111, setSS8Essay111] = useLocalStorageState("SS8Essay111", "")
+  // const [SS8Essay110, setSS8Essay110] = useLocalStorageState("SS8Essay110", "")
+  // const [SS8Essay111, setSS8Essay111] = useLocalStorageState("SS8Essay111", "")
   const [SS8Essay112, setSS8Essay112] = useLocalStorageState("SS8Essay112", "")
   const [SS8Essay113, setSS8Essay113] = useLocalStorageState("SS8Essay113", "")
   const [SS8Essay114, setSS8Essay114] = useLocalStorageState("SS8Essay114", "")
@@ -194,9 +194,9 @@ const SocialStudies8 = ({ data }) => {
   const [SS8Essay175, setSS8Essay175] = useLocalStorageState("SS8Essay175", "")
   const [SS8Essay176, setSS8Essay176] = useLocalStorageState("SS8Essay176", "")
   const [SS8Essay177, setSS8Essay177] = useLocalStorageState("SS8Essay177", "")
-// const [SS8Essay178, setSS8Essay178] = useLocalStorageState("SS8Essay178", "")
-// const [SS8Essay179, setSS8Essay179] = useLocalStorageState("SS8Essay179", "")
-// const [SS8Essay180, setSS8Essay180] = useLocalStorageState("SS8Essay180", "")
+const [SS8Essay178, setSS8Essay178] = useLocalStorageState("SS8Essay178", "")
+const [SS8Essay179, setSS8Essay179] = useLocalStorageState("SS8Essay179", "")
+const [SS8Essay180, setSS8Essay180] = useLocalStorageState("SS8Essay180", "")
 
   const onChangeSS8Listener1 = (event) => {
     setSS8Essay1(event.target.value)
@@ -525,12 +525,12 @@ const SocialStudies8 = ({ data }) => {
   const onChangeSS8Listener109 = (event) => {
     setSS8Essay109(event.target.value)
   }
-  const onChangeSS8Listener110 = (event) => {
-    setSS8Essay110(event.target.value)
-  }
-  const onChangeSS8Listener111 = (event) => {
-    setSS8Essay111(event.target.value)
-  }
+  // const onChangeSS8Listener110 = (event) => {
+  //   setSS8Essay110(event.target.value)
+  // }
+  // const onChangeSS8Listener111 = (event) => {
+  //   setSS8Essay111(event.target.value)
+  // }
   const onChangeSS8Listener112 = (event) => {
     setSS8Essay112(event.target.value)
   }
@@ -729,15 +729,15 @@ const SocialStudies8 = ({ data }) => {
   const onChangeSS8Listener177 = (event) => {
     setSS8Essay177(event.target.value)
   }
-// const onChangeSS8Listener178 = (event) => {
-//   setSS8Essay178(event.target.value)
-// }
-// const onChangeSS8Listener179 = (event) => {
-//   setSS8Essay179(event.target.value)
-// }
-// const onChangeSS8Listener180 = (event) => {
-//   setSS8Essay180(event.target.value)
-// }
+const onChangeSS8Listener178 = (event) => {
+  setSS8Essay178(event.target.value)
+}
+const onChangeSS8Listener179 = (event) => {
+  setSS8Essay179(event.target.value)
+}
+const onChangeSS8Listener180 = (event) => {
+  setSS8Essay180(event.target.value)
+}
 
   return (
     <Layout>
@@ -1254,7 +1254,7 @@ const SocialStudies8 = ({ data }) => {
                 6. Who officially elects the president of the United States? Explain. <br/>
                 7. How can the president lose his or her job before election time? <br/>
                 8. Article 3. The Judiciary - How are Supreme Court justices appointed? <br/>
-                9. What kinds of cases go before the Supreme Court? <br/> Why is the Court’s decision whether to hear a
+                9. What kinds of cases go before the Supreme Court? Why is the Court’s decision whether to hear a
                 case
                 important? <br/>
                 10. Article 4. Relations Among States - To extradite is to send a fugitive back to the state in
@@ -1812,7 +1812,7 @@ const SocialStudies8 = ({ data }) => {
                 each
                 cause played an equal role in leading to the war? <br/>Which, if any, of the causes that you named had
                 the
-                biggest impact, and why?<br/><a href={require("../resources/FiveParagraphEssayOutline.pdf")}
+                biggest impact, and why?<br/><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
                                                 rel="noreferrer"
                                                 target="_blank">Click here for an outline </a>that can help you get
                 started.
@@ -3373,7 +3373,7 @@ const SocialStudies8 = ({ data }) => {
                 consequences of World War II? In addition to using the reading and videos, you should do online research
                 to
                 find
-                examples and support. <br/><br/><a href={require("../resources/FiveParagraphEssayOutline.pdf")}
+                examples and support. <br/><br/><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
                                                    rel="noreferrer"
                                                    target="_blank">Click here for a 5 Paragraph Essay outline </a>if you
                 need help getting started. </p><br/>
@@ -4336,8 +4336,8 @@ const SocialStudies8 = ({ data }) => {
               <p> Write a 5 paragraph essay on how successful you think Donald Trump was as a successful president.
                 <a href="https://www.history.com/topics/us-presidents/donald-trump" rel="noreferrer" target="_blank">Read
                   the historical account of his presidency by History.com. </a> Take a
-                position and then research the topic online to find support and examples for your argument. <br/><a href="../resources/FiveParagraphEssayOutline.pdf" rel="noreferrer"
-                  target="_blank">Click here for a 5 Paragraph Essay outline </a>if you need help getting started. <br/>
+                position and then research the topic online to find support and examples for your argument. <br/><a href="../resources/languagearts/FiveParagraphEssayOutline.pdf" rel="noreferrer"
+                                                                                                                    target="_blank">Click here for a 5 Paragraph Essay outline </a>if you need help getting started. <br/>
               </p>
               <textarea className="textArea" onChange={onChangeSS8Listener139} value={SS8Essay139}/>
 
@@ -4352,7 +4352,7 @@ const SocialStudies8 = ({ data }) => {
                 global warming, efforts to improve the economy, ability to persuade, ability to unify the country, etc.
                 You should include differences and similarities regarding their policies, personalities, and how effective
                 you think they were as leaders. <br/>
-                <a href={require("../resources/FiveParagraphEssayOutline.pdf")}
+                <a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
                    rel="noreferrer"
                    target="_blank">Click here for a 5 Paragraph Essay outline </a>if
                 you need help getting started. <br/></p>
@@ -4411,32 +4411,106 @@ const SocialStudies8 = ({ data }) => {
               <textarea className="textArea" onChange={onChangeSS8Listener143} value={SS8Essay143}/>
 
               <span className="days">LESSON 144</span>
-
+              <p>Watch the video below <b> All 50 U.S. states summarized </b>  by Geography Now. Then, complete the assignment that follows. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/hWpzs9QcCCY"/>
+             <p> List five interesting things you learned about five different states.<br/>
+              Choose one state to research online and write a paragraph that describes what it like.  Includes things like physical geography, history, cities, and economy.
+            <br/></p>
               <textarea className="textArea" onChange={onChangeSS8Listener144} value={SS8Essay144}/>
 
               <span className="days">LESSON 145</span>
+             <p>Watch the video below <b>  Introduction to U.S Government & Politics</b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/lrk4oY7UxpQ?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H"/>
+              1. What is government?<br/>
+              2. Why study government?<br/>
+              3. What is politics?<br/>
+              4. What is a republic?  What is a democracy?<br/>
+              5. What are four ways people can participate in government?<br/>
+              6. What is the most important thing a citizen can do when it comes to participating in government?<br/>
+              7. What will you learn through this course?<br/>
 
               <textarea className="textArea" onChange={onChangeSS8Listener145} value={SS8Essay145}/>
 
               <span className="days">LESSON 146</span>
+             <p>Watch the video below <b>  The Bicameral Congress</b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/n9defOwVWS8?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H"/>
+              1. Why the Federal Congress is considered the most important branch?<br/>
+              2. What are the names of the two houses of Congress?<br/>
+              3. What does the word bicameral mean?<br/>
+              4. What are the requirements for serving in the House of Representatives?<br/>
+              5. How is representation determined?<br/>
+              6. What are the six states with only one Representative?<br/>
+              7. What are the requirements for being a Senator?<br/>
+              8. Originally how were Senators chosen?<br/> What amendment changed this?<br/> How are Senators elected
+              now?<br/>
+              9. What powers (3) are specific to the House of Representatives?<br/>
+              10. What powers (3) are specific to the Senate?<br/>
+              11. Why do we have a two house legislature (practical and historical)?<br/>
+              12. What were the terms of the Connecticut Compromise?<br/>
+              13. What is an intra­branch check?<br/>
+              14. What are the reasons for and the powers given to each house of Congress?<br/>
 
               <textarea className="textArea" onChange={onChangeSS8Listener146} value={SS8Essay146}/>
 
               <span className="days">LESSON 147</span>
-
+             <p>Watch the video below <b>  Separation of Powers and Checks and Balances</b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/0bf3CwYCxXw?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H"/>
+              1. What is main job of the Legislative Branch?<br/>
+              2. What is the main job of the Executive Branch?<br/>
+              3. Where does one find the power of the President?<br/>
+              4. What is main job of the Judicial Branch?<br/>
+              5. What is the point of the checks and balances system?<br/>
+              6. What are the Legislative checks over the Executive and Judicial Branch?<br/>
+              7. What are the Executive checks over the Legislative and Judicial Branch?<br/>
+              8. What the Judicial checks over the Executive and Legislative Branch?<br/>
+              9. Which branch has the most checks?<br/>
+              10. Why do we have Checks and Balances to begin with?<br/>
+              11. What Federalist Paper refers to the Checks and Balances system?<br/>
+              12. What is Madison’s thought on human nature?<br/>
               <textarea className="textArea" onChange={onChangeSS8Listener147} value={SS8Essay147}/>
 
               <span className="days">LESSON 148</span>
-
+             <p>Watch the video below <b>  Federalism</b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/J0gosGXSgsI?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H"/>
+              1. What is Federalism?<br/>
+              2. In the US Federal System, what is the Federal government responsible for?<br/>
+              3. What are the state governments responsible for?<br/>
+              4. Do they share any responsibilities?<br/> If so, list them here as well.
+              5. What are the two types of Federalism?<br/>
+              6. How long did Dual Federalism last?<br/>
+              7. Discuss the characteristics of Dual Federalism.<br/>
+              8. What were the national government and state government responsibilities under Dual
+              Federalism?<br/>
+              9. Who has more jurisdiction under Dual Federalism?<br/>
+              10. What is the Commerce Clause?<br/>
+              11. What “Deal” brought us Cooperative Federalism?<br/>
+              12. What are Grants­in­Aid?<br/>
+              13. What the two types of Categorical grants­in­aid?<br/>
+              14. What is a block grant?<br/>
+              15. What is Regulated Federalism?<br/>
+              16. What are examples of mandates (funded or unfunded) set up the federal government?<br/>
+              17. What type of Federalism do we currently live under?<br/>
+              18. What form of Federalism did Nixon and Reagan popularize?<br/>
+              19. What are the three forms of New Federalism?<br/>
               <textarea className="textArea" onChange={onChangeSS8Listener148} value={SS8Essay148}/><br/>
 
               <span className="days">LESSON 149</span>
-
+             <p>Watch the video below <b> Constitutional Compromises </b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/kCCmuftyj8A?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H"/>
+              1. What was the original purpose of the Philadelphia Convention?<br/> What actually happened?<br/>
+              2. What was wrong with the Articles of Confederation?<br/>
+              3. What was one thing the Articles government was able to accomplish?<br/>
+              4. What was the Virginia Plan?<br/>
+              5. What was the New Jersey Plan?<br/>
+              6. What is the Great Compromise?<br/>
+              7. How were slaves counted in terms of determining representation in the House of
+              Representatives?<br/>
+              8. What are the characteristics and political thought differences between Federalist and AntiFederalist?<br/>
+              9. What was the final “compromise” of the Federalist?<br/>
               <textarea className="textArea" onChange={onChangeSS8Listener149} value={SS8Essay149}/>
 
               <span className="days">LESSON 150</span>
-              <p>Imagine that you have a private jet at your disposal and can travel anywhere in the world. If
-                you could travel to any destination, where would you go?<br/>
+              <p> If you could travel to any destination in the world, where would you go?<br/>
                 Halong Bay in Vietnam? <br/>Niagra Falls in New York? <br/>Pongwe beach in Zanzibar? <br/>Tanzania's
                 Serengeti National Park? <br/>Vallée de Mai nature reserve in Seychelles?
               </p>
@@ -4464,42 +4538,164 @@ const SocialStudies8 = ({ data }) => {
               <textarea className="textArea" onChange={onChangeSS8Listener150} value={SS8Essay150}/>
 
               <span className="days">LESSON 151</span>
+             <p>Watch the video below <b>  Congressional Elections</b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/qxiD9AEX4Hc?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H"/>
+              1. Why is the Congress considered the most important branch?<br/>
+              2. What does the Constitution say about Congressional Elections?<br/>
+              3. Who sets registration, scheduling and rules of elections?<br/>
+              4. What is a single­member district?<br/> And how are the number of districts determined?<br/>
+              5. What is an at­large election?<br/>
+              6. What are the general characteristics (3) of a candidate?<br/>
+              7. What was the average cost of a 2012 House and Senate winners?<br/>
+              8. What is an incumbency advantage?<br/> What are the reasons for these advantages?<br/>
+              9. What is the Franking Privilege?<br/>
+              10. What is the Electoral Connection?<br/> Address the three areas of representatives’ behaviors.<br/>
 
               <textarea className="textArea" onChange={onChangeSS8Listener151} value={SS8Essay151}/>
 
               <span className="days">LESSON 152</span>
-
+             <p>Watch the video below <b>  Congressional Committees</b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/evLR90Dx79M?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H"/>
+              1. Why does Congress have committees?<br/>
+              2. How many standing committees are there in the Senate and House of Representatives?<br/>
+              3. What is a joint committee?<br/>
+              4. What is a conference committee?<br/>
+              5. Does serving on committee fall in line with the Election Connection?  If yes, please explain how.<br/>
+              6. Who has proposal power?<br/>
+              7. What is gatekeeping authority?<br/>
+              8. Who manages the actual process of mark­up?<br/>
+              9. How do committees exercise oversight?<br/>
+              10. How did Newt Gingrich increase the power of the Speaker?<br/>
+              11. What are the two types of Congressional staff?<br/>
+              12. List some of the responsibilities of Congressional staff?<br/>
+              13. What is the function of the Congressional Research Service?<br/>
+              14. What is the function of the Government Accountability Office?<br/>
+              15. What is the function of the Congressional Budget Office?<br/>
+              16. What is the caucus system?<br/>
+              17. List the caucuses discussed in the video.<br/>
+              18. What is the purpose of the caucus?<br/>
               <textarea className="textArea" onChange={onChangeSS8Listener152} value={SS8Essay152}/>
 
               <span className="days">LESSON 153</span>
-
+             <p>Watch the video below <b>  Congressional Leadership</b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/evLR90Dx79M?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H "/>
+              1. How is the leader of the House of Representatives chosen?<br/>
+              2. What is the title for the leader of the House of Representatives?<br/>
+              3. Who is the current leader, third in line for the President?<br/>
+              4. What are titles of the two assistants to the leader?<br/> And what are their responsibilities?<br/>
+              5. Who is the spokesperson for the minority party?<br/>
+              6. How is leadership determined in the Senate?<br/>
+              7. What is the President Pro Tempore?<br/>
+              8. What are the powers of being in Congressional leadership?<br/>
+              9. Specifically discuss the powers of the Speaker of the House.
+              10. Why is Agenda Setting considered a negative power?<br/>
+              11. What are the ways political parties matter in Congress? How do political parties influence Congress?<br/>
               <textarea className="textArea" onChange={onChangeSS8Listener153} value={SS8Essay153}/>
 
               <span className="days">LESSON 154</span>
-
+             <p>Watch the video below <b>  How a Bill Becomes Law</b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/66f4-NKEYz4?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H"/>
+              1.	What is the first step (formal) on how a bill becomes law?<br/> Who can help with the idea of a law?<br/>
+              1.	After the bill is introduced where does it go?<br/>
+              2.	If the mark­up bill receives a majority from the committee, where does it go?<br/>
+              3.	When it comes to floor debate in the Senate, what types of rules with they determine?<br/>
+              4.	What is an open rule and closed rule?  What are their implications?<br/>
+              5.	What is the one difference in the step­by­step process of how a bill becomes law in the House?<br/>
+              6.	How many votes are needed for the House to approve a bill?<br/>
+              7.	If both houses are required to pass the same version of a bill, how often does that happen?<br/>
+              8.	What is the solution if they don’t have the same version?<br/>
+              9.	What are the options for the President when it comes to signing bills into law?<br/>
+              10.	What is the one check on the President regarding bills?<br/>
+              11.	Why do so few laws get passed?<br/>
               <textarea className="textArea" onChange={onChangeSS8Listener154} value={SS8Essay154}/>
 
               <span className="days">LESSON 155</span>
+             <p>Watch the video below <b>  Congressional Decisions</b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/ZT9ipQdYL-s?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H"/>
+              1. What are the three main factorsagents when it comes to influencing a congressman’s decisions?<br/>
+              2. What are the implications to the factorsagents?<br/>
+              3. What is the main thing that interest groups provide to a Congressman?<br/>
+              4. When are interest groups most influential?<br/>
+              5. What is logrolling?<br/>
+              6. Where does logrolling occur the most?<br/>
+              7. Why does a divided government work well for Congress?<br/>
+              8. When are political parties most influential?<br/>
 
               <textarea className="textArea" onChange={onChangeSS8Listener155} value={SS8Essay155}/>
 
               <span className="days">LESSON 156</span>
-
+             <p>Watch the video below <b>  Presidential Power</b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/ZT9ipQdYL-s?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H"/>
+              1.	What does the Constitution say about the President?<br/>
+              2.	How is the President elected?<br/> Is this democratic?<br/>
+              3.	What are the President’s powers?<br/>
+              4.	What are formal and informal powers?<br/> And where do they originate?<br/>
+              5.	Discuss the responsibilities as Commander­in­Chief.
+              6.	How many generals have served as President?<br/>
+              7.	Discuss the responsibilities as Chief Diplomat.
+              8.	Why is the State of Union important?<br/> (acting as a Chief Agenda Setter)
+              9.	Why did the Framers curtail the President’s powers?<br/>
               <textarea className="textArea" onChange={onChangeSS8Listener156} value={SS8Essay156}/>
 
               <span className="days">LESSON 157</span>
-
+             <p>Watch the video below <b> Presidential Powers 2 </b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/fnHb-zyWh14?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H"/>
+              1.What are the Presidents informal (implied) powers?<br/> Inherent powers?<br/> These will run throughout the
+              video. <br/>
+              2.What locations has the President sent troops when he did not ask for a war declaration?<br/>
+              3.What is the War Powers Resolution?<br/>
+              4.What is the most important difference between a treaty and an executive agreement?<br/>
+              5. List the two Executive Agreements discussed in the video.
+              6.Which President issued the most executive orders?<br/>
               <textarea className="textArea" onChange={onChangeSS8Listener157} value={SS8Essay157}/>
 
               <span className="days">LESSON 158</span>
-            
+             <p>Watch the video below <b> Congressional Delegation </b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/UVboes68PkQ?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H"/>
+              1.What is a delegate?<br/>
+              2.What is the delegate role?<br/>
+              3.What is a trustee?<br/>
+              4.What is delegation?<br/>
+              5.What are the 3 reasons for Congress to delegate powers to the Executive Branch?<br/>
+              6.What are the practical reasons?<br/>
+              7.What are the historical reasons?<br/>
+              8.What are the political reasons?<br/>
+              9.What is the general rule when it comes to Congressional Delegation?<br/>
               <textarea className="textArea" onChange={onChangeSS8Listener158} value={SS8Essay158}/>
 
               <span className="days">LESSON 159</span>
-
+             <p>Watch the video below <b> How Presidents Govern </b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/5vnuFJSMYkY?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H"/>
+              1. Who is at the top of the executive pyramid?<br/>
+              2.Where are most policy decisions made?<br/>
+              3.Who makes up the White House Staff?<br/>
+              4.Which staff members do you believe are the most important?<br/>
+              5.What is the Executive Office of the President?<br/>
+              6.What positions within the EOP would you consider the most important?<br/>
+              7.What is the Cabinet?<br/>
+              8.What is the purpose of a government corporation?<br/>
+              9.What are the two most well­known government corporations?<br/>
+              10.What is the best known independent agency?<br/> List some others.
+              11.What is the best known regulatory commission?<br/> List some others.<br/>
+              12.What are the president’s three main strategies when it comes to leadership?<br/> Circle the most important one.<br/>
+              13.What is the bully pulpit?<br/>
+              14.What does the Office of Management and Budget do?<br/>
+              15.List some of the most important Executive Orders
+              16.Why do Presidents increasingly rely on administrative strategies?<br/>
+              17.Explain the historical argument for the Founders preferred having a weak executive branch.<br/>
+              18.Explain the argument for a stronger executive branch.<br/>
               <textarea className="textArea" onChange={onChangeSS8Listener159} value={SS8Essay159}/>
 
               <span className="days">LESSON 160</span>
+             <p>Watch the video below <b>  Bureaucracy Basics</b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/I8EQAnKntLs?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H"/>
+              1.What is a bureaucracy?<br/>
+              2.Why do we have bureaucracy?<br/>
+              3.What is the function of the bureaucracy?<br/>
+              4.What are regulations?<br/> And how do they relate to the bureaucracy?<br/>
+              5.What is administrative adjudication?<br/>
+              6.What is the main argument for privatization?<br/>
+              7.Why do we need bureaucracy?<br/>
 
               <textarea className="textArea" onChange={onChangeSS8Listener160} value={SS8Essay160}/>
 
@@ -4510,19 +4706,65 @@ const SocialStudies8 = ({ data }) => {
             <textarea className="textArea" onChange={onChangeSS8Listener161} value={SS8Essay161}/>
 
               <span className="days">LESSON 162</span>
-
+             <p>Watch the video below <b> Types of Bureaucracies </b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/tIvUo3bP4Eo?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H"/>
+              1. What is the Executive Department?  And what is the general title shared by most?<br/>
+              2. What are independent agencies? What are some examples?<br/>
+              3.What are independent regulatory agencies? What are some examples?<br/>
+              4.What are government corporations? List the examples.
+              5.What is the purpose of the FDA, CDC, and NIH?  List another client serving agency.
+              6. How do agencies maintain the Union (5)?<br/>
+              7. How do agencies collect revenue?<br/>
+              8. How do agencies provide security? (internal and external) <br/>
+              9. How do agencies regulate economic activities?<br/>
+              10.How do agencies redistribute economic resources?<br/>
+              11.What is the purpose of the Social Security Administration?<br/>
+              12.How do bureaucrats get its power?<br/>
               <textarea className="textArea" onChange={onChangeSS8Listener162} value={SS8Essay162}/>
 
               <span className="days">LESSON 163</span>
-
+             <p>Watch the video below <b>  Controlling Bureaucracies</b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/12MCVhfo4j4?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H"/>
+              1. How are federal bureaucracies funded?<br/>
+              2. How do we control the federal bureaucracies?<br/>
+              3.What are before­the­fact controls?<br/>
+              4. What is procedural control?<br/>
+              5.What are after­the­fact controls?<br/>
+              6.What is government’s own watchdog agency?<br/>
+              7.What are three reports mentioned in the video, commissioned for investigation?<br/>
+              8.What is the best way to control the bureaucracy?<br/>
+              9.What is deregulation?  And what is its purpose?<br/>
+              10.What is devolution?  Why is it considered a bait and switch?<br/>
+              11.What is privatization?  And what attempts has the government made to privatize?<br/>
               <textarea className="textArea" onChange={onChangeSS8Listener163} value={SS8Essay163}/>
 
               <span className="days">LESSON 164</span>
-
+             <p>Watch the video below <b> Legal System Basics </b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/mXw-hEB263k?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H"/>
+              1.What are the three basic functions of the court system?<br/>
+              2.Where does most legal action occur?
+              3.What are the four main characteristics of the federal court system?<br/>
+              4.What are statutes?<br/>
+              5.What is common law?<br/>
+              6. What are the two types of court which make civil law?<br/>
+              7.What types of courts have original jurisdiction?<br/>
+              8.What types of courts have appellate jurisdiction?<br/>
+              9.What are the three types of law?<br/>
+              10.What is public law?<br/>
               <textarea className="textArea" onChange={onChangeSS8Listener164} value={SS8Essay164}/>
 
               <span className="days">LESSON 165</span>
-
+             <p>Watch the video below <b> Structure of the Court System </b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/IGyx5UEwgtA?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H "/>
+              1.Why is the American Court system hierarchical?<br/>
+              2. How many federal US District Courts are there?<br/>
+              3. How many federal appeals courts are there?<br/>
+              4.What are the four scenarios where the federal courts have original jurisdiction?<br/>
+              5. How does a case get to the Supreme Court?<br/>
+              6.When does the Supreme Court have original jurisdiction?<br/>
+              7.What is the criteria for an appeals case to make it to the Supreme Court?<br/>
+              8. How do the justices decide to hear a case?<br/>
+              9.What are the cases the courts will almost always take?<br/>
               <textarea className="textArea" onChange={onChangeSS8Listener165} value={SS8Essay165}/>
 
               <span className="days">LESSON 166</span>
@@ -4554,53 +4796,140 @@ const SocialStudies8 = ({ data }) => {
               <textarea className="textArea" onChange={onChangeSS8Listener166} value={SS8Essay166}/>
 
               <span className="days">LESSON 167</span>
-
+             <p>Watch the video below <b>  Supreme Court of the United States Procedures</b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/7sualy8OiKk?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H"/>
+              1. If you have lost your appeal in the lower courts, and still think the decision is wrong, what can you do
+              to appeal to the Supreme Court?<br/>
+              2. Identify what that term is?<br/>
+              3. What is the Rule of 4?<br/>
+              4. What is an Amicus Curiae, and who writes them?<br/>
+              5. What is the difference between dissenting opinion and concurring opinion?<br/>
+              6. Explain the steps into getting a case chosen to be heard in the Supreme Court?<br/>
               <textarea className="textArea" onChange={onChangeSS8Listener167} value={SS8Essay167}/>
 
               <span className="days">LESSON 168</span>
-
+             <p>Watch the video below <b>  Judicial Review</b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/mWYFwl93uCM?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H"/>
+              1. What is the term to declare laws unconstitutional?<br/>
+              2. Where does the power to review and overturn state’s decisions come from?<br/>
+              3. What do federal courts have the power to review?<br/>
+              4. Which case did the Supreme Court grant itself the power of judicial review?<br/>
+              5. What is precedent?<br/>
               <textarea className="textArea" onChange={onChangeSS8Listener168} value={SS8Essay168}/>
 
               <span className="days">LESSON 169</span>
-
+             <p>Watch the video below <b>  Civil Rights & Liberties</b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/kbwsF-A2sTg?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H "/>
+              1. What’s the difference between civil rights and liberties?<br/>
+              2. What item established most civil liberties for the United States?<br/>
+              3. What amendment provided “equal protection” and “due process” in the United States?<br/>
+              4. What is selective incorporation?<br/>
+              5. Give an example of a court case which used selective incorporation?<br/>
               <textarea className="textArea" onChange={onChangeSS8Listener169} value={SS8Essay169}/>
 
               <span className="days">LESSON 170</span>
-
+             <p>Watch the video below <b>  Freedom of Religion</b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/kbwsF-A2sTg?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H "/>
+              1. What does Jurisprudence mean?<br/>
+              2. Define the Establishment Clause.<br/>
+              3. What Happened in Lemon v Kurtzmen?<br/>
+              4. What is the Lemon Test?<br/>
+              5. What happened in Engel v Vitale?<br/>
               <textarea className="textArea" onChange={onChangeSS8Listener170} value={SS8Essay170}/>
 
               <span className="days">LESSON 171</span>
-
+             <p>Watch the video below <b>  Freedom of Speech </b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/Zeeq0qaEaLw?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H"/>
+              1. Why does the government only protect preferred speech not private institutions?  Would they not
+              have that power in the commerce clause?<br/>
+              2. Why is the right of speech not absolute? Give an example of when someone should not be allowed to say whatever they want.<br/>
+              3. Do students possess the same right to freedom of speech as adult voters?<br/>
+              4. What tool is used to protect the unprotected speech?<br/>
+              5. Is freedom of speech on the internet the same as in person?<br/>
               <textarea className="textArea" onChange={onChangeSS8Listener171} value={SS8Essay171}/>
 
               <span className="days">LESSON 172</span>
-
+             <p>Watch the video below <b> Freedom of the Press </b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/Vtpd0EbaFoQ?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H"/>
+              1. What is prior restraint?  What Supreme Court case said it was not allowed?<br/>
+              2. What can the government do to prevent newspapers from lying about officials?<br/>
+              3. What is the chilling effect?<br/>
+              4. What was the ruling outcome of New York Times v. Sullivan?<br/>
+              5. What is one exception to the extent of First Amendment protection?<br/>
               <textarea className="textArea" onChange={onChangeSS8Listener172} value={SS8Essay172}/>
 
               <span className="days">LESSON 173</span>
-
+             <p>Watch the video below <b>  Search and Seizure</b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/_4O1OlGyTuU?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H"/>
+              1. Which amendments can you find the civil liberties of the criminal procedure?<br/>
+              2. Where do officers of the law have to go for a warrant to search?  What must they have to receive a warrant?<br/>
+              3. If an officer has a warrant to check your yard, is he able to check inside the house?<br/>
+              4. When a cop pulls you over for speeding violations and finds illegal marijuana in the car with you, is he able to arrest you for this?<br/>
+              5. What is the exclusionary rule?<br/>
               <textarea className="textArea" onChange={onChangeSS8Listener173} value={SS8Essay173}/>
 
               <span className="days">LESSON 174</span>
-
+             <p>Watch the video below <b>  Due Process of Law</b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/UyHWRXAAgmQ?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H"/>
+              1. For most criminal cases, who is the prosecution?  Federal or State?<br/>
+              2. Which amendments in the Bill of Rights deal with due process of law?<br/>
+              3. What are the two types of due process?  Define them.the courts.<br/>
+              4. What is the 14th Amendment targeted towards?<br/>
+              5. What should you do if you are approached for questions by “government agents”?<br/>
               <textarea className="textArea" onChange={onChangeSS8Listener174} value={SS8Essay174}/>
 
               <span className="days">LESSON 175</span>
-
+             <p>Watch the video below <b>  Equal Protection</b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/qKK5KVI9_Q8?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H"/>
+              1. Explain the differences between civil rights and civil liberties.<br/>
+              2. What is a protected class?  What is the government's purpose in defining them?<br/>
+              3. List the 5 steps of strict scrutiny.<br/>
+              4. Define rational basis scrutiny and intermediate scrutiny.<br/>
+              5. What are some historical applications of the Fourteenth Amendment?<br/>
+              <textarea className="textArea" onChange={onChangeSS8Listener175} value={SS8Essay175}/>
 
               <span className="days">LESSON 176</span>
+             <p>Watch the video below <b>  Public Opinion</b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/WJLDgb8m3K0?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H"/>
+              1. How are government and politics different?<br/>
+2. How did politicians incorporate democracy into the republic that is the United States government if 
+people aren’t sure of what they want politically?<br/>
+3. What is Condorcet’s Jury Theorem and how does it apply to public opinion?<br/>
+4. How does public opinion through polling affect politicians?<br/>
+5. How can polls skew public opinion?<br/>
 
               <textarea className="textArea" onChange={onChangeSS8Listener176} value={SS8Essay176}/>
 
               <span className="days">LESSON 177</span>
+             <p>Watch the video below <b>  Shaping Public Opinion</b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/NflULVECAFQ?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8HP-yviKu8Odo?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H"/>
+              1. How does a person’s political ideology influence their opinions on politics?<br/>
+              2. How does the president use the media to influence public opinion on policy?<br/>
+              3. How does the economy or the general well-being of the times influence public opinion?<br/>
+              4. How does the media shape public opinion?<br/>
+              5. How does the media help interest groups to spread their message?<br/>
 
               <textarea className="textArea" onChange={onChangeSS8Listener177} value={SS8Essay177}/>
 
               <span className="days">LESSON 178</span>
+             <p>Watch the video below <b> Political Ideology </b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/j_k_k-bHigM?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H"/>
+              1.	What do Conservatives believe?<br/>
+              2.	What do Liberals believe?<br/>
+              3.	How do people acquire their political ideologies (Political Socialization)?<br/>
+              4.	How do social groups influence political ideology identification?<br/>
+              5.	How does family influence political ideology identification?<br/>
 
               <textarea className="textArea" onChange={onChangeSS8Listener178} value={SS8Essay178}/>
 
               <span className="days">LESSON 179</span>
+             <p>Watch the video below <b>  Political Parties</b> by Crash Course. Then, answer the questions that follow. </p><br/>
+              <Video videoUrl="https://www.youtube.com/embed/VEmOUHxessE?list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H"/>
+              1. What is a political party and their goals?<br/>
+              2. What are three reasons why we have political parties?<br/>
+              3. What are the 5 main functions of political parties?<br/>
+              4. What is the difference between open and closed primaries?<br/>
+              5. What kind of relationship does the president have with it’s political party?  Explain.<br/>
 
               <textarea className="textArea" onChange={onChangeSS8Listener179} value={SS8Essay179}/>
 

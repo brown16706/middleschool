@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState, useEffect } from 'react';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 // import { Link } from "gatsby"
@@ -8,10 +8,16 @@ import ScrollToTop from "react-scroll-to-top"
 import Confetti from "../components/confetti"
 import Video from "../components/video"
 
-/*  TO DO - CONGRATULATIONS FOR FINISHING COURSE https://codepen.io/andershoff/pen/ZwQRKv?editors=0010  CONFETTI*/
+
 
 const Chess = ({ data }) => {
 
+  useEffect(() => {
+    setKey(localStorage.getItem('token'))
+  }, [])
+  const isBrowser = typeof window !== "undefined"
+  const x = localStorage !== "undefined"
+  
   const [selectedChess1, setSelectedChess1] = React.useState(localStorage.getItem("chess-1") === "true")
   const [selectedChess2, setSelectedChess2] = React.useState(localStorage.getItem("chess-2") === "true")
   const [selectedChess3, setSelectedChess3] = React.useState(localStorage.getItem("chess-3") === "true")

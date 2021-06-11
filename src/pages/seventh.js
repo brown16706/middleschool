@@ -65,7 +65,7 @@ const Seventh = ({ data }) => {
               <div className="subject languages7">
                 <Link to="/languages7">
                   <img className="week" alt="languages" src={require("../../content/images/subjectimages/languages.png")}/>
-                  <p className="subject-info">foreign language</p>
+                  <p className="subject-info">languages</p>
                 </Link></div>
               
               <div className="subject art7">
