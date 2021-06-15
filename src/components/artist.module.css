@@ -1,5 +1,6 @@
 :root {
-    --bubble2: #d4e6e9;;
+    --bubble2: rgba(66, 198, 207, 0.78);
+    /*change within inline div styles "--bubble2": "rgba(59, 181, 207, .36)"*/
 }
 
 /*Bubbles moving*/
@@ -48,7 +49,7 @@
 }
 
 div.bubbles {
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
     z-index: 0;
     padding: 50px !important;
@@ -59,6 +60,12 @@ div.bubbles {
     background-color: #ffffff;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased
+}
+
+@media (max-width: 600px) {
+    div.bubbles {
+        padding: 50px 25px !important;
+    }
 }
 
 div.bubbles:after, div.bubbles:before {
@@ -125,9 +132,10 @@ div.bubbles:after {
     height: max-content;
 }
 
+
 @media (max-width: 500px) {
     .artistname {
-        font-size: 32px;
+        font-size: 50px;
         margin-top: 50px;
     }
 }
@@ -245,7 +253,7 @@ div.bubbles:after {
 }
 
 .flexitem {
-    height: 100vh;
+    min-height: 100vh;
     color: #fff;
 }
 
@@ -258,7 +266,7 @@ div.bubbles:after {
 
 @media (min-width: 1023px) {
     .flexcontainer {
-        height: 100vh;
+        min-height: 100vh;
     }
 
     .flexitemLeft {
@@ -409,8 +417,52 @@ div.bubbles:after {
     .videoWrapper {
         padding: 0;
     }
+
     .videoWrapper iframe {
         max-width: 100%;
         max-height: 100%;
     }
+}
+
+/*Resources & About Pages*/
+a.resources:link {
+    color: #34363E !important;
+}
+
+a.resources:hover {
+    color: #42C6CF !important;
+    text-decoration: none;
+}
+
+.descrip {
+    position: relative;
+    z-index: 4;
+    line-height: 1.6em;
+    font-size: 24px;
+    height: max-content;
+    margin: 25px;
+    color: #34363E !important;
+}
+
+.pararesources {
+    margin-top: 32px;
+    position: relative;
+    z-index: 4;
+    line-height: 1.6em;
+    font-size: 1em;
+    height: max-content;
+    color: #34363E !important;
+}
+
+.leftmarg {
+    margin-left: 20px;
+}
+
+.about {
+    position: relative;
+    z-index: 4;
+    line-height: 1.6em;
+    font-size: 1.2em;
+    height: max-content;
+    color: #34363E !important;
 }

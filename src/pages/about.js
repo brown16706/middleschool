@@ -16,10 +16,9 @@ const About = ({ data }) => {
       />
 
       <>
-        <div style={{ minHeight: "100vh", width: "100vw" }} className={styles.bubbles}>
+        <div style={{ minHeight: "100vh", width: "100vw",  "--bubble2": "rgba(59, 181, 207, .36)" }} className={styles.bubbles}>
           <section className={styles.sectioncontent}>
-            <div className={styles.artistname} data-sal="slide-up" data-sal-duration="1600"
-                 style={{ color: "" }}>About
+            <div className={styles.artistname} data-sal="slide-up" data-sal-duration="1600">About
             </div>
             <div className={styles.about}>
               <p className={styles.pararesources} data-sal="slide-up" data-sal-duration="1600">This is the site I wish I
