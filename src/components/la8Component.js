@@ -5260,7 +5260,7 @@ const LA8Component = ({ data }) => {
               <div><img src={require("../../public/images/stories/dog.jpg")}
                         alt="girl with dog"/>
                 <p className="captionTitle">By the River</p>
-                <p className="caption">When the dog beckoned for her to follow, the girl quickly jumped on her bike.</p>
+                <p className="caption">When the dog beckoned for her to follow, she quickly jumped on her bike. If she didn't get there by sunset, it would be too late.</p>
               </div>
               <div><img src={require("../../public/images/stories/throwingstone.jpg")} style={{ maxWidth: "500px" }}
                         alt="child throwing a stone"/>
@@ -5271,7 +5271,7 @@ const LA8Component = ({ data }) => {
               <div><img src={require("../../public/images/stories/twokeys.jpg")} style={{ maxWidth: "500px" }}
                         alt="two keys"/>
                 <p className="captionTitle">Unlocking Secrets</p>
-                <p className="caption">He had a hunch about what the keys would unlock. He grabbed them and ran.</p>
+                <p className="caption">He had a hunch about what the keys would unlock. He grabbed both keys and ran.</p>
               </div>
             </div>
             <div className="columnimages">
@@ -5284,8 +5284,8 @@ const LA8Component = ({ data }) => {
               <div><img src={require("../../public/images/stories/pathinwoods.jpg")} style={{ maxWidth: "500px" }}
                         alt="path through the woods"/>
                 <p className="captionTitle">Off the Beaten Path</p>
-                <p className="caption">You got lost in the woods and it's getting late. Suddenly, a bright light
-                  appears. </p>
+                <p className="caption">You are lost in the woods and it's getting late. Suddenly, a bright light
+                  appears in front of you. </p>
               </div>
               <div><img src={require("../../public/images/stories/maninthefog.jpg")} style={{ maxWidth: "500px" }}
                         alt="man walking through the fog"/>
@@ -5546,7 +5546,6 @@ const LA8Component = ({ data }) => {
                    alt="castle"/>
             </div>
           </div>
-
           <p className="topBottom">You can use the <a
             href="../resources/languagearts/StoryOutlineWorksheet.pdf">Story Outline Worksheet</a> to get started.
           </p>
@@ -5574,23 +5573,26 @@ const LA8Component = ({ data }) => {
           {/*Advice on characters */}
           <Video videoUrl="https://www.youtube.com/embed/SgGARYH2vRg"/>
           <p className="topBottom">Your next two lessons will be to develop two great characters your readers will care
-            about: a protagonist and an antagonist. Start thinking about what them: their personalities, physical
+            about: a protagonist and an antagonist. Start thinking about what they are like, consider: personality, physical
             appearance, strengths, weaknesses, special abilities (optional) and what they value. Develop these
             characters in your mind and think about the following questions: <br/>
             <ul className="list">
-              <li>Where do you want your protagonist to travel to? </li>
               <li>What does your character want or want to achieve?</li>
-              <li>What are the obstacles they will face? </li>
+              <li>Where do you want your protagonist to travel to?</li>
+              <li>What are the obstacles they will face?</li>
               <li>What do they risk losing if they fail in their quest?</li>
+              <li> What will they gain if they achieve their quest?</li>
               <li>How do you want them to grow and change as a person?</li>
-              <li> What will they gain if they achieve their quest?</li></ul></p>
+              <li>Which fictional genres best suits your characters? You can choose from any that you've learned about: 
+                adventure, fantasy, mythology, horror, mystery, fairy tale, etc.</li>
+            </ul>
+          </p>
           <p className="topBottom">Take a few minutes to complete the assignment below. Your responses can be short
             bullet points.
             <ol className="vocab">
               <li>Close your eyes and imagine the protagonist for your next story. Briefly describe their external and
-                internal traits.
-              </li>
-              <li>List at least one place the protagonist will travel to. If you're not sure, where would travel to if
+                internal traits.</li>
+              <li>List at least one place the protagonist will travel to. If you're not sure, where would you travel to if
                 there were no limitations? This can be a place of your own creation.
               </li>
               <li> Picture the villain. What are they like?</li>
@@ -5598,40 +5600,50 @@ const LA8Component = ({ data }) => {
                 artifact? Are they on a mission of some kind? Jot down any ideas you have.
               </li>
             </ol></p>
-          <p className="topBottom">Create a book cover design for your next story. Think about the impression and mood you
-            want the images and colors to create for your readers. You can use whatever
-            medium  you choose: collage, paper and markers, or <a href="https://www.canva.com/create/book-covers/"
-                                                          rel="noreferrer"
-                                                          target="_blank"> Canva's online book cover creation
-              tool. </a>You choose how you want to design it. Your book cover may change later, depending on how your final story develops.</p>
+          <p className="topBottom">Create a book cover design for your next story. Think about the impression and mood
+            you want the images and colors to create for your readers. You can use whatever
+            medium you choose: collage, paper and markers, or <a href="https://www.canva.com/create/book-covers/"
+                                                                 rel="noreferrer"
+                                                                 target="_blank"> Canva's online book cover creation
+              tool. </a>You choose how you want to design it. </p>
           <textarea className="textArea" onChange={onChangela8Listener177} value={la8Essay177}/>
 
           <span className="days">LESSON 178 </span>
           <h4> Character Development - The Protagonist</h4>
-          <p className="topBottom">Time to fully develop the protagonist for your next story. Address the questions
+          <p className="topBottom">It's time to fully develop the protagonist for your next story. Address the questions
             below using complete sentences.</p>
           <p>
             <ol className="vocab">
-              <li> What is their name, age, gender and where do they live?</li>
-              <li>Briefly describe your protagonist's background or childhood.  Is there something about their background or childhood that is important and shaped who they are as a
-                person? Examples: Their parents died and left them a fortune, they are poor growing up, they were bullied, or they were raised in China and are fluent
-                in Mandarin. </li>
+              <li> What is your protagonist's name, age, gender and where do they live?</li>
+              <li>Briefly describe your protagonist's background or childhood. Is there something about their background
+                or childhood that is important and shaped who they are as a
+                person? Examples: Their parents died and left them a fortune, they are poor growing up, they were
+                bullied, or they were raised in China and are fluent in Mandarin. </li>
               <li>Do they have any special abilities (optional). These can be supernatural or magical powers or worldly
-                abilities like a high IQ or jiu-jitsu skills.</li>
+                abilities like a high IQ or jiu-jitsu skills. </li>
               <li>What are your character's strengths? Examples: Confidence, strong moral compass, problem solving
-                skills, loyalty, persistence. </li>
-              <li>What are your character's weaknesses? Are there any weaknesses or fears the villain can use against them?  Examples: Short temper, conflict avoidant, fear of snakes or a
-                physical handicap. </li>
-              <li>Where will your protagonist to travel to? Describe how this is dramatically different than where they live now?</li>
+                skills, loyalty, or persistence.  </li>
+              <li>What are your character's weaknesses? Are there any weaknesses or fears the villain can use against
+                them? Examples: Short temper, conflict avoidant, fear of snakes or a
+                physical handicap.
+              </li>
+              <li>Where will your protagonist to travel to? Describe how this is dramatically different than where they
+                live now? </li>
               <li>What is a quest they were meant to pursue? Are they chasing after an
-                artifact? Are they on a mission of some kind? </li>
-                <li>What does your character want or want to achieve?</li>
+                artifact? Are they on a mission of some kind?
+              </li>
+              <li>What does your character want or want to achieve?</li>
               <li>What are the obstacles they will face?</li>
               <li>What do they risk losing if they fail in their quest?</li>
               <li>How do you want them to grow and change as a person?</li>
               <li>What will they gain if they achieve their quest?</li>
-              <li>What do they look like? Be specific, including height, facial features, and how they dress.</li>
-              <li>You can either sketch a picture of your protagonist or create your character on <a href="https://charactercreator.org/#"  rel="noreferrer" target="_blank">Character Creator </a>online.  Be sure to take a screen shot and save this to your device. You will need this to to include with your story later.</li>
+              <li>What do does your protagonist look like? Be specific, including height, facial features, and how they
+                dress.
+              </li>
+              <li>Create a picture of your protagonist. You can sketch a picture or create your character on <a
+                href="https://charactercreator.org/#" rel="noreferrer" target="_blank">Character Creator </a>online. Be
+                sure to take a screen shot and save this to your device so you can include it with your story later.
+              </li>
             </ol>
           </p>
           <textarea className="textArea" onChange={onChangela8Listener178} value={la8Essay178}/>
@@ -5641,27 +5653,48 @@ const LA8Component = ({ data }) => {
           <p className="topBottom">Create the villain your protagonist will have to fight. <br/>
             <li>What is your villain's name, gender and age?</li>
             <li>What makes your villain a villain? Why does he do what he does? What is his backstory? Example: Lord
-              Voldemort wanted to become the surpreme leader of wizards and rid the wizarding world of Muggles. His mother had tricked his father
+              Voldemort wanted to become the supreme leader of wizards and rid the wizarding world of Muggles. His
+              mother had tricked his father
               into loving her. He was not born from love and didn't know love as a child.
             </li>
             <li>What makes your villain powerful? What skills, abilities and traits make them <i>nearly</i> impossible
-              for your  protagonist to defeat? Example: The Joker (in Batman) The Joker has no superhuman abilities, but
-              he is clever and uses chemical engineering to make poisonous weapons.  
+              for your protagonist to defeat? Example: The Joker (in Batman) The Joker has no superhuman abilities, but
+              he is clever and uses chemical engineering to make poisonous weapons.
             </li>
-          <li>What are their weaknesses? Will your hero be able to use a weakness against them to win? </li>
-
+            <li>What are their weaknesses? Will your hero be able to use a weakness against the villain to win?</li>
+            <li>What do does your protagonist look like? Be specific, including height, facial features, and how they
+              dress.
+            </li>
+            <li>Create a picture of your villain. You can sketch a picture or create your character on <a
+              href="https://charactercreator.org/#" rel="noreferrer" target="_blank">Character Creator </a>online. Be
+              sure to take a screen shot and save this to your device so you can include it with your story later.
+            </li>
           </p>
           <textarea className="textArea" onChange={onChangela8Listener179} value={la8Essay179}/>
 
           <span className="days">LESSON 180 </span>
-          <h4> Final Story</h4>
-          <p className="topBottom">It's time to write your final story for this class! </p>
+          <h4> Final Fictional Story</h4>
+          <p className="topBottom">It's time to write your final story for this class!</p>
+  <p>        <ul className="assnList">
+              <li>What point of view will you use?</li>
+    <li> What type of fiction or genre did you choose?</li>
+              <li>Title of your story.</li>
+              <li>Grab your readers’ attention in the first paragraph.</li>
+              <li>Where and when is it (past, present or future)?  Who are your characters? Set the scene and introduce your characters.</li>
+              <li>What are the sequence events?  Write about the first thing that happens. Introduce the conflict.  What is the challenge the main character must face in order to grow and
+                change? What obstacles must be overcome? </li>
+              <li>Next (build up):</li>
+              <li>Finally (resolution).  How will the problem be solved? </li>
+            </ul>
+            <br/> Write your story in the textbox and be sure to back up your work.  When you submit this story to your parent or teacher, include your character sketches and
+              book cover.</p>
+          <p className="topBottom">You can use the <a
+            href="../resources/languagearts/StoryOutlineWorksheet.pdf">Story Outline Worksheet</a> to help.</p>
           <textarea className="textArea" onChange={onChangela8Listener180} value={la8Essay180}/>
         </div>
       </section>
       <Confetti/>
       <h3 style={{ textAlign: "center", height: "70vh", width: "100vw" }}>You finished 8th Grade Language Arts!</h3>
-
     </form>
   )
 }
