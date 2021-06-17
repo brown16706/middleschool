@@ -188,12 +188,12 @@ const LA8Component = ({ data }) => {
   const [la8Essay172, setla8Essay172] = useLocalStorageState("la8Essay172", "")
   const [la8Essay173, setla8Essay173] = useLocalStorageState("la8Essay173", "")
   const [la8Essay174, setla8Essay174] = useLocalStorageState("la8Essay174", "")
-  // const [la8Essay175, setla8Essay175] = useLocalStorageState("la8Essay175", "")
-  // const [la8Essay176, setla8Essay176] = useLocalStorageState("la8Essay176", "")
-  // const [la8Essay177, setla8Essay177] = useLocalStorageState("la8Essay177", "")
-  // const [la8Essay178, setla8Essay178] = useLocalStorageState("la8Essay178", "")
-  // const [la8Essay179, setla8Essay179] = useLocalStorageState("la8Essay179", "")
-  // const [la8Essay180, setla8Essay180] = useLocalStorageState("la8Essay180", "")
+  const [la8Essay175, setla8Essay175] = useLocalStorageState("la8Essay175", "")
+  const [la8Essay176, setla8Essay176] = useLocalStorageState("la8Essay176", "")
+  const [la8Essay177, setla8Essay177] = useLocalStorageState("la8Essay177", "")
+  const [la8Essay178, setla8Essay178] = useLocalStorageState("la8Essay178", "")
+  const [la8Essay179, setla8Essay179] = useLocalStorageState("la8Essay179", "")
+  const [la8Essay180, setla8Essay180] = useLocalStorageState("la8Essay180", "")
 
 
   const onChangela8Listener1 = (event) => {
@@ -718,24 +718,24 @@ const LA8Component = ({ data }) => {
   const onChangela8Listener174 = (event) => {
     setla8Essay174(event.target.value)
   }
-  // const onChangela8Listener175 = (event) => {
-  //   setla8Essay175(event.target.value)
-  // }
-  // const onChangela8Listener176 = (event) => {
-  //   setla8Essay176(event.target.value)
-  // }
-  // const onChangela8Listener177 = (event) => {
-  //   setla8Essay177(event.target.value)
-  // }
-  // const onChangela8Listener178 = (event) => {
-  //   setla8Essay178(event.target.value)
-  // }
-  // const onChangela8Listener179 = (event) => {
-  //   setla8Essay179(event.target.value)
-  // }
-  // const onChangela8Listener180 = (event) => {
-  //   setla8Essay180(event.target.value)
-  // }
+  const onChangela8Listener175 = (event) => {
+    setla8Essay175(event.target.value)
+  }
+  const onChangela8Listener176 = (event) => {
+    setla8Essay176(event.target.value)
+  }
+  const onChangela8Listener177 = (event) => {
+    setla8Essay177(event.target.value)
+  }
+  const onChangela8Listener178 = (event) => {
+    setla8Essay178(event.target.value)
+  }
+  const onChangela8Listener179 = (event) => {
+    setla8Essay179(event.target.value)
+  }
+  const onChangela8Listener180 = (event) => {
+    setla8Essay180(event.target.value)
+  }
 
   return (
 
@@ -5241,7 +5241,8 @@ const LA8Component = ({ data }) => {
               <li>Finally (resolution):</li>
             </ul>
           </p>
-          <p>Watch the the video below <b> How to write descriptively - Nalo Hopkinson and then complete the writing
+          <p>Watch the the video below <b> How to write descriptively</b> by Nalo Hopkinson and then complete the
+            writing
             assignment that follows.</p>
           <Video videoUrl="https://www.youtube.com/embed/ RSoRzTtwgP4"/>
 
@@ -5502,14 +5503,16 @@ const LA8Component = ({ data }) => {
 
           <span className="days">LESSON 176 </span>
           <h4> Write an Adventure Story</h4>
-          <p className="topBottom">Novels and short stories in the adventure genre involve a hero who goes on an
-            exciting journey. It is
-            often a personal journey of growth, but usually a journey to some place the protagonist has never been
-            before. These stories are usually fast-paced, with elements of danger, obstacles to overcome, and a villain to defeat.
+          <p className="topBottom">Stories in the adventure genre involve a hero who goes on an
+            exciting journey to some place very different than what he is used to. It is
+            also usually a journey of personal growth in which the protagonist grows into a hero. These stories are
+            usually fast-paced, with elements of danger, obstacles to overcome, and a
+            villain to defeat.
           </p>
-          <p className="topBottom"> Examples include The Adventures of Tom Sawyer, Gulliver's Travels, and Treaure Planet.</p>
+          <p className="topBottom"> Examples include The Adventures of Tom Sawyer, Gulliver's Travels, and Treaure
+            Planet.</p>
 
-          <p className="topBottom">Select one of the images below to base your adventure on and write it in the textbox
+          <p className="topBottom">Base your adventure on one of the images below. Write your story in the textbox
             below and be sure to back up your work.</p>
 
           <p> A good adventure should include all of the elements listed above under "WRITING STORIES". It should also
@@ -5523,24 +5526,24 @@ const LA8Component = ({ data }) => {
             </ul></p>
           <div className="rowimages">
             <div className="columnimages">
-              <img src={require("../../public/images/stories/scifi1.jpg")}
-                   alt="cyborg girl"/>
-              <img src={require("../../public/images/stories/scifi2.jpg")}
-                   alt="Scifi planet "/>
-              <img src={require("../../public/images/stories/scifi3.jpg")}
-                   alt="Futuristic world "/>
-              <img src={require("../../public/images/stories/scifi4.jpg")}
-                   alt="Floating spaceship"/>
+              <img src={require("../../public/images/stories/adventure1.jpg")}
+                   alt="old sailing ship"/>
+              <img src={require("../../public/images/stories/adventure2.jpg")}
+                   alt="astronaut in space"/>
+              <img src={require("../../public/images/stories/adventure3.jpg")}
+                   alt="pyramids"/>
+              <img src={require("../../public/images/stories/adventure4.jpg")}
+                   alt="girl in ice tunnel"/>
             </div>
             <div className="columnimages">
-              <img src={require("../../public/images/stories/scifi9.jpg")}
-                   alt="Lighted tunnel into space"/>
-              <img src={require("../../public/images/stories/scifi6.jpg")}
-                   alt="Robots on another planet"/>
-              <img src={require("../../public/images/stories/scifi7.jpg")}
-                   alt="Children approaching UFO"/>
-              <img src={require("../../public/images/stories/scifi8.jpg")}
-                   alt="Astronauts on another planet"/>
+              <img src={require("../../public/images/stories/adventure5.jpg")}
+                   alt="hot air balloon over desert"/>
+              <img src={require("../../public/images/stories/adventure6.jpg")}
+                   alt="ruins in the jungle"/>
+              <img src={require("../../public/images/stories/adventure7.jpg")}
+                   alt="grim reaper on boat with passengers"/>
+              <img src={require("../../public/images/stories/adventure8.jpg")}
+                   alt="castle"/>
             </div>
           </div>
 
@@ -5551,28 +5554,116 @@ const LA8Component = ({ data }) => {
                     placeholder="Be sure to backup your work and send it to your parent or teacher."
                     onChange={onChangela8Listener176} value={la8Essay176}/>
 
-          {/*<span className="days">LESSON 177 </span>*/}
+          <span className="days">LESSON 177 </span>
+          <h4> Character Development</h4>
+          <p className="topBottom">No matter how exciting your plot may be, readers won't want to keep reading unless
+            you have great characters. Watch the videos below to learn how to develop characters your readers will fall
+            in love with and believe are real. Then complete the assignment posted after the videos.</p>
+          {/*Introduction to Character */}
+          <Video videoUrl="https://www.youtube.com/embed/ngZQUebMSEg"/>
+          {/*Internal vs. external features */}
+          <Video videoUrl="https://www.youtube.com/embed/Yl_okKqVXKo"/>
+          {/*Wants vs. needs */}
+          <Video videoUrl="https://www.youtube.com/embed/RgRfbvLkvnI"/>
+          {/*Obstacles */}
+          <Video videoUrl="https://www.youtube.com/embed/ZyNvgFmBQTs"/>
+          {/*Character arc */}
+          <Video videoUrl="https://www.youtube.com/embed/figcC-ANUu4"/>
+          {/*Stakes */}
+          <Video videoUrl="https://www.youtube.com/embed/WJ_iNkkgdCA"/>
+          {/*Advice on characters */}
+          <Video videoUrl="https://www.youtube.com/embed/SgGARYH2vRg"/>
+          <p className="topBottom">Your next two lessons will be to develop two great characters your readers will care
+            about: a protagonist and an antagonist. Start thinking about what them: their personalities, physical
+            appearance, strengths, weaknesses, special abilities (optional) and what they value. Develop these
+            characters in your mind and think about the following questions: <br/>
+            <ul className="list">
+              <li>Where do you want your protagonist to travel to? </li>
+              <li>What does your character want or want to achieve?</li>
+              <li>What are the obstacles they will face? </li>
+              <li>What do they risk losing if they fail in their quest?</li>
+              <li>How do you want them to grow and change as a person?</li>
+              <li> What will they gain if they achieve their quest?</li></ul></p>
+          <p className="topBottom">Take a few minutes to complete the assignment below. Your responses can be short
+            bullet points.
+            <ol className="vocab">
+              <li>Close your eyes and imagine the protagonist for your next story. Briefly describe their external and
+                internal traits.
+              </li>
+              <li>List at least one place the protagonist will travel to. If you're not sure, where would travel to if
+                there were no limitations? This can be a place of your own creation.
+              </li>
+              <li> Picture the villain. What are they like?</li>
+              <li>What ideas do you have for the quest the protagonist will embark on? Are they chasing after an
+                artifact? Are they on a mission of some kind? Jot down any ideas you have.
+              </li>
+            </ol></p>
+          <p className="topBottom">Create a book cover design for your next story. Think about the impression and mood you
+            want the images and colors to create for your readers. You can use whatever
+            medium  you choose: collage, paper and markers, or <a href="https://www.canva.com/create/book-covers/"
+                                                          rel="noreferrer"
+                                                          target="_blank"> Canva's online book cover creation
+              tool. </a>You choose how you want to design it. Your book cover may change later, depending on how your final story develops.</p>
+          <textarea className="textArea" onChange={onChangela8Listener177} value={la8Essay177}/>
 
-          {/*<textarea className="textArea" onChange={onChangela8Listener177} value={la8Essay177}/>*/}
+          <span className="days">LESSON 178 </span>
+          <h4> Character Development - The Protagonist</h4>
+          <p className="topBottom">Time to fully develop the protagonist for your next story. Address the questions
+            below using complete sentences.</p>
+          <p>
+            <ol className="vocab">
+              <li> What is their name, age, gender and where do they live?</li>
+              <li>Briefly describe your protagonist's background or childhood.  Is there something about their background or childhood that is important and shaped who they are as a
+                person? Examples: Their parents died and left them a fortune, they are poor growing up, they were bullied, or they were raised in China and are fluent
+                in Mandarin. </li>
+              <li>Do they have any special abilities (optional). These can be supernatural or magical powers or worldly
+                abilities like a high IQ or jiu-jitsu skills.</li>
+              <li>What are your character's strengths? Examples: Confidence, strong moral compass, problem solving
+                skills, loyalty, persistence. </li>
+              <li>What are your character's weaknesses? Are there any weaknesses or fears the villain can use against them?  Examples: Short temper, conflict avoidant, fear of snakes or a
+                physical handicap. </li>
+              <li>Where will your protagonist to travel to? Describe how this is dramatically different than where they live now?</li>
+              <li>What is a quest they were meant to pursue? Are they chasing after an
+                artifact? Are they on a mission of some kind? </li>
+                <li>What does your character want or want to achieve?</li>
+              <li>What are the obstacles they will face?</li>
+              <li>What do they risk losing if they fail in their quest?</li>
+              <li>How do you want them to grow and change as a person?</li>
+              <li>What will they gain if they achieve their quest?</li>
+              <li>What do they look like? Be specific, including height, facial features, and how they dress.</li>
+              <li>You can either sketch a picture of your protagonist or create your character on <a href="https://charactercreator.org/#"  rel="noreferrer" target="_blank">Character Creator </a>online.  Be sure to take a screen shot and save this to your device. You will need this to to include with your story later.</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela8Listener178} value={la8Essay178}/>
 
-          {/*<span className="days">LESSON 178 </span>*/}
+          <span className="days">LESSON 179 </span>
+          <h4> Character Development - The Antagonist</h4>
+          <p className="topBottom">Create the villain your protagonist will have to fight. <br/>
+            <li>What is your villain's name, gender and age?</li>
+            <li>What makes your villain a villain? Why does he do what he does? What is his backstory? Example: Lord
+              Voldemort wanted to become the surpreme leader of wizards and rid the wizarding world of Muggles. His mother had tricked his father
+              into loving her. He was not born from love and didn't know love as a child.
+            </li>
+            <li>What makes your villain powerful? What skills, abilities and traits make them <i>nearly</i> impossible
+              for your  protagonist to defeat? Example: The Joker (in Batman) The Joker has no superhuman abilities, but
+              he is clever and uses chemical engineering to make poisonous weapons.  
+            </li>
+          <li>What are their weaknesses? Will your hero be able to use a weakness against them to win? </li>
 
-          {/*<textarea className="textArea" onChange={onChangela8Listener178} value={la8Essay178}/>*/}
+          </p>
+          <textarea className="textArea" onChange={onChangela8Listener179} value={la8Essay179}/>
 
-          {/*<span className="days">LESSON 179 </span>*/}
-
-          {/*<textarea className="textArea" onChange={onChangela8Listener179} value={la8Essay179}/>*/}
-
-          {/*<span className="days">LESSON 180 </span>*/}
-
-          {/*<textarea className="textArea" onChange={onChangela8Listener180} value={la8Essay180}/>*/}
+          <span className="days">LESSON 180 </span>
+          <h4> Final Story</h4>
+          <p className="topBottom">It's time to write your final story for this class! </p>
+          <textarea className="textArea" onChange={onChangela8Listener180} value={la8Essay180}/>
         </div>
       </section>
       <Confetti/>
-      <h3 style={{ textAlign: "center", height: "100vh" }}>You finished 8th Grade Language Arts!</h3>
+      <h3 style={{ textAlign: "center", height: "70vh", width: "100vw" }}>You finished 8th Grade Language Arts!</h3>
 
     </form>
-)
+  )
 }
 
 export default LA8Component
