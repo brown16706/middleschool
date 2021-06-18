@@ -1,6 +1,7 @@
 import React from "react"
 import Video from "./video"
 import "../styles/styles.css"
+import Confetti from "./confetti"
 
 function useLocalStorageState(key, defaultValue = "") {
   const [state, setState] = React.useState(
@@ -23,97 +24,97 @@ const LA7Component = ({ data }) => {
   const [la7Essay7, setla7Essay7] = useLocalStorageState("la7Essay7", "")
   const [la7Essay8, setla7Essay8] = useLocalStorageState("la7Essay8", "")
   const [la7Essay9, setla7Essay9] = useLocalStorageState("la7Essay9", "")
-  // const [la7Essay10, setla7Essay10] = useLocalStorageState("la7Essay10", "")
-  // const [la7Essay11, setla7Essay11] = useLocalStorageState("la7Essay11", "")
-  // const [la7Essay12, setla7Essay12] = useLocalStorageState("la7Essay12", "")
-  // const [la7Essay13, setla7Essay13] = useLocalStorageState("la7Essay13", "")
-  // const [la7Essay14, setla7Essay14] = useLocalStorageState("la7Essay14", "")
-  // const [la7Essay15, setla7Essay15] = useLocalStorageState("la7Essay15", "")
-  // const [la7Essay16, setla7Essay16] = useLocalStorageState("la7Essay16", "")
-  // const [la7Essay17, setla7Essay17] = useLocalStorageState("la7Essay17", "")
-  // const [la7Essay18, setla7Essay18] = useLocalStorageState("la7Essay18", "")
-  // const [la7Essay19, setla7Essay19] = useLocalStorageState("la7Essay19", "")
-  // const [la7Essay20, setla7Essay20] = useLocalStorageState("la7Essay20", "")
-  // const [la7Essay21, setla7Essay21] = useLocalStorageState("la7Essay21", "")
-  // const [la7Essay22, setla7Essay22] = useLocalStorageState("la7Essay22", "")
-  // const [la7Essay23, setla7Essay23] = useLocalStorageState("la7Essay23", "")
-  // const [la7Essay24, setla7Essay24] = useLocalStorageState("la7Essay24", "")
-  // const [la7Essay25, setla7Essay25] = useLocalStorageState("la7Essay25", "")
-  // const [la7Essay26, setla7Essay26] = useLocalStorageState("la7Essay26", "")
-  // const [la7Essay27, setla7Essay27] = useLocalStorageState("la7Essay27", "")
-  // const [la7Essay28, setla7Essay28] = useLocalStorageState("la7Essay28", "")
-  // const [la7Essay29, setla7Essay29] = useLocalStorageState("la7Essay29", "")
-  // const [la7Essay30, setla7Essay30] = useLocalStorageState("la7Essay30", "")
-  // const [la7Essay31, setla7Essay31] = useLocalStorageState("la7Essay31", "")
-  // const [la7Essay32, setla7Essay32] = useLocalStorageState("la7Essay32", "")
-  // const [la7Essay33, setla7Essay33] = useLocalStorageState("la7Essay33", "")
-  // const [la7Essay34, setla7Essay34] = useLocalStorageState("la7Essay34", "")
-  // const [la7Essay35, setla7Essay35] = useLocalStorageState("la7Essay35", "")
-  // const [la7Essay36, setla7Essay36] = useLocalStorageState("la7Essay36", "")
-  // const [la7Essay37, setla7Essay37] = useLocalStorageState("la7Essay37", "")
-  // const [la7Essay38, setla7Essay38] = useLocalStorageState("la7Essay38", "")
-  // const [la7Essay39, setla7Essay39] = useLocalStorageState("la7Essay39", "")
-  // const [la7Essay40, setla7Essay40] = useLocalStorageState("la7Essay40", "")
-  // const [la7Essay41, setla7Essay41] = useLocalStorageState("la7Essay41", "")
-  // const [la7Essay42, setla7Essay42] = useLocalStorageState("la7Essay42", "")
-  // const [la7Essay43, setla7Essay43] = useLocalStorageState("la7Essay43", "")
-  // const [la7Essay44, setla7Essay44] = useLocalStorageState("la7Essay44", "")
-  // const [la7Essay45, setla7Essay45] = useLocalStorageState("la7Essay45", "")
-  // const [la7Essay46, setla7Essay46] = useLocalStorageState("la7Essay46", "")
-  // const [la7Essay47, setla7Essay47] = useLocalStorageState("la7Essay47", "")
-  // const [la7Essay48, setla7Essay48] = useLocalStorageState("la7Essay48", "")
-  // const [la7Essay49, setla7Essay49] = useLocalStorageState("la7Essay49", "")
-  // const [la7Essay50, setla7Essay50] = useLocalStorageState("la7Essay50", "")
-  // const [la7Essay51, setla7Essay51] = useLocalStorageState("la7Essay52", "")
-  // const [la7Essay52, setla7Essay52] = useLocalStorageState("la7Essay53", "")
-  // const [la7Essay53, setla7Essay53] = useLocalStorageState("la7Essay54", "")
-  // const [la7Essay54, setla7Essay54] = useLocalStorageState("la7Essay54", "")
-  // const [la7Essay55, setla7Essay55] = useLocalStorageState("la7Essay5", "")
-  // const [la7Essay56, setla7Essay56] = useLocalStorageState("la7Essay56", "")
-  // const [la7Essay57, setla7Essay57] = useLocalStorageState("la7Essay57", "")
-  // const [la7Essay58, setla7Essay58] = useLocalStorageState("la7Essay58", "")
-  // const [la7Essay59, setla7Essay59] = useLocalStorageState("la7Essay59", "")
-  // const [la7Essay60, setla7Essay60] = useLocalStorageState("la7Essay60", "")
-  // const [la7Essay61, setla7Essay61] = useLocalStorageState("la7Essay61", "")
-  // const [la7Essay62, setla7Essay62] = useLocalStorageState("la7Essay62", "")
-  // const [la7Essay63, setla7Essay63] = useLocalStorageState("la7Essay63", "")
-  // const [la7Essay64, setla7Essay64] = useLocalStorageState("la7Essay64", "")
-  // const [la7Essay65, setla7Essay65] = useLocalStorageState("la7Essay65", "")
-  // const [la7Essay66, setla7Essay66] = useLocalStorageState("la7Essay66", "")
-  // const [la7Essay67, setla7Essay67] = useLocalStorageState("la7Essay67", "")
-  // const [la7Essay68, setla7Essay68] = useLocalStorageState("la7Essay68", "")
-  // const [la7Essay69, setla7Essay69] = useLocalStorageState("la7Essay69", "")
-  // const [la7Essay70, setla7Essay70] = useLocalStorageState("la7Essay70", "")
-  // const [la7Essay71, setla7Essay71] = useLocalStorageState("la7Essay71", "")
-  // const [la7Essay72, setla7Essay72] = useLocalStorageState("la7Essay72", "")
-  // const [la7Essay73, setla7Essay73] = useLocalStorageState("la7Essay73", "")
-  // const [la7Essay74, setla7Essay74] = useLocalStorageState("la7Essay74", "")
-  // const [la7Essay75, setla7Essay75] = useLocalStorageState("la7Essay75", "")
-  // const [la7Essay76, setla7Essay76] = useLocalStorageState("la7Essay76", "")
-  // const [la7Essay77, setla7Essay77] = useLocalStorageState("la7Essay77", "")
-  // const [la7Essay78, setla7Essay78] = useLocalStorageState("la7Essay78", "")
-  // const [la7Essay79, setla7Essay79] = useLocalStorageState("la7Essay79", "")
-  // const [la7Essay80, setla7Essay80] = useLocalStorageState("la7Essay80", "")
-  // const [la7Essay81, setla7Essay81] = useLocalStorageState("la7Essay81", "")
-  // const [la7Essay82, setla7Essay82] = useLocalStorageState("la7Essay82", "")
-  // const [la7Essay83, setla7Essay83] = useLocalStorageState("la7Essay83", "")
-  // const [la7Essay84, setla7Essay84] = useLocalStorageState("la7Essay84", "")
-  // const [la7Essay85, setla7Essay85] = useLocalStorageState("la7Essay85", "")
-  // const [la7Essay86, setla7Essay86] = useLocalStorageState("la7Essay86", "")
-  // const [la7Essay87, setla7Essay87] = useLocalStorageState("la7Essay87", "")
-  // const [la7Essay88, setla7Essay88] = useLocalStorageState("la7Essay88", "")
-  // const [la7Essay89, setla7Essay89] = useLocalStorageState("la7Essay89", "")
-  // const [la7Essay90, setla7Essay90] = useLocalStorageState("la7Essay90", "")
-  // const [la7Essay91, setla7Essay91] = useLocalStorageState("la7Essay91", "")
-  // const [la7Essay92, setla7Essay92] = useLocalStorageState("la7Essay93", "")
-  // const [la7Essay93, setla7Essay93] = useLocalStorageState("la7Essay94", "")
-  // const [la7Essay94, setla7Essay94] = useLocalStorageState("la7Essay95", "")
-  // const [la7Essay95, setla7Essay95] = useLocalStorageState("la7Essay96", "")
-  // const [la7Essay96, setla7Essay96] = useLocalStorageState("la7Essay97", "")
-  // const [la7Essay97, setla7Essay97] = useLocalStorageState("la7Essay98", "")
-  // const [la7Essay98, setla7Essay98] = useLocalStorageState("la7Essay98", "")
-  // const [la7Essay99, setla7Essay99] = useLocalStorageState("la7Essay99", "")
-  // const [la7Essay100, setla7Essay100] = useLocalStorageState("la7Essay100", "")
+  const [la7Essay10, setla7Essay10] = useLocalStorageState("la7Essay10", "")
+  const [la7Essay11, setla7Essay11] = useLocalStorageState("la7Essay11", "")
+  const [la7Essay12, setla7Essay12] = useLocalStorageState("la7Essay12", "")
+  const [la7Essay13, setla7Essay13] = useLocalStorageState("la7Essay13", "")
+  const [la7Essay14, setla7Essay14] = useLocalStorageState("la7Essay14", "")
+  const [la7Essay15, setla7Essay15] = useLocalStorageState("la7Essay15", "")
+  const [la7Essay16, setla7Essay16] = useLocalStorageState("la7Essay16", "")
+  const [la7Essay17, setla7Essay17] = useLocalStorageState("la7Essay17", "")
+  const [la7Essay18, setla7Essay18] = useLocalStorageState("la7Essay18", "")
+  const [la7Essay19, setla7Essay19] = useLocalStorageState("la7Essay19", "")
+  const [la7Essay20, setla7Essay20] = useLocalStorageState("la7Essay20", "")
+  const [la7Essay21, setla7Essay21] = useLocalStorageState("la7Essay21", "")
+  const [la7Essay22, setla7Essay22] = useLocalStorageState("la7Essay22", "")
+  const [la7Essay23, setla7Essay23] = useLocalStorageState("la7Essay23", "")
+  const [la7Essay24, setla7Essay24] = useLocalStorageState("la7Essay24", "")
+  const [la7Essay25, setla7Essay25] = useLocalStorageState("la7Essay25", "")
+  const [la7Essay26, setla7Essay26] = useLocalStorageState("la7Essay26", "")
+  const [la7Essay27, setla7Essay27] = useLocalStorageState("la7Essay27", "")
+  const [la7Essay28, setla7Essay28] = useLocalStorageState("la7Essay28", "")
+  const [la7Essay29, setla7Essay29] = useLocalStorageState("la7Essay29", "")
+  const [la7Essay30, setla7Essay30] = useLocalStorageState("la7Essay30", "")
+  const [la7Essay31, setla7Essay31] = useLocalStorageState("la7Essay31", "")
+  const [la7Essay32, setla7Essay32] = useLocalStorageState("la7Essay32", "")
+  const [la7Essay33, setla7Essay33] = useLocalStorageState("la7Essay33", "")
+  const [la7Essay34, setla7Essay34] = useLocalStorageState("la7Essay34", "")
+  const [la7Essay35, setla7Essay35] = useLocalStorageState("la7Essay35", "")
+  const [la7Essay36, setla7Essay36] = useLocalStorageState("la7Essay36", "")
+  const [la7Essay37, setla7Essay37] = useLocalStorageState("la7Essay37", "")
+  const [la7Essay38, setla7Essay38] = useLocalStorageState("la7Essay38", "")
+  const [la7Essay39, setla7Essay39] = useLocalStorageState("la7Essay39", "")
+  const [la7Essay40, setla7Essay40] = useLocalStorageState("la7Essay40", "")
+  const [la7Essay41, setla7Essay41] = useLocalStorageState("la7Essay41", "")
+  const [la7Essay42, setla7Essay42] = useLocalStorageState("la7Essay42", "")
+  const [la7Essay43, setla7Essay43] = useLocalStorageState("la7Essay43", "")
+  const [la7Essay44, setla7Essay44] = useLocalStorageState("la7Essay44", "")
+  const [la7Essay45, setla7Essay45] = useLocalStorageState("la7Essay45", "")
+  const [la7Essay46, setla7Essay46] = useLocalStorageState("la7Essay46", "")
+  const [la7Essay47, setla7Essay47] = useLocalStorageState("la7Essay47", "")
+  const [la7Essay48, setla7Essay48] = useLocalStorageState("la7Essay48", "")
+  const [la7Essay49, setla7Essay49] = useLocalStorageState("la7Essay49", "")
+  const [la7Essay50, setla7Essay50] = useLocalStorageState("la7Essay50", "")
+  const [la7Essay51, setla7Essay51] = useLocalStorageState("la7Essay52", "")
+  const [la7Essay52, setla7Essay52] = useLocalStorageState("la7Essay53", "")
+  const [la7Essay53, setla7Essay53] = useLocalStorageState("la7Essay54", "")
+  const [la7Essay54, setla7Essay54] = useLocalStorageState("la7Essay54", "")
+  const [la7Essay55, setla7Essay55] = useLocalStorageState("la7Essay5", "")
+  const [la7Essay56, setla7Essay56] = useLocalStorageState("la7Essay56", "")
+  const [la7Essay57, setla7Essay57] = useLocalStorageState("la7Essay57", "")
+  const [la7Essay58, setla7Essay58] = useLocalStorageState("la7Essay58", "")
+  const [la7Essay59, setla7Essay59] = useLocalStorageState("la7Essay59", "")
+  const [la7Essay60, setla7Essay60] = useLocalStorageState("la7Essay60", "")
+  const [la7Essay61, setla7Essay61] = useLocalStorageState("la7Essay61", "")
+  const [la7Essay62, setla7Essay62] = useLocalStorageState("la7Essay62", "")
+  const [la7Essay63, setla7Essay63] = useLocalStorageState("la7Essay63", "")
+  const [la7Essay64, setla7Essay64] = useLocalStorageState("la7Essay64", "")
+  const [la7Essay65, setla7Essay65] = useLocalStorageState("la7Essay65", "")
+  const [la7Essay66, setla7Essay66] = useLocalStorageState("la7Essay66", "")
+  const [la7Essay67, setla7Essay67] = useLocalStorageState("la7Essay67", "")
+  const [la7Essay68, setla7Essay68] = useLocalStorageState("la7Essay68", "")
+  const [la7Essay69, setla7Essay69] = useLocalStorageState("la7Essay69", "")
+  const [la7Essay70, setla7Essay70] = useLocalStorageState("la7Essay70", "")
+  const [la7Essay71, setla7Essay71] = useLocalStorageState("la7Essay71", "")
+  const [la7Essay72, setla7Essay72] = useLocalStorageState("la7Essay72", "")
+  const [la7Essay73, setla7Essay73] = useLocalStorageState("la7Essay73", "")
+  const [la7Essay74, setla7Essay74] = useLocalStorageState("la7Essay74", "")
+  const [la7Essay75, setla7Essay75] = useLocalStorageState("la7Essay75", "")
+  const [la7Essay76, setla7Essay76] = useLocalStorageState("la7Essay76", "")
+  const [la7Essay77, setla7Essay77] = useLocalStorageState("la7Essay77", "")
+  const [la7Essay78, setla7Essay78] = useLocalStorageState("la7Essay78", "")
+  const [la7Essay79, setla7Essay79] = useLocalStorageState("la7Essay79", "")
+  const [la7Essay80, setla7Essay80] = useLocalStorageState("la7Essay80", "")
+  const [la7Essay81, setla7Essay81] = useLocalStorageState("la7Essay81", "")
+  const [la7Essay82, setla7Essay82] = useLocalStorageState("la7Essay82", "")
+  const [la7Essay83, setla7Essay83] = useLocalStorageState("la7Essay83", "")
+  const [la7Essay84, setla7Essay84] = useLocalStorageState("la7Essay84", "")
+  const [la7Essay85, setla7Essay85] = useLocalStorageState("la7Essay85", "")
+  const [la7Essay86, setla7Essay86] = useLocalStorageState("la7Essay86", "")
+  const [la7Essay87, setla7Essay87] = useLocalStorageState("la7Essay87", "")
+  const [la7Essay88, setla7Essay88] = useLocalStorageState("la7Essay88", "")
+  const [la7Essay89, setla7Essay89] = useLocalStorageState("la7Essay89", "")
+  const [la7Essay90, setla7Essay90] = useLocalStorageState("la7Essay90", "")
+  const [la7Essay91, setla7Essay91] = useLocalStorageState("la7Essay91", "")
+  const [la7Essay92, setla7Essay92] = useLocalStorageState("la7Essay93", "")
+  const [la7Essay93, setla7Essay93] = useLocalStorageState("la7Essay94", "")
+  const [la7Essay94, setla7Essay94] = useLocalStorageState("la7Essay95", "")
+  const [la7Essay95, setla7Essay95] = useLocalStorageState("la7Essay96", "")
+  const [la7Essay96, setla7Essay96] = useLocalStorageState("la7Essay97", "")
+  const [la7Essay97, setla7Essay97] = useLocalStorageState("la7Essay98", "")
+  const [la7Essay98, setla7Essay98] = useLocalStorageState("la7Essay98", "")
+  const [la7Essay99, setla7Essay99] = useLocalStorageState("la7Essay99", "")
+  const [la7Essay100, setla7Essay100] = useLocalStorageState("la7Essay100", "")
   // const [la7Essay101, setla7Essay101] = useLocalStorageState("la7Essay101", "")
   // const [la7Essay102, setla7Essay102] = useLocalStorageState("la7Essay102", "")
   // const [la7Essay103, setla7Essay103] = useLocalStorageState("la7Essay103", "")
@@ -223,279 +224,279 @@ const LA7Component = ({ data }) => {
   const onChangela7Listener9 = (event) => {
     setla7Essay9(event.target.value)
   }
-  // const onChangela7Listener10 = (event) => {
-  //   setla7Essay10(event.target.value)
-  // }
-  // const onChangela7Listener11 = (event) => {
-  //   setla7Essay11(event.target.value)
-  // }
-  // const onChangela7Listener12 = (event) => {
-  //   setla7Essay12(event.target.value)
-  // }
-  // const onChangela7Listener13 = (event) => {
-  //   setla7Essay13(event.target.value)
-  // }
-  // const onChangela7Listener14 = (event) => {
-  //   setla7Essay14(event.target.value)
-  // }
-  // const onChangela7Listener15 = (event) => {
-  //   setla7Essay15(event.target.value)
-  // }
-  // const onChangela7Listener16 = (event) => {
-  //   setla7Essay16(event.target.value)
-  // }
-  // const onChangela7Listener17 = (event) => {
-  //   setla7Essay17(event.target.value)
-  // }
-  // const onChangela7Listener18 = (event) => {
-  //   setla7Essay18(event.target.value)
-  // }
-  // const onChangela7Listener19 = (event) => {
-  //   setla7Essay19(event.target.value)
-  // }
-  // const onChangela7Listener20 = (event) => {
-  //   setla7Essay20(event.target.value)
-  // }
-  // const onChangela7Listener21 = (event) => {
-  //   setla7Essay21(event.target.value)
-  // }
-  // const onChangela7Listener22 = (event) => {
-  //   setla7Essay22(event.target.value)
-  // }
-  // const onChangela7Listener23 = (event) => {
-  //   setla7Essay23(event.target.value)
-  // }
-  // const onChangela7Listener24 = (event) => {
-  //   setla7Essay24(event.target.value)
-  // }
-  // const onChangela7Listener25 = (event) => {
-  //   setla7Essay25(event.target.value)
-  // }
-  // const onChangela7Listener26 = (event) => {
-  //   setla7Essay26(event.target.value)
-  // }
-  // const onChangela7Listener27 = (event) => {
-  //   setla7Essay27(event.target.value)
-  // }
-  // const onChangela7Listener28 = (event) => {
-  //   setla7Essay28(event.target.value)
-  // }
-  // const onChangela7Listener29 = (event) => {
-  //   setla7Essay29(event.target.value)
-  // }
-  // const onChangela7Listener30 = (event) => {
-  //   setla7Essay30(event.target.value)
-  // }
-  // const onChangela7Listener31 = (event) => {
-  //   setla7Essay31(event.target.value)
-  // }
-  // const onChangela7Listener32 = (event) => {
-  //   setla7Essay32(event.target.value)
-  // }
-  // const onChangela7Listener33 = (event) => {
-  //   setla7Essay33(event.target.value)
-  // }
-  // const onChangela7Listener34 = (event) => {
-  //   setla7Essay34(event.target.value)
-  // }
-  // const onChangela7Listener35 = (event) => {
-  //   setla7Essay35(event.target.value)
-  // }
-  // const onChangela7Listener36 = (event) => {
-  //   setla7Essay36(event.target.value)
-  // }
-  // const onChangela7Listener37 = (event) => {
-  //   setla7Essay37(event.target.value)
-  // }
-  // const onChangela7Listener38 = (event) => {
-  //   setla7Essay38(event.target.value)
-  // }
-  // const onChangela7Listener39 = (event) => {
-  //   setla7Essay39(event.target.value)
-  // }
-  // const onChangela7Listener40 = (event) => {
-  //   setla7Essay40(event.target.value)
-  // }
-  // const onChangela7Listener41 = (event) => {
-  //   setla7Essay41(event.target.value)
-  // }
-  // const onChangela7Listener42 = (event) => {
-  //   setla7Essay42(event.target.value)
-  // }
-  // const onChangela7Listener43 = (event) => {
-  //   setla7Essay43(event.target.value)
-  // }
-  // const onChangela7Listener44 = (event) => {
-  //   setla7Essay44(event.target.value)
-  // }
-  // const onChangela7Listener45 = (event) => {
-  //   setla7Essay45(event.target.value)
-  // }
-  // const onChangela7Listener46 = (event) => {
-  //   setla7Essay46(event.target.value)
-  // }
-  // const onChangela7Listener47 = (event) => {
-  //   setla7Essay47(event.target.value)
-  // }
-  // const onChangela7Listener48 = (event) => {
-  //   setla7Essay48(event.target.value)
-  // }
-  // const onChangela7Listener49 = (event) => {
-  //   setla7Essay49(event.target.value)
-  // }
-  // const onChangela7Listener50 = (event) => {
-  //   setla7Essay50(event.target.value)
-  // }
-  // const onChangela7Listener51 = (event) => {
-  //   setla7Essay51(event.target.value)
-  // }
-  // const onChangela7Listener52 = (event) => {
-  //   setla7Essay52(event.target.value)
-  // }
-  // const onChangela7Listener53 = (event) => {
-  //   setla7Essay53(event.target.value)
-  // }
-  // const onChangela7Listener54 = (event) => {
-  //   setla7Essay54(event.target.value)
-  // }
-  // const onChangela7Listener55 = (event) => {
-  //   setla7Essay55(event.target.value)
-  // }
-  // const onChangela7Listener56 = (event) => {
-  //   setla7Essay56(event.target.value)
-  // }
-  // const onChangela7Listener57 = (event) => {
-  //   setla7Essay57(event.target.value)
-  // }
-  // const onChangela7Listener58 = (event) => {
-  //   setla7Essay58(event.target.value)
-  // }
-  // const onChangela7Listener59 = (event) => {
-  //   setla7Essay59(event.target.value)
-  // }
-  // const onChangela7Listener60 = (event) => {
-  //   setla7Essay60(event.target.value)
-  // }
-  // const onChangela7Listener61 = (event) => {
-  //   setla7Essay61(event.target.value)
-  // }
-  // const onChangela7Listener62 = (event) => {
-  //   setla7Essay62(event.target.value)
-  // }
-  // const onChangela7Listener63 = (event) => {
-  //   setla7Essay63(event.target.value)
-  // }
-  // const onChangela7Listener64 = (event) => {
-  //   setla7Essay64(event.target.value)
-  // }
-  // const onChangela7Listener65 = (event) => {
-  //   setla7Essay65(event.target.value)
-  // }
-  // const onChangela7Listener66 = (event) => {
-  //   setla7Essay66(event.target.value)
-  // }
-  // const onChangela7Listener67 = (event) => {
-  //   setla7Essay67(event.target.value)
-  // }
-  // const onChangela7Listener68 = (event) => {
-  //   setla7Essay68(event.target.value)
-  // }
-  // const onChangela7Listener69 = (event) => {
-  //   setla7Essay69(event.target.value)
-  // }
-  // const onChangela7Listener70 = (event) => {
-  //   setla7Essay70(event.target.value)
-  // }
-  // const onChangela7Listener71 = (event) => {
-  //   setla7Essay71(event.target.value)
-  // }
-  // const onChangela7Listener72 = (event) => {
-  //   setla7Essay72(event.target.value)
-  // }
-  // const onChangela7Listener73 = (event) => {
-  //   setla7Essay73(event.target.value)
-  // }
-  // const onChangela7Listener74 = (event) => {
-  //   setla7Essay74(event.target.value)
-  // }
-  // const onChangela7Listener75 = (event) => {
-  //   setla7Essay75(event.target.value)
-  // }
-  // const onChangela7Listener76 = (event) => {
-  //   setla7Essay76(event.target.value)
-  // }
-  // const onChangela7Listener77 = (event) => {
-  //   setla7Essay77(event.target.value)
-  // }
-  // const onChangela7Listener78 = (event) => {
-  //   setla7Essay78(event.target.value)
-  // }
-  // const onChangela7Listener79 = (event) => {
-  //   setla7Essay79(event.target.value)
-  // }
-  // const onChangela7Listener80 = (event) => {
-  //   setla7Essay80(event.target.value)
-  // }
-  // const onChangela7Listener81 = (event) => {
-  //   setla7Essay81(event.target.value)
-  // }
-  // const onChangela7Listener82 = (event) => {
-  //   setla7Essay82(event.target.value)
-  // }
-  // const onChangela7Listener83 = (event) => {
-  //   setla7Essay83(event.target.value)
-  // }
-  // const onChangela7Listener84 = (event) => {
-  //   setla7Essay84(event.target.value)
-  // }
-  // const onChangela7Listener85 = (event) => {
-  //   setla7Essay85(event.target.value)
-  // }
-  // const onChangela7Listener86 = (event) => {
-  //   setla7Essay86(event.target.value)
-  // }
-  // const onChangela7Listener87 = (event) => {
-  //   setla7Essay87(event.target.value)
-  // }
-  // const onChangela7Listener88 = (event) => {
-  //   setla7Essay88(event.target.value)
-  // }
-  // const onChangela7Listener89 = (event) => {
-  //   setla7Essay89(event.target.value)
-  // }
-  // const onChangela7Listener90 = (event) => {
-  //   setla7Essay90(event.target.value)
-  // }
-  // const onChangela7Listener91 = (event) => {
-  //   setla7Essay91(event.target.value)
-  // }
-  // const onChangela7Listener92 = (event) => {
-  //   setla7Essay92(event.target.value)
-  // }
-  // const onChangela7Listener93 = (event) => {
-  //   setla7Essay93(event.target.value)
-  // }
-  // const onChangela7Listener94 = (event) => {
-  //   setla7Essay94(event.target.value)
-  // }
-  // const onChangela7Listener95 = (event) => {
-  //   setla7Essay95(event.target.value)
-  // }
-  // const onChangela7Listener96 = (event) => {
-  //   setla7Essay96(event.target.value)
-  // }
-  // const onChangela7Listener97 = (event) => {
-  //   setla7Essay97(event.target.value)
-  // }
-  // const onChangela7Listener98 = (event) => {
-  //   setla7Essay98(event.target.value)
-  // }
-  // const onChangela7Listener99 = (event) => {
-  //   setla7Essay99(event.target.value)
-  // }
-  // const onChangela7Listener100 = (event) => {
-  //   setla7Essay100(event.target.value)
-  // }
+  const onChangela7Listener10 = (event) => {
+    setla7Essay10(event.target.value)
+  }
+  const onChangela7Listener11 = (event) => {
+    setla7Essay11(event.target.value)
+  }
+  const onChangela7Listener12 = (event) => {
+    setla7Essay12(event.target.value)
+  }
+  const onChangela7Listener13 = (event) => {
+    setla7Essay13(event.target.value)
+  }
+  const onChangela7Listener14 = (event) => {
+    setla7Essay14(event.target.value)
+  }
+  const onChangela7Listener15 = (event) => {
+    setla7Essay15(event.target.value)
+  }
+  const onChangela7Listener16 = (event) => {
+    setla7Essay16(event.target.value)
+  }
+  const onChangela7Listener17 = (event) => {
+    setla7Essay17(event.target.value)
+  }
+  const onChangela7Listener18 = (event) => {
+    setla7Essay18(event.target.value)
+  }
+  const onChangela7Listener19 = (event) => {
+    setla7Essay19(event.target.value)
+  }
+  const onChangela7Listener20 = (event) => {
+    setla7Essay20(event.target.value)
+  }
+  const onChangela7Listener21 = (event) => {
+    setla7Essay21(event.target.value)
+  }
+  const onChangela7Listener22 = (event) => {
+    setla7Essay22(event.target.value)
+  }
+  const onChangela7Listener23 = (event) => {
+    setla7Essay23(event.target.value)
+  }
+  const onChangela7Listener24 = (event) => {
+    setla7Essay24(event.target.value)
+  }
+  const onChangela7Listener25 = (event) => {
+    setla7Essay25(event.target.value)
+  }
+  const onChangela7Listener26 = (event) => {
+    setla7Essay26(event.target.value)
+  }
+  const onChangela7Listener27 = (event) => {
+    setla7Essay27(event.target.value)
+  }
+  const onChangela7Listener28 = (event) => {
+    setla7Essay28(event.target.value)
+  }
+  const onChangela7Listener29 = (event) => {
+    setla7Essay29(event.target.value)
+  }
+  const onChangela7Listener30 = (event) => {
+    setla7Essay30(event.target.value)
+  }
+  const onChangela7Listener31 = (event) => {
+    setla7Essay31(event.target.value)
+  }
+  const onChangela7Listener32 = (event) => {
+    setla7Essay32(event.target.value)
+  }
+  const onChangela7Listener33 = (event) => {
+    setla7Essay33(event.target.value)
+  }
+  const onChangela7Listener34 = (event) => {
+    setla7Essay34(event.target.value)
+  }
+  const onChangela7Listener35 = (event) => {
+    setla7Essay35(event.target.value)
+  }
+  const onChangela7Listener36 = (event) => {
+    setla7Essay36(event.target.value)
+  }
+  const onChangela7Listener37 = (event) => {
+    setla7Essay37(event.target.value)
+  }
+  const onChangela7Listener38 = (event) => {
+    setla7Essay38(event.target.value)
+  }
+  const onChangela7Listener39 = (event) => {
+    setla7Essay39(event.target.value)
+  }
+  const onChangela7Listener40 = (event) => {
+    setla7Essay40(event.target.value)
+  }
+  const onChangela7Listener41 = (event) => {
+    setla7Essay41(event.target.value)
+  }
+  const onChangela7Listener42 = (event) => {
+    setla7Essay42(event.target.value)
+  }
+  const onChangela7Listener43 = (event) => {
+    setla7Essay43(event.target.value)
+  }
+  const onChangela7Listener44 = (event) => {
+    setla7Essay44(event.target.value)
+  }
+  const onChangela7Listener45 = (event) => {
+    setla7Essay45(event.target.value)
+  }
+  const onChangela7Listener46 = (event) => {
+    setla7Essay46(event.target.value)
+  }
+  const onChangela7Listener47 = (event) => {
+    setla7Essay47(event.target.value)
+  }
+  const onChangela7Listener48 = (event) => {
+    setla7Essay48(event.target.value)
+  }
+  const onChangela7Listener49 = (event) => {
+    setla7Essay49(event.target.value)
+  }
+  const onChangela7Listener50 = (event) => {
+    setla7Essay50(event.target.value)
+  }
+  const onChangela7Listener51 = (event) => {
+    setla7Essay51(event.target.value)
+  }
+  const onChangela7Listener52 = (event) => {
+    setla7Essay52(event.target.value)
+  }
+  const onChangela7Listener53 = (event) => {
+    setla7Essay53(event.target.value)
+  }
+  const onChangela7Listener54 = (event) => {
+    setla7Essay54(event.target.value)
+  }
+  const onChangela7Listener55 = (event) => {
+    setla7Essay55(event.target.value)
+  }
+  const onChangela7Listener56 = (event) => {
+    setla7Essay56(event.target.value)
+  }
+  const onChangela7Listener57 = (event) => {
+    setla7Essay57(event.target.value)
+  }
+  const onChangela7Listener58 = (event) => {
+    setla7Essay58(event.target.value)
+  }
+  const onChangela7Listener59 = (event) => {
+    setla7Essay59(event.target.value)
+  }
+  const onChangela7Listener60 = (event) => {
+    setla7Essay60(event.target.value)
+  }
+  const onChangela7Listener61 = (event) => {
+    setla7Essay61(event.target.value)
+  }
+  const onChangela7Listener62 = (event) => {
+    setla7Essay62(event.target.value)
+  }
+  const onChangela7Listener63 = (event) => {
+    setla7Essay63(event.target.value)
+  }
+  const onChangela7Listener64 = (event) => {
+    setla7Essay64(event.target.value)
+  }
+  const onChangela7Listener65 = (event) => {
+    setla7Essay65(event.target.value)
+  }
+  const onChangela7Listener66 = (event) => {
+    setla7Essay66(event.target.value)
+  }
+  const onChangela7Listener67 = (event) => {
+    setla7Essay67(event.target.value)
+  }
+  const onChangela7Listener68 = (event) => {
+    setla7Essay68(event.target.value)
+  }
+  const onChangela7Listener69 = (event) => {
+    setla7Essay69(event.target.value)
+  }
+  const onChangela7Listener70 = (event) => {
+    setla7Essay70(event.target.value)
+  }
+  const onChangela7Listener71 = (event) => {
+    setla7Essay71(event.target.value)
+  }
+  const onChangela7Listener72 = (event) => {
+    setla7Essay72(event.target.value)
+  }
+  const onChangela7Listener73 = (event) => {
+    setla7Essay73(event.target.value)
+  }
+  const onChangela7Listener74 = (event) => {
+    setla7Essay74(event.target.value)
+  }
+  const onChangela7Listener75 = (event) => {
+    setla7Essay75(event.target.value)
+  }
+  const onChangela7Listener76 = (event) => {
+    setla7Essay76(event.target.value)
+  }
+  const onChangela7Listener77 = (event) => {
+    setla7Essay77(event.target.value)
+  }
+  const onChangela7Listener78 = (event) => {
+    setla7Essay78(event.target.value)
+  }
+  const onChangela7Listener79 = (event) => {
+    setla7Essay79(event.target.value)
+  }
+  const onChangela7Listener80 = (event) => {
+    setla7Essay80(event.target.value)
+  }
+  const onChangela7Listener81 = (event) => {
+    setla7Essay81(event.target.value)
+  }
+  const onChangela7Listener82 = (event) => {
+    setla7Essay82(event.target.value)
+  }
+  const onChangela7Listener83 = (event) => {
+    setla7Essay83(event.target.value)
+  }
+  const onChangela7Listener84 = (event) => {
+    setla7Essay84(event.target.value)
+  }
+  const onChangela7Listener85 = (event) => {
+    setla7Essay85(event.target.value)
+  }
+  const onChangela7Listener86 = (event) => {
+    setla7Essay86(event.target.value)
+  }
+  const onChangela7Listener87 = (event) => {
+    setla7Essay87(event.target.value)
+  }
+  const onChangela7Listener88 = (event) => {
+    setla7Essay88(event.target.value)
+  }
+  const onChangela7Listener89 = (event) => {
+    setla7Essay89(event.target.value)
+  }
+  const onChangela7Listener90 = (event) => {
+    setla7Essay90(event.target.value)
+  }
+  const onChangela7Listener91 = (event) => {
+    setla7Essay91(event.target.value)
+  }
+  const onChangela7Listener92 = (event) => {
+    setla7Essay92(event.target.value)
+  }
+  const onChangela7Listener93 = (event) => {
+    setla7Essay93(event.target.value)
+  }
+  const onChangela7Listener94 = (event) => {
+    setla7Essay94(event.target.value)
+  }
+  const onChangela7Listener95 = (event) => {
+    setla7Essay95(event.target.value)
+  }
+  const onChangela7Listener96 = (event) => {
+    setla7Essay96(event.target.value)
+  }
+  const onChangela7Listener97 = (event) => {
+    setla7Essay97(event.target.value)
+  }
+  const onChangela7Listener98 = (event) => {
+    setla7Essay98(event.target.value)
+  }
+  const onChangela7Listener99 = (event) => {
+    setla7Essay99(event.target.value)
+  }
+  const onChangela7Listener100 = (event) => {
+    setla7Essay100(event.target.value)
+  }
   // const onChangela7Listener101 = (event) => {
   //   setla7Essay101(event.target.value)
   // }
@@ -765,39 +766,44 @@ const LA7Component = ({ data }) => {
           <img src={require("../../public/images/bookCovers/littlePrince.jpg")} alt="The Alchemist novel"/><br/>
           <p>After you watch the video below, read <a href={require("../resources/books/TheLittlePrince.pdf")}
                                                       rel="noreferrer"
-                                                      target="_blank">CHAPTER 1 of <i> The Little Prince. </i> </a> Then answer the questions posted below.
+                                                      target="_blank">CHAPTER 1 of <i> The Little Prince. </i> </a> Then
+            answer the questions posted below.
           </p>
           <Video videoUrl="https://www.youtube.com/embed/9gARHWfXE40"/>
-          <p><ol className="vocab">
-            <li>Who is the narrator of The Little Prince and what type of narration is used? Example: 1st person, 2nd
-              person, etc.
-            </li>
-            <li>What year was this novel written?</li>
-            <li>What did the narrator once draw?</li>
-            <li>What did the adults think the child’s drawing looked like?</li>
-            <li>What did the child ask the adults when he showed them the picture?</li>
-            <li>How many drawings did the child make?</li>
-            <li>What career did the narrator give up in order to become a pilot?</li>
-            <li>The pilot tells us that throughout his life, when he met a clear-sighted adult he would always show
-              them
-              what?
-            </li>
-            <li>What does the narrator think of adults?</li>
-            <li> What should a person who flies planes study, according to the narrator?</li>
-            <li>How old was the narrator of this book when he gave up his magnificent painting career?</li>
-            <li>The pilot (as a child) drew an animal eating another animal. What was being eaten?</li>
-          </ol>
+          <p>
+            <ol className="vocab">
+              <li>Who is the narrator of The Little Prince and what type of narration is used? Example: 1st person, 2nd
+                person, etc.
+              </li>
+              <li>What year was this novel written?</li>
+              <li>What did the narrator once draw?</li>
+              <li>What did the adults think the child’s drawing looked like?</li>
+              <li>What did the child ask the adults when he showed them the picture?</li>
+              <li>How many drawings did the child make?</li>
+              <li>What career did the narrator give up in order to become a pilot?</li>
+              <li>The pilot tells us that throughout his life, when he met a clear-sighted adult he would always show
+                them
+                what?
+              </li>
+              <li>What does the narrator think of adults?</li>
+              <li> What should a person who flies planes study, according to the narrator?</li>
+              <li>How old was the narrator of this book when he gave up his magnificent painting career?</li>
+              <li>The pilot (as a child) drew an animal eating another animal. What was being eaten?</li>
+            </ol>
             <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using the
             word. Below is an example.<br/>
             <ol className="vocab">
-              <li>indulgence: <i style={{color: "#4f5979"}}> the act of doing something that you enjoy but that is usually thought of as wrong or
+              <li>indulgence: <i style={{ color: "#4f5979" }}> the act of doing something that you enjoy but that is
+                usually thought of as wrong or
                 unhealthy. "Chocolate is my only indulgence."</i>
               </li>
               <li>dedicate</li>
               <li>magnificent</li>
             </ol>
           </p>
-          <textarea className="textArea" onChange={onChangela7Listener1} value={la7Essay1}/>
+          <textarea className="textArea"
+                    placeholder="Be sure to back up your work and send it to your teacher or parent. Depending on your device you can right click on your work and share via email or click on Print to save as a PDF."
+                    onChange={onChangela7Listener1} value={la7Essay1}/>
 
           <span className="days">LESSON 2 </span>
           <p className="topBottom"> Read <a href={require("../resources/books/TheLittlePrince.pdf")} rel="noreferrer"
@@ -1097,865 +1103,2094 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener9} value={la7Essay9}/>
 
           <span className="days">LESSON 10 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener10} value={la8Essay10}/>
+          <p className="topBottom"> Read <a href={require("../resources/books/TheLittlePrince.pdf")} rel="noreferrer"
+                                            target="_blank">Chapters 17 and 18 of <i>The Little Prince. </i> </a> Then
+            answer the questions below.</p>
+          <p>
+            <ol className="vocab">
+              <li>If all humanity were to stand upright and crowd together how much space would they take up,
+                according to Chapter XVII?
+              </li>
+              <li>When the little prince arrives on the earth, why doesn’t he see ant people?</li>
+              <li>What is the first creature the little prince meets on earth?</li>
+              <li>How does the little prince feel when he first arrives on the earth?</li>
+              <li>What does the first creature the prince meets on earth say he is more powerful than?</li>
+              <li>What does the first creature the prince meets on earth offer the little prince?</li>
+              <li>After arriving on the earth and meeting his first earth creature, what does the little prince do?</li>
+              <li>Describe the flower which the little prince meets in the desert.</li>
+              <li>What does the flower in the desert know of men?</li>
+              <li>How many men does the flower think there are on earth?</li>
+              <li>Why does the flower in the desert think men are hard to find?</li>
+              <li>How many flowers does the little prince meet in the desert?</li>
+            </ol>
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using the
+            word.<br/>
+            <ol className="vocab">
+              <li>obstruct</li>
+              <li>etiquette</li>
+              <li>monarch</li>
+              <li>vexed</li>
+              <li>absolute</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener10} value={la7Essay10}/>
 
           <span className="days">LESSON 11 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener11} value={la8Essay11}/>
+          <p className="topBottom"> Read <a href={require("../resources/books/TheLittlePrince.pdf")} rel="noreferrer"
+                                            target="_blank">Chapters 19 and 20 of <i>The Little Prince. </i> </a> Then
+            answer the questions below.</p>
+          <p>
+            <ol className="vocab">
+              <li>When the little prince emerges from the desert, where does he go?</li>
+              <li>On his own planet, what does the little prince use the extinct volcano for?</li>
+              <li>When the little prince is up on the high peak in Chapter XIX, who does he speak with?</li>
+              <li>What does the little prince hope to see from the high peak in Chapter XIX?</li>
+              <li>From his perch on the mountain, what does the little prince think of the world?</li>
+              <li>On the little prince’s planet, who would speak first, himself or his flower?</li>
+              <li>The little prince walks through sand, rock and snow and at last comes to a road. Where does the road
+                lead them?
+              </li>
+              <li>The little prince discovers a rose garden. What is it about this rose garden that makes him so sad?
+              </li>
+              <li>How many roses are in the garden that the little prince discovers?</li>
+              <li>In the rose garden, the little prince has to face a difficult fact about himself. What is it?</li>
+              <li>What do the flowers in the rose garden remind him of?</li>
+              <li>In the rose garden, when the little prince realizes the truth of his life and of the things he loves,
+                what does he do?
+              </li>
+            </ol>
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using the
+            word.<br/>
+            <ol className="vocab">
+              <li>timid</li>
+              <li>hasten</li>
+              <li>simplicity</li>
+              <li>universal</li>
+              <li>insubordination</li>
+              <li>forsake</li>
+              <li>obedience</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener11} value={la7Essay11}/>
 
           <span className="days">LESSON 12 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener12} value={la8Essay12}/>
+          <p className="topBottom"> Read <a href={require("../resources/books/TheLittlePrince.pdf")} rel="noreferrer"
+                                            target="_blank">Chapters 21 and 22 of <i>The Little Prince. </i> </a> Then
+            answer the questions below.</p>
+          <p>
+            <ol className="vocab">
+              <li>Where does the little prince find the fox?</li>
+              <li>The little prince wants the fox to play with him. What does the fox say?</li>
+              <li>What does the little prince tell the fox he is looking for?</li>
+              <li>How does the fox define the word "tame"?</li>
+              <li>Why is the fox so interested in the little prince’s planet?</li>
+              <li>Why does the fox want to be tamed?</li>
+              <li>What do you think the fox symbolizes?</li>
+              <li>What is the job of the railway switchman?</li>
+              <li>What does the railway switchmen think of children?</li>
+              <li>According to the switchman, what are the adults in the trains pursuing?</li>
+              <li>When the little prince watches the trains, he remembers something the fox said. What does he
+                remember?
+              </li>
+              <li>What do the children on the trains waste their time over?</li>
+              <li>How does the author use light imagery in the chapter about trains?</li>
+            </ol>
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using the
+            word.<br/>
+            <ol className="vocab">
+              <li>almanac</li>
+              <li>ambassador</li>
+              <li>acclaim</li>
+              <li>monotony</li>
+              <li>lugubrious</li>
+              <li>balderdash</li>
+              <li>giddy</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener12} value={la7Essay12}/>
 
           <span className="days">LESSON 13 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener13} value={la8Essay13}/>
+          <p className="topBottom"> Read <a href={require("../resources/books/TheLittlePrince.pdf")} rel="noreferrer"
+                                            target="_blank">Chapters 23 and 24 of <i>The Little Prince. </i> </a> Then
+            answer the questions below.</p>
+          <p>
+            <ol className="vocab">
+              <li>How many thirst-quenching pills would one need in order to feel full of liquid?</li>
+              <li>What is the selling point which the pill merchant offers the little prince?</li>
+              <li>How much time per week can a person save by taking the thirst quenching pills?</li>
+              <li>Who does the allegorical character of the pill merchant represent (what does he symbolize)?</li>
+              <li>The imagery of water is used in The Little Prince to represent the life-giving force, whether it</li>
+              <li>is physical or spiritual. What then does this thirst-quenching pill represent?</li>
+              <li>Is the little prince interested in buying the pills?</li>
+              <li>How many days have the pilot and little prince been together when the pilot drinks the last of</li>
+              <li>his water supply?</li>
+              <li>Who is dying of thirst in the desert?</li>
+              <li>What does the little prince decide that they should look for to quench their thirst?</li>
+              <li>Night falls and the pilot and little prince are walking in the dark. What do they think of the</li>
+              <li>desert in the moonlight?</li>
+              <li>What does the little prince believe that the desert hides?</li>
+              <li>What moves the pilot so much about the little prince whom he carries in his arms across the
+                dark desert?
+              </li>
+            </ol>
+            <h4>Vocabulary</h4> After you watch the video, for each vocabulary word below, write a SYNONYM
+            for it.<br/>
+            <Video videoUrl="https://www.youtube.com/embed/thf0XGOXE6w?list=PLvJNSf-7NfrMYswXp-E4UFPStmLlzy0QH"/>
+            <ol className="vocab">
+              <li>rheumatism</li>
+              <li>retort</li>
+              <li>scorn</li>
+              <li>voluminous</li>
+              <li>intoxicate</li>
+              <li>eternal</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener13} value={la7Essay13}/>
 
           <span className="days">LESSON 14 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener14} value={la8Essay14}/>
+          <p className="topBottom"> Read <a href={require("../resources/books/TheLittlePrince.pdf")} rel="noreferrer"
+                                            target="_blank">Chapters 25 and 26 of <i>The Little Prince. </i> </a> Then
+            answer the questions below.</p>
+          <p>
+            <ol className="vocab">
+              <li>At what time of day does the pilot find the well?</li>
+              <li>Why does the pilot think he is dreaming when he finds the well?</li>
+              <li>What sound does the well in the desert make?</li>
+              <li>Who hoists the bucket up from the bottom of the well to the surface?</li>
+              <li>Who drinks from the well first?</li>
+              <li>What is the final drawing which the little prince requests from the pilot?</li>
+              <li>What structure is near the well?</li>
+              <li>Where must the snake bite the little prince?</li>
+              <li>What does the little prince ask about the poison which the snake has within it?</li>
+              <li>When the pilot sees the snake, what does he do?</li>
+              <li>What color is the muffler which the little prince wears around his neck?</li>
+              <li>What does the little prince know about the pilot’s engine?</li>
+            </ol>
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using the
+            word.<br/>
+            <ol className="vocab">
+              <li>veritable</li>
+              <li>spectacle</li>
+              <li>regulate</li>
+              <li>monotonous</li>
+              <li>immensity</li>
+              <li>trudge</li>
+              <li>asunder</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener14} value={la7Essay14}/>
 
           <span className="days">LESSON 15 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener15} value={la8Essay15}/>
+          <p className="topBottom"> Read <a href={require("../resources/books/TheLittlePrince.pdf")} rel="noreferrer"
+                                            target="_blank">Chapter 27 <i>The Little Prince. </i> </a> Then answer the
+            questions below.</p>
+          <p>
+            <ol className="vocab">
+              <li>What do you believe is the moral of The Little Prince?</li>
+              <li>How many years have gone by before the pilot tells his story?</li>
+              <li>Is the pilot able to find his way out of the desert?</li>
+              <li>What does the pilot regret most about his drawing of the sheep’s muzzle?</li>
+              <li>Does the pilot wonder about the little prince and the flower and the sheep? How so?</li>
+              <li>If one is ever in the African desert and sees a little man with golden hair, what should one do?</li>
+              <p className="topBottom"><b>Deeper Thinking about The Little Prince</b></p>
+              <li>Discuss the little prince and his relationship with the flower.</li>
+              <li>What can readers learn from the prince?</li>
+              <li>What was your reaction to the final statement from the pilot: "Then, if a little man</li>
+              <li>appears who laughs, who has golden hair and who refuses to answer questions,</li>
+              <li>you will know who he is. If this should happen, please comfort me. Send me</li>
+              <li>word that he has come back." Did you think it was a good ending or would have chosen something
+                different?
+              </li>
+              <li>There are many moral lessons in The Little Prince. Which two are most significant to you?</li>
+              <li>What is the difference between children and adults in the Little Prince?</li>
+            </ol>
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using the
+            word.<br/>
+            <ol className="vocab">
+              <li>abyss</li>
+              <li>irreparable</li>
+              <li>malicious</li>
+              <li>resolute</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener15} value={la7Essay15}/>
 
           <span className="days">LESSON 16 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener16} value={la8Essay16}/>
+          <h4> Deeper thinking on Symbolism</h4>
+          <p>
+            <ol className="vocab">
+              <li>What does the sheep in The Little Prince symbolize?</li>
+              <li>What does the snake in "The Little Prince" story symbolize?</li>
+              <li>What do the planets visited by the little prince symbolize?</li>
+              <li>What does the Little Prince symbolize for the pilot?</li>
+              <li>Symbolism was used throughout the novel. Which one</li>
+              <li>What does it mean to "see with the heart"? Do you think you can see accurately with your heart? Why or
+                why not?
+              </li>
+              <li>Are there times when you should rely on your heart to guide you? Explain.</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener16} value={la7Essay16}/>
 
           <span className="days">LESSON 17 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener17} value={la8Essay17}/>
+          <h4> Create your own book cover design for <i> The Little Prince</i>. </h4>
+          <p className="topBottom">A book cover often helps a person decide if they will buy a book. Think about the
+            impression you want the images, colors and text to create for viewers. Create a cover for <i> The Little
+              Prince</i> that gives viewers a glimpse of the content and mood of the book. Ideas can include how you
+            imagined the little prince on one of the planets or an image of how you imagined the main characters. </p>
+          <p className="topBottom">You can use any medium you like: collage, paper and markers, or <a
+            href="https://www.canva.com/create/book-covers/" rel="noreferrer" target="_blank"> Canva’s online book
+            cover
+            creation tool. </a>You
+            choose how you want to design it. Your cover should include:<br/>
+            1. A clear title and the author’s name. <br/>
+            2. A graphic design that reflects the books themes. <br/>
+            3. A summary of the plot without giving away the ending. For an idea of what's expected, read the summary of
+            a book you have, usually found on the inside of the book jacket/cover. <br/>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener17} value={la7Essay17}/>
 
           <span className="days">LESSON 18 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener18} value={la8Essay18}/>
+          <h4> Write a Five Paragraph Essay </h4>
+          <p>5 Steps of the Writing Process</p>
+          <Video videoUrl="https://www.youtube.com/embed/I9wygIVAxqg?list=PLvJNSf-7NfrMYswXp-E4UFPStmLlzy0QH"/>
+          <p className="topBottom"><strong>Do you think <i>The Little Prince </i>was written for children, adults, or
+            both?</strong></p>
+          <p className="topBottom">In a five paragraph essay, write a response to the question above. Take a few minutes
+            to think about the
+            question and then create an outline. Your introduction paragraph should grab your reader’s attention. It
+            also needs a clear thesis statement that conveys the points or arguments you are going to make. </p>
+          <p>For your three supporting paragraphs (paragraphs 2, 3 and 4), use three different examples or support from
+            the
+            novel. </p>
+          <p className="topBottom">Your conclusion should restate your thesis in a different way. End with a thoughtful
+            summary. Each
+            paragraph should be 3-5 sentences.</p>
+          <p className="topBottom"><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
+                                      rel="noreferrer"
+                                      target="_blank">Click
+            here for a 5 Paragraph Essay outline </a>if you need help getting started. </p>
+          <textarea className="textArea" onChange={onChangela7Listener18} value={la7Essay18}/>
 
           <span className="days">LESSON 19 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener19} value={la8Essay19}/>
+          <p className="topBottom">In many ways <i>The Little Prince</i> is an autobiography. Read the articles below.
+            Then write a five paragraph essay explaining how the fable reflects Antoine de Saint-Exupéry’s own life
+            and experiences.</p>
+          <p className="topBottom">Many of the people, objects and events in <i> The Little Prince</i> represent people
+            and events from the
+            author’s life. For example, Saint-Exupéry searched for the meaning of life, he was a pilot who crashed in
+            the desert and the rose is said to be his wife, Consuelo.</p>
+          <p className="topBottom">In your essay, you must explain how the examples you select from the fable symbolize
+            things or people in
+            Saint-Exupéry’s life. It’s not enough to state that the rose was his wife. You must explain how you know
+            this
+            by referring to specific passages in the novel and the articles posted below. You can do further research
+            online to help support the points
+            you make.</p>
+          <p className="topBottom"><a href={require("../resources/languagearts/littlePrinceArticle.pdf")}
+                                      rel="noreferrer" target="_blank">Love
+            letters that inspired 'The Little Prince’ </a></p>
+          <p className="topBottom"><a
+            href="https://www.nationalww2museum.org/war/articles/the-little-prince-antoine-de-saint-exupery"
+            rel="noreferrer" target="_blank"> The Little Prince's Last Flight: The Story of Antoine de
+            Saint-Exupéry. </a></p>
+          <p className="topBottom"><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
+                                      rel="noreferrer"
+                                      target="_blank">Click here for a 5 Paragraph Essay outline </a>if you need help in
+            getting started. </p>
+          <textarea className="textArea"
+                    placeholder="Be sure to back up your work and send it to your teacher or parent."
+                    onChange={onChangela7Listener19} value={la7Essay19}/>
 
           <span className="days">LESSON 20 </span>
+          <h4>12 Types of Fiction </h4>
+          <p>After you watch the two videos below, answer the questions that follow.</p>
+          <Video videoUrl="https://www.youtube.com/embed/-_DN7l53J_c?list=PLvJNSf-7NfrNSQl8ICXACg0XNUVM1dF2d"/>
+          <Video videoUrl="https://www.youtube.com/embed/niZosUpuSyU?list=PLvJNSf-7NfrNSQl8ICXACg0XNUVM1dF2d"/>
+          <ol className="vocab">
+            <li>List the 12 different genres of fiction.</li>
+            <li>Of the 12 types listed, which is your favorite to read? Why?</li>
+            <li>Which genre is your least favorite to read? Explain why.</li>
+            <li>If you were asked to write a novel, which type (genre) of fiction would you choose?</li>
+            <li>If you could be the protagonist or hero in a novel, which type of fiction would you want to star in?
+              Explain.
+            </li>
+            <li>Which type of fiction to do you think sells the most? Why do you think that is?</li>
+            <li>If you were a writer, which type of fiction do you think would be the most difficult to write about?
+              Explain your answer.
+            </li>
+            <li>What is your favorite novel and what type of fiction (genre) is it?</li>
+          </ol>
 
-
-          <textarea className="textArea" onChange={onChangela8Listener20} value={la8Essay20}/>
+          <textarea className="textArea" onChange={onChangela7Listener20} value={la7Essay20}/>
 
           <span className="days">LESSON 21 </span>
+          <p className="margin-para"> Watch the videos below and then complete the assignment from Khan Academy:
+            Trailblazing Women: reading informational text. </p>
 
-
-          <textarea className="textArea" onChange={onChangela8Listener21} value={la8Essay21}/>
+          <p>
+            <Video videoUrl="https://www.youtube.com/embed/gUW2jit3uvo"/>
+            <Video videoUrl="https://www.youtube.com/embed/GvWH9ZXy9gY"/>
+            <Video videoUrl="https://www.youtube.com/embed/l3yWmXbC36s"/>
+            <p>Review the <a
+              href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-trailblazing-women/x4aa9073b12675eb1:building-knowledge/a/trailblazing-women-unit-vocabulary?modal=1"
+              rel="noreferrer" target="_blank"> vocabulary </a> for this unit</p>
+            <p>Complete the <a
+              href="
+              https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-trailblazing-women/x4aa9073b12675eb1:close-reading/e/trailblazing-women--reading-informational-text--katherine-johnson-7"
+              rel="noreferrer" target="_blank">four problems linked here from Khan Academy. </a>Then in the textbox
+              below, write a brief summary about Katherine Johnson based on the reading.</p>            <p>If you don't
+            already
+            have a free account
+            set up with Khan Academy, <a
+              href="https://support.khanacademy.org/hc/en-us/articles/204451324-How-do-I-create-my-account-"
+              rel="noreferrer" target="_blank"> click here </a>to create one.</p>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener21} value={la7Essay21}/>
 
           <span className="days">LESSON 22 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener22} value={la8Essay22}/>
+          <p><a href={require("../resources/books/ALongWalktoWaterChapter1.pdf")} rel="noreferrer" target="_blank"> <i>A
+            Long Walk to Water</i></a> is based on the true story of Salva Dut, one of the Lost Boys from Sudan during a
+            civil war in 1985. The book also includes a second perspective from a girl named Nya, which begins in 2008.
+            The book is available at your local library, at <a href="https://z-lib.  org/">Z-Library </a>or can be
+            purchased online. Until you get a copy, you can begin reading it <a
+              href={require("../resources/books/ALongWalktoWaterChapter1.pdf")} rel="noreferrer"
+              target="_blank"> here. </a></p>
+          <p>Read Chapter 1, answer the questions and complete the vocabulary assignment below. <br/>
+            1. Why does the author use different styles of print and different time periods in the same Chapter? What
+            can be learned from this style of writing?<br/>
+            2. Describe Salva as a student, his school and what he learns. Can you make any
+            connections? <br/>
+            3. Describe Salva’s family and home life. Is it anything like your own?<br/>
+            4. What are the issues for which the rebels are fighting the government? What does it
+            mean for Sudan to become Muslim?<br/>
+            5. Why does the teacher urge them to "run into the bush?<br/>"
+            6. What are you wondering about as this Chapter ends?<br/>
+            <b>Vocabulary</b><br/>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li>droned Example: <i>droned: to talk in a dull, monotonous manner. "The teacher droned on with a lesson
+                about the Arabic language." </i></li>
+              <li>responsibilities</li>
+              <li>thorn</li>
+              <li>panic</li>
+              <li>bush</li>
+              <li>rebels</li>
+              <li>independence</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener22} value={la7Essay22}/>
 
           <span className="days">LESSON 23 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener23} value={la8Essay23}/>
+          <p>Read <a href={require("../resources/books/ALongWalktoWaterChapter1.pdf")} rel="noreferrer"
+                     target="_blank"><i>Chapter 2,</i></a> answer the questions and complete the vocabulary assignment
+            below. <br/>
+            <b>2008</b><br/>
+            1. How does Nya spend her time?<br/>
+            <b>1985</b><br/>
+            2. What is happening around Salva as he runs away from the school?<br/>
+            3. What three questions occupy Salva’s thoughts?<br/>
+            4. When they organize by village, what does Salva discover?<br/>
+            5. Describe the rebels. How does their appearance and actions affect the people?<br/>
+            6. Does Salva consider himself a man? Do the rebels consider Salva a man?<br/>
+            7. Why does the group leave the rebels? Why do they leave Salva in the barn the next
+            morning?<br/>
+            8. Can you imagine how Salva is feeling at the end of this Chapter? Where is he?<br/>
+            <b>Vocabulary</b><br/>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li>shrouded</li>
+              <li> relief</li>
+              <li> model</li>
+              <li> terror</li>
+              <li> mortars</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener23} value={la7Essay23}/>
 
           <span className="days">LESSON 24 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener24} value={la8Essay24}/>
+          <p>Read Chapter 3, answer the questions and complete the vocabulary assignment below. <br/>
+            <b>2008</b><br/>
+            1. In each of the Chapters so far, the author tells Nya’s story first. Why do you think
+            she does this?<br/>
+            2. What has been the purpose of Nya’s journey every day?<br/>
+            <b>1985</b><br/>
+            3. What is Salva’s situation? Why doesn’t he return to his school?<br/>
+            4. How does the woman from the Jur-chol tribe help him? What is the history
+            between the Nuers and the Dinka tribe? Why is Salva insulted to be called an
+            orphan?<br/>
+            5. Why must the old woman move on? Couldn’t she take Salva along?<br/>
+            6. How do tribes tell themselves apart from one another?<br/>
+            7. Salva’s hopes rise and then fall. Do you think finding other Dinkas will be the
+            answer he is looking for?<br/>
+            <b>Vocabulary</b><br/>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li>gourd</li>
+              <li>tribe</li>
+              <li>artillery</li>
+              <li> sympathy</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener24} value={la7Essay24}/>
 
           <span className="days">LESSON 25 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener25} value={la8Essay25}/>
+          <p>Read Chapter 4, answer the questions and complete the vocabulary assignment below. <br/>
+            <b>2008</b><br/>
+            1. What additional information did you learn about Nya in this Chapter?<br/>
+            <b>1985</b><br/>
+            2. Why doesn’t the group want Salva along? Why is he ultimately taken along by the
+            man and woman?<br/>
+            3. What does it mean they are "walking to nowhere"? How do they survive?<br/>
+            4. Why do the boys, Buksa and Salva, fall behind? What have they discovered?<br/>
+            5. Can an entire group of people exist on this?<br/>
+            6. What questions would you like answered in the next Chapter?<br/>
+            <b>Vocabulary</b><br/>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li>scanned</li>
+              <li>doubt</li>
+              <li>daze</li>
+              <li>feast</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener25} value={la7Essay25}/>
 
           <span className="days">LESSON 26 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener26} value={la8Essay26}/>
+          <p>Read Chapter 5, answer the questions and complete the vocabulary assignment below. <br/>
+            <b>2008</b><br/>
+            1. Explain how water dictates Nya’s life.
+            <b>1985</b><br/>
+            2. How was the honey worth it for Salva and the others in his group? What was the
+            cost?<br/>
+            3. What do Salva and Marial have in common? What does it mean that Salva "heard
+            that sigh all the way to his heart?<br/>"
+            4. Why is Salva dismayed that they are walking to Ethiopia, east? How are the boys
+            good for each other?<br/>
+            5. Describe the Atuot people. Would you fear them?<br/>
+            6. Salva is amazed at the end of this Chapter. Predict the cause of his speechlessness.
+            <b>Vocabulary</b><br/>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li>gingerly</li>
+              <li>honeycomb</li>
+              <li> accent</li>
+              <li>strides</li>
+              <li> inhabited</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener26} value={la7Essay26}/>
 
           <span className="days">LESSON 27 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener27} value={la8Essay27}/>
+          <p>Read Chapter 6, answer the questions and complete the vocabulary assignment below. <br/>
+            <b>2008</b><br/>
+            1. Nya and her mother think differently about the camp. Explain. Would Nya and
+            Salva have been friends if they knew each other in the same time?<br/>
+            <b>1985</b><br/>
+            2. Finally, something good happens for Salva. Explain. How does this make a
+            difference for the group?<br/>
+            3. Why does everyone in the group become nauseous? Could they have avoided this
+            problem?<br/>
+            4. List all the elements working against their survival.5. What does it mean: "A cold fist seemed to grip
+            Salva’s heart?<br/>" What has happened?<br/>
+            6. If you had to choose to be Nya or Salva, explain whose shoes you would rather
+            walk in. Why?<br/>
+            <b>Vocabulary</b><br/>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li>makeshift</li>
+              <li> solemn</li>
+              <li> rebelled</li>
+              <li> nausea</li>
+              <li> exhausted</li>
+              <li> wailing</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener27} value={la7Essay27}/>
 
           <span className="days">LESSON 28 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener28} value={la8Essay28}/>
+          <p>Read Chapter 7, answer the questions and complete the vocabulary assignment below. <br/>
+            <b>2008</b><br/>
+            1. What is wrong with Akeer? What are her symptoms? What is the choice facing the
+            family? What would you do?<br/>
+            <b>1985</b><br/>
+            2. How do they know a lion took Marial? How is it possible that no one heard
+            anything?<br/>
+            3. How does the loss of his friend affect Salva? How does uncle soothe him?<br/>
+            4. What changes as the group approaches the Nile? How do they get across?<br/>
+            5. What is the secret of making the canoes?<br/>
+            6. What would you like to learn in the next Chapter?<br/>
+            <b>Vocabulary</b><br/>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li>steady</li>
+              <li>reeds</li>
+              <li>papyrus</li>
+              <li>prow</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener28} value={la7Essay28}/>
 
           <span className="days">LESSON 29 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener29} value={la8Essay29}/>
+          <p>Read Chapter 8, answer the questions and complete the vocabulary assignment below. <br/>
+            <b>2008</b><br/>
+            1. Explain how Akeer’s laugh "was like music." What caused her illness? Is the
+            solution within the means of the family?<br/>
+            <b>1985</b><br/>
+            2. What wonders were found on the island?<br/>
+            3. How do the villagers get food without any money?<br/>
+            4. Why don’t they become nauseous again with this food?<br/>
+            5. Describe Salva’s good memories.
+            6. What do the fishermen know about the night that the travelers do not? How are
+            they affected?<br/>
+            7. Of all the elements Salva has faced, which do you think is the worst? How could
+            the Akobo desert that lies ahead be the worst?<br/>
+            <b>Vocabulary</b><br/>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li>monotonous</li>
+              <li> gauge</li>
+              <li> mangoes</li>
+              <li> ferried</li>
+              <li> desperate</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener29} value={la7Essay29}/>
 
           <span className="days">LESSON 30 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener30} value={la8Essay30}/>
+          <p>Read Chapter 9, answer the questions and complete the vocabulary assignment below. <br/>
+            <b>2008</b><br/>
+            1. How does the village chief welcome strangers? What do you think they want?<br/>
+            <b>1985</b><br/>
+            2. How is the Akobo the worst element yet for the villagers to survive?<br/>
+            3. How does uncle encourage Salva to keep walking? What might have happened to
+            Salva without his uncle? How could you apply Uncle’s strategy in your own life?<br/>
+            4. What do they find when they reach other people in the desert?<br/>
+            5. What is the choice faced here? Would you give water to the men? What is the right
+            thing to do?<br/>
+            6. Will some have to die for the others to survive?<br/>
+            <b>Vocabulary</b><br/>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li>relentless</li>
+              <li>arid</li>
+              <li> parched</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener30} value={la7Essay30}/>
 
           <span className="days">LESSON 31 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener31} value={la8Essay31}/>
+          <p>Read Chapter 10, answer the questions and complete the vocabulary assignment below. <br/>
+            <b>2008</b><br/>
+            1. What do the two strangers want from Nya’s chief? If they find water, how will it
+            change lives?<br/>
+            <b>1985</b><br/>
+            2. Did Salva give his water to the men? Did anyone? What were the results? Who was
+            right?<br/>
+            3. What happened to the village of Lou Ariik?<br/>
+            4. What will happen when the group reaches Ethiopia? What are uncle’s plans?<br/>
+            5. What are the chances that Salva will ever find his family?<br/>
+            6. Where did the six men come from? Why did they single out uncle? What does it
+            mean, "There was something evil in their laughter."
+            7. What does the ending of this Chapter mean for Salva?<br/>
+            <b>Vocabulary</b><br/>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li>translated</li>
+              <li> revived</li>
+              <li> vultures</li>
+              <li>refugee camp</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener31} value={la7Essay31}/>
 
           <span className="days">LESSON 32 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener32} value={la8Essay32}/>
+          <p>Read Chapter 11, answer the questions and complete the vocabulary assignment below. <br/>
+            <b>2008</b><br/>
+            1. What will it mean if water is not found in the land between the trees?<br/>
+            <b>1985</b><br/>
+            2. What happened to uncle? How does this affect Salva? How does the group attitude
+            change?<br/>
+            3. What are the positive and negative aspects of the refugee camp? Is Salva happy to
+            finally quit walking?<br/>
+            4. What does the orange scarf mean to Salva?<br/>
+            5. How would you like this Chapter to end for Salva?<br/>
+            <b>Vocabulary</b><br/>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li>scythed</li>
+              <li> numbness</li>
+              <li> grudgingly</li>
+              <li> emaciated</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener32} value={la7Essay32}/>
 
           <span className="days">LESSON 33 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener33} value={la8Essay33}/>
+          <p>Read Chapter 12, answer the questions and complete the vocabulary assignment below. <br/>
+            <b>2008</b><br/>
+            1. What is the red, iron giraffe? What part do the villagers play in the progress?<br/>
+            <b>1985</b><br/>
+            2. How does it feel to Salva to be without a family? What has he lost?<br/>
+            3. What does Salva decide to do to survive?<br/>
+            4. How does school look in the refugee camp? Why does he go?<br/>
+            1991
+            5. How have things changed in the camp in six years? Why is it closing?<br/>
+            6. What is the purpose of any government? What will be the outcome of the
+            government’s actions?<br/>
+            <b>Vocabulary</b><br/>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li>despair</li>
+              <li> scavenging</li>
+              <li> chaos</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener33} value={la7Essay33}/>
 
           <span className="days">LESSON 34 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener34} value={la8Essay34}/>
+          <p>Read Chapter 13, answer the questions and complete the vocabulary assignment below. <br/>
+            <b>2008</b><br/>
+            1. What things make this drilling so difficult? What keeps people going in times of
+            adversity?<br/>
+            <b>1991-1992</b><br/>
+            2. What is the government trying to do by driving the people into the water?<br/>
+            3. Why are the soldiers shooting? What are all the obstacles to survival for these
+            people?<br/>
+            4. Does Salva have a duty to the others, especially the boy clinging to him? Why was
+            Salva one of the lucky ones and not one of the thousands who died?<br/>
+            5. Would you follow Salva? Why did he become a leader? What do the boys hope to
+            find in Kenya?<br/>
+            6. How do they find the strength to go on? How do they last a year and a half?<br/>
+            7. What do you expect their life to be like in Kenya?<br/>
+            <b>Vocabulary</b><br/>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li>earnestly</li>
+              <li> prodding</li>
+              <li>welter</li>
+              <li> peril</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener34} value={la7Essay34}/>
 
           <span className="days">LESSON 35 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener35} value={la8Essay35}/>
+          <p>Read Chapter 14 and then answer the questions below. <br/>
+            <b>2009</b><br/>
+            1. Why does the village celebrate? What could it mean that the new water is full of
+            mud?<br/>
+            1992- <b>1997</b><br/>
+            2. Describe the misery at Kakuma. How does the population of Kakuma compare to
+            the population in your own community?<br/>
+            3. How were conditions different at the camp in Ifo?<br/>
+            4. What must it have been like with nothing to do day after day but wait?<br/>
+            5. Ideally what does Salva want?<br/>
+            6. What are the restrictions to a boy "getting on the list' to go to America?<br/>
+            7. What does the author mean "sometimes he felt he was being torn in two by the
+            hoping and the not-hoping?<br/>"
+            8. What does it mean to Salva that he will go to America?<br/>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener35} value={la7Essay35}/>
 
           <span className="days">LESSON 36 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener36} value={la8Essay36}/>
+          <p>Read Chapter 15, answer the questions and complete the vocabulary assignment below. <br/>
+            <b>2009</b><br/>
+            1. Why can’t the boys drink the water spraying from the hole? When will Nya lose her
+            job?<br/>2. What was involved in the Lost Boys coming to America? Do you think that is a
+            good name for them?<br/>
+            3. Why would people from America want to help these boys? Can they replace the
+            boy’s owns family?<br/>
+            4. Explain Salva’s experiences with clothes, Coca-Cola, the plane, winter.
+            5. Would this be easier if Salva really was a boy instead of an adult?<br/>
+            6. Will it ever be possible for Salva to reconnect with any of his birth family?<br/>
+            <b>Vocabulary</b><br/>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li>terminal</li>
+              <li> frigid</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener36} value={la7Essay36}/>
 
           <span className="days">LESSON 37 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener37} value={la8Essay37}/>
+          <p>Read Chapter 16, answer the questions and complete the vocabulary assignment below. <br/>
+            <b>2009</b><br/>
+            1. What is your best guess on what the men are going to build?<br/>
+            <b>1997-2003</b><br/>
+            2. By opening his email, what does this show you about Salva’s development in
+            America?<br/>
+            3. What are the difficulties involved in Salva reconnecting with his father?<br/>
+            4. What are the many risks Salva is taking in order to find his father?<br/>
+            5. Write as many "what if’s" as you can at the end of this Chapter. (Example: What if
+            Salva’s father has died? What if Salva is not allowed to return to the US?<br/>6. What would you like to see
+            happen in the next Chapter?<br/>
+            <b>Vocabulary</b><br/>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li>aquifer</li>
+              <li> vague</li>
+              <li> relief</li>
+              <li> clinic</li>
+              <li> remote</li>
+              <li> arrangement</li>
+              s
+              <li> frantic </li></ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener37} value={la7Essay37}/>
 
           <span className="days">LESSON 38 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener38} value={la8Essay38}/>
+          <p>Read Chapter 17, answer the questions and complete the vocabulary assignment below. <br/>
+            <b>2009</b><br/>
+            1. How close were your predictions on what building would be put up first? Why does
+            Nya ask if the girls can go to school too? How does having water change everything
+            for her people?<br/>
+            <b>2003-2007</b><br/>
+            2. Was the reunion of Salva and his father what you expected? Explain.
+            3. How is it possible that so much of his family is still alive? Why didn’t they give up
+            hope?<br/>
+            4. Should Salva take the risk and return to Lou Ariik? Would you?<br/>
+            5. What do you believe his idea is to help his people?<br/>
+            6. Why is Salva the best person to speak about his idea? Does his audience care
+            about his speaking skills?<br/>
+            7. What would make people donate money to Salva?<br/>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener38} value={la7Essay38}/>
 
           <span className="days">LESSON 39 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener39} value={la8Essay39}/>
+          <p>Read Chapter 18, answer the questions and complete the vocabulary assignment below. <br/>
+            <b>2009</b><br/>
+            1. Describe Nya’s experience of the water. <br/>
+            2. What does the well mean to the people of southern Sudan? How did it get its
+            name? <br/>
+            3. In every Chapter until now, the story structure included two time periods. Why is
+            this last Chapter set only in 2009? Why is the Chapter printed only in regular print
+            instead of starting with italics?<br/>
+            4. Why was the boss of the workers not identified as Dinka earlier?<br/>
+            5. "Why would a Dinka bring water to us?" How would you answer Nya’s question?<br/>
+            6. Do you expect any changes between the Nuer and Dinka because of this?<br/>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener39} value={la7Essay39}/>
 
           <span className="days">LESSON 40 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener40} value={la8Essay40}/>
+          <h4>Create a new book cover for <i> A Long Walk to Water.</i></h4>
+          <p>Make a cover that gives viewers a glimpse of the content and mood of
+            the book. Think about the impression you want the images, colors and text to create for viewers. You can use
+            whatever medium you choose: collage, paper and markers, or <a
+              href="https://www.canva.com/create/book-covers/" rel="noreferrer" target="_blank"> Canva’s online book
+              cover creation tool. </a>You choose how you want to design it. Your cover should include: <br/>
+            1. A clear title and the author’s name. <br/>
+            2. A graphic design that reflects the books themes. <br/>
+            3. A summary of the plot without giving away the ending. <br/>
+            4. A review (your opinion) about the book. <br/></p>
+          <textarea className="textArea" onChange={onChangela7Listener40} value={la7Essay40}/>
 
           <span className="days">LESSON 41 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener41} value={la8Essay41}/>
+          <p>Five Paragraph Essay</p>
+          <p> In a five paragraph essay, address one of the questions below. </p>
+          <p>
+            <ul className="list">
+              <li>In <i>The Long Walk to Water </i> Salva faced may challenges. How did these challenges shape the
+                person he became?
+              </li>
+              <li>There were several themes in the book, including hope, family, social strife, war, resilience, helping
+                others and survival. What do you think is the most important theme in the book?
+              </li>
+              <li>Who had more struggles: Nya or Salva?</li>
+              <li>Salva experienced culture shock when he moved to the U.S. What do you think are the greatest
+                challenges for immigrants when they move to the U.S.?
+              </li>
+            </ul>
+          </p>
+          <p>Your five paragraph essay should follow the format below: </p>
+          <ul className="assnList">
+            <li>Write a hook to grab your reader's attention.</li>
+            <li>Your first paragraph should have a clear thesis statement (main idea of your essay). This
+              statement should convey the points or arguments you are going to
+              make.
+            </li>
+            <li>Paragraphs 2-4 should provide examples from the book that support your thesis statement. Each
+              paragraph should discuss a different point and use a different example. Using direct
+              quotes from the novel can be effective in proving your point.
+            </li>
+            <li>Your conclusion should restate your thesis in a different way. End with a thoughtful summary.</li>
+            <li>Each paragraph should be 3-5 sentences.</li>
+          </ul>
+          <p className="topBottom"><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
+                                      rel="noreferrer"
+                                      target="_blank">Click
+            here for a 5 Paragraph Essay outline </a>if you need help getting started.</p>
+          <textarea className="textArea" onChange={onChangela7Listener41} value={la7Essay41}/>
 
           <span className="days">LESSON 42 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener42} value={la8Essay42}/>
+          <p className="margin-para"> Watch the videos below and then complete the assignment from Khan Academy:
+            Trailblazing Women - Close reading: speech and drama - Sojourner Truth 7. </p>
+          <Video videoUrl="https://www.youtube.com/embed/Tq_BoPJsv-4"/>
+          <Video videoUrl="https://www.youtube.com/embed/msHjgIsYOkU"/>
+          <Video videoUrl="https://www.youtube.com/embed/Q4I9ht7wHsk"/>
+          <p>Complete the <a
+            href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-trailblazing-women/x4aa9073b12675eb1:close-reading-speech-and-drama/e/trailblazing-women--speech-and-drama--sojourner-truth-7"
+            rel="noreferrer" target="_blank"> questions linked here from Khan Academy. </a>Then in the textbox below,
+            write a brief summary about Sojourner Truth’s Speech at the Women’s Rights Convention.</p>
+          <textarea className="textArea" onChange={onChangela7Listener42} value={la7Essay42}/>
 
           <span className="days">LESSON 43 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener43} value={la8Essay43}/>
+          <p className="margin-para"> Watch the videos below and then complete the assignment from Khan Academy:
+            Trailblazing Women: Applying vocabulary knowledge. </p>
+          <Video videoUrl="https://www.youtube.com/embed/CiNggzdWkIo"/>
+          <Video videoUrl="https://www.youtube.com/embed/lzKj-bLvrYQ"/>
+          <Video videoUrl="https://www.youtube.com/embed/XRt1N0sJJQo"/>
+          <p>Complete the <a
+            href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-trailblazing-women/x4aa9073b12675eb1:applying-knowledge/e/trailblazing-women--applying-knowledge--katherine-johnson-7"
+            rel="noreferrer" target="_blank"> questions linked here from Khan Academy. </a>Then in the textbox
+            below, summarize what you learned in this unit.</p>
+          <textarea className="textArea" onChange={onChangela7Listener43} value={la7Essay43}/>
 
           <span className="days">LESSON 44 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener44} value={la8Essay44}/>
+          <p className="margin-para"> Watch the video below and then complete the assignment from Khan Academy:
+            Trailblazing Women: Reading informational text and creating objective summaries - Mae Jemison. </p>
+          <Video videoUrl="https://www.youtube.com/embed/5Eepm6Px5pc "/>
+          <p>Complete the <a
+            href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-trailblazing-women/x4aa9073b12675eb1:reading-for-understanding/e/trailblazing-women--reading-informational-text--mae-jemison-7"
+            rel="noreferrer" target="_blank"> questions linked here from Khan Academy. </a>Then in the textbox
+            below, write a brief summary about Mae Jemison, Astronaut.</p>
+          <textarea className="textArea" onChange={onChangela7Listener44} value={la7Essay44}/>
 
           <span className="days">LESSON 45 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener45} value={la8Essay45}/>
+          <p>The novel <b>Hatchet </b> by Gary Paulsen is a wilderness survival story. Brian Robeson is a thirteen
+            year old boy traveling in a small airplane to Canada to spend the summer with his father. When the
+            plane crashes in an uninhabited part of the Canadian woods, he must find a way to survive on his own.
+          </p>
+          <p><b>Hatchet </b> is available at your local library, local bookstore and online for purchase. Until
+            your copy arrives, <a href={require("../resources/books/HatchetChapter1.pdf")} rel="noreferrer"
+                                  target="_blank"> Chapter 1, is provided here. </a></p>
+          <p><a href={require("../resources/books/hatchetChapter1.pdf")} rel="noreferrer"
+                target="_blank"><img src={require("../../public/images/bookCovers/hatchett.jpg")}
+                                     alt="Hatchet novel"/></a><br/>
+            <ol className="vocab">Answer the questions below in complete sentences.<br/>
+              <li>Who is narrating the story?</li>
+              <li>Why was Brian traveling in a small bush plane by himself?</li>
+              <li>Explain why Brian is having a tough time accepting his parents’ divorce.</li>
+              <li>What did Brian’s mother give him as a gift before he leaves? How does Brian feel about the
+                gift?
+              </li>
+              <li>Do you believe it says something about his relationship with his mother that he wore the hatchet
+                instead of just putting it in a bag?
+              </li>
+              <li>Why was Brian "stricken with a white-flash of horror."</li>
+              <li>What tips about flying a plane did the pilot give to Brian?</li>
+              <li>What happens to the pilot while they are flying over the Canadian woods? Describe Brian’s
+                reaction when this happens.
+              </li>
+              <li>By the end of the chapter, describe how Brian is feeling. How do you think you’d be feeling if
+                you were in a similar situation?
+              </li>
+            </ol>
+            <h4>Vocabulary</h4>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li> audible</li>
+              <li> griamcing</li>
+              <li> spasm</li>
+              <li> tundra</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener45} value={la7Essay45}/>
 
           <span className="days">LESSON 46 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener46} value={la8Essay46}/>
+          <p> Read <i> Chapter 2 of Hatchet </i> and then answer the questions below.</p>
+          <p>
+            <ol className="vocab">
+              <li>How did Brian react after the pilot’s heart attack? If you were in a similar situation, how do
+                you think you would have reacted to losing the pilot?
+              </li>
+              <li>Did Brian know anything about how to fly a plane? Explain.</li>
+              <li>Why does he start to panic when he radios for help?</li>
+              <li>What do you think about Brian’s decision to wait for the plane to run out of gas? What would you
+                have done?
+              </li>
+              <li>Brian thought his best chance for a safe landing was to land where?</li>
+              <li>Describe how Brian is feeling as he is trying to figure out what to do next.</li>
+            </ol>
+            <h4>Vocabulary</h4>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li> turbulence</li>
+              <li> lurch</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener46} value={la7Essay46}/>
 
           <span className="days">LESSON 47 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener47} value={la8Essay47}/>
+          <p> Read <i> Chapter 3 of Hatchet</i> and then answer the questions below.</p>
+          <p>
+            <ol className="vocab">
+              <li>Why is Brian hoping to find a lake directly in front of him?</li>
+              <li>Do you think it’s realistic that Brian would be able to control the plane as he did? Why or why
+                not?
+              </li>
+              <li>Describe, with as many details as you can, the crash landing.</li>
+              <li>What animal does Brian see when he is about to crash land on the lake?</li>
+              <li>The author states that Brian hears screaming. Who do you think is screaming?</li>
+              <li>What happened to Brian at the end of the chapter?</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener47} value={la7Essay47}/>
 
           <span className="days">LESSON 48 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener48} value={la8Essay48}/>
+          <p> Read <i> Chapter 4 of Hatchet</i> and then answer the questions below.</p>
+          <p>
+            <ol className="vocab">
+              <li>What is the mood of the first chapter?</li>
+              <li>What is the setting?</li>
+              <li>Imagine you are in Brian’s place. You are stranded in a forest in the north with no one to help
+                you. What’s your plan? What steps would you take next?
+              </li>
+              <li>What secret has Brian keeping to himself? Why is so upsetting to him?</li>
+              <li>Give a detailed description of the lake.</li>
+              <li>Brian faces a problem with the rising of the sun. How is the problem solved?</li>
+              <li>How did Brian get lucky with where he landed? Could it have gone much worse for him? How so?
+              </li>
+              <li>Describe how the scenery of the lake and woods and the ways it is different from the city he
+                lived in.
+              </li>
+              <li>If you had to give this chapter a name, what would it be?</li>
+              <li>What should Brian’s next steps be. If you could step into the book and give him advice, what
+                would you say?
+              </li>
+            </ol>
+            <h4>Vocabulary</h4>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li> spiraling</li>
+              <li> abated</li>
+              <li> keening</li>
+              <li> hoarse</li>
+              <li> hummock</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener48} value={la7Essay48}/>
 
           <span className="days">LESSON 49 </span>
+          <p> Read <i> Chapter 5 of Hatchet </i> and then answer the questions below.</p>
+          <p>
+            <ol className="vocab">
+              <li>When Brian wakes up, what new problem does he face?</li>
+              <li>Is Brian afraid to drink the lake water? Why? What happens when he finally drinks it? What would
+                have done?
+              </li>
+              <li>You learn about the lesson his English teacher, Perpich, taught him. What is it? How did he start to
+                apply this lesson to his situation?
+              </li>
+              <li>It dawns on Brian that he might never be found. What had he done that would make it difficult for
+                search and rescue crews to find him? He decides it take at least how long for someone to find him?
+              </li>
+              <li>Did Brian stay in a panicked state? Do you think he is behaving reasonably?</li>
+              <li>Can you relate to how he is behaving or do you think you would behave differently? Explain.</li>
+              <li>What things does he need the most to survive, but does not have?</li>
+              <li>What does Brian have that you think will be useful to him in survival?</li>
+              <li>What is the main idea of this chapter?</li>
+            </ol>
+            <h4>Vocabulary</h4>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li> amphibious</li>
+              <li> asset</li>
+              <li> diminish</li>
+              <li> frantic</li>
+            </ol>
+          </p>
 
-
-          <textarea className="textArea" onChange={onChangela8Listener49} value={la8Essay49}/>
+          <textarea className="textArea" onChange={onChangela7Listener49} value={la7Essay49}/>
 
           <span className="days">LESSON 50 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener50} value={la8Essay50}/>
+          <p> Read <i> Chapter 6 of Hatchet</i> and then answer the questions below in complete sentences.</p>
+          <p>
+            <ol className="vocab">
+              <li>Why did Brian chose to make his shelter close to the lake? Would you have done the same thing or moved
+                elsewhere?
+              </li>
+              <li>Describe his shelter.</li>
+              <li>Brian decides to get some food. What does he do? Was this a good move? Explain.</li>
+              <li>When he thinks about cause and effect, he determines there is someone to blame for the situation he’s
+                in. Who does he blame and why? Do you think Brian is correct?
+              </li>
+              <li>What is the tone or mood of this chapter? (Is it sad, hopeful, scary?).</li>
+            </ol>
+            <h4>Vocabulary</h4>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li> interlaced</li>
+              <li> jumbled</li>
+              <li> pulverize</li>
+              <li> viciously</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener50} value={la7Essay50}/>
 
           <span className="days">LESSON 51 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener51} value={la8Essay51}/>
+          <p> Read <i> Chapter 7 of Hatchet </i> and then answer the questions below.</p>
+          <p>
+            <ol className="vocab">
+              <li>Brian is forced to learn a lot of lessons about survival quickly. There are lessons he should have
+                learned
+                the first time. List at least one.
+              </li>
+              <li>How is Brian doing after eating so many berries?</li>
+              <li>Brian remembers something that is painful. What is it?</li>
+              <li>He sees somethings that makes him "do nothing, think nothing." What does he see? Is he harmed? How do
+                you
+                think you would have reacted?
+              </li>
+              <li>Do you agree with Brian when he thinks that a city park at night was more dangerous than the woods he
+                was
+                in? Explain.
+              </li>
+              <li>What would be a good title for this chapter?</li>
+              <li>How do you like Brian? What characteristics/qualities do you like or dislike about him?</li>
+              <li>Overall, how well do you think he is managing the difficulties coming his way?</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener51} value={la7Essay51}/>
 
           <span className="days">LESSON 52 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener52} value={la8Essay52}/>
+          <p>Watch the video <b> Types of Conflict </b> and then complete the assignment below.</p>
+          <Video videoUrl="https://www.youtube.com/embed/6IHUuZ8Evag"/>
+          <p>Stories generally move forward through conflict. <br/>
+            There are several types of conflict in <i> Hatchet.</i><br/>
+            List three types and describe what is happening with each (use examples and write in complete
+            sentences).<br/>
+            <ul className="list">After you state the type of conflict, explain how the conflict is playing out in the
+              novel. <br/>
+              <li>Person vs. _________</li>
+              <li>Person vs. _________</li>
+              <li>Person vs. _________</li>
+            </ul>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener52} value={la7Essay52}/>
 
           <span className="days">LESSON 53 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener53} value={la8Essay53}/>
+          <p> Read <i> Chapter 8 of Hatchet </i> and then answer the questions below.</p>
+          <p>
+            <ol className="vocab">
+              <li>Does it seem like things keep getting worse for Brian? How so?</li>
+              <li>With this in mind, what title would you give to this chapter?</li>
+              <li>What caused Brian to cry until he could cry no more? What dawns on him afterward?</li>
+              <li>Brian believes one rule of survival is the most important. What is it?</li>
+              <li>What came into his shelter at night and what injury did he suffer?</li>
+              <li>Who did Brian dream about?</li>
+              <li>Was Brian able to quickly figure out how to start a fire? Describe the process Brian goes through
+                before he
+                successfully starts a fire? What problems did he run into and how did he problem solve? How did his
+                dream help
+                him figure things out?
+              </li>
+              <li>Brian makes a mistake when using his hatchet. What does he do and how could this have really cost
+                him?
+              </li>
+              <li>What was the tone or mood of this chapter? What do you think the author is trying to get you to
+                feel?
+              </li>
+            </ol>
+            <h4>Vocabulary</h4>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li>apparent</li>
+              <li>crude</li>
+              <li>doze</li>
+              <li>fierce</li>
+              <li>imbed</li>
+              <li> gorge</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener53} value={la7Essay53}/>
 
           <span className="days">LESSON 54 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener54} value={la8Essay54}/>
+          <p> Read <i> Chapter 9 of Hatchet </i> and then answer the questions below in complete sentences.</p>
+          <p>
+            <ol className="vocab"><br/>
+              <li>Why did Brian’s first attempts to start a fire fail?</li>
+              <li>Why do you think the author included Brian’s thoughts about whether he had learned anything in his
+                science
+                classes that could be useful to him now? <i>"Did a teacher ever stand up there and say, 'This is what
+                  makes a
+                  fire.'" </i> Was there a point for the author to include this? Explain.
+              </li>
+              <li>How does Brian feel after he starts a fire? Why do you think this is?</li>
+              <li>Brian calls the fire something more than just fire. What does he call it and why do you believe he
+                chose
+                this word?
+              </li>
+              <li>What title would you give to this chapter and explain why.</li>
+              <li>How has Brian changed so far? Do you think these changes are for the better or worse? Explain.</li>
+              <li>Brian has considered leaving his shelter close to the lake and moving elsewhere. What are the pros and
+                cons
+                of staying? What are the pros and cons of moving? After looking at your list, do you think he should
+                stay or
+                leave?
+              </li>
+            </ol>
+            <h4>Vocabulary</h4>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li> blaze</li>
+              <li> convulse</li>
+              <li> depression</li>
+              <li> dormant</li>
+              <li> enormous</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener54} value={la7Essay54}/>
 
           <span className="days">LESSON 55 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener55} value={la8Essay55}/>
+          <p> Read <i> Chapter 10 of Hatchet </i> and then answer the questions below.</p>
+          <p>
+            <ol className="vocab">
+              <li>About how long has Brian been in the Canadian wilderness?</li>
+              <li>Brian felt "he had never felt so rich somehow." What made him feel this way?</li>
+              <li>What were the advantages and disadvantages of having the fire?</li>
+              <li>Brian tries to read the tracks in the sand and thinks to himself, (<i>"City boy with your city ways
+                sitting in the sand trying to read the tracks and not knowing, not understanding. Why would anything
+                wild come up from the water to play in the sand?"</i> What does this mean? Why do think the author
+                included this?
+              </li>
+              <li>Brian didn’t like the eggs, but he ate them anyway. Why?</li>
+              <li>Brian had stopped thinking about his rescue. He became very upset with himself for doing this. Why?
+              </li>
+              <li>What would be a good title for this chapter?</li>
+            </ol>
+            <h4>Vocabulary</h4>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li> exasperation</li>
+              <li> focus</li>
+              <li> gratified</li>
+              <li> ignite</li>
+              <li> smoldered</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener55} value={la7Essay55}/>
 
           <span className="days">LESSON 56 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener56} value={la8Essay56}/>
+          <p> Read <i> Chapter 11 of Hatchet </i> and then answer the questions below in complete sentences.</p>
+          <p>
+            <ol className="vocab">
+              <li>Brian has changed since he crash landed; both his body and way of thinking are different. What changes
+                may he not notice about himself?
+              </li>
+              <li>Describe how he feels about his mind and body.</li>
+              <li>What do think about his survival skills and ability to hunt and gather?</li>
+              <li>Brian has things he tells himself he has to do. Do you think it’s important he always has things to
+                keep him ocuupied? Explain.
+              </li>
+              <li>Describe how Brian plans to make a signal fire.</li>
+              <li>What do you think would be the best way for Brian to get a fish?</li>
+              <li>What title would you give this chapter? Explain why you chose this title.</li>
+            </ol>
+            <h4>Vocabulary</h4>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li> abrupt</li>
+              <li> gnarled</li>
+              <li> lunged</li>
+              <li> fainter</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener56} value={la7Essay56}/>
 
           <span className="days">LESSON 57 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener57} value={la8Essay57}/>
+          <p> Read <i> Chapter 12 of Hatchet </i> and then answer the questions below.</p>
+          <p>
+            <ol className="vocab">
+              <li>Briefly summarize (describe what happens) in this chapter in 4-5 sentences.</li>
+              <li>Brian made his fishing spear, but it didn’t work very well. Explain why.</li>
+              <li>As Brian is moving out of the water, he decides he needs to make a bow and arrow. Then he thinks,
+                "Maybe it was always that way, discoveries happened because they needed to happen." What does he mean by
+                this?
+              </li>
+              <li>What happens that leaves Brian disappointed? By the end of the chapter, how does Brian feel?</li>
+              <li>What is the main conflict in chapter 12? Explain why.</li>
+              <li>Think of a few times when you had to deal with disappointment. How did you handle it? Do you prefer to
+                get away from others or do you get angry and vent or do you have a different way of dealing with it?
+              </li>
+              <li>How have you seen the people you’re close to you deal with disappointment?</li>
+            </ol>
+            <h4>Vocabulary</h4>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li> tapered</li>
+              <li> staggering</li>
+              <li> lunged</li>
+              <li> initially</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener57} value={la7Essay57}/>
 
           <span className="days">LESSON 58 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener58} value={la8Essay58}/>
+          <p> Read <i> Chapter 13 of Hatchet </i> and then answer the questions below.</p>
+          <p>
+            <ol className="vocab">
+              <li>What title would you give to this chapter. Why?</li>
+              <li>Brian feels like a new person. Explain how and where this happened.</li>
+              <li>Brian says to himself that he is full of tough hope. What does that mean?</li>
+              <li>Do you think Brian is still changing? Explain why or why not.</li>
+              <li>How much time has passed since the plane passed over him in chapter 12 and the end of chapter 13? How
+                are you able to guess this?
+              </li>
+              <li>How does he feel about the fact he missed signaling the plane?</li>
+              <li>When Brian sees the wolf, does that tell us anything?</li>
+              <li>What is the mood or tone of this chapter?</li>
+              <li>Describe what refraction is. How is Brian’s understanding of refraction help hm finally catch a
+                fish?
+              </li>
+              <li>Give an example where Brian shows his cleverness or resourcefulness.</li>
+              <li>Give an example that shows he has grit and persistence.</li>
+            </ol>
+            <h4>Vocabulary</h4>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li> verify</li>
+              <li> exulted</li>
+              <li> vital</li>
+              <li> refracted</li>
+              <li> corrosive</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener58} value={la7Essay58}/>
 
           <span className="days">LESSON 59 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener59} value={la8Essay59}/>
+          <p> Read <i> Chapter 14 of Hatchet </i> and then answer the questions below.</p>
+          <p>
+            <ol className="vocab">
+              <li>Brian believes that mistakes he makes in the woods are far more serious than mistakes he makes in the
+                city.
+              </li>
+              <li>What does Brian believe is the "great, single driving influence in nature"?</li>
+              <li>What lessons did the skunk teach Brian?</li>
+              <li>How was Brian able to store fish?</li>
+            </ol>
+            <h4>Vocabulary</h4>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li> carp</li>
+              <li> impaired</li>
+              <li> rectify</li>
+              <li> sear</li>
+              <li> sulfurous</li>
+              <li> corrosive</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener59} value={la7Essay59}/>
 
           <span className="days">LESSON 60 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener60} value={la8Essay60}/>
+          <p> Read <i> Chapter 15 of Hatchet </i> and then answer the questions below.</p>
+          <p>
+            <ol className="vocab">
+              <li>Has Brian thought a lot about going home in this chapter? Why do you think this is?</li>
+              <li>Describe how living in the wild has taught Brian to see, smell, and hear differently than when he
+                lived in the city.
+              </li>
+              <li>When Brian makes a mistake, why do the consequences feel serious?</li>
+              <li>List two mistakes he made, the consequences he suffered for the mistakes and what he learned from
+                them.
+              </li>
+              <li>How does Brian keep track of time?</li>
+              <li>Why did the foolbirds drive Brian crazy? What was a trick that allowed him to find the foolbirds more
+                easily? What let him know they were about to take flight?
+              </li>
+              <li>Why do you think the author reminds readers of the fact that it is much easier to get chicken from a
+                store than to catch wild game?
+              </li>
+            </ol>
+            <h4>Vocabulary</h4>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li> flurry</li>
+              <li> bellowed</li>
+              <li> stabilize</li>
+              <li> camouflage</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener60} value={la7Essay60}/>
 
           <span className="days">LESSON 61 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener61} value={la8Essay61}/>
+          <p> Read <i> Chapter 16 of Hatchet </i> and then answer the questions below.</p>
+          <p>
+            <ol className="vocab">
+              <li>Write a 4-5 sentence summary of this chapter. Describe what happens to Brian and what two dangerous
+                things happen.
+              </li>
+              <li>Why did Brian believe that dipping his hands in the water was nearly the last act of his life?</li>
+              <li>Brian was able to feel more lighthearted than usual and show some humor. Explain when this happened.
+              </li>
+              <li>Who do you think Brian is talking to when he says, "Is this the best you can do?"</li>
+              <li>When he was assessing how much damage the tornado caused, what did he discover?</li>
+            </ol>
+            <h4>Vocabulary</h4>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li> stabilize</li>
+              <li> bounded</li>
+              <li> retrieved</li>
+              <li> stymied</li>
+              <li> sputtered</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener61} value={la7Essay61}/>
 
           <span className="days">LESSON 62 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener62} value={la8Essay62}/>
+          <p> Read <i> Chapter 17 of Hatchet </i> and then answer the questions below.</p>
+          <p>
+            <ol className="vocab">
+              <li>Why does Brian build a raft? What does he call it.</li>
+              <li>He’s building the raft to get to something. What is he trying to find? Explain why.</li>
+              <li>After the tornado, Brian thinks about home. What does he think he might be doing if he were back home?
+                What do you think you’d be feeling if you were him?
+              </li>
+              <li>Brian used to be out of place living in the wilderness. Do you think he has grown to become more a
+                part of the wilderness? Explain why or why not?
+              </li>
+              <li>How do you think Brian has been dealing with the difficulties that have come his way?</li>
+              <li>What did Brian do to get his life back to normal?</li>
+              <li>Do you think Brian is learning patience? Give an example to support your answer?</li>
+              <li>What did it mean when the author states that Brian slept a "healing sleep"?</li>
+            </ol>
+            <h4>Vocabulary</h4>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li> eddy</li>
+              <li> stabilizer</li>
+              <li> fuselage</li>
+              <li> ruefully</li>
+              <li> incessant</li>
+              <li>hordes</li>
+              <li>naturalist</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener62} value={la7Essay62}/>
 
           <span className="days">LESSON 63 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener63} value={la8Essay63}/>
+          <p> Read <i> Chapter 18 of Hatchet </i> and then answer the questions below.</p>
+          <p>
+            <ol className="vocab">
+              <li>How did Brian discover than he could cut his way through the aluminum skin of the plane?</li>
+              <li>He made a mistake when he tried to bend the aluminum back from the braces. Describe what happened and
+                how he solved the problem.
+              </li>
+              <li>Why did he bother to save the aluminum he cut away?</li>
+              <li>Describe Brian’s attempts to get down to the plane.</li>
+              <li>What was the outcome of his trip to the plane? Was he able to recover anything?</li>
+              <li>What did Brian see that made him scream in horror?</li>
+              <li>What was your reaction when Brian dropped his hatchet in the water?</li>
+              <li>He knew he had to get his hatchet back because it was one of the things that had been keeping him
+                alive. Write a list of all the things he used
+                the hatchet for in his survival since he crash landed.
+              </li>
+              <li>You are getting close to the end of the book. There are a few ways things could go for Brian. He could
+                be rescued, he could live out the rest of his life in the woods, or he could die. How do you think it
+                will go for him? Can you think of an alternate ending not mentioned here?
+              </li>
+            </ol>
+            <h4>Vocabulary</h4>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li> frenzied</li>
+              <li> propel</li>
+              <li> formers</li>
+              <li> reconsidered</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener63} value={la7Essay63}/>
 
           <span className="days">LESSON 64 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener64} value={la8Essay64}/>
+          <p> Read <i> Chapter 19 and Epilogue</i> and then answer the questions below.</p>
+          <p>
+            <ol className="vocab">
+              <li>Do you remember the first thing Brian said to the pilot?</li>
+              <li>Why did Brian not like having a rifle and lighter?</li>
+              <li>What did Brian decide to do with the food that was in the survival bag?</li>
+              <li>How did Brian think the items in the survival bag changed him?</li>
+              <li>Think about Brian and how he acted when he first crash-landed in the wilderness. Describe how Brian
+                changed in a permanent way.
+              </li>
+              <li>What became of the secret about his mother that he had been keeping?</li>
+              <li>What is the main conflict in <i>Hatchet</i> and how is it resolved?</li>
+              <li>Was Brian fortunate to be rescued when he was? How so?</li>
+              <li>What did Brian think about the hatchet when his mother first gave it to him? How did he feel about it
+                by the end of the story?
+              </li>
+              <li>Was there ever in point in the novel you would have wanted to change places with Brian? Explain why or
+                why not.
+              </li>
+              <li>After Brian is rescued, do you think he will have a difficult time adjusting to being at home again?
+              </li>
+              <li>Did you feel that Brian’s story was believable and could have happened as the author described it?
+                Explain your answer.
+              </li>
+            </ol>
+            <h4>Vocabulary</h4>
+            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            <ol className="vocab">
+              <li> sheath</li>
+              <li> antiseptic</li>
+              <li> pitch</li>
+              <li> surge</li>
+              <li> furor</li>
+              <li> oblivious</li>
+              <li> unwittingly</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener64} value={la7Essay64}/>
 
           <span className="days">LESSON 65 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener65} value={la8Essay65}/>
+          <h4>Five Paragraph Essay</h4>
+          <p> Do you think Brian is better or worse off for having experienced surviving alone in the Canadian
+            wilderness? Before answering this question for your essay, think about the qualities he develops during
+            that time and how these qualities may affect Brian for the rest of his life.</p>
+          <p> Essay Requirements</p>
+          <ul className="list">
+            <li>Your first paragraph should begin with a hook to grab your reader’s attention. This should be followed
+              by a clear thesis statement (main idea of your essay). This statement should convey the points or
+              arguments you are going to make.
+            </li>
+            <li>Paragraphs 2 through 4 should provide examples from the book that support your thesis statement. Each
+              paragraph should discuss a different point and use a different example. Using direct quotes from the
+              novel can be effective in proving your point.
+            </li>
+            <li>Your conclusion should restate your thesis in a different way. End with a thoughtful summary.</li>
+            <li>Each paragraph should be 3-6 sentences.</li>
+          </ul>
+          <p className="topBottom"><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
+                                      rel="noreferrer" target="_blank">Click
+            here for a 5 Paragraph Essay outline </a>if you need help in getting started. </p>
+          <textarea className="textArea" onChange={onChangela7Listener65} value={la7Essay65}/>
 
           <span className="days">LESSON 66 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener66} value={la8Essay66}/>
+          <h4>Survival Kit</h4>
+          <p>Shortly before Brian gets rescued, you are given clues that summer is ending and it will be cold soon.
+            Winter in the Canadian wilderness presents new problems that Brian would have to deal with. List what you
+            think these problems will be. </p>
+          <p>If you could prepare a survival kit to successfully get Brian through the winter, what would you include
+            in the kit. List at least ten items you would place in the kit. </p>
+          <p>Now imagine you are the one who is trying to survive in the Canadian wilderness in the middle of winter.
+            Are there any items you would place in the survival kit for yourself that you didn’t include for
+            Brian? </p>
+          <textarea className="textArea" onChange={onChangela7Listener66} value={la7Essay66}/>
 
           <span className="days">LESSON 67 </span>
+          <p className="topBottom">Watch the videos and complete the assignments posted below from Khan Academy: Close
+            reading - Informational text - Mysteries of the Past. </p>
+          <p className="topBottom">Read <a
+            href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-mysteries-of-the-past/x4aa9073b12675eb1:untitled-44/a/welcome-to-the-mysteries-of-the-past-unit?modal=1"
+            rel="noreferrer" target="_blank"> an
+            overview. </a> of what you will cover in this unit.</p>
+          <p className="topBottom">Review the <a
+            href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-mysteries-of-the-past/x4aa9073b12675eb1:untitled-44/a/mysteries-of-the-past-unit-vocabulary?modal=1"
+            rel="noreferrer" target="_blank"> Vocabulary </a>for this Unit.</p>
+            <Video videoUrl="https://www.youtube.com/embed/5Eepm6Px5pc"/>
+            <Video videoUrl="https://www.youtube.com/embed/-GY2Cj1w_PY"/>
+            <Video videoUrl="https://www.youtube.com/embed/msHjgIsYOkU"/>
+            <p className="topBottom">After you read <a
+              href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-mysteries-of-the-past/x4aa9073b12675eb1:untitled-45/e/mysteries-of-the-past--reading-informational-text--the-roanoke-voyages-7?modal=1"
+              rel="noreferrer" target="_blank"> The Roanoke Voyages 7,</a>
+              answer the practice questions at the bottom of the article linked here from Khan Academy.
+              Then in the textbox below, write a brief summary about what you read.</p>
+            <textarea className="textArea" onChange={onChangela7Listener67} value={la7Essay67}/>
 
+            <span className="days">LESSON 68 </span>
+            <p className="topBottom">Watch the videos and complete the assignments posted below from Khan Academy: Close
+              reading: argumentative text. </p>
+            <Video videoUrl="https://www.youtube.com/embed/GvWH9ZXy9gY"/>
+              <Video videoUrl="https://www.youtube.com/embed/XRt1N0sJJQo"/>
+              <Video videoUrl="https://www.youtube.com/embed/NXO3KT8bne4"/>
+              <p>After you read <a
+                href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-mysteries-of-the-past/x4aa9073b12675eb1:close-reading-argumentative-text/e/mysteries-of-the-past--reading-informational-text--wanted--more-research-for-roanoke-7?modal=1"
+                rel="noreferrer" target="_blank">WANTED: More Research For Roanoke,</a>
+                complete the questions that follow. Then in the textbox below, write a brief summary about what you
+                read.</p>
+              <textarea className="textArea" onChange={onChangela7Listener68} value={la7Essay68}/>
 
-          <textarea className="textArea" onChange={onChangela8Listener67} value={la8Essay67}/>
+              <span className="days">LESSON 69 </span>
+              <p className="topBottom">Watch the videos and complete the assignments posted below from Khan Academy:
+                Mysteries of the Past: Applying vocabulary knowledge. </p>
+          <Video videoUrl="https://www.youtube.com/embed/CiNggzdWkIo"/>
+                <Video videoUrl="https://www.youtube.com/embed/fiaPqgwJFo4"/>
+                <Video videoUrl="https://www.youtube.com/embed/l3yWmXbC36s"/>
+                <p>After you read <a href=" " rel="noreferrer" target="_blank"> "The Roanoke Voyages," </a>complete the
+                  questions that follow the article. Then in the textbox below, write a brief summary about what you
+                  read.</p>
+                <textarea className="textArea" onChange={onChangela7Listener69} value={la7Essay69}/>
 
-          <span className="days">LESSON 68 </span>
+                <span className="days">LESSON 70 </span>
+                <p className="topBottom">Watch the videos and complete the assignments posted below from Khan Academy:
+                  Reading for understanding: fiction. </p>
+                <Video videoUrl="https://www.youtube.com/embed/gUW2jit3uvo"/>
+                  <p>After you read <a
+                    href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-mysteries-of-the-past/x4aa9073b12675eb1:untitled-47/e/mysteries-of-the-past--reading-informational-text--the-mystery-child-7?modal=1"
+                    rel="noreferrer" target="_blank"> "The Mystery Child," </a>complete
+                    the questions that follow the article. Then in the textbox below, write a brief summary about what
+                    you read.</p>
+                  <textarea className="textArea" onChange={onChangela7Listener70} value={la7Essay70}/>
 
+                  <span className="days">LESSON 71 </span>
+                  <p className="topBottom">Watch the videos and complete the assignments posted below from Khan Academy:
+                    Close reading - Informational text - Mysteries of the Past. </p>
+                  <Video videoUrl="https://www.youtube.com/embed/Zr1xLtSMMLo"/>
+                    <Video videoUrl="https://www.youtube.com/embed/ZASEsKwEvqE"/>
+                    <p>After you read <a
+                      href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-mysteries-of-the-past/x4aa9073b12675eb1:reading-for-understanding-fiction/e/mysteries-of-the-past--reading-historical-fiction-7?modal=1"
+                      rel="noreferrer" target="_blank"> "A View from the Walnut Tree," </a>complete the questions that
+                      follow the article. Then in the textbox below, write a brief summary about what you read.</p>
+                    <textarea className="textArea" onChange={onChangela7Listener71} value={la7Essay71}/>
 
-          <textarea className="textArea" onChange={onChangela8Listener68} value={la8Essay68}/>
+                    <span className="days">LESSON 72 </span>
 
-          <span className="days">LESSON 69 </span>
 
+                    <textarea className="textArea" onChange={onChangela7Listener72} value={la7Essay72}/>
 
-          <textarea className="textArea" onChange={onChangela8Listener69} value={la8Essay69}/>
+                    <span className="days">LESSON 73 </span>
 
-          <span className="days">LESSON 70 </span>
 
+                    <textarea className="textArea" onChange={onChangela7Listener73} value={la7Essay73}/>
 
-          <textarea className="textArea" onChange={onChangela8Listener70} value={la8Essay70}/>
+                    <span className="days">LESSON 74 </span>
 
-          <span className="days">LESSON 71 </span>
 
+                    <textarea className="textArea" onChange={onChangela7Listener74} value={la7Essay74}/>
 
-          <textarea className="textArea" onChange={onChangela8Listener71} value={la8Essay71}/>
+                    <span className="days">LESSON 75 </span>
 
-          <span className="days">LESSON 72 </span>
 
+                    <textarea className="textArea" onChange={onChangela7Listener75} value={la7Essay75}/>
 
-          <textarea className="textArea" onChange={onChangela8Listener72} value={la8Essay72}/>
+                    <span className="days">LESSON 76 </span>
 
-          <span className="days">LESSON 73 </span>
 
+                    <textarea className="textArea" onChange={onChangela7Listener76} value={la7Essay76}/>
 
-          <textarea className="textArea" onChange={onChangela8Listener73} value={la8Essay73}/>
+                    <span className="days">LESSON 77 </span>
 
-          <span className="days">LESSON 74 </span>
 
+                    <textarea className="textArea" onChange={onChangela7Listener77} value={la7Essay77}/>
 
-          <textarea className="textArea" onChange={onChangela8Listener74} value={la8Essay74}/>
+                    <span className="days">LESSON 78 </span>
 
-          <span className="days">LESSON 75 </span>
 
+                    <textarea className="textArea" onChange={onChangela7Listener78} value={la7Essay78}/>
 
-          <textarea className="textArea" onChange={onChangela8Listener75} value={la8Essay75}/>
+                    <span className="days">LESSON 79 </span>
 
-          <span className="days">LESSON 76 </span>
 
+                    <textarea className="textArea" onChange={onChangela7Listener79} value={la7Essay79}/>
 
-          <textarea className="textArea" onChange={onChangela8Listener76} value={la8Essay76}/>
+                    <span className="days">LESSON 80 </span>
 
-          <span className="days">LESSON 77 </span>
 
+                    <textarea className="textArea" onChange={onChangela7Listener80} value={la7Essay80}/>
 
-          <textarea className="textArea" onChange={onChangela8Listener77} value={la8Essay77}/>
+                    <span className="days">LESSON 81 </span>
 
-          <span className="days">LESSON 78 </span>
 
+                    <textarea className="textArea" onChange={onChangela7Listener81} value={la7Essay81}/>
 
-          <textarea className="textArea" onChange={onChangela8Listener78} value={la8Essay78}/>
+                    <span className="days">LESSON 82 </span>
 
-          <span className="days">LESSON 79 </span>
 
+                    <textarea className="textArea" onChange={onChangela7Listener82} value={la7Essay82}/>
 
-          <textarea className="textArea" onChange={onChangela8Listener79} value={la8Essay79}/>
+                    <span className="days">LESSON 83 </span>
 
-          <span className="days">LESSON 80 </span>
 
+                    <textarea className="textArea" onChange={onChangela7Listener83} value={la7Essay83}/>
 
-          <textarea className="textArea" onChange={onChangela8Listener80} value={la8Essay80}/>
+                    <span className="days">LESSON 84 </span>
 
-          <span className="days">LESSON 81 </span>
 
+                    <textarea className="textArea" onChange={onChangela7Listener84} value={la7Essay84}/>
 
-          <textarea className="textArea" onChange={onChangela8Listener81} value={la8Essay81}/>
+                    <span className="days">LESSON 85 </span>
 
-          <span className="days">LESSON 82 </span>
 
+                    <textarea className="textArea" onChange={onChangela7Listener85} value={la7Essay85}/>
 
-          <textarea className="textArea" onChange={onChangela8Listener82} value={la8Essay82}/>
+                    <span className="days">LESSON 86 </span>
 
-          <span className="days">LESSON 83 </span>
 
+                    <textarea className="textArea" onChange={onChangela7Listener86} value={la7Essay86}/>
 
-          <textarea className="textArea" onChange={onChangela8Listener83} value={la8Essay83}/>
+                    <span className="days">LESSON 87 </span>
 
-          <span className="days">LESSON 84 </span>
 
+                    <textarea className="textArea" onChange={onChangela7Listener87} value={la7Essay87}/>
 
-          <textarea className="textArea" onChange={onChangela8Listener84} value={la8Essay84}/>
+                    <span className="days">LESSON 88 </span>
 
-          <span className="days">LESSON 85 </span>
 
+                    <textarea className="textArea" onChange={onChangela7Listener88} value={la7Essay88}/>
 
-          <textarea className="textArea" onChange={onChangela8Listener85} value={la8Essay85}/>
+                    <span className="days">LESSON 89 </span>
 
-          <span className="days">LESSON 86 </span>
 
+                    <textarea className="textArea" onChange={onChangela7Listener89} value={la7Essay89}/>
 
-          <textarea className="textArea" onChange={onChangela8Listener86} value={la8Essay86}/>
+                    <span className="days">LESSON 90 </span>
 
-          <span className="days">LESSON 87 </span>
 
+                    <textarea className="textArea" onChange={onChangela7Listener90} value={la7Essay90}/>
 
-          <textarea className="textArea" onChange={onChangela8Listener87} value={la8Essay87}/>
+                    <span className="days">LESSON 91 </span>
 
-          <span className="days">LESSON 88 </span>
 
+                    <textarea className="textArea" onChange={onChangela7Listener91} value={la7Essay91}/>
 
-          <textarea className="textArea" onChange={onChangela8Listener88} value={la8Essay88}/>
+                    <span className="days">LESSON 92 </span>
 
-          <span className="days">LESSON 89 </span>
 
+                    <textarea className="textArea" onChange={onChangela7Listener92} value={la7Essay92}/>
 
-          <textarea className="textArea" onChange={onChangela8Listener89} value={la8Essay89}/>
+                    <span className="days">LESSON 93 </span>
 
-          <span className="days">LESSON 90 </span>
 
+                    <textarea className="textArea" onChange={onChangela7Listener93} value={la7Essay93}/>
 
-          <textarea className="textArea" onChange={onChangela8Listener90} value={la8Essay90}/>
+                    <span className="days">LESSON 94 </span>
 
-          <span className="days">LESSON 91 </span>
 
+                    <textarea className="textArea" onChange={onChangela7Listener94} value={la7Essay94}/>
 
-          <textarea className="textArea" onChange={onChangela8Listener91} value={la8Essay91}/>
+                    <span className="days">LESSON 95 </span>
 
-          <span className="days">LESSON 92 </span>
 
+                    <textarea className="textArea" onChange={onChangela7Listener95} value={la7Essay95}/>
 
-          <textarea className="textArea" onChange={onChangela8Listener92} value={la8Essay92}/>
+                    <span className="days">LESSON 96 </span>
 
-          <span className="days">LESSON 93 </span>
 
+                    <textarea className="textArea" onChange={onChangela7Listener96} value={la7Essay96}/>
 
-          <textarea className="textArea" onChange={onChangela8Listener93} value={la8Essay93}/>
+                    <span className="days">LESSON 97 </span>
 
-          <span className="days">LESSON 94 </span>
 
+                    <textarea className="textArea" onChange={onChangela7Listener97} value={la7Essay97}/>
 
-          <textarea className="textArea" onChange={onChangela8Listener94} value={la8Essay94}/>
+                    <span className="days">LESSON 98 </span>
 
-          <span className="days">LESSON 95 </span>
 
+                    <textarea className="textArea" onChange={onChangela7Listener98} value={la7Essay98}/>
 
-          <textarea className="textArea" onChange={onChangela8Listener95} value={la8Essay95}/>
+                    <span className="days">LESSON 99 </span>
 
-          <span className="days">LESSON 96 </span>
 
+                    <textarea className="textArea" onChange={onChangela7Listener99} value={la7Essay99}/>
 
-          <textarea className="textArea" onChange={onChangela8Listener96} value={la8Essay96}/>
+                    <span className="days">LESSON 100 </span>
 
-          <span className="days">LESSON 97 </span>
 
+                    <textarea className="textArea" onChange={onChangela7Listener100} value={la7Essay100}/>
 
-          <textarea className="textArea" onChange={onChangela8Listener97} value={la8Essay97}/>
+                    {/*<span className="days">LESSON 101 </span>*/}
 
-          <span className="days">LESSON 98 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener101} value={la7Essay101}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener98} value={la8Essay98}/>
+                    {/*<span className="days">LESSON 102 </span>*/}
 
-          <span className="days">LESSON 99 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener102} value={la7Essay102}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener99} value={la8Essay99}/>
+                    {/*<span className="days">LESSON 103 </span>*/}
 
-          <span className="days">LESSON 100 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener103} value={la7Essay103}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener100} value={la8Essay100}/>
+                    {/*<span className="days">LESSON 104 </span>*/}
 
-          <span className="days">LESSON 101 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener104} value={la7Essay104}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener101} value={la8Essay101}/>
+                    {/*<span className="days">LESSON 105 </span>*/}
 
-          <span className="days">LESSON 102 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener105} value={la7Essay105}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener102} value={la8Essay102}/>
+                    {/*<span className="days">LESSON 106 </span>*/}
 
-          <span className="days">LESSON 103 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener106} value={la7Essay106}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener103} value={la8Essay103}/>
+                    {/*<span className="days">LESSON 107 </span>*/}
 
-          <span className="days">LESSON 104 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener107} value={la7Essay107}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener104} value={la8Essay104}/>
+                    {/*<span className="days">LESSON 108 </span>*/}
 
-          <span className="days">LESSON 105 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener108} value={la7Essay108}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener105} value={la8Essay105}/>
+                    {/*<span className="days">LESSON 109 </span>*/}
 
-          <span className="days">LESSON 106 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener109} value={la7Essay109}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener106} value={la8Essay106}/>
+                    {/*<span className="days">LESSON 110 </span>*/}
 
-          <span className="days">LESSON 107 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener110} value={la7Essay110}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener107} value={la8Essay107}/>
+                    {/*<span className="days">LESSON 111 </span>*/}
 
-          <span className="days">LESSON 108 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener111} value={la7Essay111}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener108} value={la8Essay108}/>
+                    {/*<span className="days">LESSON 112 </span>*/}
 
-          <span className="days">LESSON 109 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener112} value={la7Essay112}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener109} value={la8Essay109}/>
+                    {/*<span className="days">LESSON 113 </span>*/}
 
-          <span className="days">LESSON 110 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener113} value={la7Essay113}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener110} value={la8Essay110}/>
+                    {/*<span className="days">LESSON 114 </span>*/}
 
-          <span className="days">LESSON 111 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener114} value={la7Essay114}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener111} value={la8Essay111}/>
+                    {/*<span className="days">LESSON 115 </span>*/}
 
-          <span className="days">LESSON 112 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener115} value={la7Essay115}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener112} value={la8Essay112}/>
+                    {/*<span className="days">LESSON 116 </span>*/}
 
-          <span className="days">LESSON 113 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener116} value={la7Essay116}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener113} value={la8Essay113}/>
+                    {/*<span className="days">LESSON 117 </span>*/}
 
-          <span className="days">LESSON 114 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener117} value={la7Essay117}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener114} value={la8Essay114}/>
+                    {/*<span className="days">LESSON 118 </span>*/}
 
-          <span className="days">LESSON 115 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener118} value={la7Essay118}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener115} value={la8Essay115}/>
+                    {/*<span className="days">LESSON 119 </span>*/}
 
-          <span className="days">LESSON 116 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener119} value={la7Essay119}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener116} value={la8Essay116}/>
+                    {/*<span className="days">LESSON 120 </span>*/}
 
-          <span className="days">LESSON 117 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener120} value={la7Essay120}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener117} value={la8Essay117}/>
+                    {/*<span className="days">LESSON 121 </span>*/}
 
-          <span className="days">LESSON 118 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener121} value={la7Essay121}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener118} value={la8Essay118}/>
+                    {/*<span className="days">LESSON 122 </span>*/}
 
-          <span className="days">LESSON 119 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener122} value={la7Essay122}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener119} value={la8Essay119}/>
+                    {/*<span className="days">LESSON 123 </span>*/}
 
-          <span className="days">LESSON 120 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener123} value={la7Essay123}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener120} value={la8Essay120}/>
+                    {/*<span className="days">LESSON 124 </span>*/}
 
-          <span className="days">LESSON 121 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener124} value={la7Essay124}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener121} value={la8Essay121}/>
+                    {/*<span className="days">LESSON 125 </span>*/}
 
-          <span className="days">LESSON 122 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener125} value={la7Essay125}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener122} value={la8Essay122}/>
+                    {/*<span className="days">LESSON 126 </span>*/}
 
-          <span className="days">LESSON 123 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener126} value={la7Essay126}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener123} value={la8Essay123}/>
+                    {/*<span className="days">LESSON 127 </span>*/}
 
-          <span className="days">LESSON 124 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener127} value={la7Essay127}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener124} value={la8Essay124}/>
+                    {/*<span className="days">LESSON 128 </span>*/}
 
-          <span className="days">LESSON 125 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener128} value={la7Essay128}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener125} value={la8Essay125}/>
+                    {/*<span className="days">LESSON 129 </span>*/}
 
-          <span className="days">LESSON 126 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener129} value={la7Essay129}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener126} value={la8Essay126}/>
+                    {/*<span className="days">LESSON 130 </span>*/}
 
-          <span className="days">LESSON 127 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener130} value={la7Essay130}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener127} value={la8Essay127}/>
+                    {/*<span className="days">LESSON 131 </span>*/}
 
-          <span className="days">LESSON 128 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener131} value={la7Essay131}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener128} value={la8Essay128}/>
+                    {/*<span className="days">LESSON 132 </span>*/}
 
-          <span className="days">LESSON 129 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener132} value={la7Essay132}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener129} value={la8Essay129}/>
+                    {/*<span className="days">LESSON 133 </span>*/}
 
-          <span className="days">LESSON 130 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener133} value={la7Essay133}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener130} value={la8Essay130}/>
+                    {/*<span className="days">LESSON 134 </span>*/}
 
-          <span className="days">LESSON 131 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener134} value={la7Essay134}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener131} value={la8Essay131}/>
+                    {/*<span className="days">LESSON 135 </span>*/}
 
-          <span className="days">LESSON 132 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener135} value={la7Essay135}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener132} value={la8Essay132}/>
+                    {/*<span className="days">LESSON 136 </span>*/}
 
-          <span className="days">LESSON 133 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener136} value={la7Essay136}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener133} value={la8Essay133}/>
+                    {/*<span className="days">LESSON 137 </span>*/}
 
-          <span className="days">LESSON 134 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener137} value={la7Essay137}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener134} value={la8Essay134}/>
+                    {/*<span className="days">LESSON 138 </span>*/}
 
-          <span className="days">LESSON 135 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener138} value={la7Essay138}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener135} value={la8Essay135}/>
+                    {/*<span className="days">LESSON 139 </span>*/}
 
-          <span className="days">LESSON 136 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener139} value={la7Essay139}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener136} value={la8Essay136}/>
+                    {/*<span className="days">LESSON 140 </span>*/}
 
-          <span className="days">LESSON 137 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener140} value={la7Essay140}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener137} value={la8Essay137}/>
+                    {/*<span className="days">LESSON 141 </span>*/}
 
-          <span className="days">LESSON 138 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener141} value={la7Essay141}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener138} value={la8Essay138}/>
+                    {/*<span className="days">LESSON 142 </span>*/}
 
-          <span className="days">LESSON 139 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener142} value={la7Essay142}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener139} value={la8Essay139}/>
+                    {/*<span className="days">LESSON 143 </span>*/}
 
-          <span className="days">LESSON 140 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener143} value={la7Essay143}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener140} value={la8Essay140}/>
+                    {/*<span className="days">LESSON 144 </span>*/}
 
-          <span className="days">LESSON 141 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener144} value={la7Essay144}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener141} value={la8Essay141}/>
+                    {/*<span className="days">LESSON 145 </span>*/}
 
-          <span className="days">LESSON 142 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener145} value={la7Essay145}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener142} value={la8Essay142}/>
+                    {/*<span className="days">LESSON 146 </span>*/}
 
-          <span className="days">LESSON 143 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener146} value={la7Essay146}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener143} value={la8Essay143}/>
+                    {/*<span className="days">LESSON 147 </span>*/}
 
-          <span className="days">LESSON 144 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener147} value={la7Essay147}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener144} value={la8Essay144}/>
+                    {/*<span className="days">LESSON 148 </span>*/}
 
-          <span className="days">LESSON 145 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener148} value={la7Essay148}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener145} value={la8Essay145}/>
+                    {/*<span className="days">LESSON 149 </span>*/}
 
-          <span className="days">LESSON 146 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener149} value={la7Essay149}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener146} value={la8Essay146}/>
+                    {/*<span className="days">LESSON 150 </span>*/}
 
-          <span className="days">LESSON 147 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener150} value={la7Essay150}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener147} value={la8Essay147}/>
+                    {/*<span className="days">LESSON 151 </span>*/}
 
-          <span className="days">LESSON 148 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener151} value={la7Essay151}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener148} value={la8Essay148}/>
+                    {/*<span className="days">LESSON 152 </span>*/}
 
-          <span className="days">LESSON 149 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener152} value={la7Essay152}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener149} value={la8Essay149}/>
+                    {/*<span className="days">LESSON 153 </span>*/}
 
-          <span className="days">LESSON 150 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener153} value={la7Essay153}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener150} value={la8Essay150}/>
+                    {/*<span className="days">LESSON 154 </span>*/}
 
-          <span className="days">LESSON 151 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener154} value={la7Essay154}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener151} value={la8Essay151}/>
+                    {/*<span className="days">LESSON 155 </span>*/}
 
-          <span className="days">LESSON 152 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener155} value={la7Essay155}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener152} value={la8Essay152}/>
+                    {/*<span className="days">LESSON 156 </span>*/}
 
-          <span className="days">LESSON 153 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener156} value={la7Essay156}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener153} value={la8Essay153}/>
+                    {/*<span className="days">LESSON 157 </span>*/}
 
-          <span className="days">LESSON 154 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener157} value={la7Essay157}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener154} value={la8Essay154}/>
+                    {/*<span className="days">LESSON 158 </span>*/}
 
-          <span className="days">LESSON 155 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener158} value={la7Essay158}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener155} value={la8Essay155}/>
+                    {/*<span className="days">LESSON 159 </span>*/}
 
-          <span className="days">LESSON 156 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener159} value={la7Essay159}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener156} value={la8Essay156}/>
+                    {/*<span className="days">LESSON 160 </span>*/}
 
-          <span className="days">LESSON 157 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener160} value={la7Essay160}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener157} value={la8Essay157}/>
+                    {/*<span className="days">LESSON 161 </span>*/}
 
-          <span className="days">LESSON 158 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener161} value={la7Essay161}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener158} value={la8Essay158}/>
+                    {/*<span className="days">LESSON 162 </span>*/}
 
-          <span className="days">LESSON 159 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener162} value={la7Essay162}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener159} value={la8Essay159}/>
+                    {/*<span className="days">LESSON 163 </span>*/}
 
-          <span className="days">LESSON 160 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener163} value={la7Essay163}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener160} value={la8Essay160}/>
+                    {/*<span className="days">LESSON 164 </span>*/}
 
-          <span className="days">LESSON 161 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener164} value={la7Essay164}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener161} value={la8Essay161}/>
+                    {/*<span className="days">LESSON 165 </span>*/}
 
-          <span className="days">LESSON 162 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener165} value={la7Essay165}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener162} value={la8Essay162}/>
+                    {/*<span className="days">LESSON 166 </span>*/}
 
-          <span className="days">LESSON 163 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener166} value={la7Essay166}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener163} value={la8Essay163}/>
+                    {/*<span className="days">LESSON 167 </span>*/}
 
-          <span className="days">LESSON 164 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener167} value={la7Essay167}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener164} value={la8Essay164}/>
+                    {/*<span className="days">LESSON 168 </span>*/}
 
-          <span className="days">LESSON 165 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener168} value={la7Essay168}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener165} value={la8Essay165}/>
+                    {/*<span className="days">LESSON 169 </span>*/}
 
-          <span className="days">LESSON 166 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener169} value={la7Essay169}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener166} value={la8Essay166}/>
+                    {/*<span className="days">LESSON 170 </span>*/}
 
-          <span className="days">LESSON 167 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener170} value={la7Essay170}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener167} value={la8Essay167}/>
+                    {/*<span className="days">LESSON 171 </span>*/}
 
-          <span className="days">LESSON 168 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener171} value={la7Essay171}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener168} value={la8Essay168}/>
+                    {/*<span className="days">LESSON 172 </span>*/}
 
-          <span className="days">LESSON 169 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener172} value={la7Essay172}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener169} value={la8Essay169}/>
+                    {/*<span className="days">LESSON 173 </span>*/}
 
-          <span className="days">LESSON 170 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener173} value={la7Essay173}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener170} value={la8Essay170}/>
+                    {/*<span className="days">LESSON 174 </span>*/}
 
-          <span className="days">LESSON 171 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener174} value={la7Essay174}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener171} value={la8Essay171}/>
+                    {/*<span className="days">LESSON 175 </span>*/}
 
-          <span className="days">LESSON 172 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener175} value={la7Essay175}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener172} value={la8Essay172}/>
+                    {/*<span className="days">LESSON 176 </span>*/}
 
-          <span className="days">LESSON 173 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener176} value={la7Essay176}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener173} value={la8Essay173}/>
+                    {/*<span className="days">LESSON 177 </span>*/}
 
-          <span className="days">LESSON 174 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener177} value={la7Essay177}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener174} value={la8Essay174}/>
+                    {/*<span className="days">LESSON 178 </span>*/}
 
-          <span className="days">LESSON 175 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener178} value={la7Essay178}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener175} value={la8Essay175}/>
+                    {/*<span className="days">LESSON 179 </span>*/}
 
-          <span className="days">LESSON 176 </span>
 
+                    {/*<textarea className="textArea" onChange={onChangela7Listener179} value={la7Essay179}/>*/}
 
-          <textarea className="textArea" onChange={onChangela8Listener176} value={la8Essay176}/>
+                    {/*<span className="days">LESSON 180 </span>*/}
 
-          <span className="days">LESSON 177 </span>
 
-
-          <textarea className="textArea" onChange={onChangela8Listener177} value={la8Essay177}/>
-
-          <span className="days">LESSON 178 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener178} value={la8Essay178}/>
-
-          <span className="days">LESSON 179 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener179} value={la8Essay179}/>
-
-          <span className="days">LESSON 180 </span>
-
-
-          <textarea className="textArea" onChange={onChangela8Listener180} value={la8Essay180}/>
-          )
-          }
-
+                    {/*<textarea className="textArea" onChange={onChangela7Listener180} value={la7Essay180}/>*/}
         </div>
       </section>
+      <Confetti/>
+      <h3 style={{ textAlign: "center", height: "100vh" }}>You finished 7th Grade Language Arts ! </h3>
     </form>
-  )
+)
 }
 export default LA7Component
