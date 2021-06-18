@@ -746,8 +746,8 @@ const LA7Component = ({ data }) => {
           <span className="days">Books</span>
           <p className="margin-para">The books required for this course are: <i>The Little Prince </i> by Antoine de
             Saint Exupéry, <i> Long Walk to Water </i> by Linda Sue Park, <i> Hatchett </i> by Gary
-            Paulsen, and <i> Esperanza Rising </i> by Pam Muñoz.
-            Until you get a copy, the first chapter of each book is linked as a PDF. The novels are available at
+            Paulsen, and <i> Esperanza Rising </i> by Pam Muñoz.</p>
+          <p className="margin-para">Until you get a copy, the first chapter of each book is linked as a PDF. The novels are available at
             your local library, local bookstore, or can be purchased online. If the books are out of copyright, they
             are provided below as PDFs. </p>
 
@@ -1292,7 +1292,7 @@ const LA7Component = ({ data }) => {
               <li>What does the pilot regret most about his drawing of the sheep’s muzzle?</li>
               <li>Does the pilot wonder about the little prince and the flower and the sheep? How so?</li>
               <li>If one is ever in the African desert and sees a little man with golden hair, what should one do?</li>
-              <p className="topBottom"><b>Deeper Thinking about The Little Prince</b></p>
+              <p className="topBottom"><strong>Deeper Thinking about The Little Prince</strong></p>
               <li>Discuss the little prince and his relationship with the flower.</li>
               <li>What can readers learn from the prince?</li>
               <li>What was your reaction to the final statement from the pilot: "Then, if a little man</li>
@@ -1434,7 +1434,7 @@ const LA7Component = ({ data }) => {
             <Video videoUrl="https://www.youtube.com/embed/l3yWmXbC36s"/>
             <p>Review the <a
               href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-trailblazing-women/x4aa9073b12675eb1:building-knowledge/a/trailblazing-women-unit-vocabulary?modal=1"
-              rel="noreferrer" target="_blank"> vocabulary </a> for this unit</p>
+              rel="noreferrer" target="_blank"> vocabulary for this unit. (Click here)</a> </p>
             <p>Complete the <a
               href="
               https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-trailblazing-women/x4aa9073b12675eb1:close-reading/e/trailblazing-women--reading-informational-text--katherine-johnson-7"
@@ -1449,14 +1449,15 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener21} value={la7Essay21}/>
 
           <span className="days">LESSON 22 </span>
-          <p><a href={require("../resources/books/ALongWalktoWaterChapter1.pdf")} rel="noreferrer" target="_blank"> <i>A
+          <p className="topBottom"><a href={require("../resources/books/ALongWalktoWaterChapter1.pdf")} rel="noreferrer" target="_blank"> <i>A
             Long Walk to Water</i></a> is based on the true story of Salva Dut, one of the Lost Boys from Sudan during a
             civil war in 1985. The book also includes a second perspective from a girl named Nya, which begins in 2008.
-            The book is available at your local library, at <a href="https://z-lib.  org/">Z-Library </a>or can be
+            The book is available at your local library, local bookstore, or can be
             purchased online. Until you get a copy, you can begin reading it <a
               href={require("../resources/books/ALongWalktoWaterChapter1.pdf")} rel="noreferrer"
-              target="_blank"> here. </a></p>
-          <p>Read Chapter 1, answer the questions and complete the vocabulary assignment below. <br/>
+              target="_blank"> here. <img src={require("../../public/images/bookCovers/longwalktowater.jpg")}
+                                          alt="Long Walk to Water novel"/></a></p>
+                    <p>Read Chapter 1, answer the questions and complete the vocabulary assignment below. <br/>
             1. Why does the author use different styles of print and different time periods in the same Chapter? What
             can be learned from this style of writing?<br/>
             2. Describe Salva as a student, his school and what he learns. Can you make any
@@ -1464,9 +1465,9 @@ const LA7Component = ({ data }) => {
             3. Describe Salva’s family and home life. Is it anything like your own?<br/>
             4. What are the issues for which the rebels are fighting the government? What does it
             mean for Sudan to become Muslim?<br/>
-            5. Why does the teacher urge them to "run into the bush?<br/>"
+            5. Why does the teacher urge them to "run into the bush?"<br/>
             6. What are you wondering about as this Chapter ends?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             <ol className="vocab">
               <li>droned Example: <i>droned: to talk in a dull, monotonous manner. "The teacher droned on with a lesson
@@ -1485,9 +1486,9 @@ const LA7Component = ({ data }) => {
           <p>Read <a href={require("../resources/books/ALongWalktoWaterChapter1.pdf")} rel="noreferrer"
                      target="_blank"><i>Chapter 2,</i></a> answer the questions and complete the vocabulary assignment
             below. <br/>
-            <b>2008</b><br/>
+            <strong>2008</strong><br/>
             1. How does Nya spend her time?<br/>
-            <b>1985</b><br/>
+            <strong>1985</strong><br/>
             2. What is happening around Salva as he runs away from the school?<br/>
             3. What three questions occupy Salva’s thoughts?<br/>
             4. When they organize by village, what does Salva discover?<br/>
@@ -1496,7 +1497,7 @@ const LA7Component = ({ data }) => {
             7. Why does the group leave the rebels? Why do they leave Salva in the barn the next
             morning?<br/>
             8. Can you imagine how Salva is feeling at the end of this Chapter? Where is he?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             <ol className="vocab">
               <li>shrouded</li>
@@ -1509,12 +1510,12 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener23} value={la7Essay23}/>
 
           <span className="days">LESSON 24 </span>
-          <p>Read Chapter 3, answer the questions and complete the vocabulary assignment below. <br/>
-            <b>2008</b><br/>
+          <p className="topBottom">Read Chapter 3, answer the questions and complete the vocabulary assignment below.</p>
+          <p className="topBottom"> <strong>2008</strong><br/>
             1. In each of the Chapters so far, the author tells Nya’s story first. Why do you think
             she does this?<br/>
             2. What has been the purpose of Nya’s journey every day?<br/>
-            <b>1985</b><br/>
+            <strong>1985</strong><br/>
             3. What is Salva’s situation? Why doesn’t he return to his school?<br/>
             4. How does the woman from the Jur-chol tribe help him? What is the history
             between the Nuers and the Dinka tribe? Why is Salva insulted to be called an
@@ -1523,7 +1524,7 @@ const LA7Component = ({ data }) => {
             6. How do tribes tell themselves apart from one another?<br/>
             7. Salva’s hopes rise and then fall. Do you think finding other Dinkas will be the
             answer he is looking for?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             <ol className="vocab">
               <li>gourd</li>
@@ -1536,16 +1537,16 @@ const LA7Component = ({ data }) => {
 
           <span className="days">LESSON 25 </span>
           <p>Read Chapter 4, answer the questions and complete the vocabulary assignment below. <br/>
-            <b>2008</b><br/>
+            <strong>2008</strong><br/>
             1. What additional information did you learn about Nya in this Chapter?<br/>
-            <b>1985</b><br/>
+            <strong>1985</strong><br/>
             2. Why doesn’t the group want Salva along? Why is he ultimately taken along by the
             man and woman?<br/>
             3. What does it mean they are "walking to nowhere"? How do they survive?<br/>
             4. Why do the boys, Buksa and Salva, fall behind? What have they discovered?<br/>
             5. Can an entire group of people exist on this?<br/>
             6. What questions would you like answered in the next Chapter?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             <ol className="vocab">
               <li>scanned</li>
@@ -1558,18 +1559,18 @@ const LA7Component = ({ data }) => {
 
           <span className="days">LESSON 26 </span>
           <p>Read Chapter 5, answer the questions and complete the vocabulary assignment below. <br/>
-            <b>2008</b><br/>
+            <strong>2008</strong><br/>
             1. Explain how water dictates Nya’s life.
-            <b>1985</b><br/>
+            <strong>1985</strong><br/>
             2. How was the honey worth it for Salva and the others in his group? What was the
             cost?<br/>
             3. What do Salva and Marial have in common? What does it mean that Salva "heard
-            that sigh all the way to his heart?<br/>"
+            that sigh all the way to his heart?"<br/>
             4. Why is Salva dismayed that they are walking to Ethiopia, east? How are the boys
             good for each other?<br/>
             5. Describe the Atuot people. Would you fear them?<br/>
-            6. Salva is amazed at the end of this Chapter. Predict the cause of his speechlessness.
-            <b>Vocabulary</b><br/>
+            6. Salva is amazed at the end of this Chapter. Predict the cause of his speechlessness.<br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             <ol className="vocab">
               <li>gingerly</li>
@@ -1583,19 +1584,20 @@ const LA7Component = ({ data }) => {
 
           <span className="days">LESSON 27 </span>
           <p>Read Chapter 6, answer the questions and complete the vocabulary assignment below. <br/>
-            <b>2008</b><br/>
+            <strong>2008</strong><br/>
             1. Nya and her mother think differently about the camp. Explain. Would Nya and
             Salva have been friends if they knew each other in the same time?<br/>
-            <b>1985</b><br/>
+            <strong>1985</strong><br/>
             2. Finally, something good happens for Salva. Explain. How does this make a
             difference for the group?<br/>
             3. Why does everyone in the group become nauseous? Could they have avoided this
             problem?<br/>
-            4. List all the elements working against their survival.5. What does it mean: "A cold fist seemed to grip
-            Salva’s heart?<br/>" What has happened?<br/>
+            4. List all the elements working against their survival.<br/>
+            5. What does it mean: "A cold fist seemed to grip
+            Salva’s heart?"  What has happened?<br/>
             6. If you had to choose to be Nya or Salva, explain whose shoes you would rather
             walk in. Why?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             <ol className="vocab">
               <li>makeshift</li>
@@ -1610,17 +1612,17 @@ const LA7Component = ({ data }) => {
 
           <span className="days">LESSON 28 </span>
           <p>Read Chapter 7, answer the questions and complete the vocabulary assignment below. <br/>
-            <b>2008</b><br/>
+            <strong>2008</strong><br/>
             1. What is wrong with Akeer? What are her symptoms? What is the choice facing the
             family? What would you do?<br/>
-            <b>1985</b><br/>
+            <strong>1985</strong><br/>
             2. How do they know a lion took Marial? How is it possible that no one heard
             anything?<br/>
             3. How does the loss of his friend affect Salva? How does uncle soothe him?<br/>
             4. What changes as the group approaches the Nile? How do they get across?<br/>
             5. What is the secret of making the canoes?<br/>
             6. What would you like to learn in the next Chapter?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             <ol className="vocab">
               <li>steady</li>
@@ -1633,10 +1635,10 @@ const LA7Component = ({ data }) => {
 
           <span className="days">LESSON 29 </span>
           <p>Read Chapter 8, answer the questions and complete the vocabulary assignment below. <br/>
-            <b>2008</b><br/>
+            <strong>2008</strong><br/>
             1. Explain how Akeer’s laugh "was like music." What caused her illness? Is the
             solution within the means of the family?<br/>
-            <b>1985</b><br/>
+            <strong>1985</strong><br/>
             2. What wonders were found on the island?<br/>
             3. How do the villagers get food without any money?<br/>
             4. Why don’t they become nauseous again with this food?<br/>
@@ -1645,7 +1647,7 @@ const LA7Component = ({ data }) => {
             they affected?<br/>
             7. Of all the elements Salva has faced, which do you think is the worst? How could
             the Akobo desert that lies ahead be the worst?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             <ol className="vocab">
               <li>monotonous</li>
@@ -1659,9 +1661,9 @@ const LA7Component = ({ data }) => {
 
           <span className="days">LESSON 30 </span>
           <p>Read Chapter 9, answer the questions and complete the vocabulary assignment below. <br/>
-            <b>2008</b><br/>
+            <strong>2008</strong><br/>
             1. How does the village chief welcome strangers? What do you think they want?<br/>
-            <b>1985</b><br/>
+            <strong>1985</strong><br/>
             2. How is the Akobo the worst element yet for the villagers to survive?<br/>
             3. How does uncle encourage Salva to keep walking? What might have happened to
             Salva without his uncle? How could you apply Uncle’s strategy in your own life?<br/>
@@ -1669,7 +1671,7 @@ const LA7Component = ({ data }) => {
             5. What is the choice faced here? Would you give water to the men? What is the right
             thing to do?<br/>
             6. Will some have to die for the others to survive?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             <ol className="vocab">
               <li>relentless</li>
@@ -1681,10 +1683,10 @@ const LA7Component = ({ data }) => {
 
           <span className="days">LESSON 31 </span>
           <p>Read Chapter 10, answer the questions and complete the vocabulary assignment below. <br/>
-            <b>2008</b><br/>
+            <strong>2008</strong><br/>
             1. What do the two strangers want from Nya’s chief? If they find water, how will it
             change lives?<br/>
-            <b>1985</b><br/>
+            <strong>1985</strong><br/>
             2. Did Salva give his water to the men? Did anyone? What were the results? Who was
             right?<br/>
             3. What happened to the village of Lou Ariik?<br/>
@@ -1693,7 +1695,7 @@ const LA7Component = ({ data }) => {
             6. Where did the six men come from? Why did they single out uncle? What does it
             mean, "There was something evil in their laughter."
             7. What does the ending of this Chapter mean for Salva?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             <ol className="vocab">
               <li>translated</li>
@@ -1706,16 +1708,16 @@ const LA7Component = ({ data }) => {
 
           <span className="days">LESSON 32 </span>
           <p>Read Chapter 11, answer the questions and complete the vocabulary assignment below. <br/>
-            <b>2008</b><br/>
+            <strong>2008</strong><br/>
             1. What will it mean if water is not found in the land between the trees?<br/>
-            <b>1985</b><br/>
+            <strong>1985</strong><br/>
             2. What happened to uncle? How does this affect Salva? How does the group attitude
             change?<br/>
             3. What are the positive and negative aspects of the refugee camp? Is Salva happy to
             finally quit walking?<br/>
             4. What does the orange scarf mean to Salva?<br/>
             5. How would you like this Chapter to end for Salva?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             <ol className="vocab">
               <li>scythed</li>
@@ -1728,9 +1730,9 @@ const LA7Component = ({ data }) => {
 
           <span className="days">LESSON 33 </span>
           <p>Read Chapter 12, answer the questions and complete the vocabulary assignment below. <br/>
-            <b>2008</b><br/>
+            <strong>2008</strong><br/>
             1. What is the red, iron giraffe? What part do the villagers play in the progress?<br/>
-            <b>1985</b><br/>
+            <strong>1985</strong><br/>
             2. How does it feel to Salva to be without a family? What has he lost?<br/>
             3. What does Salva decide to do to survive?<br/>
             4. How does school look in the refugee camp? Why does he go?<br/>
@@ -1738,7 +1740,7 @@ const LA7Component = ({ data }) => {
             5. How have things changed in the camp in six years? Why is it closing?<br/>
             6. What is the purpose of any government? What will be the outcome of the
             government’s actions?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             <ol className="vocab">
               <li>despair</li>
@@ -1750,10 +1752,10 @@ const LA7Component = ({ data }) => {
 
           <span className="days">LESSON 34 </span>
           <p>Read Chapter 13, answer the questions and complete the vocabulary assignment below. <br/>
-            <b>2008</b><br/>
+            <strong>2008</strong><br/>
             1. What things make this drilling so difficult? What keeps people going in times of
             adversity?<br/>
-            <b>1991-1992</b><br/>
+            <strong>1991-1992</strong><br/>
             2. What is the government trying to do by driving the people into the water?<br/>
             3. Why are the soldiers shooting? What are all the obstacles to survival for these
             people?<br/>
@@ -1763,7 +1765,7 @@ const LA7Component = ({ data }) => {
             find in Kenya?<br/>
             6. How do they find the strength to go on? How do they last a year and a half?<br/>
             7. What do you expect their life to be like in Kenya?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             <ol className="vocab">
               <li>earnestly</li>
@@ -1776,10 +1778,10 @@ const LA7Component = ({ data }) => {
 
           <span className="days">LESSON 35 </span>
           <p>Read Chapter 14 and then answer the questions below. <br/>
-            <b>2009</b><br/>
+            <strong>2009</strong><br/>
             1. Why does the village celebrate? What could it mean that the new water is full of
             mud?<br/>
-            1992- <b>1997</b><br/>
+            1992- <strong>1997</strong><br/>
             2. Describe the misery at Kakuma. How does the population of Kakuma compare to
             the population in your own community?<br/>
             3. How were conditions different at the camp in Ifo?<br/>
@@ -1787,14 +1789,14 @@ const LA7Component = ({ data }) => {
             5. Ideally what does Salva want?<br/>
             6. What are the restrictions to a boy "getting on the list' to go to America?<br/>
             7. What does the author mean "sometimes he felt he was being torn in two by the
-            hoping and the not-hoping?<br/>"
+            hoping and the not-hoping?"<br/>
             8. What does it mean to Salva that he will go to America?<br/>
           </p>
           <textarea className="textArea" onChange={onChangela7Listener35} value={la7Essay35}/>
 
           <span className="days">LESSON 36 </span>
           <p>Read Chapter 15, answer the questions and complete the vocabulary assignment below. <br/>
-            <b>2009</b><br/>
+            <strong>2009</strong><br/>
             1. Why can’t the boys drink the water spraying from the hole? When will Nya lose her
             job?<br/>2. What was involved in the Lost Boys coming to America? Do you think that is a
             good name for them?<br/>
@@ -1803,7 +1805,7 @@ const LA7Component = ({ data }) => {
             4. Explain Salva’s experiences with clothes, Coca-Cola, the plane, winter.
             5. Would this be easier if Salva really was a boy instead of an adult?<br/>
             6. Will it ever be possible for Salva to reconnect with any of his birth family?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             <ol className="vocab">
               <li>terminal</li>
@@ -1814,9 +1816,9 @@ const LA7Component = ({ data }) => {
 
           <span className="days">LESSON 37 </span>
           <p>Read Chapter 16, answer the questions and complete the vocabulary assignment below. <br/>
-            <b>2009</b><br/>
+            <strong>2009</strong><br/>
             1. What is your best guess on what the men are going to build?<br/>
-            <b>1997-2003</b><br/>
+            <strong>1997-2003</strong><br/>
             2. By opening his email, what does this show you about Salva’s development in
             America?<br/>
             3. What are the difficulties involved in Salva reconnecting with his father?<br/>
@@ -1824,7 +1826,7 @@ const LA7Component = ({ data }) => {
             5. Write as many "what if’s" as you can at the end of this Chapter. (Example: What if
             Salva’s father has died? What if Salva is not allowed to return to the US?<br/>6. What would you like to see
             happen in the next Chapter?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             <ol className="vocab">
               <li>aquifer</li>
@@ -1832,19 +1834,18 @@ const LA7Component = ({ data }) => {
               <li> relief</li>
               <li> clinic</li>
               <li> remote</li>
-              <li> arrangement</li>
-              s
+              <li> arrangements</li>
               <li> frantic </li></ol>
           </p>
           <textarea className="textArea" onChange={onChangela7Listener37} value={la7Essay37}/>
 
           <span className="days">LESSON 38 </span>
           <p>Read Chapter 17, answer the questions and complete the vocabulary assignment below. <br/>
-            <b>2009</b><br/>
+            <strong>2009</strong><br/>
             1. How close were your predictions on what building would be put up first? Why does
             Nya ask if the girls can go to school too? How does having water change everything
             for her people?<br/>
-            <b>2003-2007</b><br/>
+            <strong>2003-2007</strong><br/>
             2. Was the reunion of Salva and his father what you expected? Explain.
             3. How is it possible that so much of his family is still alive? Why didn’t they give up
             hope?<br/>
@@ -1858,7 +1859,7 @@ const LA7Component = ({ data }) => {
 
           <span className="days">LESSON 39 </span>
           <p>Read Chapter 18, answer the questions and complete the vocabulary assignment below. <br/>
-            <b>2009</b><br/>
+            <strong>2009</strong><br/>
             1. Describe Nya’s experience of the water. <br/>
             2. What does the well mean to the people of southern Sudan? How did it get its
             name? <br/>
@@ -1901,7 +1902,7 @@ const LA7Component = ({ data }) => {
               </li>
             </ul>
           </p>
-          <p>Your five paragraph essay should follow the format below: </p>
+          <p className="topBottom">Your five paragraph essay should follow the format below: </p>
           <ul className="assnList">
             <li>Write a hook to grab your reader's attention.</li>
             <li>Your first paragraph should have a clear thesis statement (main idea of your essay). This
@@ -1956,26 +1957,24 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener44} value={la7Essay44}/>
 
           <span className="days">LESSON 45 </span>
-          <p>The novel <b>Hatchet </b> by Gary Paulsen is a wilderness survival story. Brian Robeson is a thirteen
+          <p>The novel <strong>Hatchet </strong> by Gary Paulsen is a wilderness survival story. Brian Robeson is a thirteen
             year old boy traveling in a small airplane to Canada to spend the summer with his father. When the
             plane crashes in an uninhabited part of the Canadian woods, he must find a way to survive on his own.
           </p>
-          <p><b>Hatchet </b> is available at your local library, local bookstore and online for purchase. Until
+          <p className="topBottom"><strong>Hatchet </strong> is available at your local library, local bookstore and online for purchase. Until
             your copy arrives, <a href={require("../resources/books/HatchetChapter1.pdf")} rel="noreferrer"
-                                  target="_blank"> Chapter 1, is provided here. </a></p>
-          <p><a href={require("../resources/books/hatchetChapter1.pdf")} rel="noreferrer"
-                target="_blank"><img src={require("../../public/images/bookCovers/hatchett.jpg")}
+                                  target="_blank"> Chapter 1 is provided here. </a></p>
+          <p className="topBottom"><a href={require("../resources/books/HatchetChapter1.pdf")} rel="noreferrer"
+                target="_blank"><img src={require("../../public/images/bookCovers/hatchet.jpg")}
                                      alt="Hatchet novel"/></a><br/>
-            <ol className="vocab">Answer the questions below in complete sentences.<br/>
+            <ol className="vocab">After you read Chapter 1, answer the questions below using complete sentences.<br/>
               <li>Who is narrating the story?</li>
               <li>Why was Brian traveling in a small bush plane by himself?</li>
               <li>Explain why Brian is having a tough time accepting his parents’ divorce.</li>
               <li>What did Brian’s mother give him as a gift before he leaves? How does Brian feel about the
-                gift?
-              </li>
+                gift?</li>
               <li>Do you believe it says something about his relationship with his mother that he wore the hatchet
-                instead of just putting it in a bag?
-              </li>
+                instead of just putting it in a bag?</li>
               <li>Why was Brian "stricken with a white-flash of horror."</li>
               <li>What tips about flying a plane did the pilot give to Brian?</li>
               <li>What happens to the pilot while they are flying over the Canadian woods? Describe Brian’s
@@ -2132,19 +2131,14 @@ const LA7Component = ({ data }) => {
           <p>
             <ol className="vocab">
               <li>Brian is forced to learn a lot of lessons about survival quickly. There are lessons he should have
-                learned
-                the first time. List at least one.
-              </li>
+                learned the first time. List at least one. </li>
               <li>How is Brian doing after eating so many berries?</li>
               <li>Brian remembers something that is painful. What is it?</li>
               <li>He sees somethings that makes him "do nothing, think nothing." What does he see? Is he harmed? How do
-                you
-                think you would have reacted?
+                you  think you would have reacted?
               </li>
               <li>Do you agree with Brian when he thinks that a city park at night was more dangerous than the woods he
-                was
-                in? Explain.
-              </li>
+                was  in? Explain.  </li>
               <li>What would be a good title for this chapter?</li>
               <li>How do you like Brian? What characteristics/qualities do you like or dislike about him?</li>
               <li>Overall, how well do you think he is managing the difficulties coming his way?</li>
@@ -2153,18 +2147,18 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener51} value={la7Essay51}/>
 
           <span className="days">LESSON 52 </span>
-          <p>Watch the video <b> Types of Conflict </b> and then complete the assignment below.</p>
+          <p>Watch the video <strong> Types of Conflict </strong> and then complete the assignment below.</p>
           <Video videoUrl="https://www.youtube.com/embed/6IHUuZ8Evag"/>
           <p>Stories generally move forward through conflict. <br/>
             There are several types of conflict in <i> Hatchet.</i><br/>
             List three types and describe what is happening with each (use examples and write in complete
             sentences).<br/>
-            <ul className="list">After you state the type of conflict, explain how the conflict is playing out in the
+            <ol className="vocab">After you state the type of conflict, explain how the conflict is playing out in the
               novel. <br/>
               <li>Person vs. _________</li>
               <li>Person vs. _________</li>
               <li>Person vs. _________</li>
-            </ul>
+            </ol>
           </p>
           <textarea className="textArea" onChange={onChangela7Listener52} value={la7Essay52}/>
 
@@ -2207,7 +2201,7 @@ const LA7Component = ({ data }) => {
           <span className="days">LESSON 54 </span>
           <p> Read <i> Chapter 9 of Hatchet </i> and then answer the questions below in complete sentences.</p>
           <p>
-            <ol className="vocab"><br/>
+            <ol className="vocab">
               <li>Why did Brian’s first attempts to start a fire fail?</li>
               <li>Why do you think the author included Brian’s thoughts about whether he had learned anything in his
                 science
@@ -2543,7 +2537,7 @@ const LA7Component = ({ data }) => {
 
           <span className="days">LESSON 65 </span>
           <h4>Five Paragraph Essay</h4>
-          <p> Do you think Brian is better or worse off for having experienced surviving alone in the Canadian
+          <p className="topBottom"> Do you think Brian is better or worse off for having experienced surviving alone in the Canadian
             wilderness? Before answering this question for your essay, think about the qualities he develops during
             that time and how these qualities may affect Brian for the rest of his life.</p>
           <p> Essay Requirements</p>
@@ -2566,12 +2560,12 @@ const LA7Component = ({ data }) => {
 
           <span className="days">LESSON 66 </span>
           <h4>Survival Kit</h4>
-          <p>Shortly before Brian gets rescued, you are given clues that summer is ending and it will be cold soon.
+          <p className="topBottom">Shortly before Brian gets rescued, you are given clues that summer is ending and it will be cold soon.
             Winter in the Canadian wilderness presents new problems that Brian would have to deal with. List what you
             think these problems will be. </p>
-          <p>If you could prepare a survival kit to successfully get Brian through the winter, what would you include
-            in the kit. List at least ten items you would place in the kit. </p>
-          <p>Now imagine you are the one who is trying to survive in the Canadian wilderness in the middle of winter.
+          <p className="topBottom">If you could prepare a survival kit to successfully get Brian through the winter, what would you include
+            in the kit. List at least ten items you would place in the kit. You may research this online.</p>
+          <p className="topBottom">Now imagine you are the one who is trying to survive in the Canadian wilderness in the middle of winter.
             Are there any items you would place in the survival kit for yourself that you didn’t include for
             Brian? </p>
           <textarea className="textArea" onChange={onChangela7Listener66} value={la7Essay66}/>
@@ -2582,615 +2576,1362 @@ const LA7Component = ({ data }) => {
           <p className="topBottom">Read <a
             href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-mysteries-of-the-past/x4aa9073b12675eb1:untitled-44/a/welcome-to-the-mysteries-of-the-past-unit?modal=1"
             rel="noreferrer" target="_blank"> an
-            overview. </a> of what you will cover in this unit.</p>
+            overview <i>(click here)</i> </a> of what you will cover in this unit.</p>
           <p className="topBottom">Review the <a
             href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-mysteries-of-the-past/x4aa9073b12675eb1:untitled-44/a/mysteries-of-the-past-unit-vocabulary?modal=1"
             rel="noreferrer" target="_blank"> Vocabulary </a>for this Unit.</p>
-            <Video videoUrl="https://www.youtube.com/embed/5Eepm6Px5pc"/>
-            <Video videoUrl="https://www.youtube.com/embed/-GY2Cj1w_PY"/>
-            <Video videoUrl="https://www.youtube.com/embed/msHjgIsYOkU"/>
-            <p className="topBottom">After you read <a
-              href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-mysteries-of-the-past/x4aa9073b12675eb1:untitled-45/e/mysteries-of-the-past--reading-informational-text--the-roanoke-voyages-7?modal=1"
-              rel="noreferrer" target="_blank"> The Roanoke Voyages 7,</a>
-              answer the practice questions at the bottom of the article linked here from Khan Academy.
-              Then in the textbox below, write a brief summary about what you read.</p>
-            <textarea className="textArea" onChange={onChangela7Listener67} value={la7Essay67}/>
+          <Video videoUrl="https://www.youtube.com/embed/5Eepm6Px5pc"/>
+          <Video videoUrl="https://www.youtube.com/embed/-GY2Cj1w_PY"/>
+          <Video videoUrl="https://www.youtube.com/embed/msHjgIsYOkU"/>
+          <p className="topBottom">After you read <a
+            href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-mysteries-of-the-past/x4aa9073b12675eb1:untitled-45/e/mysteries-of-the-past--reading-informational-text--the-roanoke-voyages-7?modal=1"
+            rel="noreferrer" target="_blank"> The Roanoke Voyages 7, </a>
+            answer the practice questions at the bottom of the article linked here from Khan Academy.
+            Then in the textbox below, write a brief summary about what you read.</p>
+          <textarea className="textArea" onChange={onChangela7Listener67} value={la7Essay67}/>
 
-            <span className="days">LESSON 68 </span>
-            <p className="topBottom">Watch the videos and complete the assignments posted below from Khan Academy: Close
-              reading: argumentative text. </p>
-            <Video videoUrl="https://www.youtube.com/embed/GvWH9ZXy9gY"/>
-              <Video videoUrl="https://www.youtube.com/embed/XRt1N0sJJQo"/>
-              <Video videoUrl="https://www.youtube.com/embed/NXO3KT8bne4"/>
-              <p>After you read <a
-                href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-mysteries-of-the-past/x4aa9073b12675eb1:close-reading-argumentative-text/e/mysteries-of-the-past--reading-informational-text--wanted--more-research-for-roanoke-7?modal=1"
-                rel="noreferrer" target="_blank">WANTED: More Research For Roanoke,</a>
-                complete the questions that follow. Then in the textbox below, write a brief summary about what you
-                read.</p>
-              <textarea className="textArea" onChange={onChangela7Listener68} value={la7Essay68}/>
+          <span className="days">LESSON 68 </span>
+          <p className="topBottom">Watch the videos and complete the assignments posted below from Khan Academy: Close
+            reading: argumentative text. </p>
+          <Video videoUrl="https://www.youtube.com/embed/GvWH9ZXy9gY"/>
+          <Video videoUrl="https://www.youtube.com/embed/XRt1N0sJJQo"/>
+          <Video videoUrl="https://www.youtube.com/embed/NXO3KT8bne4"/>
+          <p>After you read <a
+            href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-mysteries-of-the-past/x4aa9073b12675eb1:close-reading-argumentative-text/e/mysteries-of-the-past--reading-informational-text--wanted--more-research-for-roanoke-7?modal=1"
+            rel="noreferrer" target="_blank">WANTED: More Research For Roanoke, </a>
+            complete the questions that follow. Then in the textbox below, write a brief summary about what you
+            read.</p>
+          <textarea className="textArea" onChange={onChangela7Listener68} value={la7Essay68}/>
 
-              <span className="days">LESSON 69 </span>
-              <p className="topBottom">Watch the videos and complete the assignments posted below from Khan Academy:
-                Mysteries of the Past: Applying vocabulary knowledge. </p>
+          <span className="days">LESSON 69 </span>
+          <p className="topBottom">Watch the videos and complete the assignments posted below from Khan Academy:
+            Mysteries of the Past: Applying vocabulary knowledge. </p>
           <Video videoUrl="https://www.youtube.com/embed/CiNggzdWkIo"/>
-                <Video videoUrl="https://www.youtube.com/embed/fiaPqgwJFo4"/>
-                <Video videoUrl="https://www.youtube.com/embed/l3yWmXbC36s"/>
-                <p>After you read <a href=" " rel="noreferrer" target="_blank"> "The Roanoke Voyages," </a>complete the
-                  questions that follow the article. Then in the textbox below, write a brief summary about what you
-                  read.</p>
-                <textarea className="textArea" onChange={onChangela7Listener69} value={la7Essay69}/>
-
-                <span className="days">LESSON 70 </span>
-                <p className="topBottom">Watch the videos and complete the assignments posted below from Khan Academy:
-                  Reading for understanding: fiction. </p>
-                <Video videoUrl="https://www.youtube.com/embed/gUW2jit3uvo"/>
-                  <p>After you read <a
-                    href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-mysteries-of-the-past/x4aa9073b12675eb1:untitled-47/e/mysteries-of-the-past--reading-informational-text--the-mystery-child-7?modal=1"
-                    rel="noreferrer" target="_blank"> "The Mystery Child," </a>complete
-                    the questions that follow the article. Then in the textbox below, write a brief summary about what
-                    you read.</p>
-                  <textarea className="textArea" onChange={onChangela7Listener70} value={la7Essay70}/>
-
-                  <span className="days">LESSON 71 </span>
-                  <p className="topBottom">Watch the videos and complete the assignments posted below from Khan Academy:
-                    Close reading - Informational text - Mysteries of the Past. </p>
-                  <Video videoUrl="https://www.youtube.com/embed/Zr1xLtSMMLo"/>
-                    <Video videoUrl="https://www.youtube.com/embed/ZASEsKwEvqE"/>
-                    <p>After you read <a
-                      href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-mysteries-of-the-past/x4aa9073b12675eb1:reading-for-understanding-fiction/e/mysteries-of-the-past--reading-historical-fiction-7?modal=1"
-                      rel="noreferrer" target="_blank"> "A View from the Walnut Tree," </a>complete the questions that
-                      follow the article. Then in the textbox below, write a brief summary about what you read.</p>
-                    <textarea className="textArea" onChange={onChangela7Listener71} value={la7Essay71}/>
-
-                    <span className="days">LESSON 72 </span>
-
-
-                    <textarea className="textArea" onChange={onChangela7Listener72} value={la7Essay72}/>
-
-                    <span className="days">LESSON 73 </span>
-
-
-                    <textarea className="textArea" onChange={onChangela7Listener73} value={la7Essay73}/>
-
-                    <span className="days">LESSON 74 </span>
-
-
-                    <textarea className="textArea" onChange={onChangela7Listener74} value={la7Essay74}/>
-
-                    <span className="days">LESSON 75 </span>
-
-
-                    <textarea className="textArea" onChange={onChangela7Listener75} value={la7Essay75}/>
-
-                    <span className="days">LESSON 76 </span>
-
-
-                    <textarea className="textArea" onChange={onChangela7Listener76} value={la7Essay76}/>
-
-                    <span className="days">LESSON 77 </span>
-
-
-                    <textarea className="textArea" onChange={onChangela7Listener77} value={la7Essay77}/>
-
-                    <span className="days">LESSON 78 </span>
-
-
-                    <textarea className="textArea" onChange={onChangela7Listener78} value={la7Essay78}/>
-
-                    <span className="days">LESSON 79 </span>
-
-
-                    <textarea className="textArea" onChange={onChangela7Listener79} value={la7Essay79}/>
-
-                    <span className="days">LESSON 80 </span>
-
-
-                    <textarea className="textArea" onChange={onChangela7Listener80} value={la7Essay80}/>
-
-                    <span className="days">LESSON 81 </span>
-
-
-                    <textarea className="textArea" onChange={onChangela7Listener81} value={la7Essay81}/>
-
-                    <span className="days">LESSON 82 </span>
-
-
-                    <textarea className="textArea" onChange={onChangela7Listener82} value={la7Essay82}/>
-
-                    <span className="days">LESSON 83 </span>
-
-
-                    <textarea className="textArea" onChange={onChangela7Listener83} value={la7Essay83}/>
-
-                    <span className="days">LESSON 84 </span>
-
-
-                    <textarea className="textArea" onChange={onChangela7Listener84} value={la7Essay84}/>
-
-                    <span className="days">LESSON 85 </span>
-
-
-                    <textarea className="textArea" onChange={onChangela7Listener85} value={la7Essay85}/>
-
-                    <span className="days">LESSON 86 </span>
-
-
-                    <textarea className="textArea" onChange={onChangela7Listener86} value={la7Essay86}/>
-
-                    <span className="days">LESSON 87 </span>
-
-
-                    <textarea className="textArea" onChange={onChangela7Listener87} value={la7Essay87}/>
-
-                    <span className="days">LESSON 88 </span>
-
-
-                    <textarea className="textArea" onChange={onChangela7Listener88} value={la7Essay88}/>
-
-                    <span className="days">LESSON 89 </span>
-
-
-                    <textarea className="textArea" onChange={onChangela7Listener89} value={la7Essay89}/>
-
-                    <span className="days">LESSON 90 </span>
-
-
-                    <textarea className="textArea" onChange={onChangela7Listener90} value={la7Essay90}/>
-
-                    <span className="days">LESSON 91 </span>
-
-
-                    <textarea className="textArea" onChange={onChangela7Listener91} value={la7Essay91}/>
-
-                    <span className="days">LESSON 92 </span>
-
-
-                    <textarea className="textArea" onChange={onChangela7Listener92} value={la7Essay92}/>
-
-                    <span className="days">LESSON 93 </span>
-
-
-                    <textarea className="textArea" onChange={onChangela7Listener93} value={la7Essay93}/>
-
-                    <span className="days">LESSON 94 </span>
-
-
-                    <textarea className="textArea" onChange={onChangela7Listener94} value={la7Essay94}/>
-
-                    <span className="days">LESSON 95 </span>
-
-
-                    <textarea className="textArea" onChange={onChangela7Listener95} value={la7Essay95}/>
-
-                    <span className="days">LESSON 96 </span>
-
-
-                    <textarea className="textArea" onChange={onChangela7Listener96} value={la7Essay96}/>
-
-                    <span className="days">LESSON 97 </span>
-
-
-                    <textarea className="textArea" onChange={onChangela7Listener97} value={la7Essay97}/>
-
-                    <span className="days">LESSON 98 </span>
-
-
-                    <textarea className="textArea" onChange={onChangela7Listener98} value={la7Essay98}/>
-
-                    <span className="days">LESSON 99 </span>
-
-
-                    <textarea className="textArea" onChange={onChangela7Listener99} value={la7Essay99}/>
-
-                    <span className="days">LESSON 100 </span>
-
-
-                    <textarea className="textArea" onChange={onChangela7Listener100} value={la7Essay100}/>
-
-                    {/*<span className="days">LESSON 101 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener101} value={la7Essay101}/>*/}
-
-                    {/*<span className="days">LESSON 102 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener102} value={la7Essay102}/>*/}
-
-                    {/*<span className="days">LESSON 103 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener103} value={la7Essay103}/>*/}
-
-                    {/*<span className="days">LESSON 104 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener104} value={la7Essay104}/>*/}
-
-                    {/*<span className="days">LESSON 105 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener105} value={la7Essay105}/>*/}
-
-                    {/*<span className="days">LESSON 106 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener106} value={la7Essay106}/>*/}
-
-                    {/*<span className="days">LESSON 107 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener107} value={la7Essay107}/>*/}
-
-                    {/*<span className="days">LESSON 108 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener108} value={la7Essay108}/>*/}
-
-                    {/*<span className="days">LESSON 109 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener109} value={la7Essay109}/>*/}
-
-                    {/*<span className="days">LESSON 110 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener110} value={la7Essay110}/>*/}
-
-                    {/*<span className="days">LESSON 111 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener111} value={la7Essay111}/>*/}
-
-                    {/*<span className="days">LESSON 112 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener112} value={la7Essay112}/>*/}
-
-                    {/*<span className="days">LESSON 113 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener113} value={la7Essay113}/>*/}
-
-                    {/*<span className="days">LESSON 114 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener114} value={la7Essay114}/>*/}
-
-                    {/*<span className="days">LESSON 115 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener115} value={la7Essay115}/>*/}
-
-                    {/*<span className="days">LESSON 116 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener116} value={la7Essay116}/>*/}
-
-                    {/*<span className="days">LESSON 117 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener117} value={la7Essay117}/>*/}
-
-                    {/*<span className="days">LESSON 118 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener118} value={la7Essay118}/>*/}
-
-                    {/*<span className="days">LESSON 119 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener119} value={la7Essay119}/>*/}
-
-                    {/*<span className="days">LESSON 120 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener120} value={la7Essay120}/>*/}
-
-                    {/*<span className="days">LESSON 121 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener121} value={la7Essay121}/>*/}
-
-                    {/*<span className="days">LESSON 122 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener122} value={la7Essay122}/>*/}
-
-                    {/*<span className="days">LESSON 123 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener123} value={la7Essay123}/>*/}
-
-                    {/*<span className="days">LESSON 124 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener124} value={la7Essay124}/>*/}
-
-                    {/*<span className="days">LESSON 125 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener125} value={la7Essay125}/>*/}
-
-                    {/*<span className="days">LESSON 126 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener126} value={la7Essay126}/>*/}
-
-                    {/*<span className="days">LESSON 127 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener127} value={la7Essay127}/>*/}
-
-                    {/*<span className="days">LESSON 128 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener128} value={la7Essay128}/>*/}
-
-                    {/*<span className="days">LESSON 129 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener129} value={la7Essay129}/>*/}
-
-                    {/*<span className="days">LESSON 130 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener130} value={la7Essay130}/>*/}
-
-                    {/*<span className="days">LESSON 131 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener131} value={la7Essay131}/>*/}
-
-                    {/*<span className="days">LESSON 132 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener132} value={la7Essay132}/>*/}
-
-                    {/*<span className="days">LESSON 133 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener133} value={la7Essay133}/>*/}
-
-                    {/*<span className="days">LESSON 134 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener134} value={la7Essay134}/>*/}
-
-                    {/*<span className="days">LESSON 135 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener135} value={la7Essay135}/>*/}
-
-                    {/*<span className="days">LESSON 136 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener136} value={la7Essay136}/>*/}
-
-                    {/*<span className="days">LESSON 137 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener137} value={la7Essay137}/>*/}
-
-                    {/*<span className="days">LESSON 138 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener138} value={la7Essay138}/>*/}
-
-                    {/*<span className="days">LESSON 139 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener139} value={la7Essay139}/>*/}
-
-                    {/*<span className="days">LESSON 140 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener140} value={la7Essay140}/>*/}
-
-                    {/*<span className="days">LESSON 141 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener141} value={la7Essay141}/>*/}
-
-                    {/*<span className="days">LESSON 142 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener142} value={la7Essay142}/>*/}
-
-                    {/*<span className="days">LESSON 143 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener143} value={la7Essay143}/>*/}
-
-                    {/*<span className="days">LESSON 144 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener144} value={la7Essay144}/>*/}
-
-                    {/*<span className="days">LESSON 145 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener145} value={la7Essay145}/>*/}
-
-                    {/*<span className="days">LESSON 146 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener146} value={la7Essay146}/>*/}
-
-                    {/*<span className="days">LESSON 147 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener147} value={la7Essay147}/>*/}
-
-                    {/*<span className="days">LESSON 148 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener148} value={la7Essay148}/>*/}
-
-                    {/*<span className="days">LESSON 149 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener149} value={la7Essay149}/>*/}
-
-                    {/*<span className="days">LESSON 150 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener150} value={la7Essay150}/>*/}
-
-                    {/*<span className="days">LESSON 151 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener151} value={la7Essay151}/>*/}
-
-                    {/*<span className="days">LESSON 152 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener152} value={la7Essay152}/>*/}
-
-                    {/*<span className="days">LESSON 153 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener153} value={la7Essay153}/>*/}
-
-                    {/*<span className="days">LESSON 154 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener154} value={la7Essay154}/>*/}
-
-                    {/*<span className="days">LESSON 155 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener155} value={la7Essay155}/>*/}
-
-                    {/*<span className="days">LESSON 156 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener156} value={la7Essay156}/>*/}
-
-                    {/*<span className="days">LESSON 157 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener157} value={la7Essay157}/>*/}
-
-                    {/*<span className="days">LESSON 158 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener158} value={la7Essay158}/>*/}
-
-                    {/*<span className="days">LESSON 159 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener159} value={la7Essay159}/>*/}
-
-                    {/*<span className="days">LESSON 160 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener160} value={la7Essay160}/>*/}
-
-                    {/*<span className="days">LESSON 161 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener161} value={la7Essay161}/>*/}
-
-                    {/*<span className="days">LESSON 162 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener162} value={la7Essay162}/>*/}
-
-                    {/*<span className="days">LESSON 163 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener163} value={la7Essay163}/>*/}
-
-                    {/*<span className="days">LESSON 164 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener164} value={la7Essay164}/>*/}
-
-                    {/*<span className="days">LESSON 165 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener165} value={la7Essay165}/>*/}
-
-                    {/*<span className="days">LESSON 166 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener166} value={la7Essay166}/>*/}
-
-                    {/*<span className="days">LESSON 167 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener167} value={la7Essay167}/>*/}
-
-                    {/*<span className="days">LESSON 168 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener168} value={la7Essay168}/>*/}
-
-                    {/*<span className="days">LESSON 169 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener169} value={la7Essay169}/>*/}
-
-                    {/*<span className="days">LESSON 170 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener170} value={la7Essay170}/>*/}
-
-                    {/*<span className="days">LESSON 171 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener171} value={la7Essay171}/>*/}
-
-                    {/*<span className="days">LESSON 172 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener172} value={la7Essay172}/>*/}
-
-                    {/*<span className="days">LESSON 173 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener173} value={la7Essay173}/>*/}
-
-                    {/*<span className="days">LESSON 174 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener174} value={la7Essay174}/>*/}
-
-                    {/*<span className="days">LESSON 175 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener175} value={la7Essay175}/>*/}
-
-                    {/*<span className="days">LESSON 176 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener176} value={la7Essay176}/>*/}
-
-                    {/*<span className="days">LESSON 177 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener177} value={la7Essay177}/>*/}
-
-                    {/*<span className="days">LESSON 178 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener178} value={la7Essay178}/>*/}
-
-                    {/*<span className="days">LESSON 179 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener179} value={la7Essay179}/>*/}
-
-                    {/*<span className="days">LESSON 180 </span>*/}
-
-
-                    {/*<textarea className="textArea" onChange={onChangela7Listener180} value={la7Essay180}/>*/}
+          <Video videoUrl="https://www.youtube.com/embed/fiaPqgwJFo4"/>
+          <Video videoUrl="https://www.youtube.com/embed/l3yWmXbC36s"/>
+          <p>After you read <a href=" " rel="noreferrer" target="_blank"> "The Roanoke Voyages," </a>complete the
+            questions that follow the article. Then in the textbox below, write a brief summary about what you
+            read.</p>
+          <textarea className="textArea" onChange={onChangela7Listener69} value={la7Essay69}/>
+
+          <span className="days">LESSON 70 </span>
+          <p className="topBottom">Watch the videos and complete the assignments posted below from Khan Academy:
+            Reading for understanding: fiction. </p>
+          <Video videoUrl="https://www.youtube.com/embed/gUW2jit3uvo"/>
+          <p>After you read <a
+            href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-mysteries-of-the-past/x4aa9073b12675eb1:untitled-47/e/mysteries-of-the-past--reading-informational-text--the-mystery-child-7?modal=1"
+            rel="noreferrer" target="_blank"> "The Mystery Child," </a>complete
+            the questions that follow the article. Then in the textbox below, write a brief summary about what
+            you read.</p>
+          <textarea className="textArea" onChange={onChangela7Listener70} value={la7Essay70}/>
+
+          <span className="days">LESSON 71 </span>
+          <p className="topBottom">Watch the videos and complete the assignments posted below from Khan Academy:
+            Close reading - Informational text - Mysteries of the Past. </p>
+          <Video videoUrl="https://www.youtube.com/embed/Zr1xLtSMMLo"/>
+          <Video videoUrl="https://www.youtube.com/embed/ZASEsKwEvqE"/>
+          <p>After you read <a
+            href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-mysteries-of-the-past/x4aa9073b12675eb1:reading-for-understanding-fiction/e/mysteries-of-the-past--reading-historical-fiction-7?modal=1"
+            rel="noreferrer" target="_blank"> "A View from the Walnut Tree," </a>complete the questions that
+            follow the article. Then in the textbox below, write a brief summary about what you read.</p>
+          <textarea className="textArea" onChange={onChangela7Listener71} value={la7Essay71}/>
+
+          <span className="days">LESSON 72 - Poetry</span>
+          <h4> What makes a poem … a poem?</h4>
+          <p className="topBottom">What exactly makes a poem … a poem? Poets themselves have struggled with this
+            question, often using metaphors to approximate a definition. Is a poem a little machine? A firework? An
+            echo? A dream? </p>
+          <p> What makes a poem a poem is its ability to make the reader feel something. It may rhyme, but doesn’t have
+            to. Using few words, it creates a picture in the reader's mind and transports them to another place and
+            time. </p>
+          <Video videoUrl="https://www.youtube.com/embed/JwhouCNq-Fc"/>
+          <p className="margin-para">
+            <ol className="vocab">
+              <li> What are characteristics traditionally associated with poetry?</li>
+              <li> In what way was Joanna Smith’s tweet like a poem?</li>
+              <li> The word poetry comes from the Greek “poiesis.” What does this word mean?</li>
+              <li> What is a haiku?</li>
+              <li> What does Reinhard Dohl’s “Apfel” have in common with e.e. cummings’ “l(a)”?</li>
+              <li> What does the Dartmouth study mentioned in the video suggest about the nature of poetry? Were you
+                surprised by the results of the study?
+              </li>
+              <li> William Carlos Williams described poetry as a machine made of words. Lilian Moore described poetry as
+                a firework. After watching the video, think of another metaphor that represents poetry well.
+              </li>
+              <li> Find an example from a novel or short story that reads like poetry. What makes it sound poetic?</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener72} value={la7Essay72}/>
+
+          <span className="days">LESSON 73 </span>
+          <h4>The pleasure of poetic pattern</h4> <p>Humans are creatures of rhythm and repetition. From our breath to
+          our gait: rhythm is central to our experience, and often brings us pleasure. We can find pleasure in the
+          rhythm of a song, or even the rows of an orchard. Of course, too much repetition can also backfire. David
+          Silverstein describes what poetic repetition is and why it works.</p>
+          <Video videoUrl="https://www.youtube.com/embed/URuMb15CWJs"/>
+          <h4> Dr. Maya Angelou Recites Her Poem "Phenomenal Woman"</h4>
+          <Video videoUrl="https://www.youtube.com/embed/VeFfhH83_RE"/>
+          <ol className="vocab">
+            <li> We are creatures of repetition within our own bodies. Which bodily functions involve rhythm and
+              repetition?
+            </li>
+            <li> What is an example of repetition in language?</li>
+            <li> A repeated pattern of stressed syllables is known as what?</li>
+            <li> What is the repetition of vowel sounds called.</li>
+            <li> Think of song lyrics that employs repetition. What is the name of the song? How does the singer use
+              poetic devices such as rhyme, assonance, consonance, or alliteration?
+            </li>
+            <li> Have you noticed some lines/lyrics are more fun to sing along with than others? Does repetition of
+              sound appear more or less in those lines/lyrics? If so, which kinds of repetition do they use?
+            </li>
+            <li> Can you find a visual representation of repetition in your world? Maybe repeated rows of desks? Or
+              roads lined with trees? How might you capture that repetition in language, so someone might visualize the
+              patterns without physically seeing them?
+            </li>
+          </ol>
+          <br/>
+          <textarea className="textArea" onChange={onChangela7Listener73} value={la7Essay73}/>
+
+          <span className="days">LESSON 74 </span>
+          <h4>The art of the metaphor</h4> <p>How do metaphors help us better understand the world? And, what makes a
+          good metaphor? Explore these questions with writers like Langston Hughes and Carl Sandburg, who have mastered
+          the art of bringing a scene or emotion to life.</p>
+          <Video videoUrl="https://www.youtube.com/embed/A0edKgL9EgM"/>
+          <h4>Fog</h4>
+          <p>BY CARL SANDBURG</p>
+          <img style={{width: "600px"}} src={require("../../public/images/poems/fog.jpg")} alt="fog poem"/><br/>
+
+         <p className="topBottom"> <h4>Mother to Son</h4>
+          <ul style={{ color: "#7c7f93"}}>
+            <li>BY LANGSTON HUGHES</li>
+            <li>Well, son, I’ll tell you:</li>
+            <li>Life for me ain’t been no crystal stair.</li>
+            <li>It’s had tacks in it, </li>
+            <li>And splinters,</li>
+            <li>And boards torn up,</li>
+            <li>And places with no carpet on the floor—</li>
+            <li>Bare.</li>
+            <li>But all the time</li>
+            <li>I’se been a-climbin’ on,</li>
+            <li>And reachin’ landin’s,</li>
+            <li>And turnin’ corners,</li>
+            <li>And sometimes goin’ in the dark</li>
+            <li>Where there ain’t been no light.</li>
+            <li>So boy, don’t you turn back.</li>
+            <li>Don’t you set down on the steps</li>
+            <li>’Cause you finds it’s kinder hard.</li>
+            <br/>
+            <li>Don’t you fall now—</li>
+            <li>For I’se still goin’, honey,</li>
+            <li> I’se still climbin’,</li>
+            <li>And life for me ain’t been no crystal stair.</li>
+          </ul></p>
+          <p className="topBottom"><strong>Answer the following questions based on the video and poems above.</strong>
+          <ol className="vocab">
+            <li> In the video, the speaker says that a metaphor is almost never factually true, but still can be “right”
+              or not. Her example is that “We know what it feels like to be a square wheel but not what it feels like to
+              be a tired whale.” What do you think it means to say “I feel like a square wheel”? Can you describe that
+              feeling in ordinary language, without using any images?
+            </li>
+            <li> Langston Hughes’s poem “Mother to Son” uses a house as a metaphor for a hard life. If you had to
+              describe your own life right now with a metaphor, what object would you compare your life to? (You can use
+              a simile if that’s easier, and write the phrase “My life feels like a _______” as a way to get started.)
+              Once you’ve picked the object, describe the object for a few sentences. (What you’re doing here is making
+              up and exploring a new extended metaphor of your own.)
+            </li>
+            <li> Do you think that a description of a cricket would be read the same way or mean the same thing if it
+              had been in a science paper about crickets instead of a poem? Do we read things in different ways at
+              different times, and can you say why a person might want to read a poem (or listen to the words of a song)
+              at all?
+            </li>
+            <li> What is a metaphor? Define it using your own words.</li>
+            <li> What is a simile?</li>
+            <li> "An elephant in the room" is a way of saying what?</li>
+            <li> How would you describe the mother in Langston Hughes' poem "Mother to Son"? What kind of life has she
+              had?
+            </li>
+            <li> Why do you think poets enjoy using metaphors so much?</li>
+          </ol></p>
+          <textarea className="textArea" onChange={onChangela7Listener74} value={la7Essay74}/>
+
+          <span className="days">LESSON 75 </span>
+          <h4>Become a slam poet in five steps</h4>
+          <p className="topBottom">With enough passion and practice, becoming a slam poet is within your reach. Explore
+            a distant memory on paper, then read it out loud. Edit. Try reading it out loud again, and add your
+            finishing touches. In this TedEd video, Gayle Danley offers five steps to being a slam poet — while being
+            downright poetic in the process.</p>
+          <Video videoUrl="https://www.youtube.com/embed/9f8VcV8v2LE"/>
+          <img src={require("../../public/images/poems/wildgeese.jpg")} alt="wild geese poem"/><br/>
+          <Video videoUrl="https://www.youtube.com/embed/zIEXGgQi3T8"/>
+          <ol className="vocab">
+            <li>What is the yellow paper Tyler is writing about?</li>
+            <li>What is Ms. Gayle's step 2?</li>
+            <li>When Ms. Gayle says, "Cut the fat," what does she mean?</li>
+            <li>Which step gets repeated?</li>
+            <li>What is Tyler writing about?</li>
+            <li>If you had to write a poem, what would it be about?</li>
+            <li> In Wild Geese, Oliver demonstrates her keen understanding of humanity's restless pursuit of purpose and
+              innate sense of displacement. In simple verse, she urges the reader to look to nature for the answers to
+              his/her unspoken questions. How does the poem make you feel? Explain why.
+            </li>
+            <li> The poet uses words like "despair" and "lonely" and creates an image of someone walking on his/her
+              knees. Is this poem hopeful or hopeless? Both at once? Or somewhere in between?
+            </li>
+            <li> In "Wild Geese," what is the poet trying to convince us of? </li>
+            <li>Are you convinced?</li>
+          </ol>
+          <textarea className="textArea" onChange={onChangela7Listener75} value={la7Essay75}/>
+
+          <span className="days">LESSON 76 </span>
+          <h4>Why Shakespeare loved iambic pentameter</h4>
+          <p>Shakespeare sometimes gets a bad rap for his complex plots and antiquated language. But a quick peek into
+            the rhythm of his words reveals a poet deeply rooted in the way people spoke in his time — and still speak
+            today.</p>
+          <p className="topBottom">Why do Shakespeare’s words have such staying power? In the first video, David T. Freeman and Gregory Taylor uncover the
+            power of iambic pentameter. In the second video, Crash Course covers Shakespeare’s Sonnets, including <i>Shall I
+              Compare Thee to a Summer’s Day.</i></p>
+          <Video videoUrl="https://www.youtube.com/embed/I5lsuyUNu_4"/>
+          <Video videoUrl="https://www.youtube.com/embed/bDpW1sHrBaU"/>
+          <ul style={{ color: "#4f5979", fontStyle: "italic" }}>
+            <li> Shall I compare thee to a summer's day?</li>
+            <li> Thou art more lovely and more temperate:</li>
+            <li> Rough winds do shake the darling buds of May,</li>
+            <li> Sometime too hot the eye of heaven shines,</li>
+            <li> And often is his gold complexion dimm'd;</li>
+            <li> And every fair from fair sometime declines,</li>
+            <li> By chance or nature's changing course untrimm'd;</li>
+            <li> But thy eternal summer shall not fade</li>
+            <li> Nor lose possession of that fair thou owest;</li>
+            <li> Nor shall Death brag thou wander'st in his shade,</li>
+            <li> When in eternal lines to time thou growest:</li>
+            <li> So long as men can breathe or eyes can see,</li>
+            <li> So long lives this and this gives life to thee.</li>
+          </ul><br/>
+          <p className="topBottom">The following questions are based on the videos and poem above.</p>
+          <ol className="vocab">
+            <li> What is the stress pattern of an iamb?</li>
+            <li> (Fill in the blank) Iambic pentameter contains _____ feet, each of which contains _____ syllables.</li>
+            <li> Give an example of iambic pentameter.</li>
+            <li> Shakespeare's characters often speak in iambic pentameter when they are feeling what?</li>
+            <li> Think about how you speak when you are feeling a strong emotion: anger, happiness, sadness, and
+              disappointment. In trying to express yourself, do you use specific kinds of words? Do you use short
+              sentences or long sentences? And does your language change depending on the kind of emotion you’re
+              feeling?
+            </li>
+            <li> Review the definitions of “trochee” and “dactyl.” To which kinds of moods or tones might these types of
+              feet be suited, based on the way they sound in verse?
+            </li>
+            <li> What is the message of the sonnet?</li>
+            <li> In "Sonnet 18," is the “beloved” ultimately better or worse than a summer's day?</li>
+          </ol>
+          <br/>
+          <textarea className="textArea" onChange={onChangela7Listener76} value={la7Essay76}/>
+
+          <span className="days">LESSON 77 </span>
+          <h4>Insults by Shakespeare</h4> <p className="topBottom">"You’re a fishmonger!" By taking a closer look at Shakespeare’s
+          words–specifically his insults–we see why he is known as a master playwright whose works transcend time
+          and appeal to audiences all over the world.</p>
+          <p className="topBottom"> Along with writing some of most famous quotes in literature, Shakespeare’s insults, put-downs, and
+            cussing were second to none. After you watch the video and read the poem below, answer the questions in
+            the textbox below. </p>
+          <Video videoUrl="https://www.youtube.com/embed/vdCjKH5IKJ8"/>
+          <p className='margin-para'>Sometimes Shakepeare’s insults were ironic; they were meant to have the opposite effect and be a
+            compliment. He did this in <strong> Sonnet 130: My Mistress Eyes are Nothing Like the Sun.</strong> Shakespeare
+            shows irony through different metaphors and similes.</p>
+          <ul>
+            <li className="poem">My mistress' eyes are nothing like the sun;</li>
+            <li>Coral is far more red than her lips' red;</li>
+            <li className="interpret">Translation: Her lips aren’t even a pale orange, much less red.</li>
+            <li>If snow be white, why then her breasts are dun;</li>
+            <li className="interpret">Translation: Compared to snow, her breasts are grayish-brown.</li>
+            <li>If hairs be wires, black wires grow on her head;</li>
+            <li>I have seen roses damasked, red and white,</li>
+            <li className="interpret">Translation: I have seen a mix of red and white roses</li>
+            <li>But no such roses see I in her cheeks;</li>
+            <li className="interpret">But I don’t see those colors in her cheeks.</li>
+            <li>And in some pérfumes is there more delight</li>
+            <li>Than in the breath that from my mistress reeks.</li>
+            <li className="interpret"> And some perfumes smell more delightful than my mistress’s reeking
+              breath.
+            </li>
+            <li>I love to hear her speak, yet well I know</li>
+            <li>That music hath a far more pleasing sound.</li>
+            <li className="interpret"> Her voice isn’t much to listen to.</li>
+            <li>I grant I never saw a goddess go;</li>
+            <li>My mistress, when she walks, treads on the ground.</li>
+            <li className="interpret"> Although I’ve never seen a goddess, I know my mistress is not one.</li>
+            <li> &nbsp; And yet, by heaven, I think my love as rare</li>
+            <li> &nbsp; As any she belied with false compare.</li>
+            <li className="interpret"> &nbsp; I think my beloved is as special as any she is compared to with lies.
+            </li>
+          </ul><br/>
+          <h4>Questions</h4>
+          <ol className="vocab">
+            <li className="poem"><i>Based on the video: </i>How do you think audience reactions to Shakespeare's
+              work has changed  over the years? How have his audiences changed over time?</li>
+            <li> According to Gudenrath, what is one of Shakespeare's most impressive accomplishments?</li>
+            <li> What is the purpose of dialogue in drama?</li>
+            <li> What does fishmonger mean in the context of Shakespeare's play Hamlet?</li>
+            <li> What happens in Romeo and Juliet that is akin to giving someone the finger?</li>
+            <li>Why do you think Shakespeare uses insults?</li>
+            <li> Based on sonnet 130 - The sonnet shifts at line 13 (near the bottom). The shift is indicated by the
+              indented lines, the change in rhyme scheme, and the change in tone. In lines 1-12, describe how
+              Shakespeare compares the mistress with nature's beauties (like snow and roses).
+            </li>
+            <li>The last two lines (concluding couplet) are unexpected. Why is this? Describe how Shakespeare
+              unexpectedly takes readers in a different direction.
+            </li>
+            <li>How did you like the sonnet? Explain.</li>
+            <li>How would you feel if someone you were close to wrote something like this about you? After pointing
+              out all of your flaws, they nonetheless are able to see in an honest way how rare and special you are?
+              Would it still be insulting? Explain.
+            </li>
+          </ol>
+          <br/>
+          <textarea className="textArea" onChange={onChangela7Listener77} value={la7Essay77}/>
+
+          <span className="days">LESSON 78 </span>
+          <h4>Everything you need to know to read Homer’s "Odyssey"</h4>
+          <p>An encounter with a man-eating giant. A sorceress who turns men into pigs. A long-lost king taking back
+            his throne. On their own, any of these make great stories. But each is just one episode in the
+            "Odyssey," a 12,000-line poem spanning years of ancient Greek history and legend. So how do we make
+            sense of this massive text? Jill Dash shares everything you need to know to read Homer’s "Odyssey."</p>
+          <Video videoUrl="https://www.youtube.com/embed/8Z9FQxcCAZ0"/>
+          <Video videoUrl="https://www.youtube.com/embed/MS4jk5kavy4"/>
+          <h4>Based on the video <i>Everything you need to know to read Homer’s "Odyssey"</i></h4>
+          <ol className="vocab">
+            <li>When did the Greek alphabet first appear?</li>
+            <li>What helped the rhapsodes remember and recite the poem?</li>
+            <li>What is xenia?</li>
+            <li>Which god has hindered Odysseus’ journey home?</li>
+            <li>Recall that the poem begins in medias res, in the middle of things. From a narrative standpoint,
+              what are some benefits of beginning in this fashion?
+            </li>
+            <li>In addition to the ancient Greeks, the ancient Romans also had a code of hospitality like xenia,
+              called hospitium. What do you think were some of the challenges of such a code, and do you think a
+              code like this would benefit our society today?
+            </li>
+            <li>The oral tradition of "Iliad" and "Odyssey" make these stories cultural, communal, entertainment
+              experiences. Since Homer’s time, in what ways has public, communal entertainment changed?
+            </li>
+            <h4>Based on the second video <i>A Long and Difficult Journey, or The Odyssey: Crash Course Literature</i></h4>
+            <li>What is an "Epic Poem"?</li>
+            <li>Who is Telemachus?</li>
+            <li>Who is Penelope?</li>
+            <li>What are the "Heroic Characteristics" of a Greek Hero?</li>
+            <li>What is the epic's "Double Standard" for women?</li>
+            <li> How many years is Odysseus' voyage?</li>
+            <li> How did the blind author, Homer, compose the Odyssey?</li>
+            <li> When did Homer create the Iliad?</li>
+            <li> How long after Homer's creation were the Iliad and the Odyssey written down?</li>
+            <li> At what time in history does the Odyssey begin?</li>
+            <li> Why does Odysseus kill the suitors?</li>
+            <li> How does Odysseus get all his men killed?</li>
+            <li> How does Odysseus get home?</li>
+            <li> Why does Odysseus kill the suitors?</li>
+            <li> What is the Odyssey about, if not war?</li>
+          </ol>
+          <p className="topBottom">If you’d like to read the Odyssey, a great version of it is the Graphic Novel "The
+            Odyssey" by Gareth
+            Hinds.</p>
+          <textarea className="textArea" onChange={onChangela7Listener78} value={la7Essay78}/>
+
+          <span className="days">LESSON 79 </span>
+          <h4>The poet who painted with his words</h4> <p>Among the great poets of literary history, certain names
+          like Homer, Shakespeare and Whitman are instantly recognizable. However, there’s an early 20th century
+          great poet whose name you may not know: Guillaume Apollinaire. During Apollinaire’s short lifetime he
+          created poetry that combined text and image in a way that seemingly predicted a artistic revolution to
+          come. Watch the video below and then answer the questions about Apollinaire.</p>
+          <Video videoUrl="https://www.youtube.com/embed/YJ0x1YOuMwQ"/>
+          <h4> Ocean of Earth </h4>
+          <ul  style={{ color: "#7c7f93" }}>
+            <li>by GUILLAUME APOLLINAIRE</li>
+            <li className="poem">I have built a house in the middle of the Ocean</li>
+            <li>Its windows are the rivers flowing from my eyes</li>
+            <li>Octopi are crawling all over where the walls are</li>
+            <li>Hear their triple hearts beat and their beaks peck against the windowpanes</li>
+            <br/>
+            <li>House of dampness</li>
+            <li>House of burning</li>
+            <li>Season’s fastness</li>
+            <li>Season singing</li>
+            <li>The airplanes are laying eggs</li>
+            <li>Watch out for the dropping of the anchor</li>
+            <br/>
+            <li>Watch out for the shooting black ichor</li>
+            <li>It would be good if you were to come from the sky</li>
+            <li>The sky’s honeysuckle is climbing</li>
+            <li>The earthly octopi are throbbing</li>
+            <li>And so very many of us have become our own gravediggers</li>
+            <li>Pale octopi of the chalky waves O octopi with pale beaks</li>
+            <li>Around the house is this ocean that you know well</li>
+            <li> And is never still</li>
+          </ul><br/>
+          <ol className="vocab">QUESTIONS<br/>
+            <li className="poem"><i>Based on the video:</i> Which new form of liberty does Apollinaire experiment
+              with in his poetry?
+            </li>
+            <li> Which parts of the poem "Lettre Océan" could best be described as traditional poetry? Explain your
+              answer.
+            </li>
+            <li> In addition to being a poet, Guillaume Apollinaire was also what?</li>
+            <li> What painter was Guillaume Apollinaire close to?</li>
+            <li> Guillaume Apollinaire wanted to push the "quest of another reality." This is not defined by science
+              and reason, so he created a new word. What was it?
+            </li>
+            <li> What is a calligram?</li>
+            <li> How could you explain "avant-garde" in France during the early 20th century?</li>
+            <li> Which parts of the poem "Lettre-Océan" could best be described as traditional poetry? Explain your
+              answer.
+            </li>
+            <li><i>Based on the poem <i>Ocean of Earth</i>: What is the imagery in the poem? </i></li>
+            <li> What is the mood of the poem? (How does it make you feel?)</li>
+            <li> What is the message of the poem?</li>
+            <li> Were you intrigued by the title of the piece? Explain what you thought of it.</li>
+          </ol>
+          <img src={require("../../public/images/poems/apollinaire.jpg")} alt="apollinaire"/><br/>
+          <textarea className="textArea" onChange={onChangela7Listener79} value={la7Essay79}/>
+
+          <span className="days">LESSON 80 </span>
+          <h4> A poetic experiment: Walt Whitman, interpreted by three animators</h4> <p>Take a journey through Walt
+          Whitman’s poem ‘A Noiseless Patient Spider’ with the help of three animators who each used a different
+          animation style to bring this beautiful poem to life.</p>
+          <Video videoUrl="https://www.youtube.com/embed/6jCw8ydqkrg"/>
+          <ul>
+            <h4>A Noiseless Patient Spider</h4>
+            <li>BY WALT WHITMAN</li>
+            <li className="poem">A noiseless patient spider,</li>
+            <li>I mark’d where on a little promontory it stood isolated,</li>
+            <li>Mark’d how to explore the vacant vast surrounding,</li>
+            <li>It launch’d forth filament, filament, filament, out of itself,</li>
+            <li>Ever unreeling them, ever tirelessly speeding them.</li>
+            <br/>
+            <li>And you O my soul where you stand,</li>
+            <li>Surrounded, detached, in measureless oceans of space,</li>
+            <li>Ceaselessly musing, venturing, throwing, seeking the spheres to connect them,</li>
+            <li>Till the bridge you will need be form’d, till the ductile anchor hold,</li>
+            <li>Till the gossamer thread you fling catch somewhere, O my soul.</li>
+          </ul><br/>
+          <h4>Questions</h4>
+          <ol className="vocab">
+            <li>Whitman uses alliteration (the occurrence of the same letter or sound at the beginning of closely
+              connected or adjacent words) in this poem. Read the poem and list the phrases that contain
+              alliteration below. Why would a writer use alliteration?
+            </li>
+            <li>Find the words that describe both the spider and the soul in similar ways.</li>
+            <li>What specific words or phrases does Walt Whitman use to personify the spider and thus create a
+              metaphor between the spider and the soul?
+            </li>
+            <li>Whitman repeats the phrase "till the," twice at the beginning of each of the last two lines of the
+              poem. Why might he have done this?
+            </li>
+            <li>How would you describe the mood or tone of the piece?</li>
+            <li>How does Whitman let his readers know the spider is lonely?</li>
+            <li>Were you reminded of any of your own life experiences with loneliness?</li>
+            <li>Does anything about the poem’s similarities or dissimilarities to those things surprise you?</li>
+            <li>What is the message of the poem?</li>
+          </ol>
+          <h4>Define these vocabulary words found in the poem: </h4>
+          <ol className="vocab">
+            <li> promontory</li>
+            <li> filament</li>
+            <li> unreeling</li>
+            <li> musing</li>
+            <li> ductile</li>
+            <li> gossamer</li>
+            <li> venturing</li>
+          </ol>
+          <textarea className="textArea" onChange={onChangela7Listener80} value={la7Essay80}/>
+
+          <span className="days">LESSON 81 </span>
+          <h4>Robert Frost (1874- 1963)</h4>
+          <p className="topBottom">Robert Frost was an American poet known for his poems about life in New England’s countryside. When his
+            father died in 1885, Frost and his sister lived with their grandparents while his mother pursued work as
+            a teacher in the northeast. </p>
+          <p className="topBottom">After graduating high school, he briefly attended Dartmouth College but quit to pursue becoming a poet.
+            Until he was unable to earn money as a poet, he farmed and taught school. Shortly after getting married
+            and starting a family, he moved to England and published collections of his poems. When he moved back to
+            the United States three years later he was famous. </p>
+          <h4>"The Road Not Taken" by Robert Frost</h4>
+          <Video videoUrl="https://www.youtube.com/embed/yGB_K_xlHdI?list=PLJicmE8fK0Egxi0hgy5Tw-NFyLcpJ4bzJ"/>
+          <p>Analysis of Robert Frost's "The Road Not Taken" </p>
+          <Video videoUrl="https://www.youtube.com/embed/fMcsadmTPoE"/>
+          <p>All-In for Allegory<br/>
+            The Road Not Taken is an example of an allegory. An allegory is a story or poem that has two meanings: a
+            literal meaning and a figurative one. </p>
+          <Video videoUrl="https://www.youtube.com/embed/4IOsFCieGQA"/>
+          Analysis of Fire and Ice
+          <Video videoUrl="https://www.youtube.com/embed/p0YjUfmwBC0"/>
+          <h4 className="topBottom">BY ROBERT FROST</h4>
+          <ul style={{color:"#7c7f93" }}>
+            <li className="poem">Some say the world will end in fire,</li>
+            <li>Some say in ice.</li>
+            <li>From what I’ve tasted of desire</li>
+            <li>I hold with those who favor fire.</li>
+            <li>But if it had to perish twice,</li>
+            <li>I think I know enough of hate</li>
+            <li>To say that for destruction ice</li>
+            <li>Is also great</li>
+            <li>And would suffice.</li>
+          </ul><br/>
+          <h4>Questions</h4>
+          <ol className="vocab">
+            <li>What is the message of the poem? What is it about?</li>
+            <li>What does the "road less traveled" mean?</li>
+            <li>Are there clues that Frost believes one road was not necessarily much better than another?
+              Explain.
+            </li>
+            <li>Are there clues that show Robert Frost is glad he took one path over the other? Explain.</li>
+            <li>What is the imagery in the poem?</li>
+            <li>What is the mood of the poem? (How does it make you feel?)</li>
+            <li>Write about a time you had to make a tough decision. Did you choose the easy road or the hard
+              road.
+            </li>
+          </ol>
+          <textarea className="textArea" onChange={onChangela7Listener81} value={la7Essay81}/>
+
+          <span className="days">LESSON 82 </span>
+          <h4><i>If </i>by Rudyard Kipling </h4>
+          <Video videoUrl="https://www.youtube.com/embed/sqOgyNfHl1U"/>
+          <h4><i>First Kiss</i> by Tim Seibles </h4>
+          <Video videoUrl="https://www.youtube.com/embed/dv9sgFHS2Do?list=PLJicmE8fK0Egxi0hgy5Tw-NFyLcpJ4bzJ"/>
+          <ol className="vocab">
+            <li><strong>Based on the poem <i>If </i>by Rudyard Kipling: </strong> Why is Kipling’s poem titled "If"?</li>
+            <li> What are qualities that ‘make a man’ according to Kipling?</li>
+            <li> What does the poet say about lies and hate?</li>
+            <li>Why does the poet call triumph and disaster two impostors?</li>
+            <li> What poetic devices, structural or stylistic techniques are used in the poem?</li>
+            <li> How can power of Will help a person?</li>
+            <li> Why should people keep their calm in difficult situations?</li>
+            <li> Do you think the poem ‘If’ is relevant in today’s world?</li>
+            <li> What is ‘pitch and toss’? What does it signify in the poem?</li>
+            <li> What was the poem’s purpose. What it achieved? Explain.</li>
+            <li> Based on the poem<h4><i>First Kiss</i> by Tim Seibles: </h4></li>
+            <li> What did you think of the poem?</li>
+            <li> What were some metaphors used in this poem? Which did you think was the best use of metaphor?</li>
+            <li> What is the mood of the poem?</li>
+            <li> Did the poet do a good job of expressing what he was trying to say? Explain why or why not.</li>
+          </ol>
+          <textarea className="textArea" onChange={onChangela7Listener82} value={la7Essay82}/>
+
+          <span className="days">LESSON 83 </span>
+          <h4>How do you read a poem? </h4>
+          <p>Excerpts taken from the SPL Poetry Handbook </p>
+          <p className="margin-para" style={{ color: "#7c7f93", fontSize: "110%", lineHeight: "1.7" }}> Slow down. Read
+            it slowly.<br/>
+            A good poet will have made every word in the poem count. <br/>Step into the poem
+            and wander around. Take your time. <br/>
+            See where the encounter takes you. <br/>
+            You might not like the poem. It might do nothing for you. <br/>
+            Don’t feel under any pressure to like every
+            poem you meet. You won’t. <br/>
+            Relax. Hmmm… the poem has got you intrigued? But you don’t understand it. <br/>
+            Not to worry. Poems aren’t
+            crossword puzzles. There’s no correct answer. <br/>
+            A good poem will offer many paths to meander along.</p>
+          <h4><i>Summer’s Day </i> by Mary Oliver</h4>
+          <Video videoUrl="https://www.youtube.com/embed/rBPHUE961zI"/>
+          <p> William Butler Yeats is considered one of the greatest poets of the 1900’s.</p>
+          <h4><i>The Second Coming</i> by William Butler Yeats</h4>
+          <Video videoUrl="https://www.youtube.com/embed/IY2oIsA4c7k"/>
+          <h4>Analysis of William Butler Yeats's "The Second Coming"</h4>
+          <Video videoUrl="https://www.youtube.com/embed/1S8WWWHl3JE"/>
+          <h4><i> Ode to the Only Black Kid in the Class</i> poem by Clint Smith</h4>
+          <Video videoUrl="https://www.youtube.com/embed/OGoehR_k0Xk"/>
+          <ol className="vocab">
+            <li className="poem"><i>Based on Summer’s Day: </i> Select one line that you enjoyed the most or was the
+              most meaningful to you. Explain why you chose this line.
+            </li>
+            <li> Describe how the writer uses imagery throughout the poem. Give an example that you think was her
+              best use of imagery.
+            </li>
+            <li> What was the writer’s purpose with the poem? Do you think she achieved her purpose? Why or why
+              not.
+            </li>
+            <li><i>Based on The Second Coming: </i>Why was Yeats so fearful of the future?</li>
+            <li> What does the falcon represent?</li>
+            <li> Did Yeats seem like a happy guy? Explain.</li>
+            <li> What was your overall impression of the poem?</li>
+            <li> What is the mood of the poem? How does it make you feel?</li>
+            <li><i>Based on Ode to the Only Black Kid in the Class:</i> What was your reaction to the title of the
+              poem?
+            </li>
+            <li> Was the poem as you expected it would be or did it surprise you in some way? Explain.</li>
+            <li> Which parts of the poem are lingering in your mind?</li>
+            <li> What are the questions that it makes you want to ask?</li>
+            <li> What is the message or theme of the poem?</li>
+          </ol>
+          <textarea className="textArea" onChange={onChangela7Listener83} value={la7Essay83}/>
+
+          <span className="days">LESSON 84 </span>
+          <h4>Thinking Like a Poet</h4>
+          <p>The following exercise is from Steve Bowkett’s <i>Countdown to Poetry.</i> Take a few moments to study
+            the image below.</p>
+          <img src={require("../../public/images/poems/bwimage1.jpg")}
+               alt="black and white of boy running to tree with birds"/><br/>
+          <ol className="vocab">
+            <li> What are four things that you find the most intriguing or captivating about this image?</li>
+            <li> Close your eyes and imagine the picture is in color. Describe what you see and describe the colors
+              in detail.
+            </li>
+            <li> Now focus on the sound and imagine what sounds you can hear.</li>
+            <li> Now imagine you can step into the picture. Describe what it is like. Is there a breeze? Do you
+              smell anything? What do things feel like? Is it warm or cold? What do you see when you turn around? IS
+              there anything surprising there that isn’t in the picture?
+            </li>
+            <li> If this picture could tell a story, what is the story about? What will about to happen next?</li>
+            <li> Describe this picture in 12 words or less. Twelve is not many words so choose each one carefully.
+            </li>
+          </ol>
+          <textarea className="textArea" onChange={onChangela7Listener84} value={la7Essay84}/>
+
+          <span className="days">LESSON 85 </span>
+          <h4><strong> All the World's a Stage </strong> by William Shakespeare </h4>
+          <p> is a monologue or speech given by a character named Jaques in Shakespeare's play <i>As You Like
+            It.</i></p>
+          <Video videoUrl="https://www.youtube.com/embed/_jaSFtcDEiE?list=PLJicmE8fK0Egxi0hgy5Tw-NFyLcpJ4bzJ"/>
+          <h4>Analysis of William Shakespeare's <i> All the World's a Stage </i></h4>
+          <Video videoUrl="https://www.youtube.com/embed/BsD9u2BO2rM"/>
+          <ul>
+            <li>All the world’s a stage,</li>
+            <li>And all the men and women merely players;</li>
+            <li>They have their exits and their entrances;</li>
+            <li>And one man in his time plays many parts,</li>
+            <li>His acts being seven ages. At first the infant,</li>
+            <li>Mewling and puking in the nurse’s arms;</li>
+            <li>And then the whining school-boy, with his satchel</li>
+            <li>And shining morning face, creeping like snail</li>
+            <li>Unwillingly to school. And then the lover,</li>
+            <li>Sighing like furnace, with a woeful ballad</li>
+            <li>Made to his mistress’ eyebrow. Then a soldier,</li>
+            <li>Full of strange oaths, and bearded like the pard,</li>
+            <li>Jealous in honour, sudden and quick in quarrel,</li>
+            <li>Seeking the bubble reputation</li>
+            <li>Even in the cannon’s mouth. And then the justice,</li>
+            <li>In fair round belly with good capon lin’d,</li>
+            <li>With eyes severe and beard of formal cut,</li>
+            <li>Full of wise saws and modern instances;</li>
+            <li>And so he plays his part. The sixth age shifts</li>
+            <li>Into the lean and slipper’d pantaloon,</li>
+            <li>With spectacles on nose and pouch on side;</li>
+            <li>His youthful hose, well sav’d, a world too wide</li>
+            <li>For his shrunk shank; and his big manly voice,</li>
+            <li>Turning again toward childish treble, pipes</li>
+            <li>And whistles in his sound. Last scene of all,</li>
+            <li>That ends this strange eventful history,</li>
+            <li>Is second childishness and mere oblivion;</li>
+            <li>Sans teeth, sans eyes, sans taste, sans everything.</li>
+          </ul><br/>
+          <p><strong>Answer the questions below in complete sentences.</strong></p>
+          <ol className="vocab">
+            <li> Jaques’ speech is a metaphor. What are the two main things he’s comparing?</li>
+            <li> What is the first "stage" of a man.</li>
+            <li> Why do you think the speaker calls the last stage second childhood?</li>
+            <li> What does he mean by oblivion when he says: "mere oblivion, / Sans teeth, sans eyes, sans taste,
+              sans everything"?
+            </li>
+            <li> Give an example of alliteration used in the monologue. Alliteration is repetition of a letter/sound
+              at the beginning of words. Example: <i>Sheep should sleep in a shed. </i>When the speaker says that
+            </li>
+            <li> The words ‘exits’ and ‘entrances’ are metaphors for what? What do those two words really mean?</li>
+            <li> The speech is full of metaphors and similes. Give at least one example of each.</li>
+          </ol>
+          <textarea className="textArea" onChange={onChangela7Listener85} value={la7Essay85}/>
+
+          <span className="days">LESSON 86 </span>
+          <h4>Before I Got My Eye Put Out - The Poetry of Emily Dickinson</h4>
+          <Video videoUrl="https://www.youtube.com/embed/R4WwhOdk_Eg"/>
+          <h4>HOPE IS THE THING WITH FEATHERS by Emily Dickinson </h4>
+          <img src={require("../../public/images/poems/hope.jpg")} alt="Hope poem"/><br/><br/>
+          {/*<ul>*/}
+          {/*<li> "Hope" is the thing with feathers -</li>*/}
+          {/*<li>That perches in the soul -</li>*/}
+          {/*<li>And sings the tune without the words -</li>*/}
+          {/*<li>And never stops - at all -</li>*/}
+          {/*<br/>*/}
+          {/*<li>And sweetest - in the Gale - is heard -</li>*/}
+          {/*<li>And sore must be the storm-</li>*/}
+          {/*<li>That could abash the little Bird</li>*/}
+          {/*<li>That kept so many warm -</li>*/}
+          {/*<br/>*/}
+          {/*<li>I’ve heard it in the chillest land -</li>*/}
+          {/*<li>And on the strangest Sea -</li>*/}
+          {/*<li>Yet - never - in Extremity,</li>*/}
+          {/*<li>It asked a crumb - of me.</li>*/}
+          {/*</ul><br/>*/}
+          <h4> Analysis of the Poem <i>HOPE IS THE THING WITH FEATHERS</i></h4>
+          <Video videoUrl="https:www.youtube.com/embed/j3VWZJmuvhg"/>
+          <h4>I'M NOBODY! by Emily Dickinson</h4>
+          <img src={require("../../public/images/poems/imNobody.jpg")} alt="I'm Nobody poem"/><br/><br/>
+          <h4>How Emily Dickinson Writes A Poem</h4>
+          <Video videoUrl="https://www.youtube.com/embed/55kqNg88JqI"/>
+          <h4>Finding Emily Dickinson in the power of her poetry</h4>
+          <Video videoUrl="https://www.youtube.com/embed/BLeMZ5WIdrI"/>
+          <ol className="vocab">
+            <li> Based on the Crash Course video: Dickinson often makes references to "eyes" and "sight". What do
+              these references most likely symbolize?
+            </li>
+            <li> Why do you think Dickinson only wore white?</li>
+            <li> Name two stylistic choices that Dickinson makes when she wants to avoid closure in her poetry.</li>
+            <li> Emily Dickinson's personal life receives as much attention, or even more attention, than her
+              poetry. Why do you think this is so?
+            </li>
+            <li> To what extent was Emily Dickinson the eccentric recluse she is often portrayed as being?</li>
+            <li> Describe some of the reasons that Dickinson did not gain fame as a poet during her lifetime.</li>
+            <li> "I’m nobody – who are you?" (288) is an invitation to loneliness. How does this poem or "I taste a
+              liquor never brewed" (214) invite the reader into the a kind of shared strangeness? Do you feel
+              separated or connected by the language?
+            </li>
+            <li>Does Dickinson seem to be writing for other people or only for herself?</li>
+            <li>Which Emily Dickinson poem is your favorite? Explain why.</li>
+            <li>Based on the poem <i>Hope is the thing with feathers</i>, what is the imagery in the poem?</li>
+            <li> What is the mood of the poem? Or how does it make you feel?</li>
+            <li> What is the message of the poem?</li>
+            <li> Which parts of it are lingering in your mind?</li>
+          </ol>
+          <textarea className="textArea" onChange={onChangela7Listener86} value={la7Essay86}/>
+
+          <span className="days">LESSON 87 </span>
+          <h4><i>Still I Rise</i> by Maya Angelou</h4>
+          <Video videoUrl="https://www.youtube.com/embed/fthuqMaPe0Y"/>
+          <h4><i> Alone </i> by Edgar Allan Poe</h4>
+          <Video videoUrl="https://www.youtube.com/embed/SS_YShPMYdM"/>
+          <p>Based on the poem: <a href="https://www.poetryfoundation.org/poems/46446/still-i-rise"
+                                   rel="noreferrer" target="_blank"> <i>Still I Rise</i></a> by Maya Angelou:</p>
+
+          <ol className="vocab">
+            <li> Most of Maya Angelou's stanzas begin with questions. Who do you think the Angelou is addressing and
+              how do her questions change as the poem progresses?
+            </li>
+            <li> How does the repetition of the phrase, "I rise," affect the tone and overall impact of the poem?
+            </li>
+            <li> What literary devices does Angelou use?</li>
+            <li> What is the theme or primary message of the poem?</li>
+            <li> Give an examples of imagery used.</li>
+            <li> Give an example of a metaphor used.</li>
+            <li> Give an example of a simile used.</li>
+            <li>What does Angelou mean when she says, "Out of the hut of history's shame / I rise. "</li>
+            <li> How do we know the narrator has hope of the future?</li>
+            <li> List two phrases from the final stanzas that suggest the horrors of slavery.</li>
+            <li> How did the poem impact you or make you feel?</li>
+            <p className="topBottom"> Based on the poem <a
+              href=" https://www.poetryfoundation.org/poems/46477/alone-56d2265f2667d"
+              rel="noreferrer" target="_blank"> <strong> Alone </strong> </a>by Edgar Allan Poe</p>
+            <li> What is the "mystery" that the speaker describes? What is the effect of the speaker's refusal to
+              tell us more about it?
+            </li>
+            <li> Why do you think Poe declined to publish this poem? Does it seem unfinished in any way to you? Why
+              or why not?
+            </li>
+            <li> How did the piece make you feel?</li>
+            <li> Even though it was written long ago, do you think it is still relevant today? Why or why not?</li>
+            <li> Were you intrigued by the title of the piece? Explain.</li>
+            <li> Do you think the "demon" has any meaning?</li>
+            <li> In what way did Poe state he loves?</li>
+            <li> What does he say about his passions?</li>
+            <li> Did the poem remind you of any of your own life experiences?</li>
+          </ol>
+          <textarea className="textArea" onChange={onChangela7Listener87} value={la7Essay87}/>
+
+          <span className="days">LESSON 88 </span>
+          <h4>The Poetry of Sylvia Plath by Crash Course Literature </h4>
+          <Video videoUrl="https://www.youtube.com/embed/iJn0ZPd6mYo"/>
+          <h4>Why should you read Sylvia Plath? by Iseult Gillespie</h4>
+          <Video videoUrl="https://www.youtube.com/embed/wCWl8ZIgCHk"/>
+          <h4>Mad Girl's Love Song by Sylvia Plath</h4>
+          <Video videoUrl="https://www.youtube.com/embed/EZ8RHI8K6xc"/>
+          <img src={require("../../public/images/poems/figTree.jpg")} alt="woman blended with a tree"/><br/>
+          <p className="topBottom" style={{ color: "#7c7f93", fontSize: "110%", lineHeight: "1.7" }}><i>I saw my
+            life branching out before me like the green fig tree in the story. From the tip of every
+            branch, like a fat purple fig, a wonderful future beckoned and winked. One fig was a husband and a happy
+            home and children, and another fig was a famous poet and another fig was a brilliant professor, and
+            another fig was Ee Gee, the amazing editor, and another fig was Europe and Africa and South America, and
+            another fig was Constantin and Socrates and Attila and a pack of other lovers with queer names and
+            offbeat professions, and another fig was an Olympic lady crew champion, and beyond and above these figs
+            were many more figs I couldn’t quite make out. I saw myself sitting in the crotch of this fig tree,
+            starving to death, just because I couldn’t make up my mind which of the figs I would choose. I wanted
+            each and every one of them, but choosing one meant losing all the rest, and, as I sat there, unable to
+            decide, the figs began to wrinkle and go black, and, one by one, they plopped to the ground at my
+            feet.</i></p>
+          <h4> Answer the questions below:</h4>
+          <ol className="vocab">
+            <li> Briefly describe Sylvia Plath and her background.</li>
+            <li> How did her life end? At what age did she die?</li>
+            <li> Based on <i>The Fig Tree</i>: What does the fig tree and each of the figs symbolize?</li>
+            <li> What is the mood of the poem? How does Plath get this mood across to reader?</li>
+            <li> Describe the imagery Plath creates of the figs.</li>
+            <li> What sense do you get about how the author is feeling as she writes about the fig tree? (Example:
+              Is she hopeful, desperate, or indifferent?)
+            </li>
+            <li> How does the poem make you feel about your future and the decisions you will have to make?</li>
+            <li> Do you see life and the choices you make in the same way that Plath sees the fig tree? Explain.
+            </li>
+            <li> What was the Plath’s purpose with the poem? Do you think she achieved it? Why or why not?</li>
+            <li>In comparison to other poems you’ve read, did you like it more or less? Explain why. What makes work
+              by Plath different to that of other poets?
+            </li>
+          </ol>
+          <textarea className="textArea" onChange={onChangela7Listener88} value={la7Essay88}/>
+
+          <span className="days">LESSON 89 </span>
+          <h4>How to Write a Poem</h4>
+          <p>The following is from <i>Literacy at Work: How to Write a Poem with Glenis Redmond.</i></p>
+          {/*<p>Taken from <i>Countdown to Poetry Writing</i> by Steve Bowkett</p>*/}
+          <Video videoUrl="https://www.youtube.com/embed/0w8PLcYP0sU"/>
+          <p> After you watch the video, complete the lists below. Then, use the lists to write
+            your Self-Portrait Poem.</p>
+          <h4>Write a list that describes your:</h4>
+          <ol className="vocab">
+            <li>Outer self - how you look (Example: Brown eyes, Mahogany skin, Tomboy, Graceful swagger, Pigtails)
+            </li>
+            <li>Inner self - feelings and emotions (Example: Joy, Shame, Focused, Popular, Lonely)</li>
+            <li>Talents or strengths (Example: Athletic, Graceful, Reader)</li>
+            <li>Challenges or things you find difficult (Being alone, Math, Racism)</li>
+          </ol>
+          <p className="topBottom"> Use your lists to help you tell your story. Remember to use the poetry
+            devices of alliteration, assonance, and anaphora. It's best if you can create your own poem, but if you
+            want, you can use the sentences below as a model.</p>
+          <ul>
+            <li>When I was in _____________________, I looked like _____________________.</li>
+            <li>I liked to play _____________________ with _____________________.</li>
+            <li>I was happy to _____________________ but felt scared when _____________________.</li>
+          </ul>
+          <p className="topBottom">This example is from the poet from the poet Glenis Redmond </p>
+          <h4>Self-Portrait: Bard in the Making
+          </h4>
+          <ul>
+            <li>When I was in the fifth grade</li>
+            <li>I was the biggest tomboy</li>
+            <li>always in t-shirt and jeans</li>
+            <li>baseball cap turned sideways</li>
+            <li>complete with ashy elbows, skinned knees</li>
+            <li>and a mouthful of bubble gum</li>
+            <li>I made popping and blowing bubbles (alliteration)</li>
+            <li>into an art form</li>
+            <br/>
+            <li>I was the princess of the playground (alliteration)</li>
+            <li>ruled at Prison Ball, handball, and tetherball</li>
+            <li>I could pummel, smash, catch, and throw</li>
+            <li>I was the fastest sprinter in the school</li>
+            <li>I could stop on a dime</li>
+            <li>and give you nine cents change.</li>
+          </ul>
+          <textarea className="textArea" onChange={onChangela7Listener89} value={la7Essay89}/>
+
+          <span className="days">LESSON 90 </span>
+          <h4><i><a href="https://www.poetryfoundation.org/poems/45081/the-cremation-of-sam-mcgee" rel="noreferrer"
+                    target="_blank"> Cremation of Sam McGee</a></i> by Robert W. Service </h4>
+          <Video videoUrl="https://www.youtube.com/embed/yJNZwuamwj0"/>
+
+          <h4><i><a href="https://poets.org/poem/do-not-go-gentle-good-night">Do Not Go Gentle into that Good
+            Night</a></i> by Dylan Thomas</h4>
+          <Video videoUrl="https://www.youtube.com/embed/w1JJ5actiUM"/>
+
+          <h4><i><a href="https://www.poetryfoundation.org/poems/46548/harlem">Harlem</a></i> by Langston
+            Hughes</h4>
+          <Video videoUrl="https://www.youtube.com/embed/ir0URpI9nKQ"/>
+          <h4>Harlem</h4>
+          <ul style={{color: "#7c7f93" }} >
+            <li>BY LANGSTON HUGHES</li>
+            <li> What happens to a dream deferred?</li>
+            <br/>
+            <li>Does it dry up</li>
+            <li>like a raisin in the sun?</li>
+            <li>Or fester like a sore—</li>
+            <li>And then run?</li>
+            <li>Does it stink like rotten meat?</li>
+            <li>Or crust and sugar over—</li>
+            <li>like a syrupy sweet?</li>
+            <br/>
+            <li>Maybe it just sags</li>
+            <li>like a heavy load.</li>
+          </ul><br/>
+          <ol className="vocab">Answer the questions below based on the three poems from this lesson.<br/>
+            <li><strong>The Cremation of SamMcGee:</strong> Why was Sam traveling in the Arctic? Describe what happens in the
+              poem.
+            </li>
+            <li>Why couldn't Cap cremate Sam’s remains in the wilderness?</li>
+            <li>After putting Sam’s body in the boiler, Cap looked inside. What did he see?</li>
+            <li>What message is the poet trying to get across?</li>
+            <li>How did you like the ending? Explain why or why not.</li>
+            <li>Which of the 3 poems did you like the most? Explain why?</li>
+            <li><strong>Do Not Go Gentle into that Good Night:</strong> Dylan Thomas wrote this poem for his dying father. How
+              does it make you feel? What was your gut reaction?
+            </li>
+            <li> What is the poem about? What does Thomas mean when he says to "rage against the dying of the light"?
+            </li>
+            <li>Did the poem match your expectation after reading the title?</li>
+            <li>What is the message of the poem?</li>
+            <li>Which lines are repeated? Do you think this is effective? Explain.</li>
+            <li>Do you agree Thomas that we should rage against death? Or, do you think we should die calmly? Explain.
+            </li>
+            <li><strong>A Dream Deferred:</strong></li>
+            <li>List all the things Langston Hughes compares a dream to? Describe the imagery
+              he creates for readers. What things can you clearly see and smell?
+            </li>
+            <li>Hughes was strongly influenced by jazz music. Do you think his writing has a musical quality to it?</li>
+            <li>What is the poet's message to readers?</li>
+            <li>What is the mood of the poem?</li>
+            <li>How does it make you feel to think about your own dreams being deferred?</li>
+            <li>Of all the poems you've read in this class, which is your favorite? Why?</li>
+          </ol>
+
+          <textarea className="textArea" onChange={onChangela7Listener90} value={la7Essay90}/>
+
+          <span className="days">LESSON 91 </span>
+
+
+          <textarea className="textArea" onChange={onChangela7Listener91} value={la7Essay91}/>
+
+          <span className="days">LESSON 92 </span>
+
+
+          <textarea className="textArea" onChange={onChangela7Listener92} value={la7Essay92}/>
+
+          <span className="days">LESSON 93 </span>
+
+
+          <textarea className="textArea" onChange={onChangela7Listener93} value={la7Essay93}/>
+
+          <span className="days">LESSON 94 </span>
+
+
+          <textarea className="textArea" onChange={onChangela7Listener94} value={la7Essay94}/>
+
+          <span className="days">LESSON 95 </span>
+
+
+          <textarea className="textArea" onChange={onChangela7Listener95} value={la7Essay95}/>
+
+          <span className="days">LESSON 96 </span>
+
+
+          <textarea className="textArea" onChange={onChangela7Listener96} value={la7Essay96}/>
+
+          <span className="days">LESSON 97 </span>
+
+
+          <textarea className="textArea" onChange={onChangela7Listener97} value={la7Essay97}/>
+
+          <span className="days">LESSON 98 </span>
+
+
+          <textarea className="textArea" onChange={onChangela7Listener98} value={la7Essay98}/>
+
+          <span className="days">LESSON 99 </span>
+
+
+          <textarea className="textArea" onChange={onChangela7Listener99} value={la7Essay99}/>
+
+          <span className="days">LESSON 100 </span>
+
+
+          <textarea className="textArea" onChange={onChangela7Listener100} value={la7Essay100}/>
+
+          {/*<span className="days">LESSON 101 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener101} value={la7Essay101}/>*/}
+
+          {/*<span className="days">LESSON 102 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener102} value={la7Essay102}/>*/}
+
+          {/*<span className="days">LESSON 103 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener103} value={la7Essay103}/>*/}
+
+          {/*<span className="days">LESSON 104 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener104} value={la7Essay104}/>*/}
+
+          {/*<span className="days">LESSON 105 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener105} value={la7Essay105}/>*/}
+
+          {/*<span className="days">LESSON 106 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener106} value={la7Essay106}/>*/}
+
+          {/*<span className="days">LESSON 107 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener107} value={la7Essay107}/>*/}
+
+          {/*<span className="days">LESSON 108 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener108} value={la7Essay108}/>*/}
+
+          {/*<span className="days">LESSON 109 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener109} value={la7Essay109}/>*/}
+
+          {/*<span className="days">LESSON 110 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener110} value={la7Essay110}/>*/}
+
+          {/*<span className="days">LESSON 111 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener111} value={la7Essay111}/>*/}
+
+          {/*<span className="days">LESSON 112 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener112} value={la7Essay112}/>*/}
+
+          {/*<span className="days">LESSON 113 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener113} value={la7Essay113}/>*/}
+
+          {/*<span className="days">LESSON 114 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener114} value={la7Essay114}/>*/}
+
+          {/*<span className="days">LESSON 115 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener115} value={la7Essay115}/>*/}
+
+          {/*<span className="days">LESSON 116 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener116} value={la7Essay116}/>*/}
+
+          {/*<span className="days">LESSON 117 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener117} value={la7Essay117}/>*/}
+
+          {/*<span className="days">LESSON 118 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener118} value={la7Essay118}/>*/}
+
+          {/*<span className="days">LESSON 119 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener119} value={la7Essay119}/>*/}
+
+          {/*<span className="days">LESSON 120 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener120} value={la7Essay120}/>*/}
+
+          {/*<span className="days">LESSON 121 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener121} value={la7Essay121}/>*/}
+
+          {/*<span className="days">LESSON 122 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener122} value={la7Essay122}/>*/}
+
+          {/*<span className="days">LESSON 123 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener123} value={la7Essay123}/>*/}
+
+          {/*<span className="days">LESSON 124 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener124} value={la7Essay124}/>*/}
+
+          {/*<span className="days">LESSON 125 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener125} value={la7Essay125}/>*/}
+
+          {/*<span className="days">LESSON 126 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener126} value={la7Essay126}/>*/}
+
+          {/*<span className="days">LESSON 127 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener127} value={la7Essay127}/>*/}
+
+          {/*<span className="days">LESSON 128 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener128} value={la7Essay128}/>*/}
+
+          {/*<span className="days">LESSON 129 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener129} value={la7Essay129}/>*/}
+
+          {/*<span className="days">LESSON 130 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener130} value={la7Essay130}/>*/}
+
+          {/*<span className="days">LESSON 131 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener131} value={la7Essay131}/>*/}
+
+          {/*<span className="days">LESSON 132 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener132} value={la7Essay132}/>*/}
+
+          {/*<span className="days">LESSON 133 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener133} value={la7Essay133}/>*/}
+
+          {/*<span className="days">LESSON 134 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener134} value={la7Essay134}/>*/}
+
+          {/*<span className="days">LESSON 135 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener135} value={la7Essay135}/>*/}
+
+          {/*<span className="days">LESSON 136 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener136} value={la7Essay136}/>*/}
+
+          {/*<span className="days">LESSON 137 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener137} value={la7Essay137}/>*/}
+
+          {/*<span className="days">LESSON 138 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener138} value={la7Essay138}/>*/}
+
+          {/*<span className="days">LESSON 139 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener139} value={la7Essay139}/>*/}
+
+          {/*<span className="days">LESSON 140 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener140} value={la7Essay140}/>*/}
+
+          {/*<span className="days">LESSON 141 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener141} value={la7Essay141}/>*/}
+
+          {/*<span className="days">LESSON 142 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener142} value={la7Essay142}/>*/}
+
+          {/*<span className="days">LESSON 143 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener143} value={la7Essay143}/>*/}
+
+          {/*<span className="days">LESSON 144 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener144} value={la7Essay144}/>*/}
+
+          {/*<span className="days">LESSON 145 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener145} value={la7Essay145}/>*/}
+
+          {/*<span className="days">LESSON 146 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener146} value={la7Essay146}/>*/}
+
+          {/*<span className="days">LESSON 147 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener147} value={la7Essay147}/>*/}
+
+          {/*<span className="days">LESSON 148 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener148} value={la7Essay148}/>*/}
+
+          {/*<span className="days">LESSON 149 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener149} value={la7Essay149}/>*/}
+
+          {/*<span className="days">LESSON 150 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener150} value={la7Essay150}/>*/}
+
+          {/*<span className="days">LESSON 151 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener151} value={la7Essay151}/>*/}
+
+          {/*<span className="days">LESSON 152 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener152} value={la7Essay152}/>*/}
+
+          {/*<span className="days">LESSON 153 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener153} value={la7Essay153}/>*/}
+
+          {/*<span className="days">LESSON 154 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener154} value={la7Essay154}/>*/}
+
+          {/*<span className="days">LESSON 155 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener155} value={la7Essay155}/>*/}
+
+          {/*<span className="days">LESSON 156 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener156} value={la7Essay156}/>*/}
+
+          {/*<span className="days">LESSON 157 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener157} value={la7Essay157}/>*/}
+
+          {/*<span className="days">LESSON 158 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener158} value={la7Essay158}/>*/}
+
+          {/*<span className="days">LESSON 159 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener159} value={la7Essay159}/>*/}
+
+          {/*<span className="days">LESSON 160 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener160} value={la7Essay160}/>*/}
+
+          {/*<span className="days">LESSON 161 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener161} value={la7Essay161}/>*/}
+
+          {/*<span className="days">LESSON 162 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener162} value={la7Essay162}/>*/}
+
+          {/*<span className="days">LESSON 163 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener163} value={la7Essay163}/>*/}
+
+          {/*<span className="days">LESSON 164 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener164} value={la7Essay164}/>*/}
+
+          {/*<span className="days">LESSON 165 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener165} value={la7Essay165}/>*/}
+
+          {/*<span className="days">LESSON 166 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener166} value={la7Essay166}/>*/}
+
+          {/*<span className="days">LESSON 167 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener167} value={la7Essay167}/>*/}
+
+          {/*<span className="days">LESSON 168 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener168} value={la7Essay168}/>*/}
+
+          {/*<span className="days">LESSON 169 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener169} value={la7Essay169}/>*/}
+
+          {/*<span className="days">LESSON 170 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener170} value={la7Essay170}/>*/}
+
+          {/*<span className="days">LESSON 171 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener171} value={la7Essay171}/>*/}
+
+          {/*<span className="days">LESSON 172 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener172} value={la7Essay172}/>*/}
+
+          {/*<span className="days">LESSON 173 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener173} value={la7Essay173}/>*/}
+
+          {/*<span className="days">LESSON 174 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener174} value={la7Essay174}/>*/}
+
+          {/*<span className="days">LESSON 175 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener175} value={la7Essay175}/>*/}
+
+          {/*<span className="days">LESSON 176 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener176} value={la7Essay176}/>*/}
+
+          {/*<span className="days">LESSON 177 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener177} value={la7Essay177}/>*/}
+
+          {/*<span className="days">LESSON 178 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener178} value={la7Essay178}/>*/}
+
+          {/*<span className="days">LESSON 179 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener179} value={la7Essay179}/>*/}
+
+          {/*<span className="days">LESSON 180 </span>*/}
+
+
+          {/*<textarea className="textArea" onChange={onChangela7Listener180} value={la7Essay180}/>*/}
         </div>
       </section>
       <Confetti/>
       <h3 style={{ textAlign: "center", height: "100vh" }}>You finished 7th Grade Language Arts ! </h3>
     </form>
-)
+  )
 }
 export default LA7Component
