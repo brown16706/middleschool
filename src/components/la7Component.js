@@ -745,8 +745,8 @@ const LA7Component = ({ data }) => {
           <h1 className="section-title">Daily Lessons</h1>
           <span className="days">Books</span>
           <p className="margin-para">The books required for this course are: <i>The Little Prince </i> by Antoine de
-            Saint Exupéry, <i> Long Walk to Water </i> by Linda Sue Park, <i> Hatchett </i> by Gary
-            Paulsen, and <i> Esperanza Rising </i> by Pam Muñoz.</p>
+            Saint Exupéry, <i> Long Walk to Water </i> by Linda Sue Park, <i> Hatchet </i> by Gary
+            Paulsen, <i> Esperanza Rising </i> by Pam Muñoz and <i>The Outsiders </i> by S.E. Hinton.</p>
           <p className="margin-para">Until you get a copy, the first chapter of each book is linked as a PDF. The novels
             are available at
             your local library, local bookstore, or can be purchased online. If the books are out of copyright, they
@@ -1342,8 +1342,7 @@ const LA7Component = ({ data }) => {
           <p className="topBottom">You can use any medium you like: collage, paper and markers, or <a
             href="https://www.canva.com/create/book-covers/" rel="noreferrer" target="_blank"> Canva’s online book
             cover
-            creation tool. </a>You
-            choose how you want to design it. Your cover should include:<br/>
+            creation tool. </a>You choose how you want to design it. Your cover should include:<br/>
             1. A clear title and the author’s name. <br/>
             2. A graphic design that reflects the books themes. <br/>
             3. A summary of the plot without giving away the ending. For an idea of what's expected, read the summary of
@@ -3633,365 +3632,1074 @@ const LA7Component = ({ data }) => {
             Esperanza is a young girl in Mexico, living life like a princess. She's forced to leave her country with her
             mother and everything she's known and tries to figure out life and how to survive as an immigrant in
             American society.</p>
-          <p className="topBottom">The novel is available at your local library, local bookstore and online for purchase. Until your copy
+          <p className="topBottom">The novel is available at your local library, local bookstore and online for
+            purchase. Until your copy
             arrives, <a href={require("../resources/books/EsperanzaRisingChapter1.pdf")} rel="noreferrer"
-                        target="_blank"> Aguascalientes, Mexico and Las Uvas - Grapes (Chapter 1) is provided here. </a></p>
+                        target="_blank"> Aguascalientes, Mexico and Las Uvas - Grapes (Chapter 1) is provided here. </a>
+          </p>
           <a href={require("../resources/books/EsperanzaRisingChapter1.pdf")} rel="noreferrer" target="_blank"><img
             src={require("../../public/images/bookCovers/esperanza.jpg")} alt="Esperanza Rising"/></a><br/>
-          <p className="topBottom"> <ol className="vocab">Answer the questions below in complete sentences.<br/>
-            <li>Based on the book title and cover, what impression do you have about the novel so far? What do you think it may be about?</li>
-            <li>The title and image of Esperanza on the cover serve as metaphors. What do you think they mean will
-              happen to her?</li>
-            <li>Who is the narrator of the story?</li>
-            <li>Describe Esperanza.</li>
-            <li>Describe the setting.</li>
-            <li>What does Esperanza's father teach her about the land?</li>
-            <li>Esperanza believes bandits want to attack her papa. Why does she believe this? Why was there resentment
-              toward Mexican land owners?</li>
-            <li>Did Papa keep his promise to Esperanza? What was the promise?</li>
-            <li>Describe Abuelita. Do you like her? Explain why or why not.</li>
-            <li>What two lessons did Abuelita teach Esperanza about life?</li>
-            <li>Why do you think Miguel stop talking to Esperanza?</li>
-            <li>What is Esperanza about to celebrate?</li>
-            <li>Tío Luis brought back Papa’s belt buckle and this causes everyone to worry. Why is this?</li>
-            <li>What was brought in the wagon?</li>
-            <li>What do you believe has happened to Esperanza’s father?</li>
-            <li>Every chapter is named after a fruit or vegetable and has special meaning to Esperanza. The title of the
-              first chapter is Las Uvas or Grapes. Why are grapes special to her? What do they symbolize?
-            </li>
-          </ol></p>
+          <p className="topBottom">
+            <ol className="vocab">Answer the questions below in complete sentences.<br/>
+              <li>Based on the book title and cover, what impression do you have about the novel so far? What do you
+                think it may be about?
+              </li>
+              <li>The title and image of Esperanza on the cover serve as metaphors. What do you think they mean will
+                happen to her?
+              </li>
+              <li>Who is the narrator of the story?</li>
+              <li>Describe Esperanza.</li>
+              <li>Describe the setting.</li>
+              <li>What does Esperanza's father teach her about the land?</li>
+              <li>Esperanza believes bandits want to attack her papa. Why does she believe this? Why was there
+                resentment
+                toward Mexican land owners?
+              </li>
+              <li>Did Papa keep his promise to Esperanza? What was the promise?</li>
+              <li>Describe Abuelita. Do you like her? Explain why or why not.</li>
+              <li>What two lessons did Abuelita teach Esperanza about life?</li>
+              <li>Why do you think Miguel stop talking to Esperanza?</li>
+              <li>What is Esperanza about to celebrate?</li>
+              <li>Tío Luis brought back Papa’s belt buckle and this causes everyone to worry. Why is this?</li>
+              <li>What was brought in the wagon?</li>
+              <li>What do you believe has happened to Esperanza’s father?</li>
+              <li>Every chapter is named after a fruit or vegetable and has special meaning to Esperanza. The title of
+                the
+                first chapter is Las Uvas or Grapes. Why are grapes special to her? What do they symbolize?
+              </li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener93} value={la7Essay93}/>
 
           <span className="days">LESSON 94 </span>
-          <p className="topBottom"> Read Las Papayas - Papayas and then answer the questions below in complete sentences.</p>
-          <p className="topBottom"><ol className="vocab">
-<li>Esperanza dreams that her papa and others are doing what for her?  When she wakes up, how does she feel? </li>
-<li>Why is the harvest Esperanza’s favorite time of year?</li>
-<li>Esperanza received many birthday gifts, but she only treasures the doll. Why is this?</li>
-<li>What did Esperanza do that she believes was bad luck?  </li>
-<li>Describe the setting in the house after Esperanza’s father is killed. Describe how it feels to her when he’s gone. </li>
-<li>How do you like Miguel? </li>
-<li>How does Esperanza feel about Miguel?</li>
-<li>Describe Tío Luis and Tío Marco. What kind of men do you think they are? What did they do after papa was killed?  What did Tío Luis want Esperanza’s mother to do?  </li>
-<li>Why does Miguel believe that the United States would be a better place for him and his father than Mexico?</li>
-<li>Why is this chapter entitled Papayas. What do papayas symbolize for Esperanza?</li>
-          </ol></p>
+          <p className="topBottom"> Read Las Papayas - Papayas and then answer the questions below in complete
+            sentences.</p>
+          <p className="topBottom">
+            <ol className="vocab">
+              <li>Esperanza dreams that her papa and others are doing what for her? When she wakes up, how does she
+                feel?
+              </li>
+              <li>Why is the harvest Esperanza’s favorite time of year?</li>
+              <li>Esperanza received many birthday gifts, but she only treasures the doll. Why is this?</li>
+              <li>What did Esperanza do that she believes was bad luck?</li>
+              <li>Describe the setting in the house after Esperanza’s father is killed. Describe how it feels to her
+                when he’s gone.
+              </li>
+              <li>How do you like Miguel?</li>
+              <li>How does Esperanza feel about Miguel?</li>
+              <li>Describe Tío Luis and Tío Marco. What kind of men do you think they are? What did they do after papa
+                was killed? What did Tío Luis want Esperanza’s mother to do?
+              </li>
+              <li>Why does Miguel believe that the United States would be a better place for him and his father than
+                Mexico?
+              </li>
+              <li>Why is this chapter entitled Papayas. What do papayas symbolize for Esperanza?</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener94} value={la7Essay94}/>
 
           <span className="days">LESSON 95 </span>
-          <p className="topBottom"> Read <i> Las Guayabas - Guavas</i> and then answer the questions below in complete sentences.</p>
-          <p className="topBottom"> <ol className="vocab">
-<li>How did Esperanza and her mother leave Mexico?  </li>
-<li>While in the wagon, Hortensia tells a story to Esperanza and talks about the bandits, Miguel and the mouse, and going on a train ride.  Why does she do this? </li>
-<li>How did Esperanza feel when she saw the train car they were riding in? Describe the train car from Esperanza’s perspective.</li>
-<li>When Esperanza’s didn’t let the little girl hold her doll, what did her mother do for the girl?  </li>
-<li>How did Esperanza feel when the girl got off the train?</li>
-<li>What did Carmen mean when she said, "I am poor, but I am rich?"  </li>
-<li>How does Miguel describe the wealthiest people in Mexico?  Specifically, he says their skin is what color?</li>
-<li>How has Esperanza’s life changed so far?  </li>
-<li>Do you think Miguel and Esperanza are experiencing the journey very differently? How so? In what ways are they behaving differently?</li>
-<li>Why is Miguel excited to go to the United States?</li>
-<li>Why is this chapter entitled guayabas. What do guavas symbolize for Esperanza?</li>
-          </ol></p>
+          <p className="topBottom"> Read <i> Las Guayabas - Guavas</i> and then answer the questions below in complete
+            sentences.</p>
+          <p className="topBottom">
+            <ol className="vocab">
+              <li>How did Esperanza and her mother leave Mexico?</li>
+              <li>While in the wagon, Hortensia tells a story to Esperanza and talks about the bandits, Miguel and the
+                mouse, and going on a train ride. Why does she do this?
+              </li>
+              <li>How did Esperanza feel when she saw the train car they were riding in? Describe the train car from
+                Esperanza’s perspective.
+              </li>
+              <li>When Esperanza’s didn’t let the little girl hold her doll, what did her mother do for the girl?</li>
+              <li>How did Esperanza feel when the girl got off the train?</li>
+              <li>What did Carmen mean when she said, "I am poor, but I am rich?"</li>
+              <li>How does Miguel describe the wealthiest people in Mexico? Specifically, he says their skin is what
+                color?
+              </li>
+              <li>How has Esperanza’s life changed so far?</li>
+              <li>Do you think Miguel and Esperanza are experiencing the journey very differently? How so? In what ways
+                are they behaving differently?
+              </li>
+              <li>Why is Miguel excited to go to the United States?</li>
+              <li>Why is this chapter entitled guayabas. What do guavas symbolize for Esperanza?</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener95} value={la7Essay95}/>
 
           <span className="days">LESSON 96 </span>
-<p className="topBottom"> Read <i> Los Melones - Cantelopes </i> and then answer the questions below in complete sentences.</p>
-          <p className="topBottom"><ol className="vocab">
-        <li>Why was Esperanza so worried that Miguel’s family wouldn’t board the train?  </li>
-        <li>Which two people made it possible for Esperanza and her mother to go to the United States?  </li>
-        <li>Esperanza wanted to hear the earth’s heartbeat?  Why?</li>
-        <li>Where did Esperanza and her mother get off of the train?</li>
-        <li>Do you think Isabel is impressed with Esperanza? Why do you think this?</li>
-        <li>Describe the San Joaquin Valley.</li>
-        <li>Esperanza isn’t able to hear the heartbeat of the earth. Why is this?</li>
-        <li>What do you think of Marta?  How does she treat Esperanza?  What does she think about papa? What kinds of things does she say? </li>
-        <li>How did Esperanza feel about Miguel talking to Marta? Why does she feel this way?</li>
-        <li>Why does Marta believe the workers should stop working?</li>
-        <li>What do melones symbolize in this chapter?</li>
-      </ol></p>
+          <p className="topBottom"> Read <i> Los Melones - Cantelopes </i> and then answer the questions below in
+            complete sentences.</p>
+          <p className="topBottom">
+            <ol className="vocab">
+              <li>Why was Esperanza so worried that Miguel’s family wouldn’t board the train?</li>
+              <li>Which two people made it possible for Esperanza and her mother to go to the United States?</li>
+              <li>Esperanza wanted to hear the earth’s heartbeat? Why?</li>
+              <li>Where did Esperanza and her mother get off of the train?</li>
+              <li>Do you think Isabel is impressed with Esperanza? Why do you think this?</li>
+              <li>Describe the San Joaquin Valley.</li>
+              <li>Esperanza isn’t able to hear the heartbeat of the earth. Why is this?</li>
+              <li>What do you think of Marta? How does she treat Esperanza? What does she think about papa? What kinds
+                of things does she say?
+              </li>
+              <li>How did Esperanza feel about Miguel talking to Marta? Why does she feel this way?</li>
+              <li>Why does Marta believe the workers should stop working?</li>
+              <li>What do melones symbolize in this chapter?</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener96} value={la7Essay96}/>
 
           <span className="days">LESSON 97 </span>
-      <p className="topBottom"> Read <i>Las Cebollas - Onions </i> and then answer the questions below in complete sentences.</p>
-          <p className="topBottom"><ol className="vocab">
-    <li>Describe the camp Esperanza now lives in.</li>
-<li>How is her new home different from her old home? </li>
-<li>What were the two choices Ramona gave Esperanza when she was angry about their cabin?</li>
-<li>Esperanza still feels she is rich.  Was it hard for Esperanza to accept the fact they are peasants now?   </li>
-<li>What jobs does Esperanza have to do?  </li>
-<li>How had Ramona changed to Esperanza?  Hair in braids, she seemed shorter, not herself  p. 109</li>
-  <li>Who taught Esperanza how to sweep?  Miguel   p. 119</li>
-  <li>Isabel teaches Esperanza several things. What do you believe were the three most important things for Esperanza to learn?</li>
-<li>Describe what happened when Esperanza went to sweep the platform.</li>
-<li>In the novel, you are reading many new Spanish words. Esperanza has to learn English. What do you think it would be like to move toa  country and not know the language?</li>
-<li>What do las cebollas (onions) symbolize in this chapter?</li>
-          </ol></p>
+          <p className="topBottom"> Read <i>Las Cebollas - Onions </i> and then answer the questions below in complete
+            sentences.</p>
+          <p className="topBottom">
+            <ol className="vocab">
+              <li>Describe the camp Esperanza now lives in.</li>
+              <li>How is her new home different from her old home?</li>
+              <li>What were the two choices Ramona gave Esperanza when she was angry about their cabin?</li>
+              <li>Esperanza still feels she is rich. Was it hard for Esperanza to accept the fact they are peasants
+                now?
+              </li>
+              <li>What jobs does Esperanza have to do?</li>
+              <li>How had Ramona changed to Esperanza? Hair in braids, she seemed shorter, not herself p. 109</li>
+              <li>Who taught Esperanza how to sweep? Miguel p. 119</li>
+              <li>Isabel teaches Esperanza several things. What do you believe were the three most important things for
+                Esperanza to learn?
+              </li>
+              <li>Describe what happened when Esperanza went to sweep the platform.</li>
+              <li>In the novel, you are reading many new Spanish words. Esperanza has to learn English. What do you
+                think it would be like to move toa country and not know the language?
+              </li>
+              <li>What do las cebollas (onions) symbolize in this chapter?</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener97} value={la7Essay97}/>
 
           <span className="days">LESSON 98 </span>
-  <p className="topBottom"> Read <i>Las Almendras - Almonds </i> and then answer the questions below in complete sentences.</p>
-          <p className="topBottom"><ol className="vocab">
-    <li>What did Alfonso and Miguel bring with them from Mexico that was a surprise?   </li>
-<li>What was Esperanza old enough to do as the ladies got hot water ready?  </li>
-<li>How was Esperanza hurt after her first day at work? </li>
-<li>Why was it important for Esperanza to go to the jamaica?  Why was she afraid? Why did she finally decide to go?</li>
-<li>Why is it important to Marta that everyone in the camp go on strike?  Do you think this would be a good idea? Explain.</li>
-<li>What animal does Marta compare the workers to?  What did they tell her to do?</li>
-<li>Do you think Esperanza understands Marta better than others at the camp? Explain.</li>
-<li>What was the fiesta like?</li>
-<li>Esperanza plans to pray for what? What do you think this says about her?</li>
-<li>What do Almendras (almonds) symbolize in this chapter?</li>
-          </ol></p>
+          <p className="topBottom"> Read <i>Las Almendras - Almonds </i> and then answer the questions below in complete
+            sentences.</p>
+          <p className="topBottom">
+            <ol className="vocab">
+              <li>What did Alfonso and Miguel bring with them from Mexico that was a surprise?</li>
+              <li>What was Esperanza old enough to do as the ladies got hot water ready?</li>
+              <li>How was Esperanza hurt after her first day at work?</li>
+              <li>Why was it important for Esperanza to go to the jamaica? Why was she afraid? Why did she finally
+                decide to go?
+              </li>
+              <li>Why is it important to Marta that everyone in the camp go on strike? Do you think this would be a good
+                idea? Explain.
+              </li>
+              <li>What animal does Marta compare the workers to? What did they tell her to do?</li>
+              <li>Do you think Esperanza understands Marta better than others at the camp? Explain.</li>
+              <li>What was the fiesta like?</li>
+              <li>Esperanza plans to pray for what? What do you think this says about her?</li>
+              <li>What do Almendras (almonds) symbolize in this chapter?</li>
+            </ol>
+          </p>
 
           <textarea className="textArea" onChange={onChangela7Listener98} value={la7Essay98}/>
 
           <span className="days">LESSON 99 </span>
-  <p className="topBottom"> Read <i> Las Ciruelas - Plums </i> and then answer the questions below in complete sentences.</p>
-          <p className="topBottom"><ol className="vocab">
-    <li>Describe Esperanza’s morning alone with Pepe and Lupe. </li>
-<li>Describe Esperanza’s daily schedule.</li>
-<li>Why did the babies get sick?  When the babies get sick, what did Esperanza do? How did she know to do this?</li>
-<li>Why is a dust storm so terrible?  </li>
-<li>What was the consequence of Ramona being out in the dust storm?  </li>
-<li>Why was mama coughing?  What causes the Valley Fever?</li>
-<li>Describe what a dust storm is like.</li>
-<li>What is Esperanza afraid may happen to her mother?</li>
-<li>What do las ciruelas (plums) symbolize in this chapter?</li>
-          </ol></p>
+          <p className="topBottom"> Read <i> Las Ciruelas - Plums </i> and then answer the questions below in complete
+            sentences.</p>
+          <p className="topBottom">
+            <ol className="vocab">
+              <li>Describe Esperanza’s morning alone with Pepe and Lupe.</li>
+              <li>Describe Esperanza’s daily schedule.</li>
+              <li>Why did the babies get sick? When the babies get sick, what did Esperanza do? How did she know to do
+                this?
+              </li>
+              <li>Why is a dust storm so terrible?</li>
+              <li>What was the consequence of Ramona being out in the dust storm?</li>
+              <li>Why was mama coughing? What causes the Valley Fever?</li>
+              <li>Describe what a dust storm is like.</li>
+              <li>What is Esperanza afraid may happen to her mother?</li>
+              <li>What do las ciruelas (plums) symbolize in this chapter?</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener99} value={la7Essay99}/>
 
           <span className="days">LESSON 100 </span>
-  <p className="topBottom"> Read <i> Las Papas - Potatoes </i> and then answer the questions below in complete sentences.</p>
-          <p className="topBottom"><ol className="vocab">
-    <li>Why did Abuelita and Esperanza knit their hairs into the blanket?  </li>
-<li>What trial did the valley symbolize Esperanza was in?  </li>
-<li>Why did Esperanza want to work so badly?  </li>
-<li>Why was Esperanza worried the strikers might turn on her?</li>
-<li>What did the people who were going to strike threaten to do to the people who kept working?  </li>
-<li>What does Esperanza believe will help cure her mother? Explain.</li>
-<li>Her mother is depressed. Why is this?</li>
-<li>What does Esperanza decide to do to help her mother and herself?</li>
-<li>Why is Marta not allowed to stay with her aunt and uncle?  What does Marta plan to do?</li>
-<li>What does is Esperanza’s wish for Christmas?</li>
-<li>What do las papas (potatoes) symbolize in this chapter?</li>
-          </ol></p>
+          <p className="topBottom"> Read <i> Las Papas - Potatoes </i> and then answer the questions below in complete
+            sentences.</p>
+          <p className="topBottom">
+            <ol className="vocab">
+              <li>Why did Abuelita and Esperanza knit their hairs into the blanket?</li>
+              <li>What trial did the valley symbolize Esperanza was in?</li>
+              <li>Why did Esperanza want to work so badly?</li>
+              <li>Why was Esperanza worried the strikers might turn on her?</li>
+              <li>What did the people who were going to strike threaten to do to the people who kept working?</li>
+              <li>What does Esperanza believe will help cure her mother? Explain.</li>
+              <li>Her mother is depressed. Why is this?</li>
+              <li>What does Esperanza decide to do to help her mother and herself?</li>
+              <li>Why is Marta not allowed to stay with her aunt and uncle? What does Marta plan to do?</li>
+              <li>What does is Esperanza’s wish for Christmas?</li>
+              <li>What do las papas (potatoes) symbolize in this chapter?</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener100} value={la7Essay100}/>
 
-         <span className="days">LESSON 101 </span>
-  <p className="topBottom"> Read <i> Los Aguacates  - Avocados </i> and then answer the questions below in complete sentences.</p>
-          <p className="topBottom"><ol className="vocab">
-    <li>What is the significance of avocados in this chapter? What did Hortensia do with them?</li>
-<li>Describe what Esperanza’s life is like now.</li>
-<li>What did the doctor tell Esperanza about her mama. What is she suffering from now? How would you have felt if you were Esperanza when she heard this news?</li>
-<li>When Esperanza is told she cannot visit her mother for several weeks, she describes her life as going through "the motions of living." Have you ever felt this way? If so, describe how. What does Esperanza do to increase the amount of joy in her life?</li>
-<li>What were some things Esperanza was missing about her mother?  </li>
-<li>Why does the family only go to Mr. Yakota’s store? </li>
-<li>Esperanza buys something special for her mama. What is it?</li>
-<li>After Ramona had been in the hospital, why wasn’t Esperanza able to visit her?  </li>
-<li>Esperanza did not want to give Marta and her mother a ride?  Explain why.  Where do they live?</li>
-<li>Why was Miguel so excited after talking to the railroad?  </li>
-<li>Marta changes her mind about Esperanza. Explain why.</li>
-<li>Miguel shares news with the family that he is happy about.  Do you also think it’s a good thing?  Explain.</li>
-<li>What do aguacates (avocados) symbolize in this chapter?</li>
-          </ol></p>
+          <span className="days">LESSON 101 </span>
+          <p className="topBottom"> Read <i> Los Aguacates - Avocados </i> and then answer the questions below in
+            complete sentences.</p>
+          <p className="topBottom">
+            <ol className="vocab">
+              <li>What is the significance of avocados in this chapter? What did Hortensia do with them?</li>
+              <li>Describe what Esperanza’s life is like now.</li>
+              <li>What did the doctor tell Esperanza about her mama. What is she suffering from now? How would you have
+                felt if you were Esperanza when she heard this news?
+              </li>
+              <li>When Esperanza is told she cannot visit her mother for several weeks, she describes her life as going
+                through "the motions of living." Have you ever felt this way? If so, describe how. What does Esperanza
+                do to increase the amount of joy in her life?
+              </li>
+              <li>What were some things Esperanza was missing about her mother?</li>
+              <li>Why does the family only go to Mr. Yakota’s store?</li>
+              <li>Esperanza buys something special for her mama. What is it?</li>
+              <li>After Ramona had been in the hospital, why wasn’t Esperanza able to visit her?</li>
+              <li>Esperanza did not want to give Marta and her mother a ride? Explain why. Where do they live?</li>
+              <li>Why was Miguel so excited after talking to the railroad?</li>
+              <li>Marta changes her mind about Esperanza. Explain why.</li>
+              <li>Miguel shares news with the family that he is happy about. Do you also think it’s a good thing?
+                Explain.
+              </li>
+              <li>What do aguacates (avocados) symbolize in this chapter?</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener101} value={la7Essay101}/>
 
           <span className="days">LESSON 102 </span>
-          <p className="topBottom"> Read <i> Los Esparragos  - Asparagus </i> and then answer the questions below in complete sentences.</p>
-          <p className="topBottom"><ol className="vocab">
-<li>Why did Esperanza feel bad about working when the strike began?  </li>
-<li>What did the strikers do to the armed guards protecting the workers?  </li>
-<li>What harmful things did the strikers do to the workers who did not go on strike with them? Why are the strikers so angry at those who did not go on strike?  </li>
-<li>Based on the things they did, would you have gone on strike with them if you had been at that camp?</li>
-<li>How were the strikers eventually stopped? What happened to them? Do you think this was fair?</li>
-<li>Why do you think  Esperanza did not tell the police about Marta hiding in the shed? </li>
-<li>Have you ever helped someone you didn’t really like?</li>
-<li>Were things different in the camp after the deportation? Describe what the camp looks like now.</li>
-<li>What do esparragos (asparagus) symbolize in this chapter?</li>
-          </ol></p>
+          <p className="topBottom"> Read <i> Los Esparragos - Asparagus </i> and then answer the questions below in
+            complete sentences.</p>
+          <p className="topBottom">
+            <ol className="vocab">
+              <li>Why did Esperanza feel bad about working when the strike began?</li>
+              <li>What did the strikers do to the armed guards protecting the workers?</li>
+              <li>What harmful things did the strikers do to the workers who did not go on strike with them? Why are the
+                strikers so angry at those who did not go on strike?
+              </li>
+              <li>Based on the things they did, would you have gone on strike with them if you had been at that camp?
+              </li>
+              <li>How were the strikers eventually stopped? What happened to them? Do you think this was fair?</li>
+              <li>Why do you think Esperanza did not tell the police about Marta hiding in the shed?</li>
+              <li>Have you ever helped someone you didn’t really like?</li>
+              <li>Were things different in the camp after the deportation? Describe what the camp looks like now.</li>
+              <li>What do esparragos (asparagus) symbolize in this chapter?</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener102} value={la7Essay102}/>
 
           <span className="days">LESSON 103 </span>
-<p className="topBottom"> Read <i> Los Duraznos - Peaches </i> and then answer the questions below in complete sentences.</p>
-          <p className="topBottom"><ol className="vocab">
-        <li>Why does Isabel pray so frequently?  </li>
-        <li>Do you thin she will get her wish? Why or why not?</li>
-        <li>Esperanza gave her doll to Isabel. Why did she do this?  </li>
-        <li>Have you ever given something you cherished to someone? Describe why.</li>
-        <li>he workers from Oklahoma were from the United States.  How do you think they felt when they had to compete for jobs with workers from another country?</li>
-        <li>What nice things were going to be at the camp for the Oklahoma people?  hot water, swimming pool, inside toilets   p. 218</li>
-        <li>What happened to Miguel at work and how did he get muddy?  </li>
-        <li>How did Esperanza react when she finds out what happened to Miguel? Why do you think she reacted this way?  What happened to Miguel after?</li>
-        <li>How is the camp for the Oklahoma people different from Esperanza’s camp?</li>
-        <li>Why did white Americans treat Mexicans differently?   </li>
-        <li>What news does Esperanza receive about Mama?</li>
-        <li>What do Esperanza and Hortensia do to prepare for Mama’s return?</li>
-        <li>What happened to Esperanza’s money orders?  How would you have reacted in</li>
-        <li>this situation?</li>
-        <li>What do los duraznos (peaches) symbolize in this chapter?</li>
-          </ol></p>
+          <p className="topBottom"> Read <i> Los Duraznos - Peaches </i> and then answer the questions below in complete
+            sentences.</p>
+          <p className="topBottom">
+            <ol className="vocab">
+              <li>Why does Isabel pray so frequently?</li>
+              <li>Do you thin she will get her wish? Why or why not?</li>
+              <li>Esperanza gave her doll to Isabel. Why did she do this?</li>
+              <li>Have you ever given something you cherished to someone? Describe why.</li>
+              <li>he workers from Oklahoma were from the United States. How do you think they felt when they had to
+                compete for jobs with workers from another country?
+              </li>
+              <li>What nice things were going to be at the camp for the Oklahoma people? hot water, swimming pool,
+                inside toilets p. 218
+              </li>
+              <li>What happened to Miguel at work and how did he get muddy?</li>
+              <li>How did Esperanza react when she finds out what happened to Miguel? Why do you think she reacted this
+                way? What happened to Miguel after?
+              </li>
+              <li>How is the camp for the Oklahoma people different from Esperanza’s camp?</li>
+              <li>Why did white Americans treat Mexicans differently?</li>
+              <li>What news does Esperanza receive about Mama?</li>
+              <li>What do Esperanza and Hortensia do to prepare for Mama’s return?</li>
+              <li>What happened to Esperanza’s money orders? How would you have reacted in</li>
+              <li>this situation?</li>
+              <li>What do los duraznos (peaches) symbolize in this chapter?</li>
+            </ol>
+          </p>
 
           <textarea className="textArea" onChange={onChangela7Listener103} value={la7Essay103}/>
 
           <span className="days">LESSON 104 </span>
-      <p className="topBottom"> Read <i> Las Uvas - Grapes </i> and then answer the questions below in complete sentences.</p>
-          <p className="topBottom"><ol className="vocab">
-    <li>Which part of this chapter did you like the best? Which part did you like the least?</li>
-<li>What did Miguel take from Esperanza?  How did she feel about what he did with the money? How did you feel about this part of the story?</li>
-<li>Who did Miguel go get for Esperanza and her mother?  How did they react to the surprise?</li>
-<li>Was it all right that Miguel took the money to get Abuelita?  </li>
-<li>What is Esperanza’s favorite fruit? Explain why. </li>
-<li>How did Esperanza tell Abuelita her story?</li>
-<li>How was Esperanza’s life like the zigzag in the blanket? Is your life like a zigzag or a straight line? Why?</li>
-<li>Uvas was the title of the first chapter and the last chapter.  Why do you think the author gave both chapters the same name?</li>
-<li>Instead of using months to help her remember when things happened, what things did Esperanza use?</li>
-<li>Even though Esperanza didn’t receive any fancy gifts for her birthday, was she still happy? Explain how you know.</li>
-<li>How did the end of the book make you feel? Why?</li>
-<li>In the beginning of the book, Abuelita talks about the phoenix. Then in this chapter, you find out what Esperanza thought about it. Do you think Esperanza is like the phoenix? Explain your answer. </li>
-<li>Does the title and image of Esperanza from the book cover seem fitting? Why or why not?</li>
-<li>For a long time, Esperanza could not hear the heartbeat of the earth. By the end of the story, she could feel it again. Why do you think this is?</li>
-<li>What did Esperanza learn as she traveled through the challenging mountains and valleys of life? </li>
-<li>Do you believed she changed? Give examples from the novel in your answer.  </li>
-          </ol></p>
+          <p className="topBottom"> Read <i> Las Uvas - Grapes </i> and then answer the questions below in complete
+            sentences.</p>
+          <p className="topBottom">
+            <ol className="vocab">
+              <li>Which part of this chapter did you like the best? Which part did you like the least?</li>
+              <li>What did Miguel take from Esperanza? How did she feel about what he did with the money? How did you
+                feel about this part of the story?
+              </li>
+              <li>Who did Miguel go get for Esperanza and her mother? How did they react to the surprise?</li>
+              <li>Was it all right that Miguel took the money to get Abuelita?</li>
+              <li>What is Esperanza’s favorite fruit? Explain why.</li>
+              <li>How did Esperanza tell Abuelita her story?</li>
+              <li>How was Esperanza’s life like the zigzag in the blanket? Is your life like a zigzag or a straight
+                line? Why?
+              </li>
+              <li>Uvas was the title of the first chapter and the last chapter. Why do you think the author gave both
+                chapters the same name?
+              </li>
+              <li>Instead of using months to help her remember when things happened, what things did Esperanza use?</li>
+              <li>Even though Esperanza didn’t receive any fancy gifts for her birthday, was she still happy? Explain
+                how you know.
+              </li>
+              <li>How did the end of the book make you feel? Why?</li>
+              <li>In the beginning of the book, Abuelita talks about the phoenix. Then in this chapter, you find out
+                what Esperanza thought about it. Do you think Esperanza is like the phoenix? Explain your answer.
+              </li>
+              <li>Does the title and image of Esperanza from the book cover seem fitting? Why or why not?</li>
+              <li>For a long time, Esperanza could not hear the heartbeat of the earth. By the end of the story, she
+                could feel it again. Why do you think this is?
+              </li>
+              <li>What did Esperanza learn as she traveled through the challenging mountains and valleys of life?</li>
+              <li>Do you believed she changed? Give examples from the novel in your answer.</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener104} value={la7Essay104}/>
 
           <span className="days">LESSON 105 </span>
-  <p className="topBottom">Five Paragraph Essay</p>
-<p className="topBottom"> Select ONE of the prompts below and write a five paragraph essay on it.  </p>
-<ul className="list">
-    <li>Esperanza grows and changes over the course of the novel.  She was a phoenix who was able to rise from the ashes.</li>
-<li>Papa and Miguel are very similar, especially in how they relate to Esperanza.</li>
-<li>In the first chapter, Esperanza’s father shapes her relationship with nature and how she sees the world.  </li>
-<li>Abuelita tells Esperanza, "do not be afraid to start over."  How is Esperanza better off for having overcoming her fear and beginning again?</li>
-  <li>How is Esperanza's doll symbolic of Esperanza's growth throughout the novel? </li>
-</ul>
-  <h4> Essay Requirements</h4>
-  <ul className="list">
-    <li>Your first paragraph should begin with a hook to grab your reader’s  attention.  This should be followed by a clear thesis statement (main idea of your essay). This statement should convey the points or arguments you are going to make.   </li>
-<li>Paragraphs 2 through 4 should provide examples from the book that support your thesis statement. Each paragraph should discuss a different point and use a different example.  Using direct quotes from the novel can be effective in proving your point.   </li>
-<li>Your conclusion should restate your thesis in a different way. End with a  thoughtful summary.   </li>
-<li>Each paragraph should be 3-6 sentences.</li>
-</ul>
-  <p className="topBottom"><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")} rel="noreferrer"                    target="_blank">Click here for a 5 Paragraph Essay outline </a>if you need help in getting  started. </p>
-<textarea className="textArea" onChange={onChangela7Listener105} value={la7Essay105}/>
+          <p className="topBottom">Five Paragraph Essay</p>
+          <p className="topBottom"> Select ONE of the prompts below and write a five paragraph essay on it. </p>
+          <ul className="list">
+            <li>Esperanza grows and changes over the course of the novel. She was a phoenix who was able to rise from
+              the ashes.
+            </li>
+            <li>Papa and Miguel are very similar, especially in how they relate to Esperanza.</li>
+            <li>In the first chapter, Esperanza’s father shapes her relationship with nature and how she sees the
+              world.
+            </li>
+            <li>Abuelita tells Esperanza, "do not be afraid to start over." How is Esperanza better off for having
+              overcoming her fear and beginning again?
+            </li>
+            <li>How is Esperanza's doll symbolic of Esperanza's growth throughout the novel?</li>
+          </ul>
+          <h4> Essay Requirements</h4>
+          <ul className="list">
+            <li>Your first paragraph should begin with a hook to grab your reader’s attention. This should be followed
+              by a clear thesis statement (main idea of your essay). This statement should convey the points or
+              arguments you are going to make.
+            </li>
+            <li>Paragraphs 2 through 4 should provide examples from the book that support your thesis statement. Each
+              paragraph should discuss a different point and use a different example. Using direct quotes from the novel
+              can be effective in proving your point.
+            </li>
+            <li>Your conclusion should restate your thesis in a different way. End with a thoughtful summary.</li>
+            <li>Each paragraph should be 3-6 sentences.</li>
+          </ul>
+          <p className="topBottom"><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
+                                      rel="noreferrer" target="_blank">Click here for a 5 Paragraph Essay outline </a>if
+            you need help in getting started. </p>
+          <textarea className="textArea" onChange={onChangela7Listener105} value={la7Essay105}/>
 
           <span className="days">LESSON 106 </span>
           <h4>Close reading: informational text</h4>
-          <p className="margin-para">Read the articles linked below from Khan Academy's Living Tongues Unit. Then watch the videos below and complete the multiple choice assignment. </p>
-          <p>Read <a href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-living-tongues/x4aa9073b12675eb1:untitled-57/a/welcome-to-the-living-tongues-unit?modal=1"  rel="noreferrer" target="_blank">Intro to the Unit Living Tongues  </a> and <a href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-living-tongues/x4aa9073b12675eb1:untitled-57/a/living-tongues-unit-vocabulary?modal=1" rel="noreferrer" target="_blank"> Review the vocuabulary. </a></p>
+          <p className="margin-para">Read the articles linked below from Khan Academy's Living Tongues Unit. Then watch
+            the videos below and complete the multiple choice assignment. </p>
+          <p>Read <a
+            href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-living-tongues/x4aa9073b12675eb1:untitled-57/a/welcome-to-the-living-tongues-unit?modal=1"
+            rel="noreferrer" target="_blank">Intro to the Unit Living Tongues </a> and <a
+            href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-living-tongues/x4aa9073b12675eb1:untitled-57/a/living-tongues-unit-vocabulary?modal=1"
+            rel="noreferrer" target="_blank"> Review the vocuabulary. </a></p>
           <Video videoUrl="https://www.youtube.com/embed/INFWXZ_tl4M"/>
           <Video videoUrl="https://www.youtube.com/embed/R_bgo8j6jxc"/>
           <Video videoUrl="https://www.youtube.com/embed/NXO3KT8bne4"/>
           <Video videoUrl="https://www.youtube.com/embed/lcXgSEF4iCM"/>
-          <p>Read the article linked here and then complete the <a href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-living-tongues/x4aa9073b12675eb1:close-reading-informational-text/e/living-tongues-reading-informational-text-saving-dying-languages-7"  rel="noreferrer" target="_blank"> questions. </a>Then in the textbox below,  write a brief summary about what you read.</p>
+          <p>Read the article linked here and then complete the <a
+            href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-living-tongues/x4aa9073b12675eb1:close-reading-informational-text/e/living-tongues-reading-informational-text-saving-dying-languages-7"
+            rel="noreferrer" target="_blank"> questions. </a>Then in the textbox below, write a brief summary about what
+            you read.</p>
           <textarea className="textArea" onChange={onChangela7Listener106} value={la7Essay106}/>
 
           <span className="days">LESSON 107 </span>
           <h4>Close Reading: Poetry</h4>
           <p className="margin-para"> Watch the videos below and complete the multiple choice assignment. </p>
           <Video videoUrl="https://www.youtube.com/embed/D2FFijvA00I"/>
-          <Video videoUrl="https://www.youtube.com/embed/lzKj-bLvrYQ"/> 
+          <Video videoUrl="https://www.youtube.com/embed/lzKj-bLvrYQ"/>
           <Video videoUrl="https://www.youtube.com/embed/LO21tYrTD8Y"/>
           <Video videoUrl="https://www.youtube.com/embed/ZASEsKwEvqE"/>
-          <p>Read the poem <a href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-living-tongues/x4aa9073b12675eb1:close-reading-poetry/e/living-tongues-reading-poetry-languages-7"  rel="noreferrer" target="_blank"> Languages by Carl Sandburg linked here and then complete the questions. </a>In the textbox below,  write a brief summary about what you read.</p>
+          <p>Read the poem <a
+            href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-living-tongues/x4aa9073b12675eb1:close-reading-poetry/e/living-tongues-reading-poetry-languages-7"
+            rel="noreferrer" target="_blank"> Languages by Carl Sandburg linked here and then complete the
+            questions. </a>In the textbox below, write a brief summary about what you read.</p>
           <textarea className="textArea" onChange={onChangela7Listener107} value={la7Essay107}/>
 
           <span className="days">LESSON 108 </span>
           <h4>Applying vocabulary knowledge</h4>
-          <p>Read the article, Saving Dying Languages 7, linked here and then complete the <a href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-living-tongues/x4aa9073b12675eb1:applying-vocabulary-knowledge/e/living-tongues-vocabulary-saving-dying-languages-7?modal=1"  rel="noreferrer" target="_blank"> questions. </a>Then in the textbox below,  write a brief summary about what you read.</p>
+          <p>Read the article, Saving Dying Languages 7, linked here and then complete the <a
+            href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-living-tongues/x4aa9073b12675eb1:applying-vocabulary-knowledge/e/living-tongues-vocabulary-saving-dying-languages-7?modal=1"
+            rel="noreferrer" target="_blank"> questions. </a>Then in the textbox below, write a brief summary about what
+            you read.</p>
+          <h4>Reading for understanding: informational text</h4>
+          <p>Read the article <a
+            href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-living-tongues/x4aa9073b12675eb1:reading-for-understanding-informational-text/e/living-tongues-reading-informational-text-the-code-that-was-never-broken-7"
+            rel="noreferrer" target="_blank">linked here, The Code that Was Never Broken, and then complete the
+            questions. </a> In the textbox below, write a brief summary about what you learned.</p>
           <textarea className="textArea" onChange={onChangela7Listener108} value={la7Essay108}/>
 
           <span className="days">LESSON 109 </span>
-          <h4>Reading for understanding: informational text</h4>
-          <p>Read the article <a href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-living-tongues/x4aa9073b12675eb1:reading-for-understanding-informational-text/e/living-tongues-reading-informational-text-the-code-that-was-never-broken-7"  rel="noreferrer" target="_blank">linked here, The Code that Was Never Broken, and then complete the  questions. </a> In the textbox below,  write a brief summary about what you learned.</p>
+          <p className="margin-para"> Watch the video below and complete the assignment that follows. </p>
+          <Video videoUrl="https://www.youtube.com/embed/XIfYK4tpl2Y"/>
+          <p>Read the <a
+            href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-living-tongues/x4aa9073b12675eb1:reading-for-understanding-realistic-fiction/e/living-tongues-reading-realistic-fiction-direct-translation-7"
+            rel="noreferrer" target="_blank">article linked here, Direct Translation, and then complete the
+            questions. </a>Then in the textbox below, write a brief summary about what you read.</p>
           <textarea className="textArea" onChange={onChangela7Listener109} value={la7Essay109}/>
 
           <span className="days">LESSON 110 </span>
-          <p className="margin-para"> Read the articles linked below from Khan Academy's Living Tongues Unit. Then watch the videos below and complete the multiple choice assignment. </p>
-          <p>Read <a href=""  rel="noreferrer" target="_blank">  </a></p>
-          <Video videoUrl="https://www.youtube.com/embed/XIfYK4tpl2Y"/>
-          <p>Read the <a href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-living-tongues/x4aa9073b12675eb1:reading-for-understanding-realistic-fiction/e/living-tongues-reading-realistic-fiction-direct-translation-7"  rel="noreferrer" target="_blank">article linked here,  Direct Translation, and then complete the  questions. </a>Then in the textbox below,  write a brief summary about what you read.</p>
+          <h4><i>Seventh Grade</i> by Gary Soto</h4>
+          <p className="topBottom">Read the short story <a href={require("../resources/books/seventhGrade.pdf")}
+                                                           rel="noreferrer" target="_blank">Seventh Grade </a> (attached
+            a s PDF) and then answer the questions below.</p>
+          <p className="topBottom"><i>Seventh Grade</i> is narrative fiction. Narrative can be fiction or nonfiction and
+            has story elements – plot, theme,
+            characters, setting, and point of view. The purpose of a narrative, or story, is to
+            inform and to entertain. A good story has conflict and follows an organizational
+            pattern that includes an exposition, rising action, falling action, a resolution, and
+            denouement. Conflict and events are usually told in chronological order with
+            literary devices that help to make the story come alive.</p>
+          <p className="topBottom">
+            <ol className="vocab">
+              <li>What is the theme of the story? Why do you think so?</li>
+              <li>Read paragraphs 7-10 (a) Who is speaking? (b) How do you know?</li>
+              <li>Analyze a character. How do his/her words and actions influence the thoughts and/or
+                actions of another character?
+              </li>
+              <li>What is the author’s attitude towards Mr. Bueller as shown through his words and actions?</li>
+              <li>How does the author show the readers how much Victor likes Theresa? Use evidence from
+                the text to support your answer.
+              </li>
+              <li>This story is told from whose point of view? Why would the author choose to tell this story
+                using this point of view?
+              </li>
+              <li>In paragraph #62, the author says, “The rosebuds of shame on his face became bouquets of
+                love.” What are the actions that led to this change of feeling in Victor?
+              </li>
+              <li>Did you like this story? Explain why or why not.</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener110} value={la7Essay110}/>
 
           <span className="days">LESSON 111 </span>
-
-
+          <h4><i>Teenage Drivers? Be Very Afraid </i> by Bruce Feiler</h4>
+          <p className="topBottom">Read the <a href={require("../resources/books/teenDrivers.pdf")}
+                                               rel="noreferrer" target="_blank">short article </a> (attached
+            as PDF) and then answer the questions below.</p>
+          <p className="topBottom"><i>Teenage Drivers? Be Very Afraid </i> is a persuasive text. A persuasive text is a
+            nonfiction text that argues a point with the purpose of
+            changing the audience’s opinion or calling the audience to action. It states the
+            writer’s position on an issue and gives supporting evidence, using facts and
+            examples. A persuasive text addresses readers' concerns and gives
+            counterarguments.</p>
+          <p className="topBottom">
+            <ol className="vocab">
+              <li> How is a persuasive text different from a narrative?</li>
+              <li>What is the main idea of this article? Use evidence from the text to support your answer.</li>
+              <li>What is the author’s perspective on this issue? How do you know this?</li>
+              <li>Does the author address opposing viewpoints or counterarguments?</li>
+              <li>What persuasive techniques does the author use to convince the reader? Cite examples from the
+                text. <i>(Persuasive techniques include use of strong language, expert opinion,
+                  statistics/facts, or appealing to the reader's emotions)</i></li>
+              <li>Do you think the author has a bias? Why or why not?</li>
+              <li>What are two of the author's strongest arguments?</li>
+              <li>What was the author's intention or goal with the article? Did he achieve his goal?</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener111} value={la7Essay111}/>
 
           <span className="days">LESSON 112 </span>
+          <p>The next novel you will read is <strong>The Outsiders </strong> by S.E. Hinton. It is a story about Ponyboy
+            Curtis, a teenager who his struggles with right and wrong in a world where he believes that he is an
+            outsider.
+          </p>
+          <p className="topBottom"><strong>The Outsiders </strong> is available at your local library, local bookstore
+            and online for purchase. Until your copy arrives, <a
+              href={require("../resources/books/TheOutsidersChapter1.pdf")} rel="noreferrer"
+              target="_blank"> Chapter 1 is provided here. </a></p>
+          <p className="topBottom"><a href={require("../resources/books/TheOutsidersChapter1.pdf")} rel="noreferrer"
+                                      target="_blank"><img src={require("../../public/images/bookCovers/outsiders.jpg")}
+                                                           alt="The Outsiders novel"/></a></p>
+          <p className="topBottom">After you read Chapter 1, answer the questions below using complete sentences. Then
+            complete the vocabulary assignment.<br/>
+            1. From what point of view is this novel told? Why would Hinton (the author) choose to use this point of
+            view?<br/>
+            2. How does the narrator describe himself?<br/>
+            3. Why does he like to go to the movies alone? What character trait does this preference
+            reveal in him?<br/>
+            4. What happened to the narrator’s parents?<br/>
+            5. What happens to him on the way home from the movies?<br/>
+            6. Quote text from the novel that best supports the inference that the attack on Johnny was
+            a turning point for him.<br/>
+            7. Infer how the narrator feels as he is being followed. What signs does he exhibit that tell
+            you this is how he feels?<br/>
+            8. What do we learn is the name of the narrator?<br/>
+            9. Why is Ponyboy so reluctant to tell Darry how he really feels after the incident with the
+            Socs?<br/>
+            10. Why would Ponyboy want to be in a Greaser gang? What is he attempting to find in the
+            gang that is missing from his life?<br/>
+            11. Why do the Greasers dress the way they do? What image are they attempting to
+            convey? Why do they want to portray this image?<br/>
+            12. Although it is not stated directly, why is Darry so strict with Ponyboy? What might
+            happen if Ponyboy were to get into trouble?<br/>
+            13. Infer what the Greasers might do as a result of the attack.<br/>
+            14. Why might the author have dedicated several paragraphs from the chapter to tell about
+            each of the boys in Ponyboy’s life?<br/>
+            15. How did Two-Bit get his nickname? What is his real name?<br/>
+            16. According to Ponyboy, what is different about Dally from the rest of the guys?<br/>
+            17. Why does Darry work so hard?<br/>
+            18. What does Sodapop tell Ponyboy about his plans for Sandy and himself?<br/>
+            19. Describe Ponyboy, Soda, and Darry’s relationship with each other.<br/>
+            20. Do any of the brothers remind you of characters within your own family or circle of
+            friends? Explain.<br/>
+            21. What is the time period (what year is it)?<br/>
 
-
+            <strong>Vocabulary</strong> For each vocabulary word below, write a definition and then write a sentence
+            using the word. Below is an example.<br/>
+            <ol className="vocab">
+              <li>unfathomable - <i style={{ color: "#4f5979" }}> unfathomable: impossible to understand or
+                incomprehensible. "For some unfathomable reason, he could not get through the assignment."</i></li>
+              <li>asset</li>
+              <li>rivalry</li>
+              <li>gingerly</li>
+              <li>sagely</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener112} value={la7Essay112}/>
 
           <span className="days">LESSON 113 </span>
+          <p className="topBottom"> Read Chapter 2 of <i>The Outsiders</i> and then answer the questions below using
+            complete sentences.</p>
+          <p className="topBottom">
+            1. How do the boys get into the Nightly Double? Why do they choose to do that?<br/>
+            2. Why does Dally use vulgar and abrasive language with the girls at the movies?<br/>
+            3. How do the girls respond to the insults? From their reactions, what can you infer about
+            their personalities?<br/>
+            4. What does Cherry mean when she calls Sodapop a “doll”?<br/>
+            5. Why is Ponyboy embarrassed about Sodapop dropping out of school and working at a
+            gas station? In your opinion, should he be embarrassed?<br/>
+            6. Why is Ponyboy uncomfortable about Dally’s behavior?<br/>
+            7. Explain why the girls are okay with Johnny and Pony, but not Dally.<br/>
+            8. Why are the girls alone and without a car?<br/>
+            9. What does Two-Bit do that scares Johnny and Pony? Infer why it is especially
+            frightening to Johnny.<br/>
+            10. What rule do the Greasers follow, besides “stick together”? How do you think these rules
+            came to be?<br/>
+            11. Describe the attack on Johnny. Why do you think the attack was so traumatic to him?<br/>
+            12. What theme does the conflict between the Socs and the Greasers reveal?<br/>
 
-
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using the
+            word.<br/>
+            <ol className="vocab">
+              <li>roguishly</li>
+              <li>incredulous</li>
+              <li>nonchalantly</li>
+              <li>abiding</li>
+              <li>digested</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener113} value={la7Essay113}/>
 
           <span className="days">LESSON 114 </span>
+          <p className="topBottom"> Read Chapter 3 of <i>The Outsiders</i> and then answer the questions below using
+            complete sentences.</p>
+          <p className="topBottom">
+            1. What does Cherry tell Ponyboy about the Socs?<br/>
+            2. What do the Socs and the Greasers have in common? What would their constant
+            fighting suggest about their differences and similarities?<br/>
+            3. Relate the story of Mickey Mouse and Soda. Why do you think it was included in the
+            novel?<br/>
+            4. Explain the reference to watching the sunset. Why is it important to the buildup of the
+            relationship between Cherry Valance and Ponyboy?<br/>
+            5. After all the vulgar language and abuse at the movies, evaluate why Cherry would “fall in
+            love” with Dally. Considering the characters, assess how realistic this seems.<br/>
+            6. When the blue Mustang rolls up, what are its occupants hoping to do? What do the
+            Greasers think they want?<br/>
+            7. Compare and contrast the way the Greasers and by the Socs treat the girls. Which
+            group treats them better? Provide evidence.<br/>
+            8. Give your opinion of Cherry saying, “...if I see you in the hall at school or someplace and
+            don’t say hi, well, it’s not personal...” Explain the reasons for your point of view.<br/>
+            9. What do Pony and Johnny do instead of going home after the movies? What is the result
+            of their decision?<br/>
+            10. When Ponyboy doesn’t arrive home until 2:00 a.m., why doesn’t Darry call the police?<br/>
+            11. After Darry slaps Ponyboy, Ponyboy concludes that Darry does not want him around.<br/>
+            Argue whether this actually how Darry feels, or if Ponyboy is overreacting. Provide
+            evidence for your opinion.<br/>
+            12. Why do Ponyboy and Johnny run away?<br/>
+            13. Infer why Johnny says he likes it better when his father is hitting him.<br/>
+            14. Paraphrase why Darry seems like such an angry person.<br/>
+            15. Ponyboy and Johnny walk through the park trying to decide whether or not they are
+            going to run away for real. What deeper symbolism has Hinton incorporated here by
+            deciding to have the boys walk through a park instead of somewhere else?<br/>
 
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using the
+            word.<br/>
+            <ol className="vocab">
+              <li>sophisticated</li>
+              <li>aloofness</li>
+              <li>elite</li>
+              <li>resignedly</li>
+              <li>ember</li>
+            </ol>
+          </p>
 
           <textarea className="textArea" onChange={onChangela7Listener114} value={la7Essay114}/>
 
           <span className="days">LESSON 115 </span>
+          <p className="topBottom"> Read Chapter 4 of <i>The Outsiders</i> and then answer the questions below using
+            complete sentences.</p>
+          <p className="topBottom">
+            1. What happens to Ponyboy at the park?<br/>
+            2. Ponyboy says that he and Johnny would “never let them have the satisfaction of
+            knowing” that the Socs scared them to death. Why? What does it say about the value
+            that Johnny and Ponyboy place on the Greasers’ reputation?<br/>
+            3. Why does Johnny go after Bob? What is the result?<br/>
+            4. Why does Johnny react so violently to the Socs?<br/>
+            5. Johnny reacts with calmness after the incident with Bob, while Ponyboy becomes
+            hysterical. Why do you think they react differently?<br/>
+            6. As Ponyboy becomes sick, why does Johnny tell Ponyboy that he won’t look at him?<br/>
+            7. To whom do Ponyboy and Johnny go for help? What does he give them? What does he
+            tell them to do?<br/>
+            8. How do the boys get to where they are going? Where do they plan to stay?<br/>
+            9. On the way there, Johnny says he “couldn’t shoot anybody” despite just having stabbed
+            someone. How do we explain this? What is the difference between these two acts?<br/>
+            10. Ponyboy wishes to go to the country in the earlier chapters of the novel, but once he
+            gets there, he doesn’t like it and says that “there are worse things than being a greaser.”
+            Why is his experience so different from his dream of visiting it? What is the main thing
+            that is missing from the reality that was present in his fantasy?<br/>
+            11. Why do you think the author included the flashback to when all the guys went to church
+            together? Do you think it was important to include that scene? Why?<br/>
+            12. Make a prediction about Ponyboy’s “premonition.” How could this be a hint of something
+            that is being foreshadowed?<br/>
 
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using the
+            word.<br/>
+            <ol className="vocab">
+              <li>apprehensive</li>
+              <li>definace</li>
+              <li>contemptuous</li>
+              <li>sheepish</li>
+              <li>premonition</li>
+            </ol>
+          </p>
 
           <textarea className="textArea" onChange={onChangela7Listener115} value={la7Essay115}/>
 
           <span className="days">LESSON 116 </span>
+          <p className="topBottom"> Read Chapter 5 of <i>The Outsiders</i> and then answer the questions below using
+            complete sentences.</p>
+          <p className="topBottom">
+            1. When Pony wakes up, why is he alone? What does Johnny bring back?<br/>
+            2. What different things would you buy as supplies? Remember, they did their shopping at
+            a grocery store, so keep your answers realistic to things that you could find there.<br/>
+            3. What do the boys do to disguise themselves? Why is Pony so reluctant to do anything<br/>
+            with his hair?<br/>
+            4. Johnny states that when people go to jail, the authorities cut their hair to “break” them.
+            Why would he think this? What does this say about his opinion of authority? Why is hair
+            really cut when people are sent to jail?<br/>
+            5. How did the boys show their feelings as emotion overcame them? Do you think their
+            behavior was “in character” or did it deviate from the image the writer was trying to
+            create? Explain.<br/>
+            6. Read the following quote, which took place after the boys cried. “...for the first time since
+            Dally and I had sat down behind those girls at the Nightly Double, I relaxed. We could
+            take whatever was coming now.” Based on this passage, what we can infer about how
+            Ponyboy is feeling?<br/>
+            7. How do they pass the time over the next few days? What do they eat?<br/>
+            8. Ponyboy realizes he likes Soda, Two-Bit, and Darry’s qualities that are like heroes in
+            novels, while Johnny likes Dally because he is “real.” What does this mean? Why would
+            Ponyboy relate more to people who portray the characteristics of a character in a novel,
+            while Johnny is enamored with characters who are realistic?<br/>
+            9. Why does Ponyboy get sick on the fifth day at the church?<br/>
+            10. What does Dally bring to Ponyboy from Sodapop? What does Pony learn from it about
+            Darry’s feelings?<br/>
+            11. How was Dally able to mislead the police?<br/>
+            12. Dally tells Johnny and Ponyboy not to pick up his bad habits. What does he mean by
+            this? Is it a little late, now, to be telling the two boys this? Why or why not?<br/>
+            13. Where do they go in Buck’s car?<br/>
+            14. When Dally says that his heater “sure does help a bluff...” what does he mean?<br/>
+            15. Who is the “spy” Dally speaks of?<br/>
+            16. Interpret what Ponyboy means when he says, “things are happening too quick. Too fast.”
+            Do you ever get a similar feeling in your own life? Explain.<br/>
 
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using the
+            word.<br/>
+            <ol className="vocab">
+              <li>imploringly</li>
+              <li>sullenly</li>
+              <li>hue</li>
+              <li>subside</li>
+              <li>elude</li>
+              <li>wistfully</li>
+            </ol>
+          </p>
 
           <textarea className="textArea" onChange={onChangela7Listener116} value={la7Essay116}/>
 
           <span className="days">LESSON 117 </span>
+          <p className="topBottom"> Read Chapter 6 of <i>The Outsiders</i> and then answer the questions below using
+            complete sentences.</p>
+          <p className="topBottom">
+            1. “The spy” thinks the whole mess is her fault. Dally agrees that it is. Thinking back on the
+            story, do you believe the trouble they are all in is because of her? Explain.<br/>
+            2. What does Johnny announce that he and Pony are going to do? Why does he think it is
+            best? Do you agree or disagree with their decision. Why?<br/>
+            3. What does Dally tell Johnny when he asks about his parents? How does Johnny react?
+            How is his reaction different from how Dally would react?<br/>
+            4. After Johnny asks about his parents, Ponyboy says that he feels bad for Dally. Why
+            would he feel bad for Dally instead of Johnny?<br/>
+            5. Ponyboy outlines the different functions within their group. Do you think there is a
+            hierarchy within the group? Where does Ponyboy fit into this? Where does Dally fit?<br/>
+            6. What is happening at the church when they return? Describe what they do about it.<br/>
+            7. Why does Ponyboy feel so inclined to risk his life?<br/>
+            8. While in the church, Johnny appears to act completely differently from how he normally
+            does. Why do you think he does so?<br/>
+            9. What is Dally’s motivation for clubbing Pony across the back?<br/>
+            10. Discuss how Pony and Johnny’s decision to help the children changes the action of the
+            story. Cite textual evidence to support your response.<br/>
+            11. Where are they headed when Pony wakes up? Where are Johnny and Dally? Describe
+            each of the boys’ injuries.<br/>
+            12. When in the ambulance, Ponyboy disputes it when the stranger tells him that he passed
+            out. Why is this? What does this say about how Ponyboy believes in the Greaser image?<br/>
+            13. How do Soda and Darry react when they see Ponyboy?<br/>
+            14. Cite evidence from the novel that shows Ponyboy was wrong all along about the way
+            Darry feels about him. How does Pony come to this realization?<br/>
 
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using the
+            word.<br/>
+            <ol className="vocab">
+              <li>doggedly</li>
+              <li>conviction</li>
+              <li>detached</li>
+              <li>racking</li>
+            </ol>
+          </p>
 
           <textarea className="textArea" onChange={onChangela7Listener117} value={la7Essay117}/>
 
           <span className="days">LESSON 118 </span>
+          <p className="topBottom"> Read Chapter 7 of <i>The Outsiders</i> and then answer the questions below using
+            complete sentences.</p>
+          <p className="topBottom">
+            1. Describe what Soda is doing while the police are trying to interview Ponyboy.<br/>
+            2. What is the extent of Johnny’s injuries? How are the boys able to get the doctor to tell
+            them of Johnny’s prognosis?<br/>
+            3. Explain why Ponyboy says to himself, “If? Please, no, I thought. Please not ‘if’”?<br/>
+            4. After the boys talk to the doctor, they decide to go home and get some sleep. What do
+            Darry’s actions in that scene reveal about his true character?<br/>
+            5. Explain the reference to chocolate cake.<br/>
+            6. Why do the Curtis boys always leave their door unlocked? What does this reveal about
+            the character of the gang members?<br/>
+            7. How did Two-Bit and Steve react when they saw Ponyboy? Is this a normal reaction for
+            them? What does this say about the way that their group functions?<br/>
+            8. What does the newspaper say about the “heroes”? What does Two-Bit have to say
+            about the wording the reporter chose?<br/>
+            9. The article does not use the word Socs. Ponyboy states this is because “most grownups
+            don’t know about the battles that go on between us.” What does this say about the
+            parental role in all of the boys’ lives (both Socs and Greasers)? How do you think the
+            scenario would be different if the parents were different?<br/>
+            10. How real, in your opinion, is the threat of putting Pony in a boys’ home? Justify your
+            answer, citing the text.<br/>
+            11. Recount the story of Pony’s recurring dream.<br/>
+            12. What has happened to Soda’s girlfriend, Sandy? Why? What do you think is the “real”
+            story?<br/>
+            13. To what is Pony referring when he says, “...it’s time for those guys from the state to
+            come by and check up on us.”<br/>
+            14. Briefly describe the conversation between Randy and Ponyboy.<br/>
+            15. Why does Randy decide to not go to the rumble?<br/>
+            16. From their conversation, what did you learn about the privileged class to which the Socs
+            belong? How do you think some people come to feel entitlement?<br/>
+            17. Is there a way in which someone could be rich, but not have a sense of entitlement as a
+            child? How can this be accomplished?<br/>
+            18. Randy says, “You get a little money and the whole world hates you.” Pony replies, “No,
+            you hate the whole world.” Which of these statements, in your opinion, is true? Explain
+            your answer.<br/>
 
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using the
+            word.<br/>
+            <ol className="vocab">
+              <li>radiate</li>
+              <li>delinquents</li>
+              <li>manslaughter</li>
+              <li>brawn</li>
+              <li>recurring</li>
+              <li>aghast</li>
+              <li>exploit</li>
+            </ol>
+          </p>
 
           <textarea className="textArea" onChange={onChangela7Listener118} value={la7Essay118}/>
 
           <span className="days">LESSON 119 </span>
+          <p className="topBottom"> Read Chapter 8 of <i>The Outsiders</i> and then answer the questions below using
+            complete sentences.</p>
+          <p className="topBottom">
+            1. What do you think the doctor means when he says to the nurse, “Let them go in. He’s
+            been asking for them. It can’t hurt now”?<br/>
+            2. Why do you think that Johnny asks for another copy of Gone with the Wind?<br/>
+            3. Ponyboy realizes that the gang needs Johnny. What is Johnny’s greatest contribution to
+            the gang?<br/>
+            4. Why does Johnny really want to live, even though he has thought of suicide in the past,
+            and he would never be able to walk again?<br/>
+            5. When the nurse announces to Johnny that his mother is there to see him, how does he
+            react? When Two-Bit and Ponyboy see Johnny’s mother, what happens? How do they
+            react? Why?<br/>
+            6. When Dally asks Two-Bit about his “fancy black-handled switch,” what do you think was
+            his reason for asking? Why do you think Two-Bit hands it over to him “without
+            hesitation”?<br/>
+            7. Two-Bit says that the boys were the only thing keeping Darry from being a Soc. What
+            does he mean? Do you think this is true? Why?<br/>
+            8. Pony had a sick feeling in his stomach about the rumble that night. Infer what you think
+            he was worried about.<br/>
+            9. When Two-Bit calls him a chicken, Ponyboy says, “Ain’t I a Curtis, same as Soda and
+            Darry?” What can you infer from this statement?<br/>
+            10. Cherry tells Ponyboy about the kind of person Bob “really” was. How does she describe
+            him?<br/>
+            11. Cherry says about Bob, “He could be sweet sometimes, and friendly. But when he got
+            drunk...it was that part of him that beat up Johnny.” Explain the differences between
+            reason and excuse. Do you believe that if someone has been drinking, it is an excuse, or
+            is it a reason, for inappropriate behavior? Try to use examples in your answer.<br/>
+            12. What was the author’s purpose for writing at the end of Chapter 8, “She had green
+            eyes”?<br/>
 
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using the
+            word.<br/>
+            <ol className="vocab">
+              <li>faltered</li>
+              <li>jet</li>
+              <li>divert</li>
+            </ol>
+          </p>
 
           <textarea className="textArea" onChange={onChangela7Listener119} value={la7Essay119}/>
 
           <span className="days">LESSON 120 </span>
+          <p className="topBottom"> Read Chapter 9 of <i>The Outsiders</i> and then answer the questions below using
+            complete sentences.</p>
+          <p className="topBottom">
+            1. What is Hinton’s purpose for including Pony fussing over his beard before the rumble?<br/>
+            2. In the middle of stating that Greasers are proud of their Greaser reputation, Pony says
+            that he doesn’t want to be a hood. What does this say about Pony? Why does he
+            continue to “rep” his Greaser status?<br/>
+            3. Pony and Curly once played chicken by holding cigarettes to each other’s fingers. Why
+            would they do that? Do you think it is worth whatever is to be gained?<br/>
+            4. How do the boys show their excitement about the rumble when they are at the Curtis
+            house getting ready to head out?<br/>
+            5. Pony thinks the only good reason to fight is...?<br/>
+            6. Pony believes that he and Darry are both going to “get somewhere.” What does that
+            mean to him? Do you believe they have any choice in the matter? Discuss in detail.<br/>
+            7. Pony states that the Burmly boys have weird vocabularies. Why is this ironic? Cite
+            examples from the text to support your answer.<br/>
+            8. Why, according to Ponyboy, do people usually think that any trouble is the fault of the
+            Greasers, not the Socs? In your opinion, is that a fair assumption? Explain.<br/>
+            9. What are the rules for the rumble?<br/>
+            10. Who actually steps up to start the rumble? Who is his opponent and how does it happen
+            that he is able to take the first swing? What is ironic about these two boys fighting
+            against each other?<br/>
+            11. Pony says, “ That’s stupid... They’ve both come here to fight and they’re both supposed
+            to be smarter than that.” Why would they show up anyway?<br/>
+            12. Which side wins the rumble? How is the winner determined?<br/>
+            13. Where do the boys go when the rumble ends? Convey what happens as they are on
+            their way in Buck’s car. How do they manage to be let off by the police?<br/>
+            14. What were Johnny’s last words to Ponyboy? What do you think he meant?<br/>
+            15. Cite evidence from the novel that best supports the inference that Johnny’s death was a
+            turning point for Dally.<br/>
 
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using the
+            word.<br/>
+            <ol className="vocab">
+              <li>underprivileged</li>
+              <li>conformity</li>
+              <li>ruefully</li>
+              <li>leery</li>
+              <li>taut</li>
+              <li>contract</li>
+            </ol>
+          </p>
 
           <textarea className="textArea" onChange={onChangela7Listener120} value={la7Essay120}/>
 
           <span className="days">LESSON 121 </span>
+          <p className="topBottom"> Read Chapter 10 of <i>The Outsiders</i> and then answer the questions below using
+            complete sentences.</p>
+          <p className="topBottom">
+            1. Dally runs out “like the devil was after him” when he finds out Johnny is dead. According
+            to Pony, why is Dally having so much trouble handling Johnny’s death?<br/>
+            2. Infer why Pony didn’t want his brothers to touch him after he told them about Johnny’s
+            death.<br/>
+            3. When Dally calls them on the phone, what is his message?<br/>
+            4. Without even talking about it, the group decides to help Dally. How does this
+            demonstration reveal an important theme of the novel?<br/>
+            5. According to Ponyboy, Johnny died gallant. What does he mean? How does he feel this
+            is different from the death of Dally?<br/>
+            6. Why do you think Ponyboy becomes so sick? What are his symptoms?<br/>
+            7. The narrator writes, “And the ground rushed up to meet me very suddenly.” What had
+            really happened?<br/>
+            8. Pony wants to know if Darry is sorry that he is sick. Why?<br/>
+            9. Pony says that he and Darry go all-out for athletics and studying, but Soda does not.
+            Why would these things be important to them, in particular? Why would Soda not
+            understand it?<br/>
+            10. Ponyboy is very concerned about whether or not he asked for Darry while he was in the
+            hospital. What can the reader infer about what Ponyboy is feeling?<br/>
 
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using the
+            word.<br/>
+            <ol className="vocab">
+              <li>stupor</li>
+              <li>stricken</li>
+              <li>delirious</li>
+              <li>clad</li>
+            </ol>
+          </p>
 
           <textarea className="textArea" onChange={onChangela7Listener121} value={la7Essay121}/>
 
           <span className="days">LESSON 122 </span>
+          <p className="topBottom"> Read Chapter 11 of <i>The Outsiders</i> and then answer the questions below using
+            complete sentences.</p>
+          <p className="topBottom">
+            1. After Ponyboy studies the picture of Bob in the yearbook, what conclusions does he
+            make about him?<br/>
+            2. Why is Ponyboy uncomfortable with his classmates visiting his house?<br/>
+            3. Why do you think Ponyboy doesn’t care what Randy thinks of their house?<br/>
+            4. What was Randy’s purpose in visiting Pony? What was the outcome of their
+            conversation?<br/>
+            5. During the conversation, Randy believes that if he tells the truth no one will get hurt and
+            all he will have to do is pay a fine, while Ponyboy is worried about being put in a foster
+            home. How do their different perspectives mirror their positions within society? Do you
+            think Randy is sheltered from the harshness of the world? Explain your answer.<br/>
+            6. What do you think was Randy’s purpose in visiting Ponyboy? Do you think he just
+            wanted to talk to Ponyboy or something else? Do you think he got what he was looking
+            for?<br/>
+            7. What is the author’s purpose in having Ponyboy say that he is the one who killed Bob
+            and insist that Johnny isn’t dead?<br/>
+            8. Darry calls Ponyboy “little buddy.” Why is this important to Pony? What does it indicate
+            about their changing relationship?<br/>
 
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using the
+            word.<br/>
+            <ol className="vocab">
+              <li>idolized</li>
+              <li>hearing</li>
+              <li>guardian</li>
+              <li>liable</li>
+            </ol>
+          </p>
 
           <textarea className="textArea" onChange={onChangela7Listener122} value={la7Essay122}/>
 
           <span className="days">LESSON 123 </span>
-
-
+          <p className="topBottom"> Read Chapter 12 of <i>The Outsiders</i> and then answer the questions below using
+            complete sentences.</p>
+          <p className="topBottom">
+            1. Even when facing possibly being split up, the boys say that Dally was their friend. Why is
+            this so important? How could this have negatively affected the judge’s decision?<br/>
+            2. Why do you think the judge’s line of questioning is so easy on Ponyboy? Why is he
+            acquitted?<br/>
+            3. Do you think the judge made the right choice in leaving the boys together? Explain your
+            answer.<br/>
+            4. What happens to Ponyboy’s schoolwork, memory, and attitude about himself after the
+            hearing? What opportunity does his teacher give him to make up for his problems in
+            school?<br/>
+            5. Ponyboy states that his teacher was a good guy and interested in him as a person. Do
+            you feel this way about any of your teachers? Does this make you want to work harder
+            for them?<br/>
+            6. Why do you think Greasers didn’t eat in the cafeteria?<br/>
+            7. When the Socs show up, Ponyboy says he feels nothing. Why? Do you think this change
+            in Ponyboy will be permanent? Do you think he would have used the bottle?<br/>
+            8. Why does Ponyboy pick up the glass? Why is this strange behavior, considering the
+            surrounding events? Why is this action a relief to Two-Bit?<br/>
+            9. Why does Soda bolt out the door?<br/>
+            10. What do we find out about the real reason that Sandy went to Florida?<br/>
+            11. After Pony and Darry go find Soda, the three of them talk. What is the result of their
+            conversation?<br/>
+            12. Summarize what was in the note from Johnny that Ponyboy found when it fell out of his<br/>
+            book.<br/>
+            13. What does Ponyboy finally decide to write about in his theme?<br/>
+            14. What is significant about the last sentence of the novel? Why would Hinton choose to
+            end her book like this?<br/>
+            15. In your opinion, what is the most likely reason that the author chose to write the novel
+            from Ponyboy’s point of view?<br/>
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using the
+            word.<br/>
+            <ol className="vocab">
+              <li>flinching</li>
+              <li>acquitted</li>
+              <li>vacuum:<i>state of emptiness</i></li>
+              <li>veered</li>
+              <li>welled</li>
+              <li>vast</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener123} value={la7Essay123}/>
 
           <span className="days">LESSON 124 </span>
-
-
+          <p className="topBottom"><strong>Write a Five Paragraph Essay</strong> based on one of the questions
+            below.</p>
+          <ul className="list">
+            <li>Did you think any of the Greasers were heroes? Provide your own definition of a hero and then explain,
+              using examples, how the character or characters you chose meet/s that definition.
+            </li>
+            <li>Were the Socs or the Greasers more of menace to society.</li>
+            <li>Which gang from <i>The Outsiders </i> would you want to belong to? Be sure to describe the differences
+              between the two groups.
+            </li>
+            <li>Although the author never uses the word outsider in her novel, it is the title of the book. Who do you
+              think the outsiders were? Be sure to define what you mean by outsiders in your essay.
+            </li>
+          </ul>
+          <p className="topBottom">Take a few minutes to think about your topic and then create an outline. You must
+            use examples from the novel to support your statement.</p>
+          <p className="topBottom">Your introduction paragraph should grab your reader’s
+            attention. It also needs a clear thesis statement that conveys the points or arguments you are going to
+            make. </p>
+          <p className="topBottom">For your three supporting paragraphs (paragraphs 2, 3 and 4), use three different
+            examples or support from
+            the novel. </p>
+          <p className="topBottom">Your conclusion should restate your thesis in a different way. End with a
+            thoughtful
+            summary. Each paragraph should be 3-5 sentences.</p>
+          <p className="topBottom"><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
+                                      rel="noreferrer"
+                                      target="_blank">Click
+            here for a 5 Paragraph Essay outline </a>if you need help getting started. </p>
           <textarea className="textArea" onChange={onChangela7Listener124} value={la7Essay124}/>
 
           <span className="days">LESSON 125 </span>
-
-
+          <p className="topBottom">Write a <strong>Persuasive Argument</strong></p>
+          <p className="topBottom">In <i>The Outsiders,</i> Johnny and Pony Boy got into a tragic fight and Bob, a
+            member of the Socs, is killed. Do you think Johnny is guilty or innocent of murder? </p>
+          <p className="topBottom">Choose to be either the <strong>defense attorney</strong> or the <strong>prosecuting
+            attorney</strong> for Johnny's court case. Write your argument from the perspective of an attorney and
+            use evidence from the book to support your claims. </p>
+          <img src={require("../../public/images/stories/court.jpg")} alt="courtroom"/><br/>
+          <p className="topBottom">If you are Johnny's defense attorney, you must convince a jury through your
+            persuasive argument that he is innocent. If you are the prosecuting attorney for the case, you must
+            convince a jury through your persuasive argument that he is guilty of murder.</p>
+          <p className="topBottom">Your introduction paragraph should grab the jury’s
+            attention. Briefly describe what led up to the fight. Then give 2 or 3 reasons or arguments why
+            Johnny is innocent or guilty. </p>
+          <p className="topBottom">The body of your essay (7-10 sentences), should cover your arguments in detail. Use
+            quotes from the book and show how the "evidence" supports your argument.</p>
+          <p className="topBottom">Your final paragraph should summarize your points. Restate
+            the most convincing evidence. Your argument should have a call to action for your jury: find Johnny innocent
+            or find him guilty (depending on which side you take).</p>
           <textarea className="textArea" onChange={onChangela7Listener125} value={la7Essay125}/>
 
           <span className="days">LESSON 126 </span>
-
-
+          <p>The novel <strong>Out of My Mind </strong> by Sharon Draper is a story about an eleven-year-old girl named
+            Melody. She can’t walk, talk or write because she has cerebral palsy. But she also has a photographic memory; she
+            can remember every detail of everything she has ever experienced. She’s the smartest kid in her whole
+            school, but no one knows it.  She's determined to let them know somehow.
+          </p>
+          <p className="topBottom"><strong>Out of My Mind </strong> is available at your local library, local bookstore
+            and online for purchase. Until your copy arrives, <a href={require("../resources/books/OutofMyMindExcerpt.pdf")} rel="noreferrer"
+                                  target="_blank"> an excerpt is provided here so you can complete the first
+              assignment. </a></p>
+          <p className="topBottom"><a href={require("../resources/books/OutofMyMindExcerpt.pdf")} rel="noreferrer"
+                                      target="_blank"><img
+            src={require("../../public/images/bookCovers/outOfMyMind.jpg")}
+            alt="Out of My Mind novel"/></a><br/>
+            <ol className="vocab">Read Chapters 1-3. Then answer the questions below using complete sentences.<br/>
+              <li>something</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener126} value={la7Essay126}/>
 
           <span className="days">LESSON 127 </span>
