@@ -115,88 +115,88 @@ const LA7Component = ({ data }) => {
   const [la7Essay98, setla7Essay98] = useLocalStorageState("la7Essay98", "")
   const [la7Essay99, setla7Essay99] = useLocalStorageState("la7Essay99", "")
   const [la7Essay100, setla7Essay100] = useLocalStorageState("la7Essay100", "")
-  // const [la7Essay101, setla7Essay101] = useLocalStorageState("la7Essay101", "")
-  // const [la7Essay102, setla7Essay102] = useLocalStorageState("la7Essay102", "")
-  // const [la7Essay103, setla7Essay103] = useLocalStorageState("la7Essay103", "")
-  // const [la7Essay104, setla7Essay104] = useLocalStorageState("la7Essay104", "")
-  // const [la7Essay105, setla7Essay105] = useLocalStorageState("la7Essay105", "")
-  // const [la7Essay106, setla7Essay106] = useLocalStorageState("la7Essay106", "")
-  // const [la7Essay107, setla7Essay107] = useLocalStorageState("la7Essay107", "")
-  // const [la7Essay108, setla7Essay108] = useLocalStorageState("la7Essay108", "")
-  // const [la7Essay109, setla7Essay109] = useLocalStorageState("la7Essay109", "")
-  // const [la7Essay110, setla7Essay110] = useLocalStorageState("la7Essay110", "")
-  // const [la7Essay111, setla7Essay111] = useLocalStorageState("la7Essay111", "")
-  // const [la7Essay112, setla7Essay112] = useLocalStorageState("la7Essay112", "")
-  // const [la7Essay113, setla7Essay113] = useLocalStorageState("la7Essay113", "")
-  // const [la7Essay114, setla7Essay114] = useLocalStorageState("la7Essay114", "")
-  // const [la7Essay115, setla7Essay115] = useLocalStorageState("la7Essay115", "")
-  // const [la7Essay116, setla7Essay116] = useLocalStorageState("la7Essay116", "")
-  // const [la7Essay117, setla7Essay117] = useLocalStorageState("la7Essay117", "")
-  // const [la7Essay118, setla7Essay118] = useLocalStorageState("la7Essay118", "")
-  // const [la7Essay119, setla7Essay119] = useLocalStorageState("la7Essay119", "")
-  // const [la7Essay120, setla7Essay120] = useLocalStorageState("la7Essay120", "")
-  // const [la7Essay121, setla7Essay121] = useLocalStorageState("la7Essay121", "")
-  // const [la7Essay122, setla7Essay122] = useLocalStorageState("la7Essay122", "")
-  // const [la7Essay123, setla7Essay123] = useLocalStorageState("la7Essay123", "")
-  // const [la7Essay124, setla7Essay124] = useLocalStorageState("la7Essay124", "")
-  // const [la7Essay125, setla7Essay125] = useLocalStorageState("la7Essay125", "")
-  // const [la7Essay126, setla7Essay126] = useLocalStorageState("la7Essay126", "")
-  // const [la7Essay127, setla7Essay127] = useLocalStorageState("la7Essay127", "")
-  // const [la7Essay128, setla7Essay128] = useLocalStorageState("la7Essay128", "")
-  // const [la7Essay129, setla7Essay129] = useLocalStorageState("la7Essay129", "")
-  // const [la7Essay130, setla7Essay130] = useLocalStorageState("la7Essay130", "")
-  // const [la7Essay131, setla7Essay131] = useLocalStorageState("la7Essay131", "")
-  // const [la7Essay132, setla7Essay132] = useLocalStorageState("la7Essay132", "")
-  // const [la7Essay133, setla7Essay133] = useLocalStorageState("la7Essay133", "")
-  // const [la7Essay134, setla7Essay134] = useLocalStorageState("la7Essay134", "")
-  // const [la7Essay135, setla7Essay135] = useLocalStorageState("la7Essay135", "")
-  // const [la7Essay136, setla7Essay136] = useLocalStorageState("la7Essay136", "")
-  // const [la7Essay137, setla7Essay137] = useLocalStorageState("la7Essay137", "")
-  // const [la7Essay138, setla7Essay138] = useLocalStorageState("la7Essay138", "")
-  // const [la7Essay139, setla7Essay139] = useLocalStorageState("la7Essay139", "")
-  // const [la7Essay140, setla7Essay140] = useLocalStorageState("la7Essay140", "")
-  // const [la7Essay141, setla7Essay141] = useLocalStorageState("la7Essay141", "")
-  // const [la7Essay142, setla7Essay142] = useLocalStorageState("la7Essay142", "")
-  // const [la7Essay143, setla7Essay143] = useLocalStorageState("la7Essay143", "")
-  // const [la7Essay144, setla7Essay144] = useLocalStorageState("la7Essay144", "")
-  // const [la7Essay145, setla7Essay145] = useLocalStorageState("la7Essay145", "")
-  // const [la7Essay146, setla7Essay146] = useLocalStorageState("la7Essay146", "")
-  // const [la7Essay147, setla7Essay147] = useLocalStorageState("la7Essay147", "")
-  // const [la7Essay148, setla7Essay148] = useLocalStorageState("la7Essay148", "")
-  // const [la7Essay149, setla7Essay149] = useLocalStorageState("la7Essay149", "")
-  // const [la7Essay150, setla7Essay150] = useLocalStorageState("la7Essay150", "")
-  // const [la7Essay151, setla7Essay151] = useLocalStorageState("la7Essay151", "")
-  // const [la7Essay152, setla7Essay152] = useLocalStorageState("la7Essay152", "")
-  // const [la7Essay153, setla7Essay153] = useLocalStorageState("la7Essay153", "")
-  // const [la7Essay154, setla7Essay154] = useLocalStorageState("la7Essay154", "")
-  // const [la7Essay155, setla7Essay155] = useLocalStorageState("la7Essay155", "")
-  // const [la7Essay156, setla7Essay156] = useLocalStorageState("la7Essay156", "")
-  // const [la7Essay157, setla7Essay157] = useLocalStorageState("la7Essay157", "")
-  // const [la7Essay158, setla7Essay158] = useLocalStorageState("la7Essay158", "")
-  // const [la7Essay159, setla7Essay159] = useLocalStorageState("la7Essay159", "")
-  // const [la7Essay160, setla7Essay160] = useLocalStorageState("la7Essay160", "")
-  // const [la7Essay161, setla7Essay161] = useLocalStorageState("la7Essay161", "")
-  // const [la7Essay162, setla7Essay162] = useLocalStorageState("la7Essay162", "")
-  // const [la7Essay163, setla7Essay163] = useLocalStorageState("la7Essay163", "")
-  // const [la7Essay164, setla7Essay164] = useLocalStorageState("la7Essay164", "")
-  // const [la7Essay165, setla7Essay165] = useLocalStorageState("la7Essay165", "")
-  // const [la7Essay166, setla7Essay166] = useLocalStorageState("la7Essay166", "")
-  // const [la7Essay167, setla7Essay167] = useLocalStorageState("la7Essay167", "")
-  // const [la7Essay168, setla7Essay168] = useLocalStorageState("la7Essay168", "")
-  // const [la7Essay169, setla7Essay169] = useLocalStorageState("la7Essay169", "")
-  // const [la7Essay170, setla7Essay170] = useLocalStorageState("la7Essay170", "")
-  // const [la7Essay171, setla7Essay171] = useLocalStorageState("la7Essay171", "")
-  // const [la7Essay172, setla7Essay172] = useLocalStorageState("la7Essay172", "")
-  // const [la7Essay173, setla7Essay173] = useLocalStorageState("la7Essay173", "")
-  // const [la7Essay174, setla7Essay174] = useLocalStorageState("la7Essay174", "")
-  // // const [la7Essay175, setla7Essay175] = useLocalStorageState("la7Essay175", "")
-  // // const [la7Essay176, setla7Essay176] = useLocalStorageState("la7Essay176", "")
-  // // const [la7Essay177, setla7Essay177] = useLocalStorageState("la7Essay177", "")
-  // // const [la7Essay178, setla7Essay178] = useLocalStorageState("la7Essay178", "")
-  // // const [la7Essay179, setla7Essay179] = useLocalStorageState("la7Essay179", "")
-  // // const [la7Essay180, setla7Essay180] = useLocalStorageState("la7Essay180", "")
-  //
-  //
+  const [la7Essay101, setla7Essay101] = useLocalStorageState("la7Essay101", "")
+  const [la7Essay102, setla7Essay102] = useLocalStorageState("la7Essay102", "")
+  const [la7Essay103, setla7Essay103] = useLocalStorageState("la7Essay103", "")
+  const [la7Essay104, setla7Essay104] = useLocalStorageState("la7Essay104", "")
+  const [la7Essay105, setla7Essay105] = useLocalStorageState("la7Essay105", "")
+  const [la7Essay106, setla7Essay106] = useLocalStorageState("la7Essay106", "")
+  const [la7Essay107, setla7Essay107] = useLocalStorageState("la7Essay107", "")
+  const [la7Essay108, setla7Essay108] = useLocalStorageState("la7Essay108", "")
+  const [la7Essay109, setla7Essay109] = useLocalStorageState("la7Essay109", "")
+  const [la7Essay110, setla7Essay110] = useLocalStorageState("la7Essay110", "")
+  const [la7Essay111, setla7Essay111] = useLocalStorageState("la7Essay111", "")
+  const [la7Essay112, setla7Essay112] = useLocalStorageState("la7Essay112", "")
+  const [la7Essay113, setla7Essay113] = useLocalStorageState("la7Essay113", "")
+  const [la7Essay114, setla7Essay114] = useLocalStorageState("la7Essay114", "")
+  const [la7Essay115, setla7Essay115] = useLocalStorageState("la7Essay115", "")
+  const [la7Essay116, setla7Essay116] = useLocalStorageState("la7Essay116", "")
+  const [la7Essay117, setla7Essay117] = useLocalStorageState("la7Essay117", "")
+  const [la7Essay118, setla7Essay118] = useLocalStorageState("la7Essay118", "")
+  const [la7Essay119, setla7Essay119] = useLocalStorageState("la7Essay119", "")
+  const [la7Essay120, setla7Essay120] = useLocalStorageState("la7Essay120", "")
+  const [la7Essay121, setla7Essay121] = useLocalStorageState("la7Essay121", "")
+  const [la7Essay122, setla7Essay122] = useLocalStorageState("la7Essay122", "")
+  const [la7Essay123, setla7Essay123] = useLocalStorageState("la7Essay123", "")
+  const [la7Essay124, setla7Essay124] = useLocalStorageState("la7Essay124", "")
+  const [la7Essay125, setla7Essay125] = useLocalStorageState("la7Essay125", "")
+  const [la7Essay126, setla7Essay126] = useLocalStorageState("la7Essay126", "")
+  const [la7Essay127, setla7Essay127] = useLocalStorageState("la7Essay127", "")
+  const [la7Essay128, setla7Essay128] = useLocalStorageState("la7Essay128", "")
+  const [la7Essay129, setla7Essay129] = useLocalStorageState("la7Essay129", "")
+  const [la7Essay130, setla7Essay130] = useLocalStorageState("la7Essay130", "")
+  const [la7Essay131, setla7Essay131] = useLocalStorageState("la7Essay131", "")
+  const [la7Essay132, setla7Essay132] = useLocalStorageState("la7Essay132", "")
+  const [la7Essay133, setla7Essay133] = useLocalStorageState("la7Essay133", "")
+  const [la7Essay134, setla7Essay134] = useLocalStorageState("la7Essay134", "")
+  const [la7Essay135, setla7Essay135] = useLocalStorageState("la7Essay135", "")
+  const [la7Essay136, setla7Essay136] = useLocalStorageState("la7Essay136", "")
+  const [la7Essay137, setla7Essay137] = useLocalStorageState("la7Essay137", "")
+  const [la7Essay138, setla7Essay138] = useLocalStorageState("la7Essay138", "")
+  const [la7Essay139, setla7Essay139] = useLocalStorageState("la7Essay139", "")
+  const [la7Essay140, setla7Essay140] = useLocalStorageState("la7Essay140", "")
+  const [la7Essay141, setla7Essay141] = useLocalStorageState("la7Essay141", "")
+  const [la7Essay142, setla7Essay142] = useLocalStorageState("la7Essay142", "")
+  const [la7Essay143, setla7Essay143] = useLocalStorageState("la7Essay143", "")
+  const [la7Essay144, setla7Essay144] = useLocalStorageState("la7Essay144", "")
+  const [la7Essay145, setla7Essay145] = useLocalStorageState("la7Essay145", "")
+  const [la7Essay146, setla7Essay146] = useLocalStorageState("la7Essay146", "")
+  const [la7Essay147, setla7Essay147] = useLocalStorageState("la7Essay147", "")
+  const [la7Essay148, setla7Essay148] = useLocalStorageState("la7Essay148", "")
+  const [la7Essay149, setla7Essay149] = useLocalStorageState("la7Essay149", "")
+  const [la7Essay150, setla7Essay150] = useLocalStorageState("la7Essay150", "")
+  const [la7Essay151, setla7Essay151] = useLocalStorageState("la7Essay151", "")
+  const [la7Essay152, setla7Essay152] = useLocalStorageState("la7Essay152", "")
+  const [la7Essay153, setla7Essay153] = useLocalStorageState("la7Essay153", "")
+  const [la7Essay154, setla7Essay154] = useLocalStorageState("la7Essay154", "")
+  const [la7Essay155, setla7Essay155] = useLocalStorageState("la7Essay155", "")
+  const [la7Essay156, setla7Essay156] = useLocalStorageState("la7Essay156", "")
+  const [la7Essay157, setla7Essay157] = useLocalStorageState("la7Essay157", "")
+  const [la7Essay158, setla7Essay158] = useLocalStorageState("la7Essay158", "")
+  const [la7Essay159, setla7Essay159] = useLocalStorageState("la7Essay159", "")
+  const [la7Essay160, setla7Essay160] = useLocalStorageState("la7Essay160", "")
+  const [la7Essay161, setla7Essay161] = useLocalStorageState("la7Essay161", "")
+  const [la7Essay162, setla7Essay162] = useLocalStorageState("la7Essay162", "")
+  const [la7Essay163, setla7Essay163] = useLocalStorageState("la7Essay163", "")
+  const [la7Essay164, setla7Essay164] = useLocalStorageState("la7Essay164", "")
+  const [la7Essay165, setla7Essay165] = useLocalStorageState("la7Essay165", "")
+  const [la7Essay166, setla7Essay166] = useLocalStorageState("la7Essay166", "")
+  const [la7Essay167, setla7Essay167] = useLocalStorageState("la7Essay167", "")
+  const [la7Essay168, setla7Essay168] = useLocalStorageState("la7Essay168", "")
+  const [la7Essay169, setla7Essay169] = useLocalStorageState("la7Essay169", "")
+  const [la7Essay170, setla7Essay170] = useLocalStorageState("la7Essay170", "")
+  const [la7Essay171, setla7Essay171] = useLocalStorageState("la7Essay171", "")
+  const [la7Essay172, setla7Essay172] = useLocalStorageState("la7Essay172", "")
+  const [la7Essay173, setla7Essay173] = useLocalStorageState("la7Essay173", "")
+  const [la7Essay174, setla7Essay174] = useLocalStorageState("la7Essay174", "")
+  const [la7Essay175, setla7Essay175] = useLocalStorageState("la7Essay175", "")
+  const [la7Essay176, setla7Essay176] = useLocalStorageState("la7Essay176", "")
+  const [la7Essay177, setla7Essay177] = useLocalStorageState("la7Essay177", "")
+  const [la7Essay178, setla7Essay178] = useLocalStorageState("la7Essay178", "")
+  const [la7Essay179, setla7Essay179] = useLocalStorageState("la7Essay179", "")
+  const [la7Essay180, setla7Essay180] = useLocalStorageState("la7Essay180", "")
+
+
   const onChangela7Listener1 = (event) => {
     setla7Essay1(event.target.value)
   }
@@ -497,246 +497,246 @@ const LA7Component = ({ data }) => {
   const onChangela7Listener100 = (event) => {
     setla7Essay100(event.target.value)
   }
-  // const onChangela7Listener101 = (event) => {
-  //   setla7Essay101(event.target.value)
-  // }
-  // const onChangela7Listener102 = (event) => {
-  //   setla7Essay102(event.target.value)
-  // }
-  // const onChangela7Listener103 = (event) => {
-  //   setla7Essay103(event.target.value)
-  // }
-  // const onChangela7Listener104 = (event) => {
-  //   setla7Essay104(event.target.value)
-  // }
-  // const onChangela7Listener105 = (event) => {
-  //   setla7Essay105(event.target.value)
-  // }
-  // const onChangela7Listener106 = (event) => {
-  //   setla7Essay106(event.target.value)
-  // }
-  // const onChangela7Listener107 = (event) => {
-  //   setla7Essay107(event.target.value)
-  // }
-  // const onChangela7Listener108 = (event) => {
-  //   setla7Essay108(event.target.value)
-  // }
-  // const onChangela7Listener109 = (event) => {
-  //   setla7Essay109(event.target.value)
-  // }
-  // const onChangela7Listener110 = (event) => {
-  //   setla7Essay110(event.target.value)
-  // }
-  // const onChangela7Listener111 = (event) => {
-  //   setla7Essay111(event.target.value)
-  // }
-  // const onChangela7Listener112 = (event) => {
-  //   setla7Essay112(event.target.value)
-  // }
-  // const onChangela7Listener113 = (event) => {
-  //   setla7Essay113(event.target.value)
-  // }
-  // const onChangela7Listener114 = (event) => {
-  //   setla7Essay114(event.target.value)
-  // }
-  // const onChangela7Listener115 = (event) => {
-  //   setla7Essay115(event.target.value)
-  // }
-  // const onChangela7Listener116 = (event) => {
-  //   setla7Essay116(event.target.value)
-  // }
-  // const onChangela7Listener117 = (event) => {
-  //   setla7Essay117(event.target.value)
-  // }
-  // const onChangela7Listener118 = (event) => {
-  //   setla7Essay118(event.target.value)
-  // }
-  // const onChangela7Listener119 = (event) => {
-  //   setla7Essay119(event.target.value)
-  // }
-  // const onChangela7Listener120 = (event) => {
-  //   setla7Essay120(event.target.value)
-  // }
-  // const onChangela7Listener121 = (event) => {
-  //   setla7Essay121(event.target.value)
-  // }
-  // const onChangela7Listener122 = (event) => {
-  //   setla7Essay122(event.target.value)
-  // }
-  // const onChangela7Listener123 = (event) => {
-  //   setla7Essay123(event.target.value)
-  // }
-  // const onChangela7Listener124 = (event) => {
-  //   setla7Essay124(event.target.value)
-  // }
-  // const onChangela7Listener125 = (event) => {
-  //   setla7Essay125(event.target.value)
-  // }
-  // const onChangela7Listener126 = (event) => {
-  //   setla7Essay126(event.target.value)
-  // }
-  // const onChangela7Listener127 = (event) => {
-  //   setla7Essay127(event.target.value)
-  // }
-  // const onChangela7Listener128 = (event) => {
-  //   setla7Essay128(event.target.value)
-  // }
-  // const onChangela7Listener129 = (event) => {
-  //   setla7Essay129(event.target.value)
-  // }
-  // const onChangela7Listener130 = (event) => {
-  //   setla7Essay130(event.target.value)
-  // }
-  // const onChangela7Listener131 = (event) => {
-  //   setla7Essay131(event.target.value)
-  // }
-  // const onChangela7Listener132 = (event) => {
-  //   setla7Essay132(event.target.value)
-  // }
-  // const onChangela7Listener133 = (event) => {
-  //   setla7Essay133(event.target.value)
-  // }
-  // const onChangela7Listener134 = (event) => {
-  //   setla7Essay134(event.target.value)
-  // }
-  // const onChangela7Listener135 = (event) => {
-  //   setla7Essay135(event.target.value)
-  // }
-  // const onChangela7Listener136 = (event) => {
-  //   setla7Essay136(event.target.value)
-  // }
-  // const onChangela7Listener137 = (event) => {
-  //   setla7Essay137(event.target.value)
-  // }
-  // const onChangela7Listener138 = (event) => {
-  //   setla7Essay138(event.target.value)
-  // }
-  // const onChangela7Listener139 = (event) => {
-  //   setla7Essay139(event.target.value)
-  // }
-  // const onChangela7Listener140 = (event) => {
-  //   setla7Essay140(event.target.value)
-  // }
-  // const onChangela7Listener141 = (event) => {
-  //   setla7Essay141(event.target.value)
-  // }
-  // const onChangela7Listener142 = (event) => {
-  //   setla7Essay142(event.target.value)
-  // }
-  // const onChangela7Listener143 = (event) => {
-  //   setla7Essay143(event.target.value)
-  // }
-  // const onChangela7Listener144 = (event) => {
-  //   setla7Essay144(event.target.value)
-  // }
-  // const onChangela7Listener145 = (event) => {
-  //   setla7Essay145(event.target.value)
-  // }
-  // const onChangela7Listener146 = (event) => {
-  //   setla7Essay146(event.target.value)
-  // }
-  // const onChangela7Listener147 = (event) => {
-  //   setla7Essay147(event.target.value)
-  // }
-  // const onChangela7Listener148 = (event) => {
-  //   setla7Essay148(event.target.value)
-  // }
-  // const onChangela7Listener149 = (event) => {
-  //   setla7Essay149(event.target.value)
-  // }
-  // const onChangela7Listener150 = (event) => {
-  //   setla7Essay150(event.target.value)
-  // }
-  // const onChangela7Listener151 = (event) => {
-  //   setla7Essay151(event.target.value)
-  // }
-  // const onChangela7Listener152 = (event) => {
-  //   setla7Essay152(event.target.value)
-  // }
-  // const onChangela7Listener153 = (event) => {
-  //   setla7Essay153(event.target.value)
-  // }
-  // const onChangela7Listener154 = (event) => {
-  //   setla7Essay154(event.target.value)
-  // }
-  // const onChangela7Listener155 = (event) => {
-  //   setla7Essay155(event.target.value)
-  // }
-  // const onChangela7Listener156 = (event) => {
-  //   setla7Essay156(event.target.value)
-  // }
-  // const onChangela7Listener157 = (event) => {
-  //   setla7Essay157(event.target.value)
-  // }
-  // const onChangela7Listener158 = (event) => {
-  //   setla7Essay158(event.target.value)
-  // }
-  // const onChangela7Listener159 = (event) => {
-  //   setla7Essay159(event.target.value)
-  // }
-  // const onChangela7Listener160 = (event) => {
-  //   setla7Essay160(event.target.value)
-  // }
-  // const onChangela7Listener161 = (event) => {
-  //   setla7Essay161(event.target.value)
-  // }
-  // const onChangela7Listener162 = (event) => {
-  //   setla7Essay162(event.target.value)
-  // }
-  // const onChangela7Listener163 = (event) => {
-  //   setla7Essay163(event.target.value)
-  // }
-  // const onChangela7Listener164 = (event) => {
-  //   setla7Essay164(event.target.value)
-  // }
-  // const onChangela7Listener165 = (event) => {
-  //   setla7Essay165(event.target.value)
-  // }
-  // const onChangela7Listener166 = (event) => {
-  //   setla7Essay166(event.target.value)
-  // }
-  // const onChangela7Listener167 = (event) => {
-  //   setla7Essay167(event.target.value)
-  // }
-  // const onChangela7Listener168 = (event) => {
-  //   setla7Essay168(event.target.value)
-  // }
-  // const onChangela7Listener169 = (event) => {
-  //   setla7Essay169(event.target.value)
-  // }
-  // const onChangela7Listener170 = (event) => {
-  //   setla7Essay170(event.target.value)
-  // }
-  // const onChangela7Listener171 = (event) => {
-  //   setla7Essay171(event.target.value)
-  // }
-  // const onChangela7Listener172 = (event) => {
-  //   setla7Essay172(event.target.value)
-  // }
-  // const onChangela7Listener173 = (event) => {
-  //   setla7Essay173(event.target.value)
-  // }
-  // const onChangela7Listener174 = (event) => {
-  //   setla7Essay174(event.target.value)
-  // }
-  // const onChangela7Listener175 = (event) => {
-  //   setla7Essay175(event.target.value)
-  // }
-  // const onChangela7Listener176 = (event) => {
-  //   setla7Essay176(event.target.value)
-  // }
-  // const onChangela7Listener177 = (event) => {
-  //   setla7Essay177(event.target.value)
-  // }
-  // const onChangela7Listener178 = (event) => {
-  //   setla7Essay178(event.target.value)
-  // }
-  // const onChangela7Listener179 = (event) => {
-  //   setla7Essay179(event.target.value)
-  // }
-  // const onChangela7Listener180 = (event) => {
-  //   setla7Essay180(event.target.value)
-  // }
+  const onChangela7Listener101 = (event) => {
+    setla7Essay101(event.target.value)
+  }
+  const onChangela7Listener102 = (event) => {
+    setla7Essay102(event.target.value)
+  }
+  const onChangela7Listener103 = (event) => {
+    setla7Essay103(event.target.value)
+  }
+  const onChangela7Listener104 = (event) => {
+    setla7Essay104(event.target.value)
+  }
+  const onChangela7Listener105 = (event) => {
+    setla7Essay105(event.target.value)
+  }
+  const onChangela7Listener106 = (event) => {
+    setla7Essay106(event.target.value)
+  }
+  const onChangela7Listener107 = (event) => {
+    setla7Essay107(event.target.value)
+  }
+  const onChangela7Listener108 = (event) => {
+    setla7Essay108(event.target.value)
+  }
+  const onChangela7Listener109 = (event) => {
+    setla7Essay109(event.target.value)
+  }
+  const onChangela7Listener110 = (event) => {
+    setla7Essay110(event.target.value)
+  }
+  const onChangela7Listener111 = (event) => {
+    setla7Essay111(event.target.value)
+  }
+  const onChangela7Listener112 = (event) => {
+    setla7Essay112(event.target.value)
+  }
+  const onChangela7Listener113 = (event) => {
+    setla7Essay113(event.target.value)
+  }
+  const onChangela7Listener114 = (event) => {
+    setla7Essay114(event.target.value)
+  }
+  const onChangela7Listener115 = (event) => {
+    setla7Essay115(event.target.value)
+  }
+  const onChangela7Listener116 = (event) => {
+    setla7Essay116(event.target.value)
+  }
+  const onChangela7Listener117 = (event) => {
+    setla7Essay117(event.target.value)
+  }
+  const onChangela7Listener118 = (event) => {
+    setla7Essay118(event.target.value)
+  }
+  const onChangela7Listener119 = (event) => {
+    setla7Essay119(event.target.value)
+  }
+  const onChangela7Listener120 = (event) => {
+    setla7Essay120(event.target.value)
+  }
+  const onChangela7Listener121 = (event) => {
+    setla7Essay121(event.target.value)
+  }
+  const onChangela7Listener122 = (event) => {
+    setla7Essay122(event.target.value)
+  }
+  const onChangela7Listener123 = (event) => {
+    setla7Essay123(event.target.value)
+  }
+  const onChangela7Listener124 = (event) => {
+    setla7Essay124(event.target.value)
+  }
+  const onChangela7Listener125 = (event) => {
+    setla7Essay125(event.target.value)
+  }
+  const onChangela7Listener126 = (event) => {
+    setla7Essay126(event.target.value)
+  }
+  const onChangela7Listener127 = (event) => {
+    setla7Essay127(event.target.value)
+  }
+  const onChangela7Listener128 = (event) => {
+    setla7Essay128(event.target.value)
+  }
+  const onChangela7Listener129 = (event) => {
+    setla7Essay129(event.target.value)
+  }
+  const onChangela7Listener130 = (event) => {
+    setla7Essay130(event.target.value)
+  }
+  const onChangela7Listener131 = (event) => {
+    setla7Essay131(event.target.value)
+  }
+  const onChangela7Listener132 = (event) => {
+    setla7Essay132(event.target.value)
+  }
+  const onChangela7Listener133 = (event) => {
+    setla7Essay133(event.target.value)
+  }
+  const onChangela7Listener134 = (event) => {
+    setla7Essay134(event.target.value)
+  }
+  const onChangela7Listener135 = (event) => {
+    setla7Essay135(event.target.value)
+  }
+  const onChangela7Listener136 = (event) => {
+    setla7Essay136(event.target.value)
+  }
+  const onChangela7Listener137 = (event) => {
+    setla7Essay137(event.target.value)
+  }
+  const onChangela7Listener138 = (event) => {
+    setla7Essay138(event.target.value)
+  }
+  const onChangela7Listener139 = (event) => {
+    setla7Essay139(event.target.value)
+  }
+  const onChangela7Listener140 = (event) => {
+    setla7Essay140(event.target.value)
+  }
+  const onChangela7Listener141 = (event) => {
+    setla7Essay141(event.target.value)
+  }
+  const onChangela7Listener142 = (event) => {
+    setla7Essay142(event.target.value)
+  }
+  const onChangela7Listener143 = (event) => {
+    setla7Essay143(event.target.value)
+  }
+  const onChangela7Listener144 = (event) => {
+    setla7Essay144(event.target.value)
+  }
+  const onChangela7Listener145 = (event) => {
+    setla7Essay145(event.target.value)
+  }
+  const onChangela7Listener146 = (event) => {
+    setla7Essay146(event.target.value)
+  }
+  const onChangela7Listener147 = (event) => {
+    setla7Essay147(event.target.value)
+  }
+  const onChangela7Listener148 = (event) => {
+    setla7Essay148(event.target.value)
+  }
+  const onChangela7Listener149 = (event) => {
+    setla7Essay149(event.target.value)
+  }
+  const onChangela7Listener150 = (event) => {
+    setla7Essay150(event.target.value)
+  }
+  const onChangela7Listener151 = (event) => {
+    setla7Essay151(event.target.value)
+  }
+  const onChangela7Listener152 = (event) => {
+    setla7Essay152(event.target.value)
+  }
+  const onChangela7Listener153 = (event) => {
+    setla7Essay153(event.target.value)
+  }
+  const onChangela7Listener154 = (event) => {
+    setla7Essay154(event.target.value)
+  }
+  const onChangela7Listener155 = (event) => {
+    setla7Essay155(event.target.value)
+  }
+  const onChangela7Listener156 = (event) => {
+    setla7Essay156(event.target.value)
+  }
+  const onChangela7Listener157 = (event) => {
+    setla7Essay157(event.target.value)
+  }
+  const onChangela7Listener158 = (event) => {
+    setla7Essay158(event.target.value)
+  }
+  const onChangela7Listener159 = (event) => {
+    setla7Essay159(event.target.value)
+  }
+  const onChangela7Listener160 = (event) => {
+    setla7Essay160(event.target.value)
+  }
+  const onChangela7Listener161 = (event) => {
+    setla7Essay161(event.target.value)
+  }
+  const onChangela7Listener162 = (event) => {
+    setla7Essay162(event.target.value)
+  }
+  const onChangela7Listener163 = (event) => {
+    setla7Essay163(event.target.value)
+  }
+  const onChangela7Listener164 = (event) => {
+    setla7Essay164(event.target.value)
+  }
+  const onChangela7Listener165 = (event) => {
+    setla7Essay165(event.target.value)
+  }
+  const onChangela7Listener166 = (event) => {
+    setla7Essay166(event.target.value)
+  }
+  const onChangela7Listener167 = (event) => {
+    setla7Essay167(event.target.value)
+  }
+  const onChangela7Listener168 = (event) => {
+    setla7Essay168(event.target.value)
+  }
+  const onChangela7Listener169 = (event) => {
+    setla7Essay169(event.target.value)
+  }
+  const onChangela7Listener170 = (event) => {
+    setla7Essay170(event.target.value)
+  }
+  const onChangela7Listener171 = (event) => {
+    setla7Essay171(event.target.value)
+  }
+  const onChangela7Listener172 = (event) => {
+    setla7Essay172(event.target.value)
+  }
+  const onChangela7Listener173 = (event) => {
+    setla7Essay173(event.target.value)
+  }
+  const onChangela7Listener174 = (event) => {
+    setla7Essay174(event.target.value)
+  }
+  const onChangela7Listener175 = (event) => {
+    setla7Essay175(event.target.value)
+  }
+  const onChangela7Listener176 = (event) => {
+    setla7Essay176(event.target.value)
+  }
+  const onChangela7Listener177 = (event) => {
+    setla7Essay177(event.target.value)
+  }
+  const onChangela7Listener178 = (event) => {
+    setla7Essay178(event.target.value)
+  }
+  const onChangela7Listener179 = (event) => {
+    setla7Essay179(event.target.value)
+  }
+  const onChangela7Listener180 = (event) => {
+    setla7Essay180(event.target.value)
+  }
 
   return (
     <form>
@@ -747,7 +747,8 @@ const LA7Component = ({ data }) => {
           <p className="margin-para">The books required for this course are: <i>The Little Prince </i> by Antoine de
             Saint Exupéry, <i> Long Walk to Water </i> by Linda Sue Park, <i> Hatchett </i> by Gary
             Paulsen, and <i> Esperanza Rising </i> by Pam Muñoz.</p>
-          <p className="margin-para">Until you get a copy, the first chapter of each book is linked as a PDF. The novels are available at
+          <p className="margin-para">Until you get a copy, the first chapter of each book is linked as a PDF. The novels
+            are available at
             your local library, local bookstore, or can be purchased online. If the books are out of copyright, they
             are provided below as PDFs. </p>
 
@@ -776,7 +777,7 @@ const LA7Component = ({ data }) => {
                 person, etc.
               </li>
               <li>What year was this novel written?</li>
-              <li>What did the narrator once draw?</li>
+              <li>What did the narrator once draw as a child?</li>
               <li>What did the adults think the child’s drawing looked like?</li>
               <li>What did the child ask the adults when he showed them the picture?</li>
               <li>How many drawings did the child make?</li>
@@ -1434,7 +1435,7 @@ const LA7Component = ({ data }) => {
             <Video videoUrl="https://www.youtube.com/embed/l3yWmXbC36s"/>
             <p>Review the <a
               href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-trailblazing-women/x4aa9073b12675eb1:building-knowledge/a/trailblazing-women-unit-vocabulary?modal=1"
-              rel="noreferrer" target="_blank"> vocabulary for this unit. (Click here)</a> </p>
+              rel="noreferrer" target="_blank"> vocabulary for this unit. (Click here)</a></p>
             <p>Complete the <a
               href="
               https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-trailblazing-women/x4aa9073b12675eb1:close-reading/e/trailblazing-women--reading-informational-text--katherine-johnson-7"
@@ -1449,7 +1450,8 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener21} value={la7Essay21}/>
 
           <span className="days">LESSON 22 </span>
-          <p className="topBottom"><a href={require("../resources/books/ALongWalktoWaterChapter1.pdf")} rel="noreferrer" target="_blank"> <i>A
+          <p className="topBottom"><a href={require("../resources/books/ALongWalktoWaterChapter1.pdf")} rel="noreferrer"
+                                      target="_blank"> <i>A
             Long Walk to Water</i></a> is based on the true story of Salva Dut, one of the Lost Boys from Sudan during a
             civil war in 1985. The book also includes a second perspective from a girl named Nya, which begins in 2008.
             The book is available at your local library, local bookstore, or can be
@@ -1457,7 +1459,7 @@ const LA7Component = ({ data }) => {
               href={require("../resources/books/ALongWalktoWaterChapter1.pdf")} rel="noreferrer"
               target="_blank"> here. <img src={require("../../public/images/bookCovers/longwalktowater.jpg")}
                                           alt="Long Walk to Water novel"/></a></p>
-                    <p>Read Chapter 1, answer the questions and complete the vocabulary assignment below. <br/>
+          <p>Read Chapter 1, answer the questions and complete the vocabulary assignment below. <br/>
             1. Why does the author use different styles of print and different time periods in the same Chapter? What
             can be learned from this style of writing?<br/>
             2. Describe Salva as a student, his school and what he learns. Can you make any
@@ -1510,8 +1512,9 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener23} value={la7Essay23}/>
 
           <span className="days">LESSON 24 </span>
-          <p className="topBottom">Read Chapter 3, answer the questions and complete the vocabulary assignment below.</p>
-          <p className="topBottom"> <strong>2008</strong><br/>
+          <p className="topBottom">Read Chapter 3, answer the questions and complete the vocabulary assignment
+            below.</p>
+          <p className="topBottom"><strong>2008</strong><br/>
             1. In each of the Chapters so far, the author tells Nya’s story first. Why do you think
             she does this?<br/>
             2. What has been the purpose of Nya’s journey every day?<br/>
@@ -1594,7 +1597,7 @@ const LA7Component = ({ data }) => {
             problem?<br/>
             4. List all the elements working against their survival.<br/>
             5. What does it mean: "A cold fist seemed to grip
-            Salva’s heart?"  What has happened?<br/>
+            Salva’s heart?" What has happened?<br/>
             6. If you had to choose to be Nya or Salva, explain whose shoes you would rather
             walk in. Why?<br/>
             <strong>Vocabulary</strong><br/>
@@ -1835,7 +1838,8 @@ const LA7Component = ({ data }) => {
               <li> clinic</li>
               <li> remote</li>
               <li> arrangements</li>
-              <li> frantic </li></ol>
+              <li> frantic</li>
+            </ol>
           </p>
           <textarea className="textArea" onChange={onChangela7Listener37} value={la7Essay37}/>
 
@@ -1957,24 +1961,28 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener44} value={la7Essay44}/>
 
           <span className="days">LESSON 45 </span>
-          <p>The novel <strong>Hatchet </strong> by Gary Paulsen is a wilderness survival story. Brian Robeson is a thirteen
+          <p>The novel <strong>Hatchet </strong> by Gary Paulsen is a wilderness survival story. Brian Robeson is a
+            thirteen
             year old boy traveling in a small airplane to Canada to spend the summer with his father. When the
             plane crashes in an uninhabited part of the Canadian woods, he must find a way to survive on his own.
           </p>
-          <p className="topBottom"><strong>Hatchet </strong> is available at your local library, local bookstore and online for purchase. Until
+          <p className="topBottom"><strong>Hatchet </strong> is available at your local library, local bookstore and
+            online for purchase. Until
             your copy arrives, <a href={require("../resources/books/HatchetChapter1.pdf")} rel="noreferrer"
                                   target="_blank"> Chapter 1 is provided here. </a></p>
           <p className="topBottom"><a href={require("../resources/books/HatchetChapter1.pdf")} rel="noreferrer"
-                target="_blank"><img src={require("../../public/images/bookCovers/hatchet.jpg")}
-                                     alt="Hatchet novel"/></a><br/>
+                                      target="_blank"><img src={require("../../public/images/bookCovers/hatchet.jpg")}
+                                                           alt="Hatchet novel"/></a><br/>
             <ol className="vocab">After you read Chapter 1, answer the questions below using complete sentences.<br/>
               <li>Who is narrating the story?</li>
               <li>Why was Brian traveling in a small bush plane by himself?</li>
               <li>Explain why Brian is having a tough time accepting his parents’ divorce.</li>
               <li>What did Brian’s mother give him as a gift before he leaves? How does Brian feel about the
-                gift?</li>
+                gift?
+              </li>
               <li>Do you believe it says something about his relationship with his mother that he wore the hatchet
-                instead of just putting it in a bag?</li>
+                instead of just putting it in a bag?
+              </li>
               <li>Why was Brian "stricken with a white-flash of horror."</li>
               <li>What tips about flying a plane did the pilot give to Brian?</li>
               <li>What happens to the pilot while they are flying over the Canadian woods? Describe Brian’s
@@ -2131,14 +2139,16 @@ const LA7Component = ({ data }) => {
           <p>
             <ol className="vocab">
               <li>Brian is forced to learn a lot of lessons about survival quickly. There are lessons he should have
-                learned the first time. List at least one. </li>
+                learned the first time. List at least one.
+              </li>
               <li>How is Brian doing after eating so many berries?</li>
               <li>Brian remembers something that is painful. What is it?</li>
               <li>He sees somethings that makes him "do nothing, think nothing." What does he see? Is he harmed? How do
-                you  think you would have reacted?
+                you think you would have reacted?
               </li>
               <li>Do you agree with Brian when he thinks that a city park at night was more dangerous than the woods he
-                was  in? Explain.  </li>
+                was in? Explain.
+              </li>
               <li>What would be a good title for this chapter?</li>
               <li>How do you like Brian? What characteristics/qualities do you like or dislike about him?</li>
               <li>Overall, how well do you think he is managing the difficulties coming his way?</li>
@@ -2537,7 +2547,8 @@ const LA7Component = ({ data }) => {
 
           <span className="days">LESSON 65 </span>
           <h4>Five Paragraph Essay</h4>
-          <p className="topBottom"> Do you think Brian is better or worse off for having experienced surviving alone in the Canadian
+          <p className="topBottom"> Do you think Brian is better or worse off for having experienced surviving alone in
+            the Canadian
             wilderness? Before answering this question for your essay, think about the qualities he develops during
             that time and how these qualities may affect Brian for the rest of his life.</p>
           <p> Essay Requirements</p>
@@ -2560,12 +2571,15 @@ const LA7Component = ({ data }) => {
 
           <span className="days">LESSON 66 </span>
           <h4>Survival Kit</h4>
-          <p className="topBottom">Shortly before Brian gets rescued, you are given clues that summer is ending and it will be cold soon.
+          <p className="topBottom">Shortly before Brian gets rescued, you are given clues that summer is ending and it
+            will be cold soon.
             Winter in the Canadian wilderness presents new problems that Brian would have to deal with. List what you
             think these problems will be. </p>
-          <p className="topBottom">If you could prepare a survival kit to successfully get Brian through the winter, what would you include
+          <p className="topBottom">If you could prepare a survival kit to successfully get Brian through the winter,
+            what would you include
             in the kit. List at least ten items you would place in the kit. You may research this online.</p>
-          <p className="topBottom">Now imagine you are the one who is trying to survive in the Canadian wilderness in the middle of winter.
+          <p className="topBottom">Now imagine you are the one who is trying to survive in the Canadian wilderness in
+            the middle of winter.
             Are there any items you would place in the survival kit for yourself that you didn’t include for
             Brian? </p>
           <textarea className="textArea" onChange={onChangela7Listener66} value={la7Essay66}/>
@@ -2615,7 +2629,7 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener69} value={la7Essay69}/>
 
           <span className="days">LESSON 70 </span>
-          <p className="topBottom">Watch the videos and complete the assignments posted below from Khan Academy:
+          <p className="topBottom">Watch the video and complete the assignments posted below from Khan Academy:
             Reading for understanding: fiction. </p>
           <Video videoUrl="https://www.youtube.com/embed/gUW2jit3uvo"/>
           <p>After you read <a
@@ -2636,7 +2650,94 @@ const LA7Component = ({ data }) => {
             follow the article. Then in the textbox below, write a brief summary about what you read.</p>
           <textarea className="textArea" onChange={onChangela7Listener71} value={la7Essay71}/>
 
-          <span className="days">LESSON 72 - Poetry</span>
+          <span className="days">LESSON 72</span>
+          <p>Watch the the video below about <strong>Figurative Language</strong> and then answer the questions that
+            follow.
+          </p>
+          <Video videoUrl="https://www.youtube.com/embed/rW4DtZGxjq0"/>
+          <p className="topBottom">Figurative language refers to any use of language that goes beyond the literal
+            meaning of the words themselves.</p>
+
+          <p className="topBottom">We most often associate figurative language with poetry, but figurative language
+            widely is found in everything from fiction and folk music to drama and our daily speech. It's a
+            sophisticated, creative use
+            of language to convey meaning and mood. It's an important tool in the writer's toolbox. </p>
+
+          <p className="topBottom"><strong>Hyperbole</strong> uses extreme exaggeration and is not meant to be taken
+            literally. Examples: I'm so hungry I could eat a horse. I could have died of embarrassment.</p>
+
+          <p className="topBottom"><strong>Idioms</strong> are figures of speech that cannot be understood from a
+            literal
+            understanding of the words
+            alone. Examples: The cat is out of the bag. Stop beating around the bush. <br/>Someone visiting from
+            another country would not understand these phrases without someone explaining the meaning.</p>
+
+          <p className="topBottom"><strong>Similes </strong>make comparisons between two unrelated elements by using
+            'like' or
+            'as' to highlight a
+            common quality both things share. Examples: Her eyes shone like diamonds. He was as strong as a horse.
+          </p>
+
+          <p className="topBottom">A <strong>metaphor</strong> makes a comparison between two unrelated things by
+            stating one
+            thing is the other
+            thing. Example: Life is a rollercoaster.</p>
+
+          <p className="topBottom"><strong>Oxymorons </strong>combine two opposing elements into a single phrase to be
+            thought
+            provoking or funny.
+            Example: Deafening silence. A known secret.</p>
+
+          <p className="topBottom"><strong>Personification</strong> is a metaphor where human actions, feelings or
+            traits are
+            given to a non-human.
+            Examples: Books were her constant companions. That car's a beauty. An angry sky.</p>
+
+          <p className="topBottom"><strong>Alliteration </strong>is the repetition of the same letter sound across the
+            start
+            of several words in a
+            line of text. The word comes from the Latin "littera," meaning "letter of the alphabet". Example: The
+            slithering snake slid sideways silently. </p>
+
+          <p className="topBottom"><strong>Assonance </strong>is the repetition of vowel <i>sounds</i> within a group of
+            words. Example: Fleet feet
+            sweep by sleeping geese. Dr. Suess often used alliteration and assonance in his books: Through three
+            cheese trees three free fleas flew. While these fleas flew, freezy breeze blew. </p>
+
+          <p className="topBottom">Allusion is an <i>implied </i>reference to a person, event, or thing based on the
+            assumption that you
+            know what the person is talking about. The author assumes the reader will understand the reference.
+            Example: <i> You're acting like such a Scrooge! </i>This assumes the reader is familiar with the Scrooge
+            character from Dickens's A Christmas Carol. This means that the person is being selfish, like the
+            character from the story.</p>
+
+          <p className="topBottom">State which type of figurative language is used in each example below:<br/>
+            1. "Her face is like a sunbeam." <br/>
+            2. "The tropical storm slept for two days." <br/>
+            3. "I had so much homework, I needed a pickup truck to carry all my books home!" <br/>
+            4. What is a literary technique in which two contradictory words come together for a special effect? For
+            example, <i>original copy</i> or <i>jumbo shrimp</i>?<br/>
+            5. "Let us go forth and lead the land we love" contains an example of what type of figurative
+            language?<br/>
+            6. "We real cool. We Left school. We Lurk late. We Strike straight. We Sing sin. We Thin gin. We Jazz
+            June. We Die soon." In this poem by Gwendolyn Brooks, what poetic device is used?</p>
+          <p>
+            <ol className="vocab">Give an example for each of the following. <br/>
+              <li>Hyperbole</li>
+              <li>Idiom</li>
+              <li>Simile</li>
+              <li>Metaphor</li>
+              <li>Oxymorons</li>
+              <li>Personification</li>
+              <li>Alliteration</li>
+              <li>Assonance</li>
+              <li>Allusion</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener72} value={la7Essay72}/>
+
+          <img src={require("../../public/images/poems/poetry.jpg")} alt="poetry"/>
+          <span className="days">LESSON 73 </span>
           <h4> What makes a poem … a poem?</h4>
           <p className="topBottom">What exactly makes a poem … a poem? Poets themselves have struggled with this
             question, often using metaphors to approximate a definition. Is a poem a little machine? A firework? An
@@ -2649,9 +2750,9 @@ const LA7Component = ({ data }) => {
             <ol className="vocab">
               <li> What are characteristics traditionally associated with poetry?</li>
               <li> In what way was Joanna Smith’s tweet like a poem?</li>
-              <li> The word poetry comes from the Greek “poiesis.” What does this word mean?</li>
+              <li> The word poetry comes from the Greek "poiesis." What does this word mean?</li>
               <li> What is a haiku?</li>
-              <li> What does Reinhard Dohl’s “Apfel” have in common with e.e. cummings’ “l(a)”?</li>
+              <li> What does Reinhard Dohl’s "Apfel" have in common with e.e. cummings’ "l(a)"?</li>
               <li> What does the Dartmouth study mentioned in the video suggest about the nature of poetry? Were you
                 surprised by the results of the study?
               </li>
@@ -2661,35 +2762,6 @@ const LA7Component = ({ data }) => {
               <li> Find an example from a novel or short story that reads like poetry. What makes it sound poetic?</li>
             </ol>
           </p>
-          <textarea className="textArea" onChange={onChangela7Listener72} value={la7Essay72}/>
-
-          <span className="days">LESSON 73 </span>
-          <h4>The pleasure of poetic pattern</h4> <p>Humans are creatures of rhythm and repetition. From our breath to
-          our gait: rhythm is central to our experience, and often brings us pleasure. We can find pleasure in the
-          rhythm of a song, or even the rows of an orchard. Of course, too much repetition can also backfire. David
-          Silverstein describes what poetic repetition is and why it works.</p>
-          <Video videoUrl="https://www.youtube.com/embed/URuMb15CWJs"/>
-          <h4> Dr. Maya Angelou Recites Her Poem "Phenomenal Woman"</h4>
-          <Video videoUrl="https://www.youtube.com/embed/VeFfhH83_RE"/>
-          <ol className="vocab">
-            <li> We are creatures of repetition within our own bodies. Which bodily functions involve rhythm and
-              repetition?
-            </li>
-            <li> What is an example of repetition in language?</li>
-            <li> A repeated pattern of stressed syllables is known as what?</li>
-            <li> What is the repetition of vowel sounds called.</li>
-            <li> Think of song lyrics that employs repetition. What is the name of the song? How does the singer use
-              poetic devices such as rhyme, assonance, consonance, or alliteration?
-            </li>
-            <li> Have you noticed some lines/lyrics are more fun to sing along with than others? Does repetition of
-              sound appear more or less in those lines/lyrics? If so, which kinds of repetition do they use?
-            </li>
-            <li> Can you find a visual representation of repetition in your world? Maybe repeated rows of desks? Or
-              roads lined with trees? How might you capture that repetition in language, so someone might visualize the
-              patterns without physically seeing them?
-            </li>
-          </ol>
-          <br/>
           <textarea className="textArea" onChange={onChangela7Listener73} value={la7Essay73}/>
 
           <span className="days">LESSON 74 </span>
@@ -2699,59 +2771,66 @@ const LA7Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/A0edKgL9EgM"/>
           <h4>Fog</h4>
           <p>BY CARL SANDBURG</p>
-          <img style={{width: "600px"}} src={require("../../public/images/poems/fog.jpg")} alt="fog poem"/><br/>
+          <img style={{ width: "600px" }} src={require("../../public/images/poems/fog.jpg")} alt="fog poem"/><br/>
 
-         <p className="topBottom"> <h4>Mother to Son</h4>
-          <ul style={{ color: "#7c7f93"}}>
-            <li>BY LANGSTON HUGHES</li>
-            <li>Well, son, I’ll tell you:</li>
-            <li>Life for me ain’t been no crystal stair.</li>
-            <li>It’s had tacks in it, </li>
-            <li>And splinters,</li>
-            <li>And boards torn up,</li>
-            <li>And places with no carpet on the floor—</li>
-            <li>Bare.</li>
-            <li>But all the time</li>
-            <li>I’se been a-climbin’ on,</li>
-            <li>And reachin’ landin’s,</li>
-            <li>And turnin’ corners,</li>
-            <li>And sometimes goin’ in the dark</li>
-            <li>Where there ain’t been no light.</li>
-            <li>So boy, don’t you turn back.</li>
-            <li>Don’t you set down on the steps</li>
-            <li>’Cause you finds it’s kinder hard.</li>
-            <br/>
-            <li>Don’t you fall now—</li>
-            <li>For I’se still goin’, honey,</li>
-            <li> I’se still climbin’,</li>
-            <li>And life for me ain’t been no crystal stair.</li>
-          </ul></p>
+          <p className="topBottom"><h4>Mother to Son</h4>
+            <ul style={{ color: "#7c7f93" }}>
+              <li>BY LANGSTON HUGHES</li>
+              <li>Well, son, I’ll tell you:</li>
+              <li>Life for me ain’t been no crystal stair.</li>
+              <li>It’s had tacks in it,</li>
+              <li>And splinters,</li>
+              <li>And boards torn up,</li>
+              <li>And places with no carpet on the floor—</li>
+              <li>Bare.</li>
+              <li>But all the time</li>
+              <li>I’se been a-climbin’ on,</li>
+              <li>And reachin’ landin’s,</li>
+              <li>And turnin’ corners,</li>
+              <li>And sometimes goin’ in the dark</li>
+              <li>Where there ain’t been no light.</li>
+              <li>So boy, don’t you turn back.</li>
+              <li>Don’t you set down on the steps</li>
+              <li>’Cause you finds it’s kinder hard.</li>
+              <br/>
+              <li>Don’t you fall now—</li>
+              <li>For I’se still goin’, honey,</li>
+              <li> I’se still climbin’,</li>
+              <li>And life for me ain’t been no crystal stair.</li>
+            </ul>
+          </p>
           <p className="topBottom"><strong>Answer the following questions based on the video and poems above.</strong>
-          <ol className="vocab">
-            <li> In the video, the speaker says that a metaphor is almost never factually true, but still can be “right”
-              or not. Her example is that “We know what it feels like to be a square wheel but not what it feels like to
-              be a tired whale.” What do you think it means to say “I feel like a square wheel”? Can you describe that
-              feeling in ordinary language, without using any images?
-            </li>
-            <li> Langston Hughes’s poem “Mother to Son” uses a house as a metaphor for a hard life. If you had to
-              describe your own life right now with a metaphor, what object would you compare your life to? (You can use
-              a simile if that’s easier, and write the phrase “My life feels like a _______” as a way to get started.)
-              Once you’ve picked the object, describe the object for a few sentences. (What you’re doing here is making
-              up and exploring a new extended metaphor of your own.)
-            </li>
-            <li> Do you think that a description of a cricket would be read the same way or mean the same thing if it
-              had been in a science paper about crickets instead of a poem? Do we read things in different ways at
-              different times, and can you say why a person might want to read a poem (or listen to the words of a song)
-              at all?
-            </li>
-            <li> What is a metaphor? Define it using your own words.</li>
-            <li> What is a simile?</li>
-            <li> "An elephant in the room" is a way of saying what?</li>
-            <li> How would you describe the mother in Langston Hughes' poem "Mother to Son"? What kind of life has she
-              had?
-            </li>
-            <li> Why do you think poets enjoy using metaphors so much?</li>
-          </ol></p>
+            <ol className="vocab">
+              <li> In the video, the speaker says that a metaphor is almost never factually true, but still can be
+                "right" or not. Her example is that "We know what it feels like to be a square wheel but not what it
+                feels like
+                to be a tired whale." What do you think it means to say "I feel like a square wheel"? Can you describe
+                that
+                feeling in ordinary language, without using any images?
+              </li>
+              <li> Langston Hughes’s poem "Mother to Son" uses a house as a metaphor for a hard life. If you had to
+                describe your own life right now with a metaphor, what object would you compare your life to? (You can
+                use
+                a simile if that’s easier, and write the phrase "My life feels like a _______" as a way to get started.)
+                Once you’ve picked the object, describe the object for a few sentences. (What you’re doing here is
+                making
+                up and exploring a new extended metaphor of your own.)
+              </li>
+              <li> Do you think that a description of a cricket would be read the same way or mean the same thing if it
+                had been in a science paper about crickets instead of a poem? Do we read things in different ways at
+                different times, and can you say why a person might want to read a poem (or listen to the words of a
+                song)
+                at all?
+              </li>
+              <li> What is a metaphor? Define it using your own words.</li>
+              <li> What is a simile?</li>
+              <li> "An elephant in the room" is a way of saying what?</li>
+              <li> How would you describe the mother in Langston Hughes' poem "Mother to Son"? What kind of life has she
+                had?
+              </li>
+              <li> Why do you think poets enjoy using metaphors so much?</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener74} value={la7Essay74}/>
 
           <span className="days">LESSON 75 </span>
@@ -2777,7 +2856,7 @@ const LA7Component = ({ data }) => {
             <li> The poet uses words like "despair" and "lonely" and creates an image of someone walking on his/her
               knees. Is this poem hopeful or hopeless? Both at once? Or somewhere in between?
             </li>
-            <li> In "Wild Geese," what is the poet trying to convince us of? </li>
+            <li> In "Wild Geese," what is the poet trying to convince us of?</li>
             <li>Are you convinced?</li>
           </ol>
           <textarea className="textArea" onChange={onChangela7Listener75} value={la7Essay75}/>
@@ -2787,8 +2866,10 @@ const LA7Component = ({ data }) => {
           <p>Shakespeare sometimes gets a bad rap for his complex plots and antiquated language. But a quick peek into
             the rhythm of his words reveals a poet deeply rooted in the way people spoke in his time — and still speak
             today.</p>
-          <p className="topBottom">Why do Shakespeare’s words have such staying power? In the first video, David T. Freeman and Gregory Taylor uncover the
-            power of iambic pentameter. In the second video, Crash Course covers Shakespeare’s Sonnets, including <i>Shall I
+          <p className="topBottom">Why do Shakespeare’s words have such staying power? In the first video, David T.
+            Freeman and Gregory Taylor uncover the
+            power of iambic pentameter. In the second video, Crash Course covers Shakespeare’s Sonnets, including <i>Shall
+              I
               Compare Thee to a Summer’s Day.</i></p>
           <Video videoUrl="https://www.youtube.com/embed/I5lsuyUNu_4"/>
           <Video videoUrl="https://www.youtube.com/embed/bDpW1sHrBaU"/>
@@ -2806,7 +2887,8 @@ const LA7Component = ({ data }) => {
             <li> When in eternal lines to time thou growest:</li>
             <li> So long as men can breathe or eyes can see,</li>
             <li> So long lives this and this gives life to thee.</li>
-          </ul><br/>
+          </ul>
+          <br/>
           <p className="topBottom">The following questions are based on the videos and poem above.</p>
           <ol className="vocab">
             <li> What is the stress pattern of an iamb?</li>
@@ -2818,25 +2900,29 @@ const LA7Component = ({ data }) => {
               sentences or long sentences? And does your language change depending on the kind of emotion you’re
               feeling?
             </li>
-            <li> Review the definitions of “trochee” and “dactyl.” To which kinds of moods or tones might these types of
+            <li> Review the definitions of "trochee" and "dactyl." To which kinds of moods or tones might these types of
               feet be suited, based on the way they sound in verse?
             </li>
             <li> What is the message of the sonnet?</li>
-            <li> In "Sonnet 18," is the “beloved” ultimately better or worse than a summer's day?</li>
+            <li> In "Sonnet 18," is the "beloved" ultimately better or worse than a summer's day?</li>
           </ol>
           <br/>
           <textarea className="textArea" onChange={onChangela7Listener76} value={la7Essay76}/>
 
           <span className="days">LESSON 77 </span>
-          <h4>Insults by Shakespeare</h4> <p className="topBottom">"You’re a fishmonger!" By taking a closer look at Shakespeare’s
+          <h4>Insults by Shakespeare</h4> <p className="topBottom">"You’re a fishmonger!" By taking a closer look at
+          Shakespeare’s
           words–specifically his insults–we see why he is known as a master playwright whose works transcend time
           and appeal to audiences all over the world.</p>
-          <p className="topBottom"> Along with writing some of most famous quotes in literature, Shakespeare’s insults, put-downs, and
+          <p className="topBottom"> Along with writing some of most famous quotes in literature, Shakespeare’s insults,
+            put-downs, and
             cussing were second to none. After you watch the video and read the poem below, answer the questions in
             the textbox below. </p>
           <Video videoUrl="https://www.youtube.com/embed/vdCjKH5IKJ8"/>
-          <p className='margin-para'>Sometimes Shakepeare’s insults were ironic; they were meant to have the opposite effect and be a
-            compliment. He did this in <strong> Sonnet 130: My Mistress Eyes are Nothing Like the Sun.</strong> Shakespeare
+          <p className='margin-para'>Sometimes Shakepeare’s insults were ironic; they were meant to have the opposite
+            effect and be a
+            compliment. He did this in <strong> Sonnet 130: My Mistress Eyes are Nothing Like the
+              Sun.</strong> Shakespeare
             shows irony through different metaphors and similes.</p>
           <ul>
             <li className="poem">My mistress' eyes are nothing like the sun;</li>
@@ -2864,11 +2950,13 @@ const LA7Component = ({ data }) => {
             <li> &nbsp; As any she belied with false compare.</li>
             <li className="interpret"> &nbsp; I think my beloved is as special as any she is compared to with lies.
             </li>
-          </ul><br/>
+          </ul>
+          <br/>
           <h4>Questions</h4>
           <ol className="vocab">
             <li className="poem"><i>Based on the video: </i>How do you think audience reactions to Shakespeare's
-              work has changed  over the years? How have his audiences changed over time?</li>
+              work has changed over the years? How have his audiences changed over time?
+            </li>
             <li> According to Gudenrath, what is one of Shakespeare's most impressive accomplishments?</li>
             <li> What is the purpose of dialogue in drama?</li>
             <li> What does fishmonger mean in the context of Shakespeare's play Hamlet?</li>
@@ -2914,7 +3002,8 @@ const LA7Component = ({ data }) => {
             <li>The oral tradition of "Iliad" and "Odyssey" make these stories cultural, communal, entertainment
               experiences. Since Homer’s time, in what ways has public, communal entertainment changed?
             </li>
-            <h4>Based on the second video <i>A Long and Difficult Journey, or The Odyssey: Crash Course Literature</i></h4>
+            <h4>Based on the second video <i>A Long and Difficult Journey, or The Odyssey: Crash Course Literature</i>
+            </h4>
             <li>What is an "Epic Poem"?</li>
             <li>Who is Telemachus?</li>
             <li>Who is Penelope?</li>
@@ -2944,7 +3033,7 @@ const LA7Component = ({ data }) => {
           come. Watch the video below and then answer the questions about Apollinaire.</p>
           <Video videoUrl="https://www.youtube.com/embed/YJ0x1YOuMwQ"/>
           <h4> Ocean of Earth </h4>
-          <ul  style={{ color: "#7c7f93" }}>
+          <ul style={{ color: "#7c7f93" }}>
             <li>by GUILLAUME APOLLINAIRE</li>
             <li className="poem">I have built a house in the middle of the Ocean</li>
             <li>Its windows are the rivers flowing from my eyes</li>
@@ -2966,7 +3055,8 @@ const LA7Component = ({ data }) => {
             <li>Pale octopi of the chalky waves O octopi with pale beaks</li>
             <li>Around the house is this ocean that you know well</li>
             <li> And is never still</li>
-          </ul><br/>
+          </ul>
+          <br/>
           <ol className="vocab">QUESTIONS<br/>
             <li className="poem"><i>Based on the video:</i> Which new form of liberty does Apollinaire experiment
               with in his poetry?
@@ -3011,7 +3101,8 @@ const LA7Component = ({ data }) => {
             <li>Ceaselessly musing, venturing, throwing, seeking the spheres to connect them,</li>
             <li>Till the bridge you will need be form’d, till the ductile anchor hold,</li>
             <li>Till the gossamer thread you fling catch somewhere, O my soul.</li>
-          </ul><br/>
+          </ul>
+          <br/>
           <h4>Questions</h4>
           <ol className="vocab">
             <li>Whitman uses alliteration (the occurrence of the same letter or sound at the beginning of closely
@@ -3045,10 +3136,12 @@ const LA7Component = ({ data }) => {
 
           <span className="days">LESSON 81 </span>
           <h4>Robert Frost (1874- 1963)</h4>
-          <p className="topBottom">Robert Frost was an American poet known for his poems about life in New England’s countryside. When his
+          <p className="topBottom">Robert Frost was an American poet known for his poems about life in New England’s
+            countryside. When his
             father died in 1885, Frost and his sister lived with their grandparents while his mother pursued work as
             a teacher in the northeast. </p>
-          <p className="topBottom">After graduating high school, he briefly attended Dartmouth College but quit to pursue becoming a poet.
+          <p className="topBottom">After graduating high school, he briefly attended Dartmouth College but quit to
+            pursue becoming a poet.
             Until he was unable to earn money as a poet, he farmed and taught school. Shortly after getting married
             and starting a family, he moved to England and published collections of his poems. When he moved back to
             the United States three years later he was famous. </p>
@@ -3063,7 +3156,7 @@ const LA7Component = ({ data }) => {
           Analysis of Fire and Ice
           <Video videoUrl="https://www.youtube.com/embed/p0YjUfmwBC0"/>
           <h4 className="topBottom">BY ROBERT FROST</h4>
-          <ul style={{color:"#7c7f93" }}>
+          <ul style={{ color: "#7c7f93" }}>
             <li className="poem">Some say the world will end in fire,</li>
             <li>Some say in ice.</li>
             <li>From what I’ve tasted of desire</li>
@@ -3073,7 +3166,8 @@ const LA7Component = ({ data }) => {
             <li>To say that for destruction ice</li>
             <li>Is also great</li>
             <li>And would suffice.</li>
-          </ul><br/>
+          </ul>
+          <br/>
           <h4>Questions</h4>
           <ol className="vocab">
             <li>What is the message of the poem? What is it about?</li>
@@ -3096,7 +3190,8 @@ const LA7Component = ({ data }) => {
           <h4><i>First Kiss</i> by Tim Seibles </h4>
           <Video videoUrl="https://www.youtube.com/embed/dv9sgFHS2Do?list=PLJicmE8fK0Egxi0hgy5Tw-NFyLcpJ4bzJ"/>
           <ol className="vocab">
-            <li><strong>Based on the poem <i>If </i>by Rudyard Kipling: </strong> Why is Kipling’s poem titled "If"?</li>
+            <li><strong>Based on the poem <i>If </i>by Rudyard Kipling: </strong> Why is Kipling’s poem titled "If"?
+            </li>
             <li> What are qualities that ‘make a man’ according to Kipling?</li>
             <li> What does the poet say about lies and hate?</li>
             <li>Why does the poet call triumph and disaster two impostors?</li>
@@ -3221,7 +3316,8 @@ const LA7Component = ({ data }) => {
             <li>That ends this strange eventful history,</li>
             <li>Is second childishness and mere oblivion;</li>
             <li>Sans teeth, sans eyes, sans taste, sans everything.</li>
-          </ul><br/>
+          </ul>
+          <br/>
           <p><strong>Answer the questions below in complete sentences.</strong></p>
           <ol className="vocab">
             <li> Jaques’ speech is a metaphor. What are the two main things he’s comparing?</li>
@@ -3334,7 +3430,7 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener87} value={la7Essay87}/>
 
           <span className="days">LESSON 88 </span>
-          <h4>The Poetry of Sylvia Plath by Crash Course Literature </h4>
+          <h4>The Poetry of Sylvia Plath</h4>
           <Video videoUrl="https://www.youtube.com/embed/iJn0ZPd6mYo"/>
           <h4>Why should you read Sylvia Plath? by Iseult Gillespie</h4>
           <Video videoUrl="https://www.youtube.com/embed/wCWl8ZIgCHk"/>
@@ -3374,6 +3470,35 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener88} value={la7Essay88}/>
 
           <span className="days">LESSON 89 </span>
+          <h4>The pleasure of poetic pattern</h4> <p>Humans are creatures of rhythm and repetition. From our breath to
+          our gait: rhythm is central to our experience, and often brings us pleasure. We can find pleasure in the
+          rhythm of a song, or even the rows of an orchard. Of course, too much repetition can also backfire. David
+          Silverstein describes what poetic repetition is and why it works.</p>
+          <Video videoUrl="https://www.youtube.com/embed/URuMb15CWJs"/>
+          <h4> Dr. Maya Angelou Recites Her Poem "Phenomenal Woman"</h4>
+          <Video videoUrl="https://www.youtube.com/embed/VeFfhH83_RE"/>
+          <ol className="vocab">
+            <li> We are creatures of repetition within our own bodies. Which bodily functions involve rhythm and
+              repetition?
+            </li>
+            <li> What is an example of repetition in language?</li>
+            <li> A repeated pattern of stressed syllables is known as what?</li>
+            <li> What is the repetition of vowel sounds called.</li>
+            <li> Think of song lyrics that employs repetition. What is the name of the song? How does the singer use
+              poetic devices such as rhyme, assonance, consonance, or alliteration?
+            </li>
+            <li> Have you noticed some lines/lyrics are more fun to sing along with than others? Does repetition of
+              sound appear more or less in those lines/lyrics? If so, which kinds of repetition do they use?
+            </li>
+            <li> Can you find a visual representation of repetition in your world? Maybe repeated rows of desks? Or
+              roads lined with trees? How might you capture that repetition in language, so someone might visualize the
+              patterns without physically seeing them?
+            </li>
+          </ol>
+          <br/>
+          <textarea className="textArea" onChange={onChangela7Listener89} value={la7Essay89}/>
+
+          <span className="days">LESSON 90 </span>
           <h4>How to Write a Poem</h4>
           <p>The following is from <i>Literacy at Work: How to Write a Poem with Glenis Redmond.</i></p>
           {/*<p>Taken from <i>Countdown to Poetry Writing</i> by Steve Bowkett</p>*/}
@@ -3416,25 +3541,22 @@ const LA7Component = ({ data }) => {
             <li>I could stop on a dime</li>
             <li>and give you nine cents change.</li>
           </ul>
-          <textarea className="textArea" onChange={onChangela7Listener89} value={la7Essay89}/>
+          <textarea className="textArea" onChange={onChangela7Listener90} value={la7Essay90}/>
 
-          <span className="days">LESSON 90 </span>
-          <h4><i><a href="https://www.poetryfoundation.org/poems/45081/the-cremation-of-sam-mcgee" rel="noreferrer"
-                    target="_blank"> Cremation of Sam McGee</a></i> by Robert W. Service </h4>
-          <Video videoUrl="https://www.youtube.com/embed/yJNZwuamwj0"/>
-
-          <h4><i><a href="https://poets.org/poem/do-not-go-gentle-good-night">Do Not Go Gentle into that Good
-            Night</a></i> by Dylan Thomas</h4>
-          <Video videoUrl="https://www.youtube.com/embed/w1JJ5actiUM"/>
-
-          <h4><i><a href="https://www.poetryfoundation.org/poems/46548/harlem">Harlem</a></i> by Langston
-            Hughes</h4>
+          <span className="days">LESSON 91 - The American Dream</span>
           <Video videoUrl="https://www.youtube.com/embed/ir0URpI9nKQ"/>
-          <h4>Harlem</h4>
-          <ul style={{color: "#7c7f93" }} >
-            <li>BY LANGSTON HUGHES</li>
+          <Video videoUrl="https://www.youtube.com/embed/ v6JXHzyX60M "/>
+
+          <p className="topBottom">Read the articles <a
+            href={require("../resources/languagearts/a-better-life-creating-the-american-dream.pdf")}
+            rel="noreferrer" target="_blank"><i> A Better Life: Creating the American
+            Dream </i></a> and <a
+            href="https://web.archive.org/web/20160131231231/https://priceonomics.com/the-great-migration-the-african-american-exodus/"
+            rel="noreferrer" target="_blank"> The Great Migration: The African American Exodus from The South </a></p>
+          <p className="topBottom"><h4 style={{ color: "#7c7f93" }}><i>Harlem </i>by Langston
+            Hughes</h4></p>
+          <ul style={{ color: "#7c7f93" }}>
             <li> What happens to a dream deferred?</li>
-            <br/>
             <li>Does it dry up</li>
             <li>like a raisin in the sun?</li>
             <li>Or fester like a sore—</li>
@@ -3445,18 +3567,54 @@ const LA7Component = ({ data }) => {
             <br/>
             <li>Maybe it just sags</li>
             <li>like a heavy load.</li>
-          </ul><br/>
-          <ol className="vocab">Answer the questions below based on the three poems from this lesson.<br/>
-            <li><strong>The Cremation of SamMcGee:</strong> Why was Sam traveling in the Arctic? Describe what happens in the
-              poem.
+          </ul>
+          <br/>
+          <p>Answer the questions below: </p>
+          <p className="margin-para">
+            <ol className="vocab">
+              <li> Define <i>double consciousness of the African American experience</i>.</li>
+              <li> What was the Harlem Renaissance?</li>
+              <li> Briefly describe who Langston Hughes was. What makes him an important poet? What impact did his work
+                have?
+              </li>
+              <li> What does the American Dream mean to you? Do you think it is different than what it means to other
+                people?
+              </li>
+              <li> Do you believe that race, gender, and economic status plays a role in the ability of someone to
+                achieve their dreams?
+              </li>
+              <li> Now that you have read the poem above, what do you believe happens to a dream deferred?</li>
+              <li>List all the things Langston Hughes compares a dream to in his poem "Harlem"? Describe the imagery
+                he creates for readers. What things can you clearly see and smell?
+              </li>
+              <li>Hughes was strongly influenced by jazz music. Do you think his writing has a musical quality to it?
+              </li>
+              <li>What is the poet's message to readers?</li>
+              <li>What is the mood of the poem?</li>
+              <li>How does it make you feel to think about your own dreams being deferred?</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener91} value={la7Essay91}/>
+
+          <span className="days">LESSON 92</span>
+          <h4><i><a href="https://www.poetryfoundation.org/poems/45081/the-cremation-of-sam-mcgee" rel="noreferrer"
+                    target="_blank"> Cremation of Sam McGee</a></i> by Robert W. Service </h4>
+          <Video videoUrl="https://www.youtube.com/embed/yJNZwuamwj0"/>
+          <h4><i><a href="https://poets.org/poem/do-not-go-gentle-good-night">Do Not Go Gentle into that Good
+            Night</a></i> by Dylan Thomas</h4>
+          <Video videoUrl="https://www.youtube.com/embed/w1JJ5actiUM"/>
+
+          <ol className="vocab">Answer the questions below based on the two poems from this lesson.<br/>
+            <li><strong>The Cremation of SamMcGee:</strong> Why was Sam traveling in the Arctic? Describe what happens
+              in the poem.
             </li>
             <li>Why couldn't Cap cremate Sam’s remains in the wilderness?</li>
             <li>After putting Sam’s body in the boiler, Cap looked inside. What did he see?</li>
             <li>What message is the poet trying to get across?</li>
             <li>How did you like the ending? Explain why or why not.</li>
             <li>Which of the 3 poems did you like the most? Explain why?</li>
-            <li><strong>Do Not Go Gentle into that Good Night:</strong> Dylan Thomas wrote this poem for his dying father. How
-              does it make you feel? What was your gut reaction?
+            <li><strong>Do Not Go Gentle into that Good Night:</strong> Dylan Thomas wrote this poem for his dying
+              father. How does the poem make you feel? What was your gut reaction?
             </li>
             <li> What is the poem about? What does Thomas mean when he says to "rage against the dying of the light"?
             </li>
@@ -3465,468 +3623,646 @@ const LA7Component = ({ data }) => {
             <li>Which lines are repeated? Do you think this is effective? Explain.</li>
             <li>Do you agree Thomas that we should rage against death? Or, do you think we should die calmly? Explain.
             </li>
-            <li><strong>A Dream Deferred:</strong></li>
-            <li>List all the things Langston Hughes compares a dream to? Describe the imagery
-              he creates for readers. What things can you clearly see and smell?
-            </li>
-            <li>Hughes was strongly influenced by jazz music. Do you think his writing has a musical quality to it?</li>
-            <li>What is the poet's message to readers?</li>
-            <li>What is the mood of the poem?</li>
-            <li>How does it make you feel to think about your own dreams being deferred?</li>
-            <li>Of all the poems you've read in this class, which is your favorite? Why?</li>
+            <li>Of all the poems you've read so far, which is your favorite? Explain why.</li>
           </ol>
-
-          <textarea className="textArea" onChange={onChangela7Listener90} value={la7Essay90}/>
-
-          <span className="days">LESSON 91 </span>
-
-
-          <textarea className="textArea" onChange={onChangela7Listener91} value={la7Essay91}/>
-
-          <span className="days">LESSON 92 </span>
-
-
+          <br/>
           <textarea className="textArea" onChange={onChangela7Listener92} value={la7Essay92}/>
 
           <span className="days">LESSON 93 </span>
-
-
+          <p className="topBottom">Begin reading the novel <strong>Esperanza Rising </strong> by Pam Munoz Ryan.
+            Esperanza is a young girl in Mexico, living life like a princess. She's forced to leave her country with her
+            mother and everything she's known and tries to figure out life and how to survive as an immigrant in
+            American society.</p>
+          <p className="topBottom">The novel is available at your local library, local bookstore and online for purchase. Until your copy
+            arrives, <a href={require("../resources/books/EsperanzaRisingChapter1.pdf")} rel="noreferrer"
+                        target="_blank"> Aguascalientes, Mexico and Las Uvas - Grapes (Chapter 1) is provided here. </a></p>
+          <a href={require("../resources/books/EsperanzaRisingChapter1.pdf")} rel="noreferrer" target="_blank"><img
+            src={require("../../public/images/bookCovers/esperanza.jpg")} alt="Esperanza Rising"/></a><br/>
+          <p className="topBottom"> <ol className="vocab">Answer the questions below in complete sentences.<br/>
+            <li>Based on the book title and cover, what impression do you have about the novel so far? What do you think it may be about?</li>
+            <li>The title and image of Esperanza on the cover serve as metaphors. What do you think they mean will
+              happen to her?</li>
+            <li>Who is the narrator of the story?</li>
+            <li>Describe Esperanza.</li>
+            <li>Describe the setting.</li>
+            <li>What does Esperanza's father teach her about the land?</li>
+            <li>Esperanza believes bandits want to attack her papa. Why does she believe this? Why was there resentment
+              toward Mexican land owners?</li>
+            <li>Did Papa keep his promise to Esperanza? What was the promise?</li>
+            <li>Describe Abuelita. Do you like her? Explain why or why not.</li>
+            <li>What two lessons did Abuelita teach Esperanza about life?</li>
+            <li>Why do you think Miguel stop talking to Esperanza?</li>
+            <li>What is Esperanza about to celebrate?</li>
+            <li>Tío Luis brought back Papa’s belt buckle and this causes everyone to worry. Why is this?</li>
+            <li>What was brought in the wagon?</li>
+            <li>What do you believe has happened to Esperanza’s father?</li>
+            <li>Every chapter is named after a fruit or vegetable and has special meaning to Esperanza. The title of the
+              first chapter is Las Uvas or Grapes. Why are grapes special to her? What do they symbolize?
+            </li>
+          </ol></p>
           <textarea className="textArea" onChange={onChangela7Listener93} value={la7Essay93}/>
 
           <span className="days">LESSON 94 </span>
-
-
+          <p className="topBottom"> Read Las Papayas - Papayas and then answer the questions below in complete sentences.</p>
+          <p className="topBottom"><ol className="vocab">
+<li>Esperanza dreams that her papa and others are doing what for her?  When she wakes up, how does she feel? </li>
+<li>Why is the harvest Esperanza’s favorite time of year?</li>
+<li>Esperanza received many birthday gifts, but she only treasures the doll. Why is this?</li>
+<li>What did Esperanza do that she believes was bad luck?  </li>
+<li>Describe the setting in the house after Esperanza’s father is killed. Describe how it feels to her when he’s gone. </li>
+<li>How do you like Miguel? </li>
+<li>How does Esperanza feel about Miguel?</li>
+<li>Describe Tío Luis and Tío Marco. What kind of men do you think they are? What did they do after papa was killed?  What did Tío Luis want Esperanza’s mother to do?  </li>
+<li>Why does Miguel believe that the United States would be a better place for him and his father than Mexico?</li>
+<li>Why is this chapter entitled Papayas. What do papayas symbolize for Esperanza?</li>
+          </ol></p>
           <textarea className="textArea" onChange={onChangela7Listener94} value={la7Essay94}/>
 
           <span className="days">LESSON 95 </span>
-
-
+          <p className="topBottom"> Read <i> Las Guayabas - Guavas</i> and then answer the questions below in complete sentences.</p>
+          <p className="topBottom"> <ol className="vocab">
+<li>How did Esperanza and her mother leave Mexico?  </li>
+<li>While in the wagon, Hortensia tells a story to Esperanza and talks about the bandits, Miguel and the mouse, and going on a train ride.  Why does she do this? </li>
+<li>How did Esperanza feel when she saw the train car they were riding in? Describe the train car from Esperanza’s perspective.</li>
+<li>When Esperanza’s didn’t let the little girl hold her doll, what did her mother do for the girl?  </li>
+<li>How did Esperanza feel when the girl got off the train?</li>
+<li>What did Carmen mean when she said, "I am poor, but I am rich?"  </li>
+<li>How does Miguel describe the wealthiest people in Mexico?  Specifically, he says their skin is what color?</li>
+<li>How has Esperanza’s life changed so far?  </li>
+<li>Do you think Miguel and Esperanza are experiencing the journey very differently? How so? In what ways are they behaving differently?</li>
+<li>Why is Miguel excited to go to the United States?</li>
+<li>Why is this chapter entitled guayabas. What do guavas symbolize for Esperanza?</li>
+          </ol></p>
           <textarea className="textArea" onChange={onChangela7Listener95} value={la7Essay95}/>
 
           <span className="days">LESSON 96 </span>
-
-
+<p className="topBottom"> Read <i> Los Melones - Cantelopes </i> and then answer the questions below in complete sentences.</p>
+          <p className="topBottom"><ol className="vocab">
+        <li>Why was Esperanza so worried that Miguel’s family wouldn’t board the train?  </li>
+        <li>Which two people made it possible for Esperanza and her mother to go to the United States?  </li>
+        <li>Esperanza wanted to hear the earth’s heartbeat?  Why?</li>
+        <li>Where did Esperanza and her mother get off of the train?</li>
+        <li>Do you think Isabel is impressed with Esperanza? Why do you think this?</li>
+        <li>Describe the San Joaquin Valley.</li>
+        <li>Esperanza isn’t able to hear the heartbeat of the earth. Why is this?</li>
+        <li>What do you think of Marta?  How does she treat Esperanza?  What does she think about papa? What kinds of things does she say? </li>
+        <li>How did Esperanza feel about Miguel talking to Marta? Why does she feel this way?</li>
+        <li>Why does Marta believe the workers should stop working?</li>
+        <li>What do melones symbolize in this chapter?</li>
+      </ol></p>
           <textarea className="textArea" onChange={onChangela7Listener96} value={la7Essay96}/>
 
           <span className="days">LESSON 97 </span>
-
-
+      <p className="topBottom"> Read <i>Las Cebollas - Onions </i> and then answer the questions below in complete sentences.</p>
+          <p className="topBottom"><ol className="vocab">
+    <li>Describe the camp Esperanza now lives in.</li>
+<li>How is her new home different from her old home? </li>
+<li>What were the two choices Ramona gave Esperanza when she was angry about their cabin?</li>
+<li>Esperanza still feels she is rich.  Was it hard for Esperanza to accept the fact they are peasants now?   </li>
+<li>What jobs does Esperanza have to do?  </li>
+<li>How had Ramona changed to Esperanza?  Hair in braids, she seemed shorter, not herself  p. 109</li>
+  <li>Who taught Esperanza how to sweep?  Miguel   p. 119</li>
+  <li>Isabel teaches Esperanza several things. What do you believe were the three most important things for Esperanza to learn?</li>
+<li>Describe what happened when Esperanza went to sweep the platform.</li>
+<li>In the novel, you are reading many new Spanish words. Esperanza has to learn English. What do you think it would be like to move toa  country and not know the language?</li>
+<li>What do las cebollas (onions) symbolize in this chapter?</li>
+          </ol></p>
           <textarea className="textArea" onChange={onChangela7Listener97} value={la7Essay97}/>
 
           <span className="days">LESSON 98 </span>
-
+  <p className="topBottom"> Read <i>Las Almendras - Almonds </i> and then answer the questions below in complete sentences.</p>
+          <p className="topBottom"><ol className="vocab">
+    <li>What did Alfonso and Miguel bring with them from Mexico that was a surprise?   </li>
+<li>What was Esperanza old enough to do as the ladies got hot water ready?  </li>
+<li>How was Esperanza hurt after her first day at work? </li>
+<li>Why was it important for Esperanza to go to the jamaica?  Why was she afraid? Why did she finally decide to go?</li>
+<li>Why is it important to Marta that everyone in the camp go on strike?  Do you think this would be a good idea? Explain.</li>
+<li>What animal does Marta compare the workers to?  What did they tell her to do?</li>
+<li>Do you think Esperanza understands Marta better than others at the camp? Explain.</li>
+<li>What was the fiesta like?</li>
+<li>Esperanza plans to pray for what? What do you think this says about her?</li>
+<li>What do Almendras (almonds) symbolize in this chapter?</li>
+          </ol></p>
 
           <textarea className="textArea" onChange={onChangela7Listener98} value={la7Essay98}/>
 
           <span className="days">LESSON 99 </span>
-
-
+  <p className="topBottom"> Read <i> Las Ciruelas - Plums </i> and then answer the questions below in complete sentences.</p>
+          <p className="topBottom"><ol className="vocab">
+    <li>Describe Esperanza’s morning alone with Pepe and Lupe. </li>
+<li>Describe Esperanza’s daily schedule.</li>
+<li>Why did the babies get sick?  When the babies get sick, what did Esperanza do? How did she know to do this?</li>
+<li>Why is a dust storm so terrible?  </li>
+<li>What was the consequence of Ramona being out in the dust storm?  </li>
+<li>Why was mama coughing?  What causes the Valley Fever?</li>
+<li>Describe what a dust storm is like.</li>
+<li>What is Esperanza afraid may happen to her mother?</li>
+<li>What do las ciruelas (plums) symbolize in this chapter?</li>
+          </ol></p>
           <textarea className="textArea" onChange={onChangela7Listener99} value={la7Essay99}/>
 
           <span className="days">LESSON 100 </span>
-
-
+  <p className="topBottom"> Read <i> Las Papas - Potatoes </i> and then answer the questions below in complete sentences.</p>
+          <p className="topBottom"><ol className="vocab">
+    <li>Why did Abuelita and Esperanza knit their hairs into the blanket?  </li>
+<li>What trial did the valley symbolize Esperanza was in?  </li>
+<li>Why did Esperanza want to work so badly?  </li>
+<li>Why was Esperanza worried the strikers might turn on her?</li>
+<li>What did the people who were going to strike threaten to do to the people who kept working?  </li>
+<li>What does Esperanza believe will help cure her mother? Explain.</li>
+<li>Her mother is depressed. Why is this?</li>
+<li>What does Esperanza decide to do to help her mother and herself?</li>
+<li>Why is Marta not allowed to stay with her aunt and uncle?  What does Marta plan to do?</li>
+<li>What does is Esperanza’s wish for Christmas?</li>
+<li>What do las papas (potatoes) symbolize in this chapter?</li>
+          </ol></p>
           <textarea className="textArea" onChange={onChangela7Listener100} value={la7Essay100}/>
 
-          {/*<span className="days">LESSON 101 </span>*/}
+         <span className="days">LESSON 101 </span>
+  <p className="topBottom"> Read <i> Los Aguacates  - Avocados </i> and then answer the questions below in complete sentences.</p>
+          <p className="topBottom"><ol className="vocab">
+    <li>What is the significance of avocados in this chapter? What did Hortensia do with them?</li>
+<li>Describe what Esperanza’s life is like now.</li>
+<li>What did the doctor tell Esperanza about her mama. What is she suffering from now? How would you have felt if you were Esperanza when she heard this news?</li>
+<li>When Esperanza is told she cannot visit her mother for several weeks, she describes her life as going through "the motions of living." Have you ever felt this way? If so, describe how. What does Esperanza do to increase the amount of joy in her life?</li>
+<li>What were some things Esperanza was missing about her mother?  </li>
+<li>Why does the family only go to Mr. Yakota’s store? </li>
+<li>Esperanza buys something special for her mama. What is it?</li>
+<li>After Ramona had been in the hospital, why wasn’t Esperanza able to visit her?  </li>
+<li>Esperanza did not want to give Marta and her mother a ride?  Explain why.  Where do they live?</li>
+<li>Why was Miguel so excited after talking to the railroad?  </li>
+<li>Marta changes her mind about Esperanza. Explain why.</li>
+<li>Miguel shares news with the family that he is happy about.  Do you also think it’s a good thing?  Explain.</li>
+<li>What do aguacates (avocados) symbolize in this chapter?</li>
+          </ol></p>
+          <textarea className="textArea" onChange={onChangela7Listener101} value={la7Essay101}/>
+
+          <span className="days">LESSON 102 </span>
+          <p className="topBottom"> Read <i> Los Esparragos  - Asparagus </i> and then answer the questions below in complete sentences.</p>
+          <p className="topBottom"><ol className="vocab">
+<li>Why did Esperanza feel bad about working when the strike began?  </li>
+<li>What did the strikers do to the armed guards protecting the workers?  </li>
+<li>What harmful things did the strikers do to the workers who did not go on strike with them? Why are the strikers so angry at those who did not go on strike?  </li>
+<li>Based on the things they did, would you have gone on strike with them if you had been at that camp?</li>
+<li>How were the strikers eventually stopped? What happened to them? Do you think this was fair?</li>
+<li>Why do you think  Esperanza did not tell the police about Marta hiding in the shed? </li>
+<li>Have you ever helped someone you didn’t really like?</li>
+<li>Were things different in the camp after the deportation? Describe what the camp looks like now.</li>
+<li>What do esparragos (asparagus) symbolize in this chapter?</li>
+          </ol></p>
+          <textarea className="textArea" onChange={onChangela7Listener102} value={la7Essay102}/>
+
+          <span className="days">LESSON 103 </span>
+<p className="topBottom"> Read <i> Los Duraznos - Peaches </i> and then answer the questions below in complete sentences.</p>
+          <p className="topBottom"><ol className="vocab">
+        <li>Why does Isabel pray so frequently?  </li>
+        <li>Do you thin she will get her wish? Why or why not?</li>
+        <li>Esperanza gave her doll to Isabel. Why did she do this?  </li>
+        <li>Have you ever given something you cherished to someone? Describe why.</li>
+        <li>he workers from Oklahoma were from the United States.  How do you think they felt when they had to compete for jobs with workers from another country?</li>
+        <li>What nice things were going to be at the camp for the Oklahoma people?  hot water, swimming pool, inside toilets   p. 218</li>
+        <li>What happened to Miguel at work and how did he get muddy?  </li>
+        <li>How did Esperanza react when she finds out what happened to Miguel? Why do you think she reacted this way?  What happened to Miguel after?</li>
+        <li>How is the camp for the Oklahoma people different from Esperanza’s camp?</li>
+        <li>Why did white Americans treat Mexicans differently?   </li>
+        <li>What news does Esperanza receive about Mama?</li>
+        <li>What do Esperanza and Hortensia do to prepare for Mama’s return?</li>
+        <li>What happened to Esperanza’s money orders?  How would you have reacted in</li>
+        <li>this situation?</li>
+        <li>What do los duraznos (peaches) symbolize in this chapter?</li>
+          </ol></p>
+
+          <textarea className="textArea" onChange={onChangela7Listener103} value={la7Essay103}/>
+
+          <span className="days">LESSON 104 </span>
+      <p className="topBottom"> Read <i> Las Uvas - Grapes </i> and then answer the questions below in complete sentences.</p>
+          <p className="topBottom"><ol className="vocab">
+    <li>Which part of this chapter did you like the best? Which part did you like the least?</li>
+<li>What did Miguel take from Esperanza?  How did she feel about what he did with the money? How did you feel about this part of the story?</li>
+<li>Who did Miguel go get for Esperanza and her mother?  How did they react to the surprise?</li>
+<li>Was it all right that Miguel took the money to get Abuelita?  </li>
+<li>What is Esperanza’s favorite fruit? Explain why. </li>
+<li>How did Esperanza tell Abuelita her story?</li>
+<li>How was Esperanza’s life like the zigzag in the blanket? Is your life like a zigzag or a straight line? Why?</li>
+<li>Uvas was the title of the first chapter and the last chapter.  Why do you think the author gave both chapters the same name?</li>
+<li>Instead of using months to help her remember when things happened, what things did Esperanza use?</li>
+<li>Even though Esperanza didn’t receive any fancy gifts for her birthday, was she still happy? Explain how you know.</li>
+<li>How did the end of the book make you feel? Why?</li>
+<li>In the beginning of the book, Abuelita talks about the phoenix. Then in this chapter, you find out what Esperanza thought about it. Do you think Esperanza is like the phoenix? Explain your answer. </li>
+<li>Does the title and image of Esperanza from the book cover seem fitting? Why or why not?</li>
+<li>For a long time, Esperanza could not hear the heartbeat of the earth. By the end of the story, she could feel it again. Why do you think this is?</li>
+<li>What did Esperanza learn as she traveled through the challenging mountains and valleys of life? </li>
+<li>Do you believed she changed? Give examples from the novel in your answer.  </li>
+          </ol></p>
+          <textarea className="textArea" onChange={onChangela7Listener104} value={la7Essay104}/>
+
+          <span className="days">LESSON 105 </span>
+  <p className="topBottom">Five Paragraph Essay</p>
+<p className="topBottom"> Select ONE of the prompts below and write a five paragraph essay on it.  </p>
+<ul className="list">
+    <li>Esperanza grows and changes over the course of the novel.  She was a phoenix who was able to rise from the ashes.</li>
+<li>Papa and Miguel are very similar, especially in how they relate to Esperanza.</li>
+<li>In the first chapter, Esperanza’s father shapes her relationship with nature and how she sees the world.  </li>
+<li>Abuelita tells Esperanza, "do not be afraid to start over."  How is Esperanza better off for having overcoming her fear and beginning again?</li>
+  <li>How is Esperanza's doll symbolic of Esperanza's growth throughout the novel? </li>
+</ul>
+  <h4> Essay Requirements</h4>
+  <ul className="list">
+    <li>Your first paragraph should begin with a hook to grab your reader’s  attention.  This should be followed by a clear thesis statement (main idea of your essay). This statement should convey the points or arguments you are going to make.   </li>
+<li>Paragraphs 2 through 4 should provide examples from the book that support your thesis statement. Each paragraph should discuss a different point and use a different example.  Using direct quotes from the novel can be effective in proving your point.   </li>
+<li>Your conclusion should restate your thesis in a different way. End with a  thoughtful summary.   </li>
+<li>Each paragraph should be 3-6 sentences.</li>
+</ul>
+  <p className="topBottom"><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")} rel="noreferrer"                    target="_blank">Click here for a 5 Paragraph Essay outline </a>if you need help in getting  started. </p>
+<textarea className="textArea" onChange={onChangela7Listener105} value={la7Essay105}/>
+
+          <span className="days">LESSON 106 </span>
+          <h4>Close reading: informational text</h4>
+          <p className="margin-para">Read the articles linked below from Khan Academy's Living Tongues Unit. Then watch the videos below and complete the multiple choice assignment. </p>
+          <p>Read <a href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-living-tongues/x4aa9073b12675eb1:untitled-57/a/welcome-to-the-living-tongues-unit?modal=1"  rel="noreferrer" target="_blank">Intro to the Unit Living Tongues  </a> and <a href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-living-tongues/x4aa9073b12675eb1:untitled-57/a/living-tongues-unit-vocabulary?modal=1" rel="noreferrer" target="_blank"> Review the vocuabulary. </a></p>
+          <Video videoUrl="https://www.youtube.com/embed/INFWXZ_tl4M"/>
+          <Video videoUrl="https://www.youtube.com/embed/R_bgo8j6jxc"/>
+          <Video videoUrl="https://www.youtube.com/embed/NXO3KT8bne4"/>
+          <Video videoUrl="https://www.youtube.com/embed/lcXgSEF4iCM"/>
+          <p>Read the article linked here and then complete the <a href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-living-tongues/x4aa9073b12675eb1:close-reading-informational-text/e/living-tongues-reading-informational-text-saving-dying-languages-7"  rel="noreferrer" target="_blank"> questions. </a>Then in the textbox below,  write a brief summary about what you read.</p>
+          <textarea className="textArea" onChange={onChangela7Listener106} value={la7Essay106}/>
 
+          <span className="days">LESSON 107 </span>
+          <h4>Close Reading: Poetry</h4>
+          <p className="margin-para"> Watch the videos below and complete the multiple choice assignment. </p>
+          <Video videoUrl="https://www.youtube.com/embed/D2FFijvA00I"/>
+          <Video videoUrl="https://www.youtube.com/embed/lzKj-bLvrYQ"/> 
+          <Video videoUrl="https://www.youtube.com/embed/LO21tYrTD8Y"/>
+          <Video videoUrl="https://www.youtube.com/embed/ZASEsKwEvqE"/>
+          <p>Read the poem <a href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-living-tongues/x4aa9073b12675eb1:close-reading-poetry/e/living-tongues-reading-poetry-languages-7"  rel="noreferrer" target="_blank"> Languages by Carl Sandburg linked here and then complete the questions. </a>In the textbox below,  write a brief summary about what you read.</p>
+          <textarea className="textArea" onChange={onChangela7Listener107} value={la7Essay107}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener101} value={la7Essay101}/>*/}
+          <span className="days">LESSON 108 </span>
+          <h4>Applying vocabulary knowledge</h4>
+          <p>Read the article, Saving Dying Languages 7, linked here and then complete the <a href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-living-tongues/x4aa9073b12675eb1:applying-vocabulary-knowledge/e/living-tongues-vocabulary-saving-dying-languages-7?modal=1"  rel="noreferrer" target="_blank"> questions. </a>Then in the textbox below,  write a brief summary about what you read.</p>
+          <textarea className="textArea" onChange={onChangela7Listener108} value={la7Essay108}/>
 
-          {/*<span className="days">LESSON 102 </span>*/}
+          <span className="days">LESSON 109 </span>
+          <h4>Reading for understanding: informational text</h4>
+          <p>Read the article <a href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-living-tongues/x4aa9073b12675eb1:reading-for-understanding-informational-text/e/living-tongues-reading-informational-text-the-code-that-was-never-broken-7"  rel="noreferrer" target="_blank">linked here, The Code that Was Never Broken, and then complete the  questions. </a> In the textbox below,  write a brief summary about what you learned.</p>
+          <textarea className="textArea" onChange={onChangela7Listener109} value={la7Essay109}/>
 
+          <span className="days">LESSON 110 </span>
+          <p className="margin-para"> Read the articles linked below from Khan Academy's Living Tongues Unit. Then watch the videos below and complete the multiple choice assignment. </p>
+          <p>Read <a href=""  rel="noreferrer" target="_blank">  </a></p>
+          <Video videoUrl="https://www.youtube.com/embed/XIfYK4tpl2Y"/>
+          <p>Read the <a href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-living-tongues/x4aa9073b12675eb1:reading-for-understanding-realistic-fiction/e/living-tongues-reading-realistic-fiction-direct-translation-7"  rel="noreferrer" target="_blank">article linked here,  Direct Translation, and then complete the  questions. </a>Then in the textbox below,  write a brief summary about what you read.</p>
+          <textarea className="textArea" onChange={onChangela7Listener110} value={la7Essay110}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener102} value={la7Essay102}/>*/}
+          <span className="days">LESSON 111 </span>
 
-          {/*<span className="days">LESSON 103 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener111} value={la7Essay111}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener103} value={la7Essay103}/>*/}
+          <span className="days">LESSON 112 </span>
 
-          {/*<span className="days">LESSON 104 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener112} value={la7Essay112}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener104} value={la7Essay104}/>*/}
+          <span className="days">LESSON 113 </span>
 
-          {/*<span className="days">LESSON 105 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener113} value={la7Essay113}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener105} value={la7Essay105}/>*/}
+          <span className="days">LESSON 114 </span>
 
-          {/*<span className="days">LESSON 106 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener114} value={la7Essay114}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener106} value={la7Essay106}/>*/}
+          <span className="days">LESSON 115 </span>
 
-          {/*<span className="days">LESSON 107 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener115} value={la7Essay115}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener107} value={la7Essay107}/>*/}
+          <span className="days">LESSON 116 </span>
 
-          {/*<span className="days">LESSON 108 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener116} value={la7Essay116}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener108} value={la7Essay108}/>*/}
+          <span className="days">LESSON 117 </span>
 
-          {/*<span className="days">LESSON 109 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener117} value={la7Essay117}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener109} value={la7Essay109}/>*/}
+          <span className="days">LESSON 118 </span>
 
-          {/*<span className="days">LESSON 110 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener118} value={la7Essay118}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener110} value={la7Essay110}/>*/}
+          <span className="days">LESSON 119 </span>
 
-          {/*<span className="days">LESSON 111 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener119} value={la7Essay119}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener111} value={la7Essay111}/>*/}
+          <span className="days">LESSON 120 </span>
 
-          {/*<span className="days">LESSON 112 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener120} value={la7Essay120}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener112} value={la7Essay112}/>*/}
+          <span className="days">LESSON 121 </span>
 
-          {/*<span className="days">LESSON 113 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener121} value={la7Essay121}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener113} value={la7Essay113}/>*/}
+          <span className="days">LESSON 122 </span>
 
-          {/*<span className="days">LESSON 114 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener122} value={la7Essay122}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener114} value={la7Essay114}/>*/}
+          <span className="days">LESSON 123 </span>
 
-          {/*<span className="days">LESSON 115 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener123} value={la7Essay123}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener115} value={la7Essay115}/>*/}
+          <span className="days">LESSON 124 </span>
 
-          {/*<span className="days">LESSON 116 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener124} value={la7Essay124}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener116} value={la7Essay116}/>*/}
+          <span className="days">LESSON 125 </span>
 
-          {/*<span className="days">LESSON 117 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener125} value={la7Essay125}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener117} value={la7Essay117}/>*/}
+          <span className="days">LESSON 126 </span>
 
-          {/*<span className="days">LESSON 118 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener126} value={la7Essay126}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener118} value={la7Essay118}/>*/}
+          <span className="days">LESSON 127 </span>
 
-          {/*<span className="days">LESSON 119 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener127} value={la7Essay127}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener119} value={la7Essay119}/>*/}
+          <span className="days">LESSON 128 </span>
 
-          {/*<span className="days">LESSON 120 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener128} value={la7Essay128}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener120} value={la7Essay120}/>*/}
+          <span className="days">LESSON 129 </span>
 
-          {/*<span className="days">LESSON 121 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener129} value={la7Essay129}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener121} value={la7Essay121}/>*/}
+          <span className="days">LESSON 130 </span>
 
-          {/*<span className="days">LESSON 122 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener130} value={la7Essay130}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener122} value={la7Essay122}/>*/}
+          <span className="days">LESSON 131 </span>
 
-          {/*<span className="days">LESSON 123 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener131} value={la7Essay131}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener123} value={la7Essay123}/>*/}
+          <span className="days">LESSON 132 </span>
 
-          {/*<span className="days">LESSON 124 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener132} value={la7Essay132}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener124} value={la7Essay124}/>*/}
+          <span className="days">LESSON 133 </span>
 
-          {/*<span className="days">LESSON 125 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener133} value={la7Essay133}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener125} value={la7Essay125}/>*/}
+          <span className="days">LESSON 134 </span>
 
-          {/*<span className="days">LESSON 126 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener134} value={la7Essay134}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener126} value={la7Essay126}/>*/}
+          <span className="days">LESSON 135 </span>
 
-          {/*<span className="days">LESSON 127 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener135} value={la7Essay135}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener127} value={la7Essay127}/>*/}
+          <span className="days">LESSON 136 </span>
 
-          {/*<span className="days">LESSON 128 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener136} value={la7Essay136}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener128} value={la7Essay128}/>*/}
+          <span className="days">LESSON 137 </span>
 
-          {/*<span className="days">LESSON 129 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener137} value={la7Essay137}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener129} value={la7Essay129}/>*/}
+          <span className="days">LESSON 138 </span>
 
-          {/*<span className="days">LESSON 130 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener138} value={la7Essay138}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener130} value={la7Essay130}/>*/}
+          <span className="days">LESSON 139 </span>
 
-          {/*<span className="days">LESSON 131 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener139} value={la7Essay139}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener131} value={la7Essay131}/>*/}
+          <span className="days">LESSON 140 </span>
 
-          {/*<span className="days">LESSON 132 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener140} value={la7Essay140}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener132} value={la7Essay132}/>*/}
+          <span className="days">LESSON 141 </span>
 
-          {/*<span className="days">LESSON 133 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener141} value={la7Essay141}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener133} value={la7Essay133}/>*/}
+          <span className="days">LESSON 142 </span>
 
-          {/*<span className="days">LESSON 134 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener142} value={la7Essay142}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener134} value={la7Essay134}/>*/}
+          <span className="days">LESSON 143 </span>
 
-          {/*<span className="days">LESSON 135 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener143} value={la7Essay143}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener135} value={la7Essay135}/>*/}
+          <span className="days">LESSON 144 </span>
 
-          {/*<span className="days">LESSON 136 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener144} value={la7Essay144}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener136} value={la7Essay136}/>*/}
+          <span className="days">LESSON 145 </span>
 
-          {/*<span className="days">LESSON 137 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener145} value={la7Essay145}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener137} value={la7Essay137}/>*/}
+          <span className="days">LESSON 146 </span>
 
-          {/*<span className="days">LESSON 138 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener146} value={la7Essay146}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener138} value={la7Essay138}/>*/}
+          <span className="days">LESSON 147 </span>
 
-          {/*<span className="days">LESSON 139 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener147} value={la7Essay147}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener139} value={la7Essay139}/>*/}
+          <span className="days">LESSON 148 </span>
 
-          {/*<span className="days">LESSON 140 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener148} value={la7Essay148}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener140} value={la7Essay140}/>*/}
+          <span className="days">LESSON 149 </span>
 
-          {/*<span className="days">LESSON 141 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener149} value={la7Essay149}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener141} value={la7Essay141}/>*/}
+          <span className="days">LESSON 150 </span>
 
-          {/*<span className="days">LESSON 142 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener150} value={la7Essay150}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener142} value={la7Essay142}/>*/}
+          <span className="days">LESSON 151 </span>
 
-          {/*<span className="days">LESSON 143 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener151} value={la7Essay151}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener143} value={la7Essay143}/>*/}
+          <span className="days">LESSON 152 </span>
 
-          {/*<span className="days">LESSON 144 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener152} value={la7Essay152}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener144} value={la7Essay144}/>*/}
+          <span className="days">LESSON 153 </span>
 
-          {/*<span className="days">LESSON 145 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener153} value={la7Essay153}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener145} value={la7Essay145}/>*/}
+          <span className="days">LESSON 154 </span>
 
-          {/*<span className="days">LESSON 146 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener154} value={la7Essay154}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener146} value={la7Essay146}/>*/}
+          <span className="days">LESSON 155 </span>
 
-          {/*<span className="days">LESSON 147 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener155} value={la7Essay155}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener147} value={la7Essay147}/>*/}
+          <span className="days">LESSON 156 </span>
 
-          {/*<span className="days">LESSON 148 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener156} value={la7Essay156}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener148} value={la7Essay148}/>*/}
+          <span className="days">LESSON 157 </span>
 
-          {/*<span className="days">LESSON 149 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener157} value={la7Essay157}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener149} value={la7Essay149}/>*/}
+          <span className="days">LESSON 158 </span>
 
-          {/*<span className="days">LESSON 150 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener158} value={la7Essay158}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener150} value={la7Essay150}/>*/}
+          <span className="days">LESSON 159 </span>
 
-          {/*<span className="days">LESSON 151 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener159} value={la7Essay159}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener151} value={la7Essay151}/>*/}
+          <span className="days">LESSON 160 </span>
 
-          {/*<span className="days">LESSON 152 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener160} value={la7Essay160}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener152} value={la7Essay152}/>*/}
+          <span className="days">LESSON 161 </span>
 
-          {/*<span className="days">LESSON 153 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener161} value={la7Essay161}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener153} value={la7Essay153}/>*/}
+          <span className="days">LESSON 162 </span>
 
-          {/*<span className="days">LESSON 154 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener162} value={la7Essay162}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener154} value={la7Essay154}/>*/}
+          <span className="days">LESSON 163 </span>
 
-          {/*<span className="days">LESSON 155 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener163} value={la7Essay163}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener155} value={la7Essay155}/>*/}
+          <span className="days">LESSON 164 </span>
 
-          {/*<span className="days">LESSON 156 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener164} value={la7Essay164}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener156} value={la7Essay156}/>*/}
+          <span className="days">LESSON 165 </span>
 
-          {/*<span className="days">LESSON 157 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener165} value={la7Essay165}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener157} value={la7Essay157}/>*/}
+          <span className="days">LESSON 166 </span>
 
-          {/*<span className="days">LESSON 158 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener166} value={la7Essay166}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener158} value={la7Essay158}/>*/}
+          <span className="days">LESSON 167 </span>
 
-          {/*<span className="days">LESSON 159 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener167} value={la7Essay167}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener159} value={la7Essay159}/>*/}
+          <span className="days">LESSON 168 </span>
 
-          {/*<span className="days">LESSON 160 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener168} value={la7Essay168}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener160} value={la7Essay160}/>*/}
+          <span className="days">LESSON 169 </span>
 
-          {/*<span className="days">LESSON 161 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener169} value={la7Essay169}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener161} value={la7Essay161}/>*/}
+          <span className="days">LESSON 170 </span>
 
-          {/*<span className="days">LESSON 162 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener170} value={la7Essay170}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener162} value={la7Essay162}/>*/}
+          <span className="days">LESSON 171 </span>
 
-          {/*<span className="days">LESSON 163 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener171} value={la7Essay171}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener163} value={la7Essay163}/>*/}
+          <span className="days">LESSON 172 </span>
 
-          {/*<span className="days">LESSON 164 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener172} value={la7Essay172}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener164} value={la7Essay164}/>*/}
+          <span className="days">LESSON 173 </span>
 
-          {/*<span className="days">LESSON 165 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener173} value={la7Essay173}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener165} value={la7Essay165}/>*/}
+          <span className="days">LESSON 174 </span>
 
-          {/*<span className="days">LESSON 166 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener174} value={la7Essay174}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener166} value={la7Essay166}/>*/}
+          <span className="days">LESSON 175 </span>
 
-          {/*<span className="days">LESSON 167 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener175} value={la7Essay175}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener167} value={la7Essay167}/>*/}
+          <span className="days">LESSON 176 </span>
 
-          {/*<span className="days">LESSON 168 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener176} value={la7Essay176}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener168} value={la7Essay168}/>*/}
+          <span className="days">LESSON 177 </span>
 
-          {/*<span className="days">LESSON 169 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener177} value={la7Essay177}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener169} value={la7Essay169}/>*/}
+          <span className="days">LESSON 178 </span>
 
-          {/*<span className="days">LESSON 170 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener178} value={la7Essay178}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener170} value={la7Essay170}/>*/}
+          <span className="days">LESSON 179 </span>
 
-          {/*<span className="days">LESSON 171 </span>*/}
 
+          <textarea className="textArea" onChange={onChangela7Listener179} value={la7Essay179}/>
 
-          {/*<textarea className="textArea" onChange={onChangela7Listener171} value={la7Essay171}/>*/}
+          <span className="days">LESSON 180 </span>
 
-          {/*<span className="days">LESSON 172 </span>*/}
 
-
-          {/*<textarea className="textArea" onChange={onChangela7Listener172} value={la7Essay172}/>*/}
-
-          {/*<span className="days">LESSON 173 </span>*/}
-
-
-          {/*<textarea className="textArea" onChange={onChangela7Listener173} value={la7Essay173}/>*/}
-
-          {/*<span className="days">LESSON 174 </span>*/}
-
-
-          {/*<textarea className="textArea" onChange={onChangela7Listener174} value={la7Essay174}/>*/}
-
-          {/*<span className="days">LESSON 175 </span>*/}
-
-
-          {/*<textarea className="textArea" onChange={onChangela7Listener175} value={la7Essay175}/>*/}
-
-          {/*<span className="days">LESSON 176 </span>*/}
-
-
-          {/*<textarea className="textArea" onChange={onChangela7Listener176} value={la7Essay176}/>*/}
-
-          {/*<span className="days">LESSON 177 </span>*/}
-
-
-          {/*<textarea className="textArea" onChange={onChangela7Listener177} value={la7Essay177}/>*/}
-
-          {/*<span className="days">LESSON 178 </span>*/}
-
-
-          {/*<textarea className="textArea" onChange={onChangela7Listener178} value={la7Essay178}/>*/}
-
-          {/*<span className="days">LESSON 179 </span>*/}
-
-
-          {/*<textarea className="textArea" onChange={onChangela7Listener179} value={la7Essay179}/>*/}
-
-          {/*<span className="days">LESSON 180 </span>*/}
-
-
-          {/*<textarea className="textArea" onChange={onChangela7Listener180} value={la7Essay180}/>*/}
+          <textarea className="textArea" onChange={onChangela7Listener180} value={la7Essay180}/>
         </div>
       </section>
       <Confetti/>
