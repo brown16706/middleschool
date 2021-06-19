@@ -827,7 +827,7 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener4} value={la8Essay4}/>
 
           <span className="days">LESSON 5 </span>
-          <p>Watch the the video below about <b>Figurative Language</b> and then answer the questions that follow.
+          <p>Watch the the video below about <strong>Figurative Language</strong> and then answer the questions that follow.
           </p>
           <Video videoUrl="https://www.youtube.com/embed/rW4DtZGxjq0"/>
           <p className="topBottom">Figurative language refers to any use of language that goes beyond the literal
@@ -839,37 +839,37 @@ const LA8Component = ({ data }) => {
             everything from fiction and folk music to drama and our daily speech. It's a sophisticated, creative use
             of language to convey meaning and mood. It's an important tool in the writer's toolbox. </p>
 
-          <p className="topBottom"><b>Hyperbole</b> uses extreme exaggeration and is not meant to be taken
+          <p className="topBottom"><strong>Hyperbole</strong> uses extreme exaggeration and is not meant to be taken
             literally. Examples: I'm so hungry I could eat a horse. I could have died of embarrassment.</p>
 
-          <p className="topBottom"><b>Idioms</b> are figures of speech that cannot be understood from a literal
+          <p className="topBottom"><strong>Idioms</strong> are figures of speech that cannot be understood from a literal
             understanding of the words
             alone. Examples: The cat is out of the bag. Stop beating around the bush. <br/>Someone visiting from
             another country would not understand these phrases without someone explaining the meaning.</p>
 
-          <p className="topBottom"><b>Similes </b>make comparisons between two unrelated elements by using 'like' or
+          <p className="topBottom"><strong>Similes </strong>make comparisons between two unrelated elements by using 'like' or
             'as' to highlight a
             common quality both things share. Examples: Her eyes shone like diamonds. He was as strong as a horse.
           </p>
 
-          <p className="topBottom">A <b>metaphor</b> makes a comparison between two unrelated things by stating one
+          <p className="topBottom">A <strong>metaphor</strong> makes a comparison between two unrelated things by stating one
             thing is the other
             thing. Example: Life is a rollercoaster.</p>
 
-          <p className="topBottom"><b>Oxymorons </b>combine two opposing elements into a single phrase to be thought
+          <p className="topBottom"><strong>Oxymorons </strong>combine two opposing elements into a single phrase to be thought
             provoking or funny.
             Example: Deafening silence. A known secret.</p>
 
-          <p className="topBottom"><b>Personification</b> is a metaphor where human actions, feelings or traits are
+          <p className="topBottom"><strong>Personification</strong> is a metaphor where human actions, feelings or traits are
             given to a non-human.
             Examples: Books were her constant companions. That car's a beauty. An angry sky.</p>
 
-          <p className="topBottom"><b>Alliteration </b>is the repetition of the same letter sound across the start
+          <p className="topBottom"><strong>Alliteration </strong>is the repetition of the same letter sound across the start
             of several words in a
             line of text. The word comes from the Latin "littera," meaning "letter of the alphabet". Example: The
             slithering snake slid sideways silently. </p>
 
-          <p className="topBottom"><b>Assonance </b>is the repetition of vowel <i>sounds</i> within a group of
+          <p className="topBottom"><strong>Assonance </strong>is the repetition of vowel <i>sounds</i> within a group of
             words. Example: Fleet feet
             sweep by sleeping geese. Dr. Suess often used alliteration and assonance in his books: Through three
             cheese trees three free fleas flew. While these fleas flew, freezy breeze blew. </p>
@@ -953,7 +953,7 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener8} value={la8Essay8}/>
 
           <span className="days">LESSON 9 </span>
-          <p>Watch the video <b> What is Personification? </b>Then complete the assignment below. </p>
+          <p>Watch the video <strong> What is Personification? </strong>Then complete the assignment below. </p>
           <Video videoUrl="https://www.youtube.com/embed/1Mb6NxixRk8"/>
           <p>Read pp. 148-173 in <a href={require("../resources/books/The_Alchemist.pdf")} rel="noreferrer"
                                     target="_blank"> <i>The Alchemist.</i></a> Then answer the following
@@ -980,7 +980,7 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener9} value={la8Essay9}/>
 
           <span className="days">LESSON 10 </span>
-          <p>After you watch the video below<b> The Alchemist, a Summary & Analysis, </b> answer the following
+          <p>After you watch the video below<strong> The Alchemist, a Summary & Analysis, </strong> answer the following
             questions: </p>
           <Video videoUrl="https://www.youtube.com/embed/6Xi06683LPo"/>
           <p>1. At the start of his journey, when Santiago asks a gypsy woman to interpret his dream about a
@@ -1026,7 +1026,7 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener10} value={la8Essay10}/>
 
           <span className="days">LESSON 11 </span>
-          <p>After you watch the video below <b> Top Quotes And Lessons,</b> answer the questions below to best of
+          <p>After you watch the video below <strong> Top Quotes And Lessons,</strong> answer the questions below to best of
             your ability. <br/>
             <Video videoUrl="https://www.youtube.com/embed/rnQ5OJgGM6g"/>
             1. List four lessons that The Alchemist tries to teach. <br/>
@@ -1159,7 +1159,7 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener18} value={la8Essay18}/>
 
           <span className="days">LESSON 19 </span>
-          <p>Begin reading the novel <b>Piecing Me Together</b> by Renee Watson. It is a story about Jade, a
+          <p>Begin reading the novel <strong>Piecing Me Together</strong> by Renee Watson. It is a story about Jade, a
             teen girl who believes she must get out of her neighborhood if she's going to succeed. Along the
             way, she addresses issues surrounding race, privilege, identity, education and opportunity. The
             novel is available at your local library, local bookstore and online for purchase. Until your
@@ -1208,7 +1208,7 @@ const LA8Component = ({ data }) => {
           <textarea className=" textArea" onChange={onChangela8Listener19} value={la8Essay19}/>
 
           <span className=" days">LESSON 20 </span>
-          <p>Read <b>Chapters 7 - 12</b> in the novel <i> Piecing Me Together. </i> Then complete the
+          <p>Read <strong>Chapters 7 - 12</strong> in the novel <i> Piecing Me Together. </i> Then complete the
             assignment below.</p>
           <ol className=" vocab">
             <li>What is " St. John's Review"?</li>
@@ -1249,7 +1249,7 @@ const LA8Component = ({ data }) => {
           <textarea className=" textArea" onChange={onChangela8Listener20} value={la8Essay20}/>
 
           <span className=" days">LESSON 21 </span>
-          <p>Read <b>Chapters 13 - 18</b> in the novel <i> Piecing Me Together. </i> Then complete the
+          <p>Read <strong>Chapters 13 - 18</strong> in the novel <i> Piecing Me Together. </i> Then complete the
             assignment below.</p>
           <ol className=" vocab">
             <li>Describe Mom's favorite mug and how she got it</li>
@@ -1289,7 +1289,7 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener21} value={la8Essay21}/>
 
           <span className="days">LESSON 22 </span>
-          <p>Read <b>Chapters 19 - 24</b> in the novel <i> Piecing Me Together. </i> Then complete the
+          <p>Read <strong>Chapters 19 - 24</strong> in the novel <i> Piecing Me Together. </i> Then complete the
             assignment
             below.</p>
           <ol className="vocab">
@@ -1322,7 +1322,7 @@ const LA8Component = ({ data }) => {
           <textarea className=" textArea" onChange={onChangela8Listener22} value={la8Essay22}/>
 
           <span className=" days">LESSON 23 </span>
-          <p>Read <b>Chapters 25 - 30</b> in the novel <i> Piecing Me Together. </i> Then complete the
+          <p>Read <strong>Chapters 25 - 30</strong> in the novel <i> Piecing Me Together. </i> Then complete the
             assignment below.</p>
           <ol className=" vocab">
             <li>What does Frank give Jade?</li>
@@ -1360,7 +1360,7 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener23} value={la8Essay23}/>
 
           <span className="days">LESSON 24 </span>
-          <p>Read <b>Chapters 31 - 36</b> in the novel <i> Piecing Me Together. </i> Then complete the
+          <p>Read <strong>Chapters 31 - 36</strong> in the novel <i> Piecing Me Together. </i> Then complete the
             assignment
             below.</p>
           <ol className="vocab">
@@ -1395,7 +1395,7 @@ const LA8Component = ({ data }) => {
           <textarea className=" textArea" onChange={onChangela8Listener24} value={la8Essay24}/>
 
           <span className=" days">LESSON 25 </span>
-          <p>Read <b>Chapters 37 - 42</b> in the novel <i> Piecing Me Together. </i> Then complete the
+          <p>Read <strong>Chapters 37 - 42</strong> in the novel <i> Piecing Me Together. </i> Then complete the
             assignment below.</p>
           <ol className=" vocab">
             <li>What event does woman to woman have planned that jade thinks she needs a new dress for?</li>
@@ -1434,7 +1434,7 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener25} value={la8Essay25}/>
 
           <span className="days">LESSON 26 </span>
-          <p>Read <b>Chapters 43 - 48</b> in the novel <i> Piecing Me Together. </i> Then complete the
+          <p>Read <strong>Chapters 43 - 48</strong> in the novel <i> Piecing Me Together. </i> Then complete the
             assignment
             below.</p>
           <ol className="vocab">
@@ -1469,7 +1469,7 @@ const LA8Component = ({ data }) => {
           <textarea className=" textArea" onChange={onChangela8Listener26} value={la8Essay26}/>
 
           <span className=" days">LESSON 27 </span>
-          <p>Read <b>Chapters 49 - 54</b> in the novel <i> Piecing Me Together. </i> Then complete the
+          <p>Read <strong>Chapters 49 - 54</strong> in the novel <i> Piecing Me Together. </i> Then complete the
             assignment below.</p>
           <ol className=" vocab">
             <li>What is Sam's excuse for Hannah not getting in trouble(for being disrespectful to Ms Weber)?
@@ -1501,7 +1501,7 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener27} value={la8Essay27}/>
 
           <span className="days">LESSON 28 </span>
-          <p>Read <b>Chapters 55 - 60</b> in the novel <i> Piecing Me Together. </i> Then complete the
+          <p>Read <strong>Chapters 55 - 60</strong> in the novel <i> Piecing Me Together. </i> Then complete the
             assignment below.
           </p>
           <ol className="vocab">
@@ -1529,7 +1529,7 @@ const LA8Component = ({ data }) => {
           <textarea className=" textArea" onChange={onChangela8Listener28} value={la8Essay28}/>
 
           <span className=" days">LESSON 29 </span>
-          <p>Read <b>Chapters 61 - 66</b> in the novel <i> Piecing Me Together. </i> Then complete the
+          <p>Read <strong>Chapters 61 - 66</strong> in the novel <i> Piecing Me Together. </i> Then complete the
             assignment below.</p>
           <ol className=" vocab">
             <li>What days does EJ work?</li>
@@ -1554,7 +1554,7 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener29} value={la8Essay29}/>
 
           <span className="days">LESSON 30 </span>
-          <p>Read <b>Chapters 67 - 72</b> in the novel <i> Piecing Me Together. </i> Then complete the
+          <p>Read <strong>Chapters 67 - 72</strong> in the novel <i> Piecing Me Together. </i> Then complete the
             assignment below.
           </p>
           <ol className="vocab">
@@ -1578,7 +1578,7 @@ const LA8Component = ({ data }) => {
           <textarea className=" textArea" onChange={onChangela8Listener30} value={la8Essay30}/>
 
           <span className=" days">LESSON 31 </span>
-          <p>Read <b>Chapters 73 - 76</b> in the novel <i> Piecing Me Together. </i> Then complete the
+          <p>Read <strong>Chapters 73 - 76</strong> in the novel <i> Piecing Me Together. </i> Then complete the
             assignment below.</p>
           <ol className=" vocab">
             <li>What is EJ doing at the event?</li>
@@ -1861,7 +1861,7 @@ const LA8Component = ({ data }) => {
                     onChange={onChangela8Listener38} value={la8Essay38}/>
 
           <span className="days">LESSON 39 </span>
-          <p>Watch the video <b> Literary Genres and Subgenres. </b></p>
+          <p>Watch the video <strong> Literary Genres and Subgenres. </strong></p>
           <Video videoUrl="https://www.youtube.com/embed/oarGRayak5o"/>
           1. What are the four main literary genres? and subgenres.<br/>
           2. Which genre and subgenre category do the examples below fall into? Write the genre and
@@ -2014,7 +2014,7 @@ const LA8Component = ({ data }) => {
               Hero. Make sure you identify and explain 3 Code Hero characteristics (read below) and provide examples
               explaining how Santiago fulfills these characteristics. Be sure to choose characteristics you
               understand, can explain and can provide examples for from the novel.</p>
-            <p className="topBottom"><b>HEMINGWAY CODE HERO:</b> Hemingway's protagonists are usually figures who
+            <p className="topBottom"><strong>HEMINGWAY CODE HERO:</strong> Hemingway's protagonists are usually figures who
               try to follow a
               hyper-masculine moral code and make sense of the world through those beliefs. Hemingway himself
               defined the Code Hero as "a man who lives correctly, following the ideals of honor, courage and
@@ -2081,8 +2081,8 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener46} value={la8Essay46}/>
 
           <span className="days">LESSON 47 </span>
-          <p> Watch the video below <b>The Old Man and the Sea - Short, Animation Recipient of the Academy Award for
-            Best Short Animated Film, </b> then complete the assignment that follows.</p>
+          <p> Watch the video below <strong>The Old Man and the Sea - Short, Animation Recipient of the Academy Award for
+            Best Short Animated Film, </strong> then complete the assignment that follows.</p>
           <Video videoUrl="https://www.youtube.com/embed/NNCxNntn2yc"/>
           <ol className="vocab">
             <li>Are there any aspects of the novel you would have liked to go differently? For example, a version in
@@ -2181,8 +2181,8 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener52} value={la8Essay52}/>
 
           <span className="days">LESSON 53 </span>
-          <p>Watch the videos below: <b> Personification</b> and <b><i>Because I Could Not Stop for
-            Death. </i> </b> Then, read the poem and answer the questions below. </p>
+          <p>Watch the videos below: <strong> Personification</strong> and <strong><i>Because I Could Not Stop for
+            Death. </i> </strong> Then, read the poem and answer the questions below. </p>
           <Video videoUrl="https://www.youtube.com/embed/5GOfjV6u0Co"/>
           <Video videoUrl="https://www.youtube.com/embed/4eGFMw3U1ts"/>
           <p><i> Because I Could Not Stop for Death</i> by Emily Dickinson.
@@ -2290,7 +2290,7 @@ const LA8Component = ({ data }) => {
               <li>childhood</li>
               <li>anger</li>
             </ul>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. hindered <br/>
             2. protestations <br/>
@@ -2305,10 +2305,10 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener54} value={la8Essay54}/>
 
           <span className="days">LESSON 55 </span>
-          <p className="topBottom"><b> Personification: </b> Giving human-­‐like characteristics to non-­‐living
+          <p className="topBottom"><strong> Personification: </strong> Giving human-­‐like characteristics to non-­‐living
             things. <br/>
-            <b> Simile: </b> Comparing two things using "like" or "as". <br/>
-            <b> Metaphor: </b> Comparing two things not using "like" or "as". <br/></p>
+            <strong> Simile: </strong> Comparing two things using "like" or "as". <br/>
+            <strong> Metaphor: </strong> Comparing two things not using "like" or "as". <br/></p>
           <p>The author uses figurative language throughout the novel. Below are quotes from <i> The Book
             Thief</i>. For each quote, state which literary device (personification, simile, or metaphor) the
             author used and explain how you know this. For example, "The bodies were stuck there, like driftwood
@@ -2404,7 +2404,7 @@ const LA8Component = ({ data }) => {
             8. What is Rudy's father trying to make Rudy understand when he tells Rudy that he should be happy he
             was born with blonde hair and blue eyes?<br/>
             9. What is the significance of the event Death foreshadows at the end of the chapter?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. torrent <br/>
             2. unsavory <br/>
@@ -2445,7 +2445,7 @@ const LA8Component = ({ data }) => {
             Ludwig and Tommy?<br/>
             5. Why are Liesel's classmates quiet when Sister Maria beats her for fighting?<br/>
             6. Why is Liesel overcome with emotion? How does Rudy respond?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. prolific <br/>
             2. castigate <br/>
@@ -2520,7 +2520,7 @@ const LA8Component = ({ data }) => {
             Book of Fire<br/>
             2. What does Liesel notice as the workmen are cleaning up the fire remnants? How does she describe it?
             Significance? How does her choice cause her fear?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. flippant <br/>
             2. culminate <br/>
@@ -2529,7 +2529,7 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener64} value={la8Essay64}/>
 
           <span className="days">LESSON 65 </span>
-          <p><b> Part Two: Write a short essay for each question below. </b>b><br/>
+          <p><strong> Part Two: Write a short essay for each question below. </strong>b><br/>
             1. Why doesn't the mayor's wife report Liesel for stealing a book from the bonfire? <br/>
             2. Why does she continue to allow Liesel to steal books?<br/>
             3. Does the relationship between Liesel and Max ever progress into love?<br/>
@@ -2602,7 +2602,7 @@ const LA8Component = ({ data }) => {
             The Struggler, Continued<br/>
             6. How is the number 13 important in this chapter?<br/>
             8. What internal conflict does Max grapples with.<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. agitation <br/>
             2. animosity<br/>
@@ -2613,7 +2613,7 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener69} value={la8Essay69}/>
 
           <span className="days">LESSON 70 </span>
-          <p><b>DEEPER THINKING: Write a short essay for each question.</b><br/>
+          <p><strong>DEEPER THINKING: Write a short essay for each question.</strong><br/>
             1. Discuss how Liesel matures over the course of the story.<br/>
             2. Why does Rudy give the dying pilot a teddy bear?<br/>
             3. How do words help the characters in the novel connect with each other?<br/>
@@ -2639,7 +2639,7 @@ const LA8Component = ({ data }) => {
             6. Explain the significance of Nov. 1940?<br/>
             7. When Max arrives, how does Liesel respond?<br/>
             8. What do you believe is the "wild card" Death refers to?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. malignant <br/>
             2. ostracism <br/>
@@ -2660,7 +2660,7 @@ const LA8Component = ({ data }) => {
             The Wrath of Rosa<br/>
             8. What startles Liesel from her sleep?<br/>
             9. Why does Liesel finds Rosa's reaction to Max unusual?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. morose <br/>
             2. dormant <br/>
@@ -2749,7 +2749,7 @@ const LA8Component = ({ data }) => {
             draw
             between their leadership style and leaders from this historical time period?<br/>
             4. On what terms to Viktor and Rudy separate?<br/><br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. preemptively <br/>
             2. machinations <br/>
@@ -2779,7 +2779,7 @@ const LA8Component = ({ data }) => {
             4. What is the result?<br/>
             The Floating Book (Part II)<br/>
             3. Explain Rudy's victory.<br/><br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. envisaged <br/>
             2. plethora <br/>
@@ -2841,7 +2841,7 @@ const LA8Component = ({ data }) => {
             5. Explain the out come of the episode. In what condition do the Hubermanns find Max? What do you
             believe
             Max was going to do with the scissors?<br/><br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. surly <br/>
             2. paradox <br/>
@@ -2859,7 +2859,7 @@ const LA8Component = ({ data }) => {
             Death
             classify the sky this way?<br/>
             4. Describe Death's inner conflict and your reaction to it.<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. premonition <br/>
             2. tirade <br/>
@@ -2939,7 +2939,7 @@ const LA8Component = ({ data }) => {
             10. Who stands beside Liesel as the drama is taking place on the street? How does the crowd
             react?<br/>
             11. Why is Papa suddenly overwhelmed, and what are the consequences he fears?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. depleted <br/>
             2. trilogy <br/>
@@ -2958,7 +2958,7 @@ const LA8Component = ({ data }) => {
             4. Describe Han's feelings about Max's departure.<br/>
             5. Why might the Hubermanns want the Party to come search their home?<br/>
             6. Coat men-<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. apprehension <br/>
             2. feign <br/>
@@ -2978,7 +2978,7 @@ const LA8Component = ({ data }) => {
             3. How does this chapter connect with the previous chapter?<br/>
             4. The purpose of the inspection of Rudy and his classmates is __________________.<br/>
             5. What does Rudy finally explain to Liesel, and how does she react?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. rogue <br/>
             2. cannier <br/>
@@ -3000,7 +3000,7 @@ const LA8Component = ({ data }) => {
             more worried, more angry, or a different adjective entirely? Explain?<br/>
             9. What image does Death provide of Rosa on the night Hans leaves? Does this change your perception of
             Rosa?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. gargantuan <br/>
             2. abject <br/>
@@ -3046,7 +3046,7 @@ const LA8Component = ({ data }) => {
             you
             a
             hint about, upcoming events.<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write the definition and then write a sentence using the word. <br/>
             1. bellows <br/>
             2. disheveled <br/>
@@ -3133,7 +3133,7 @@ const LA8Component = ({ data }) => {
             you
             consider this strange?<br/>
             9. Analyze the final paragraph in this chapter.<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write the definition and then write a sentence using the word. <br/>
             1. protruded <br/>
             2. propaganda <br/>
@@ -3147,7 +3147,7 @@ const LA8Component = ({ data }) => {
             1. How many years have passed from Liesel's arrival at the Hubermanns home and Han's return?<br/>
             2. What is Death's implication in the last 2 lines of the chapter? How do Death's words affect the
             tone?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write the definition and then write a sentence using the word. <br/>
             1. semblance <br/>
             2. reprimand <br/>
@@ -3157,7 +3157,7 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener95} value={la8Essay95}/>
 
           <span className="days">LESSON 96 </span>
-          <p> Read <b>Part Ten </b><br/>
+          <p> Read <strong>Part Ten </strong><br/>
             <i>The End of the World (Part I) and The Ninety Eight Day </i><br/>
             1. How does Death feel about the bombing of Himmel Street?<br/>
             2. Throughout the novel, Zusak has stressed the power of words. How does this theme ring true in this
@@ -3186,7 +3186,7 @@ const LA8Component = ({ data }) => {
             outcome?<br/>
             4. Why does Max think it's a great day to die?<br/>
             5. Analyze Rudy's action in regards to Liesel and his relationship. <br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write the definition and then write a sentence using the word. <br/>
             1. catatonic <br/>
             2. blaspheme <br/>
@@ -3205,7 +3205,7 @@ const LA8Component = ({ data }) => {
             3. Where does Liesel go to rejuvenate in mid August? What act of vandalism does she commit?<br/>
             4. What does Liesel leave for Frau Hermann? How has the power of words changed Liesel?<br/>
             5. Describe the scene when Frau Hermann comes to visit Liesel at 33 Himmel Street.<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write the definition and then write a sentence using the word. <br/>
             1. bereaved <br/>
             2. immaculate <br/>
@@ -3231,7 +3231,7 @@ const LA8Component = ({ data }) => {
             Death see?<br/>
             10. What vision, which Liesel reveals later to Death, does she have of Papa as she kneels next to his
             body? Identify the 2 items she leaves at his body and what happens to them.<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write the definition and then write a sentence using the word. <br/>
             1. feigned <br/>
             2. obliterated <br/>
@@ -3248,7 +3248,7 @@ const LA8Component = ({ data }) => {
             4. When does Liesel see Max again?<br/>
             5. Retell the discussion Death has with Liesel as he finally takes her.<br/>
             6. What is the last note that Death offers us as readers?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write the definition and then write a sentence using the word. <br/>
             1. exquisite <br/>
             2. trepidation<br/>
@@ -3430,7 +3430,7 @@ const LA8Component = ({ data }) => {
             sister know what "animals" are?<br/>
             9. The concept of being "released" keeps coming up. What might being released mean?<br/>
             10. What are some clues that Jonas’s community is different from the one in which you live?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. utopia<br/>
             2. distraught<br/>
@@ -3452,7 +3452,7 @@ const LA8Component = ({ data }) => {
             8. How would you feel not to have your own individual birthday?<br/>
             9. If you were attending the Ceremony of Twelve with Jonas, what
             10. Assignment do you think the Elders would select for you?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             1. adherance <br/>
             2. appeal <br/>
@@ -3473,7 +3473,7 @@ const LA8Component = ({ data }) => {
             6. What is the main ceremony at the release of the Old?<br/>
             7. Jonas’s community has a lot of rules. Do you think that’s a
             good thing or a bad thing? Why?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             1. chortled<br/>
             2. gravitating<br/>
@@ -3499,7 +3499,7 @@ const LA8Component = ({ data }) => {
             6. Why was Jonas embarrassed about telling his dream?<br/>
             7. How important is sameness in Jonas’s community?<br/>
             8. How important is it in your community?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             1. disquieting <br/>
             2. infraction<br/>
@@ -3525,7 +3525,7 @@ const LA8Component = ({ data }) => {
             new child, Gabe. Do you think it’s possible to keep such a promise?<br/>
             12. What do you think of how families in Jonas’s community are
             formed?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             1. buoyancy<br/>
             2. congregated<br/>
@@ -3557,7 +3557,7 @@ const LA8Component = ({ data }) => {
             instead of "snack"?<br/>
             10. How would you feel if you were in Jonas’s shoes and the Chief Elder skipped right over you when she
             was making Assignments?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             1. acquisition<br/>
             2. aptitude<br/>
@@ -3584,7 +3584,7 @@ const LA8Component = ({ data }) => {
             6. What do you think Jonas’s Capacity to See Beyond is?<br/>
             7. Would you rather be selected, as Jonas was, or assigned, as
             his groupmates were?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             1. anticipation<br/>
             2. benign<br/>
@@ -3607,7 +3607,7 @@ const LA8Component = ({ data }) => {
             8. Jonas tells himself several times that things can’t change between him and his best friend, Asher. Do
             you think they can? Do you think they will?<br/>
             9. Why does Jonas find the final rule in his instructions, "You may lie," so unsettling?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             1. annex<br/>
             2. compel<br/>
@@ -3641,7 +3641,7 @@ const LA8Component = ({ data }) => {
             8. What do you think it means to live in a place where no doors are ever locked?<br/>
             9. Jonas says, "I thought there was only us. I thought there was only now. " Do you think that’s a good
             way to live?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             1. accumulates<br/>
             2. alcove<br/>
@@ -3660,7 +3660,7 @@ const LA8Component = ({ data }) => {
             4. How might Sameness have gotten rid of sunshine?<br/>
             5. Why is the old Receiver’s new name more appropriate to the current situation?<br/>
             6. Can you imagine giving up such things as snow and hills because they are impractical?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             1. agriculture<br/>
             2. consciousness <br/>
@@ -3687,7 +3687,7 @@ const LA8Component = ({ data }) => {
             Do you agree with Jonas that those things are not worth the price of losing colors?<br/>
             5. Imagine a world without color. What color would you miss most?<br/>
             6. What value, if any, is there to Sameness?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             1. admonition<br/>
             2. capacity<br/>
@@ -3717,7 +3717,7 @@ const LA8Component = ({ data }) => {
             12. As Jonas continues his training, he often finds himself angry with his groupmates and his family.
             Why?<br/>
             13. <i> The Giver</i>says that without memories, knowledge is meaningless. What does he mean?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             1. anguished<br/>
             2. array<br/>
@@ -3743,7 +3743,7 @@ const LA8Component = ({ data }) => {
             7. Do you agree that painful memories are made easier when they are shared?<br/>
             8. Do you think it’s fair that one person in the community—The Receiver—should have to be burdened and
             pained by memories so that no one else is?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             1. accommodate<br/>
             2. anesthetic<br/>
@@ -3767,7 +3767,7 @@ const LA8Component = ({ data }) => {
             2. How did <i> The Giver</i>feel after Jonas helped him?<br/>
             3. Why does <i> The Giver</i>feel that way?<br/>
             4. Why do you think <i> The Giver</i>asks Jonas to forgive him?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             1. annex<br/>
             2. contorted<br/>
@@ -3795,7 +3795,7 @@ const LA8Component = ({ data }) => {
             9. Do you think the elderly should be part of the community, or separate, as in Jonas’s community?<br/>
             10. Do you think Jonas’s parents love him? Do you think they know what love is?<br/>
             11. Do you agree with Jonas that things could be different? How?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             1. bearings<br/>
             2. ecstatic<br/>
@@ -3817,7 +3817,7 @@ const LA8Component = ({ data }) => {
             5. Why didn’t the game of good guys and bad guys that Jonas’s friends play seem harmless to Jonas
             anymore?<br/>
             6. Should Jonas have asked them to stop playing it? Why or why not?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             1. accounted<br/>
             2. fleeting<br/>
@@ -3838,7 +3838,7 @@ const LA8Component = ({ data }) => {
             4. Why is it now a rule that Receivers can’t ask for release?<br/>
             5. Do you think Rosemary sounds like she was or wasn’t brave?<br/>
             6. Why did <i> The Giver</i>seem distracted after telling Jonas to stay away from the river?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             1. dejected<br/>
             2. luminous<br/>
@@ -3856,7 +3856,7 @@ const LA8Component = ({ data }) => {
             4. What do you think of what Jonas’s community calls "release"?<br/>
             5. Were you surprised at what it was?<br/>
             6. How do you think this new knowledge will affect Jonas?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             1. chute<br/>
             2. receptacle<br/>
@@ -3877,7 +3877,7 @@ const LA8Component = ({ data }) => {
             9. Jonas knows that if his plan fails, he could be killed. But he believes that if he stays, his life is
             no longer worth living. Do you agree?<br/>
             10. Do you think <i> The Giver</i>should go with Jonas or stay? Why?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             1. acquire<br/>
             2. emphatically<br/>
@@ -3899,7 +3899,7 @@ const LA8Component = ({ data }) => {
             7. How do you think <i> The Giver</i>will feel when he realizes Jonas is gone? How will Jonas’s friends
             and family feel?<br/>
             8. Why is the community so desperate to get Jonas back?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             1. augmented<br/>
             2. condemned<br/>
@@ -3926,7 +3926,7 @@ const LA8Component = ({ data }) => {
             think?<br/>
             5. Briefly describe the "simple moments of exquisite happiness" Jonas begins to experience as he gets
             further away from the community.<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             1. flagging<br/>
             2. grimly<br/>
@@ -3951,7 +3951,7 @@ const LA8Component = ({ data }) => {
             to say about the importance of good memories in helping us achieve our goals?<br/>
             5. Although most of the memories have left Jonas, the feelings have not. Why do you think that is?<br/>
             6. How do you think the story ends?<br/>
-            <b>Vocabulary</b><br/>
+            <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             1. crested<br/>
             2. diminished<br/>
@@ -4002,7 +4002,7 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener133} value={la8Essay133}/>
 
           <span className="days">LESSON 134 </span>
-          <p><b>Create a New Ending</b> for <i> The Giver </i> where you tell readers what happened to Jonas and
+          <p><strong>Create a New Ending</strong> for <i> The Giver </i> where you tell readers what happened to Jonas and
             Gabe.
             The author left the conclusion of the story ambiguous; it wasn’t clear what happened them. Rewrite
             the ending of <i>The Giver </i>with at least of 5 paragraphs.
@@ -4270,7 +4270,7 @@ const LA8Component = ({ data }) => {
             the textbox below. </p>
           <Video videoUrl="https://www.youtube.com/embed/vdCjKH5IKJ8"/>
           <p>Sometimes Shakepeare’s insults were ironic; they were meant to have the opposite effect and be a
-            compliment. He did this in <b> Sonnet 130: My Mistress Eyes are Nothing Like the Sun.</b> Shakespeare
+            compliment. He did this in <strong> Sonnet 130: My Mistress Eyes are Nothing Like the Sun.</strong> Shakespeare
             shows irony through different metaphors and similes.</p>
           <ul>
             <li className="poem">My mistress' eyes are nothing like the sun;</li>
@@ -4574,23 +4574,19 @@ const LA8Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/OGoehR_k0Xk"/>
           <ol className="vocab">
             <li className="poem"><i>Based on Summer’s Day: </i> Select one line that you enjoyed the most or was the
-              most meaningful
-              to you. Explain why you chose this line.
+              most meaningful to you. Explain why you chose this line.
             </li>
             <li> Describe how the writer uses imagery throughout the poem. Give an example that you think was her
-              best use of imagery.
-            </li>
+              best use of imagery.</li>
             <li> What was the writer’s purpose with the poem? Do you think she achieved her purpose? Why or why
-              not.
-            </li>
+              not. </li>
             <li><i>Based on The Second Coming: </i>Why was Yeats so fearful of the future?</li>
             <li> What does the falcon represent?</li>
             <li> Did Yeats seem like a happy guy? Explain.</li>
             <li> What was your overall impression of the poem?</li>
             <li> What is the mood of the poem? How does it make you feel?</li>
             <li><i>Based on Ode to the Only Black Kid in the Class:</i> What was your reaction to the title of the
-              poem?
-            </li>
+              poem?</li>
             <li> Was the poem as you expected it would be or did it surprise you in some way? Explain.</li>
             <li> Which parts of the poem are lingering in your mind?</li>
             <li> What are the questions that it makes you want to ask?</li>
@@ -4621,7 +4617,7 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener151} value={la8Essay151}/>
 
           <span className="days">LESSON 152 </span>
-          <h4><b> All the World's a Stage </b> by William Shakespeare </h4>
+          <h4><strong> All the World's a Stage </strong> by William Shakespeare </h4>
           <p> is a monologue or speech given by a character named Jaques in Shakespeare's play <i>As You Like
             It.</i></p>
           <Video videoUrl="https://www.youtube.com/embed/_jaSFtcDEiE?list=PLJicmE8fK0Egxi0hgy5Tw-NFyLcpJ4bzJ"/>
@@ -4657,7 +4653,7 @@ const LA8Component = ({ data }) => {
             <li>Is second childishness and mere oblivion;</li>
             <li>Sans teeth, sans eyes, sans taste, sans everything.</li>
           </ul>
-          <p><b>Answer the questions below in complete sentences.</b></p>
+          <p><strong>Answer the questions below in complete sentences.</strong></p>
           <ol className="vocab">
             <li> Jaques’ speech is a metaphor. What are the two main things he’s comparing?</li>
             <li> What is the first "stage" of a man.</li>
@@ -4751,7 +4747,7 @@ const LA8Component = ({ data }) => {
             <li> How did the poem impact you or make you feel?</li>
             <p className="topBottom"> Based on the poem <a
               href=" https://www.poetryfoundation.org/poems/46477/alone-56d2265f2667d"
-              rel="noreferrer" target="_blank"> <b> Alone </b> </a>by Edgar Allan Poe</p>
+              rel="noreferrer" target="_blank"> <strong> Alone </strong> </a>by Edgar Allan Poe</p>
             <li> What is the "mystery" that the speaker describes? What is the effect of the speaker's refusal to
               tell us more about it?
             </li>
@@ -5241,14 +5237,14 @@ const LA8Component = ({ data }) => {
               <li>Finally (resolution):</li>
             </ul>
           </p>
-          <p>Watch the the video below <b> How to write descriptively</b> by Nalo Hopkinson and then complete the
+          <p>Watch the the video below <strong> How to write descriptively</strong> by Nalo Hopkinson and then complete the
             writing
             assignment that follows.</p>
           <Video videoUrl="https://www.youtube.com/embed/ RSoRzTtwgP4"/>
 
           <span className="days">LESSON 170</span>
 
-          <p>After you watch the video <b> Stephen King On Writing</b>, you will write a mystery.</p>
+          <p>After you watch the video <strong> Stephen King On Writing</strong>, you will write a mystery.</p>
           <Video videoUrl="https://www.youtube.com/embed/lwhOd65gGoY"/>
           <h4> Write a Mystery</h4>
           <p className="topBottom">Select one of the images below to base your mystery on. Read the title and
@@ -5314,9 +5310,9 @@ const LA8Component = ({ data }) => {
                     onChange={onChangela8Listener170} value={la8Essay170}/>
 
           <span className="days">LESSON 171 </span>
-          <p>After you watch the video <b> How to build a fictional world, </b> you will write a fantasy story.</p>
+          <p>After you watch the video <strong> How to build a fictional world, </strong> you will write a fantasy story.</p>
           <Video videoUrl="https://www.youtube.com/embed/ZQTQSbjecLg"/>
-          <p className="topBottom"><b>Fantasy </b> is a genre that has magical and
+          <p className="topBottom"><strong>Fantasy </strong> is a genre that has magical and
             supernatural elements. Many novels have a real-world setting, like Twilight, while others novels are set
             in an imaginary world. This genre has no connection to reality or science. For example, Lord of the
             Rings is set in Middle Earth, with races and creatures the author created.
@@ -5350,11 +5346,11 @@ const LA8Component = ({ data }) => {
                     onChange={onChangela8Listener171} value={la8Essay171}/>
 
           <span className="days">LESSON 172 </span>
-          <p>Watch the video <b> The importance of setting in a story</b> and then complete the writing
+          <p>Watch the video <strong> The importance of setting in a story</strong> and then complete the writing
             assignment that follows.</p>
           <Video videoUrl="https://www.youtube.com/embed/30CPmgVQNks"/>
           <Video videoUrl="https://www.youtube.com/embed/6a6kbU88wu0"/>
-          <p className="topBottom"><b>Dystopian fiction</b> describes a fictional place where things have gone
+          <p className="topBottom"><strong>Dystopian fiction</strong> describes a fictional place where things have gone
             horribly wrong and life is terrible. The characters suffer oppression, terror or deprivation. Dystopian
             fiction includes novels like<i> The Hunger Games, The Giver, Divergent, and The Handmaid's Tale.</i></p>
           <p className="topBottom">Select one of the images below as your book cover. Then write a dystopian story
@@ -5394,7 +5390,7 @@ const LA8Component = ({ data }) => {
             include the following elements in your biography:</p>
           <p className="margin-para">
             <ul className="assnList">
-              <li><b>Introduction:</b> state the person you chose and why you chose them.</li>
+              <li><strong>Introduction:</strong> state the person you chose and why you chose them.</li>
               <li>Your thesis statement should cover the reasons why he/she inspires you and what this person has
                 taught us.
               </li>
@@ -5407,7 +5403,7 @@ const LA8Component = ({ data }) => {
                 <li>their impact on society, historical significance</li>
                 <li>when appropriate use quotes and significant details from your research</li>
               </ol>
-              <li><b>Conclusion:</b> summarize the most important points of your biography.
+              <li><strong>Conclusion:</strong> summarize the most important points of your biography.
               </li>
             </ul>
           </p>
@@ -5432,12 +5428,12 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener173} value={la8Essay173}/>
 
           <span className="days">LESSON 174 </span>
-          <p className="topBottom"><b>Science Fiction</b><br/>
+          <p className="topBottom"><strong>Science Fiction</strong><br/>
             Science fiction themes include futuristic stories, space travel, time travel, and life on other planets.
             They imagine how life would be different with technological and scientific advances. Science fiction
             includes novels like<i> Ready Player One, Mad Max and The Martian.</i></p>
           <p className="topBottom">Select one of the images below to base your own science fiction story on.
-            After you watch the video below, <b> The power of a great introduction</b>, write your story in the textbox.
+            After you watch the video below, <strong> The power of a great introduction</strong>, write your story in the textbox.
             Be sure to back up your work and send a copy to your parent or teacher. If you prefer to write a story not
             based on an image, this is
             fine. </p>
