@@ -4070,8 +4070,8 @@ const LA7Component = ({ data }) => {
               <li>This story is told from whose point of view? Why would the author choose to tell this story
                 using this point of view?
               </li>
-              <li>In paragraph #62, the author says, “The rosebuds of shame on his face became bouquets of
-                love.” What are the actions that led to this change of feeling in Victor?
+              <li>In paragraph #62, the author says, "The rosebuds of shame on his face became bouquets of
+                love." What are the actions that led to this change of feeling in Victor?
               </li>
               <li>Did you like this story? Explain why or why not.</li>
             </ol>
@@ -4172,7 +4172,7 @@ const LA7Component = ({ data }) => {
             2. Why does Dally use vulgar and abrasive language with the girls at the movies?<br/>
             3. How do the girls respond to the insults? From their reactions, what can you infer about
             their personalities?<br/>
-            4. What does Cherry mean when she calls Sodapop a “doll”?<br/>
+            4. What does Cherry mean when she calls Sodapop a "doll"?<br/>
             5. Why is Ponyboy embarrassed about Sodapop dropping out of school and working at a
             gas station? In your opinion, should he be embarrassed?<br/>
             6. Why is Ponyboy uncomfortable about Dally’s behavior?<br/>
@@ -4180,7 +4180,7 @@ const LA7Component = ({ data }) => {
             8. Why are the girls alone and without a car?<br/>
             9. What does Two-Bit do that scares Johnny and Pony? Infer why it is especially
             frightening to Johnny.<br/>
-            10. What rule do the Greasers follow, besides “stick together”? How do you think these rules
+            10. What rule do the Greasers follow, besides "stick together"? How do you think these rules
             came to be?<br/>
             11. Describe the attack on Johnny. Why do you think the attack was so traumatic to him?<br/>
             12. What theme does the conflict between the Socs and the Greasers reveal?<br/>
@@ -4208,14 +4208,14 @@ const LA7Component = ({ data }) => {
             novel?<br/>
             4. Explain the reference to watching the sunset. Why is it important to the buildup of the
             relationship between Cherry Valance and Ponyboy?<br/>
-            5. After all the vulgar language and abuse at the movies, evaluate why Cherry would “fall in
-            love” with Dally. Considering the characters, assess how realistic this seems.<br/>
+            5. After all the vulgar language and abuse at the movies, evaluate why Cherry would "fall in
+            love" with Dally. Considering the characters, assess how realistic this seems.<br/>
             6. When the blue Mustang rolls up, what are its occupants hoping to do? What do the
             Greasers think they want?<br/>
             7. Compare and contrast the way the Greasers and by the Socs treat the girls. Which
             group treats them better? Provide evidence.<br/>
-            8. Give your opinion of Cherry saying, “...if I see you in the hall at school or someplace and
-            don’t say hi, well, it’s not personal...” Explain the reasons for your point of view.<br/>
+            8. Give your opinion of Cherry saying, "...if I see you in the hall at school or someplace and
+            don’t say hi, well, it’s not personal..." Explain the reasons for your point of view.<br/>
             9. What do Pony and Johnny do instead of going home after the movies? What is the result
             of their decision?<br/>
             10. When Ponyboy doesn’t arrive home until 2:00 a.m., why doesn’t Darry call the police?<br/>
@@ -4247,8 +4247,8 @@ const LA7Component = ({ data }) => {
             complete sentences.</p>
           <p className="topBottom">
             1. What happens to Ponyboy at the park?<br/>
-            2. Ponyboy says that he and Johnny would “never let them have the satisfaction of
-            knowing” that the Socs scared them to death. Why? What does it say about the value
+            2. Ponyboy says that he and Johnny would "never let them have the satisfaction of
+            knowing" that the Socs scared them to death. Why? What does it say about the value
             that Johnny and Ponyboy place on the Greasers’ reputation?<br/>
             3. Why does Johnny go after Bob? What is the result?<br/>
             4. Why does Johnny react so violently to the Socs?<br/>
@@ -4258,15 +4258,15 @@ const LA7Component = ({ data }) => {
             7. To whom do Ponyboy and Johnny go for help? What does he give them? What does he
             tell them to do?<br/>
             8. How do the boys get to where they are going? Where do they plan to stay?<br/>
-            9. On the way there, Johnny says he “couldn’t shoot anybody” despite just having stabbed
+            9. On the way there, Johnny says he "couldn’t shoot anybody" despite just having stabbed
             someone. How do we explain this? What is the difference between these two acts?<br/>
             10. Ponyboy wishes to go to the country in the earlier chapters of the novel, but once he
-            gets there, he doesn’t like it and says that “there are worse things than being a greaser.”
+            gets there, he doesn’t like it and says that "there are worse things than being a greaser."
             Why is his experience so different from his dream of visiting it? What is the main thing
             that is missing from the reality that was present in his fantasy?<br/>
             11. Why do you think the author included the flashback to when all the guys went to church
             together? Do you think it was important to include that scene? Why?<br/>
-            12. Make a prediction about Ponyboy’s “premonition.” How could this be a hint of something
+            12. Make a prediction about Ponyboy’s "premonition." How could this be a hint of something
             that is being foreshadowed?<br/>
 
             <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using the
@@ -4291,19 +4291,19 @@ const LA7Component = ({ data }) => {
             a grocery store, so keep your answers realistic to things that you could find there.<br/>
             3. What do the boys do to disguise themselves? Why is Pony so reluctant to do anything<br/>
             with his hair?<br/>
-            4. Johnny states that when people go to jail, the authorities cut their hair to “break” them.
+            4. Johnny states that when people go to jail, the authorities cut their hair to "break" them.
             Why would he think this? What does this say about his opinion of authority? Why is hair
             really cut when people are sent to jail?<br/>
             5. How did the boys show their feelings as emotion overcame them? Do you think their
-            behavior was “in character” or did it deviate from the image the writer was trying to
+            behavior was "in character" or did it deviate from the image the writer was trying to
             create? Explain.<br/>
-            6. Read the following quote, which took place after the boys cried. “...for the first time since
+            6. Read the following quote, which took place after the boys cried. "...for the first time since
             Dally and I had sat down behind those girls at the Nightly Double, I relaxed. We could
-            take whatever was coming now.” Based on this passage, what we can infer about how
+            take whatever was coming now." Based on this passage, what we can infer about how
             Ponyboy is feeling?<br/>
             7. How do they pass the time over the next few days? What do they eat?<br/>
             8. Ponyboy realizes he likes Soda, Two-Bit, and Darry’s qualities that are like heroes in
-            novels, while Johnny likes Dally because he is “real.” What does this mean? Why would
+            novels, while Johnny likes Dally because he is "real." What does this mean? Why would
             Ponyboy relate more to people who portray the characteristics of a character in a novel,
             while Johnny is enamored with characters who are realistic?<br/>
             9. Why does Ponyboy get sick on the fifth day at the church?<br/>
@@ -4313,9 +4313,9 @@ const LA7Component = ({ data }) => {
             12. Dally tells Johnny and Ponyboy not to pick up his bad habits. What does he mean by
             this? Is it a little late, now, to be telling the two boys this? Why or why not?<br/>
             13. Where do they go in Buck’s car?<br/>
-            14. When Dally says that his heater “sure does help a bluff...” what does he mean?<br/>
-            15. Who is the “spy” Dally speaks of?<br/>
-            16. Interpret what Ponyboy means when he says, “things are happening too quick. Too fast.”
+            14. When Dally says that his heater "sure does help a bluff..." what does he mean?<br/>
+            15. Who is the "spy" Dally speaks of?<br/>
+            16. Interpret what Ponyboy means when he says, "things are happening too quick. Too fast."
             Do you ever get a similar feeling in your own life? Explain.<br/>
 
             <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using the
@@ -4336,7 +4336,7 @@ const LA7Component = ({ data }) => {
           <p className="topBottom"> Read Chapter 6 of <i>The Outsiders</i> and then answer the questions below using
             complete sentences.</p>
           <p className="topBottom">
-            1. “The spy” thinks the whole mess is her fault. Dally agrees that it is. Thinking back on the
+            1. "The spy" thinks the whole mess is her fault. Dally agrees that it is. Thinking back on the
             story, do you believe the trouble they are all in is because of her? Explain.<br/>
             2. What does Johnny announce that he and Pony are going to do? Why does he think it is
             best? Do you agree or disagree with their decision. Why?<br/>
@@ -4380,7 +4380,7 @@ const LA7Component = ({ data }) => {
             1. Describe what Soda is doing while the police are trying to interview Ponyboy.<br/>
             2. What is the extent of Johnny’s injuries? How are the boys able to get the doctor to tell
             them of Johnny’s prognosis?<br/>
-            3. Explain why Ponyboy says to himself, “If? Please, no, I thought. Please not ‘if’”?<br/>
+            3. Explain why Ponyboy says to himself, "If? Please, no, I thought. Please not ‘if’"?<br/>
             4. After the boys talk to the doctor, they decide to go home and get some sleep. What do
             Darry’s actions in that scene reveal about his true character?<br/>
             5. Explain the reference to chocolate cake.<br/>
@@ -4388,27 +4388,27 @@ const LA7Component = ({ data }) => {
             the character of the gang members?<br/>
             7. How did Two-Bit and Steve react when they saw Ponyboy? Is this a normal reaction for
             them? What does this say about the way that their group functions?<br/>
-            8. What does the newspaper say about the “heroes”? What does Two-Bit have to say
+            8. What does the newspaper say about the "heroes"? What does Two-Bit have to say
             about the wording the reporter chose?<br/>
-            9. The article does not use the word Socs. Ponyboy states this is because “most grownups
-            don’t know about the battles that go on between us.” What does this say about the
+            9. The article does not use the word Socs. Ponyboy states this is because "most grownups
+            don’t know about the battles that go on between us." What does this say about the
             parental role in all of the boys’ lives (both Socs and Greasers)? How do you think the
             scenario would be different if the parents were different?<br/>
             10. How real, in your opinion, is the threat of putting Pony in a boys’ home? Justify your
             answer, citing the text.<br/>
             11. Recount the story of Pony’s recurring dream.<br/>
-            12. What has happened to Soda’s girlfriend, Sandy? Why? What do you think is the “real”
+            12. What has happened to Soda’s girlfriend, Sandy? Why? What do you think is the "real"
             story?<br/>
-            13. To what is Pony referring when he says, “...it’s time for those guys from the state to
-            come by and check up on us.”<br/>
+            13. To what is Pony referring when he says, "...it’s time for those guys from the state to
+            come by and check up on us."<br/>
             14. Briefly describe the conversation between Randy and Ponyboy.<br/>
             15. Why does Randy decide to not go to the rumble?<br/>
             16. From their conversation, what did you learn about the privileged class to which the Socs
             belong? How do you think some people come to feel entitlement?<br/>
             17. Is there a way in which someone could be rich, but not have a sense of entitlement as a
             child? How can this be accomplished?<br/>
-            18. Randy says, “You get a little money and the whole world hates you.” Pony replies, “No,
-            you hate the whole world.” Which of these statements, in your opinion, is true? Explain
+            18. Randy says, "You get a little money and the whole world hates you." Pony replies, "No,
+            you hate the whole world." Which of these statements, in your opinion, is true? Explain
             your answer.<br/>
 
             <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using the
@@ -4430,8 +4430,8 @@ const LA7Component = ({ data }) => {
           <p className="topBottom"> Read Chapter 8 of <i>The Outsiders</i> and then answer the questions below using
             complete sentences.</p>
           <p className="topBottom">
-            1. What do you think the doctor means when he says to the nurse, “Let them go in. He’s
-            been asking for them. It can’t hurt now”?<br/>
+            1. What do you think the doctor means when he says to the nurse, "Let them go in. He’s
+            been asking for them. It can’t hurt now"?<br/>
             2. Why do you think that Johnny asks for another copy of Gone with the Wind?<br/>
             3. Ponyboy realizes that the gang needs Johnny. What is Johnny’s greatest contribution to
             the gang?<br/>
@@ -4440,23 +4440,23 @@ const LA7Component = ({ data }) => {
             5. When the nurse announces to Johnny that his mother is there to see him, how does he
             react? When Two-Bit and Ponyboy see Johnny’s mother, what happens? How do they
             react? Why?<br/>
-            6. When Dally asks Two-Bit about his “fancy black-handled switch,” what do you think was
-            his reason for asking? Why do you think Two-Bit hands it over to him “without
-            hesitation”?<br/>
+            6. When Dally asks Two-Bit about his "fancy black-handled switch," what do you think was
+            his reason for asking? Why do you think Two-Bit hands it over to him "without
+            hesitation"?<br/>
             7. Two-Bit says that the boys were the only thing keeping Darry from being a Soc. What
             does he mean? Do you think this is true? Why?<br/>
             8. Pony had a sick feeling in his stomach about the rumble that night. Infer what you think
             he was worried about.<br/>
-            9. When Two-Bit calls him a chicken, Ponyboy says, “Ain’t I a Curtis, same as Soda and
-            Darry?” What can you infer from this statement?<br/>
-            10. Cherry tells Ponyboy about the kind of person Bob “really” was. How does she describe
+            9. When Two-Bit calls him a chicken, Ponyboy says, "Ain’t I a Curtis, same as Soda and
+            Darry?" What can you infer from this statement?<br/>
+            10. Cherry tells Ponyboy about the kind of person Bob "really" was. How does she describe
             him?<br/>
-            11. Cherry says about Bob, “He could be sweet sometimes, and friendly. But when he got
-            drunk...it was that part of him that beat up Johnny.” Explain the differences between
+            11. Cherry says about Bob, "He could be sweet sometimes, and friendly. But when he got
+            drunk...it was that part of him that beat up Johnny." Explain the differences between
             reason and excuse. Do you believe that if someone has been drinking, it is an excuse, or
             is it a reason, for inappropriate behavior? Try to use examples in your answer.<br/>
-            12. What was the author’s purpose for writing at the end of Chapter 8, “She had green
-            eyes”?<br/>
+            12. What was the author’s purpose for writing at the end of Chapter 8, "She had green
+            eyes"?<br/>
 
             <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using the
             word.<br/>
@@ -4476,13 +4476,13 @@ const LA7Component = ({ data }) => {
             1. What is Hinton’s purpose for including Pony fussing over his beard before the rumble?<br/>
             2. In the middle of stating that Greasers are proud of their Greaser reputation, Pony says
             that he doesn’t want to be a hood. What does this say about Pony? Why does he
-            continue to “rep” his Greaser status?<br/>
+            continue to "rep" his Greaser status?<br/>
             3. Pony and Curly once played chicken by holding cigarettes to each other’s fingers. Why
             would they do that? Do you think it is worth whatever is to be gained?<br/>
             4. How do the boys show their excitement about the rumble when they are at the Curtis
             house getting ready to head out?<br/>
             5. Pony thinks the only good reason to fight is...?<br/>
-            6. Pony believes that he and Darry are both going to “get somewhere.” What does that
+            6. Pony believes that he and Darry are both going to "get somewhere." What does that
             mean to him? Do you believe they have any choice in the matter? Discuss in detail.<br/>
             7. Pony states that the Burmly boys have weird vocabularies. Why is this ironic? Cite
             examples from the text to support your answer.<br/>
@@ -4492,8 +4492,8 @@ const LA7Component = ({ data }) => {
             10. Who actually steps up to start the rumble? Who is his opponent and how does it happen
             that he is able to take the first swing? What is ironic about these two boys fighting
             against each other?<br/>
-            11. Pony says, “ That’s stupid... They’ve both come here to fight and they’re both supposed
-            to be smarter than that.” Why would they show up anyway?<br/>
+            11. Pony says, " That’s stupid... They’ve both come here to fight and they’re both supposed
+            to be smarter than that." Why would they show up anyway?<br/>
             12. Which side wins the rumble? How is the winner determined?<br/>
             13. Where do the boys go when the rumble ends? Convey what happens as they are on
             their way in Buck’s car. How do they manage to be let off by the police?<br/>
@@ -4519,7 +4519,7 @@ const LA7Component = ({ data }) => {
           <p className="topBottom"> Read Chapter 10 of <i>The Outsiders</i> and then answer the questions below using
             complete sentences.</p>
           <p className="topBottom">
-            1. Dally runs out “like the devil was after him” when he finds out Johnny is dead. According
+            1. Dally runs out "like the devil was after him" when he finds out Johnny is dead. According
             to Pony, why is Dally having so much trouble handling Johnny’s death?<br/>
             2. Infer why Pony didn’t want his brothers to touch him after he told them about Johnny’s
             death.<br/>
@@ -4529,7 +4529,7 @@ const LA7Component = ({ data }) => {
             5. According to Ponyboy, Johnny died gallant. What does he mean? How does he feel this
             is different from the death of Dally?<br/>
             6. Why do you think Ponyboy becomes so sick? What are his symptoms?<br/>
-            7. The narrator writes, “And the ground rushed up to meet me very suddenly.” What had
+            7. The narrator writes, "And the ground rushed up to meet me very suddenly." What had
             really happened?<br/>
             8. Pony wants to know if Darry is sorry that he is sick. Why?<br/>
             9. Pony says that he and Darry go all-out for athletics and studying, but Soda does not.
@@ -4569,7 +4569,7 @@ const LA7Component = ({ data }) => {
             for?<br/>
             7. What is the author’s purpose in having Ponyboy say that he is the one who killed Bob
             and insist that Johnny isn’t dead?<br/>
-            8. Darry calls Ponyboy “little buddy.” Why is this important to Pony? What does it indicate
+            8. Darry calls Ponyboy "little buddy." Why is this important to Pony? What does it indicate
             about their changing relationship?<br/>
 
             <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using the
@@ -4641,7 +4641,8 @@ const LA7Component = ({ data }) => {
               between the two groups.
             </li>
             <li>Although the author never uses the word outsider in her novel, it is the title of the book. Who do you
-              think the outsiders were? Be sure to define what you mean by outsiders in your essay.
+              think the outsiders were? Be sure to define what you mean by outsiders in your essay and use examples from
+              the book to support your essay.
             </li>
           </ul>
           <p className="topBottom">Take a few minutes to think about your topic and then create an outline. You must
@@ -4682,100 +4683,249 @@ const LA7Component = ({ data }) => {
             or find him guilty (depending on which side you take).</p>
           <textarea className="textArea" onChange={onChangela7Listener125} value={la7Essay125}/>
 
-          <span className="days">LESSON 126 </span>
-          <p>The novel <strong>Out of My Mind </strong> by Sharon Draper is a story about an eleven-year-old girl named
-            Melody. She can’t walk, talk or write because she has cerebral palsy. But she also has a photographic memory; she
-            can remember every detail of everything she has ever experienced. She’s the smartest kid in her whole
-            school, but no one knows it.  She's determined to let them know somehow.
+          <span className="days">LESSON 126 - Identity</span>
+          <p className="topBottom">Identity and fitting in are major themes in <i>The Outsiders</i> and in the next novel you will read, <i>Out of My Mind</i>. </p>
+          <p className="topBottom">For this lesson, complete the following:<br/>
+          <ul className="vocab">
+            <li>Write at least 10 things that are important parts of your identity. Example: <i>American, daughter,
+              runner, guitar player, good sense of humor, loyal friend, good listener, loyal friend, impatient,
+              persistent, etc.</i></li>
+
+            <li>Think about how your personality traits and dreams have changed since you were a small child. Then write
+              a story (2-3 paragraphs) telling how your identity has developed over the past several years. Describe how
+              your experiences, interests and dreams have shaped the person you are now. Provide personal examples, such
+              as life-changing events or moments of revelation, that molded you into the person you are today. Discuss
+              hobbies, interests and academic subjects you're excited about and how you've grown academically, mentally
+              and socially over the past few years. Inform your reader about what shaped your identity, including your
+              experiences, passions and dreams.
+            </li>
+
+            <li>Describe when you feel like an outsider. What are the circumstance? Where are you and who are you
+              usually with? What are the things that make you feel you don't fit in? Which things about your identity
+              are at odds with the place or people you're with?
+            </li>
+
+            <li>Describe when you feel you fit in the most. This can include being in a particular place with certain
+              people (examples: at school, church, home, hanging out with a close friend, playing videos games with
+              friends online). Which things about your identity do you feel are most appreciated?
+            </li>
+          </ul></p>
+          <textarea className="textArea" onChange={onChangela7Listener126} value={la7Essay126}/>
+
+          <span className="days">LESSON 127 </span>
+          <p>The novel <strong>Out of My Mind, </strong> by Sharon Draper, is a story about an eleven-year-old girl named
+            Melody. She can’t walk, talk or write because she has cerebral palsy. But she also has a photographic
+            memory; she can remember every detail of everything she has ever experienced. She’s the smartest kid in her
+            school, but no one knows it. But she's determined to let them know somehow.
           </p>
           <p className="topBottom"><strong>Out of My Mind </strong> is available at your local library, local bookstore
-            and online for purchase. Until your copy arrives, <a href={require("../resources/books/OutofMyMindExcerpt.pdf")} rel="noreferrer"
-                                  target="_blank"> an excerpt is provided here so you can complete the first
+            and online for purchase. Until your copy arrives, <a
+              href={require("../resources/books/OutofMyMindExcerpt.pdf")} rel="noreferrer"
+              target="_blank"> an excerpt is provided here so you can complete the first
               assignment. </a></p>
           <p className="topBottom"><a href={require("../resources/books/OutofMyMindExcerpt.pdf")} rel="noreferrer"
                                       target="_blank"><img
             src={require("../../public/images/bookCovers/outOfMyMind.jpg")}
-            alt="Out of My Mind novel"/></a><br/>
-            <ol className="vocab">Read Chapters 1-3. Then answer the questions below using complete sentences.<br/>
-              <li>something</li>
+            alt="Out of My Mind novel"/></a></p>
+          <p className="topBottom">Read Chapters 1-3. Then answer the questions below using complete sentences.<br/>
+            <ol className="vocab">
+              <li>Describe what you know about Melody so far.  Describe her physical appearance, age, personality, type of music she likes, etc.</li>
+              <li>She lists her strengths as her smile and dimples. Do you think she has any other strengths?</li>
+              <li>How do you like her?</li>
+              <li>How does she describe words?</li>
+              <li>What do you think it would be like to not be able to speak a single word?</li>
+              <li>Describe Melody’s "tornado explosions." Why do they happen?</li>
+              <li>How does Melody feel about her wheelchair?</li>
+              <li>Why do you think others see her problems first? </li>
+              <li>Why is Melody so aware of all the smells and sounds around her?</li>
+              <li>Do you think Melody have a right to be angry? Why or why not.</li>
+              <li>Are her parents able to understand her?</li>
             </ol>
           </p>
-          <textarea className="textArea" onChange={onChangela7Listener126} value={la7Essay126}/>
-
-          <span className="days">LESSON 127 </span>
-
-
           <textarea className="textArea" onChange={onChangela7Listener127} value={la7Essay127}/>
 
           <span className="days">LESSON 128 </span>
-
-
+          <p className="topBottom">Read Chapters 4 & 5. Then answer the questions below using complete sentences.<br/>
+          <ol className="vocab">
+            <li> How does Melody describe her classmates at her new school?</li>
+            <li>What does Melody think about school so far?</li>
+            <li>What is Melody’s disability?</li>
+            <li>Why do people assume Melody is stupid? </li>
+            <li>Why does she put on her "handicapped face"? </li>
+            <li>Do you think Melody’s parents think she is only a burden? Explain. </li>
+            <li>Why do you think children in Melody’s school ignore her? </li>
+            <li>How does Melody communicate?</li></ol></p>
           <textarea className="textArea" onChange={onChangela7Listener128} value={la7Essay128}/>
 
           <span className="days">LESSON 129 </span>
-
-
+        <p className="topBottom">Read Chapters 6 & 7. Then answer the questions below using complete sentences.<br/>
+        <ol className="vocab">
+          <li>What do you think about Mrs. Valencia? Do you think she’ll be good for Melody? Explain.</li>
+          <li> Melody says she would rather be able to talk than walk. Do you feel the same? Explain.</li>
+          <li>What do you think about Melody’s mother and father?  Does her mother see Melody differently than her father does?  Explain whether you think they are good parents. </li>
+          <li>Describe Melody’s dreams.</li>
+          <li>What do you think about the students in Melody’s class?  </li>
+          <li>Mrs. Billups seems to be confused about the class.  Why do you think this is? </li>
+          <li>How did Melody feel when her mom snapped Mrs. Billups’ cd in half?</li></ol></p>
           <textarea className="textArea" onChange={onChangela7Listener129} value={la7Essay129}/>
 
           <span className="days">LESSON 130 </span>
-
-
+      <p className="topBottom">Read Chapters 8 & 9. Then answer the questions below using complete sentences.<br/>
+      <ol className="vocab">
+        <li>Melody thinks Ollie (her goldfish) has is worse than her.  How does she compare her life to Ollie’s?</li>
+        <li>What kind of pet did Melody get and why did she love it so much?</li>
+        <li>What does Melody feel about Penny? </li>
+        <li>What would Melody’s wish be if she were blown to Oz and met the Wizard? What would your wish be? How are they different?</li>
+        <li>Why was Melody’s mother scared when she was pregnant? </li>
+        <li>Why were mornings tough for Melody?
+        </li></ol></p>
           <textarea className="textArea" onChange={onChangela7Listener130} value={la7Essay130}/>
 
           <span className="days">LESSON 131 </span>
-
-
+          <p className="topBottom">Read Chapters 10 & 11. Then answer the questions below using complete sentences.<br/>
+  <ol className="vocab">
+    <li>How do you think Melody’s parents know what she is saying or feeling when she can’t talk? Is her mom a good mom?</li>
+<li>Why? Do you think Melody’s parents get frustrated when she is trying to communicate with them? Explain.</li>
+<li>How are Melody’s parents able to figure out what Melody is feeling or wat she needs?</li>
+<li>Are you able to relate to the experience of not being able to express to others what you’re feeling or why you’re frustrated?  Explain.</li>
+<li>What does Melody envy about Garfield the cat?</li>
+<li>Why did she get angry at her father?</li>
+<li>What do you think about Molly and Claire? If you were their teacher, what would you say to them? </li>
+</ol></p>
           <textarea className="textArea" onChange={onChangela7Listener131} value={la7Essay131}/>
 
           <span className="days">LESSON 132 </span>
-
-
+          <p className="topBottom">Read Chapters 12-14. Then answer the questions below using complete sentences.<br/>
+  <ol className="vocab">
+    <li>Melody starts to attend regular classes like math and history.  Do you think this will benefit everyone, just certain people, only Melody or no one? Explain.</li>
+<li>What happened that pleased Melody’s mother?</li>
+<li>Why did Rose act the way she did at the aquarium? What did you think about her behavior?</li>
+<li>Why was Melody allowed to go to the aquarium?</li>
+<li>Rose has something that Melody wants.  What is it?</li>
+<li>How do you think Molly and Claire feel about Melody? What about Rose? Why do you believe this?</li>
+<li>Do you think a computer could change Melody’s life? How so?</li>
+<li>Who was Stephen Hawking and why could his life experience be significant for Melody?</li>
+</ol></p>
           <textarea className="textArea" onChange={onChangela7Listener132} value={la7Essay132}/>
 
           <span className="days">LESSON 133 </span>
-
-
+          <p className="topBottom">Read Chapters 15 & 16. Then answer the questions below using complete sentences.<br/>
+  <ol className="vocab">
+    <li>Describe how you think Melody’s life has changed.</li>
+<li>Describe Melody’s frustration and whether you think her frustrations are likely to lessen or increase. Explain.</li>
+<li>What name does Melody give her computer? Why do you think she gives it this name?</li>
+<li>What does Melody realize when the computer communicates in other languages?</li>
+<li>Does it make a difference that Melody’s father has a camcorder? Explain.</li>
+<li>Describe how Melody and her parents are feeling at this point in the story.</li>
+<li>How do you think the computer may change her life?</li>
+<li>What are your thoughts about Claire’s comment?</li>
+<li>Could Elvira cause any problems for Melody? How will Elvira change Melody’s life?</li>
+<li>Has Melody managed to feel a part of a group yet?  If so, explain when.</li>
+</ol></p>
           <textarea className="textArea" onChange={onChangela7Listener133} value={la7Essay133}/>
 
           <span className="days">LESSON 134 </span>
-
-
+          <p className="topBottom">Read Chapters 17 & 18. Then answer the questions below using complete sentences.<br/>
+  <ol className="vocab">
+    <li>Things feel better for Melody at school now. Why is this?</li>
+<li>What did Melody win and how did she win it? How did you feel when she won the prize?</li>
+<li>Do you believe Melody can fit in at her school or elsewhere?</li>
+<li>What did Mr. Dimming say? What did you think about this?</li>
+<li>Melody skips her inclusion classes and does what instead?</li>
+<li> Do you think Catherine and Mrs. V are the right people to help Melody? Explain.</li>
+<li>In Chapter 18, Melody gets angry. Explain why and discuss whether her anger was justified.</li>
+<li>Melody uses imagery to describe how words and numbers function in her head. While words float easily, numbers  float to the bottom like rocks. What do you think this means?  </li>
+</ol></p>
           <textarea className="textArea" onChange={onChangela7Listener134} value={la7Essay134}/>
 
           <span className="days">LESSON 135 </span>
-
-
+          <p className="topBottom">Read Chapters 19-21. Then answer the questions below using complete sentences.<br/>
+  <ol className="vocab">
+    <li> Why are people at Melody’s school surprised that she made the Whiz Kids Team?</li>
+<li>What question do people ask Melody the most?</li>
+<li> How would you feel if you were Melody’s parents and realized Melody’s abilities were not appreciated at her school?</li>
+<li>Melody would be afraid if she could fly. Explain why this is.</li>
+<li>What do you think about Melody’s ability to now be able to stand up for herself?  </li>
+<li>Is Rose still her friend at this point in the story?  Why didn’t Melody tell her what she plans to do after school?</li>
+<li>Why do you think Claire has a problem with Melody using a computer? </li>
+<li>Mr. Dimming warns that Melody will be harmed if she isn’t successful at the competition. Do you think he is right in what he is trying to argue? Explain.</li>
+<li>How did Mr. Dimming feel about Melody after he graded the tryout test?</li>
+</ol></p>
           <textarea className="textArea" onChange={onChangela7Listener135} value={la7Essay135}/>
 
           <span className="days">LESSON 136 </span>
-
-
+          <p className="topBottom">Read Chapters 22-24. Then answer the questions below using complete sentences.<br/>
+  <ol className="vocab">
+    <li> How does Melody feel about the quiz team? Does she feel included or feel like an outsider? Explain how you know this.</li>
+<li>If you were a part of the team, would you say or do anything differently from the other kids on the team? Explain.</li>
+<li>Why does it matter to Melody that she behave like the other students when they study?</li>
+<li> Do you think she’s ready for the competition?</li>
+<li>What do you think about Claire?  </li>
+<li>How did Melody like the TV studio?</li>
+<li>Describe how Paul, the station manager at the television station, interacts with Melody.  Why is this significant? </li>
+<li>What do you think of Mr. Dimming at this point in the novel?  How important is it to him that his team win the competition?</li>
+<li>If you had been Melody when the announcer singled her out, how would you have felt?</li>
+<li>What do you think of Connor? Do you like him? Explain why or why not.</li>
+</ol></p>
           <textarea className="textArea" onChange={onChangela7Listener136} value={la7Essay136}/>
 
           <span className="days">LESSON 137 </span>
-
-
+          <p className="topBottom">Read Chapters 25 & 26. Then answer the questions below using complete sentences.<br/>
+  <ol className="vocab">
+    <li> Melody wants to introduce herself at the competition. Why did it matter that she do this?</li>
+<li>Was it a surprise that Melody got the last question correct at the competition?</li>
+<li>What was Melody’s reaction to her team winning?</li>
+<li>After the competition, Claire says she is good friends with Melody. What did you think about her saying this?</li>
+<li>How do you think winning the competition may change how things are at her school?</li>
+<li>Describe Melody’s experience regarding the restaurant. How did she feel about getting invited? When she arrived, did they save a spot for her? Did she have a nice time?</li>
+<li>How did the students feel about Melody being at the restaurant? Did they have a fun time or were they uncomfortable?  </li>
+</ol></p>
           <textarea className="textArea" onChange={onChangela7Listener137} value={la7Essay137}/>
 
           <span className="days">LESSON 138 </span>
-
-
-          <textarea className="textArea" onChange={onChangela7Listener138} value={la7Essay138}/>
+          <p className="topBottom">Read Chapters 27 & 28. Then answer the questions below using complete sentences.<br/>
+  <ol className="vocab">
+    <li> How did the students react to the story about Melody in the newspaper? Why do you believe they reacted this way?</li>
+<li>Why do you think the article focused on her?</li>
+<li>How did Melody react to hearing the news from her mother?</li>
+<li>Why is Melody worried about the trip to Washington, D.C.? </li>
+<li>Melody believes Claire doesn’t know much about things not being fair. Is this a reasonable statement?</li>
+<li>When Melody shows up at the airport, she learns she was left behind. Do you believe this was intentional? Why or why not?</li>
+<li>"The morning started out like crystal, but the day has turned to broken glass." What is Melody talking about when she says this?</li>
+<li>How do you think the team will do at the competition without Melody?</li></ol></p>
+  <textarea className="textArea" onChange={onChangela7Listener138} value={la7Essay138}/>
 
           <span className="days">LESSON 139 </span>
-
+          <p className="topBottom">Read Chapters 29-31. Then answer the questions below using complete sentences.<br/>
+  <ol className="vocab">
+    <li> Why do you think the Whiz Kids and Mr. Dimming decided not to include Melody in the trip to Washington, D.C.?</li>
+<li>If you were Melody, would you be able to forgive Mr. Dimming and the team? Explain why.</li>
+<li>Do you think the accident with Penny is Melody’s fault? Why or why not?</li>
+<li> Why is Melody so fearful about Penny? </li>
+<li>Did Melody believe that what happened to Penny was her fault? How did she feel about herself? How did Mrs. V respond to Melody about what happened?</li>
+<li>She has been thinking about Jill, her classmate in H5. Why?</li>
 
           <textarea className="textArea" onChange={onChangela7Listener139} value={la7Essay139}/>
 
           <span className="days">LESSON 140 </span>
-
+          <p className="topBottom">Read Chapters 32 & 33. Then answer the questions below using complete sentences.<br/>
+            <ol className="vocab"> <li> How do you think the quiz team students and Mr. Dimming feel when they see Melody after the competition?</li>
+            <li>What happens when the team tries to give Melody the trophy?</li>
+            <li>What do you think about how Melody confronted the situation? </li>
+            <li>Do you think Melody is much like other 5th graders or is she mostly different from them? Explain your answer.</li>
+            <li>What was your opinion about Melody’s autobiography?</li>
+            <li>Think back to what Melody was like at the beginning of the novel.  How has she changed? Use examples from the novel.</li>
+          </ol></p>
 
           <textarea className="textArea" onChange={onChangela7Listener140} value={la7Essay140}/>
 
           <span className="days">LESSON 141 </span>
+          <h4>Research Paper</h4>
+    <p className="topBottom">Research Cerebral Palsy.  Then write an essay (minimum 5 paragraphs) that describes cerebral palsy and tells what it would be like to be Melody for a day. </p>
+    <p className="topBottom">Explain the disability and how it affects someone socially, academically, emotionally and and personally.</p>
 
 
-          <textarea className="textArea" onChange={onChangela7Listener141} value={la7Essay141}/>
+          <textarea className="textArea" placeholder="As always, be sure to back up your work!" onChange={onChangela7Listener141} value={la7Essay141}/>
 
           <span className="days">LESSON 142 </span>
 
