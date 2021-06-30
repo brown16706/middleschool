@@ -1294,7 +1294,7 @@ const SpanishComponent = ({ data }) => {
           <textarea className="textArea" onChange={onChangespanishListener32} value={spanishEssay32}/>
 
           <span className="days">LESSON 33 </span>
-          <p className="topBottom">Watch the videos, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the videos, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/4FjSyvyFmvM?list=PLkjyx6Il3YUZNNLN104RhAW_NdanQgVEN"/>
           <Video videoUrl="https://www.youtube.com/embed/iELHkBHiKMc?list=PLA5UIoabheFM7agDaTy7VItg8vu_UuFs6"/>
@@ -1312,7 +1312,7 @@ const SpanishComponent = ({ data }) => {
           <textarea className="textArea" onChange={onChangespanishListener33} value={spanishEssay33}/>
 
           <span className="days">LESSON 34 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/y0c_0rQy0Lg?list=PLA5UIoabheFM7agDaTy7VItg8vu_UuFs6"/>
           <h4>QUESTIONS</h4>
@@ -1347,7 +1347,7 @@ const SpanishComponent = ({ data }) => {
           <textarea className="textArea" onChange={onChangespanishListener35} value={spanishEssay35}/>
 
           <span className="days">LESSON 36 </span>
-          <p className="topBottom">Watch the videos, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the videos, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/oR1XOb7zPsM?list=PLkjyx6Il3YUZNNLN104RhAW_NdanQgVEN"/>
           <Video videoUrl="https://www.youtube.com/embed/Giu9wFPA0Wg?list=PLA5UIoabheFM7agDaTy7VItg8vu_UuFs6"/>
@@ -2364,7 +2364,7 @@ const SpanishComponent = ({ data }) => {
             <li></li>
             <li></li>
             <li></li>
-            <li>What are your childhood dreams? Describe them in Spanish.</li>
+            <li>Describe your childhood dreams in Spanish.</li>
             <li>Write 5 new Spanish phrases you learned from the video.</li>
             <li>Write the name of the lesson you completed on Duolingo.</li>
           </ol>
@@ -3089,7 +3089,7 @@ const SpanishComponent = ({ data }) => {
           <textarea className="textArea" onChange={onChangespanishListener135} value={spanishEssay135}/>
 
           <span className="days">LESSON 136 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/KzdFSxURKvo?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
@@ -3099,14 +3099,14 @@ const SpanishComponent = ({ data }) => {
             <li></li>
             <li></li>
             <li></li>
-            <li>What is the craziest <i>or</i> the most interesting dream you have ever had. Describe this in Spanish.</li>
+            <li>What is one of the craziest <i>or</i> the most interesting dreams you have ever had? Describe this in Spanish.</li>
             <li>Write 5 new Spanish phrases you learned from the video.</li>
             <li>Write the name of the lesson you completed on Duolingo.</li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener136} value={spanishEssay136}/>
 
           <span className="days">LESSON 137 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/q7717DkRdOg?list=PLkjyx6Il3YUZlnm7Y1CzL3nwh6JJcxEfW"/>          <h4>QUESTIONS</h4>
           <ol className="vocab">
@@ -3122,7 +3122,7 @@ const SpanishComponent = ({ data }) => {
           <textarea className="textArea" onChange={onChangespanishListener137} value={spanishEssay137}/>
 
           <span className="days">LESSON 138 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/IAfko-HpiI0?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
@@ -3139,7 +3139,7 @@ const SpanishComponent = ({ data }) => {
           <textarea className="textArea" onChange={onChangespanishListener138} value={spanishEssay138}/>
 
           <span className="days">LESSON 139 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/8a9vlDiHEYY?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
@@ -3156,7 +3156,7 @@ const SpanishComponent = ({ data }) => {
           <textarea className="textArea" onChange={onChangespanishListener139} value={spanishEssay139}/>
 
           <span className="days">LESSON 140 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/P1fAHU8HvVk?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
@@ -3173,15 +3173,9 @@ const SpanishComponent = ({ data }) => {
             <li>Write a sentence in Spanish using the word bueno.</li>
             <li>Write a sentence in Spanish using the word por.</li>
             <li>Write a sentence in Spanish using the word para.</li>
-            <li>Write 5 new Spanish phrases you learned from the video.</li>
             <li>Write the name of the lesson you completed on Duolingo.</li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener140} value={spanishEssay140}/>
-
-          
-          
-          {/*-----------------------------------------------------------------------------*/}
-          {/*--------------------------------------------------------------------------------------------*/}
           
           <span className="days">LESSON 141 </span>
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
@@ -3194,7 +3188,7 @@ const SpanishComponent = ({ data }) => {
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
+            <li>In 2-3 sentences, describe in Spanish your goals for the future.</li>
             <li>Write 5 new Spanish phrases you learned from the video.</li>
             <li>Write the name of the lesson you completed on Duolingo.</li>
           </ol>
@@ -3211,7 +3205,7 @@ const SpanishComponent = ({ data }) => {
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
+            <li>In 2-3 sentences, describe in Spanish your greatest fear or phobia.</li> 
             <li>Write 5 new Spanish phrases you learned from the video.</li>
             <li>Write the name of the lesson you completed on Duolingo.</li>
           </ol>
@@ -3228,7 +3222,7 @@ const SpanishComponent = ({ data }) => {
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
+            <li>In 3-4 sentences, describe your house in Spanish</li>
             <li>Write 5 new Spanish phrases you learned from the video.</li>
             <li>Write the name of the lesson you completed on Duolingo.</li>
           </ol>
@@ -3245,14 +3239,14 @@ const SpanishComponent = ({ data }) => {
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
+            <li>Describe at least one interesting new thing you learned about Mexico City. Write your response in Spanish.</li>
             <li>Write 5 new Spanish phrases you learned from the video.</li>
             <li>Write the name of the lesson you completed on Duolingo.</li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener144} value={spanishEssay144}/>
 
           <span className="days">LESSON 145 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/zGmC_Jitwns?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
@@ -3260,16 +3254,16 @@ const SpanishComponent = ({ data }) => {
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Describe one of your best memories from childhood. Try to use the past tense in your response.</li>
+            <li>What are positive aspects to using social media? Write your response in Spanish.  </li>
+            <li>What are negative aspects to using social media? </li>
             <li>Write 5 new Spanish phrases you learned from the video.</li>
             <li>Write the name of the lesson you completed on Duolingo.</li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener145} value={spanishEssay145}/>
 
           <span className="days">LESSON 146 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/76jg_xxMBSY?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
@@ -3279,16 +3273,16 @@ const SpanishComponent = ({ data }) => {
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
+            <li>Describe one of your favorite childhood memories.</li>
             <li>Write 5 new Spanish phrases you learned from the video.</li>
             <li>Write the name of the lesson you completed on Duolingo.</li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener146} value={spanishEssay146}/>
 
           <span className="days">LESSON 147 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
-          <Video videoUrl="https://www.youtube.com/embed/m07sXTRzEyQ?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
+          <Video videoUrl="https://www.youtube.com/embed/rZlgsB2Jj3w?list=PLkjyx6Il3YUZlnm7Y1CzL3nwh6JJcxEfW"/>
           <h4>QUESTIONS</h4>
           <ol className="vocab">
             <li></li>
@@ -3297,30 +3291,31 @@ const SpanishComponent = ({ data }) => {
             <li></li>
             <li></li>
             <li></li>
-            <li>Write 5 new Spanish phrases you learned from the video.</li>
+            <li>Give 8 different different examples of how to use the verb <i>dejar</i> in a sentence.  Make sure your examples are all different from each other.</li>
             <li>Write the name of the lesson you completed on Duolingo.</li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener147} value={spanishEssay147}/>
 
           <span className="days">LESSON 148 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/vcilgiHdJVk?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
           <ol className="vocab">
             <li></li>
             <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Give an example of how you would use <i> que </i>in a sentence.</li>
+            <li>Give an example of how you would use <i>dónde </i>in a sentence.</li>
+            <li>Give an example of how you would use <i> quién </i>in a sentence.</li>
+            <li>Give an example of how you would use <i>por qué </i>in a sentence.</li>
+
             <li>Write 5 new Spanish phrases you learned from the video.</li>
             <li>Write the name of the lesson you completed on Duolingo.</li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener148} value={spanishEssay148}/>
 
           <span className="days">LESSON 149 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/RNeBpdZxOnU?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
@@ -3328,26 +3323,25 @@ const SpanishComponent = ({ data }) => {
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li>Write 5 new Spanish phrases you learned from the video.</li>
+            <li>In Spanish, how would you ask "What do you have to do today?" </li>
+            <li>In Spanish, how would you say "I must go to see my mother tomorrow." </li>
+            <li>In Spanish, how would you ask "What can you do today?" </li>
+            <li>Write 2 new Spanish phrases you learned from the video.</li>
             <li>Write the name of the lesson you completed on Duolingo.</li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener149} value={spanishEssay149}/>
 
           <span className="days">LESSON 150 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/-lWqEfhSnfY?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
           <ol className="vocab">
             <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Describe how the gustar, amar, and encantar are used differently (you may write this in English).</li>
+            <li>Give an example of how you would use <i> gustar </i>in a sentence.</li>
+            <li>Give an example of how you would use <i> amar </i>in a sentence.</li>
+            <li>Give an example of how you would use <i> encantar </i>in a sentence.</li>
             <li>Write 5 new Spanish phrases you learned from the video.</li>
             <li>Write the name of the lesson you completed on Duolingo.</li>
           </ol>
@@ -3364,14 +3358,14 @@ const SpanishComponent = ({ data }) => {
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
+            <li>In Spanish, describe the most interesting you learned in the video about Mexican culture.</li>
             <li>Write 5 new Spanish phrases you learned from the video.</li>
             <li>Write the name of the lesson you completed on Duolingo.</li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener151} value={spanishEssay151}/>
 
           <span className="days">LESSON 152 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/JFQGeIPH3QY?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
@@ -3380,15 +3374,15 @@ const SpanishComponent = ({ data }) => {
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
-            <li></li>
+            <li>In Spanish, describe what freedom means to you.</li>
+            <li>Do you believe you are free?</li>
             <li>Write 5 new Spanish phrases you learned from the video.</li>
             <li>Write the name of the lesson you completed on Duolingo.</li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener152} value={spanishEssay152}/>
 
           <span className="days">LESSON 153 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/Ebhc1zPLMq8?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
@@ -3398,14 +3392,14 @@ const SpanishComponent = ({ data }) => {
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
+            <li>What are your favorite fruits. Write your response in Spanish. </li>
             <li>Write 5 new Spanish phrases you learned from the video.</li>
             <li>Write the name of the lesson you completed on Duolingo.</li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener153} value={spanishEssay153}/>
 
           <span className="days">LESSON 154 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/fXoG9Gbe9uc?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
@@ -3414,8 +3408,9 @@ const SpanishComponent = ({ data }) => {
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
-            <li></li>
+            <li>How do you ask someone in Spanish how old he or she is?</li>
+            <li>Write in Spanish how old you are. </li>
+            <li>What do you think is the perfect age to be? Answer in Spanish.</li>
             <li>Write 5 new Spanish phrases you learned from the video.</li>
             <li>Write the name of the lesson you completed on Duolingo.</li>
           </ol>
@@ -3432,7 +3427,7 @@ const SpanishComponent = ({ data }) => {
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
+            <li>In Spanish, describe what you think the world's biggest problems are. </li>
             <li>Write 5 new Spanish phrases you learned from the video.</li>
             <li>Write the name of the lesson you completed on Duolingo.</li>
           </ol>
@@ -3449,14 +3444,14 @@ const SpanishComponent = ({ data }) => {
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
+            <li>Write a text to a friend in Spanish (2-3 lines).</li>
             <li>Write 5 new Spanish phrases you learned from the video.</li>
             <li>Write the name of the lesson you completed on Duolingo.</li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener156} value={spanishEssay156}/>
 
           <span className="days">LESSON 157</span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/INzl57SF6S0?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
@@ -3467,13 +3462,13 @@ const SpanishComponent = ({ data }) => {
             <li></li>
             <li></li>
             <li></li>
-            <li>Write 5 new Spanish phrases you learned from the video.</li>
+            <li>Write 5 Spanish phrases you learned to be polite.</li>
             <li>Write the name of the lesson you completed on Duolingo.</li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener157} value={spanishEssay157}/>
 
           <span className="days">LESSON 158 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/bS2KgpE-tqs?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
@@ -3483,14 +3478,14 @@ const SpanishComponent = ({ data }) => {
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
+            <li>In Spanish, list the foods you would likely find in your refrigerator.  </li>
             <li>Write 5 new Spanish phrases you learned from the video.</li>
             <li>Write the name of the lesson you completed on Duolingo.</li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener158} value={spanishEssay158}/>
 
           <span className="days">LESSON 159 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/WNH_e9_N5D0?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
@@ -3500,14 +3495,14 @@ const SpanishComponent = ({ data }) => {
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
+            <li>What do you think is the most beautiful langauge? Explain in Spanish why you belive this.</li>
             <li>Write 5 new Spanish phrases you learned from the video.</li>
             <li>Write the name of the lesson you completed on Duolingo.</li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener159} value={spanishEssay159}/>
 
           <span className="days">LESSON 160 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/vusWOJltwy8?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
@@ -3517,16 +3512,16 @@ const SpanishComponent = ({ data }) => {
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
+            <li>Describe a special talent you have (in Spanish).</li>
             <li>Write 5 new Spanish phrases you learned from the video.</li>
             <li>Write the name of the lesson you completed on Duolingo.</li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener160} value={spanishEssay160}/>
 
           <span className="days">LESSON 161 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
-          <Video videoUrl="https://www.youtube.com/embed/bVSgqQpLfaI?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
+          <Video videoUrl="https://www.youtube.com/embed/NSWcdPWXZQI"/>
           <h4>QUESTIONS</h4>
           <ol className="vocab">
             <li></li>
@@ -3534,14 +3529,13 @@ const SpanishComponent = ({ data }) => {
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
-            <li>Write 5 new Spanish phrases you learned from the video.</li>
+            <li>Choose 5 filler words the narrator discussed in the video and give an example by using each in a sentence. Then translate each sentence into English. </li>
             <li>Write the name of the lesson you completed on Duolingo.</li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener161} value={spanishEssay161}/>
 
           <span className="days">LESSON 162 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/3dX6KDfHxTQ?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
@@ -3551,14 +3545,15 @@ const SpanishComponent = ({ data }) => {
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
+            <li>The video addressed  cultures around the world that Mexicans admire. In 2-3 sentences, discuss in Spanish 
+              the culture you most admire in the world. </li>
             <li>Write 5 new Spanish phrases you learned from the video.</li>
             <li>Write the name of the lesson you completed on Duolingo.</li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener162} value={spanishEssay162}/>
 
           <span className="days">LESSON 163 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/CdrIfZ5SSMA?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
@@ -3568,14 +3563,17 @@ const SpanishComponent = ({ data }) => {
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
+            <li>Do you exercise? If you do, describe in Spanish what kind of exercise you enjoy most and a new exercise 
+              you would like to learn.  If you don't exercise, describe what kind of exercise you might like to start. 
+              Examples include: swimming, horseback riding, snowboarding, rock climbing, etc.  You may use a <a href="https://www.spanishdict.com/" rel="noreferrer" target="_blank">translator</a> to
+              help you.</li>
             <li>Write 5 new Spanish phrases you learned from the video.</li>
             <li>Write the name of the lesson you completed on Duolingo.</li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener163} value={spanishEssay163}/>
 
           <span className="days">LESSON 164 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/KRYYKNKiOI8?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
@@ -3586,13 +3584,13 @@ const SpanishComponent = ({ data }) => {
             <li></li>
             <li></li>
             <li></li>
-            <li>Write 5 new Spanish phrases you learned from the video.</li>
+            <li>Write 5 ways to make excuses in Spanish. You can use ones you learned in the video or make up your own.</li>
             <li>Write the name of the lesson you completed on Duolingo.</li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener164} value={spanishEssay164}/>
 
           <span className="days">LESSON 165 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/H5uxfh_ff_0?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
@@ -3601,15 +3599,15 @@ const SpanishComponent = ({ data }) => {
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
-            <li></li>
+            <li>In Spanish, describe what you think would be the most exciting profession.</li>
+            <li>What do you think would be the most difficult profession to pursue? Explain why it would be so difficult.</li>
             <li>Write 5 new Spanish phrases you learned from the video.</li>
             <li>Write the name of the lesson you completed on Duolingo.</li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener165} value={spanishEssay165}/>
 
           <span className="days">LESSON 166 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/Tmb4aXJ_x6k?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
@@ -3618,7 +3616,7 @@ const SpanishComponent = ({ data }) => {
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
+            <li>Think about your favorite outfit. Describe in Spanish what it looks like and why it's your favorite.</li>
             <li></li>
             <li>Write 5 new Spanish phrases you learned from the video.</li>
             <li>Write the name of the lesson you completed on Duolingo.</li>
@@ -3626,7 +3624,7 @@ const SpanishComponent = ({ data }) => {
           <textarea className="textArea" onChange={onChangespanishListener166} value={spanishEssay166}/>
 
           <span className="days">LESSON 167 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/tiQiUl0cJvM?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
@@ -3643,7 +3641,7 @@ const SpanishComponent = ({ data }) => {
           <textarea className="textArea" onChange={onChangespanishListener167} value={spanishEssay167}/>
 
           <span className="days">LESSON 168 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/hSc6bDiEP40?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
@@ -3660,7 +3658,7 @@ const SpanishComponent = ({ data }) => {
           <textarea className="textArea" onChange={onChangespanishListener168} value={spanishEssay168}/>
 
           <span className="days">LESSON 169 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/e13APANAP0I?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
@@ -3678,7 +3676,7 @@ const SpanishComponent = ({ data }) => {
 
 
           <span className="days">LESSON 170</span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/DwbAW8G-57A?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
@@ -3695,7 +3693,7 @@ const SpanishComponent = ({ data }) => {
           <textarea className="textArea" onChange={onChangespanishListener170} value={spanishEssay170}/>
 
           <span className="days">LESSON 171 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/SCS1dJ35lig?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
@@ -3712,7 +3710,7 @@ const SpanishComponent = ({ data }) => {
           <textarea className="textArea" onChange={onChangespanishListener171} value={spanishEssay171}/>
 
           <span className="days">LESSON 172 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/euQ1VaiXRoQ?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
@@ -3729,7 +3727,7 @@ const SpanishComponent = ({ data }) => {
           <textarea className="textArea" onChange={onChangespanishListener172} value={spanishEssay172}/>
 
           <span className="days">LESSON 173 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/F1D_L94WDJk?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
@@ -3746,7 +3744,7 @@ const SpanishComponent = ({ data }) => {
           <textarea className="textArea" onChange={onChangespanishListener173} value={spanishEssay173}/>
 
           <span className="days">LESSON 174 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/alWjGM99rww?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
@@ -3763,7 +3761,7 @@ const SpanishComponent = ({ data }) => {
           <textarea className="textArea" onChange={onChangespanishListener174} value={spanishEssay174}/>
 
           <span className="days">LESSON 175 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/hVmeEgTzCYQ?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
@@ -3780,7 +3778,7 @@ const SpanishComponent = ({ data }) => {
           <textarea className="textArea" onChange={onChangespanishListener175} value={spanishEssay175}/>
 
           <span className="days">LESSON 176 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/iEmu_TfucVA?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
@@ -3797,7 +3795,7 @@ const SpanishComponent = ({ data }) => {
           <textarea className="textArea" onChange={onChangespanishListener176} value={spanishEssay176}/>
 
           <span className="days">LESSON 177 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/r697lVGVdic?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
@@ -3814,7 +3812,7 @@ const SpanishComponent = ({ data }) => {
           <textarea className="textArea" onChange={onChangespanishListener177} value={spanishEssay177}/>
 
           <span className="days">LESSON 178 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/wHE5sYWSGiU?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <h4>QUESTIONS</h4>
@@ -3831,7 +3829,7 @@ const SpanishComponent = ({ data }) => {
           <textarea className="textArea" onChange={onChangespanishListener178} value={spanishEssay178}/>
 
           <span className="days">LESSON 179 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
+          <p className="topBottom">Watch the video, answer the questions below in Spanish and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/_ePLrIJk_Ow?list=PLkjyx6Il3YUYWNS7C1N_qnPS-w-NWEgD9"/>
           <h4>QUESTIONS</h4>
