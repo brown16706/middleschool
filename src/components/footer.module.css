@@ -1,11 +1,12 @@
 .colophon {
   margin: 0;
-  padding: 1rem;
-  font-size: 12px;
+  padding: .8rem;
+  font-size: .8em;
   display: flex;
-  color: #898989;
-  justify-content: center;
+  color: #9e9d9d;
+  justify-content: flex-start;
   align-items: center;
-  background-color: #f3f3f3;
+  background-color: rgba(244, 244, 244, 0.4);
   clear: both;
+  min-height: 35px;
 }
