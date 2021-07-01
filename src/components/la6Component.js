@@ -2,6 +2,7 @@ import React from "react"
 import ToggleSwitch from "./checkbox"
 import "../styles/styles.css"
 import Video from "./video"
+import Confetti from "./confetti"
 
 function useLocalStorageState(key, defaultValue = "") {
   const [state, setState] = React.useState(
@@ -155,8 +156,11 @@ const LA6Component = ({ data }) => {
   const [la6Essay138, setla6Essay138] = useLocalStorageState("la6Essay138", "")
   const [la6Essay139, setla6Essay139] = useLocalStorageState("la6Essay139", "")
   const [la6Essay140, setla6Essay140] = useLocalStorageState("la6Essay140", "")
-
-
+  const [la6Essay141, setla6Essay141] = useLocalStorageState("la6Essay141", "")
+  const [la6Essay142, setla6Essay142] = useLocalStorageState("la6Essay142", "")
+  const [la6Essay143, setla6Essay143] = useLocalStorageState("la6Essay143", "")
+  const [la6Essay144, setla6Essay144] = useLocalStorageState("la6Essay144", "")
+  const [la6Essay145, setla6Essay145] = useLocalStorageState("la6Essay145", "")
   const onChangeLA6Listener = (event) => {
     setla6Essay(event.target.value)
   }
@@ -577,7 +581,21 @@ const LA6Component = ({ data }) => {
   const onChangeLA6Listener140 = (event) => {
     setla6Essay140(event.target.value)
   }
-
+  const onChangela6Listener141 = (event) => {
+    setla6Essay141(event.target.value)
+  }
+  const onChangela6Listener142 = (event) => {
+    setla6Essay142(event.target.value)
+  }
+  const onChangela6Listener143 = (event) => {
+    setla6Essay143(event.target.value)
+  }
+  const onChangela6Listener144 = (event) => {
+    setla6Essay144(event.target.value)
+  }
+  const onChangela6Listener145 = (event) => {
+    setla6Essay145(event.target.value)
+  }
   const [selectedLA160, setSelectedLA160] = React.useState(localStorage.getItem("la6-160") === "true")
   const [selectedLA161, setSelectedLA161] = React.useState(localStorage.getItem("la6-161") === "true")
   const [selectedLA162, setSelectedLA162] = React.useState(localStorage.getItem("la6-162") === "true")
@@ -628,7 +646,12 @@ const LA6Component = ({ data }) => {
             <br/> 5. What did Cronus do to his children and why?<br/></p>
 
           <textarea className="textArea"
-                    placeholder="Write your answers here. Back up your work or email it to your teacher/parent."
+                    placeholder="Write your responses here. Your work will automatically be saved to your Local Storage. 
+                    If you clear your cookies, your answers will be erased! Be sure to back up your work by saving it in another 
+                    location. You can (1) 'Select All' (select your answers inside this textbox by touching/clicking on it) and 
+                    copy/paste it into Google Docs, a Word Doc or into an email 
+                    and send it to your parent or teacher. (2) On a PC, you can 'Select All', click 'Print' and then save as a PDF on
+                     your computer. Be sure to label each assignment with the Subject, Chapter Title, and Lesson Number. Also, number your responses."
                     onChange={onChangeLA6Listener} value={la6Essay}/>
           <p>If you don’t already have an account with Quizlet, <a
             href="https://help.quizlet.com/hc/en-us/articles/360030555532-Signing-up-for-a-free-account"
@@ -702,7 +725,7 @@ const LA6Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/Hhk4N9A0oCA"/>
 
           <p>To the best of your ability, answer the following questions:<br/>
-            1. Think of your favorite book or movie. Does it follow (parts of) the hero’s journey pattern?
+            1. Think of your favorite book or movie. Do you think it follow the hero’s journey pattern?
             Explain.<br/>
             2. When does the hero realize that he/she is changed (or has outgrown his/her old life)? <br/>
             3. Can you think of an episode from your own life that fits the hero’s journey formula?<br/>
@@ -1100,7 +1123,7 @@ const LA6Component = ({ data }) => {
             remainder tomorrow). </p>
           <p> The next book you will read is <i>The Egypt Game</i> by Zilpha Keatley Snyder. After you watch the
             video below, read <a href={require("../resources/books/TheEgyptGameChapter1.pdf")} rel="noreferrer"
-                                 target="_blank"> <i>Chapter 1 ~ The Discovery of Egypt</i></a>
+                                 target="_blank"> <i>Chapter 1 ~ The Discovery of Egypt </i></a>
             You can zoom in or out by using the + - icons at the bottom right. You can also enable fullscreen viewing.
           </p>
           <Video videoUrl="https://www.youtube.com/embed/hO1tzmi1V5g"/>
@@ -1108,7 +1131,8 @@ const LA6Component = ({ data }) => {
             questions that follow. Be sure to use correct grammar.<br/>
             <b>Vocabulary:</b> For each vocabulary word below, write a definition and then write a sentence using the
             word. Below is an example.<br/>
-            1. taut <i style={{ color: "#4f5979" }}>stretched or pulled tight; not slack. "His muscles were taut from the strain of the weight he was
+            1. taut <i style={{ color: "#4f5979" }}>stretched or pulled tight; not slack. "His muscles were taut from
+              the strain of the weight he was
               pulling."</i><br/>
             2. dingy <br/>
             3. improvise<br/>
@@ -1132,7 +1156,7 @@ const LA6Component = ({ data }) => {
             the vocabulary words below. Then answer the questions that follow.<br/>
             <Video videoUrl="https://www.youtube.com/embed/-_DN7l53J_c?list=PLvJNSf-7NfrO4ECq1tyS1SI9HlXMOKXZ7"/>
             <b>Vocabulary:</b> For each vocabulary word below, write a definition and then write a sentence using the
-            word.  Be sure to do this for all the vocabulary words for this course.  <br/>         
+            word. Be sure to do this for all the vocabulary words for this course. <br/>
             1. splendor <i>(you may use the internet to help you define these words)</i><br/>
             2. façade<br/>
             3. craggy<br/>
@@ -1195,7 +1219,7 @@ const LA6Component = ({ data }) => {
             on something? Explain.<br/>
             2. What was the one thing April didn’t know about? Why doesn’t she?<br/>
             3. Who were the “worst enemies of Egypt” according to Melanie?<br/>
-            4. Based on the video: List the four word types and give an example of each. 
+            4. Based on the video: List the four word types and give an example of each.
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener29} value={la6Essay29}/>
 
@@ -1204,7 +1228,7 @@ const LA6Component = ({ data }) => {
             <i> The Egypt Game</i> and watach the video below. Write definitions for
             the vocabulary words below. Then, answer the questions that follow.<br/>
             <Video videoUrl="https://www.youtube.com/embed/ioHMvicIOPY?list=PLvJNSf-7NfrO4ECq1tyS1SI9HlXMOKXZ7"/>
-   <i>Vocabulary</i><br/>
+            <i>Vocabulary</i><br/>
             1. corrugate<br/>
             2. oblige<br/>
             3. warily<br/>
@@ -1243,7 +1267,7 @@ const LA6Component = ({ data }) => {
             4. How did the girls keep track of the rituals they came up with? If the story was set
             during the present time, what might be some ways the girls could keep track of
             their rituals?<br/>
-            5. Based on the video:  Describe when you would use a colon and provide an example in a sentence.<br/>
+            5. Based on the video: Describe when you would use a colon and provide an example in a sentence.<br/>
             6. Describe when you would use a semi-colon and provide an example in a sentence.<br/>
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener31} value={la6Essay31}/>
@@ -1265,7 +1289,8 @@ const LA6Component = ({ data }) => {
             <br/><i>Questions</i><br/>
             1. What did Mr. Ross mean when he said, “Melanie! The cruelest month is here”?<br/>
             2. Why did April and Melanie decide to let Elizabeth play in the Egypt Game?<br/>
-            3. Based on the video: Give five examples of Latin or Greek roots. Define what each root means and give an example used in a word.
+            3. Based on the video: Give five examples of Latin or Greek roots. Define what each root means and give an
+            example used in a word.
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener32} value={la6Essay32}/>
 
@@ -1288,11 +1313,11 @@ const LA6Component = ({ data }) => {
             3. What happened in the neighborhood to put the Egypt Game on hold for a while?<br/>
             4. What did the children make for the Egypt Game while they were stuck inside?<br/>
             5. Who do think is guilty? Why?<br/>
-            6. Based on the video: Describe when you would use an apostrophe and give examples. 
-          </p>
+            6. Based on the video: Describe when you would use an apostrophe and give examples.
+          </p>          <br/>
+
           <textarea className="textArea" onChange={onChangeLA6Listener33} value={la6Essay33}/>
 
-          <br/>
           <span className="days">LESSONS 41 &amp; 42</span>
           <p>Read <i>Chapter 9 ~ Summoned by the Mighty One</i> from
             <i> The
@@ -1314,10 +1339,10 @@ const LA6Component = ({ data }) => {
             Explain.<br/>
             3. What did Set and Isis send to the four Egyptians?<br/>
             4. What sort of sign did Melanie say they should look for?<br/>
-          </p>
+          </p>          <br/>
+
           <textarea className="textArea" onChange={onChangeLA6Listener34} value={la6Essay34}/>
 
-          <br/>
           <span className="days">LESSONS 41 &amp; 42</span>
           <p>Read <i>Chapter 10 ~ The Return to Egypt</i> from
             <i> The
@@ -2498,9 +2523,10 @@ const LA6Component = ({ data }) => {
           <span className="days">LESSON 127</span>
           <p>Begin reading <b><a href={require("../resources/books/StargirlChapter1.pdf")} rel="noreferrer"
                                  target="_blank"> Stargirl by Jerry
-            Spinelli -</a></b> Porcupine Necktie and Chapter 1,
-            pages 1-6. <br/>
-            <img src={require("../../public/images/bookCovers/stargirl.jpg")} alt=""/></p>
+            Spinelli. </a></b> Until you receive a copy of the book, the reading for the first assignment
+            is posted <a href={require("../resources/books/StargirlChapter1.pdf")} rel="noreferrer"
+                         target="_blank"> here, Porcupine Necktie and Chapters 1-2, pages 1-10.<br/>
+              <img src={require("../../public/images/bookCovers/stargirl.jpg")} alt="Stargirl"/></a></p>
           <p><i>For each vocabulary word below, a) write the definition and b) write a sentence using the
             word. </i><br/>
             1. ukulele <br/>
@@ -2510,55 +2536,45 @@ const LA6Component = ({ data }) => {
             3. strumming <br/>
             4. disbelief <br/>
             5. gawked <br/>
+            6. rouge<br/>
+            7. noncomformity<br/>
+            8. kimono<br/>
+            9. isosceles triangle<br/>
+            10. acquired<br/>
+            11. variants<br/>
+            12. scam<br/>
           </p>
-          <p><i>After you complete the reading, answer the questions below:</i><br/>
-          </p><p> 1. Is Stargirl Caraway an appropriate name for this character? <br/>
-          2. Is Leo Borlock an appropriate name for this character?<br/>
-          3. What is a narrator? You may look this up online to help you with a complete definition.<br/>
-          4. The narrator of Stargirl is Leo Borlock. What do we learn about him in this chapter of the
-          novel?<br/>
-          5. What good deeds do we see in this chapter of the novel?<br/>
-          6. What did you think about the ending of “Porcupine Necktie”? “Porcupine Necktie” is the prologue
-          that came just before chapter/Chapter 1.<br/>
-          7. What kind of an impact does Stargirl make on the students of Mica High School on her first day
-          of
-          school?<br/>
-          8. What do we find out about Stargirl Caraway in Chapter 1?<br/>
-          9. Which song does Stargirl sing on her first day of high school?<br/>
-          10. What is a ukulele? Is it a “cool” musical instrument? <br/>
-          11. Write a short character analysis of Kevin.<br/>
-          12. What is Hot Seat?
-        </p>
+          <p><i>After you complete the reading, answer the questions below:</i><br/></p>
+          <p> 1. Is Stargirl Caraway an appropriate name for this character? <br/>
+            2. Is Leo Borlock an appropriate name for this character?<br/>
+            3. What is a narrator? You may look this up online to help you with a complete definition.<br/>
+            4. The narrator of Stargirl is Leo Borlock. What do we learn about him in this chapter of the
+            novel?<br/>
+            5. What good deeds do we see in this chapter of the novel?<br/>
+            6. What did you think about the ending of “Porcupine Necktie”? “Porcupine Necktie” is the prologue
+            that came just before chapter/Chapter 1.<br/>
+            7. What kind of an impact does Stargirl make on the students of Mica High School on her first day
+            of school?<br/>
+            8. What do we find out about Stargirl Caraway in Chapter 1?<br/>
+            9. Which song does Stargirl sing on her first day of high school?<br/>
+            10. What is a ukulele? Is it a “cool” musical instrument? <br/>
+            11. What is Kevin like? Write a short character analysis of Kevin.<br/>
+            12. What is Hot Seat?<br/>
+            13. The name of the high school is Mica Area High School. What is Mica? <br/>
+            14. Write a short character analysis of Hillari Kemble. Which conspiracy theory does she say
+            she believes? <br/>
+            15. How does Stargirl celebrate other people’s birthdays? <br/>
+            16. What new things did you learn about Stargirl? <br/>
+            17. Does Stargirl always do the right thing? <br/>
+            18. Kevin says, <q>How long do you think somebody who’s really like that is going to
+              last around here?</q> This is foreshadowing. Define <q>foreshadowing.</q> <br/>
+            18. What are the students at Mica Area High School like? <br/>
+            19. What would a hotbed of conformity look like? <br/>
+          </p>
           <textarea className="textArea" onChange={onChangeLA6Listener106} value={la6Essay106}/>
           <br/>
           <span className="days">LESSON 128</span>
-          <p>Read Chapter 2 of Stargirl, pages 6-10. </p>
-          <p><i>For each vocabulary word below, write the definition and then write a sentence using the
-            word. </i><br/>
-            1. rouge<br/>
-            2. noncomformity<br/>
-            3. kimono<br/>
-            4. isosceles triangle<br/>
-            5. acquired<br/>
-            6. variants<br/>
-            7. scam<br/>
-          </p>
-          <p><i>After you complete the reading, answer the questions below:</i><br/>
-            1. The name of the high school is Mica Area High School. What is Mica? <br/>
-            2. Write a short character analysis of Hillari Kemble. Which conspiracy theory does she say
-            she believes? <br/>
-            3. How does Stargirl celebrate other people’s birthdays? <br/>
-            4. What new things did you learn about Stargirl? <br/>
-            5. Does Stargirl always do the right thing? <br/>
-            6. Kevin says, <q>How long do you think somebody who’s really like that is going to
-              last around here?</q> This is foreshadowing. Define <q>foreshadowing.</q> <br/>
-            7. What are the students at Mica Area High School like? <br/>
-            8. What would a hotbed of conformity look like? <br/>
-          </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener107} value={la6Essay107}/>
-          <br/>
-          <span className="days">LESSON 129</span>
-          <p>Read Chapter 3 of Stargirl, pages 10-15. </p>
+          <p>Read Chapters 3 and 4 of Stargirl, pages 10-16. </p>
           <p><i>For each vocabulary word below, write the definition and then write a sentence using the
             word. </i><br/>
             1. producer<br/>
@@ -2570,34 +2586,25 @@ const LA6Component = ({ data }) => {
             7. aviary<br/>
             8. resumed<br/>
             9. stifled<br/>
+            10. hoax<br/>
+            11. stunned<br/>
+            12. disdainful<br/>
+            13. chiseled<br/>
           </p>
           <p><i>After you complete the reading, answer the questions below:</i><br/>
             1. What are the three things that Hillari Kimble is known for? Are these things worth being
             known for? <br/>
             2. Compare and contrast Hillari Kimble and Stargirl. What are the difference between them? <br/>
+            3. Write a short character analysis of Wayne Parr. <br/>
+            4. Is Wayne Parr a good name for this character? Why are why not. <br/>
+            5. Compare and contrast Wayne Parr and Stargirl. <br/>
+            6. Wayne Parr is a foil for Stargirl. What is a foil? <br/>
+            7. What are the three things that you would like to be known for? <br/>
           </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener108} value={la6Essay108}/>
+          <textarea className="textArea" onChange={onChangeLA6Listener107} value={la6Essay107}/>
           <br/>
-          <span className="days">LESSON 130</span>
-          <p>Read Chapter 4 of Stargirl, pages 15-16. </p>
-          <p><i>For each vocabulary word below, write the definition and then write a sentence using the
-            word. </i><br/>
-            1. hoax<br/>
-            2. stunned<br/>
-            3. disdainful<br/>
-            4. chiseled<br/>
-          </p>
-          <p><i>After you complete the reading, answer the questions below:</i><br/>
-            1. Write a short character analysis of Wayne Parr. <br/>
-            2. Is Wayne Parr a good name for this character? Why are why not. <br/>
-            3. Compare and contrast Wayne Parr and Stargirl. <br/>
-            4. Wayne Parr is a foil for Stargirl. What is a foil? <br/>
-            5. What are the three things that you would like to be known for? <br/>
-          </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener109} value={la6Essay109}/>
-          <br/>
-          <span className="days">LESSON 131</span>
-          <p>Read Chapter 5 of Stargirl, pages 16-19.</p>
+          <span className="days">LESSON 129</span>
+          <p>Read Chapters 5 and 6 of Stargirl, pages 16-21.</p>
           <p><i>For each vocabulary word below, write the definition and then write a sentence using the
             word. </i><br/>
             1. bolted<br/>
@@ -2605,6 +2612,9 @@ const LA6Component = ({ data }) => {
             3. gaped<br/>
             4. linger<br/>
             5. reluctantly<br/>
+            6. bristle<br/>
+            7. glared<br/>
+            8. ferociously<br/>
           </p>
           <p><i>After you complete the reading, answer the questions below:</i><br/>
             1. What does Stargirl do at the football game? <br/>
@@ -2613,47 +2623,18 @@ const LA6Component = ({ data }) => {
             4. How do the cheerleaders react to Stargirl’s nonappearance at halftime? <br/>
             5. How does Stargirl celebrate Halloween? <br/>
             6. What is your opinion of the ending? <br/>
-          </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener110} value={la6Essay110}/>
-          <br/>
-          <span className="days">LESSON 132</span>
-          <p>Read Chapter 6 of Stargirl, pages 19-21.</p>
-          <p><i>For each vocabulary word below, write the definition and then write a sentence using the
-            word. </i><br/>
-            1. bristle<br/>
-            2. glared<br/>
-            3. ferociously<br/>
-          </p>
-          <p><i>After you complete the reading, answer the questions below:</i><br/>
-            1. In your opinion, why doesn’t Hillari Kimble want Stargirl to sing to her on her
+            7. In your opinion, why doesn’t Hillari Kimble want Stargirl to sing to her on her
             birthday? <br/>
-            2. Stargirl promises not to sing <q>Happy Birthday</q> to Hillari Kimble on Hillari’s
+            8. Stargirl promises not to sing <q>Happy Birthday</q> to Hillari Kimble on Hillari’s
             birthday. <br/>
-            3. What does Stargirl do instead? How does Hillari react? <br/>
-            4. Why does Stargirl sing to Leo? <br/>
-            5. What is your opinion of the ending for this chapter? <br/>
+            9. What does Stargirl do instead? How does Hillari react? <br/>
+            10. Why does Stargirl sing to Leo? <br/>
+            11. What is your opinion of the ending for this chapter? <br/>
           </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener111} value={la6Essay111}/>
+          <textarea className="textArea" onChange={onChangeLA6Listener108} value={la6Essay108}/>
           <br/>
-          <span className="days">LESSON 133</span>
-          <p>Read Chapter 7 of Stargirl, pages 21-25.</p>
-          <p><i>For each vocabulary word below, write the definition and then write a sentence using the
-            word. </i><br/>
-            1. morbid<br/>
-            2. paleontologist<br/>
-          </p>
-          <p><i>After you complete the reading, answer the questions below:</i><br/>
-            1. Write a short character analysis of A. H. (Archibald Hapwood) Brubaker. <br/>
-            2. Write a description of Señor Saguaro. <br/>
-            3. Does A. H. (Archibald Hapwood) Brubaker always act ethically? <br/>
-            4. Is A. H. (Archibald Hapwood) Brubaker a nonconformist? <br/>
-            5. Did A. H. (Archibald Hapwood) Brubaker create Stargirl? <br/>
-            6. What do we learn about Stargirl in this chapter? <br/>
-          </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener112} value={la6Essay112}/>
-          <br/>
-          <span className="days">LESSON 134</span>
-          <p>Read Chapter 8 of Stargirl, pages 25-28.</p>
+          <span className="days">LESSON 130</span>
+          <p>Read Chapters 7 and 8 of Stargirl, pages 21-28.</p>
           <p><i>For each vocabulary word below, write the definition and then write a sentence using the
             word. </i><br/>
             1. acrobatic<br/>
@@ -2663,40 +2644,29 @@ const LA6Component = ({ data }) => {
             5. embrace<br/>
             6. oratorical<br/>
             7. confer<br/>
-            8. aftermath<br/>
-          </p>
+            8. aftermath<br/></p>
+          9. morbid<br/>
+          10. paleontologist<br/>
           <p><i>After you complete the reading, answer the questions below:</i><br/>
-            1. How is Stargirl as a cheerleader for the football team? <br/>
-            2. Why could there a backlash against Hillari Kimble? <br/>
-            3. Write a character analysis of Dori Dilson. <br/>
-            4. The student population of Mica Area High School honor Stargirl <q>by imitation</q>? How do
+            1. Write a short character analysis of A. H. (Archibald Hapwood) Brubaker. <br/>
+            2. Write a description of Señor Saguaro. <br/>
+            3. Does A. H. (Archibald Hapwood) Brubaker always act ethically? <br/>
+            4. Is A. H. (Archibald Hapwood) Brubaker a nonconformist? <br/>
+            5. Did A. H. (Archibald Hapwood) Brubaker create Stargirl? <br/>
+            6. What do we learn about Stargirl in this chapter? <br/>
+            7. How is Stargirl as a cheerleader for the football team? <br/>
+            8. Why could there a backlash against Hillari Kimble? <br/>
+            9. Write a character analysis of Dori Dilson. <br/>
+            10. The student population of Mica Area High School honor Stargirl <q>by imitation</q>? How do
             they
             start imitating her? Is this good or bad? <br/>
-            5. What film is shown after the annual oratorical contest? <br/>
-            6. Why is Stargirl popular? <br/>
+            11. What film is shown after the annual oratorical contest? <br/>
+            12. Why is Stargirl popular? <br/>
           </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener113} value={la6Essay113}/>
+          <textarea className="textArea" onChange={onChangeLA6Listener109} value={la6Essay109}/>
           <br/>
-          <span className="days">LESSON 135</span>
-          <p>Read Chapter 9 of Stargirl, pages 28-30.</p>
-          <p><i>For each vocabulary word below, write the definition and then write a sentence using the
-            word. </i><br/>
-            1. dormant<br/>
-            2. sullenly<br/>
-            3. peering<br/>
-          </p>
-          <p><i>After you complete the reading, answer the questions below:</i><br/>
-            1. What effects does Stargirl have on the students of Mica Area High School? Are these<br/>
-            2. effects positive or negative? <br/>
-            3. How is Leo affected by the change at Mica Area High School? <br/>
-            4. What is the ironic thing that happens? <br/>
-            5. According to Archie, what is the problem with miracles? <br/>
-            6. What is your opinion of the end of this chapter? <br/>
-          </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener114} value={la6Essay114}/>
-          <br/>
-          <span className="days">LESSON 136</span>
-          <p>Read Chapter 10 of Stargirl, pages 30-33.</p>
+          <span className="days">LESSON 131</span>
+          <p>Read Chapters 9 and 10 of Stargirl, pages 28-33.</p>
           <p><i>For each vocabulary word below, write the definition and then write a sentence using the
             word. </i><br/>
             1. vanished<br/>
@@ -2707,20 +2677,28 @@ const LA6Component = ({ data }) => {
             6. patriotic<br/>
             7. mourners<br/>
             8. squabble<br/>
+            9. dormant<br/>
+            10. sullenly<br/>
+            11. peering<br/>
           </p>
           <p><i>After you complete the reading, answer the questions below:</i><br/>
-            1. Is Stargirl normal? <br/>
-            2. What is the purpose of the roadrunner at Mica Area High School? <br/>
-            3. How does Stargirl allegedly say the Pledge of Allegiance? <br/>
-            4. What happens when Anna Grisdale’s grandfather dies? <br/>
-            5. What happens when Danny Pike goes bicycle riding? What is the aftermath? <br/>
-            6. What is the significance of the <q>Pledge of Allegiance, the Grisdale funeral, and the Danny
-              Pike affair</q>?<br/>
-          </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener115} value={la6Essay115}/>
-          <br/>
-          <span className="days">LESSON 137</span>
-          <p>Read Chapter 11 of Stargirl, pages 33-37.</p>
+            1. What effects does Stargirl have on the students of Mica Area High School? Are these<br/>
+            2. effects positive or negative? <br/>
+            3. How is Leo affected by the change at Mica Area High School? <br/>
+            4. What is the ironic thing that happens? <br/>
+            5. According to Archie, what is the problem with miracles? <br/>
+            6. What is your opinion of the end of this chapter? <br/>
+            7. Is Stargirl normal? <br/>
+            8. What is the purpose of the roadrunner at Mica Area High School? <br/>
+            9. How does Stargirl allegedly say the Pledge of Allegiance? <br/>
+            10. What happens when Anna Grisdale’s grandfather dies? <br/>
+            11. What happens when Danny Pike goes bicycle riding? What is the aftermath? <br/>
+            12. What is the significance of the <q>Pledge of Allegiance, the Grisdale funeral, and the Danny
+              Pike affair</q>?<br/></p>
+          <textarea className="textArea" onChange={onChangeLA6Listener110} value={la6Essay110}/>
+
+          <span className="days">LESSON 132</span>
+          <p>Read Chapters 11 and 12 of Stargirl, pages 33-42.</p>
           <p><i>For each vocabulary word below, write the definition and then write a sentence using the
             word. </i><br/>
             1. glumly<br/>
@@ -2729,6 +2707,11 @@ const LA6Component = ({ data }) => {
             4. indifferent<br/>
             5. fanatics<br/>
             6. detested<br/>
+            7. infamous<br/>
+            8. verdict<br/>
+            9. mingled<br/>
+            10. grim<br/>
+            11. pantomime<br/>
           </p>
           <p><i>After you complete the reading, answer the questions below:</i><br/>
             1. How does Stargirl act as a cheerleader at basketball games? <br/>
@@ -2741,33 +2724,22 @@ const LA6Component = ({ data }) => {
             7. Why would the coach of Mica Area High School run up the score against the opposing
             team? <br/>
             8. What trick do the cheerleaders play on Stargirl? <br/>
+            9. What has happened to Stargirl’s popularity? <br/>
+            10. How does Stargirl act while appearing on Hot Seat? Which pantomime does she perform? <br/>
           </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener116} value={la6Essay116}/>
+          <textarea className="textArea" onChange={onChangeLA6Listener111} value={la6Essay111}/>
+
           <br/>
-          <span className="days">LESSON 138</span>
-          <p>Read Chapter 12 of Stargirl, pages 38-42.</p>
-          <p><i>For each vocabulary word below, write the definition and then write a sentence using the
-            word. </i><br/>
-            1. infamous<br/>
-            2. verdict<br/>
-            3. mingled<br/>
-            4. grim<br/>
-            5. pantomime<br/>
-          </p>
-          <p><i>After you complete the reading, answer the questions below:</i><br/>
-            1. What has happened to Stargirl’s popularity? <br/>
-            2. How does Stargirl act while appearing on Hot Seat? Which pantomime does she perform? <br/>
-          </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener117} value={la6Essay117}/>
-          <br/>
-          <span className="days">LESSON 139</span>
-          <p>Read Chapter 13 of Stargirl, pages 43-48.</p>
+          <span className="days">LESSON 133</span>
+          <p>Read Chapters 13 and 14 of Stargirl, pages 43-51.</p>
           <p><i>For each vocabulary word below, write the definition and then write a sentence using the
             word. </i><br/>
             1. traitor<br/>
             2. meddle<br/>
             3. impish<br/>
             4. timid<br/>
+            5. pushover<br/>
+            6. devastated<br/>
           </p>
           <p><i>After you complete the reading, answer the questions below:</i><br/>
             1. How does Stargirl respond to the various questions and charges leveled against her? <br/>
@@ -2782,46 +2754,19 @@ const LA6Component = ({ data }) => {
               stick your nose in, whether you’re invited or not. Why do you do that? Where’d you come from,
               Mars or something? Why don’t you go back to where you came from?</q><br/>
             7. Why does faculty adviser Mr. Robineau stop Hot Seat? <br/>
-          </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener118} value={la6Essay118}/>
-          <br/>
-          <span className="days">LESSON 140</span>
-          <p>Read Chapter 14 of Stargirl, pages 48-51.</p>
-          <p><i>For each vocabulary word below, write the definition and then write a sentence using the
-            word. </i><br/>
-            1. pushover<br/>
-            2. devastated<br/>
-          </p>
-          <p><i>After you complete the reading, answer the questions below:</i><br/>
-            1. Does Stargirl change after Hot Seat? What does she do on Valentine’s Day? <br/>
-            2. Does Stargirl change after Hot Seat? Does she cheer for the Sun Valley basketball team? <br/>
-            3. After Sun Valley basketball star Ron Kovac is injured, what does Stargirl do? <br/>
-            4. After Sun Valley basketball star Ron Kovac is injured and carried off court in a
+            8. Does Stargirl change after Hot Seat? What does she do on Valentine’s Day? <br/>
+            9. Does Stargirl change after Hot Seat? Does she cheer for the Sun Valley basketball team? <br/>
+            10. After Sun Valley basketball star Ron Kovac is injured, what does Stargirl do? <br/>
+            11. After Sun Valley basketball star Ron Kovac is injured and carried off court in a
             stretcher, <br/>
-            5. Why does the Mica Area High School basketball team lose to Glendale? <br/>
-            6. Why does Stargirl’s face get <q>bloody</q>?<br/>
-            7. What do you think of the ending of this chapter? <br/>
+            12. Why does the Mica Area High School basketball team lose to Glendale? <br/>
+            13. Why does Stargirl’s face get <q>bloody</q>?<br/>
+            14. What do you think of the ending of this chapter? <br/>
           </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener119} value={la6Essay119}/>
+          <textarea className="textArea" onChange={onChangeLA6Listener112} value={la6Essay112}/>
           <br/>
-          <span className="days">LESSON 141</span>
-          <p>Read Chapter 15 of Stargirl, pages 51-53.</p>
-          <p><i>For each vocabulary word below, write the definition and then write a sentence using the
-            word. </i><br/>
-            1. mourning<br/>
-            2. subdued<br/>
-            3. lurked<br/>
-          </p>
-          <p><i>After you complete the reading, answer the questions below:</i><br/>
-            1. How does Leo react to getting a love note from Stargirl? <br/>
-            2. Does Stargirl still have friends? <br/>
-            3. How does Archie react to Stargirl getting hit in the face with a tomato? <br/>
-            4. Why do you suppose Archie talks about the Eocene skull? <br/>
-          </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener120} value={la6Essay120}/>
-          <br/>
-          <span className="days">LESSON 142</span>
-          <p>Read Chapter 16 of Stargirl, pages 53-60.</p>
+          <span className="days">LESSON 134</span>
+          <p>Read Chapters 15 and 16 of Stargirl, pages 51-60.</p>
           <p><i>For each vocabulary word below, write the definition and then write a sentence using the
             word. </i><br/>
             1. trembling<br/>
@@ -2831,18 +2776,25 @@ const LA6Component = ({ data }) => {
             5. crouching<br/>
             6. detached<br/>
             7. rodent<br/>
+            8. mourning<br/>
+            9. subdued<br/>
+            10. lurked<br/>
           </p>
           <p><i>After you complete the reading, answer the questions below:</i><br/>
-            1. What happens when Stargirl tells Leo, <q>You’re welcome</q>?<br/>
-            2. What decision does the cheerleading squad make? Is it the right decision to make? <br/>
-            3. Why do a group of girls call Leo <q>Starboy</q>?<br/>
-            4. Why does Leo spy — for the second time — on Stargirl? <br/>
-            5. What do Leo and Stargirl talk about? <br/>
+            1. How does Leo react to getting a love note from Stargirl? <br/>
+            2. Does Stargirl still have friends? <br/>
+            3. How does Archie react to Stargirl getting hit in the face with a tomato? <br/>
+            4. Why do you suppose Archie talks about the Eocene skull? <br/>
+            5. What happens when Stargirl tells Leo, <q>You’re welcome</q>?<br/>
+            6. What decision does the cheerleading squad make? Is it the right decision to make? <br/>
+            7. Why do a group of girls call Leo <q>Starboy</q>?<br/>
+            8. Why does Leo spy — for the second time — on Stargirl? <br/>
+            9. What do Leo and Stargirl talk about? <br/>
           </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener121} value={la6Essay121}/>
+          <textarea className="textArea" onChange={onChangeLA6Listener113} value={la6Essay113}/>
           <br/>
-          <span className="days">LESSON 143</span>
-          <p>Read Chapter 17 of Stargirl, pages 60-68.</p>
+          <span className="days">LESSON 135</span>
+          <p>Read Chapters 17 and 18 of Stargirl, pages 60-72.</p>
           <p><i>For each vocabulary word below, write the definition and then write a sentence using the
             word. </i><br/>
             1. atop<br/>
@@ -2852,20 +2804,6 @@ const LA6Component = ({ data }) => {
             5. dilapidated<br/>
             6. serenity<br/>
             7. interrogate<br/>
-          </p>
-          <p><i>After you complete the reading, answer the questions below:</i><br/>
-            1. How does Leo feel about Stargirl? <br/>
-            2. What is the desert like? <br/>
-            3. Does Stargirl have the time? <br/>
-            4. What is Stargirl’s enchanted place? <br/>
-            5. What happens when Stargirl and Leo meditate? <br/>
-          </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener122} value={la6Essay122}/>
-          <br/>
-          <span className="days">LESSON 144</span>
-          <p>Read Chapter 18 of Stargirl, pages 68-72.</p>
-          <p><i>For each vocabulary word below, write the definition and then write a sentence using the
-            word. </i><br/>
             1. impulsively<br/>
             2. escort<br/>
             3. veer<br/>
@@ -2873,16 +2811,21 @@ const LA6Component = ({ data }) => {
             5. jabbered<br/>
           </p>
           <p><i>After you complete the reading, answer the questions below:</i><br/>
-            1. How alone are Stargirl and Leo? <br/>
-            2. Does everyone ignore Stargirl and Leo? <br/>
-            3. How does the shunning start? <br/>
-            4. What do students blame Stargirl for? Are the students justified in blaming her for
+            1. How does Leo feel about Stargirl? <br/>
+            2. What is the desert like? <br/>
+            3. Does Stargirl have the time? <br/>
+            4. What is Stargirl’s enchanted place? <br/>
+            5. What happens when Stargirl and Leo meditate? <br/>
+            6. How alone are Stargirl and Leo? <br/>
+            7. Does everyone ignore Stargirl and Leo? <br/>
+            8. How does the shunning start? <br/>
+            9. What do students blame Stargirl for? Are the students justified in blaming her for
             that? <br/>
           </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener123} value={la6Essay123}/>
+          <textarea className="textArea" onChange={onChangeLA6Listener114} value={la6Essay114}/>
           <br/>
-          <span className="days">LESSON 145</span>
-          <p>Read Chapter 19 of Stargirl, pages 72-76.</p>
+          <span className="days">LESSON 136</span>
+          <p>Read Chapters 19 and 20 of Stargirl, pages 72-76.</p>
           <p><i>For each vocabulary word below, write the definition and then write a sentence using the
             word. </i><br/>
             1. shunning<br/>
@@ -2891,7 +2834,8 @@ const LA6Component = ({ data }) => {
             4. predator<br/>
             5. seducer<br/>
             6. derelict<br/>
-            7. dignitary
+            7. dignitary<br/>
+            8. revel<br/>
           </p>
           <p><i>After you complete the reading, answer the questions below:</i><br/>
             1. What is <q>shunning</q>?<br/>
@@ -2901,31 +2845,22 @@ const LA6Component = ({ data }) => {
             5. What does Leo want Stargirl to do? <br/>
             6. What does Archie think of Stargirl? <br/>
             7. What happens when Archie and Leo consult Señor Saguaro? <br/>
-          </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener124} value={la6Essay124}/>
-          <br/>
-          <span className="days">LESSON 146</span>
-          <p>Read Chapter 20 of Stargirl, pages 76-80.</p>
-          <p><i>For each vocabulary word below, write the definition and then write a sentence using the
-            word. </i><br/>
-            revel<br/>
-          </p>
-          <p><i>After you complete the reading, answer the questions below:</i><br/>
-            1. How is Glendale, the basketball team that defeated Mica Area High School, doing in the
+            8. How is Glendale, the basketball team that defeated Mica Area High School, doing in the
             state basketball tournament? <br/>
-            2. How is Stargirl doing as an oratorical contestant? <br/>
-            3. What does Stargirl see? <br/>
-            4. What do Stargirl and Leo want to do with their lives? <br/>
-            5. Why doesn’t Stargirl want credit for her good deeds? <br/>
-            6. Who gave Leo the porcupine necktie? <br/>
+            9. How is Stargirl doing as an oratorical contestant? <br/>
+            10. What does Stargirl see? <br/>
+            11. What do Stargirl and Leo want to do with their lives? <br/>
+            12. Why doesn’t Stargirl want credit for her good deeds? <br/>
+            13. Who gave Leo the porcupine necktie? <br/>
           </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener125} value={la6Essay125}/>
+          <textarea className="textArea" onChange={onChangeLA6Listener115} value={la6Essay115}/>
           <br/>
-          <span className="days">LESSON 147</span>
-          <p>Read Chapter 21 of Stargirl, pages 81-85.</p>
+          <span className="days">LESSON 137</span>
+          <p>Read Chapters 21 and 22 of Stargirl, pages 81-91.</p>
           <p><i>For the vocabulary word below, write the definition and then write a sentence using the
             word. </i><br/>
             1. ofacetiously
+            2. obsessed
           </p>
           <p><i>After you complete the reading, answer the questions below:</i><br/>
             1. Where do the cards that Stargirl gives away come from? <br/>
@@ -2936,57 +2871,38 @@ const LA6Component = ({ data }) => {
             Stargirl, sees this? <br/>
             6. What does it mean to say that Stargirl is <q>the Johnny Appleseed of loose change</q>?<br/>
             7. The reference to <q>Johnny Appleseed</q> is an allusion. What is an allusion? <br/>
+            8. Are Stargirl’s parents <q>normal folks</q>?<br/>
+            9. Is Stargirl’s home a normal home? <br/>
+            10. Is Stargirl’s room a normal room? <br/>
+            11. What is Stargirl’s <q>happy wagon</q>? How many stones are in it? <br/>
+            12. Is Stargirl affected by the shunning at school? <br/>
+            13. What new things do we learn about Stargirl? <br/>
+            14. Why is Stargirl upset when Leo asks her, <q>Are you running for saint?</q>.<br/>
+            15. Why are 18 stones in Stargirl’s happy wagon? <br/>
+            16. Is Stargirl a saint? <br/>
           </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener126} value={la6Essay126}/>
+          <textarea className="textArea" onChange={onChangeLA6Listener116} value={la6Essay116}/>
           <br/>
-          <span className="days">LESSON 148</span>
-          <p>Read Chapter 22 of Stargirl, pages 85-91.</p>
+          <span className="days">LESSON 138</span>
+          <p>Read Chapters 23 and 24 of Stargirl, pages 91-96. </p>
           <p><i>For the vocabulary word below, write the definition and then write a sentence using the
             word. </i><br/>
-            1. obsessed
-          </p>
+            1. badgered </p>
           <p><i>After you complete the reading, answer the questions below:</i><br/>
-            1. Are Stargirl’s parents <q>normal folks</q>?<br/>
-            2. Is Stargirl’s home a normal home? <br/>
-            3. Is Stargirl’s room a normal room? <br/>
-            4. What is Stargirl’s <q>happy wagon</q>? How many stones are in it? <br/>
-            5. Is Stargirl affected by the shunning at school? <br/>
-            6. What new things do we learn about Stargirl? <br/>
-            7. Why is Stargirl upset when Leo asks her, <q>Are you running for saint?</q>.<br/>
-            8. Why are 18 stones in Stargirl’s happy wagon? <br/>
-            9. Is Stargirl a saint? <br/>
-          </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener127} value={la6Essay127}/>
-          <br/>
-          <span className="days">LESSON 149</span>
-          <p>Read Chapter 23 of Stargirl, pages 91-93. <br/><i>After you complete the
-            reading, answer the
-            questions
-            below:</i><br/>
             1. What things do Stargirl and Leo do on the weekends? <br/>
             2. How does the shunning affect Leo? <br/>
             3. What accusations are made against Stargirl? <br/>
             4. What makes Leo angry? <br/>
+            5. What does Stargirl do that makes <q>pretending impossible</q>?<br/>
+            6. How many people sit with Stargirl at lunch now? <br/>
+            7. How does Leo react to Stargirl’s sign? <br/>
+            8. How do the students of Mica Area High School react to Stargirl’s sign? <br/>
+            9. What does Renshaw do in this chapter? <br/>
           </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener128} value={la6Essay128}/>
+          <textarea className="textArea" onChange={onChangeLA6Listener117} value={la6Essay117}/>
           <br/>
-          <span className="days">LESSON 150</span>
-          <p>Read Chapter 24 of Stargirl, pages 93-96.</p>
-          <p><i>For the vocabulary word below, write the definition and then write a sentence using the
-            word. </i><br/>
-            1. badgered
-          </p>
-          <p><i>After you complete the reading, answer the questions below:</i><br/>
-            1. What does Stargirl do that makes <q>pretending impossible</q>?<br/>
-            2. How many people sit with Stargirl at lunch now? <br/>
-            3. How does Leo react to Stargirl’s sign? <br/>
-            4. How do the students of Mica Area High School react to Stargirl’s sign? <br/>
-            5. What does Renshaw do in this chapter? <br/>
-          </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener129} value={la6Essay129}/>
-          <br/>
-          <span className="days">LESSON 151</span>
-          <p>Read Chapter 25 of Stargirl, pages 96-100.</p>
+          <span className="days">LESSON 139</span>
+          <p>Read Chapters 25 and 26 of Stargirl, pages 96-105.</p>
           <p><i>For the vocabulary word below, write the definition and then write a sentence using the
             word. </i><br/>
             1. palmetto
@@ -2997,45 +2913,21 @@ const LA6Component = ({ data }) => {
             3. What does Leo want Stargirl to do? <br/>
             4. Is Leo correct in his belief of <q>what jails and mental hospitals are for</q>?<br/>
             5. What is your opinion of the end of this chapter? <br/>
+            6. What is Susan like? <br/>
+            7. How does Leo react to Susan? <br/>
+            8. Is it true that nobody eats anchovies? <br/>
+            9. How does Susan choose which clothing to buy? <br/>
+            10. Who is Evelyn Everybody? <br/>
+            11. Why is Susan sad for herself? <br/>
+            12. How many stones are in Susan’s happy wagon? <br/>
+            13. Is Stargirl still present in Susan? <br/>
+            14. What is the importance to Susan of winning the state oratorical contest? <br/>
+            15. What is Susan’s main goal in life? <br/>
           </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener130} value={la6Essay130}/>
+          <textarea className="textArea" onChange={onChangeLA6Listener118} value={la6Essay118}/>
           <br/>
-          <span className="days">LESSON 152</span>
-          <p>Read Chapter 26 of Stargirl, pages 100-105.</p>
-          <p><i>After you complete the reading, answer the questions below:</i><br/>
-            1. What is Susan like? <br/>
-            2. How does Leo react to Susan? <br/>
-            3. Is it true that nobody eats anchovies? <br/>
-            4. How does Susan choose which clothing to buy? <br/>
-            5. Who is Evelyn Everybody? <br/>
-            6. Why is Susan sad for herself? <br/>
-            7. How many stones are in Susan’s happy wagon? <br/>
-            8. Is Stargirl still present in Susan? <br/>
-            9. What is the importance to Susan of winning the state oratorical contest? <br/>
-            10. What is Susan’s main goal in life? <br/>
-          </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener132} value={la6Essay132}/>
-          <br/>
-          <span className="days">LESSON 153</span>
-          <p>Read Chapter 27 of Stargirl, pages 105-111.</p>
-          <p><i>After you complete the reading, answer the questions below:</i><br/>
-            1. Why is Dori Dilson mad at Susan/Stargirl? <br/>
-            2. When Susan/Stargirl is away from Mica Area High School, is she more like Susan or like
-            Stargirl?
-            <br/>
-            3. Is Susan/Stargirl confident that she will win the state oratorical contest? <br/>
-            4. What does Susan think will happen when she returns to Mica Area High School, as
-            winner of the state oratorical contest? <br/>
-            5. What does Mr. McShane mean when he asks, <q>Susan, did you ever hear of counting your
-              chickens [before they hatch]?</q>.<br/>
-            6. What does Susan/Stargirl do when they stop for a moment in the desert? <br/>
-            7. This novel pays attention to dead things: fossils, decaying cacti, extinct birds. Why? <br/>
-            8. Does Susan have any good points? <br/>
-          </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener133} value={la6Essay133}/>
-          <br/>
-          <span className="days">LESSON 154</span>
-          <p>Read Chapter 28 of Stargirl, pages 111-114.</p>
+          <span className="days">LESSON 140</span>
+          <p>Read Chapters 27 and 28 of Stargirl, pages 105-114.</p>
           <p><i>For each vocabulary word below, write the definition and then write a sentence using the
             word. </i><br/>
             1. manikins<br/>
@@ -3045,31 +2937,29 @@ const LA6Component = ({ data }) => {
             5. subsided<br/>
           </p>
           <p><i>After you complete the reading, answer the questions below:</i><br/>
-            1. At the state oratorical contest, is Susan/Stargirl acting more like Stargirl or like
+            1. Why is Dori Dilson mad at Susan/Stargirl? <br/>
+            2. When Susan/Stargirl is away from Mica Area High School, is she more like Susan or like
+            Stargirl?<br/>
+            3. Is Susan/Stargirl confident that she will win the state oratorical contest? <br/>
+            4. What does Susan think will happen when she returns to Mica Area High School, as
+            winner of the state oratorical contest? <br/>
+            5. What does Mr. McShane mean when he asks, <q>Susan, did you ever hear of counting your
+              chickens [before they hatch]?</q>.<br/>
+            6. What does Susan/Stargirl do when they stop for a moment in the desert? <br/>
+            7. This novel pays attention to dead things: fossils, decaying cacti, extinct birds. Why? <br/>
+            8. Does Susan have any good points? <br/>
+            9. At the state oratorical contest, is Susan/Stargirl acting more like Stargirl or like
             Susan? <br/>
-            2. How does Stargirl’s speech <q>I Thought I Heard a Moa</q> go over at the state oratorical
+            10. How does Stargirl’s speech <q>I Thought I Heard a Moa</q> go over at the state oratorical
             contest? <br/>
-            3. How many people from Mica witness Stargirl’s speeches? <br/>
-            4. How does Stargirl’s speech go over in the finals of the state oratorical contest? <br/>
-            5. Is Stargirl popular at the state oratorical contest? <br/>
+            11. How many people from Mica witness Stargirl’s speeches? <br/>
+            12. How does Stargirl’s speech go over in the finals of the state oratorical contest? <br/>
+            13. Is Stargirl popular at the state oratorical contest? <br/>
           </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener134} value={la6Essay134}/>
+          <textarea className="textArea" onChange={onChangeLA6Listener119} value={la6Essay119}/>
           <br/>
-          <span className="days">LESSON 155</span>
-          <p>Read Chapter 29 of Stargirl, pages 114-116.</p>
-          <p><i>After you complete the reading, answer the questions below:</i><br/>
-            1. Stargirl wins the state oratorical contest. Why? <br/>
-            2. Is Stargirl popular at the state oratorical contest? <br/>
-            3. How does Susan/Stargirl feel after the state oratorical contest, while she is still in
-            Phoenix?
-            <br/>
-            4. Are people in Mica aware of Susan’s/Stargirl’s accomplishment? <br/>
-            5. What happens when Susan returns to Mica Area High School? Who greets her? <br/>
-          </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener135} value={la6Essay135}/>
-          <br/>
-          <span className="days">LESSON 156</span>
-          <p>Read Chapter 30 of Stargirl, pages 116-120.</p>
+          <span className="days">LESSON 141</span>
+          <p>Read Chapters 29 and 30 of Stargirl, pages 114-120.</p>
           <p><i>For each vocabulary word below, write the definition and then write a sentence using the
             word. </i><br/>
             1. vacantly<br/>
@@ -3079,24 +2969,31 @@ const LA6Component = ({ data }) => {
             5. castanets<br/>
           </p>
           <p><i>After you complete the reading, answer the questions below:</i><br/>
-            1. How do Susan’s/Stargirl’s parents react to the very few people greeting Susan/Stargirl? <br/>
-            2. How does Susan react to the very few people greeting Susan/Stargirl? <br/>
-            3. What happens to Susan? What happens to Stargirl? <br/>
-            4. Who supports Stargirl? <br/>
-            5. Does Leo support Stargirl? <br/>
-            6. Why does Stargirl give up on being <q>popular and normal</q>?<br/>
-            7. Why does Stargirl say to Leo, <q>I know you’re not going to ask me to the Ocotillo Ball. It’s
+            1. Stargirl wins the state oratorical contest. Why? <br/>
+            2. Is Stargirl popular at the state oratorical contest? <br/>
+            3. How does Susan/Stargirl feel after the state oratorical contest, while she is still in
+            Phoenix?
+            <br/>
+            4. Are people in Mica aware of Susan’s/Stargirl’s accomplishment? <br/>
+            5. What happens when Susan returns to Mica Area High School? Who greets her? <br/>
+            6. How do Susan’s/Stargirl’s parents react to the very few people greeting Susan/Stargirl? <br/>
+            7. How does Susan react to the very few people greeting Susan/Stargirl? <br/>
+            8. What happens to Susan? What happens to Stargirl? <br/>
+            9. Who supports Stargirl? <br/>
+            10. Does Leo support Stargirl? <br/>
+            11. Why does Stargirl give up on being <q>popular and normal</q>?<br/>
+            12. Why does Stargirl say to Leo, <q>I know you’re not going to ask me to the Ocotillo Ball. It’s
               okay</q>?<br/>
-            8. Is Leo a needy soul? <br/>
-            9. Who wants to be a member of the musical group THE UKEE DOOKS? <br/>
-            10. Why does Kevin think it is <q>now okay to say bad things about Stargirl</q>?<br/>
-            11. Why aren’t the after-school performances of the Ukee Dooks magical times? <br/>
-            12. Who is braver: Leo or Dori Dilson? <br/>
+            13. Is Leo a needy soul? <br/>
+            14. Who wants to be a member of the musical group THE UKEE DOOKS? <br/>
+            15. Why does Kevin think it is <q>now okay to say bad things about Stargirl</q>?<br/>
+            16. Why aren’t the after-school performances of the Ukee Dooks magical times? <br/>
+            17. Who is braver: Leo or Dori Dilson? <br/>
           </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener136} value={la6Essay136}/>
+          <textarea className="textArea" onChange={onChangeLA6Listener120} value={la6Essay120}/>
           <br/>
-          <span className="days">LESSON 157</span>
-          <p>Read Chapter 31 of Stargirl, pages 120-126.</p>
+          <span className="days">LESSON 142</span>
+          <p>Read Chapters 31 and 32 of Stargirl, pages 120-130.</p>
           <p><i>For each vocabulary word below, write the definition and then write a sentence using the
             word. </i><br/>
             1. festooned<br/>
@@ -3115,22 +3012,16 @@ const LA6Component = ({ data }) => {
             9. How does Hillari Kimble react to the Bunny Hop? <br/>
             10. What kind of an exit does Stargirl make? <br/>
             11. Does Glendale win the state basketball tournament? <br/>
+            12. What time is it now? How many years have passed since the Bunny Hop? <br/>
+            13. Where did Stargirl go after she left Mica, Arizona? <br/>
+            14. Was Stargirl real? Are star people real? <br/>
+            15. What did Stargirl do for Leo? <br/>
+            16. Where was Stargirl’s office? <br/>
+            17. What happens to Stargirl’s scrapbook about the life of Peter Sinkowitz? <br/>
           </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener137} value={la6Essay137}/>
+          <textarea className="textArea" onChange={onChangeLA6Listener121} value={la6Essay121}/>
           <br/>
-          <span className="days">LESSON 158</span>
-          <p>Read Chapter 32 of Stargirl, pages 127-130.</p>
-          <p><i>After you complete the reading, answer the questions below:</i><br/>
-            1. What time is it now? How many years have passed since the Bunny Hop? <br/>
-            2. Where did Stargirl go after she left Mica, Arizona? <br/>
-            3. Was Stargirl real? Are star people real? <br/>
-            4. What did Stargirl do for Leo? <br/>
-            5. Where was Stargirl’s office? <br/>
-            6. What happens to Stargirl’s scrapbook about the life of Peter Sinkowitz? <br/>
-          </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener138} value={la6Essay138}/>
-          <br/>
-          <span className="days">LESSON 159</span>
+          <span className="days">LESSON 143</span>
           <p>Read Chapter 33 of Stargirl, pages 130-133.</p>
           <p><i>For each vocabulary word below, write the definition and then write a sentence using the
             word. </i><br/>
@@ -3147,15 +3038,220 @@ const LA6Component = ({ data }) => {
             7. What do people talk about at school reunions? <br/>
             8. In what ways does Stargirl still affect Mica Area High School? <br/>
             9. In what ways does Stargirl still affect Leo? <br/>
-            10. Does Stargirl have a happy ending? <br/>
+            10. What did you think about the ending? <br/>
             11. Do you think Leo could become a better person? Explain. <br/>
-            12. Is Stargirl ordinary or extraordinary?</p> <br/>
+            12. Is Stargirl ordinary or extraordinary? Explain your answer.</p> <br/>
+          <textarea className="textArea" onChange={onChangeLA6Listener122} value={la6Essay122}/>
+          <br/>
+          <span className="days">LESSON 144 - Persuasive Essay</span>
+          <p className="topBottom">After being homeschooled for most of her life, Stargirl enters the 10th grade with a
+            big splash. At first everyone thinks she is amazing. She is different from anyone they've ever met. She has
+            a pet rat, plays the ukelele, and doesn't conform to be like everyone else. Leo falls in love with her. Then
+            everyone turns on Stargirl. Suddenly, everything that made her special now makes her an outcast. She knows
+            that Leo sees himself as part of the group. He needs to fit in and needs her to fit in as well. So Stargirl
+            changes her personality and her appearance to make him happy.</p>
+          <p>In a 5 paragraph Persuasive essay, answer the following question:</p>
+          <p>Should Stargirl have changed to try to fit it and become popular?</p>
+          <p className="topBottom">Think about the question and form a clear opinion about it. Watch the video and read
+            the outline below. Then write a persuasive essay that supports your opinion. Be sure to use examples from
+            the book.</p>
+          <Video videourl="https://www.youtube.com/embed/5uSJEiNZ1rE"/>
+          <p>Your five paragraph essay should follow the format below: </p>
+          <ul className="assnList">
+            <li>Title</li>
+            <li><strong>Introduction paragraph: </strong>Write a hook to grab your reader's attention. Your first
+              paragraph should have a clear thesis statement (main idea of your essay). This
+              statement should convey the points or arguments you are going to
+              make. It is a road map for your essay and should answer the question, "What
+              is this paper about?" The final sentence for this paragraph should smoothly transition to the next
+              paragraph.
+            </li>
+            <li><strong>Body</strong> Paragraphs 2-4 should provide examples from the book that support your thesis
+              statement. Each
+              paragraph should discuss a different point and use different examples, explanations and support. Using
+              direct
+              quotes from the novel can be effective. Try to think of an argument someone might use against you and
+              address this in a paragraph.
+            </li>
+            <li>Your <strong>conclusion </strong> should restate your thesis in a different way. End with a thoughtful
+              summary.
+            </li>
+            <li>Each paragraph should be 3-5 sentences.</li>
+          </ul>
+          <p className="topBottom"><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
+                                      rel="noreferrer"
+                                      target="_blank">Click
+            here for a 5 Paragraph Essay outline </a>if you need help getting started.</p>
+          <textarea className="textArea"
+                    placeholder="Write your essay here.  Be sure to back up your work. Copy/paste it into another document or email it to your parent or teacher."
+                    onChange={onChangeLA6Listener123} value={la6Essay123}/>
+          <br/>
+          <span className="days">LESSON 145 - Personal Narrative</span>
+          <p className="topBottom">Most people believe we are molded by our environment. Like Stargirl, we are
+            influenced by the people we meet and changed by the experiences we have.</p>
+
+          <p className="topBottom">Write a personal narrative based on one of the following:<br/>
+            (1) A past <i>experience </i>that you feel influenced you to be the person you are today.<br/>
+
+            (2) A <i>person </i> you feel influenced you to be the person you are today.</p>
+          <p className="topBottom">Your personal narrative should be 5 paragraphs long and follow the following
+            format:<br/>
+            <ul className="assnList">
+              <li>Title</li>
+              <li><strong>Introduction paragraph: </strong>Write a hook to grab your reader's attention. Your first
+                paragraph should have a clear thesis or main idea. It should answer the question, "What
+                is this essay about?" If you are writing about an experience, you should concisely state 3 ways the
+                experience changed and/or shaped you and how it did this.
+              </li>
+              <li><strong>Body</strong> Paragraphs 2-4 should provide examples to support your thesis
+                statement. Each of these three paragraphs should elaborate on the three points you said you were going
+                to cover in your
+                introduction paragraph - the ways an experience (or a person) shaped you.
+              </li>
+              <li>Your <strong>conclusion </strong> should restate your thesis in a different way. End with a thoughtful
+                summary.
+              </li>
+              <li>Each paragraph should be 3-5 sentences.</li>
+            </ul>
+          </p>
+          <p className="topBottom"><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
+                                      rel="noreferrer"
+                                      target="_blank">Click
+            here for a 5 Paragraph Essay outline </a>if you need help getting started.</p>
+
+          <textarea className="textArea" onChange={onChangeLA6Listener124} value={la6Essay124}/>
+          <br/>
+          <span className="days">LESSON 146 - Book Review</span>
+          <h4>Write a book review for Stargirl.</h4>
+          <ul className="assnList">
+            <li>Your book review should be four to five paragraphs.</li>
+            <li>Begin with a brief summary of the novel that introduces the main character, the main
+              conflict and the question the novel tries to answer.
+            </li>
+            <li>Then, give an overview of how you liked the novel. Discuss what you didn't enjoy, followed
+              by the aspects you liked most and why.
+            </li>
+            <li>Include at least one excerpt or direct quote from the novel that will give your readers a
+              feel for the novel and the author's writing style.
+            </li>
+            <li>Conclude with a summary of your recommendation. The video below can help you get started.</li>
+          </ul>
+          <Video videoUrl="https://www.youtube.com/embed/0t78opcFHAM"/>
+          <textarea className="textArea" onChange={onChangeLA6Listener125} value={la6Essay125}/>
+          <br/>
+          <span className="days">LESSON 147</span>
+          <p className="topBottom">Create a new book cover design for <i> Stargirl</i>. <br/>
+            A book cover often helps a person decide if he or she will buy a book. Think about the impression you
+            want the images, colors and text to create for readers. Create a cover for <i> Stargirl </i> that gives
+            viewers a glimpse of the content and mood of the book. You can use whatever
+            medium
+            you choose: collage, paper and markers, or <a href="https://www.canva.com/create/book-covers/"
+                                                          rel="noreferrer"
+                                                          target="_blank"> Canva's online book cover creation
+              tool. </a>You
+            choose how you want to design it.</p>
+          <img src={require("../../public/images/bookCovers/oldmanandtheseabookcover.jpg")}
+               alt="The Old Man and the Sea creative book cover"/><br/>
+          <p className="topBottom"> Your cover (or jacket) should include:<br/>
+            1. A clear title and the author's name. <br/>
+            2. A graphic design that reflects the book's theme. <br/>
+            3. A summary of the plot without giving away the ending. <br/>
+          </p>
+          <textarea className="textArea" onChange={onChangeLA6Listener126} value={la6Essay126}/>
+          <br/>
+          <span className="days">LESSON 148 - Expository Writing</span>
+          <p className="topBottom">An expository essay explains or describes a topic by presenting only facts,
+            statistics, and examples. It is
+            meant to be informative versus persuasive or entertaining.
+            Write a 5 paragraph expository essay based on one of the prompts below:<br/>
+            <ul className="list"><strong>Description:</strong> describe a topic by listing characteristics, features,
+              and examples. No opinions or trying to persuade.<br/>
+              <li>Describe your neighborhood to someone house shopping in your area.</li>
+              <li>Describe your favorite, sport, book, movie or TV show.</li>
+              <li>Describe your best memory.</li>
+              <li>Describe your pet.</li>
+            </ul>
+            <ul className="list"><strong>Sequence: </strong> list items or events in numerical or chronological order.
+              First, second, third; next; then; finally<br/>
+              <li>Describe your process for getting ready in the morning.</li>
+              <li>The steps in cooking your favorite meal or baking your favorite dessert.</li>
+              <li>Describe the sequence of eventsin your favorite movie or book.</li>
+            </ul>
+            <ul className="list"><strong>Comparison:</strong> explain how two or more things/people/places are alike
+              and/or how they are different.<br/>
+              <li>Compare and contrast two cities you have been to.</li>
+              <li>Compare and contrast the characters Katniss and Stargirl.</li>
+              <li>Compare and contrast two different restaurants.</li>
+              <li>Compare cats to dogs.</li>
+            </ul>
+
+            <ul className="list"><strong>Cause and Effect: </strong>list one or more causes and the resulting effect or
+              effects.<br/>
+              <li>Discuss the causes and effects of bullying.</li>
+              <li>Discuss the causes and effects of not getting a good education.</li>
+              <li>Discuss the causes and effects of eating well and exercising.</li>
+              <li>Discuss the causes and effects of someone not being a good friend.</li>
+            </ul>
+
+            <ul className="list"><strong>Problem and Solution: </strong>state a problem and list one or more solutions for the
+              problem.<br/>
+              <li>Animal abuse and neglect is a problem. What are solutions?</li>
+              <li>Pressures of materialism is a problem people face. What are solution?</li>
+              <li>Is there a problem your generation is facing now? What is it and what is a solution/solutions?</li>
+              <li>Is there a problem your generation will have to face in the future? What are solutions?</li>
+            </ul>
+          </p>
+
+          <textarea className="textArea" onChange={onChangeLA6Listener127} value={la6Essay127}/>
+          <br/>
+          <span className="days">LESSON 149</span>
+
+          <textarea className="textArea" onChange={onChangeLA6Listener128} value={la6Essay128}/>
+          <br/>
+          <span className="days">LESSON 150</span>
+
+          <textarea className="textArea" onChange={onChangeLA6Listener129} value={la6Essay129}/>
+          <br/>
+          <span className="days">LESSON 151</span>
+
+          <textarea className="textArea" onChange={onChangeLA6Listener130} value={la6Essay130}/>
+          <br/>
+          <span className="days">LESSON 152</span>
+
+          <textarea className="textArea" onChange={onChangeLA6Listener132} value={la6Essay132}/>
+          <br/>
+          <span className="days">LESSON 153</span>
+
+          <textarea className="textArea" onChange={onChangeLA6Listener133} value={la6Essay133}/>
+          <br/>
+          <span className="days">LESSON 154</span>
+
+          <textarea className="textArea" onChange={onChangeLA6Listener134} value={la6Essay134}/>
+          <br/>
+          <span className="days">LESSON 155</span>
+
+          <textarea className="textArea" onChange={onChangeLA6Listener135} value={la6Essay135}/>
+          <br/>
+          <span className="days">LESSON 156</span>
+
+          <textarea className="textArea" onChange={onChangeLA6Listener136} value={la6Essay136}/>
+          <br/>
+          <span className="days">LESSON 157</span>
+
+          <textarea className="textArea" onChange={onChangeLA6Listener137} value={la6Essay137}/>
+          <br/>
+          <span className="days">LESSON 158</span>
+
+          <textarea className="textArea" onChange={onChangeLA6Listener138} value={la6Essay138}/>
+          <br/>
+          <span className="days">LESSON 159</span>
+
           <textarea className="textArea" onChange={onChangeLA6Listener139} value={la6Essay139}/>
 
           <h4> Vocabulary and Reading</h4>
           <p>If you don't already have one, <a
             href="https://support.khanacademy.org/hc/en-us/articles/204451324-How-do-I-create-my-account-"
-            rel="noreferrer" target="_blank"> set up a free account at Khan Academy </a> and then begin the lesson
+            rel="noreferrer" target="_blank"> set up a free account on Khan Academy </a> and then begin the lesson
             below.</p><br/>
 
           <span className="days">Lesson 160</span> <ToggleSwitch checked={selectedLA160}
@@ -3511,8 +3607,6 @@ const LA6Component = ({ data }) => {
               <li>Practice: Ocean Conservation: vocabulary; Our Oceans, Our Planet 6</li>
             </ul>
           </p>
-
-
           <span className="days">Lesson 174</span> <ToggleSwitch
           checked={selectedLA174}
           id='la6-174'
@@ -3558,8 +3652,188 @@ const LA6Component = ({ data }) => {
               <li>Practice: Ocean Conservation: reading informational text; The Underwater Sea Train 6</li>
             </ul>
           </p>
+
+          <span className="days">LESSON 176 </span>
+          <h4> What makes a poem … a poem?</h4>
+          <p>What exactly makes a poem … a poem? Poets themselves have struggled with this question, often using
+            metaphors to approximate a definition. Is a poem a little machine? A firework? An echo? A dream? </p>
+          <p> What makes a poem a poem is its ability to make the reader feel something. It may rhyme, but doesn’t have
+            to. Using few words, it creates a picture in the reader's mind and transports them to another place and
+            time. </p>
+          <Video videoUrl="https://www.youtube.com/embed/JwhouCNq-Fc"/>
+          <ol className="vocab">
+            <li> What are characteristics traditionally associated with poetry?</li>
+            <li> In what way was Joanna Smith’s tweet like a poem?</li>
+            <li> The word poetry comes from the Greek “poiesis.” What does this word mean?</li>
+            <li> What is a haiku?</li>
+            <li> What does Reinhard Dohl’s “Apfel” have in common with e.e. cummings’ “l(a)”?</li>
+            <li> What does the Dartmouth study mentioned in the video suggest about the nature of poetry? Were you
+              surprised by the results of the study?
+            </li>
+            <li> William Carlos Williams described poetry as a machine made of words. Lilian Moore described poetry as a
+              firework. After watching the video, think of another metaphor that represents poetry well.
+            </li>
+            <li> Find an example from a novel or short story that reads like poetry. What makes it sound poetic? You may
+              use the internet to help you research this.
+            </li>
+          </ol>
+          <textarea className="textArea" onChange={onChangela6Listener141} value={la6Essay141}/>
+
+          <span className="days">LESSON 177 </span>
+          <h4>Before I Got My Eye Put Out - The Poetry of Emily Dickinson</h4>
+          <Video videoUrl="https://www.youtube.com/embed/R4WwhOdk_Eg"/>
+          <img src={require("../../public/images/poems/hope.jpg")} alt="Poem"/>
+          <Video videoUrl="https:www.youtube.com/embed/j3VWZJmuvhg"/>
+          <img src={require("../../public/images/poems/imNobody.jpg")} alt="Poem"/>
+
+          <Video videoUrl="https://www.youtube.com/embed/55kqNg88JqI"/>
+          <Video videoUrl="https://www.youtube.com/embed/BLeMZ5WIdrI"/>
+          <ol className="vocab">
+            <li> Based on the Crash Course video: Dickinson often makes references to "eyes" and "sight". What do these
+              references most likely symbolize.
+            </li>
+            <li> Why do you think Dickinson only wore white?</li>
+            <li> Name two stylistic choices that Dickinson makes when she wants to avoid closure in her poetry.</li>
+            <li> Emily Dickinson's personal life receives as much attention, or even more attention, than her poetry.
+              Why do you think this is so?
+            </li>
+            <li> To what extent was Emily Dickinson the eccentric recluse she is often portrayed as being?</li>
+            <li> Describe some of the reasons that Dickinson did not gain fame as a poet during her lifetime.</li>
+            <li> "I’m nobody – who are you?" (288) is an invitation to loneliness. How does this poem or "I taste a
+              liquor never brewed" (214) invite the reader into the a kind of shared strangeness? Do you feel separated
+              or connected by the language?
+            </li>
+            <li>Does Dickinson seem to be writing for other people or only for herself?</li>
+            <li>Which Emily Dickinson poem is your favorite? Explain why.</li>
+            <li>Based on the poem you chose, what is the imagery in the poem?</li>
+            <li> What is the mood of the poem? Or how does it make you feel?</li>
+            <li> What is the message of the poem?</li>
+            <li> Which parts of it are lingering in your mind?</li>
+          </ol>
+
+
+          <textarea className="textArea" onChange={onChangela6Listener142} value={la6Essay142}/>
+
+          <span className="days">LESSON 178 </span>
+          <h4>Thinking Like a Poet</h4>
+          <p>The following exercise is from Steve Bowkett’s <i>Countdown to Poetry.</i> Take a few moments to study the
+            image below.</p>
+          <p><img src={require("../../public/images/poems/wolves.jpg")} alt="black and white of wolves"/><br/></p>
+          <p>
+            <ol className="vocab">
+              <li> What are four things that you find the most intriguing or captivating about this image?</li>
+              <li> Close your eyes and imagine the picture is in color. Describe what you see and describe the colors in
+                detail.
+              </li>
+              <li> Now focus on the sound and imagine what sounds you can hear.</li>
+              <li> Now imagine you can step into the picture. Describe what it is like. Is there a breeze? Do you smell
+                anything? What do things feel like? Is it warm or cold? What do you see when you turn around? IS there
+                anything surprising there that isn’t in the picture?
+              </li>
+              <li> If this picture could tell a story, what is the story about? What will about to happen next?</li>
+              <li> Describe this picture in 12 words or less. Twelve is not many words so choose each one carefully.
+              </li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela6Listener143} value={la6Essay143}/>
+
+          <span className="days">LESSON 179 </span>
+          <h4>How do you read a poem? </h4>
+          <p className="margin-para" style={{ color: "#7c7f93", fontSize: "110%", lineHeight: "1.7" }}> Slow down. Read
+            it slowly.<br/>
+            A good poet will have made every word in the poem count. <br/>Step into the poem
+            and wander around. Take your time. <br/>
+            See where the encounter takes you. <br/>
+            You might not like the poem. It might do nothing for you. <br/>
+            Don’t feel under any pressure to like every
+            poem you meet. You won’t. <br/>
+            Relax. Hmmm… the poem has got you intrigued? But you don’t understand it. <br/>
+            Not to worry. Poems aren’t
+            crossword puzzles. There’s no correct answer. <br/>
+            A good poem will offer many paths to meander along.</p>
+          <h4><i>Summer’s Day </i> by Mary Oliver</h4>
+          <Video videoUrl="https://www.youtube.com/embed/rBPHUE961zI"/>
+          <p> William Butler Yeats is considered one of the greatest poets of the 1900’s.
+            <h4><i>The Second Coming</i> by William Butler Yeats</h4>
+            <Video videoUrl="https://www.youtube.com/embed/IY2oIsA4c7k"/>
+            <h4>Analysis of William Butler Yeats's "The Second Coming"</h4>
+            <Video videoUrl="https://www.youtube.com/embed/1S8WWWHl3JE"/>
+            <h4><i> Ode to the Only Black Kid in the Class</i> poem by Clint Smith</h4>
+            <Video videoUrl="https://www.youtube.com/embed/OGoehR_k0Xk"/>
+            <ol className="vocab">
+              <li><i>Based on Summer’s Day: </i> Select one line that you enjoyed the most or was the most meaningful to
+                you. Explain why you chose this line.
+              </li>
+              <li> Describe how the writer uses imagery throughout the poem. Give an example that you think was her best
+                use of imagery.
+              </li>
+              <li> What was the writer’s purpose with the poem? Do you think she achieved her purpose? Why or why not.
+              </li>
+              <li><i>Based on The Second Coming: </i>Why was Yeats so fearful of the future?</li>
+              <li> What does the falcon represent?</li>
+              <li> Did Yeats seem like a happy guy? Explain.</li>
+              <li> What was your overall impression of the poem?</li>
+              <li> What is the mood of the poem? How does it make you feel?</li>
+              <li><i>Based on Ode to the Only Black Kid in the Class:</i> What was your reaction to the title of the
+                poem?
+              </li>
+              <li> Was the poem as you expected it would be or did it surprise you in some way? Explain.</li>
+              <li> Which parts of the poem are lingering in your mind?</li>
+              <li> What are the questions that it makes you want to ask?</li>
+              <li> What is the message or theme of the poem?</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela6Listener144} value={la6Essay144}/>
+
+          <span className="days">LESSON 180 </span>
+          <h4>How to Write a Poem</h4>
+          <p>The following is from <i>Literacy at Work: How to Write a Poem with Glenis Redmond.</i></p>
+          {/*<p>Taken from <i>Countdown to Poetry Writing</i> by Steve Bowkett</p>*/}
+          <Video videoUrl="https://www.youtube.com/embed/0w8PLcYP0sU"/>
+          <p> After you watch the video, complete the lists below. Then, use the lists to write
+            your Self-Portrait Poem.</p>
+          <h4>Write a list that describes your:</h4>
+          <ol className="vocab">
+            <li>Outer self - how you look (Example: Brown eyes, Mahogany skin, Tomboy, Graceful swagger, Pigtails)
+            </li>
+            <li>Inner self - feelings and emotions (Example: Joy, Shame, Focused, Popular, Lonely)</li>
+            <li>Talents or strengths (Example: Athletic, Graceful, Reader)</li>
+            <li>Challenges or things you find difficult (Being alone, Math, Racism)</li>
+          </ol>
+          <p className="topBottom"> Use your lists to help you tell your story. Remember to use the poetry
+            devices of alliteration, assonance, and anaphora. It's best if you can create your own poem, but if you
+            want, you can use the sentences below as a model.</p>
+          <ul>
+            <li>When I was in _____________________, I looked like _____________________.</li>
+            <li>I liked to play _____________________ with _____________________.</li>
+            <li>I was happy to _____________________ but felt scared when _____________________.</li>
+          </ul>
+          <p className="topBottom">This example is from the poet from the poet Glenis Redmond </p>
+          <h4>Self-Portrait: Bard in the Making
+          </h4>
+          <ul>
+            <li>When I was in the fifth grade</li>
+            <li>I was the biggest tomboy</li>
+            <li>always in t-shirt and jeans</li>
+            <li>baseball cap turned sideways</li>
+            <li>complete with ashy elbows, skinned knees</li>
+            <li>and a mouthful of bubble gum</li>
+            <li>I made popping and blowing bubbles (alliteration)</li>
+            <li>into an art form</li>
+            <br/>
+            <li>I was the princess of the playground (alliteration)</li>
+            <li>ruled at Prison Ball, handball, and tetherball</li>
+            <li>I could pummel, smash, catch, and throw</li>
+            <li>I was the fastest sprinter in the school</li>
+            <li>I could stop on a dime</li>
+            <li>and give you nine cents change.</li>
+          </ul>
+
+          <textarea className="textArea" onChange={onChangela6Listener145} value={la6Essay145}/>
         </div>
       </section>
+      <Confetti/>
+      <h3 style={{ textAlign: "center", height: "70vh", width: "100vw" }}>You finished 6th Grade Language Arts!</h3>
     </form>
   )
 }
