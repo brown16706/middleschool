@@ -616,25 +616,36 @@ const LA6Component = ({ data }) => {
 
 
   return (
-    
+
     <form>
-    <section className="block-circles">
-      <div className="circle one"
-           style={{ animationDuration: "4s", backgroundColor: '#89d4f0', transform: "translate3d(0px, 0px, 0px) scale(0.9921, 1)", opacity: "0.9881" }}/>
-      <div className="circle two" style={{ animationDuration: "4s", backgroundColor: '#89d4f0', transform: "translate(0px, 0px)", opacity: 1 }}/>
-      <div className="hero-wrapper pbn hero animated animatedFadeInUp fadeInUp">
-        <h1 className="hero intro ">Language Arts</h1>
-        <div className="hero info-block info-block-line " style={{ marginBottom: "4em" }}>
-          <Link to="/sixth" className='gradeLink'><h2 className="hero">6th Grade</h2></Link>
+      <section className="block-circles">
+        <div className="circle one"
+             style={{
+               animationDuration: "4s",
+               backgroundColor: "#89d4f0",
+               transform: "translate3d(0px, 0px, 0px) scale(0.9921, 1)",
+               opacity: "0.9881"
+             }}/>
+        <div className="circle two" style={{
+          animationDuration: "4s",
+          backgroundColor: "#89d4f0",
+          transform: "translate(0px, 0px)",
+          opacity: 1
+        }}/>
+        <div className="hero-wrapper pbn hero animated animatedFadeInUp fadeInUp">
+          <h1 className="hero intro ">Language Arts</h1>
+          <div className="hero info-block info-block-line " style={{ marginBottom: "4em" }}>
+            <Link to="/sixth" className='gradeLink'><h2 className="hero">6th Grade</h2></Link>
+          </div>
         </div>
-      </div>
       </section>
-      
+
       <section className="section raise-top fadeIn">
         <div className="section-content">
           <h1 className="section-title fadeIn">Daily Lessons</h1>
           <span className="days fadeIn">Books</span>
-          <p className="margin-para fadeIn">The books required for this course are: D'Aulaires <i>Book of Greek Myths, The
+          <p className="margin-para fadeIn">The books required for this course are: D'Aulaires <i>Book of Greek Myths,
+            The
             Egypt Game</i> by Zilpha
             Keatley Snyder, <i> The Golden Compass</i> by Philip Pullman, <i> The Hunger Games</i> by Suzanne Collins,
             and <i>Stargirl</i> by
@@ -649,22 +660,24 @@ const LA6Component = ({ data }) => {
           <p>When you complete the reading, answer the following questions to your best ability, using complete
             sentences:</p>
           <p>1. According to Greek mythology how was the universe created?<br/>
-            2. There was a god who controlled lightning, another who controlled the seas, another who controlled agriculture,
-            another who controlled the sun, etc. Why do you think the ancient Greeks created so many different gods?  <br/> 
-            3. Based on their mythology, describe how ancient Greeks saw the world. If you lived back then, do you think you would have
+            2. There was a god who controlled lightning, another who controlled the seas, another who controlled
+            agriculture,
+            another who controlled the sun, etc. Why do you think the ancient Greeks created so many different
+            gods? <br/>
+            3. Based on their mythology, describe how ancient Greeks saw the world. If you lived back then, do you think
+            you would have
             believed in so many gods and seen the world like the ancient Greeks did?<br/>
-            4. Compare how Ancient Greeks saw the world and how they practiced religion compared to how people today see the world and practice religion.
+            4. Compare how Ancient Greeks saw the world and how they practiced religion compared to how people today see
+            the world and practice religion.
             <br/> 5. Describe how Uranus upset Mother Earth.
-            <br/> 6. What do you think about Cronus as a leader?  What did he do to his children? Why did he do this? <br/></p>
+            <br/> 6. What do you think about Cronus as a leader? What did he do to his children? Why did he do
+            this? <br/></p>
 
           <textarea className="textArea"
                     placeholder="Write your responses here. Your work will automatically be saved to your Local Storage. 
-                    
                     If you clear your cookies, your answers will be erased! Be sure to back up your work by saving it in another location. 
-                    
                     You can (1) 'Select All' (select your answers inside this textbox by touching/clicking on it) and copy/paste it into Google Docs, a Word Doc or into an email and send it to your parent or teacher. 
-                    
-                    (2) On a PC, you can 'Select All', click 'Print' and then save as a PDF on your computer. Be sure to label each assignment with the Subject, Chapter Title, and Lesson Number. Also, number your responses."
+                    (2) On a PC, you can 'Select All' (ctrl a), click 'Print' (ctrl p) and then save as a PDF on your computer. Be sure to label each assignment with the Subject, Chapter Title, and Lesson Number. Also, number your responses."
                     onChange={onChangeLA6Listener} value={la6Essay}/>
           <p>If you don’t already have an account with Quizlet, <a
             href="https://help.quizlet.com/hc/en-us/articles/360030555532-Signing-up-for-a-free-account"
@@ -676,14 +689,14 @@ const LA6Component = ({ data }) => {
             You can take the test as many times as you like so you can do your best.</p><br/>
 
           <span className="days">LESSON 2</span>
-         <p> <a href={require("../resources/books/Daulaires/2_zeus_and_his_family.pdf")} rel="noreferrer"
-             target="_blank">
-           Read <i>Zeus and his Family </i></a> from D'Aulaire's Book of Greek Myths.</p>
+          <p><a href={require("../resources/books/Daulaires/2_zeus_and_his_family.pdf")} rel="noreferrer"
+                target="_blank">
+            Read <i>Zeus and his Family </i></a> from D'Aulaire's Book of Greek Myths.</p>
           <p> Watch the video The Greek Gods</p>
           <Video videoUrl="https://www.youtube.com/embed/eJCm8W5RZes"/>
           <p>In complete sentences, answer the following questions:<br/>
             1. Describe how Zeus and his siblings managed to become rulers of the world.<br/>
-            2. Zeus’ children were not born in an ordinary way.  Describe how they were born.<br/>
+            2. Zeus’ children were not born in an ordinary way. Describe how they were born.<br/>
             3. What did you find the most interesting about the video?</p>
 
           <textarea className="textArea" onChange={onChangeLA6Listener2} value={la6Essay2}
@@ -697,11 +710,12 @@ const LA6Component = ({ data }) => {
           <br/>
           <span className="days">LESSON 3</span>
           <p><a href={require("../resources/books/Daulaires/3_twelve_golden_thrones.pdf")} rel="noreferrer"
-             target="_blank"> Read <i> Twelve Golden Thrones</i></a> from D'Aulaire's Book of Greek Myths.</p>
+                target="_blank"> Read <i> Twelve Golden Thrones</i></a> from D'Aulaire's Book of Greek Myths.</p>
           <br/>
           <p>In complete sentences, answer the following questions:<br/>
             1. Which god or goddess do you think would make the best president? Explain your answer.<br/>
-            2. The gods and goddesses of ancient Greece could never die. How do you think this affects how they live their lives and
+            2. The gods and goddesses of ancient Greece could never die. How do you think this affects how they live
+            their lives and
             make decisions?<br/>
             3. Would you choose to live forever if you could? Why or why not?</p>
           <textarea className="textArea"
@@ -714,15 +728,17 @@ const LA6Component = ({ data }) => {
             You can take the test as many times as like so you can do your best. </p>
           <br/>
           <span className="days">LESSON 4</span>
-         <p><a href={require("../resources/books/Daulaires/4_hera_hephaestus.pdf")} rel="noreferrer"
-                    target="_blank"> Read <i>Hera and Hephaestus</i> </a>from D'Aulaire's Book of Greek Myths.</p>
+          <p><a href={require("../resources/books/Daulaires/4_hera_hephaestus.pdf")} rel="noreferrer"
+                target="_blank"> Read <i>Hera and Hephaestus</i> </a>from D'Aulaire's Book of Greek Myths.</p>
           <p>After you finish the reading, answer the following questions to the
             best of your ability:<br/>
             1. Describe Hera. Who is she and what is she like?<br/>
             2. What do you think the things she does out of jealousy. Are they justified? Why or why not?<br/>
-            3. Describe Hephaestus. What was he known for?  Describe what happened to him.<br/>
+            3. Describe Hephaestus. What was he known for? Describe what happened to him.<br/>
           </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener4} value={la6Essay4}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangeLA6Listener4} value={la6Essay4}/>
 
           <p>Go to <a href="https://quizlet.com/519236864/lesson-4-hera-hephaestus-pp24-29-flash-cards/"
                       rel="noreferrer" target="_blank">
@@ -735,7 +751,8 @@ const LA6Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/Hhk4N9A0oCA"/>
 
           <p>In complete sentences, answer the following questions based on the TedEd lesson:<br/>
-            1. What is the hero’s journey pattern?  Think of your favorite book or movie. Do you think it follow the hero’s journey pattern?
+            1. What is the hero’s journey pattern? Think of your favorite book or movie. Do you think it follow the
+            hero’s journey pattern?
             Explain.<br/>
             2. When does the hero realize that he/she is changed (or has outgrown his/her old life)? <br/>
             3. Can you think of an episode from your own life that fits the hero’s journey formula?<br/>
@@ -744,7 +761,9 @@ const LA6Component = ({ data }) => {
             follows a hero’s journey through a “special world” of unfamiliar emotional territory?<br/>
             5. According to the hero’s journey, the treasure you seek lies where?
           </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener5} value={la6Essay5}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangeLA6Listener5} value={la6Essay5}/>
 
           <span className="days">LESSON 6</span>
           <p><a href={require("../resources/books/Daulaires/5_aphrodite_ares_athena.pdf")} rel="noreferrer"
@@ -756,14 +775,16 @@ const LA6Component = ({ data }) => {
             1. What is Aphrodite’s greatest power? <br/>
             2. Would you like to have this ability? Explain why or why not. <br/>
             3. What is your opinion about Ares? What do you think of him as a God?<br/>
-            4. Compare Cronus and Ares, the god of war. How are Cronus and Ares the same? 
-            How are they different? Who do you dislike more and why?  Who
+            4. Compare Cronus and Ares, the god of war. How are Cronus and Ares the same?
+            How are they different? Who do you dislike more and why? Who
             do you believe caused more suffering? <br/>
             5. How is Athena different from other goddesses?<br/>
             6. Numerous statues, monuments, paintings and athletic games were created to honor Athena. What
             qualities do you think make her special?
           </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener6} value={la6Essay6}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangeLA6Listener6} value={la6Essay6}/>
 
           <p>Go to <a href="https://quizlet.com/519236672/lesson-5-aphrodite-ares-athena-pp-30-37-flash-cards/"
                       rel="noreferrer" target="_blank">
@@ -785,7 +806,9 @@ const LA6Component = ({ data }) => {
             6. Do you think Arachne is right when she states that she is solely responsible for her success
             as a weaver? Who else might have contributed to Arachne’s success?
           </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener7} value={la6Essay7}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangeLA6Listener7} value={la6Essay7}/>
           <br/>
           <span className="days">LESSON 8</span>
           <p> Read <i>Poseidon
@@ -801,7 +824,9 @@ const LA6Component = ({ data }) => {
             3. What are 3 facts about Apollo?<br/>
             4. Are there any qualities Apollo has that you would want for yourself? Explain.<br/>
             5. Who would you prefer to have as a brother, Poseidon or Apollo? Explain why.</p>
-          <textarea className="textArea" onChange={onChangeLA6Listener8} value={la6Essay8}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangeLA6Listener8} value={la6Essay8}/>
 
           <p>Go to <a href="https://quizlet.com/519236422/lesson-6-poseidon-apollo-pp-38-43-flash-cards/"
                       rel="noreferrer" target="_blank">
@@ -816,15 +841,17 @@ const LA6Component = ({ data }) => {
           Watch the video <i>Hermes: The Messenger and Divine Trickster</i>
           <Video videoUrl="https://www.youtube.com/embed/H-zh8A99hiQ?list=PLgZdqfi4SZ0oAuzDDVjPVYJMQvfij88QQ"/>
           <p>In complete sentences, answer the following questions:<br/>
-            1. Describe Artemis and her  abilities?  How do you like her?<br/>
-            2. Zeus promised Artemis something.  What was it?<br/>
+            1. Describe Artemis and her abilities? How do you like her?<br/>
+            2. Zeus promised Artemis something. What was it?<br/>
             3. What does Artemis care about? Explain why you think she cares about this so much.<br/>
             4. Every god or goddess has weaknesses. What weaknesses does Artemis have? Explain.<br/>
             5. Describe what Hermes was like as a child?<br/>
             6. Why is Hermes considered to be a master thief? Why does Zeus welcome him to Mt. Olympus?<br/>
             7. Would you like to have Hermes as a close friend? Why or why not?
           </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener9} value={la6Essay9}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangeLA6Listener9} value={la6Essay9}/>
 
           <p>Go to <a href=" https://quizlet.com/519236155/lesson-7-artemis-and-hermes-pp-44-55-flash-cards/"
                       rel="noreferrer" target="_blank">
@@ -839,12 +866,15 @@ const LA6Component = ({ data }) => {
           <p>Watch the video <i>Hades and Persephone: The Story of the Seasons</i></p>
           <Video videoUrl="https://www.youtube.com/embed/5iJrhlOskag?list=PLgZdqfi4SZ0oAuzDDVjPVYJMQvfij88QQ"/>
           <p>In complete sentences, answer the following questions:<br/>
-            1. Describe Hades.  What do you think of him? Do you think he is good, evil or somewhere in between? Explain.<br/>
+            1. Describe Hades. What do you think of him? Do you think he is good, evil or somewhere in between? Explain.<br/>
             2. What happened to Persephone and what was your reaction to it?<br/>
-            3. The story of Persephone and Demeter explained to the ancient Greeks why there were seasons.  How would you describe this story
+            3. The story of Persephone and Demeter explained to the ancient Greeks why there were seasons. How would you
+            describe this story
             to someone who has never heard it before?<br/>
           </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener10} value={la6Essay10}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangeLA6Listener10} value={la6Essay10}/>
 
           <p>Go to <a href="https://quizlet.com/519235827/lesson-8-hades-persephone-pp56-63-flash-cards/"
                       rel="noreferrer" target="_blank">
@@ -852,13 +882,16 @@ const LA6Component = ({ data }) => {
             You can take the test as many times as like so you can do your best. </p>
           <br/>
           <span className="days">LESSON 11</span>
-          <p>Read <i>Dionysus </i>  from D'Aulaire's Book of Greek Myths.<br/>
+          <p>Read <i>Dionysus </i> from D'Aulaire's Book of Greek Myths.<br/>
           </p>
           <p>In complete sentences, answer the following questions:<br/>
             1. Describe Dionysus and his good and bad qualities. What was he known for? <br/>
-            2. Dionysus was said to have a "dual nature." This means he had two very different sides to him. Describe his "dual nature."</p>
+            2. Dionysus was said to have a "dual nature." This means he had two very different sides to him. Describe
+            his "dual nature."</p>
           3. What did you think of him as a god?<br/>
-          <textarea className="textArea" onChange={onChangeLA6Listener11} value={la6Essay11}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangeLA6Listener11} value={la6Essay11}/>
 
           <p>Go to <a href="https://quizlet.com/519235399/lesson-9-dionysus-pp-64-69-flash-cards/"
                       rel="noreferrer" target="_blank">
@@ -876,7 +909,9 @@ const LA6Component = ({ data }) => {
             2. Why did why Zeus punish him for doing this? <br/>
             3. Do you think his punishment was fair? Explain.<br/>
           </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener12} value={la6Essay12}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangeLA6Listener12} value={la6Essay12}/>
 
           <p>Go to <a href="https://quizlet.com/519235192/lesson-10-minor-gods-prometheus-pp-70-73-flash-cards/"
                       rel="noreferrer" target="_blank">
@@ -897,7 +932,9 @@ const LA6Component = ({ data }) => {
             6. Why do you think Zeus gave Pandora the box?<br/>
             7. Why is it so important that hope was also in the box?<br/>
           </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener13} value={la6Essay13}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangeLA6Listener13} value={la6Essay13}/>
 
           <p>Go to <a href="https://quizlet.com/519234960/lesson-11-pandora-and-deucalion-pp-74-79-flash-cards/"
                       rel="noreferrer" target="_blank">
@@ -912,7 +949,9 @@ const LA6Component = ({ data }) => {
             2. What are their strengths and weaknesses? <br/>
             3. What promise did Helios regret and what happened to his son?<br/>
           </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener14} value={la6Essay14}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangeLA6Listener14} value={la6Essay14}/>
 
           <p>Go to <a href="https://quizlet.com/519233976/lesson-12-eos-helios-and-selene-pp-80-89-flash-cards/"
                       rel="noreferrer" target="_blank">
@@ -926,7 +965,9 @@ const LA6Component = ({ data }) => {
             1. What kind of creature was Pan and what did he look like?<br/>
             2. Briefly explain what happened to Echo. Why could Echo only repeat the words of others?<br/>
             3. Describe Syrinx and who she is.</p>
-          <textarea className="textArea" onChange={onChangeLA6Listener15} value={la6Essay15}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangeLA6Listener15} value={la6Essay15}/>
 
           <p>Go to <a href="https://quizlet.com/519233587/lesson-13-pan-echo-and-syrinx-pp-90-95-flash-cards/"
                       rel="noreferrer" target="_blank">
@@ -1097,8 +1138,10 @@ const LA6Component = ({ data }) => {
           <p>Go to Quizlet to take <a href="https://quizlet.com/519222850/final-test-of-terms-flash-cards/"
                                       rel="noreferrer" target="_blank"> the final test </a>on all of the terms
             you've been learning
-            for D'Aulaire's Book of Greek Myths. Spend some time reviewing the flashcards. When you are ready, take the test.
-            You can take the test as many times as like so you can do your best. Share with your parent or teacher how many you got correct out of 120.</p>
+            for D'Aulaire's Book of Greek Myths. Spend some time reviewing the flashcards. When you are ready, take the
+            test.
+            You can take the test as many times as like so you can do your best. Share with your parent or teacher how
+            many you got correct out of 120.</p>
           <br/>
           <span className="days">LESSON 26</span>
           <p><b>Create Your Own Myth</b><br/>
@@ -1128,8 +1171,7 @@ const LA6Component = ({ data }) => {
 
           <span className="days">LESSONS 27 &amp; 28</span>
           <p>The work below is the equivalent of two lessons. You may choose to complete it all at once or you can
-            complete half today and the second half tomorrow (complete the reading today and complete the
-            remainder tomorrow). </p>
+            complete half today and the second half tomorrow. </p>
           <p> The next book you will read is <i>The Egypt Game</i> by Zilpha Keatley Snyder. After you watch the
             video below, read <a href={require("../resources/books/TheEgyptGameChapter1.pdf")} rel="noreferrer"
                                  target="_blank"> <i>Chapter 1 ~ The Discovery of Egypt. </i></a>
@@ -1183,7 +1225,8 @@ const LA6Component = ({ data }) => {
 
           <span className="days">LESSONS 31 &amp; 32</span>
           <p>After you watch the video, read <i>Chapter 3 ~ Enter Melanie and Marshall</i> from
-            <i> The Egypt Game</i>. Complete the vocabulary assignment below and then answer the questions that follow.<br/>
+            <i> The Egypt Game</i>. Complete the vocabulary assignment below and then answer the questions that
+            follow.<br/>
             <Video videoUrl="https://www.youtube.com/embed/niZosUpuSyU?list=PLvJNSf-7NfrNSQl8ICXACg0XNUVM1dF2d"/>
             <i>Vocabulary</i><br/>
             1. teeter <br/>
@@ -1207,7 +1250,8 @@ const LA6Component = ({ data }) => {
 
           <span className="days">LESSONS 33 &amp; 34</span>
           <p>After you watch the video, read <i>Chapter 4 ~ The Egypt Girls</i> from
-            <i> The Egypt Game</i>. Complete the vocabulary assignment below and then answer the questions that follow.<br/>
+            <i> The Egypt Game</i>. Complete the vocabulary assignment below and then answer the questions that
+            follow.<br/>
             <Video videoUrl="https://www.youtube.com/embed/jTsYuE_T0UQ?list=PLvJNSf-7NfrO4ECq1tyS1SI9HlXMOKXZ7"/>
 
             <b>Vocabulary:</b> For each vocabulary word below, write a definition and then write a sentence using the
@@ -1227,12 +1271,12 @@ const LA6Component = ({ data }) => {
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener29} value={la6Essay29}/>
 
-          <span className="days">LESSONS 35 &amp; 36</span>
+          <span className="days">LESSON 35</span>
           <p>Read <i>Chapter 5 ~ The Evil God and the Secret Spy</i> from
             <i> The Egypt Game</i> and watch the video below. Write definitions for
             the vocabulary words below. Then, answer the questions that follow.<br/>
-            <Video videoUrl="https://www.youtube.com/embed/ioHMvicIOPY?list=PLvJNSf-7NfrO4ECq1tyS1SI9HlXMOKXZ7"/>
-            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using
+            the
             word. <br/>
             1. corrugate<br/>
             2. oblige<br/>
@@ -1243,17 +1287,16 @@ const LA6Component = ({ data }) => {
             2. What do you think would happen if the Professor caught them in his backyard?<br/>
             3. What was the Egyptian name they gave Marshall? Why?<br/>
             4. Why was the game postponed?<br/>
-            5. Based on the video: Give 4 examples (using complete sentences) that show when it's appropriate to use parenthesis.
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener30} value={la6Essay30}/>
 
           <br/>
-          <span className="days">LESSONS 35 &amp; 36</span>
+          <span className="days">LESSON 36</span>
           <p>Read <i>Chapter 6 ~ Eyelashes and Ceremony</i> from
-            <i> The
-              Egypt Game</i> and watch the video. Complete the vocabulary assignment below and then answer the questions that follow.<br/>
-            <Video videoUrl="https://www.youtube.com/embed/8L48L7IqJ4A?list=PLvJNSf-7NfrO4ECq1tyS1SI9HlXMOKXZ7"/>
-            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            <i> The Egypt Game</i> and watch the video. Complete the vocabulary assignment below and then answer the questions
+            that follow.<br/>
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using
+            the
             word. <br/>
             1. triumphant<br/>
             2. treacherous<br/>
@@ -1270,19 +1313,17 @@ const LA6Component = ({ data }) => {
             a sketch.<br/>
             4. How did the girls keep track of the rituals they came up with? If the story was set
             during the present time, what might be some ways the girls could keep track of
-            their rituals?<br/>
-            5. Based on the video: Describe when you would use a colon and provide an example in a sentence.<br/>
-            6. Describe when you would use a semi-colon and provide an example in a sentence.<br/>
-          </p>
+            their rituals?<br/> </p>
           <textarea className="textArea" onChange={onChangeLA6Listener31} value={la6Essay31}/>
 
           <br/>
           <span className="days">LESSONS 37 &amp; 38</span>
           <p>Read <i>Chapter 7 ~ Neferbeth</i> from
-            <i> The
-              Egypt Game</i> and watch the video below. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
+            <i> The Egypt Game</i> and watch the video below. <br/>Complete the vocabulary assignment below and then answer
+            the questions that follow.<br/>
             <Video videoUrl="https://www.youtube.com/embed/jWyX8vl6kMs?list=PLvJNSf-7NfrO4ECq1tyS1SI9HlXMOKXZ7"/>
-            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using
+            the
             word. <br/>
             1. ambush<br/>
             2. pang<br/>
@@ -1300,9 +1341,11 @@ const LA6Component = ({ data }) => {
           <br/>
           <span className="days">LESSONS 39 &amp; 40</span>
           <p>Read <i>Chapter 8 ~ Prisoners of Fear</i> from
-            <i> The Egypt Game</i> and watch the video. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
+            <i> The Egypt Game</i> and watch the video. <br/>Complete the vocabulary assignment below and then answer
+            the questions that follow.<br/>
             <Video videoUrl="https://www.youtube.com/embed/tOb5motawPU?list=PLvJNSf-7NfrO4ECq1tyS1SI9HlXMOKXZ7"/>
-            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using
+            the
             word. <br/>
             1. dungeon<br/>
             2. clutches<br/>
@@ -1321,11 +1364,12 @@ const LA6Component = ({ data }) => {
 
           <textarea className="textArea" onChange={onChangeLA6Listener33} value={la6Essay33}/>
 
-          <span className="days">LESSONS 41 &amp; 42</span>
+          <span className="days">LESSON 41</span>
           <p>Read <i>Chapter 9 ~ Summoned by the Mighty One</i> from
-            <i> The
-              Egypt Game</i>. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
-            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            <i> The Egypt Game</i>. <br/>Complete the vocabulary assignment below and then answer the questions that
+            follow.<br/>
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using
+            the
             word. <br/>
             1. nag<br/>
             2. chaperone<br/>
@@ -1345,11 +1389,12 @@ const LA6Component = ({ data }) => {
 
           <textarea className="textArea" onChange={onChangeLA6Listener34} value={la6Essay34}/>
 
-          <span className="days">LESSONS 41 &amp; 42</span>
-          <p>Read <i>Chapter 10 ~ The Return to Egypt</i> from
-            <i> The
-              Egypt Game</i>. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
-            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+          <span className="days">LESSON 42</span>
+          <p>Read <i>Chapter 10 ~ The Return to Egypt </i> from
+            <i> The Egypt Game</i>. <br/>Complete the vocabulary assignment below and then answer the questions that
+            follow.<br/>
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using
+            the
             word. <br/>
             1. sturdy<br/>
             2. wilt<br/>
@@ -1368,9 +1413,11 @@ const LA6Component = ({ data }) => {
           <br/>
           <span className="days">LESSONS 43 &amp; 44</span>
           <p>Read <i>Chapter 11 ~ Egypt Invaded</i> from
-            <i> The
-              Egypt Game</i>. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
-            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            <i> The Egypt Game</i>  and watch the video. <br/>Complete the vocabulary assignment below and then answer the questions that
+            follow.<br/>
+            <Video videoUrl="https://www.youtube.com/embed/ioHMvicIOPY?list=PLvJNSf-7NfrO4ECq1tyS1SI9HlXMOKXZ7"/>
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using
+            the
             word. <br/>
             1. inspiration<br/>
             2. sacrifice<br/>
@@ -1383,15 +1430,17 @@ const LA6Component = ({ data }) => {
             2. Where did Elizabeth get the idea about cutting their fingers and writing a letter to
             Set with their own blood?<br/>
             3. What did April say they should sacrifice that made Marshall so upset?<br/>
-          </p>
+            4. Based on the video: Give 4 examples (using complete sentences) that show when it's appropriate to use  parenthesis. </p>
           <textarea className="textArea" onChange={onChangeLA6Listener36} value={la6Essay36}/>
 
           <br/>
           <span className="days">LESSONS 45 &amp; 46</span>
           <p>Read <i>Chapter 12 ~ Elizabethan Diplomacy</i> from
-            <i> The
-              Egypt Game</i>. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
-            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            <i> The Egypt Game</i> and watch the video. <br/>Complete the vocabulary assignment below and then answer the questions that
+            follow.<br/>
+            <Video videoUrl="https://www.youtube.com/embed/8L48L7IqJ4A?list=PLvJNSf-7NfrO4ECq1tyS1SI9HlXMOKXZ7"/>
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using
+            the
             word. <br/>
             1. angular<br/>
             2. fiend<br/>
@@ -1403,15 +1452,21 @@ const LA6Component = ({ data }) => {
             1. What did Elizabeth tell the boys they could do if they didn’t tell?<br/>
             2. Why did Toby have a tough time getting out of the yard?<br/>
             3. Why is the title “Elizabethan Diplomacy” a good title for the chapter?<br/>
-          </p>
+            4. Based on the video: Describe when you would use a colon and provide an example in a sentence.<br/>
+            5.  Describe when you would use a semi-colon and provide an example in a sentence.<br/> </p>
           <textarea className="textArea" onChange={onChangeLA6Listener37} value={la6Essay37}/>
 
           <br/>
           <span className="days">LESSONS 47 &amp; 48</span>
           <p>Read <i>Chapter 13 ~ Moods and Maybes</i> from
-            <i> The
-              Egypt Game</i>. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
-            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            <i> The Egypt Game</i> and watch the videos. <br/>Complete the vocabulary assignment below and then answer the questions that
+            follow.<br/>
+            <Video videoUrl="https://www.youtube.com/embed/7fXyx7kkx-8?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
+            <Video videoUrl="https://www.youtube.com/embed/yqzDtHXGA-o?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
+            <Video videoUrl="https://www.youtube.com/embed/-eFt1EMezJE?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
+            
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using
+            the
             word. <br/>
             1. sidle<br/>
             2. devastated<br/>
@@ -1422,15 +1477,25 @@ const LA6Component = ({ data }) => {
             2. Why was April in such a bad mood? How would you feel if you were April?<br/>
             3. Describe the boys’ reaction to Egypt.<br/>
             4. What did the girls think about the boys’ visit to Egypt?<br/>
+            Based on the Videos:
+            5. Write a definition for <i>voc</i> and it in a sentence. <br/>
+            6. Write a definition for  <i>scrib</i> and <i> script  </i> and use each in a sentence. <br/>
+            7. Write a definition for  <i> gram </i> and use it in a sentence. <br/>
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener38} value={la6Essay38}/>
 
           <br/>
           <span className="days">LESSONS 49 &amp; 50</span>
           <p>Read <i>Chapter 14 ~ Hieroglyphics</i> from
-            <i> The
-              Egypt Game</i>. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
-            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            <i> The Egypt Game</i> and watch the videos. <br/>Complete the vocabulary assignment below and then answer the questions that
+            follow.<br/>
+            <Video videoUrl="https://www.youtube.com/embed/sMC_pAm3gl4?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
+            <Video videoUrl="https://www.youtube.com/embed/uDuawOsaMIQ?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
+            <Video videoUrl="https://www.youtube.com/embed/P_sGcWJfCPo?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
+
+
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using
+            the
             word. <br/>
             1. dagger<br/>
             2. balefully<br/>
@@ -1445,19 +1510,24 @@ const LA6Component = ({ data }) => {
             5. Toby and Ken went back to playing basketball for a couple of days. What would
             happen if the other boys found out that Toby and Ken were playing the Egypt
             Game? Give three different possibilities.<br/>
+            Based on the videos:<br/>
+            6. Write a definition for  <i>sub </i> and use it in a sentence. <br/>
+            7. Write a definition for  <i>dis </i> and use it in a sentence. <br/>
+            8. Write a definition for  <i>nym </i> and use it in a sentence. <br/>
+
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener39} value={la6Essay39}/>
 
           <br/>
           <span className="days">LESSONS 51 &amp; 52</span>
           <p>Read <i>Chapter 15 ~ The Ceremony for the Dead</i> from
-            <i> The
-              Egypt Game</i>.</p>
+            <i> The Egypt Game</i>.</p>
           Watch the video <i>How to make a mummy</i> by TedEd
           <Video videoUrl="https://www.youtube.com/embed/9gD0K7oH92U"/>
           <p>After you complete the chapter and video, write definitions for
             the vocabulary words below. Then answer the questions that follow.<br/>
-            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using
+            the
             word. <br/>
             1. rendezvous<br/>
             2. solemn<br/>
@@ -1479,9 +1549,14 @@ const LA6Component = ({ data }) => {
           <br/>
           <span className="days">LESSONS 53 &amp; 54</span>
           <p>Read <i>Chapter 16 ~ The Oracle of Thoth</i> from
-            <i> The
-              Egypt Game</i>. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
-            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            <i> The Egypt Game</i> and watch the videos. <br/>Complete the vocabulary assignment below and then answer the questions that
+            follow.<br/>
+            <Video videoUrl="https://www.youtube.com/embed/uvTxc970aZM?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
+            <Video videoUrl="https://www.youtube.com/embed/Btr7dA867xI?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
+            <Video videoUrl="https://www.youtube.com/embed/LXs0jWIYsZ4?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
+            
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using
+            the
             word. <br/>
             1. oracle<br/>
             2. grotto<br/>
@@ -1496,6 +1571,11 @@ const LA6Component = ({ data }) => {
             4. Who got to give the first question to Thoth?<br/>
             5. Why did Toby say they should all leave Egypt right after he gave the question to
             Thoth?<br/>
+            Based on the videos:<br/>
+            6. Write a definition for <i>astro </i> and use it in a sentence. <br/>
+            7. Write a definition for <i>bio </i>  and use it in a sentence. <br/>
+            8. Write a definition for  <i>audi </i> and use it in a sentence. <br/>
+
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener41} value={la6Essay41}/>
 
@@ -1522,10 +1602,13 @@ const LA6Component = ({ data }) => {
           <br/>
           <span className="days">LESSONS 56 &amp; 57</span>
           <p>Read <i>Chapter 17 ~ The Oracle Speaks</i> from
-            <i> The
-              Egypt Game</i>. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
-            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
-            word. <br/>
+            <i> The Egypt Game</i> and watch the videos. <br/>Complete the vocabulary assignment below and then answer the questions that
+            follow.<br/>
+            <Video videoUrl="https://www.youtube.com/embed/HTndjs_EjpY?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
+            <Video videoUrl="https://www.youtube.com/embed/bdjQxguandM?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
+            <Video videoUrl="https://www.youtube.com/embed/OIKDkx3OhK0?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
+                        <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using
+            the word. <br/>
             1. pilgrimage<br/>
             2. meditate<br/>
             3. wail<br/>
@@ -1535,6 +1618,10 @@ const LA6Component = ({ data }) => {
             2. Do you believe they trust each other? Explain.<br/>
             3. As soon as they finish the ceremony, they hear thunder and feel the first drops of rain.
             How do you think this reflects their moods?<br/>
+            Based on the videos:<br/>
+            . Write a definition for <i>bene </i> and use it in a sentence. <br/>
+            . Write a definition for <i>chrono </i>  and use it in a sentence. <br/>
+            . Write a definition for  <i> cred</i> and use it in a sentence. <br/>
             <br/>
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener43} value={la6Essay43}/>
@@ -1542,9 +1629,13 @@ const LA6Component = ({ data }) => {
           <br/>
           <span className="days">LESSONS 58 &amp; 59</span>
           <p>Read <i>Chapter 18 ~ Where is Security?</i> from
-            <i> The
-              Egypt Game</i>. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
-            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            <i> The Egypt Game</i> and watch the videos. <br/>Complete the vocabulary assignment below and then answer the questions that
+            follow.<br/>
+            <Video videoUrl="https://www.youtube.com/embed/0jtBganeo98?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
+            <Video videoUrl="https://www.youtube.com/embed/Smk5CvcC_zI?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
+            <Video videoUrl="https://www.youtube.com/embed/_FGsf_VJmVs?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using
+            the
             word. <br/>
             1. impatient<br/>
             2. pester<br/>
@@ -1558,15 +1649,23 @@ const LA6Component = ({ data }) => {
             3. Why did a couple of the Egyptians want to stop playing Egypt?<br/>
             4. What question did Marshall ask the oracle?<br/>
             5. What do you think the Egyptians will do in response to Marshall’s question?<br/>
+            Based on the videos:<br/>
+            6. Write a definition for <i>geo </i> and use it in a sentence. <br/>
+            7. Write a definition for <i> gen</i>  and use it in a sentence. <br/>
+            8. Write a definition for  <i> flex</i> and use it in a sentence. <br/>
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener44} value={la6Essay44}/>
 
           <br/>
           <span className="days">LESSONS 60 &amp; 61</span>
           <p>Read <i>Chapter 19 ~ Confession and Confusion</i> from
-            <i> The
-              Egypt Game</i>. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
-            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            <i> The Egypt Game</i> and watch the videos. <br/>Complete the vocabulary assignment below and then answer the questions that
+            follow.<br/>
+            <Video videoUrl="https://www.youtube.com/embed/wvpR3jjg9q0?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
+            <Video videoUrl="https://www.youtube.com/embed/Eny0oDUOmk4?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
+            <Video videoUrl="https://www.youtube.com/embed/KhQHMVm0iIQ?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>            
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using
+            the
             word. <br/>
             1. midst<br/>
             2. sober<br/>
@@ -1579,15 +1678,23 @@ const LA6Component = ({ data }) => {
             3. What happened to Toby that scared him the night he went to Egypt?<br/>
             4. What was the girls’ idea on what to say about Security?<br/>
             5. Why didn’t April have to use the story they made up about Security?<br/>
+            Based on the videos:<br/>
+            6. Write a definition for <i>fid </i> and use it in a sentence. <br/>
+            7. Write a definition for <i>duc </i>  and use it in a sentence. <br/>
+            8. Write a definition for  <i> dict</i> and use it in a sentence. <br/>
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener45} value={la6Essay45}/>
 
           <br/>
           <span className="days">LESSONS 62 &amp; 63</span>
           <p>Read <i>Chapter 20 ~ Fear Strikes</i> from
-            <i> The
-              Egypt Game</i>. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
-            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            <i> The Egypt Game</i> and watch the videos. <br/>Complete the vocabulary assignment below and then answer the questions that
+            follow.<br/>
+            <Video videoUrl="https://www.youtube.com/embed/YpWUPKZ3hsI?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
+            <Video videoUrl="https://www.youtube.com/embed/E-ONTDXRUGA?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
+            <Video videoUrl="https://www.youtube.com/embed/I2NZOM68zhA?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using
+            the
             word. <br/>
             1. consult<br/>
             2. gloat<br/>
@@ -1600,34 +1707,24 @@ const LA6Component = ({ data }) => {
             had? Why?<br/>
             2. Describe the sequences the events of the night when April goes
             to babysit Marshall.<br/>
+            Based on the videos:<br/>
+            3. Write a definition for <i>graph </i> and use it in a sentence. <br/>
+            4. Write a definition for <i>auto </i>  and use it in a sentence. <br/>
+            5. Write a definition for  <i>logue </i> and use it in a sentence. <br/>
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener46} value={la6Essay46}/>
 
           <br/>
           <span className="days">LESSONS 64 &amp; 65</span>
           <p>Read <i>Chapter 21 ~ The Hero</i> from
-            <i> The
-              Egypt Game</i>. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
-            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
-            word. <br/>
-            1. hazy<br/>
-            2. commotion<br/>
-            3. vivid<br/>
-            4. alibi<br/>
-            5. tension<br/>
-            <br/><strong>Questions</strong><br/>
-            1. Why does Marshall say he couldn’t yell for help?<br/>
-            2. What did Marshall mean by “he was spotted”?<br/>
-            3. Who was the person that yelled for help?<br/>
-            4. Who grabbed April?<br/>
-            5. Why did Marshall stop taking Security places with him? What does this show
-            about him?<br/> </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener47} value={la6Essay47}/>
-
-          <br/>
-          <span className="days">LESSONS 66 &amp; 67</span>
-          <p>Read <i>Chapter 21 ~ The Hero</i> from <i> The Egypt Game</i>. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
-            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            <i> The Egypt Game</i> and watch the videos. <br/>Complete the vocabulary assignment below and then answer the questions that
+            follow.<br/>
+            <Video videoUrl="https://www.youtube.com/embed/BBbsFsN8lkA?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
+            <Video videoUrl="https://www.youtube.com/embed/8wBEql1STj4?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
+            <Video videoUrl="https://www.youtube.com/embed/vkXIWwSCeDE?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
+            
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using
+            the
             word. <br/>
             1. hazy<br/>
             2. commotion<br/>
@@ -1641,14 +1738,52 @@ const LA6Component = ({ data }) => {
             4. Who grabbed April?<br/>
             5. Why did Marshall stop taking Security places with him? What does this show
             about him?<br/>
+            Based on the videos:<br/>
+            6. Write a definition for <i> phil</i> and use it in a sentence. <br/>
+            7. Write a definition for <i> path</i>  and use it in a sentence. <br/>
+            8. Write a definition for  <i>port </i> and use it in a sentence. <br/>
+          </p>
+          <textarea className="textArea" onChange={onChangeLA6Listener47} value={la6Essay47}/>
+
+          <br/>
+          <span className="days">LESSONS 66 &amp; 67</span>
+          <p>Read <i>Chapter 21 ~ The Hero</i> from <i> The Egypt Game</i> and watch the videos. <br/>Complete the vocabulary assignment
+            below and then answer the questions that follow.<br/>
+            <Video videoUrl="https://www.youtube.com/embed/bju7cqHSTIE?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
+            <Video videoUrl="https://www.youtube.com/embed/tTSQ9r-2w9Q?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
+            <Video videoUrl="https://www.youtube.com/embed/IJzQNoRQPLs?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using
+            the word. <br/>
+            1. hazy<br/>
+            2. commotion<br/>
+            3. vivid<br/>
+            4. alibi<br/>
+            5. tension<br/>
+            <br/><strong>Questions</strong><br/>
+            1. Why does Marshall say he couldn’t yell for help?<br/>
+            2. What did Marshall mean by “he was spotted”?<br/>
+            3. Who was the person that yelled for help?<br/>
+            4. Who grabbed April?<br/>
+            5. Why did Marshall stop taking Security places with him? What does this show
+            about him?<br/>
+            Based on the videos:<br/>
+            6. Write a definition for <i>luc </i> and <i>lum</i> and use each term in a sentence. <br/>
+            7. Write a definition for <i> spect</i>  and use it in a sentence. <br/>
+            8. Write a definition for  <i> pend</i> and use it in a sentence. <br/>
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener48} value={la6Essay48}/>
 
           <br/>
           <span className="days">LESSONS 68 &amp; 69</span>
           <p>Read <i>Chapter 23 ~ Christmas Keys</i> from
-            <i> The Egypt Game</i>. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
-            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            <i> The Egypt Game</i> and watch the videos. </p>
+          <Video videoUrl="https://www.youtube.com/embed/2bgkj7iidoc?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
+          <Video videoUrl="https://www.youtube.com/embed/vEEezjwnpgY?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
+          <Video videoUrl="https://www.youtube.com/embed/eo0yg--Sreo?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
+            <p>Complete the vocabulary assignment below and then answer the questions that
+            follow.
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using
+            the
             word. <br/>
             1. intrigue<br/>
             2. primitive<br/>
@@ -1662,7 +1797,12 @@ const LA6Component = ({ data }) => {
             4. What did the Professor say that the children gave him?<br/>
             5. Why did the Professor decide to put more time and energy into his store again?<br/>
             6. What do you think will happen to the Egyptians and the Egypt Game?<br/>
-          </p>
+              Based on the videos:<br/>
+              7. Write a definition for <i>sacr </i> and <i>sanct</i> and use each term in a sentence. <br/>
+              8. Write a definition for <i>mort </i>  and <i>necro </i>  and use each term in a sentence. <br/>
+              9. Write a definition for  <i> terr</i> and use it in a sentence. <br/>
+
+            </p>
           <textarea className="textArea" onChange={onChangeLA6Listener49} value={la6Essay49}/>
           <br/>
           <span className="days">LESSON 70</span>
@@ -1748,7 +1888,7 @@ const LA6Component = ({ data }) => {
               of Tokay</a></p>
           <img src={require("../../public/images/bookCovers/the-golden-compass.jpg")}
                alt='Golden Compass'/><br/>
-          <p><i>After you complete the chapter, answer the questions below:</i></p>
+          <p><i>Complete the the questions and vocabulary assignment below:</i></p>
           <p>1. Describe the main characters and what they are like. What are important traits they possess? Who
             is the protagonist (positive main character) and who is the antagonist ( the person who opposes the
             main character)? Describe other characters if they are significant to the chapter (2-4
@@ -1757,13 +1897,34 @@ const LA6Component = ({ data }) => {
             3. Describe the main events for the chapter. This usually involves a problem or
             conflict the main character is trying to solve. Include supporting details. This will help explain
             the how and why something happened. There should be a beginning, middle and end (2-4 sentences).<br/>
-            4. What are daemons? (1-3 sentences)
+            4. What are daemons? (1-3 sentences)<br/>
+            5. What does the title mean "The Decanter of Tokay"?<br/>
+            6. What is a wardrobe and why is Lyra hiding there?<br/>
+            7. Why did the Master put poison into Lord Asriel's drink?
           </p>
+          <p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and then
+            use the word in a sentence. An example is below.</p>
+          <p>
+            <ol className="vocab">
+              <li>solemn: <i> marked by the invocation of a religious sanction, solemn
+                oath, or ceremony. Gloomy. <br/>She had a solemn expression on her face. </i></li>
+              <li>laboriously</li>
+              <li>somber</li>
+              <li>righteously</li>
+              <li>hastily</li>
+              <li>agog</li>
+              <li>languid</li>
+              <li>earnestly</li>
+              <li>disposed</li>
+            </ol>
+          </p>
+          <br/>
+
           <textarea className="textArea" onChange={onChangeLA6Listener54} value={la6Essay54}/>
           <br/>
           <span className="days">LESSON 75</span>
           <p>Read Chapter 2 <i> The Idea of the North</i></p>
-          <p><i>After you complete the chapter, answer the questions below:</i></p>
+          <p><i>Complete the the questions and vocabulary assignment below:</i></p>
           <p>1. What are new insights about the characters (new traits or important information about them).
             Include other characters if they played a significant role. If there is a character you particularly
             liked
@@ -1772,17 +1933,31 @@ const LA6Component = ({ data }) => {
             3. Describe the main events for the chapter (2-4 sentences). This usually involves a problem or
             conflict the main character is trying to solve. Include supporting details. There should be a
             beginning, middle and end (2-4 sentences).<br/>
-            4. What was your favorite part and why? (1-3 sentences)
+            4. What are all of the things you know about dust? <br/>
+            5. Compare and contrast Lyra's world to your own. What are 3 things that are the same? What are 5 things
+            that are different?
           </p>
+          <p><strong>VOCABULARY</strong><br/>For each word below, write the definition and then use the word in a
+            sentence. </p>
+          <p>
+            <ol className="vocab">
+              <li> tawny</li>
+              <li>impassive</li>
+              <li>chastise</li>
+              <li>eloquence</li>
+              <li>array</li>
+              <li>emulsion</li>
+              <li>incredulity</li>
+              <li>severed</li>
+            </ol>
+          </p>
+          <br/>
+
           <textarea className="textArea" onChange={onChangeLA6Listener55} value={la6Essay55}/>
 
-          <p>Go to <a href="https://quizlet.com/126805/match" rel="noreferrer" target="_blank"> Quizlet and play
-            the Matching
-            Game </a>at least three times to
-            learn the vocabulary words for this novel. </p><br/>
           <span className="days">LESSON 76</span>
           <p>Read Chapter 3 <i> Lyra's Jordan</i></p>
-          <p><i>After you complete the chapter, answer the questions below:</i></p>
+          <p><i>Complete the the questions and vocabulary assignment below:</i></p>
           <p>1. What are new insights about the characters (new traits or important information about them).
             Include other characters if they played a significant role. If there is a character you particularly
             liked
@@ -1792,59 +1967,89 @@ const LA6Component = ({ data }) => {
             conflict the main character is trying to solve. Include supporting details. There should be a
             beginning, middle and end (2-4 sentences).<br/>
             4. What was your favorite part and why? (1-3 sentences)<br/>
-            4. In Lyra’s world, humans have dæmons, little creatures that take animal forms, who are connected
-            to the humans in certain ways. Would you want a dæmon of your own? The dæmons apparently stay in one
-            form once their human is past a certain age. What form do you think your dæmon would take once you
-            became of age?
-            <br/></p>
+            5. In the novel, humans have dæmons, creatures that take animal forms. Would you want a dæmon of your own?
+            Explain why or why not.<br/>
+            The dæmons apparently stay in one
+            6. Imagine that you have a daemon you are connected to. What kind of daemon do you think you would
+            have? Describe this creature in detail.<br/>
+            7. Describe the Gobblers. What are they?
+            8. Lyra decides to fight the Gobblers. Why do you think this is?
+          </p>
+          <p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and then
+            use the word in a sentence. </p>
+          <p>
+            <ol className="vocab">
+              <li> festooned</li>
+              <li>luminous</li>
+              <li>treatises</li>
+              <li>venerable</li>
+              <li>affectations</li>
+              <li>relics</li>
+              <li>postulated</li>
+            </ol>
+          </p>
+          <br/>
           <textarea className="textArea" onChange={onChangeLA6Listener56} value={la6Essay56}/>
 
-          <p>Go to <a href="https://quizlet.com/126805/match" rel="noreferrer" target="_blank"> Quizlet and play
-            the Matching
-            Game </a>at least three times to
-            learn the vocabulary words for this novel. </p><br/>
+
           <span className="days">LESSON 77</span>
           <p>Read Chapter 4 <i> The Alethiometer</i></p>
-          <p><i>After you complete the chapter, answer the questions below:</i></p>
+          <p><i>Complete the the questions and vocabulary assignment below:</i></p>
           <p>1. What are new insights about the characters (new traits or important information about them).
             Include
             other characters if they played a significant role. If there is a character you particularly liked
             or
             disliked, describe them. (2-5 sentences).<br/>
-            2. What is the setting: where and when the events take place (1-3 sentences).<br/>
-            3. Describe the main events for the chapter. This usually involves a problem or
-            conflict the main character is trying to solve. Include supporting details. This will help explain
-            the how
-            and why something happened. There should be a beginning, middle and end (2-4 sentences).<br/>
-            4. What was your favorite part and why? (1-3 sentences)
-            <br/></p>
+            2. What is the setting (where and when the events in this chapter take place).<br/>
+            3. What did Mrs. Coulter do to entrance Lyra?<br/>
+            4. What is an alethiometer? What does it do?<br/>
+            5. What was your favorite part of this chapter and why? (1-3 sentences)
+          </p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and
+          then use the word in a sentence. </p>
+          <p>
+            <ol className="vocab">
+              <li> piecemeal</li>
+              <li>squalid</li>
+              <li>eminence</li>
+              <li>loftily</li>
+              <li>permutations</li>
+              <li>enmity</li>
+              <li>mutinously</li>
+            </ol>
+          </p>
+          <br/>
           <textarea className="textArea" onChange={onChangeLA6Listener57} value={la6Essay57}/>
 
-          <p>Go to <a href="https://quizlet.com/126805/match" rel="noreferrer" target="_blank"> Quizlet and play
-            the Matching
-            Game </a>at least three times to
-            learn the vocabulary words for this novel. </p><br/>
           <span className="days">LESSON 78</span>
           <p>Read Chapter 5 <i> The Cocktail Party</i></p>
-          <p><i>After you complete the chapter, answer the questions below:</i><br/>
+          <p><i>Complete the the questions and vocabulary assignment below:</i><br/>
             1. What are new insights about the characters (new traits or important information about them).
-            Include
-            other characters if they played a significant role. If there is a character you particularly liked
-            or
-            disliked, describe them. (2-5 sentences).<br/>
+            Include other characters if they played a significant role. If there is a character you particularly liked
+            or disliked, describe them. (2-5 sentences).<br/>
             2. What is the setting: where and when the events take place (1-3 sentences).<br/>
             3. Describe the main events for the chapter (2-4 sentences).<br/>
-            4. What was your favorite part and why? (1-3 sentences)
-            <br/></p>
+            4. Lyra thought it broke a "taboo" for Pan to be captured by the golden monkey. What does it mean to break a
+            taboo and why does Lyra feel this way?<br/>
+            5. The novel talks about "experimental theology." What does this mean?<br/>
+            6. Lyra leaves Mrs. Coulter. What happened at the party that made her do this?</p>
+          <p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and then
+            use the word in a sentence. </p>
+          <p>
+            <ol className="vocab">
+              <li>sardonically</li>
+              <li>breviary</li>
+              <li>stolid</li>
+              <li>malodorous</li>
+              <li>inevitably</li>
+              <li>fervent</li>
+            </ol>
+          </p>
+          <br/>
           <textarea className="textArea" onChange={onChangeLA6Listener58} value={la6Essay58}/>
 
-          <p>Go to <a href="https://quizlet.com/126805/match" rel="noreferrer" target="_blank"> Quizlet and play
-            the Matching
-            Game </a>at least three times to
-            learn the vocabulary words for this novel. </p><br/>
           <span className="days">LESSON 79</span>
           <p>Read Chapter 6 The Throwing Nets </p>
-          <p><i>After you complete the chapter, answer the questions below:</i><br/>
+          <p><i>Complete the the questions and vocabulary assignment below:</i><br/>
             1. What are new insights about the characters (new traits or important information about them).
             Include
             other characters if they played a significant role. If there is a character you particularly liked
@@ -1852,241 +2057,394 @@ const LA6Component = ({ data }) => {
             disliked, describe them. (2-5 sentences).<br/>
             2. What happened to the dead men's daemons?<br/>
             3. Describe the main events for the chapter(2-4 sentences).<br/>
-            4. What was your favorite part and why? (1-3 sentences)
-            <br/></p>
-
+            4. Why was Lyra netted by the Gyptians?<br/>
+            5. Describe Panserbjorne.</p>
+          <p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and then
+            use the word in a sentence. </p>
+          <p>
+            <ol className="vocab">
+              <li>copiously</li>
+              <li>propitiate</li>
+              <li>ostentiously</li>
+              <li>derision</li>
+              <li>torpid</li>
+              <li>rapt</li>
+            </ol>
+          </p>
+          <br/>
           <textarea className="textArea" onChange={onChangeLA6Listener140} value={la6Essay140}/>
 
-          <p>Go to <a href="https://quizlet.com/126805/match" rel="noreferrer" target="_blank"> Quizlet and play
-            the Matching Game </a>at least three times to
-            learn the vocabulary words for this novel.</p><br/>
           <span className="days">LESSON 80</span>
-          <p>Read Chapter 7 John
-            Faa </p>
-          <p><i>After you complete the chapter, answer the questions below:</i><br/>
-            1. What are new insights about the characters (new traits or important information about them).
-            Include
-            other characters if they played a significant role. If there is a character you particularly liked
-            or
-            disliked, describe them. (2-5 sentences).<br/>
-            2. What is the setting: where and when the events take place (1-3 sentences).<br/>
+          <p>Read Chapter 7 John Faa </p>
+          <p><i>Complete the the questions and vocabulary assignment below:</i><br/>
+            1. The gyptians decide to fight the Gobblers in war. Why do you think they decided to go when other groups
+            did not?<br/>
+            2. What is the setting?<br/>
             3. Describe the main events for the chapter (2-4 sentences).<br/>
-            4. What was your favorite part and why? (1-3 sentences)
-            <br/></p>
+            4. What was your favorite part of this chapter and why? (1-3 sentences)
+          </p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and
+          then use the word in a sentence. </p>
+          <p>
+            <ol className="vocab">
+              <li>pique</li>
+              <li>errant</li>
+              <li>raucous</li>
+              <li>gaunt</li>
+              <li>loathsome</li>
+              <li>mercenaries</li>
+              <li>incessant</li>
+            </ol>
+          </p>
+          <br/>
+
           <textarea className="textArea" onChange={onChangeLA6Listener59} value={la6Essay59}/>
 
-          <p>Go to <a href="https://quizlet.com/126805/match" rel="noreferrer" target="_blank"> Quizlet and play
-            the Matching
-            Game at least three times to
-            learn the vocabulary words for this novel.</a></p>
-          <br/>
           <span className="days">LESSON 81</span>
-          <p>Read Chapter 8 The
-            Frustration </p>
-          <p><i>After you complete the chapter, answer the questions below:</i><br/>
-            1. What are new insights about the characters (new traits or important information about them).
-            Include other characters if they played a significant role. If there is a character you particularly
-            liked
-            or disliked, describe them. (2-5 sentences).<br/>
+          <p>Read Chapter 8 The Frustration </p>
+          <p><i>Complete the the questions and vocabulary assignment below:</i><br/>
+            1. What does Lyra do to win the attention of the gyptian children? Where did she learn to do this?<br/>
             2. What is the setting: where and when the events take place (1-3 sentences).<br/>
             3. Describe the main events for the chapter (2-4 sentences).<br/>
             4. Predict what Lyra will do next. Will she go to the North? If so, how will she get there? (2-3
             sentences)
-            <br/></p>
-          <textarea className="textArea" onChange={onChangeLA6Listener101} value={la6Essay101}/>
-          responses so they match the questions." defaultValue={""} />
+            5. Do any of the characters show leadership qualities? Explain.
+          </p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and
+          then use the word in a sentence. </p>
+          <p>
+            <ol className="vocab">
+              <li> rescind</li>
+              <li>enthralled</li>
+              <li>recompense</li>
+              <li>obstinately</li>
+              <li>interceded</li>
+              <li>dispositions</li>
+            </ol>
+          </p>
           <br/>
+
+          <textarea className="textArea" onChange={onChangeLA6Listener101} value={la6Essay101}/>
+
           <span className="days">LESSON 82</span>
-          <p>Read Chapter 9 The
-            Spies </p>
-          <p><i>After you complete the chapter, answer the questions below:</i><br/>
+          <p>Read Chapter 9 The Spies </p>
+          <p><i>Complete the the questions and vocabulary assignment below:</i><br/>
             1. Did you anticipate any of the plot twists that have occurred so far? Or did they all take you by
             complete surprise? (2-5 sentences).<br/>
             2) What’s the rule about human-daemon physical contact?<br/>
             3) What did Mrs. Coulter send?<br/>
-            4) Why is Lyra in more danger?<br/>
-            <br/></p>
+            4) Why is Lyra in more danger now?<br/>
+            5) It is not allowed to touch someone else's daemon. Why is this?<br/>
+            6) Why did John Faa change his mind about Lyra going to Bolvangar? <br/>
+
+          </p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and
+          then use the word in a sentence. </p>
+          <p>
+            <ol className="vocab">
+              <li>delude</li>
+              <li>despondency</li>
+              <li>reproach</li>
+            </ol>
+          </p>
+          <br/>
           <textarea className="textArea" onChange={onChangeLA6Listener60} value={la6Essay60}/>
 
-          <p>Go to <a href="https://quizlet.com/126805/match" rel="noreferrer" target="_blank"> Quizlet and play
-            the Matching
-            Game </a>at least three times to
-            learn the vocabulary words for this novel.</p><br/>
           <span className="days">LESSON 83</span>
           <p>Read Chapter 10 The Consul and the Bear </p>
-          <p><i>After you complete the chapter, answer the questions below:</i><br/>
+          <p><i>Complete the the questions and vocabulary assignment below:</i><br/>
             1. Summarize how and why daemons settle into one form. <br/>
             2. What does it mean to be “discontented” in this society? Do you agree with this? Explain.
-            <br/></p>
+            3. Do you think Jerry would be a good teacher for Lyra? Why or why not?<br/>
+            4. The novel discusses fate and destiny; the idea that what happens in our lives is predetermined? Do you
+            believe this is true? Explain why or why not. <br/>
+          </p>
+          <p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and
+            then use the word in a sentence. </p>
+          <p>
+            <ol className="vocab">
+              <li>abated</li>
+              <li>repugnant</li>
+              <li>placid</li>
+              <li>malevolent</li>
+            </ol>
+          </p>
+          <br/>
           <textarea className="textArea" onChange={onChangeLA6Listener61} value={la6Essay61}/>
 
-          <p>Go to <a href="https://quizlet.com/126805/match" rel="noreferrer" target="_blank"> Quizlet and play
-            the Matching
-            Game </a>at least three times to
-            learn the vocabulary words for this novel.</p><br/>
           <span className="days">LESSON 84</span>
-          <p>Read Chapter 11 Amor
-          </p>
-          <p><i>After you complete the chapter, answer the questions below:</i><br/>
-            1. What are new insights about the characters (new traits or important information about them).
-            Include
-            other characters if they played a significant role. If there is a character you particularly liked
-            or
-            disliked, describe them. (2-5 sentences).<br/>
-            2. What is the setting: where and when the events take place (1-3 sentences).<br/>
-            3. Describe the main events for the chapter. There should be a beginning, middle and end (2-4
+          <p>Read Chapter 11 Amor </p>
+          <p><i>Complete the the questions and vocabulary assignment below:</i><br/>
+            1. What is anbaric force?<br/>
+            2. There is a new character in this chapter; Lee Scoresby. Describe what he is like?
+            How do you like him so far?<br/>
+            3. Describe how daemons serve the people they are connected to?<br/>
+            4. What is the setting: where and when the events take place (1-3 sentences).<br/>
+            5. Describe the main events for the chapter. There should be a beginning, middle and end (2-4
             sentences).<br/>
-            4. What was your favorite part and why? (1-3 sentences)
-            <br/></p>
+            6. What was your favorite part and why? (1-3 sentences)
+          </p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and
+          then use the word in a sentence. </p>
+          <p>
+            <ol className="vocab">
+              <li>conjure</li>
+              <li>formidable</li>
+              <li>indignant</li>
+            </ol>
+          </p>
+          <br/>
+
           <textarea className="textArea" onChange={onChangeLA6Listener62} value={la6Essay62}/>
           <br/>
           <span className="days">LESSON 85</span>
-          <p>Read Chapter 12 The
-            Lost Boy </p>
-          <p><i>After you complete the chapter, answer the questions below:</i><br/>
-            1. Who is Lee Scoresby?<br/>
+          <p>Read Chapter 12 The Lost Boy </p>
+          <p><i>Complete the the questions and vocabulary assignment below:</i><br/>
+            1. Tony Makarios is referred to as a ghost. Why? When Lyra found him, what was he holding?<br/>
             2. What does Ioreck compare his armor to?<br/>
             3. Who saves the armor when Ioreck goes into the water?<br/>
-            4. Who is Ioreck loyal to? How do you know?<br/>3. Describe the main events for the chapter you just
-            read. This usually involves a problem or
+            4. Who is Ioreck loyal to? How do you know?<br/>
+            5. Describe the main events for this chapter. This usually involves a problem or
             conflict the main character is trying to solve. Include supporting details. This will help explain
-            the how
-            and why something happened. There should be a beginning, middle and end (2-4 sentences).
-            <br/></p>
+            the how and why something happened. There should be a beginning, middle and end (2-4 sentences).
+          </p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and
+          then use the word in a sentence. </p>
+          <p>
+            <ol className="vocab">
+              <li>pallid</li>
+              <li>gesticulating</li>
+              <li>hastening</li>
+              <li>taboo</li>
+            </ol>
+          </p>
+          <br/>
+
           <textarea className="textArea" onChange={onChangeLA6Listener63} value={la6Essay63}/>
           <br/>
           <span className="days">LESSON 86</span>
           <p>Read Chapter 13 Fencing </p>
-          <p><i>After you complete the chapter, answer the questions below:</i><br/>
+          <p><i>Complete the the questions and vocabulary assignment below:</i><br/>
             1. What happened to Tony?<br/>
             2. What have we learned about the Bears?<br/>
             3. Describe the main events for the chapter. (2-4 sentences).<br/>
-            4. What was your favorite part and why? (1-3 sentences)
-            <br/></p>
+            4. What was your favorite part?<br/>
+            5. Describe the steps involved when Lee Scoresby makes gas.<br/>
+          </p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and
+          then use the word in a sentence. </p>
+          <p>
+            <ol className="vocab">
+              <li>suffused</li>
+              <li>pedantic</li>
+              <li>feinting</li>
+              <li>impassive</li>
+            </ol>
+          </p>
+          <br/>
+
           <textarea className="textArea" onChange={onChangeLA6Listener64} value={la6Essay64}/>
           <br/>
           <span className="days">LESSON 87</span>
           <p>Read Chapter 14 Bolvangar Lights </p>
-          <p><i>After you complete the chapter, answer the questions below:</i><br/>
+          <p><i>Complete the the questions and vocabulary assignment below:</i><br/>
             1. What are new insights about the characters (new traits or important information about them).
             Include
             other characters if they played a significant role. If there is a character you particularly liked
             or
             disliked, describe them. (2-5 sentences).<br/>
-            2. What is the setting: where and when the events take place (1-3 sentences).<br/>
+            2. What is the setting?<br/>
             3. Describe the main events for the chapter (2-4 sentences).<br/>
-            4. What was your favorite part and why? (1-3 sentences)</p>
-          <textarea className="textArea" onChange={onChangeLA6Listener65} value={la6Essay65}/>
+            4. Who do you think has a dull daemon? Why is it so dull?</p><p className="topBottom">
+          <strong>VOCABULARY</strong><br/>For each word below, write the definition and then use the word in a sentence.
+        </p>
+          <p>
+            <ol className="vocab">
+              <li>meticulous</li>
+              <li>forlorn</li>
+              <li>perpetual</li>
+            </ol>
+          </p>
           <br/>
+
+          <textarea className="textArea" onChange={onChangeLA6Listener65} value={la6Essay65}/>
+
           <span className="days">LESSON 88</span>
           <p>Read Chapter 15 The Daemon Cages </p>
-          <p><i>After you complete the chapter, answer the questions below:</i><br/>
+          <p><i>Complete the the questions and vocabulary assignment below:</i><br/>
             1. What does Lyra discover during the fire drill?<br/>
             2. Why might Lyra be so interested in how witches can fly?<br/>
             3. Who arrives at the end of the chapter?<br/>
-            4. Describe the main events for the chapter. This usually involves a problem or
-            conflict the main character is trying to solve. There should be a beginning, middle and end (2-4
-            sentences).<br/>
-            <br/></p>
-          <textarea className="textArea" onChange={onChangeLA6Listener66} value={la6Essay66}/>
+            4. Describe Lyra's relationship with Roger. <br/>
+            5. Why are the children at Bolvanger approximately the same age?<br/>
+            6. Who took away Bridget McGinn?  Is this significant?<br/>
+            7. The chapter is called The Daemon Cages? Explain this.<br/>
+            <br/></p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition
+          and then use the word in a sentence. </p>
+          <p>
+            <ol className="vocab">
+              <li>enveloping</li>
+              <li>sanguine</li>
+              <li>conspicuous</li>
+            </ol>
+          </p>
           <br/>
+
+          <textarea className="textArea" onChange={onChangeLA6Listener66} value={la6Essay66}/>
+
           <span className="days">LESSON 89</span>
           <p>Read Chapter 16 The Silver Guillotine </p>
-          <p><i>After you complete the chapter, answer the questions below:</i><br/>
-            1. What are new insights about the characters (new traits or important information about them).
-            Include
-            other characters if they played a significant role. If there is a character you particularly liked
-            or
-            disliked, describe them. (2-5 sentences).<br/>
-            2. What is the setting: where and when the events take place (1-3 sentences).<br/>
+          <p><i>Complete the the questions and vocabulary assignment below:</i><br/>
+            1. What are things about Mrs. Coulter that the children at Bolvanger find scary?<br/>
+            2. What is the setting?<br/>
             3. Describe the main events for the chapter (2-4 sentences).<br/>
             4. What was your favorite part and why? (1-3 sentences)</p>
-          <textarea className="textArea" onChange={onChangeLA6Listener67} value={la6Essay67}/>
+          <p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and then
+            use the word in a sentence. </p>
+          <p>
+            <ol className="vocab">
+              <li>banished</li>
+              <li>apparatus</li>
+              <li>maelstrom</li>
+              <li>resigned</li>
+            </ol>
+          </p>
           <br/>
+          <textarea className="textArea" onChange={onChangeLA6Listener67} value={la6Essay67}/>
+
           <span className="days">LESSON 90</span>
           <p>Read Chapter 17 The Witches </p>
-          <p><i>After you complete the chapter, answer the questions below:</i><br/>
-            1. What are new insights about the characters (new traits or important information about them).
-            Include other characters if they played a significant role. If there is a character you
-            particularly
-            liked
-            or disliked, describe them. (2-5 sentences).<br/>
-            2. What is the setting: where and when the events take place (1-3 sentences).<br/>
+          <p><i>Complete the the questions and vocabulary assignment below:</i><br/>
+            1. What new things did you learn  about Lyra and Mrs. Coulter during their conversation?<br/>
+            2. What is the setting?<br/>
             3. Describe the main events for the chapter (2-4 sentences).<br/>
-            4. What was your favorite part and why? (1-3 sentences)
-            <br/></p>
-          <textarea className="textArea" onChange={onChangeLA6Listener68} value={la6Essay68}/>
+            4. Do you think Lyra is clever when she lies? Explain why or why not?<br/>
+            5. What do you think about how Lyra gets others to do what she tells them? Explain.<br/>
+          </p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and
+          then use the word in a sentence. </p>
+          <p>
+            <ol className="vocab">
+              <li>rectified</li>
+              <li>haggard</li>
+              <li>innocuous</li>
+              <li>lithe</li>
+              <li>querulously</li>
+            </ol>
+          </p>
           <br/>
+          <textarea className="textArea" onChange={onChangeLA6Listener68} value={la6Essay68}/>
+
           <span className="days">LESSON 91</span>
           <p>Read Chapter 18 Fog and Ice </p>
-          <p><i>After you complete the chapter, answer the questions below:</i><br/>
-            1. What are new insights about the characters (new traits or important information about them).
-            Include other characters if they played a significant role. If there is a character you
-            particularly
-            liked
-            or disliked, describe them. (2-5 sentences).<br/>
+          <p><i>Complete the the questions and vocabulary assignment below:</i><br/>
+            1. Describe the main events for the chapter. There should be a beginning, middle and end.<br/>
             2. Describe Lee Scoresby’s personality. What does he want out of life? (4-6 sentences)
-            3. Describe the life of a witch. (4-6 sentences)
-            <br/></p>
+            3. Describe the life of a witch. (4-6 sentences)<br/>
+            4. Serafina Pekkala believes priests are afraid of dust. Why?<br/>
+          </p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and
+          then use the word in a sentence. </p>
+          <p>
+            <ol className="vocab">
+              <li>inflammable</li>
+              <li>buoyancy</li>
+              <li>abominable</li>
+            </ol>
+          </p>
+          <br/>
+
           <textarea className="textArea" onChange={onChangeLA6Listener69} value={la6Essay69}/>
           <br/>
           <span className="days">LESSON 92</span>
           <p>Read Chapter 19 Captivity </p>
-          <p><i>After you complete the chapter, answer the questions below:</i><br/>
+          <p><i>Complete the the questions and vocabulary assignment below:</i><br/>
             1. How does Lyra get Jotham Santelia to give her the information that she wants?<br/>
             2. How is Iofur Raknison “playing both sides”?<br/>
             3. What does Lyra convince Iofur to do? How does she do this?<br/>
             4. Describe the main events for the chapter. There should be a beginning, middle and end.<br/>
-            <br/></p>
+          </p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and
+          then use the word in a sentence. </p>
+          <p>
+            <ol className="vocab">
+              <li>perceptive</li>
+              <li>besotted</li>
+              <li>exploit</li>
+            </ol>
+          </p>
+          <br/>
+
           <textarea className="textArea" onChange={onChangeLA6Listener70} value={la6Essay70}/>
           <br/>
           <span className="days">LESSON 93</span>
           <p>Read Chapter 20 Mortal Combat </p>
-          <p><i>After you complete the chapter, answer the questions below:</i><br/>
+          <p><i>Complete the the questions and vocabulary assignment below:</i><br/>
             1. What are new insights about the characters (new traits or important information about them).
             Include other characters if they played a significant role. If there is a character you
-            particularly
-            liked
+            particularly liked
             or disliked, describe them. (2-5 sentences).<br/>
             2. List the things you know about Dust. <br/>
             3. Describe the main events for the chapter.<br/>
             4. What does Iorek Byrnison mean when he calls Lyra “Lyra Silvertongue”?<br/>
             5. Why does Mrs. Coulter want to kill Lord Asriel?<br/>
+          </p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and
+          then use the word in a sentence. </p>
+          <p>
+            <ol className="vocab">
+              <li>preposterous</li>
+              <li>vulnerable</li>
+              <li>obligation</li>
+            </ol>
           </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener71} value={la6Essay71}/>
           <br/>
+
+          <textarea className="textArea" onChange={onChangeLA6Listener71} value={la6Essay71}/>
+
           <span className="days">LESSON 94</span>
           <p>Read Chapter 21 Lord Asriel's Welcome </p>
-          <p><i>After you complete the chapter, answer the questions below:</i><br/>
+          <p><i>Complete the the questions and vocabulary assignment below:</i><br/>
             1. What is Lord Asriel’s reaction when he sees Lyra?<br/>
             2. What is Roger’s view on knowing the future?<br/>
             3. What is Lord Asriel’s plan?<br/>
-            2. What is the setting: where and when the events take place (1-3 sentences).<br/>
-            3. Describe the main events for the chapter. <br/>
-            <br/></p>
+            4. What is the setting?<br/>
+            5. Describe the main events for the chapter. <br/>
+            6. Describe how Dust makes the alethiometer work.<br/>
+          </p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and
+          then use the word in a sentence. </p>
+          <p>
+            <ol className="vocab">
+              <li>wary</li>
+              <li>imperious</li>
+              <li>eloquent</li>
+              <li>bemused</li>
+              <li>confused</li>
+            </ol>
+          </p>
+          <br/>
+
           <textarea className="textArea" onChange={onChangeLA6Listener72} value={la6Essay72}/>
           <br/>
           <span className="days">LESSON 95</span>
           <p>Read Chapter 22 Betrayal </p>
-          <p><i>After you complete the chapter, answer the questions below:</i><br/>
-            1. What are new insights about the characters (new traits or important information about them).
-            Include other characters if they played a significant role. If there is a character you
-            particularly
-            liked
-            or disliked, describe them. (2-5 sentences).<br/>
+          <p><i>Complete the the questions and vocabulary assignment below:</i><br/>
+            1. Thoroid is a new character.  What is he like?  Why does he wake Lyra up? (2-5 sentences).<br/>
             2. Describe the main events for the chapter (2-4 sentences).<br/>
             3. Who does Lord Asriel take with him to do his experiment?<br/>
-            4. What does Lyra do at the end of the chapter? What does Iorek Byrnison do?
-            <br/></p>
+            4. What does Lyra do at the end of the chapter? What does Iorek Byrnison do?  Explain why they did this?<br/>
+          </p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and
+          then use the word in a sentence. </p>
+          <p>
+            <ol className="vocab">
+              <li>gaunt</li>
+              <li>lavish</li>
+              <li>appalled</li>
+              <li>bleak</li>
+              <li>interrogate</li>
+            </ol>
+          </p>
+          <br/>
+
           <textarea className="textArea" onChange={onChangeLA6Listener73} value={la6Essay73}/>
           <br/>
           <span className="days">LESSON 96</span>
           <p>Read Chapter 23 The Bridge to the Stars </p>
-          <p><i>After you complete the chapter, answer the questions below:</i><br/>
+          <p><i>Complete the the questions and vocabulary assignment below:</i><br/>
             1. Describe the main events for the chapter (2-4 sentences).<br/>
             2. Where does Lyra go at the end of the book?<br/>
-            3. Why do you think Mrs. Coulter decided not to go with Lord Asriel?
-            <br/></p>
+            3. Why do you think Mrs. Coulter decided not to go with Lord Asriel?<br/>
+          4. How did you like the book? Do you think you would like to read the other books in the series? Why or why not? </p>
           <textarea className="textArea" onChange={onChangeLA6Listener74} value={la6Essay74}/>
           <br/>
           <span className="days">LESSON 97</span>
@@ -2132,7 +2490,7 @@ const LA6Component = ({ data }) => {
                                                          rel="noreferrer" target="_blank">Chapter 1. <br/>
               <br/>
               <img src={require("../../public/images/bookCovers/hungergames.jpg")} alt=""/><br/></a></p>
-          <p><i>After you complete the chapter, answer the questions below:</i><br/>
+          <p><i>Complete the the questions and vocabulary assignment below:</i><br/>
             1. Describe District 12.<br/>
             2. What illegal activity does Katniss participate in doing? Why does she need to do this?<br/>
             3. Describe the relationship between Gale and Katniss. Do you have a relationship like this in
@@ -3064,8 +3422,8 @@ const LA6Component = ({ data }) => {
             <li>Each paragraph should be 3-5 sentences.</li>
           </ul>
           <p><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
-                                      rel="noreferrer"
-                                      target="_blank">Click
+                rel="noreferrer"
+                target="_blank">Click
             here for a 5 Paragraph Essay outline </a>if you need help getting started.</p>
           <textarea className="textArea"
                     placeholder="Write your essay here.  Be sure to back up your work. Copy/paste it into another document or email it to your parent or teacher."
@@ -3100,8 +3458,8 @@ const LA6Component = ({ data }) => {
             </ul>
           </p>
           <p><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
-                                      rel="noreferrer"
-                                      target="_blank">Click
+                rel="noreferrer"
+                target="_blank">Click
             here for a 5 Paragraph Essay outline </a>if you need help getting started.</p>
 
           <textarea className="textArea" onChange={onChangeLA6Listener124} value={la6Essay124}/>
@@ -3148,7 +3506,7 @@ const LA6Component = ({ data }) => {
           <p>An expository essay explains or describes a topic by presenting only facts,
             statistics, and examples. It is
             meant to be informative versus persuasive or entertaining. Expository writing can be a description,
- sequence, comparison, cause and effect or problem and solution.            
+            sequence, comparison, cause and effect or problem and solution.
             Write a 5 paragraph expository essay based on one of the prompts below:<br/>
             <ul className="list"><strong>Description:</strong> describe a topic by listing characteristics, features,
               and examples. No opinions or trying to persuade.<br/>
@@ -3179,7 +3537,8 @@ const LA6Component = ({ data }) => {
               <li>Discuss the causes and effects of someone not being a good friend.</li>
             </ul>
 
-            <ul className="list"><strong>Problem and Solution: </strong>state a problem and list one or more solutions for the
+            <ul className="list"><strong>Problem and Solution: </strong>state a problem and list one or more solutions
+              for the
               problem.<br/>
               <li>Animal abuse and neglect is a problem. What are solutions?</li>
               <li>Pressures of materialism is a problem people face. What are solution?</li>
@@ -3233,7 +3592,7 @@ const LA6Component = ({ data }) => {
           <p>Watch the the video below <strong> How to write descriptively</strong> by Nalo Hopkinson and then complete
             the writing assignment that follows in Lesson 149.</p>
           <Video videoUrl="https://www.youtube.com/embed/RSoRzTtwgP4"/>
-          
+
           <span className="days">LESSON 149</span>
           <p>After you watch the video <strong> Stephen King On Writing</strong>, you will write a mystery.</p>
           <Video videoUrl="https://www.youtube.com/embed/lwhOd65gGoY"/>
@@ -3334,7 +3693,7 @@ const LA6Component = ({ data }) => {
             </div>
           </div>
           <textarea className="textArea" onChange={onChangeLA6Listener129} value={la6Essay129}/>
-          
+
           <span className="days">LESSON 151</span>
           <p>Watch the video <strong> The importance of setting in a story</strong> and then complete the writing
             assignment that follows.</p>
@@ -3414,7 +3773,7 @@ const LA6Component = ({ data }) => {
             </ul>
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener132} value={la6Essay132}/>
-          
+
           <span className="days">LESSON 153</span>
           <p><strong>Science Fiction</strong><br/>
             Science fiction themes include futuristic stories, space travel, time travel, and life on other planets.
@@ -3480,11 +3839,11 @@ const LA6Component = ({ data }) => {
             <li>Each paragraph should be 3-5 sentences.</li>
           </ul>
           <p><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
-                                      rel="noreferrer"
-                                      target="_blank">Click
+                rel="noreferrer"
+                target="_blank">Click
             here for a 5 Paragraph Essay outline </a>if you need help getting started.</p>
           <textarea className="textArea" onChange={onChangeLA6Listener134} value={la6Essay134}/>
-          
+
           <span className="days">LESSON 155</span>
           <h4> Write an Adventure Story</h4>
           <p>Stories in the adventure genre involve a hero who goes on an
@@ -3534,7 +3893,7 @@ const LA6Component = ({ data }) => {
             href="../resources/languagearts/StoryOutlineWorksheet.pdf">Story Outline Worksheet</a> to get started.
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener135} value={la6Essay135}/>
-          
+
           <span className="days">LESSON 156</span>
           <h4> Character Development</h4>
           <p>No matter how exciting your plot may be, readers won't want to keep reading unless
