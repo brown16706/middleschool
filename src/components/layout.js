@@ -1,7 +1,5 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import LazyLoad from 'react-lazyload';
-
 import Header from "./header"
 import Footer from "./footer"
 
@@ -34,7 +32,7 @@ const Layout = ({ children }) => {
       <main id="primary" className={style.site_main}>
         {children}
       </main>
-      <LazyLoad><Footer siteTitle={data.site.siteMetadata.title} /></LazyLoad>
+      <Footer siteTitle={data.site.siteMetadata.title} />
     </>
   )
 }

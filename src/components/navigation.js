@@ -43,22 +43,35 @@ export default class Navi extends React.Component {
               </li>
 
               <li className="navItem">
+                <Link to="/resources" className="navLink">
+                  resources
+                </Link>
+              </li>
+              
+              <li className="navItem">
                 <Link to="/about" className="navLink">
                   about
                 </Link>
               </li>
 
               <li className="navItem">
-                <Link to="/resources" className="navLink">
-                  resources
+                <Link to="/sixth" className="navLink">
+                  6th
                 </Link>
               </li>
 
               <li className="navItem">
-                <Link to="/sixth" className="navLink">
-                  sixth
+                <Link to="/seventh" className="navLink">
+                  7th
                 </Link>
               </li>
+
+              <li className="navItem">
+                <Link to="/eighth" className="navLink">
+                  8th
+                </Link>
+              </li>
+              
             </ul>
           </div>
           <div className="mobileMenu">

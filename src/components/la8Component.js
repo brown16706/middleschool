@@ -2,6 +2,7 @@ import React from "react"
 import "../styles/styles.css"
 import Video from "./video"
 import Confetti from "./confetti"
+import { Link } from "gatsby"
 
 function useLocalStorageState(key, defaultValue = "") {
   const [state, setState] = React.useState(
@@ -738,8 +739,20 @@ const LA8Component = ({ data }) => {
   }
 
   return (
-
     <form>
+
+      <section className="block-circles">
+        <div className="circle one"
+             style={{ animationDuration: "4s", backgroundColor: '#83cae6', transform: "translate3d(0px, 0px, 0px) scale(0.9921, 1)", opacity: "0.9881" }}/>
+        <div className="circle two" style={{ animationDuration: "4s", backgroundColor: '#83cae6', transform: "translate(0px, 0px)", opacity: 1 }}/>
+        <div className="hero-wrapper pbn hero animated animatedFadeInUp fadeInUp">
+          <h1 className="hero intro animated">Language Arts</h1>
+          <div className="hero info-block info-block-line" style={{ marginBottom: "4em" }}>
+            <Link to="/eighth" className='gradeLink'><h2 className="hero">8th Grade</h2></Link>
+          </div>
+        </div>
+      </section>
+      
       <section className="section raise-top">
         <div className="section-content">
           <h1 className="section-title">Daily Lessons</h1>
@@ -827,7 +840,8 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener4} value={la8Essay4}/>
 
           <span className="days">LESSON 5 </span>
-          <p>Watch the the video below about <strong>Figurative Language</strong> and then answer the questions that follow.
+          <p>Watch the the video below about <strong>Figurative Language</strong> and then answer the questions that
+            follow.
           </p>
           <Video videoUrl="https://www.youtube.com/embed/rW4DtZGxjq0"/>
           <p className="topBottom">Figurative language refers to any use of language that goes beyond the literal
@@ -842,29 +856,35 @@ const LA8Component = ({ data }) => {
           <p className="topBottom"><strong>Hyperbole</strong> uses extreme exaggeration and is not meant to be taken
             literally. Examples: I'm so hungry I could eat a horse. I could have died of embarrassment.</p>
 
-          <p className="topBottom"><strong>Idioms</strong> are figures of speech that cannot be understood from a literal
+          <p className="topBottom"><strong>Idioms</strong> are figures of speech that cannot be understood from a
+            literal
             understanding of the words
             alone. Examples: The cat is out of the bag. Stop beating around the bush. <br/>Someone visiting from
             another country would not understand these phrases without someone explaining the meaning.</p>
 
-          <p className="topBottom"><strong>Similes </strong>make comparisons between two unrelated elements by using 'like' or
+          <p className="topBottom"><strong>Similes </strong>make comparisons between two unrelated elements by using
+            'like' or
             'as' to highlight a
             common quality both things share. Examples: Her eyes shone like diamonds. He was as strong as a horse.
           </p>
 
-          <p className="topBottom">A <strong>metaphor</strong> makes a comparison between two unrelated things by stating one
+          <p className="topBottom">A <strong>metaphor</strong> makes a comparison between two unrelated things by
+            stating one
             thing is the other
             thing. Example: Life is a rollercoaster.</p>
 
-          <p className="topBottom"><strong>Oxymorons </strong>combine two opposing elements into a single phrase to be thought
+          <p className="topBottom"><strong>Oxymorons </strong>combine two opposing elements into a single phrase to be
+            thought
             provoking or funny.
             Example: Deafening silence. A known secret.</p>
 
-          <p className="topBottom"><strong>Personification</strong> is a metaphor where human actions, feelings or traits are
+          <p className="topBottom"><strong>Personification</strong> is a metaphor where human actions, feelings or
+            traits are
             given to a non-human.
             Examples: Books were her constant companions. That car's a beauty. An angry sky.</p>
 
-          <p className="topBottom"><strong>Alliteration </strong>is the repetition of the same letter sound across the start
+          <p className="topBottom"><strong>Alliteration </strong>is the repetition of the same letter sound across the
+            start
             of several words in a
             line of text. The word comes from the Latin "littera," meaning "letter of the alphabet". Example: The
             slithering snake slid sideways silently. </p>
@@ -1026,7 +1046,8 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener10} value={la8Essay10}/>
 
           <span className="days">LESSON 11 </span>
-          <p>After you watch the video below <strong> Top Quotes And Lessons,</strong> answer the questions below to best of
+          <p>After you watch the video below <strong> Top Quotes And Lessons,</strong> answer the questions below to
+            best of
             your ability. <br/>
             <Video videoUrl="https://www.youtube.com/embed/rnQ5OJgGM6g"/>
             1. List four lessons that The Alchemist tries to teach. <br/>
@@ -1083,7 +1104,7 @@ const LA8Component = ({ data }) => {
           <h4>Funny Business with Khan Academy</h4>
           <p className="topBottom">If you don't already have one, <a
             href="https://support.khanacademy.org/hc/en-us/articles/204451324-How-do-I-create-my-account-"
-            rel="noreferrer" target="_blank"> set up a free account at Khan Academy </a> and then begin the lesson
+            rel="noreferrer" target="_blank"> set up a free account on Khan Academy </a> and then begin the lesson
             below.</p>
           <p> Complete all assignments listed below for this unit (readings, videos and
             practice).<br/> Write a brief summary of what you learned in the textbox below. <br/>
@@ -1863,7 +1884,7 @@ const LA8Component = ({ data }) => {
           <span className="days">LESSON 39 </span>
           <p>Watch the video <strong> Literary Genres and Subgenres. </strong></p>
           <Video videoUrl="https://www.youtube.com/embed/oarGRayak5o"/>
-          1. What are the four main literary genres? and subgenres.<br/>
+        <p>  1. What are the four main literary genres? and subgenres.<br/>
           2. Which genre and subgenre category do the examples below fall into? Write the genre and
           subgenre for each:
           <ol className="assnLetters">
@@ -1884,13 +1905,13 @@ const LA8Component = ({ data }) => {
           humans in a contemporary city. <br/>
           4. Which subgenre of books do you enjoy reading most? Which subgenre of movies are your
           favorites? Explain. <br/>
-          5. Write definitions for the following terms:
+          5. Write definitions for the following terms:<br/>
           <ul className="assnList">
             <li> Literary</li>
             <li> Subgenre</li>
             <li> Literature</li>
             <li> Genre</li>
-          </ul>
+          </ul></p>
           <textarea className="textArea" onChange={onChangela8Listener39} value={la8Essay39}/>
 
           <span className="days">LESSON 40 </span>
@@ -2001,7 +2022,7 @@ const LA8Component = ({ data }) => {
               </li>
               <li>What premonitions (predictions) of Santiago's death are there?</li>
               <li>Is the ending hopeful or discouraging? Explain.</li>
-            </ol>
+            </ol></p>
             <textarea className="textArea" onChange={onChangela8Listener44} value={la8Essay44}/>
 
             <span className="days">LESSON 45 </span>
@@ -2009,12 +2030,13 @@ const LA8Component = ({ data }) => {
             <p className="topBottom"> Many of Ernest Hemingway's greatest novels include the Code Hero. In The Old
               Man and the Sea,
               Santiago fits the profile of a code hero in many different ways.</p>
-            <p className="topBottom"> In a well written, five paragraph essay, explain how Santiago fits the mold of
+            <p className="topBottom"> In a five paragraph essay, explain how Santiago fits the mold of
               a Hemingway Code
               Hero. Make sure you identify and explain 3 Code Hero characteristics (read below) and provide examples
               explaining how Santiago fulfills these characteristics. Be sure to choose characteristics you
               understand, can explain and can provide examples for from the novel.</p>
-            <p className="topBottom"><strong>HEMINGWAY CODE HERO:</strong> Hemingway's protagonists are usually figures who
+            <p className="topBottom"><strong>HEMINGWAY CODE HERO:</strong> Hemingway's protagonists are usually figures
+              who
               try to follow a
               hyper-masculine moral code and make sense of the world through those beliefs. Hemingway himself
               defined the Code Hero as "a man who lives correctly, following the ideals of honor, courage and
@@ -2072,7 +2094,7 @@ const LA8Component = ({ data }) => {
               choose how you want to design it.</p>
             <img src={require("../../public/images/bookCovers/oldmanandtheseabookcover.jpg")}
                  alt="The Old Man and the Sea creative book cover"/><br/>
-            <p className="topBottom"> Your cover (or jacket) should include:</p>
+            <p className="topBottom"> Your cover (or jacket) should include:<br/>
             1. A clear title and the author's name. <br/>
             2. A graphic design that reflects the book's theme. <br/>
             3. A summary of the plot without giving away the ending. <br/>
@@ -2081,7 +2103,8 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener46} value={la8Essay46}/>
 
           <span className="days">LESSON 47 </span>
-          <p> Watch the video below <strong>The Old Man and the Sea - Short, Animation Recipient of the Academy Award for
+          <p> Watch the video below <strong>The Old Man and the Sea - Short, Animation Recipient of the Academy Award
+            for
             Best Short Animated Film, </strong> then complete the assignment that follows.</p>
           <Video videoUrl="https://www.youtube.com/embed/NNCxNntn2yc"/>
           <ol className="vocab">
@@ -2305,7 +2328,8 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener54} value={la8Essay54}/>
 
           <span className="days">LESSON 55 </span>
-          <p className="topBottom"><strong> Personification: </strong> Giving human-­‐like characteristics to non-­‐living
+          <p className="topBottom"><strong> Personification: </strong> Giving human-­‐like characteristics to
+            non-­‐living
             things. <br/>
             <strong> Simile: </strong> Comparing two things using "like" or "as". <br/>
             <strong> Metaphor: </strong> Comparing two things not using "like" or "as". <br/></p>
@@ -3291,8 +3315,7 @@ const LA8Component = ({ data }) => {
           <span className="days">LESSON 102 </span>
           <h4>Create a new book cover design for <i> The Book Thief</i>. </h4>
           <p>A book cover/jacket often helps a person decide if they will buy a book. Think about the impression
-            you
-            want the images, colors and text to create for viewers. Create a cover for <i> The Book Thief</i> that
+            you want the images, colors and text to create for viewers. Create a cover for <i> The Book Thief</i> that
             gives viewers a glimpse of the content and mood of the book. You can use whatever medium you choose:
             collage, paper and markers, or <a href="https://www.canva.com/create/book-covers/" rel='noreferrer'
                                               target="_blank"> Canva's online book cover creation tool. </a>You
@@ -4002,7 +4025,8 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener133} value={la8Essay133}/>
 
           <span className="days">LESSON 134 </span>
-          <p><strong>Create a New Ending</strong> for <i> The Giver </i> where you tell readers what happened to Jonas and
+          <p><strong>Create a New Ending</strong> for <i> The Giver </i> where you tell readers what happened to Jonas
+            and
             Gabe.
             The author left the conclusion of the story ambiguous; it wasn’t clear what happened them. Rewrite
             the ending of <i>The Giver </i>with at least of 5 paragraphs.
@@ -4270,7 +4294,8 @@ const LA8Component = ({ data }) => {
             the textbox below. </p>
           <Video videoUrl="https://www.youtube.com/embed/vdCjKH5IKJ8"/>
           <p>Sometimes Shakepeare’s insults were ironic; they were meant to have the opposite effect and be a
-            compliment. He did this in <strong> Sonnet 130: My Mistress Eyes are Nothing Like the Sun.</strong> Shakespeare
+            compliment. He did this in <strong> Sonnet 130: My Mistress Eyes are Nothing Like the
+              Sun.</strong> Shakespeare
             shows irony through different metaphors and similes.</p>
           <ul>
             <li className="poem">My mistress' eyes are nothing like the sun;</li>
@@ -4577,16 +4602,19 @@ const LA8Component = ({ data }) => {
               most meaningful to you. Explain why you chose this line.
             </li>
             <li> Describe how the writer uses imagery throughout the poem. Give an example that you think was her
-              best use of imagery.</li>
+              best use of imagery.
+            </li>
             <li> What was the writer’s purpose with the poem? Do you think she achieved her purpose? Why or why
-              not. </li>
+              not.
+            </li>
             <li><i>Based on The Second Coming: </i>Why was Yeats so fearful of the future?</li>
             <li> What does the falcon represent?</li>
             <li> Did Yeats seem like a happy guy? Explain.</li>
             <li> What was your overall impression of the poem?</li>
             <li> What is the mood of the poem? How does it make you feel?</li>
             <li><i>Based on Ode to the Only Black Kid in the Class:</i> What was your reaction to the title of the
-              poem?</li>
+              poem?
+            </li>
             <li> Was the poem as you expected it would be or did it surprise you in some way? Explain.</li>
             <li> Which parts of the poem are lingering in your mind?</li>
             <li> What are the questions that it makes you want to ask?</li>
@@ -5197,12 +5225,12 @@ const LA8Component = ({ data }) => {
           <span className="days">WRITING STORIES </span>
           <h4>The remainder of this class will focus on writing stories and non-fiction essays
             within different genres.</h4>
-          <p className="topBottom"><i>For each non-fiction writing assignment, answer the questions below to develop
+          <p className="topBottom"><i>For each fictional writing assignment, address the items below to develop
             your story:</i></p>
           <p className="topBottom">POINT OF VIEW: Whose story are you telling? Using "I" is first person. Using
             "you" is second person. Third person uses he or she. The third-person omniscient point of view tells the
             thoughts and feelings of all the characters. </p>
-          <p className="topBottom">PLOT: What happens in the story? What are the sequence events? </p>
+          <p className="topBottom">PLOT: What happens in the story? What are the sequence of events? </p>
           <p className="topBottom">SETTING: Where and when is it (past, present or future)? </p>
           <p className="topBottom">CONFLICT: What is the challenge the main character must face in order to grow and
             change? What obstacles must be overcome? Most stories contain several small conflicts and one large or
@@ -5237,13 +5265,12 @@ const LA8Component = ({ data }) => {
               <li>Finally (resolution):</li>
             </ul>
           </p>
-          <p>Watch the the video below <strong> How to write descriptively</strong> by Nalo Hopkinson and then complete the
-            writing
-            assignment that follows.</p>
+          <p>Watch the the video below <strong> How to write descriptively</strong> by Nalo Hopkinson and then complete
+            the
+            writing assignment that follows in Lesson 170.</p>
           <Video videoUrl="https://www.youtube.com/embed/ RSoRzTtwgP4"/>
 
           <span className="days">LESSON 170</span>
-
           <p>After you watch the video <strong> Stephen King On Writing</strong>, you will write a mystery.</p>
           <Video videoUrl="https://www.youtube.com/embed/lwhOd65gGoY"/>
           <h4> Write a Mystery</h4>
@@ -5256,7 +5283,8 @@ const LA8Component = ({ data }) => {
               <div><img src={require("../../public/images/stories/dog.jpg")}
                         alt="girl with dog"/>
                 <p className="captionTitle">By the River</p>
-                <p className="caption">When the dog beckoned for her to follow, she quickly jumped on her bike. If she didn't get there by sunset, it would be too late.</p>
+                <p className="caption">When the dog beckoned for her to follow, she quickly jumped on her bike. If she
+                  didn't get there by sunset, it would be too late.</p>
               </div>
               <div><img src={require("../../public/images/stories/throwingstone.jpg")} style={{ maxWidth: "500px" }}
                         alt="child throwing a stone"/>
@@ -5267,7 +5295,8 @@ const LA8Component = ({ data }) => {
               <div><img src={require("../../public/images/stories/twokeys.jpg")} style={{ maxWidth: "500px" }}
                         alt="two keys"/>
                 <p className="captionTitle">Unlocking Secrets</p>
-                <p className="caption">He had a hunch about what the keys would unlock. He grabbed both keys and ran.</p>
+                <p className="caption">He had a hunch about what the keys would unlock. He grabbed both keys and
+                  ran.</p>
               </div>
             </div>
             <div className="columnimages">
@@ -5310,7 +5339,8 @@ const LA8Component = ({ data }) => {
                     onChange={onChangela8Listener170} value={la8Essay170}/>
 
           <span className="days">LESSON 171 </span>
-          <p>After you watch the video <strong> How to build a fictional world, </strong> you will write a fantasy story.</p>
+          <p>After you watch the video <strong> How to build a fictional world, </strong> you will write a fantasy
+            story.</p>
           <Video videoUrl="https://www.youtube.com/embed/ZQTQSbjecLg"/>
           <p className="topBottom"><strong>Fantasy </strong> is a genre that has magical and
             supernatural elements. Many novels have a real-world setting, like Twilight, while others novels are set
@@ -5433,7 +5463,8 @@ const LA8Component = ({ data }) => {
             They imagine how life would be different with technological and scientific advances. Science fiction
             includes novels like<i> Ready Player One, Mad Max and The Martian.</i></p>
           <p className="topBottom">Select one of the images below to base your own science fiction story on.
-            After you watch the video below, <strong> The power of a great introduction</strong>, write your story in the textbox.
+            After you watch the video below, <strong> The power of a great introduction</strong>, write your story in
+            the textbox.
             Be sure to back up your work and send a copy to your parent or teacher. If you prefer to write a story not
             based on an image, this is
             fine. </p>
@@ -5569,7 +5600,8 @@ const LA8Component = ({ data }) => {
           {/*Advice on characters */}
           <Video videoUrl="https://www.youtube.com/embed/SgGARYH2vRg"/>
           <p className="topBottom">Your next two lessons will be to develop two great characters your readers will care
-            about: a protagonist and an antagonist. Start thinking about what they are like, consider: personality, physical
+            about: a protagonist and an antagonist. Start thinking about what they are like, consider: personality,
+            physical
             appearance, strengths, weaknesses, special abilities (optional) and what they value. Develop these
             characters in your mind and think about the following questions: <br/>
             <ul className="list">
@@ -5579,16 +5611,19 @@ const LA8Component = ({ data }) => {
               <li>What do they risk losing if they fail in their quest?</li>
               <li> What will they gain if they achieve their quest?</li>
               <li>How do you want them to grow and change as a person?</li>
-              <li>Which fictional genres best suits your characters? You can choose from any that you've learned about: 
-                adventure, fantasy, mythology, horror, mystery, fairy tale, etc.</li>
+              <li>Which fictional genres best suits your characters? You can choose from any that you've learned about:
+                adventure, fantasy, mythology, horror, mystery, fairy tale, etc.
+              </li>
             </ul>
           </p>
           <p className="topBottom">Take a few minutes to complete the assignment below. Your responses can be short
             bullet points.
             <ol className="vocab">
               <li>Close your eyes and imagine the protagonist for your next story. Briefly describe their external and
-                internal traits.</li>
-              <li>List at least one place the protagonist will travel to. If you're not sure, where would you travel to if
+                internal traits.
+              </li>
+              <li>List at least one place the protagonist will travel to. If you're not sure, where would you travel to
+                if
                 there were no limitations? This can be a place of your own creation.
               </li>
               <li> Picture the villain. What are they like?</li>
@@ -5614,17 +5649,21 @@ const LA8Component = ({ data }) => {
               <li>Briefly describe your protagonist's background or childhood. Is there something about their background
                 or childhood that is important and shaped who they are as a
                 person? Examples: Their parents died and left them a fortune, they are poor growing up, they were
-                bullied, or they were raised in China and are fluent in Mandarin. </li>
+                bullied, or they were raised in China and are fluent in Mandarin.
+              </li>
               <li>Do they have any special abilities (optional). These can be supernatural or magical powers or worldly
-                abilities like a high IQ or jiu-jitsu skills. </li>
+                abilities like a high IQ or jiu-jitsu skills.
+              </li>
               <li>What are your character's strengths? Examples: Confidence, strong moral compass, problem solving
-                skills, loyalty, or persistence.  </li>
+                skills, loyalty, or persistence.
+              </li>
               <li>What are your character's weaknesses? Are there any weaknesses or fears the villain can use against
                 them? Examples: Short temper, conflict avoidant, fear of snakes or a
                 physical handicap.
               </li>
               <li>Where will your protagonist to travel to? Describe how this is dramatically different than where they
-                live now? </li>
+                live now?
+              </li>
               <li>What is a quest they were meant to pursue? Are they chasing after an
                 artifact? Are they on a mission of some kind?
               </li>
@@ -5671,19 +5710,26 @@ const LA8Component = ({ data }) => {
           <span className="days">LESSON 180 </span>
           <h4> Final Fictional Story</h4>
           <p className="topBottom">It's time to write your final story for this class!</p>
-  <p>        <ul className="assnList">
+          <p>
+            <ul className="assnList">
               <li>What point of view will you use?</li>
-    <li> What type of fiction or genre did you choose?</li>
+              <li> What type of fiction or genre did you choose?</li>
               <li>Title of your story.</li>
               <li>Grab your readers’ attention in the first paragraph.</li>
-              <li>Where and when is it (past, present or future)?  Who are your characters? Set the scene and introduce your characters.</li>
-              <li>What are the sequence events?  Write about the first thing that happens. Introduce the conflict.  What is the challenge the main character must face in order to grow and
-                change? What obstacles must be overcome? </li>
+              <li>Where and when is it (past, present or future)? Who are your characters? Set the scene and introduce
+                your characters.
+              </li>
+              <li>What are the sequence events? Write about the first thing that happens. Introduce the conflict. What
+                is the challenge the main character must face in order to grow and
+                change? What obstacles must be overcome?
+              </li>
               <li>Next (build up):</li>
-              <li>Finally (resolution).  How will the problem be solved? </li>
+              <li>Finally (resolution). How will the problem be solved?</li>
             </ul>
-            <br/> Write your story in the textbox and be sure to back up your work.  When you submit this story to your parent or teacher, include your character sketches and
-              book cover.</p>
+            <br/> Write your story in the textbox and be sure to back up your work. When you submit this story to your
+            parent or teacher, include your character sketches and
+            book cover.
+          </p>
           <p className="topBottom">You can use the <a
             href="../resources/languagearts/StoryOutlineWorksheet.pdf">Story Outline Worksheet</a> to help.</p>
           <textarea className="textArea" onChange={onChangela8Listener180} value={la8Essay180}/>

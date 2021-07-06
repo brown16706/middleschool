@@ -2,6 +2,7 @@ import React from "react"
 import Video from "./video"
 import "../styles/styles.css"
 import Confetti from "./confetti"
+import { Link } from "gatsby"
 
 function useLocalStorageState(key, defaultValue = "") {
   const [state, setState] = React.useState(
@@ -740,14 +741,27 @@ const LA7Component = ({ data }) => {
 
   return (
     <form>
+      <section className="block-circles">
+        <div className="circle one"
+             style={{ animationDuration: "4s", backgroundColor: '#83cae6', transform: "translate3d(0px, 0px, 0px) scale(0.9921, 1)", opacity: "0.9881" }}/>
+        <div className="circle two" style={{ animationDuration: "4s", backgroundColor: '#83cae6', transform: "translate(0px, 0px)", opacity: 1 }}/>
+        <div className="hero-wrapper pbn hero animated animatedFadeInUp fadeInUp">
+          <h1 className="hero intro animated">Language Arts</h1>
+          <div className="hero info-block info-block-line" style={{ marginBottom: "4em" }}>
+            <Link to="/seventh" className='gradeLink'><h2 className="hero">7th Grade</h2></Link>
+          </div>
+        </div>
+      </section>
+      
       <section className="section raise-top">
         <div className="section-content">
-          <h1 className="section-title">Daily Lessons</h1>
-          <span className="days">Books</span>
-          <p className="margin-para">The books required for this course are: <i>The Little Prince </i> by Antoine de
+          <h1 className="section-title fadeIn">Daily Lessons</h1>
+          <span className="days fadeIn">Books</span>
+          <p className="margin-para fadeIn">The books required for this course are: <i>The Little Prince </i> by Antoine de
             Saint Exupéry, <i> Long Walk to Water </i> by Linda Sue Park, <i> Hatchet </i> by Gary
-            Paulsen, <i> Esperanza Rising </i> by Pam Muñoz and <i>The Outsiders </i> by S.E. Hinton.</p>
-          <p className="margin-para">Until you get a copy, the first chapter of each book is linked as a PDF. The novels
+            Paulsen, <i> Esperanza Rising </i> by Pam Muñoz, <i>The Outsiders </i> by S.E. Hinton, <i>Out of My
+              Mind</i> by Sharon Draper and <i>The Hobbit</i> by J.R.R. Tolkien.</p>
+          <p className="margin-para fadeIn">Until you get a copy, the first chapter of each book is linked as a PDF. The novels
             are available at
             your local library, local bookstore, or can be purchased online. If the books are out of copyright, they
             are provided below as PDFs. </p>
@@ -803,7 +817,12 @@ const LA7Component = ({ data }) => {
             </ol>
           </p>
           <textarea className="textArea"
-                    placeholder="Be sure to back up your work and send it to your teacher or parent. Depending on your device you can right click on your work and share via email or click on Print to save as a PDF."
+                    placeholder="Write your responses here. Your work will automatically be saved to your Local Storage. 
+                    If you clear your cookies, your answers will be erased! Be sure to back up your work by saving it in another 
+                    location. You can (1) 'Select All' (select your answers inside this textbox by touching/clicking on it) and 
+                    copy/paste it into Google Docs, a Word Doc or into an email 
+                    and send it to your parent or teacher. (2) On a PC, you can 'Select All', click 'Print' and then save as a PDF on
+                     your computer. Be sure to label each assignment with the Subject, Chapter Title, and Lesson Number. Also, number your responses."
                     onChange={onChangela7Listener1} value={la7Essay1}/>
 
           <span className="days">LESSON 2 </span>
@@ -2672,30 +2691,23 @@ const LA7Component = ({ data }) => {
             another country would not understand these phrases without someone explaining the meaning.</p>
 
           <p className="topBottom"><strong>Similes </strong>make comparisons between two unrelated elements by using
-            'like' or
-            'as' to highlight a
+            'like' or 'as' to highlight a
             common quality both things share. Examples: Her eyes shone like diamonds. He was as strong as a horse.
           </p>
 
           <p className="topBottom">A <strong>metaphor</strong> makes a comparison between two unrelated things by
-            stating one
-            thing is the other
-            thing. Example: Life is a rollercoaster.</p>
+            stating one thing is the other thing. Example: Life is a rollercoaster.</p>
 
           <p className="topBottom"><strong>Oxymorons </strong>combine two opposing elements into a single phrase to be
-            thought
-            provoking or funny.
-            Example: Deafening silence. A known secret.</p>
+            thought provoking or funny. Example: Deafening silence. A known secret.</p>
 
           <p className="topBottom"><strong>Personification</strong> is a metaphor where human actions, feelings or
-            traits are
-            given to a non-human.
-            Examples: Books were her constant companions. That car's a beauty. An angry sky.</p>
+            traits are given to a non-human. Examples: Books were her constant companions. That car's a beauty. An angry
+            sky.</p>
 
           <p className="topBottom"><strong>Alliteration </strong>is the repetition of the same letter sound across the
-            start
-            of several words in a
-            line of text. The word comes from the Latin "littera," meaning "letter of the alphabet". Example: The
+            start of several words in a line of text. The word comes from the Latin "littera," meaning "letter of the
+            alphabet". Example: The
             slithering snake slid sideways silently. </p>
 
           <p className="topBottom"><strong>Assonance </strong>is the repetition of vowel <i>sounds</i> within a group of
@@ -3409,9 +3421,9 @@ const LA7Component = ({ data }) => {
             <li> How do we know the narrator has hope of the future?</li>
             <li> List two phrases from the final stanzas that suggest the horrors of slavery.</li>
             <li> How did the poem impact you or make you feel?</li>
-            <p className="topBottom"> Based on the poem <a
+            <span className="topBottom"> Based on the poem <a
               href=" https://www.poetryfoundation.org/poems/46477/alone-56d2265f2667d"
-              rel="noreferrer" target="_blank"> <strong> Alone </strong> </a>by Edgar Allan Poe</p>
+              rel="noreferrer" target="_blank"> <strong> Alone </strong> </a>by Edgar Allan Poe</span>
             <li> What is the "mystery" that the speaker describes? What is the effect of the speaker's refusal to
               tell us more about it?
             </li>
@@ -3916,7 +3928,6 @@ const LA7Component = ({ data }) => {
               <li>What do los duraznos (peaches) symbolize in this chapter?</li>
             </ol>
           </p>
-
           <textarea className="textArea" onChange={onChangela7Listener103} value={la7Essay103}/>
 
           <span className="days">LESSON 104 </span>
@@ -4317,7 +4328,6 @@ const LA7Component = ({ data }) => {
             15. Who is the "spy" Dally speaks of?<br/>
             16. Interpret what Ponyboy means when he says, "things are happening too quick. Too fast."
             Do you ever get a similar feeling in your own life? Explain.<br/>
-
             <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using the
             word.<br/>
             <ol className="vocab">
@@ -4329,7 +4339,6 @@ const LA7Component = ({ data }) => {
               <li>wistfully</li>
             </ol>
           </p>
-
           <textarea className="textArea" onChange={onChangela7Listener116} value={la7Essay116}/>
 
           <span className="days">LESSON 117 </span>
@@ -4360,7 +4369,6 @@ const LA7Component = ({ data }) => {
             13. How do Soda and Darry react when they see Ponyboy?<br/>
             14. Cite evidence from the novel that shows Ponyboy was wrong all along about the way
             Darry feels about him. How does Pony come to this realization?<br/>
-
             <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using the
             word.<br/>
             <ol className="vocab">
@@ -4370,7 +4378,6 @@ const LA7Component = ({ data }) => {
               <li>racking</li>
             </ol>
           </p>
-
           <textarea className="textArea" onChange={onChangela7Listener117} value={la7Essay117}/>
 
           <span className="days">LESSON 118 </span>
@@ -4423,7 +4430,6 @@ const LA7Component = ({ data }) => {
               <li>exploit</li>
             </ol>
           </p>
-
           <textarea className="textArea" onChange={onChangela7Listener118} value={la7Essay118}/>
 
           <span className="days">LESSON 119 </span>
@@ -4457,7 +4463,6 @@ const LA7Component = ({ data }) => {
             is it a reason, for inappropriate behavior? Try to use examples in your answer.<br/>
             12. What was the author’s purpose for writing at the end of Chapter 8, "She had green
             eyes"?<br/>
-
             <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using the
             word.<br/>
             <ol className="vocab">
@@ -4500,7 +4505,6 @@ const LA7Component = ({ data }) => {
             14. What were Johnny’s last words to Ponyboy? What do you think he meant?<br/>
             15. Cite evidence from the novel that best supports the inference that Johnny’s death was a
             turning point for Dally.<br/>
-
             <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using the
             word.<br/>
             <ol className="vocab">
@@ -4512,7 +4516,6 @@ const LA7Component = ({ data }) => {
               <li>contract</li>
             </ol>
           </p>
-
           <textarea className="textArea" onChange={onChangela7Listener120} value={la7Essay120}/>
 
           <span className="days">LESSON 121 </span>
@@ -4537,7 +4540,6 @@ const LA7Component = ({ data }) => {
             understand it?<br/>
             10. Ponyboy is very concerned about whether or not he asked for Darry while he was in the
             hospital. What can the reader infer about what Ponyboy is feeling?<br/>
-
             <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using the
             word.<br/>
             <ol className="vocab">
@@ -4547,7 +4549,6 @@ const LA7Component = ({ data }) => {
               <li>clad</li>
             </ol>
           </p>
-
           <textarea className="textArea" onChange={onChangela7Listener121} value={la7Essay121}/>
 
           <span className="days">LESSON 122 </span>
@@ -4684,36 +4685,43 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener125} value={la7Essay125}/>
 
           <span className="days">LESSON 126 - Identity</span>
-          <p className="topBottom">Identity and fitting in are major themes in <i>The Outsiders</i> and in the next novel you will read, <i>Out of My Mind</i>. </p>
+          <p className="topBottom">Identity and fitting in are major themes in <i>The Outsiders</i> and in the next
+            novel you will read, <i>Out of My Mind</i>. </p>
           <p className="topBottom">For this lesson, complete the following:<br/>
-          <ul className="vocab">
-            <li>Write at least 10 things that are important parts of your identity. Example: <i>American, daughter,
-              runner, guitar player, good sense of humor, loyal friend, good listener, loyal friend, impatient,
-              persistent, etc.</i></li>
+            <ul className="vocab">
+              <li>Write at least 10 things that are important parts of your identity. Example: <i>American, daughter,
+                runner, guitar player, good sense of humor, loyal friend, good listener, loyal friend, impatient,
+                persistent, etc.</i></li>
 
-            <li>Think about how your personality traits and dreams have changed since you were a small child. Then write
-              a story (2-3 paragraphs) telling how your identity has developed over the past several years. Describe how
-              your experiences, interests and dreams have shaped the person you are now. Provide personal examples, such
-              as life-changing events or moments of revelation, that molded you into the person you are today. Discuss
-              hobbies, interests and academic subjects you're excited about and how you've grown academically, mentally
-              and socially over the past few years. Inform your reader about what shaped your identity, including your
-              experiences, passions and dreams.
-            </li>
+              <li>Think about how your personality traits and dreams have changed since you were a small child. Then
+                write
+                a story (2-3 paragraphs) telling how your identity has developed over the past several years. Describe
+                how
+                your experiences, interests and dreams have shaped the person you are now. Provide personal examples,
+                such
+                as life-changing events or moments of revelation, that molded you into the person you are today. Discuss
+                hobbies, interests and academic subjects you're excited about and how you've grown academically,
+                mentally
+                and socially over the past few years. Inform your reader about what shaped your identity, including your
+                experiences, passions and dreams.
+              </li>
 
-            <li>Describe when you feel like an outsider. What are the circumstance? Where are you and who are you
-              usually with? What are the things that make you feel you don't fit in? Which things about your identity
-              are at odds with the place or people you're with?
-            </li>
+              <li>Describe when you feel like an outsider. What are the circumstance? Where are you and who are you
+                usually with? What are the things that make you feel you don't fit in? Which things about your identity
+                are at odds with the place or people you're with?
+              </li>
 
-            <li>Describe when you feel you fit in the most. This can include being in a particular place with certain
-              people (examples: at school, church, home, hanging out with a close friend, playing videos games with
-              friends online). Which things about your identity do you feel are most appreciated?
-            </li>
-          </ul></p>
+              <li>Describe when you feel you fit in the most. This can include being in a particular place with certain
+                people (examples: at school, church, home, hanging out with a close friend, playing videos games with
+                friends online). Which things about your identity do you feel are most appreciated?
+              </li>
+            </ul>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener126} value={la7Essay126}/>
 
           <span className="days">LESSON 127 </span>
-          <p>The novel <strong>Out of My Mind, </strong> by Sharon Draper, is a story about an eleven-year-old girl named
+          <p>The novel <strong>Out of My Mind, </strong> by Sharon Draper, is a story about an eleven-year-old girl
+            named
             Melody. She can’t walk, talk or write because she has cerebral palsy. But she also has a photographic
             memory; she can remember every detail of everything she has ever experienced. She’s the smartest kid in her
             school, but no one knows it. But she's determined to let them know somehow.
@@ -4729,14 +4737,16 @@ const LA7Component = ({ data }) => {
             alt="Out of My Mind novel"/></a></p>
           <p className="topBottom">Read Chapters 1-3. Then answer the questions below using complete sentences.<br/>
             <ol className="vocab">
-              <li>Describe what you know about Melody so far.  Describe her physical appearance, age, personality, type of music she likes, etc.</li>
+              <li>Describe what you know about Melody so far. Describe her physical appearance, age, personality, type
+                of music she likes, etc.
+              </li>
               <li>She lists her strengths as her smile and dimples. Do you think she has any other strengths?</li>
               <li>How do you like her?</li>
               <li>How does she describe words?</li>
               <li>What do you think it would be like to not be able to speak a single word?</li>
               <li>Describe Melody’s "tornado explosions." Why do they happen?</li>
               <li>How does Melody feel about her wheelchair?</li>
-              <li>Why do you think others see her problems first? </li>
+              <li>Why do you think others see her problems first?</li>
               <li>Why is Melody so aware of all the smells and sounds around her?</li>
               <li>Do you think Melody have a right to be angry? Why or why not.</li>
               <li>Are her parents able to understand her?</li>
@@ -4746,386 +4756,1512 @@ const LA7Component = ({ data }) => {
 
           <span className="days">LESSON 128 </span>
           <p className="topBottom">Read Chapters 4 & 5. Then answer the questions below using complete sentences.<br/>
-          <ol className="vocab">
-            <li> How does Melody describe her classmates at her new school?</li>
-            <li>What does Melody think about school so far?</li>
-            <li>What is Melody’s disability?</li>
-            <li>Why do people assume Melody is stupid? </li>
-            <li>Why does she put on her "handicapped face"? </li>
-            <li>Do you think Melody’s parents think she is only a burden? Explain. </li>
-            <li>Why do you think children in Melody’s school ignore her? </li>
-            <li>How does Melody communicate?</li></ol></p>
+            <ol className="vocab">
+              <li> How does Melody describe her classmates at her new school?</li>
+              <li>What does Melody think about school so far?</li>
+              <li>What is Melody’s disability?</li>
+              <li>Why do people assume Melody is stupid?</li>
+              <li>Why does she put on her "handicapped face"?</li>
+              <li>Do you think Melody’s parents think she is only a burden? Explain.</li>
+              <li>Why do you think children in Melody’s school ignore her?</li>
+              <li>How does Melody communicate?</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener128} value={la7Essay128}/>
 
           <span className="days">LESSON 129 </span>
-        <p className="topBottom">Read Chapters 6 & 7. Then answer the questions below using complete sentences.<br/>
-        <ol className="vocab">
-          <li>What do you think about Mrs. Valencia? Do you think she’ll be good for Melody? Explain.</li>
-          <li> Melody says she would rather be able to talk than walk. Do you feel the same? Explain.</li>
-          <li>What do you think about Melody’s mother and father?  Does her mother see Melody differently than her father does?  Explain whether you think they are good parents. </li>
-          <li>Describe Melody’s dreams.</li>
-          <li>What do you think about the students in Melody’s class?  </li>
-          <li>Mrs. Billups seems to be confused about the class.  Why do you think this is? </li>
-          <li>How did Melody feel when her mom snapped Mrs. Billups’ cd in half?</li></ol></p>
+          <p className="topBottom">Read Chapters 6 & 7. Then answer the questions below using complete sentences.<br/>
+            <ol className="vocab">
+              <li>What do you think about Mrs. Valencia? Do you think she’ll be good for Melody? Explain.</li>
+              <li> Melody says she would rather be able to talk than walk. Do you feel the same? Explain.</li>
+              <li>What do you think about Melody’s mother and father? Does her mother see Melody differently than her
+                father does? Explain whether you think they are good parents.
+              </li>
+              <li>Describe Melody’s dreams.</li>
+              <li>What do you think about the students in Melody’s class?</li>
+              <li>Mrs. Billups seems to be confused about the class. Why do you think this is?</li>
+              <li>How did Melody feel when her mom snapped Mrs. Billups’ cd in half?</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener129} value={la7Essay129}/>
 
           <span className="days">LESSON 130 </span>
-      <p className="topBottom">Read Chapters 8 & 9. Then answer the questions below using complete sentences.<br/>
-      <ol className="vocab">
-        <li>Melody thinks Ollie (her goldfish) has is worse than her.  How does she compare her life to Ollie’s?</li>
-        <li>What kind of pet did Melody get and why did she love it so much?</li>
-        <li>What does Melody feel about Penny? </li>
-        <li>What would Melody’s wish be if she were blown to Oz and met the Wizard? What would your wish be? How are they different?</li>
-        <li>Why was Melody’s mother scared when she was pregnant? </li>
-        <li>Why were mornings tough for Melody?
-        </li></ol></p>
+          <p className="topBottom">Read Chapters 8 & 9. Then answer the questions below using complete sentences.<br/>
+            <ol className="vocab">
+              <li>Melody thinks Ollie (her goldfish) has is worse than her. How does she compare her life to Ollie’s?
+              </li>
+              <li>What kind of pet did Melody get and why did she love it so much?</li>
+              <li>What does Melody feel about Penny?</li>
+              <li>What would Melody’s wish be if she were blown to Oz and met the Wizard? What would your wish be? How
+                are they different?
+              </li>
+              <li>Why was Melody’s mother scared when she was pregnant?</li>
+              <li>Why were mornings tough for Melody?</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener130} value={la7Essay130}/>
 
           <span className="days">LESSON 131 </span>
           <p className="topBottom">Read Chapters 10 & 11. Then answer the questions below using complete sentences.<br/>
-  <ol className="vocab">
-    <li>How do you think Melody’s parents know what she is saying or feeling when she can’t talk? Is her mom a good mom?</li>
-<li>Why? Do you think Melody’s parents get frustrated when she is trying to communicate with them? Explain.</li>
-<li>How are Melody’s parents able to figure out what Melody is feeling or wat she needs?</li>
-<li>Are you able to relate to the experience of not being able to express to others what you’re feeling or why you’re frustrated?  Explain.</li>
-<li>What does Melody envy about Garfield the cat?</li>
-<li>Why did she get angry at her father?</li>
-<li>What do you think about Molly and Claire? If you were their teacher, what would you say to them? </li>
-</ol></p>
+            <ol className="vocab">
+              <li>How do you think Melody’s parents know what she is saying or feeling when she can’t talk? Is her mom a
+                good mom?
+              </li>
+              <li>Why? Do you think Melody’s parents get frustrated when she is trying to communicate with them?
+                Explain.
+              </li>
+              <li>How are Melody’s parents able to figure out what Melody is feeling or wat she needs?</li>
+              <li>Are you able to relate to the experience of not being able to express to others what you’re feeling or
+                why you’re frustrated? Explain.
+              </li>
+              <li>What does Melody envy about Garfield the cat?</li>
+              <li>Why did she get angry at her father?</li>
+              <li>What do you think about Molly and Claire? If you were their teacher, what would you say to them?</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener131} value={la7Essay131}/>
 
           <span className="days">LESSON 132 </span>
           <p className="topBottom">Read Chapters 12-14. Then answer the questions below using complete sentences.<br/>
-  <ol className="vocab">
-    <li>Melody starts to attend regular classes like math and history.  Do you think this will benefit everyone, just certain people, only Melody or no one? Explain.</li>
-<li>What happened that pleased Melody’s mother?</li>
-<li>Why did Rose act the way she did at the aquarium? What did you think about her behavior?</li>
-<li>Why was Melody allowed to go to the aquarium?</li>
-<li>Rose has something that Melody wants.  What is it?</li>
-<li>How do you think Molly and Claire feel about Melody? What about Rose? Why do you believe this?</li>
-<li>Do you think a computer could change Melody’s life? How so?</li>
-<li>Who was Stephen Hawking and why could his life experience be significant for Melody?</li>
-</ol></p>
+            <ol className="vocab">
+              <li>Melody starts to attend regular classes like math and history. Do you think this will benefit
+                everyone, just certain people, only Melody or no one? Explain.
+              </li>
+              <li>What happened that pleased Melody’s mother?</li>
+              <li>Why did Rose act the way she did at the aquarium? What did you think about her behavior?</li>
+              <li>Why was Melody allowed to go to the aquarium?</li>
+              <li>Rose has something that Melody wants. What is it?</li>
+              <li>How do you think Molly and Claire feel about Melody? What about Rose? Why do you believe this?</li>
+              <li>Do you think a computer could change Melody’s life? How so?</li>
+              <li>Who was Stephen Hawking and why could his life experience be significant for Melody?</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener132} value={la7Essay132}/>
 
           <span className="days">LESSON 133 </span>
           <p className="topBottom">Read Chapters 15 & 16. Then answer the questions below using complete sentences.<br/>
-  <ol className="vocab">
-    <li>Describe how you think Melody’s life has changed.</li>
-<li>Describe Melody’s frustration and whether you think her frustrations are likely to lessen or increase. Explain.</li>
-<li>What name does Melody give her computer? Why do you think she gives it this name?</li>
-<li>What does Melody realize when the computer communicates in other languages?</li>
-<li>Does it make a difference that Melody’s father has a camcorder? Explain.</li>
-<li>Describe how Melody and her parents are feeling at this point in the story.</li>
-<li>How do you think the computer may change her life?</li>
-<li>What are your thoughts about Claire’s comment?</li>
-<li>Could Elvira cause any problems for Melody? How will Elvira change Melody’s life?</li>
-<li>Has Melody managed to feel a part of a group yet?  If so, explain when.</li>
-</ol></p>
+            <ol className="vocab">
+              <li>Describe how you think Melody’s life has changed.</li>
+              <li>Describe Melody’s frustration and whether you think her frustrations are likely to lessen or increase.
+                Explain.
+              </li>
+              <li>What name does Melody give her computer? Why do you think she gives it this name?</li>
+              <li>What does Melody realize when the computer communicates in other languages?</li>
+              <li>Does it make a difference that Melody’s father has a camcorder? Explain.</li>
+              <li>Describe how Melody and her parents are feeling at this point in the story.</li>
+              <li>How do you think the computer may change her life?</li>
+              <li>What are your thoughts about Claire’s comment?</li>
+              <li>Could Elvira cause any problems for Melody? How will Elvira change Melody’s life?</li>
+              <li>Has Melody managed to feel a part of a group yet? If so, explain when.</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener133} value={la7Essay133}/>
 
           <span className="days">LESSON 134 </span>
           <p className="topBottom">Read Chapters 17 & 18. Then answer the questions below using complete sentences.<br/>
-  <ol className="vocab">
-    <li>Things feel better for Melody at school now. Why is this?</li>
-<li>What did Melody win and how did she win it? How did you feel when she won the prize?</li>
-<li>Do you believe Melody can fit in at her school or elsewhere?</li>
-<li>What did Mr. Dimming say? What did you think about this?</li>
-<li>Melody skips her inclusion classes and does what instead?</li>
-<li> Do you think Catherine and Mrs. V are the right people to help Melody? Explain.</li>
-<li>In Chapter 18, Melody gets angry. Explain why and discuss whether her anger was justified.</li>
-<li>Melody uses imagery to describe how words and numbers function in her head. While words float easily, numbers  float to the bottom like rocks. What do you think this means?  </li>
-</ol></p>
+            <ol className="vocab">
+              <li>Things feel better for Melody at school now. Why is this?</li>
+              <li>What did Melody win and how did she win it? How did you feel when she won the prize?</li>
+              <li>Do you believe Melody can fit in at her school or elsewhere?</li>
+              <li>What did Mr. Dimming say? What did you think about this?</li>
+              <li>Melody skips her inclusion classes and does what instead?</li>
+              <li> Do you think Catherine and Mrs. V are the right people to help Melody? Explain.</li>
+              <li>In Chapter 18, Melody gets angry. Explain why and discuss whether her anger was justified.</li>
+              <li>Melody uses imagery to describe how words and numbers function in her head. While words float easily,
+                numbers float to the bottom like rocks. What do you think this means?
+              </li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener134} value={la7Essay134}/>
 
           <span className="days">LESSON 135 </span>
           <p className="topBottom">Read Chapters 19-21. Then answer the questions below using complete sentences.<br/>
-  <ol className="vocab">
-    <li> Why are people at Melody’s school surprised that she made the Whiz Kids Team?</li>
-<li>What question do people ask Melody the most?</li>
-<li> How would you feel if you were Melody’s parents and realized Melody’s abilities were not appreciated at her school?</li>
-<li>Melody would be afraid if she could fly. Explain why this is.</li>
-<li>What do you think about Melody’s ability to now be able to stand up for herself?  </li>
-<li>Is Rose still her friend at this point in the story?  Why didn’t Melody tell her what she plans to do after school?</li>
-<li>Why do you think Claire has a problem with Melody using a computer? </li>
-<li>Mr. Dimming warns that Melody will be harmed if she isn’t successful at the competition. Do you think he is right in what he is trying to argue? Explain.</li>
-<li>How did Mr. Dimming feel about Melody after he graded the tryout test?</li>
-</ol></p>
+            <ol className="vocab">
+              <li> Why are people at Melody’s school surprised that she made the Whiz Kids Team?</li>
+              <li>What question do people ask Melody the most?</li>
+              <li> How would you feel if you were Melody’s parents and realized Melody’s abilities were not appreciated
+                at her school?
+              </li>
+              <li>Melody would be afraid if she could fly. Explain why this is.</li>
+              <li>What do you think about Melody’s ability to now be able to stand up for herself?</li>
+              <li>Is Rose still her friend at this point in the story? Why didn’t Melody tell her what she plans to do
+                after school?
+              </li>
+              <li>Why do you think Claire has a problem with Melody using a computer?</li>
+              <li>Mr. Dimming warns that Melody will be harmed if she isn’t successful at the competition. Do you think
+                he is right in what he is trying to argue? Explain.
+              </li>
+              <li>How did Mr. Dimming feel about Melody after he graded the tryout test?</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener135} value={la7Essay135}/>
 
           <span className="days">LESSON 136 </span>
           <p className="topBottom">Read Chapters 22-24. Then answer the questions below using complete sentences.<br/>
-  <ol className="vocab">
-    <li> How does Melody feel about the quiz team? Does she feel included or feel like an outsider? Explain how you know this.</li>
-<li>If you were a part of the team, would you say or do anything differently from the other kids on the team? Explain.</li>
-<li>Why does it matter to Melody that she behave like the other students when they study?</li>
-<li> Do you think she’s ready for the competition?</li>
-<li>What do you think about Claire?  </li>
-<li>How did Melody like the TV studio?</li>
-<li>Describe how Paul, the station manager at the television station, interacts with Melody.  Why is this significant? </li>
-<li>What do you think of Mr. Dimming at this point in the novel?  How important is it to him that his team win the competition?</li>
-<li>If you had been Melody when the announcer singled her out, how would you have felt?</li>
-<li>What do you think of Connor? Do you like him? Explain why or why not.</li>
-</ol></p>
+            <ol className="vocab">
+              <li> How does Melody feel about the quiz team? Does she feel included or feel like an outsider? Explain
+                how you know this.
+              </li>
+              <li>If you were a part of the team, would you say or do anything differently from the other kids on the
+                team? Explain.
+              </li>
+              <li>Why does it matter to Melody that she behave like the other students when they study?</li>
+              <li> Do you think she’s ready for the competition?</li>
+              <li>What do you think about Claire?</li>
+              <li>How did Melody like the TV studio?</li>
+              <li>Describe how Paul, the station manager at the television station, interacts with Melody. Why is this
+                significant?
+              </li>
+              <li>What do you think of Mr. Dimming at this point in the novel? How important is it to him that his team
+                win the competition?
+              </li>
+              <li>If you had been Melody when the announcer singled her out, how would you have felt?</li>
+              <li>What do you think of Connor? Do you like him? Explain why or why not.</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener136} value={la7Essay136}/>
 
           <span className="days">LESSON 137 </span>
           <p className="topBottom">Read Chapters 25 & 26. Then answer the questions below using complete sentences.<br/>
-  <ol className="vocab">
-    <li> Melody wants to introduce herself at the competition. Why did it matter that she do this?</li>
-<li>Was it a surprise that Melody got the last question correct at the competition?</li>
-<li>What was Melody’s reaction to her team winning?</li>
-<li>After the competition, Claire says she is good friends with Melody. What did you think about her saying this?</li>
-<li>How do you think winning the competition may change how things are at her school?</li>
-<li>Describe Melody’s experience regarding the restaurant. How did she feel about getting invited? When she arrived, did they save a spot for her? Did she have a nice time?</li>
-<li>How did the students feel about Melody being at the restaurant? Did they have a fun time or were they uncomfortable?  </li>
-</ol></p>
+            <ol className="vocab">
+              <li> Melody wants to introduce herself at the competition. Why did it matter that she do this?</li>
+              <li>Was it a surprise that Melody got the last question correct at the competition?</li>
+              <li>What was Melody’s reaction to her team winning?</li>
+              <li>After the competition, Claire says she is good friends with Melody. What did you think about her
+                saying this?
+              </li>
+              <li>How do you think winning the competition may change how things are at her school?</li>
+              <li>Describe Melody’s experience regarding the restaurant. How did she feel about getting invited? When
+                she arrived, did they save a spot for her? Did she have a nice time?
+              </li>
+              <li>How did the students feel about Melody being at the restaurant? Did they have a fun time or were they
+                uncomfortable?
+              </li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener137} value={la7Essay137}/>
 
           <span className="days">LESSON 138 </span>
           <p className="topBottom">Read Chapters 27 & 28. Then answer the questions below using complete sentences.<br/>
-  <ol className="vocab">
-    <li> How did the students react to the story about Melody in the newspaper? Why do you believe they reacted this way?</li>
-<li>Why do you think the article focused on her?</li>
-<li>How did Melody react to hearing the news from her mother?</li>
-<li>Why is Melody worried about the trip to Washington, D.C.? </li>
-<li>Melody believes Claire doesn’t know much about things not being fair. Is this a reasonable statement?</li>
-<li>When Melody shows up at the airport, she learns she was left behind. Do you believe this was intentional? Why or why not?</li>
-<li>"The morning started out like crystal, but the day has turned to broken glass." What is Melody talking about when she says this?</li>
-<li>How do you think the team will do at the competition without Melody?</li></ol></p>
-  <textarea className="textArea" onChange={onChangela7Listener138} value={la7Essay138}/>
+            <ol className="vocab">
+              <li> How did the students react to the story about Melody in the newspaper? Why do you believe they
+                reacted this way?
+              </li>
+              <li>Why do you think the article focused on her?</li>
+              <li>How did Melody react to hearing the news from her mother?</li>
+              <li>Why is Melody worried about the trip to Washington, D.C.?</li>
+              <li>Melody believes Claire doesn’t know much about things not being fair. Is this a reasonable
+                statement?
+              </li>
+              <li>When Melody shows up at the airport, she learns she was left behind. Do you believe this was
+                intentional? Why or why not?
+              </li>
+              <li>"The morning started out like crystal, but the day has turned to broken glass." What is Melody talking
+                about when she says this?
+              </li>
+              <li>How do you think the team will do at the competition without Melody?</li>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela7Listener138} value={la7Essay138}/>
 
           <span className="days">LESSON 139 </span>
           <p className="topBottom">Read Chapters 29-31. Then answer the questions below using complete sentences.<br/>
-  <ol className="vocab">
-    <li> Why do you think the Whiz Kids and Mr. Dimming decided not to include Melody in the trip to Washington, D.C.?</li>
-<li>If you were Melody, would you be able to forgive Mr. Dimming and the team? Explain why.</li>
-<li>Do you think the accident with Penny is Melody’s fault? Why or why not?</li>
-<li> Why is Melody so fearful about Penny? </li>
-<li>Did Melody believe that what happened to Penny was her fault? How did she feel about herself? How did Mrs. V respond to Melody about what happened?</li>
-<li>She has been thinking about Jill, her classmate in H5. Why?</li>
-
+            <ol className="vocab">
+              <li> Why do you think the Whiz Kids and Mr. Dimming decided not to include Melody in the trip to
+                Washington, D.C.?
+              </li>
+              <li>If you were Melody, would you be able to forgive Mr. Dimming and the team? Explain why.</li>
+              <li>Do you think the accident with Penny is Melody’s fault? Why or why not?</li>
+              <li> Why is Melody so fearful about Penny?</li>
+              <li>Did Melody believe that what happened to Penny was her fault? How did she feel about herself? How did
+                Mrs. V respond to Melody about what happened?
+              </li>
+              <li>She has been thinking about Jill, her classmate in H5. Why?</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener139} value={la7Essay139}/>
 
           <span className="days">LESSON 140 </span>
           <p className="topBottom">Read Chapters 32 & 33. Then answer the questions below using complete sentences.<br/>
-            <ol className="vocab"> <li> How do you think the quiz team students and Mr. Dimming feel when they see Melody after the competition?</li>
-            <li>What happens when the team tries to give Melody the trophy?</li>
-            <li>What do you think about how Melody confronted the situation? </li>
-            <li>Do you think Melody is much like other 5th graders or is she mostly different from them? Explain your answer.</li>
-            <li>What was your opinion about Melody’s autobiography?</li>
-            <li>Think back to what Melody was like at the beginning of the novel.  How has she changed? Use examples from the novel.</li>
-          </ol></p>
-
+            <ol className="vocab">
+              <li> How do you think the quiz team students and Mr. Dimming feel when they see Melody after the
+                competition?
+              </li>
+              <li>What happens when the team tries to give Melody the trophy?</li>
+              <li>What do you think about how Melody confronted the situation?</li>
+              <li>Do you think Melody is much like other 5th graders or is she mostly different from them? Explain your
+                answer.
+              </li>
+              <li>What was your opinion about Melody’s autobiography?</li>
+              <li>Think back to what Melody was like at the beginning of the novel. How has she changed? Use examples
+                from the novel.
+              </li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener140} value={la7Essay140}/>
 
           <span className="days">LESSON 141 </span>
           <h4>Research Paper</h4>
-    <p className="topBottom">Research Cerebral Palsy.  Then write an essay (minimum 5 paragraphs) that describes cerebral palsy and tells what it would be like to be Melody for a day. </p>
-    <p className="topBottom">Explain the disability and how it affects someone socially, academically, emotionally and and personally.</p>
+          <p className="topBottom">Research Cerebral Palsy. Then write an essay (minimum 5 paragraphs) that describes
+            cerebral palsy and tells what it would be like to be Melody for a day. </p>
+          <p className="topBottom">Explain the disability and how it affects someone socially, academically, emotionally
+            and and personally.</p>
+          <p className="topBottom"><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
+                                      rel="noreferrer"
+                                      target="_blank">Click here for a 5 Paragraph Essay outline </a>if you need help
+            getting started. </p>
+          <textarea className="textArea" placeholder="As always, be sure to back up your work!"
+                    onChange={onChangela7Listener141} value={la7Essay141}/>
 
-
-          <textarea className="textArea" placeholder="As always, be sure to back up your work!" onChange={onChangela7Listener141} value={la7Essay141}/>
-
-          <span className="days">LESSON 142 </span>
-
-
+          <span className="days">LESSON 142</span>
+          <p className="topBottom"><a href={require("../resources/books/to-build-a-fire.pdf")} rel="noreferrer"
+                                      target="_blank">
+            <h4 className="topBottom">Read the short story <i>To Build a Fire</i> by Jack London.</h4>
+            <img src={require("../../public/images/bookCovers/tobuildafire.jpg")} alt="To Build a Fire"/></a></p>
           <textarea className="textArea" onChange={onChangela7Listener142} value={la7Essay142}/>
 
           <span className="days">LESSON 143 </span>
-
-
+          <p className="topBottom">Watch the short film <i>To Build a Fire</i>. Then answer the questions below using
+            complete sentences based on the short story.</p>
+          <Video videoUrl="https://www.youtube.com/embed/LzRrPQJlUwM"/>
+          <p>
+            <ol className="vocab">
+              <li>Describe the setting of the story.</li>
+              <li>Describe the protagonist. What are his strengths, weaknesses and character traits?</li>
+              <li>Describe the dog and his traits. Are there ways in which the dog seems to have more sense than the
+                man?
+              </li>
+              <li>Before the man sets off down the trail, when was the trail last used? Why may this be important?</li>
+              <li>What precaution has the man failed to take?</li>
+              <li>Describe when the man decides to accept death with dignity? What do you think this says about his
+                character?
+              </li>
+              <li>One of the themes of ‘To Build A Fire’ is man’s struggle against the forces of nature. Describe the
+                challenges the man faces and the forces of nature he confronts. Use examples from the story.
+              </li>
+              <li>What do you think is the message that the writer wants to convey in ‘To Build a Fire’?</li>
+              <li>Discuss the mistakes the man makes that ultimately leads to him losing his struggle against the forces
+                of nature.
+              </li>
+              <li>Do you think overconfidence, pride or rashness was a part of his downfall?</li>
+              <li>How is the dog’s reaction to the cold different than the man’s? Why is it different?</li>
+              <li>Describe happens to the dog at the end? What does he do?</li>
+              <li>If you had to choose a companion for a trip to the Arctic, would you choose to have the man or the dog
+                accompany you?
+              </li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener143} value={la7Essay143}/>
 
           <span className="days">LESSON 144 </span>
-
-
+          <p className="topBottom">Begin reading the novel <a href={require("../resources/books/TheHobbit.pdf")}
+                                                              rel="noreferrer"
+                                                              target="_blank">The Hobbit </a>by J.R.R. Tolkien.
+            The Hobbit is a tale of high adventure, undertaken by a company of
+            dwarves, in search of dragon-guarded gold. A reluctant partner in this
+            perilous quest is Bilbo Baggins, a comfort-loving, unambitious hobbit, who
+            surprises even himself by his resourcefulness and his skill as a burglar.</p>
+          <p className="topBottom">The novel is available at your local library, local bookstore and online for
+            purchase. Until your copy arrives, <a href={require("../resources/books/TheHobbit.pdf")} rel="noreferrer"
+                                                  target="_blank"> Chapter 1 is provided here. </a></p>
+          <a href={require("../resources/books/TheHobbit.pdf")} rel="noreferrer" target="_blank">
+            <img src={require("../../public/images/bookCovers/hobbit.jpg")} alt="The Hobbit"/><br/>
+            Read Chapter 1- "An Unexpected Party". </a>Then answer the questions below using
+          complete sentences.
+          <p className="topBottom">
+            <ol className="vocab">
+              <li>What are hobbits like?</li>
+              <li>Describe Bilbo Baggins, Gandalf and Thorin.</li>
+              <li>Why aren’t the dwarves in possession of their treasure? How does this make them feel?</li>
+              <li>How does the dwarves’ music affect Bilbo?</li>
+              <li>Gandalf says Bilbo is "as fierce as a dragon in a pinch." Why does he say this? Do you think this
+                is true?
+              </li>
+              <li>What story did Thorin tell Bilbo?</li>
+              <li>Why does Gandalf choose Bilbo? How can Gandalf’s word make Bilbo a burglar? How can Gandalf know
+                things about Bilbo that Bilbo doesn’t even know?
+              </li>
+              <li>Does Thorin have faith in Bilbo? How can you tell?</li>
+              <li>What is Smaug?</li>
+              <li>What in this Chapter is imaginary or impossible in this world? What is realistic or possible?</li>
+              <li>What story did Thorin tell Bilbo?</li>
+              <li>How did Gandalf get the map and key?</li>
+              <li>Summarize Read Chapter 1, describing events in the order that they happened.</li>
+            </ol>
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using
+            the word. Below is an example.<br/>
+            <ol className="vocab">
+              <li>scuttled</li>
+              <li>throng</li>
+              <li>audacious</li>
+              <li>renumeration</li>
+              <li>necromancer</li>
+              <li>haughty</li>
+              <li>depredation</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener144} value={la7Essay144}/>
 
           <span className="days">LESSON 145 </span>
-
-
+          <p className="topBottom">Read Chapter 2- "Roast Mutton". Then answer the questions below using complete
+            sentences.<br/>
+            <ol className="vocab">
+              <li>Sometimes in novels a change of clothing is symbolic of a new role. What do you think Bilbo’s
+                change of clothes might mean in the story?
+              </li>
+              <li>What had Bilbo forgotten to bring with him?</li>
+              <li>How does life on the trail differ from the life Bilbo is accustomed to? How does he cope?</li>
+              <li>Why do you think it is significant that people in the area in which they camp haven’t heard of the
+                king?
+              </li>
+              <li>What did William catch Bilbo doing?</li>
+              <li>What saves the dwarves from the trolls?</li>
+              <li>How do the others react to Bilbo’s mention of the key?</li>
+              <li>Compare and contrast the speech of the dwarves with the speech of the trolls.</li>
+              <li>What does Bilbo argue about with himself when he sees the trolls?</li>
+              <li>What do you think of the dwarves’ ability to make strategic plans? CITE EVIDENCE (page
+                #/paragraph)!
+              </li>
+              <li>In this Chapter, what important help does Bilbo provide toward attaining the dwarves’ goal?</li>
+            </ol>
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using
+            the word. Below is an example.<br/>
+            <ol className="vocab">
+              <li>fluster</li>
+              <li>defrayed</li>
+              <li>repose</li>
+              <li>purloined</li>
+              <li>incantations</li>
+              <li>scabbard</li>
+              <li>waylaid</li>
+              <li>trifle</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener145} value={la7Essay145}/>
 
           <span className="days">LESSON 146 </span>
-
-
+          <p className="topBottom">Read Chapter 3- "A Short Rest". Then answer the questions below using complete
+            sentences.<br/>
+            <ol className="vocab">
+              <li>1. What kind of creatures inhabited the valley of Rivendell?</li>
+              <li>Who is Elrond? Describe what he is like.</li>
+              <li>What important information did Elrond give the travelers?</li>
+              <li>An elf gives the group a choice of singing or eating. How do their reactions fit their characters?
+                What would you have done? Why?
+              </li>
+              <li>What coincidence helps the dwarves during their stay in Rivendell?</li>
+              <li>What does Elrond think of the dwarves? What would you say to him about this?</li>
+              <li>How does the stop in Rivendell help the dwarves move toward attaining their goal?</li>
+            </ol>
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using
+            the word. Below is an example.<br/>
+            <ol className="vocab">
+              <li>reeking</li>
+              <li>bannocks</li>
+              <li>vexed</li>
+              <li>cunning</li>
+              <li>forded</li>
+              <li>parapet</li>
+              <li>venerable</li>
+              <li>palpitating</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener146} value={la7Essay146}/>
 
           <span className="days">LESSON 147 </span>
-
-
+          <p className="topBottom">Read Chapter 4 – "Over Hill and Under Hill". Then answer the questions below
+            using complete sentences.<br/>
+            <ol className="vocab">
+              <li>What mistake do the dwarves make about Durin’s Day? What does this tell you about them?</li>
+              <li>What hints does the narrator give that the cave will not be the safe shelter for which they
+                hope?
+              </li>
+              <li>Why did the travelers go into the cave?</li>
+              <li>How does Bilbo help the group this time?</li>
+              <li>What was waiting for them in the cave?</li>
+              <li>How does Thorin deal with the Great Goblin? Is he effective?</li>
+              <li>How were the dwarves able to get away from the Goblins when they run faster?</li>
+              <li>What happened to Dori and Bilbo?</li>
+            </ol>
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using
+            the word. <br/>
+            <ol className="vocab">
+              <li>astray</li>
+              <li>guffaw</li>
+              <li>yammer</li>
+              <li>ingenious</li>
+              <li>hordes shirk</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener147} value={la7Essay147}/>
 
           <span className="days">LESSON 148 </span>
-
-
+          <p className="topBottom">Read Chapter 5 – "Riddles in the Dark". Then answer the questions below using
+            complete sentences.<br/>
+            <ol className="vocab">
+              <li>How did Gollum get his name? What does he call himself and why?</li>
+              <li>Describe the surroundings where Bilbo found himself.</li>
+              <li>. How did Bilbo win the riddle game with Gollum? Was it a fair win?</li>
+              <li>What special properties does Bilbo discover in the dagger and ring? How does he find out?</li>
+              <li>Gollum concludes that Bilbo’s first statement to him was a lie. Why?</li>
+              <li>How does Bilbo treat Gollum? How does Gollum treat Bilbo? Do they like or trust each other?</li>
+              <li>What aspect of Gollum’s character was the most striking/strange to you? Why?</li>
+              <li>How did Bilbo discover the power of the ring?</li>
+              <li>Do you like Gollum as a character? Why/Why not?</li>
+            </ol>
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using
+            the word. Below is an example.<br/>
+            <ol className="vocab">
+              <li>groped</li>
+              <li>subterranean</li>
+              <li>antiquity</li>
+              <li>smote</li>
+              <li>ventured</li>
+              <li>scrumptious</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener148} value={la7Essay148}/>
 
           <span className="days">LESSON 149 </span>
-
-
+          <p className="topBottom">Read Chapter 6 – "Out of the Frying-Pan and into the Fire". Then answer the
+            questions below using complete sentences.<br/>
+            <ol className="vocab">
+              <li>How has Bilbo changed since Chapter 1?</li>
+              <li>After his adventure with Gollum, Bilbo rejoins the dwarves. Do the dwarves see him differently
+                now? Explain why or why not.
+              </li>
+              <li>What detail about his adventures with Gollum did Bilbo leave out when he told the dwarves the
+                story?
+              </li>
+              <li>Why did the dwarves and Bilbo climb up into the trees?</li>
+              <li>Describe what wargs are.</li>
+              <li>How were the travelers saved from the wargs, goblins, and fire?</li>
+            </ol>
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using
+            the word. <br/>
+            <ol className="vocab">
+              <li>abominable</li>
+              <li>tumult</li>
+              <li>glade</li>
+              <li>tumult</li>
+              <li>precipice</li>
+              <li>benighted</li>
+              <li>trudged</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener149} value={la7Essay149}/>
 
           <span className="days">LESSON 150 </span>
-
-
+          <p className="topBottom">Read Chapter 7 – "Queer Lodgings". Then answer the questions below using complete
+            sentences.<br/>
+            <ol className="vocab">
+              <li>Explain Gandalf’s trick. Why does he choose this particular way of bringing the dwarves and Bilbo
+                to Beorn’s house?
+              </li>
+              <li>What did Beorn warn the group about in Mirkwood.</li>
+              <li>How does Beorn’s attitude towards the group change over time?</li>
+              <li>Compare and contrast Beorn and Elrond.</li>
+              <li>How does Beorn help the group?</li>
+              <li>What did Gandalf say to the dwarves and Bilbo before he left them at Mirkwood?</li>
+              <li>What trust does Gandalf lay on Bilbo? Do you think Bilbo can fulfill it? Why or why not?</li>
+            </ol>
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using
+            the word. <br/>
+            <ol className="vocab">
+              <li>pinnacles</li>
+              <li>plight</li>
+              <li>thatched</li>
+              <li>perils</li>
+              <li>gnarled</li>
+              <li>veranda</li>
+              <li>glowered</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener150} value={la7Essay150}/>
 
           <span className="days">LESSON 151 </span>
-
-
+          <p className="topBottom">Read Chapter 8 – "Flies and Spiders". Then answer the questions below using
+            complete sentences.<br/>
+            <ol className="vocab">
+              <li>Describe Mirkwood. What is it like?</li>
+              <li>What dangers does the group encounter in Mirkwood?</li>
+              <li>What happened to Bombur at the black river crossing?</li>
+              <li>What strategies does Bilbo use to outwit the spiders?</li>
+              <li>What change happens in Bilbo when he kills the first spider?</li>
+              <li>What secret does Bilbo share with the dwarves? Why?</li>
+            </ol>
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using
+            the word. <br/>
+            <ol className="vocab">
+              <li>lichen</li>
+              <li>bulbous</li>
+              <li>lamented</li>
+              <li>stealthily</li>
+              <li>blunder</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener151} value={la7Essay151}/>
 
           <span className="days">LESSON 152 </span>
-
-
+          <p className="topBottom">Read Chapter 9 – "Barrels Out of Bond". Then answer the questions below using
+            complete sentences.<br/>
+            <ol className="vocab">
+              <li>What leads the Elvenking to imprison the dwarves? How might they have avoided imprisonment? Do you
+                feel their behavior was foolish? Explain.
+              </li>
+              <li>How did Bilbo keep from getting captured by the wood elves?</li>
+              <li>Were the dwarves glad or disappointed to be captured by the wood elves? Explain.</li>
+              <li>Describe Bilbo’s initial reaction to the group’s imprisonment. How does his reaction change?</li>
+              <li>How do luck and planning combine to make the escape possible?</li>
+              <li>This is the second time Bilbo has freed the dwarves. How were the two rescues different?</li>
+              <li>Compare the elves’ song with the goblin’s song. Describe both and how they were different.
+                Consider the purpose, audience, and the sound of the poetry.
+              </li>
+            </ol>
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using
+            the word. <br/>
+            <ol className="vocab">
+              <li>haste</li>
+              <li>surly</li>
+              <li>nimble</li>
+              <li>plight</li>
+              <li>portcullis</li>
+              <li>flagons</li>
+              <li>jostling</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener152} value={la7Essay152}/>
 
           <span className="days">LESSON 153 </span>
-
-
+          <p className="topBottom">Read Chapter 10 – "A Warm Welcome". Then answer the questions below using
+            complete sentences.<br/>
+            <ol className="vocab">
+              <li>How does luck play a role in the plot?</li>
+              <li>Describe the release of the dwarves from the barrels.</li>
+              <li>Explain the guards’ reaction to the group.</li>
+              <li>Characterize the Master.</li>
+              <li>Why did Thorin demand to be taken to the Master of the Men of the Lake?</li>
+              <li>Explain the townspeople’s reaction to the dwarves and Bilbo.</li>
+              <li>In what way is the Elvenking wrong about the dwarves’ plans?</li>
+              <li>What do you think is the meaning of the Chapter title, "A Warm Welcome?". Then answer the
+                questions below using complete sentences.
+              </li>
+            </ol>
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using
+            the word. <br/>
+            <ol className="vocab">
+              <li>alluding</li>
+              <li>omninous</li>
+              <li>moored</li>
+              <li>vagabond</li>
+              <li>solemnities</li>
+              <li>enmity</li>
+              <li>circuitous</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener153} value={la7Essay153}/>
 
           <span className="days">LESSON 154 </span>
-
-
+          <p className="topBottom">Read Chapter 11 – "On the Doorstep". Then answer the questions below using
+            complete sentences.<br/>
+            <ol className="vocab">
+              <li>What is the setting in this Chapter?</li>
+              <li>Why did the men of the town leave the travelers at the end of the third day?</li>
+              <li>How do some of the dwarves react to the closed door?</li>
+              <li>Give some examples of advice the dwarves have not taken so far in the book.</li>
+              <li>Find an example of foreshadowing in this Chapter. What do you make of it?</li>
+              <li>Describe the relationship of the dwarves and the hobbit in this Chapter.</li>
+              <li>What do you make of the thrush? What is so special about it?</li>
+              <li>How did the dwarves get the secret door open?</li>
+              <li>When you read the description of what happens when the door opens, how did it affect you?</li>
+            </ol>
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using
+            the word. <br/>
+            <ol className="vocab">
+              <li>laden</li>
+              <li>waning</li>
+              <li>cavernous</li>
+              <li>marauding</li>
+              <li>toiled</li>
+              <li>mishap</li>
+              <li>trill</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener154} value={la7Essay154}/>
 
           <span className="days">LESSON 155 </span>
-
-
+          <p className="topBottom">Read Chapter 12 – "Inside Information". Then answer the questions below using
+            complete sentences.<br/>
+            <ol className="vocab">
+              <li>What did Bilbo see at the end of the tunnel?</li>
+              <li>Why did Bilbo to steal the cup?</li>
+              <li>What was Smaug’s weakness that Bilbo discovered?</li>
+              <li>Describe Smaug: his voice, smell, appearance, and actions.</li>
+              <li>Explain how Bilbo tries to trick Smaug and how Smaug tries to influence Bilbo. Is either
+                successful? Explain.
+              </li>
+              <li>What mistakes does Bilbo make in dealing with Smaug, in your opinion?</li>
+              <li>Why did the dwarves move their camp to within the tunnel?</li>
+              <li>What effect does the hoard of gold have on some of the dwarves?</li>
+            </ol>
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using
+            the word. <br/>
+            <ol className="vocab">
+              <li>perplexed</li>
+              <li>skulking</li>
+              <li>dubious</li>
+              <li>strategems</li>
+              <li>foreboding</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener155} value={la7Essay155}/>
 
           <span className="days">LESSON 156 </span>
-
-
+          <p className="topBottom">Read Chapter 13 – "Not At Home"<br/>
+            <ol className="vocab">
+              <li>How does the Chapter title create dramatic irony?</li>
+              <li>Compare and contrast Bilbo’s attitude about going down the tunnel and exploring Smaug’s hoard with
+                the dwarves’ attitude.
+              </li>
+              <li>What effects does the treasure have on the various characters?</li>
+              <li>What did Bilbo put in his deepest pocket?</li>
+              <li>How does Bilbo react to Thorin’s gift?</li>
+              <li>How does the setting change in this Chapter? How do they affect mood?</li>
+              <li>What is the group’s situation at the end of the Chapter?</li>
+            </ol>
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using
+            the word. <br/>
+            <ol className="vocab">
+              <li>tinged</li>
+              <li>pallid</li>
+              <li>confound</li>
+              <li>fleeting</li>
+              <li>adornments</li>
+              <li>furtive</li>
+              <li>dominion</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener156} value={la7Essay156}/>
 
           <span className="days">LESSON 157 </span>
-
-
+          <p className="topBottom">Read Chapter 14 – "Fire and Water". Then answer the questions below using
+            complete sentences.<br/>
+            <ol className="vocab">
+              <li>What different interpretations did the townspeople make of the lights visible on the mountain?
+              </li>
+              <li>Describe Bard. What is he like?</li>
+              <li>Describe the Master. How are Bard and the Master different?</li>
+              <li>How is the setting of the town important in this Chapter?</li>
+              <li>Why did the wood-elves travel east?</li>
+              <li> How did Bard know where to aim when he shot Smaug?</li>
+              <li> What was Bard’s reward for killing the dragon?</li>
+              <li>What do you predict will happen in the next Chapter? What
+                indications do you have that this is possible?
+              </li>
+            </ol>
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using
+            the word. <br/>
+            <ol className="vocab">
+              <li>gilded</li>
+              <li>waxing</li>
+              <li>eminent</li>
+              <li>benefactors</li>
+              <li>depose</li>
+              <li>recompense</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener157} value={la7Essay157}/>
 
           <span className="days">LESSON 158 </span>
-
-
+          <p className="topBottom">Read Chapter 15 – "The Gathering Clouds." Then answer the questions below using
+            complete sentences.<br/>
+            <ol className="vocab">
+              <li>What did Thorin ask Roäc to do?</li>
+              <li>What did Bard ask of Thorin, and what was Thorin’s response?</li>
+              <li>What roles have talking animals played in the plot of this story so far?</li>
+              <li>Bilbo thought "that the adventure was, properly speaking, over with the death of the dragon." Is
+                he correct? Explain.
+              </li>
+              <li>What enemies might the group have? What do you think might happen?</li>
+              <li>What did the group do while they waited for the armies to approach?</li>
+              <li>How did Thorin react to the elves and men? How did the rest of the group feel? How do you know
+                this?
+              </li>
+              <li>Bard and Thorin each present their view of the situation. How do you judge the situation?</li>
+              <li>What causes Thorin’s hardness of heart?</li>
+            </ol>
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using
+            the word. <br/>
+            <ol className="vocab">
+              <li>carrion</li>
+              <li>coveted</li>
+              <li>decrepit</li>
+              <li>caper</li>
+              <li>parley</li>
+              <li>succor</li>
+              <li>alight</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener158} value={la7Essay158}/>
 
           <span className="days">LESSON 159 </span>
-
-
+          <p className="topBottom">Read Chapter 16 – "A Thief in the Night". Then answer the questions below using
+            complete sentences.<br/>
+            <ol className="vocab">
+              <li>Why did Bilbo offer to take Bombur’s watch?</li>
+              <li>What did Bilbo give Bard? Explain why.</li>
+              <li>Who praised Bilbo for his meeting with Bard?</li>
+              <li>How does Thorin react to Roäc’s advise?</li>
+              <li>What motivates Bilbo to give the Arkenstone to Bard and the Elvenking?</li>
+              <li>Why do you think Bilbo shudders when he hands Bard the stone?</li>
+              <li>What motivates the Elvenking’s reaction to Bilbo?</li>
+              <li>Do you think the Elvenking’s predictions about Thorin’s reaction will prove to be correct? Why or
+                why not?
+              </li>
+            </ol>
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using
+            the word. <br/>
+            <ol className="vocab">
+              <li>siege</li>
+              <li>hasten</li>
+              <li>spluttering</li>
+              <li>sentinels</li>
+              <li>thrice</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener159} value={la7Essay159}/>
 
           <span className="days">LESSON 160 </span>
-
-
+          <p className="topBottom">Read Chapter 17 – "The Clouds Burst". Then answer the questions below using
+            complete sentences.<br/>
+            <ol className="vocab">
+              <li>Why did Thorin throw Bilbo out of his camp?</li>
+              <li>Summarize the events of the battle.</li>
+              <li>What powers does Gandalf have in battle? What powers does he lack?</li>
+              <li> When all seemed lost against the goblins, what appeared on the scene?</li>
+              <li>What happened to Bilbo during the battle?</li>
+              <li>What do you think the eagle’s arrival signifies? What do you think will happen now that the eagles
+                have arrived?
+              </li>
+            </ol>
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using
+            the word. <br/>
+            <ol className="vocab">
+              <li>heirloom</li>
+              <li>astir</li>
+              <li>plaited</li>
+              <li>tarry</li>
+              <li>scimitars</li>
+              <li>vanguard</li>
+              <li>hurtling</li>
+              <li>helm</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener160} value={la7Essay160}/>
 
           <span className="days">LESSON 161 </span>
-
-
+          <p className="topBottom">Read Chapter 18- "The Return Journey". Then answer the questions below using
+            complete sentences.<br/>
+            <ol className="vocab">
+              <li>How does Bilbo end up alone on Ravenhill?</li>
+              <li>What apology does Thorin make to Bilbo? Why do you think Thorin calls Bilbo a thief, not a
+                burglar?
+              </li>
+              <li>Summarize the events that ended the war while Bilbo was unconscious. How do these events tie the
+                episodes of the plot together?
+              </li>
+              <li>How is the treasure divided in the end?</li>
+              <li>Who led the dwarves after Thorin’s death?</li>
+              <li>What did Bilbo give the Elvenking? Why?</li>
+              <li>What change occurs in Bilbo as he travels home?</li>
+            </ol>
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using
+            the word. <br/>
+            <ol className="vocab">
+              <li>mustering</li>
+              <li>dislodged</li>
+              <li>abode</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener161} value={la7Essay161}/>
 
           <span className="days">LESSON 162 </span>
-
-
+          <p className="topBottom">Read Chapter 19 – "The Last Stage". Then answer the questions below using
+            complete sentences.<br/>
+            <ol className="vocab">
+              <li>Compare and contrast the elves’ songs with the dwarves’ songs throughout the book.</li>
+              <li>1When Bilbo arrived home, what did he find?</li>
+              <li>How was the journey at the beginning of the story different than the journey back home?</li>
+              <li>What does Bilbo’s poem reveal about him?</li>
+              <li>What is ironic in Bilbo’s homecoming?</li>
+              <li>Who came to visit Bilbo a few years after his return home?</li>
+              <li>What does it mean that Bilbo had "lost his reputation?". Then answer the questions below using
+                complete sentences.
+              </li>
+              <li>How did the adventure change Bilbo?</li>
+              <li>What did Bilbo learn from Balin’s and Gandalf’s visit?</li>
+              <li>Why does Bilbo find the prophecies hard to believe? How does Gandalf respond? Were the
+                prophecies based more on Bilbo’s abilities or the luck he had along the way?
+              </li>
+              <li>What were Gandalf’s last words to Bilbo in this book?</li>
+            </ol>
+            <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence
+            using the word. <br/>
+            <ol className="vocab">
+              <li>brink</li>
+              <li>lore</li>
+              <li>gloaming</li>
+              <li>extravagant</li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener162} value={la7Essay162}/>
 
           <span className="days">LESSON 163 </span>
-
-
+          <p className="topBottom">Do you think there is a moral to this story? What did you learn by reading it? Answer
+            these questions in a five paragraph essay.</p>
+          <ul className="assnList">
+            <li>Spend a few minutes to think about the questions. Then write an outline for your essay</li>
+            <li>Your first paragraph should have a hook to grab your reader's attention. It should also have a clear
+              thesis statement (main idea of your essay). This statement should convey the points or arguments you are
+              going to
+              make.
+            </li>
+            <li>Paragraphs 2-4 should provide examples from the book that support your thesis statement. Each
+              paragraph should discuss a different point and use a different example. Using direct
+              quotes from the novel can be effective in proving your point.
+            </li>
+            <li>Your conclusion should restate your thesis in a different way. End with a thoughtful summary.</li>
+            <li>Each paragraph should be 3-5 sentences.</li>
+          </ul>
+          <p className="topBottom"><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
+                                      rel="noreferrer"
+                                      target="_blank">Click
+            here for a 5 Paragraph Essay outline </a>if you need help getting started.</p>
           <textarea className="textArea" onChange={onChangela7Listener163} value={la7Essay163}/>
 
           <span className="days">LESSON 164 </span>
-
+          <p className="topBottom">Create a new book jacket for <i> The Hobbit.</i></p>
+          <p className="topBottom"> A book cover often helps a person decide if he or she will buy a book. Think about
+            the impression you want the images, colors and text to create for viewers. Create a cover for <i> The
+              Hobbit </i> that gives viewers a glimpse of the content and mood of the book. You can use whatever
+            medium you choose: sketch, PhotoShop, collage, paper and markers, or <a
+              href="https://www.canva.com/create/book-covers/"
+              rel="noreferrer"
+              target="_blank"> Canva's online book cover creation
+              tool. </a>You choose how you want to design it.</p>
+          <p className="topBottom"> Your cover (or jacket) should include:<br/>
+            1. A clear title and the author's name. <br/>
+            2. A graphic design that reflects the book's theme. <br/>
+            3. A summary of the plot without giving away the ending. <br/>
+            4. A review (your opinion) about the book.
+          </p>
 
           <textarea className="textArea" onChange={onChangela7Listener164} value={la7Essay164}/>
 
           <span className="days">LESSON 165 </span>
-
-
+          <h4>Research paper</h4>
+          <p className="topBottom">Choose from one of the topics below and write a research paper based on the Hobbit.
+            It must be at least five paragraphs. You can use the <a
+              href="../resources/languagearts/FiveParagraphEssayOutline.pdf"> Five Paragraph Essay outline </a> to help
+            you get started.</p>
+          <ul className="list">
+            <li>Tolkien includes traditional creatures such as elves, dwarves, dragons, trolls, goblins, and
+              wizards in his story. Choose one of these creatures. Then research and discuss its appearance in world
+              myths, legends, and folktales. Include an illustration of the creature you decide to use.
+            </li>
+            <li>Explore the significance of birds in The Hobbit. What types of birds play a role in
+              the story? The eagles, for example, have heavy symbolic significance in world
+              legends and mythology. Why do you think he chose these specific birds to play the roles that they did?
+            </li>
+            <li>Does Bilbo Baggins fit the description of an archetypal hero? Compare this story to another classical or
+              modern adventure story. How is Bilbo similar to other heroes in literature? How is he different?
+            </li>
+            <li>If you have seen the movie, analyze the book in relation to the movie adaptation of The Hobbit.
+             How does the movie compare to the book? What did the director choose to leave in? What did he omit? 
+             Did you like the book or the movie more?</li>
+          </ul><br/>
           <textarea className="textArea" onChange={onChangela7Listener165} value={la7Essay165}/>
 
-          <span className="days">LESSON 166 </span>
+          <span className="days">LESSON 166 - GRAMMAR</span>
+          <p className="topBottom">Watch the videos below and then answer the questions that follow.</p>
+          <p><strong>Does grammar matter?</strong> by Andreea S. Calude</p>
+          <Video videoUrl="https://www.youtube.com/embed/Wn_eBrIDUuc"/>
 
+          <div><strong>How to use Colons and Semicolons</strong> by Miacademy Learning Channel</div>
+          <Video videoUrl="https://www.youtube.com/embed/8L48L7IqJ4A?list=PLvJNSf-7NfrMYswXp-E4UFPStmLlzy0QH"/>
 
+          <p><strong>5-Minute Latin and Greek Roots</strong> by Miacademy Learning Channel</p>
+          <Video videoUrl="https://www.youtube.com/embed/jWyX8vl6kMs?list=PLvJNSf-7NfrMYswXp-E4UFPStmLlzy0QH"/>
+
+          <p><strong>What are Anotonyms?</strong> by Miacademy Learning Channel</p>
+          <Video videoUrl="https://www.youtube.com/embed/QZ9CMRkBeuk?list=PLvJNSf-7NfrMpDB6lRYvsLJoR-NZq7pZS"/>
+
+          <p>
+            <ol className="vocab">
+              <li>Can you think of any ways or situations in which prescriptivism is unhelpful?</li>
+              <li>Grammar is a set of recurrent word patterns that helps speakers and writers to both understand and
+                express concepts. What are some of the ways in which grammar tells us something about how we think?
+              </li>
+              <li>How does the video define grammar?</li>
+              <li>Why does a dialect of a given language become the standard variety of that language?</li>
+              <li>Describe what descriptivism and prescriptivism are and why they matter.</li>
+              <li>Write a sentence that shows when to correctly use a colon. For example: <i
+                style={{ color: "#4f5979" }}>There are three choices for dinner: lasagna, pizza or Pad Thai.</i></li>
+              <li>Write a sentence that shows when to correctly use a semicolon.</li>
+              <li>Give five examples of Latin or Greek roots. Define what each root means and give an example used in a
+                word.
+              </li>
+              <li>Write antonyms for the following words:</li>
+              <ul className="list">
+                <li>abdicate</li>
+                <li> connotation</li>
+                <li>legendary</li>
+                <li>punctual</li>
+                <li> exposition</li>
+              </ul>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener166} value={la7Essay166}/>
 
           <span className="days">LESSON 167 </span>
-
-
+          <p className="topBottom">Watch the videos below and then answer the questions that follow.</p>
+          <p><strong>What are Prefixes? </strong> by Miacademy Learning Channel</p>
+          <Video videoUrl="https://www.youtube.com/embed/w7oGNyHX81I?list=PLvJNSf-7NfrMpDB6lRYvsLJoR-NZq7pZS"/>
+          <p><strong>What are Suffixes? </strong> by Miacademy Learning Channel</p>
+          <Video videoUrl="https://www.youtube.com/embed/635oQTY61J8?list=PLvJNSf-7NfrMpDB6lRYvsLJoR-NZq7pZS"/>
+          <p><strong>What are Adjectives and Articles? </strong> by Miacademy Learning Channel</p>
+          <Video videoUrl="https://www.youtube.com/embed/orvKz8pAiBY?list=PLvJNSf-7NfrNCqu7NxaQO3h6ANfgd6VKl"/>
+          <p><strong>What are Adverbs and Pronouns? </strong> by Miacademy Learning Channel</p>
+          <Video videoUrl="https://www.youtube.com/embed/r2WIKUNUfJ8?list=PLvJNSf-7NfrNCqu7NxaQO3h6ANfgd6VKl"/>
+          <p><strong>4 Word Types </strong> by Miacademy Learning Channel</p>
+          <Video videoUrl="https://www.youtube.com/embed/jTsYuE_T0UQ?list=PLvJNSf-7NfrNCqu7NxaQO3h6ANfgd6VKl"/>
           <textarea className="textArea" onChange={onChangela7Listener167} value={la7Essay167}/>
+          <ol className="vocab">
+            <li>Give 3 different examples of prefixes and use them in a word. For example: <i
+              style={{ color: "#4f5979" }}> extra- extraterrestrial, inter- international, mega- megabyte </i></li>
+            <li>Give 3 different examples of suffixes and use them in a word.</li>
+            <li>Give three examples of adjectives.</li>
+            <li>Give three examples of articles.</li>
+            <li>Give three examples of adverbs.</li>
+            <li>Give three examples of pronouns.</li>
+            <li>List the four word types and give an example of each one. For example: <i
+              style={{ color: "#4f5979" }}>Noun: boat</i></li>
+          </ol>
+          <br/>
 
-          <span className="days">LESSON 168 </span>
-
-
+          <span className="days">LESSON 168 - WRITING</span>
+          <p className="topBottom">Watch the videos below and then answer the questions that follow.</p>
+          <p><strong>4 Forms of Writing </strong> by Miacademy Learning Channel</p>
+          <Video videoUrl="https://www.youtube.com/embed/cqHPhH2bFWM?list=PLvJNSf-7NfrOhpAW-PqosXbrjTx7B0fjH"/>
+          <p><strong>4 Nonfiction Literary Genres </strong> by Miacademy Learning Channel</p>
+          <Video videoUrl="https://www.youtube.com/embed/mQINQAxu-5k?list=PLvJNSf-7NfrMYswXp-E4UFPStmLlzy0QH"/>
+          <p><strong>How to use Quotation Marks when Referencing </strong> by Miacademy Learning Channel</p>
+          <Video videoUrl="https://www.youtube.com/embed/_FT-277ivWE?list=PLvJNSf-7NfrMYswXp-E4UFPStmLlzy0QH"/>
+          <p><strong>How to use Quotation Marks in Dialogue</strong> by Miacademy Learning Channel</p>
+          <Video videoUrl="https://www.youtube.com/embed/VLFCkiwyl4s?list=PLvJNSf-7NfrMYswXp-E4UFPStmLlzy0QH"/>
+          <ol className="vocab">
+            <li>List the four forms of writing and give an example of each one.</li>
+            <li>List the four nonfiction literary genres and give and example of each.</li>
+            <li>Give an example of how you would properly reference a source using quotation marks.</li>
+            <li>Give an example of how you would use quotation marks to show a dialogue is taking place in a story.</li>
+          </ol>
           <textarea className="textArea" onChange={onChangela7Listener168} value={la7Essay168}/>
 
           <span className="days">LESSON 169 </span>
+          <p className="topBottom">Watch the videos below and then answer the questions that follow.</p>
+          <p><strong>Learn to Write: Basic Story Elements </strong> by Miacademy Learning Channel</p>
+          <Video videoUrl="https://www.youtube.com/embed/PKakqB0hhXA"/>
+          <p><strong>What is the Writing Process? </strong> by Miacademy Learning Channel </p>
+          <Video videoUrl="https://www.youtube.com/embed/Y8-_Sj3C5dY?list=PLvJNSf-7NfrMYswXp-E4UFPStmLlzy0QH"/>
 
-
+          <p><strong>First person vs. Second person vs. Third person </strong> by Rebekah Bergman </p>
+          <Video videoUrl="https://www.youtube.com/embed/B5vEfuLS2Qc"/>
+          <ol className="vocab">
+            <li>What are the basic story elements?</li>
+            <li>Summarize the steps of the writing process.</li>
+            <li>What does the point of view tell you?</li>
+            <li>If the narrator is a character inside the story and uses the pronoun me and I then it is first, second
+              or third person?
+            </li>
+            <li>This passage is told in which point of view (first, second or third)?<br/>
+              <i> Your mother tells you to go visit your sick grandmother. You’re annoyed because you had plans to go to
+                the mall this afternoon, and you’ll probably be late now. Even though you’re supposed to stay on the
+                path, you take the shortcut through the woods. </i></li>
+            <li>This passage is told in which point of view (first, second or third)?<br/>
+              <i> The girl knocks on her grandmother’s door and, when no one answers, she enters. Her sick grandmother
+                lies in the bed. “My,” the girl thinks, “everything about Grandma’s face looks...so big.”</i></li>
+            <li>Describe how you know if the narrator is of a third person omniscient story.</li>
+            <li>Which point of view do you currently use most often in your writing? Why?</li>
+            <li>Traditionally, fairy tales have a third person point of view. Choose a fairy tale character you would
+              like to make a first-person narrator of their story.
+            </li>
+            <li>An unreliable first-person narrator cannot be trusted to tell their whole story. Why is this the case?
+            </li>
+          </ol>
           <textarea className="textArea" onChange={onChangela7Listener169} value={la7Essay169}/>
 
           <span className="days">LESSON 170 </span>
+          <p>After you watch the video <strong> Stephen King On Writing</strong>, you will write a mystery.</p>
+          <Video videoUrl="https://www.youtube.com/embed/lwhOd65gGoY"/>
+          <h4> Write a Mystery</h4>
+          <p className="topBottom">Select one of the images below to base your mystery on. Read the title and
+            caption and let the story unfold in
+            your imagination. Write your mystery in the textbox (below the images). This assignment is based on the
+            book <i>The Mysteries of Harris Burdick.</i></p>
+          <div className="rowimages">
+            <div className="columnimages">
+              <div><img src={require("../../public/images/stories/dog.jpg")}
+                        alt="girl with dog"/>
+                <p className="captionTitle">By the River</p>
+                <p className="caption">When the dog beckoned for her to follow, she quickly jumped on her bike. If she
+                  didn't get there by sunset, it would be too late.</p>
+              </div>
+              <div><img src={require("../../public/images/stories/throwingstone.jpg")} style={{ maxWidth: "500px" }}
+                        alt="child throwing a stone"/>
+                <p className="captionTitle">No Ordinary Day</p>
+                <p className="caption">She threw with all her might, but the stone came back and, once again, landed at
+                  her feet.</p></div>
 
-
+              <div><img src={require("../../public/images/stories/twokeys.jpg")} style={{ maxWidth: "500px" }}
+                        alt="two keys"/>
+                <p className="captionTitle">Unlocking Secrets</p>
+                <p className="caption">He had a hunch about what the keys would unlock. He grabbed both keys and
+                  ran.</p>
+              </div>
+            </div>
+            <div className="columnimages">
+              <div><img src={require("../../public/images/stories/traintracks.jpg")} style={{ maxWidth: "500px" }}
+                        alt="train tracks"/>
+                <p className="captionTitle">Final Destination </p>
+                <p className="caption">As the train passed by, you noticed one of the passengers staring at you. The
+                  face you saw was yours. </p>
+              </div>
+              <div><img src={require("../../public/images/stories/pathinwoods.jpg")} style={{ maxWidth: "500px" }}
+                        alt="path through the woods"/>
+                <p className="captionTitle">Off the Beaten Path</p>
+                <p className="caption">You are lost in the woods and it's getting late. Suddenly, a bright light
+                  appears in front of you. </p>
+              </div>
+              <div><img src={require("../../public/images/stories/maninthefog.jpg")} style={{ maxWidth: "500px" }}
+                        alt="man walking through the fog"/>
+                <p className="captionTitle">Man in the Fog</p>
+                <p className="caption">The man slowly walks toward your house. He stops, looks up at your window and
+                  says, "It's time." </p>
+              </div>
+            </div>
+          </div>
+          <p> A good mystery should include all of the elements listed above under "WRITING STORIES". It also
+            requires that you address these questions:</p>
+          <ul className="assnList">
+            <li>What is the mystery to solve? Is there a secret to uncover, an unexplained or supernatural event,
+              has something gone
+              missing?
+            </li>
+            <li>Clues - What are some hints that will help the reader figure things out?</li>
+            <li><i>Optional:</i> Are there ways you can throw the reader off the trail?</li>
+            <li>How will you set up your story? Use your main character to unravel the mystery and solve it.</li>
+          </ul>
+          <p className="topBottom">You can use the <a
+            href="../resources/languagearts/StoryOutlineWorksheet.pdf">Story Outline Worksheet</a> to get started.
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener170} value={la7Essay170}/>
 
           <span className="days">LESSON 171 </span>
-
-
+          <p>After you watch the video <strong> How to build a fictional world, </strong> you will write a fantasy
+            story.</p>
+          <Video videoUrl="https://www.youtube.com/embed/ZQTQSbjecLg"/>
+          <p className="topBottom"><strong>Fantasy </strong> is a genre that has magical and
+            supernatural elements. Many novels have a real-world setting, like Twilight, while others novels are set
+            in an imaginary world. This genre has no connection to reality or science. For example, Lord of the
+            Rings is set in Middle Earth, with races and creatures the author created.
+            There are numerous subgenres of fantasy fiction. A few include high or epic fantasy (The Hobbit and Lord of
+            the Rings),
+            low fantasy (Indian in the Cupboard), dark fantasy (Twilight), contemporary fantasy (Harry Potter),
+            sword and sorcery (The Sorcerer's Apprentice), dark fantasy (Twilight), fables (The Alchemist), fairy
+            tales (Cinderella), and superhero fiction (Spiderman). </p>
+          <p className="topBottom">Select one of the images below as your book cover and then write a fantasy story
+            based on the image. What story unfolds in your imagination when you look at the image? Write your
+            story (5 paragraph minimum) in the textbox below. </p>
+          <div className="rowimages">
+            <div className="columnimages">
+              <img src={require("../../public/images/stories/balloon.jpg")}
+                   alt="fantasy hot air balloon"/>
+              <img src={require("../../public/images/stories/dragon.jpg")}
+                   alt=""/>
+              <img src={require("../../public/images/stories/elephant.jpg")}
+                   alt="Young man approaching elephant on the beach"/>
+            </div>
+            <div className="columnimages">
+              <img src={require("../../public/images/stories/snowstatue.jpg")}
+                   alt="A team of people walking upmountain next to enormous statue"/>
+              <img src={require("../../public/images/stories/greeneyes.jpg")}
+                   alt="fantasy image of green eyes"/>
+              <img src={require("../../public/images/stories/wolf.jpg")}
+                   alt="young girl with a wolf"/>
+            </div>
+          </div>
           <textarea className="textArea" onChange={onChangela7Listener171} value={la7Essay171}/>
 
           <span className="days">LESSON 172 </span>
-
-
+          <p>Watch the video <strong> The importance of setting in a story</strong> and then complete the writing
+            assignment that follows.</p>
+          <Video videoUrl="https://www.youtube.com/embed/30CPmgVQNks"/>
+          <Video videoUrl="https://www.youtube.com/embed/6a6kbU88wu0"/>
+          <p className="topBottom"><strong>Dystopian fiction</strong> describes a fictional place where things have gone
+            horribly wrong and life is terrible. The characters suffer oppression, terror or deprivation. Dystopian
+            fiction includes novels like<i> The Hunger Games, The Giver, Divergent, and The Handmaid's Tale.</i></p>
+          <p className="topBottom">Select one of the images below as your book cover. Then write a dystopian story
+            based on the picture. What story unfolds in your imagination when you look at the image? Write your
+            story in the textbox below the images. You may also choose to write a story based on your own concept
+            versus using one of the images below.</p>
+          <div className="rowimages">
+            <div className="columnimages">
+              <img src={require("../../public/images/stories/burningcity.jpg")}
+                   alt="city in distress"/>
+              <img src={require("../../public/images/stories/mermaid.jpg")}
+                   alt="underwater city"/>
+              <img src={require("../../public/images/stories/robot.jpg")}
+                   alt="child robot"/>
+            </div>
+            <div className="columnimages">
+              <img src={require("../../public/images/stories/swamp.jpg")}
+                   alt="man walking through swamp"/>
+              <img src={require("../../public/images/stories/train.jpg")}
+                   alt="girl waiting for train"/>
+              <img src={require("../../public/images/stories/vr.jpg")}
+                   alt="young person using virtual reality"/>
+            </div>
+          </div>
           <textarea className="textArea" onChange={onChangela7Listener172} value={la7Essay172}/>
 
           <span className="days">LESSON 173 </span>
-
-
+          <h4>Write a BIOGRAPHY of someone who inspires you.</h4>
+          <p className="topBottom"> If you don't have anyone in mind, there is a list below of a few inspirational
+            people. Take plenty of notes when you research this person's life and accomplishments.</p>
+          <Video videoUrl="https://www.youtube.com/embed/q7abluGwup8"/>
+          <p>You can use the <a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
+                                rel="noreferrer"
+                                target="_blank">Five Paragraph Essay outline</a> to help you get started. Be sure to
+            include the following elements in your biography:</p>
+          <p className="margin-para">
+            <ul className="assnList">
+              <li><strong>Introduction:</strong> state the person you chose and why you chose them.</li>
+              <li>Your thesis statement should cover the reasons why he/she inspires you and what this person has
+                taught us.
+              </li>
+              <li>In the body (2-3 paragraphs), include:</li>
+              <ol className="assnLetters">
+                <li>date and place of birth (death if appropriate)</li>
+                <li>description of childhood and early adulthood</li>
+                <li>people and events that influenced them and helped them develop into the person they became</li>
+                <li>accomplishments and greatest achievements</li>
+                <li>their impact on society, historical significance</li>
+                <li>when appropriate use quotes and significant details from your research</li>
+              </ol>
+              <li><strong>Conclusion:</strong> summarize the most important points of your biography.
+              </li>
+            </ul>
+          </p>
+          <p className="margin-para">
+            <ul className="assnList">
+              <li>Malala Yousafzai</li>
+              <li>Thomas Jefferson</li>
+              <li>Nelson Mandela</li>
+              <li>Mother Teresa</li>
+              <li>Albert Einstein</li>
+              <li>Amelia Earhart</li>
+              <li>Martin Luther King, Jr.</li>
+              <li>Mahatma Gandhi</li>
+              <li>George Washington</li>
+              <li>Eleanor Roosevelt</li>
+              <li>Elon Musk</li>
+              <li>Wolfgang Amadeus Mozart</li>
+              <li>Abraham Lincoln</li>
+              <li>Helen Keller</li>
+            </ul>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener173} value={la7Essay173}/>
 
           <span className="days">LESSON 174 </span>
-
-
+          <p className="topBottom"><strong>Science Fiction</strong><br/>
+            Science fiction themes include futuristic stories, space travel, time travel, and life on other planets.
+            They imagine how life would be different with technological and scientific advances. Science fiction
+            includes novels like<i> Ready Player One, Mad Max and The Martian.</i></p>
+          <p className="topBottom">Select one of the images below to base your own science fiction story on.
+            After you watch the video below, <strong> The power of a great introduction</strong>, write your story in
+            the textbox.
+            Be sure to back up your work and send a copy to your parent or teacher. If you prefer to write a story not
+            based on an image, this is
+            fine. </p>
+          <div className="rowimages">
+            <div className="columnimages">
+              <img src={require("../../public/images/stories/scifi1.jpg")}
+                   alt="cyborg girl"/>
+              <img src={require("../../public/images/stories/scifi2.jpg")}
+                   alt="Scifi planet "/>
+              <img src={require("../../public/images/stories/scifi3.jpg")}
+                   alt="Futuristic world "/>
+              <img src={require("../../public/images/stories/scifi4.jpg")}
+                   alt="Floating spaceship"/>
+            </div>
+            <div className="columnimages">
+              <img src={require("../../public/images/stories/scifi9.jpg")}
+                   alt="Lighted tunnel into space"/>
+              <img src={require("../../public/images/stories/scifi6.jpg")}
+                   alt="Robots on another planet"/>
+              <img src={require("../../public/images/stories/scifi7.jpg")}
+                   alt="Children approaching UFO"/>
+              <img src={require("../../public/images/stories/scifi8.jpg")}
+                   alt="Astronauts on another planet"/>
+            </div>
+          </div>
+          <Video videoUrl="https://www.youtube.com/embed/j0_u-lourd0"/>
           <textarea className="textArea" onChange={onChangela7Listener174} value={la7Essay174}/>
 
           <span className="days">LESSON 175 </span>
-
-
+          <h4>Non-fiction Science Essay</h4>
+          <img src={require("../../public/images/stories/science.jpg")} alt="The Giver novel"/><br/>
+          <p className="topBottom">Write a five paragraph essay based on one of the questions below.
+            <ol className="vocab">
+              <li>What do you think is the most important invention of the last 100 years?</li>
+              <li>Should we colonize other planets? Why or why not?</li>
+              <li>If you could meet one famous inventor, who would it be?</li>
+              <li>What is a new invention you would like to create? For inspiration, check out the article <a
+                href="https://www.sciencefocus.com/future-technology/future-technology-22-ideas-about-to-change-our-world/"
+                rel="noreferrer" target="_blank"> Future technology: 25 ideas about to change our world</a></li>
+              <li>What will the world be like 1,000 years from now?</li>
+            </ol>
+          </p>
+          <p>Your essay should follow answer the question and follow the format below: </p>
+          <ul className="assnList">
+            <li>Write a hook to grab your reader's attention.</li>
+            <li>Your first paragraph should have a clear thesis statement (main idea of your essay). This
+              statement should convey the points or arguments you are going to
+              make.
+            </li>
+            <li>Paragraphs 2-4 should provide examples from the book that support your thesis statement. Each
+              paragraph should discuss a different point and use a different example. Using direct
+              quotes from the novel can be effective in proving your point.
+            </li>
+            <li>Your conclusion should restate your thesis in a different way. End with a thoughtful summary.</li>
+            <li>Each paragraph should be 3-5 sentences.</li>
+          </ul>
+          <p className="topBottom"><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
+                                      rel="noreferrer"
+                                      target="_blank">Click
+            here for a 5 Paragraph Essay outline </a>if you need help getting started.</p>
           <textarea className="textArea" onChange={onChangela7Listener175} value={la7Essay175}/>
 
           <span className="days">LESSON 176 </span>
+          <h4> Write an Adventure Story</h4>
+          <p className="topBottom">Stories in the adventure genre involve a hero who goes on an
+            exciting journey to some place very different than what he is used to. It is
+            also usually a journey of personal growth in which the protagonist grows into a hero. These stories are
+            usually fast-paced, with elements of danger, obstacles to overcome, and a
+            villain to defeat.
+          </p>
+          <p className="topBottom"> Examples include The Adventures of Tom Sawyer, Gulliver's Travels, and Treaure
+            Planet.</p>
 
+          <p className="topBottom">Base your adventure on one of the images below. Write your story in the textbox
+            below and be sure to back up your work.</p>
 
+          <p> A good adventure should include all of the elements listed above under "WRITING STORIES". It should also
+            have the follow elements:
+            <ul className="assnList">
+              <li>A hero</li>
+              <li>A quest</li>
+              <li>A journey to a new and strange land</li>
+              <li>A villain</li>
+              <li>The hero is changed</li>
+            </ul></p>
+          <div className="rowimages">
+            <div className="columnimages">
+              <img src={require("../../public/images/stories/adventure1.jpg")}
+                   alt="old sailing ship"/>
+              <img src={require("../../public/images/stories/adventure2.jpg")}
+                   alt="astronaut in space"/>
+              <img src={require("../../public/images/stories/adventure3.jpg")}
+                   alt="pyramids"/>
+              <img src={require("../../public/images/stories/adventure4.jpg")}
+                   alt="girl in ice tunnel"/>
+            </div>
+            <div className="columnimages">
+              <img src={require("../../public/images/stories/adventure5.jpg")}
+                   alt="hot air balloon over desert"/>
+              <img src={require("../../public/images/stories/adventure6.jpg")}
+                   alt="ruins in the jungle"/>
+              <img src={require("../../public/images/stories/adventure7.jpg")}
+                   alt="grim reaper on boat with passengers"/>
+              <img src={require("../../public/images/stories/adventure8.jpg")}
+                   alt="castle"/>
+            </div>
+          </div>
+          <p className="topBottom">You can use the <a
+            href="../resources/languagearts/StoryOutlineWorksheet.pdf">Story Outline Worksheet</a> to get started.
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener176} value={la7Essay176}/>
 
           <span className="days">LESSON 177 </span>
-
-
+          <span className="days">LESSON 177 </span>
+          <h4> Character Development</h4>
+          <p className="topBottom">No matter how exciting your plot may be, readers won't want to keep reading unless
+            you have great characters. Watch the videos below to learn how to develop characters your readers will fall
+            in love with and believe are real. Then complete the assignment posted after the videos.</p>
+          {/*Introduction to Character */}
+          <Video videoUrl="https://www.youtube.com/embed/ngZQUebMSEg"/>
+          {/*Internal vs. external features */}
+          <Video videoUrl="https://www.youtube.com/embed/Yl_okKqVXKo"/>
+          {/*Wants vs. needs */}
+          <Video videoUrl="https://www.youtube.com/embed/RgRfbvLkvnI"/>
+          {/*Obstacles */}
+          <Video videoUrl="https://www.youtube.com/embed/ZyNvgFmBQTs"/>
+          {/*Character arc */}
+          <Video videoUrl="https://www.youtube.com/embed/figcC-ANUu4"/>
+          {/*Stakes */}
+          <Video videoUrl="https://www.youtube.com/embed/WJ_iNkkgdCA"/>
+          {/*Advice on characters */}
+          <Video videoUrl="https://www.youtube.com/embed/SgGARYH2vRg"/>
+          <p className="topBottom">Your next two lessons will be to develop two great characters your readers will care
+            about: a protagonist and an antagonist. Start thinking about what they are like, consider: personality,
+            physical
+            appearance, strengths, weaknesses, special abilities (optional) and what they value. Develop these
+            characters in your mind and think about the following questions: <br/>
+            <ul className="list">
+              <li>What does your character want or want to achieve?</li>
+              <li>Where do you want your protagonist to travel to?</li>
+              <li>What are the obstacles they will face?</li>
+              <li>What do they risk losing if they fail in their quest?</li>
+              <li> What will they gain if they achieve their quest?</li>
+              <li>How do you want them to grow and change as a person?</li>
+              <li>Which fictional genres best suits your characters? You can choose from any that you've learned about:
+                adventure, fantasy, mythology, horror, mystery, fairy tale, etc.
+              </li>
+            </ul>
+          </p>
+          <p className="topBottom">Take a few minutes to complete the assignment below. Your responses can be short
+            bullet points.
+            <ol className="vocab">
+              <li>Close your eyes and imagine the protagonist for your next story. Briefly describe their external and
+                internal traits.
+              </li>
+              <li>List at least one place the protagonist will travel to. If you're not sure, where would you travel to
+                if
+                there were no limitations? This can be a place of your own creation.
+              </li>
+              <li> Picture the villain. What are they like?</li>
+              <li>What ideas do you have for the quest the protagonist will embark on? Are they chasing after an
+                artifact? Are they on a mission of some kind? Jot down any ideas you have.
+              </li>
+            </ol></p>
+          <p className="topBottom">Create a book cover design for your next story. Think about the impression and mood
+            you want the images and colors to create for your readers. You can use whatever
+            medium you choose: collage, paper and markers, or <a href="https://www.canva.com/create/book-covers/"
+                                                                 rel="noreferrer"
+                                                                 target="_blank"> Canva's online book cover creation
+              tool. </a>You choose how you want to design it. </p>
           <textarea className="textArea" onChange={onChangela7Listener177} value={la7Essay177}/>
 
           <span className="days">LESSON 178 </span>
-
-
+          <h4> Character Development - The Protagonist</h4>
+          <p className="topBottom">It's time to fully develop the protagonist for your next story. Address the questions
+            below using complete sentences.</p>
+          <p>
+            <ol className="vocab">
+              <li> What is your protagonist's name, age, gender and where do they live?</li>
+              <li>Briefly describe your protagonist's background or childhood. Is there something about their background
+                or childhood that is important and shaped who they are as a
+                person? Examples: Their parents died and left them a fortune, they are poor growing up, they were
+                bullied, or they were raised in China and are fluent in Mandarin.
+              </li>
+              <li>Do they have any special abilities (optional). These can be supernatural or magical powers or worldly
+                abilities like a high IQ or jiu-jitsu skills.
+              </li>
+              <li>What are your character's strengths? Examples: Confidence, strong moral compass, problem solving
+                skills, loyalty, or persistence.
+              </li>
+              <li>What are your character's weaknesses? Are there any weaknesses or fears the villain can use against
+                them? Examples: Short temper, conflict avoidant, fear of snakes or a
+                physical handicap.
+              </li>
+              <li>Where will your protagonist to travel to? Describe how this is dramatically different than where they
+                live now?
+              </li>
+              <li>What is a quest they were meant to pursue? Are they chasing after an
+                artifact? Are they on a mission of some kind?
+              </li>
+              <li>What does your character want or want to achieve?</li>
+              <li>What are the obstacles they will face?</li>
+              <li>What do they risk losing if they fail in their quest?</li>
+              <li>How do you want them to grow and change as a person?</li>
+              <li>What will they gain if they achieve their quest?</li>
+              <li>What do does your protagonist look like? Be specific, including height, facial features, and how they
+                dress.
+              </li>
+              <li>Create a picture of your protagonist. You can sketch a picture or create your character on <a
+                href="https://charactercreator.org/#" rel="noreferrer" target="_blank">Character Creator </a>online. Be
+                sure to take a screen shot and save this to your device so you can include it with your story later.
+              </li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener178} value={la7Essay178}/>
 
           <span className="days">LESSON 179 </span>
-
-
+          <h4> Character Development - The Antagonist</h4>
+          <p className="topBottom">Create the villain your protagonist will have to fight. <br/>
+            <li>What is your villain's name, gender and age?</li>
+            <li>What makes your villain a villain? Why does he do what he does? What is his backstory? Example: Lord
+              Voldemort wanted to become the supreme leader of wizards and rid the wizarding world of Muggles. His
+              mother had tricked his father
+              into loving her. He was not born from love and didn't know love as a child.
+            </li>
+            <li>What makes your villain powerful? What skills, abilities and traits make them <i>nearly</i> impossible
+              for your protagonist to defeat? Example: The Joker (in Batman) The Joker has no superhuman abilities, but
+              he is clever and uses chemical engineering to make poisonous weapons.
+            </li>
+            <li>What are their weaknesses? Will your hero be able to use a weakness against the villain to win?</li>
+            <li>What do does your protagonist look like? Be specific, including height, facial features, and how they
+              dress.
+            </li>
+            <li>Create a picture of your villain. You can sketch a picture or create your character on <a
+              href="https://charactercreator.org/#" rel="noreferrer" target="_blank">Character Creator </a>online. Be
+              sure to take a screen shot and save this to your device so you can include it with your story later.
+            </li>
+          </p>
           <textarea className="textArea" onChange={onChangela7Listener179} value={la7Essay179}/>
 
           <span className="days">LESSON 180 </span>
-
-
+          <h4> Final Fictional Story</h4>
+          <p className="topBottom">It's time to write your final story for this class!</p>
+          <p>
+            <ul className="assnList">
+              <li>What point of view will you use?</li>
+              <li> What type of fiction or genre did you choose?</li>
+              <li>Title of your story.</li>
+              <li>Grab your readers’ attention in the first paragraph.</li>
+              <li>Where and when is it (past, present or future)? Who are your characters? Set the scene and introduce
+                your characters.
+              </li>
+              <li>What are the sequence events? Write about the first thing that happens. Introduce the conflict. What
+                is the challenge the main character must face in order to grow and
+                change? What obstacles must be overcome?
+              </li>
+              <li>Next (build up):</li>
+              <li>Finally (resolution). How will the problem be solved?</li>
+            </ul>
+            <br/> Write your story in the textbox and be sure to back up your work. When you submit this story to your
+            parent or teacher, include your character sketches and
+            book cover.
+          </p>
+          <p className="topBottom">You can use the <a
+            href="../resources/languagearts/StoryOutlineWorksheet.pdf">Story Outline Worksheet</a> to help.</p>
           <textarea className="textArea" onChange={onChangela7Listener180} value={la7Essay180}/>
         </div>
       </section>
       <Confetti/>
-      <h3 style={{ textAlign: "center", height: "100vh" }}>You finished 7th Grade Language Arts ! </h3>
+      <h3 style={{  textAlign: "center", height: "100vh" }}>
+        You finished 7th Grade Language Arts! </h3>
     </form>
-  )
+)
 }
 export default LA7Component

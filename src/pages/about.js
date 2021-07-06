@@ -25,8 +25,7 @@ const About = ({ data }) => {
                 had when I was homeschooling my kids.</p>
 
               <p className={styles.pararesources} data-sal="slide-up" data-sal-duration="1600">At Home Middle School
-                pulls together
-                the best free curriculum and organizes it into daily lessons.</p>
+                pulls together  the best free curriculum and organizes it into daily lessons.</p>
 
               <p className={styles.pararesources} data-sal="slide-up" data-sal-duration="1600">There are
                 180 lessons for each subject (same as a school year). The curriculum is not meant

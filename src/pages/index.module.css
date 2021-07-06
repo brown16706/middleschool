@@ -5,16 +5,9 @@
 /*black color: #404040;*/
 
 
-body, html {
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-}
-
 html {
     -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
-}
+    -webkit-text-size-adjust: 100%}
 
 body {
     margin: 0;
@@ -182,7 +175,7 @@ a:focus:after, a:hover:after {
 }
 
 ::selection {
-    background: #eef3ff
+    background: #8ddce1
 }
 
 ::-moz-selection {

@@ -174,7 +174,7 @@ body {
 }
 
 .subject.la6 {
-    background-color: #31BDD4;
+    background-color: #80CEE8;
     /*background-color: #4fb6c3;*/
 }
 
@@ -211,7 +211,7 @@ body {
 }
 
 .subject.la7 {
-    background-color: #71d4d8;
+    background-color: #72c2d8;
 }
 
 .subject.social-studies7 {
@@ -248,7 +248,7 @@ body {
 }
 
 .subject.la8 {
-    background-color: #37CDD2;
+    background-color: #7bd0e7;
 }
 
 .subject.social-studies8 {
@@ -513,12 +513,10 @@ img.week {
     max-width: 80%;
     box-shadow: none !important;
     display: inline-block;
-    margin-left: 2rem;
     opacity: 1;
     transition: opacity 500ms ease 0s;
 }
 .gatsby-image-wrapper.week {
-    margin-left: 2rem;
     box-shadow: none !important;
     -moz-box-shadow: none !important;
     -webkit-box-shadow: none !important;
@@ -638,24 +636,6 @@ a:active {
     background-color: #fff59a;
 }
 
-footer {
-    background-color: rgb(228, 228, 228);
-    min-height: 50px;
-    padding: 50px 50px 30px;
-    color: #7b7f8f;
-}
-
-.footer-content {
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    max-width: var(--max-content-width);
-    color: var(--color-bg-secondary);
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    text-align: center
-}
-
 /*Insert Answers Text Boxes*/
 .answers:hover, .answers {
     width: 100%;
@@ -679,6 +659,50 @@ footer {
     text-transform: uppercase;
     font-size: 26px;
 }
+
+/*Begin Fade Up  use animated animatedFadeInUp fadeInUp*/
+/* Animation */
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+
+/*End Fade up*/
 
 /** fadeInLeft **/
 
@@ -832,6 +856,11 @@ h1.intro {
 @media screen and (max-width: 600px) {
     h1.intro {
         font-size: 4em;
+    }
+}
+@media screen and (max-width: 400px) {
+    h1.intro {
+        font-size: 3em;
     }
 }
 
@@ -1172,14 +1201,23 @@ main {
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    user-select: none;
+    /*user-select: none;*/
     -webkit-font-smoothing: antialiased;
     vertical-align: baseline;
     -moz-osx-font-smoothing: grayscale;
-    -webkit-tap-highlight-color: transparent;
+    /*-webkit-tap-highlight-color: transparent;*/
     text-rendering: optimizeLegibility;
     text-size-adjust: 100%;
-    scroll-behavior: smooth
+    scroll-behavior: smooth;}
+
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #8ddce1;
+}
+
+::selection {
+    color: white;
+    background: #8ddce1;
 }
 
 @media (max-width: 551px) {
@@ -1283,141 +1321,7 @@ hr {
     padding: 25px;
 }
 
-
-/*Circles Effect*/
-.block-circles {
-    margin: 0;
-    /*height: 600px;*/
-    /*background-color: #fff;*/
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
-}
-
-/*Fix gap for smaller screens*/
-@media only screen and (max-width: 820px) and (min-width: 450px) {
-    .block-circles {
-        height: 800px;
-    }
-}
-
- .subjects-circle {
-    height: 4000px;
-    width: 4000px;
-    border-radius: 3000px;
-    position: absolute;
-    animation-name: circles;
-    animation-duration: 2s;
-    z-index: -1;
-}
-
-@keyframes circles {
-    0% {
-        width: 50px;
-        height: 50px;
-    }
-    100% {
-        width: 1200px;
-        height: 1200px;
-    }
-}
-
-.subjects-circle.circle1 {
-    top: -250px;
-    left: -250px;
-    z-index: -1;
-}
-
-.subjects-circle.circle2 {
-    bottom: -250px;
-    right: -250px;
-}
-
-@media screen and (max-width: 577px) {
-   .subjects-circle.circle1 {
-        top: -600px;
-        left: -600px;
-        z-index: -1;
-    }
-
-     .subjects-circle.circle2 {
-        bottom: -650px;
-        right: -600px;
-    }
-}
-
-
-/*End subjects circles*/
-
-.block-circles .circle.one6th {
-    /*background-color: #fff59a;*/
-    background-color: #efefef;
-    top: -250px;
-    left: -250px;
-    z-index: -1;
-}
-
-.block-circles .circle.two6th {
-    /*background-color: #c3e1e6;*/
-    background-color: #78D2D3;
-    bottom: -250px;
-    right: -250px;
-}
-
-.block-circles .circle.one7th {
-    /*background-color: #fff59a;*/
-    background-color: #f7f7f7;
-    top: -250px;
-    left: -250px;
-    z-index: -1;
-}
-
-.block-circles .circle.two7th {
-    background-color: #a0e4d4;
-    bottom: -250px;
-    right: -250px;
-}
-
-.block-circles .circle.one8th {
-    /*background-color: #fff59a;*/
-    background-color: rgba(236, 236, 236, 0.44);
-    top: -250px;
-    left: -250px;
-    z-index: -1;
-}
-
-.block-circles .circle.two8th {
-    background-color: #bbe3e1;
-    right: -250px;
-}
-
-
-.block-circles .subjects-circle.la1 {
-    top: -250px;
-    left: -250px;
-    z-index: -1;
-    background: linear-gradient(#66D0FC, #90F5CA);
-}
-
-.block-circles .subjects-circle.la2 {
-    bottom: -250px;
-    right: -250px;
-    background: linear-gradient(#66D0FC, #90F5CA);
-}
-
-.block-circles .circle.three {
-    background-color: #8980C0;
-    top: -250px;
-    left: -250px;
-    z-index: -1;
-}
-
-.block-circles .circle.four {
-    background-color: #78CCC7;
-    bottom: -250px;
-    right: -250px;
-}
-
+/*Circles Effect 6th-8th*/
 .block-circles .circle {
     height: 1200px;
     width: 1200px;
@@ -1427,12 +1331,44 @@ hr {
     animation-duration: 4s;
     z-index: -1;
 }
+.block-circles {
+    margin: 0;
+    /*height: 600px;*/
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+@keyframes circles {
+    0% {
+        width: 50px;
+        height: 50px;
+    }
+    100% {
+        width: 1600px;
+        height: 1600px;
+    }
+}
+
+/*Begin Subject Circles*/
+
+.block-circles .circle.one {
+    top: -250px;
+    left: -250px;
+    z-index: -1;
+}
+
+.block-circles .circle.two {
+    bottom: -250px;
+    right: -250px;
+}
+
+/*End subjects circles*/
 
 
 /*CHECKBOXES*/
 
 /* The container */
-
 .checkcontainer {
     display: block;
     position: relative;
@@ -1950,10 +1886,15 @@ font-size: 90% !important;
     text-align: justify !important;
 }
 
+.fadeIn {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
 /*Fade in for components*/
 .fadeIn p {
-    margin-top: 25px;
-    font-size: 21px;
+    margin-top: 8px;
     animation: fadein 2s;
     -moz-animation: fadein 2s; /* Firefox */
     -webkit-animation: fadein 2s; /* Safari and Chrome */
@@ -1990,4 +1931,26 @@ font-size: 90% !important;
     to {
         opacity: 1;
     }
+}
+
+/*Song Lyrics*/
+    /* two columns that float next to each other */
+.songcolumn {
+    float: left;
+    width: 50%;
+}
+.songrow {
+color: #002386 !important;
+    padding-bottom: 2em;
+}
+
+@media (min-width: 800px) {
+    .songrow {
+        padding: 0 10% 2em;
+    }}
+/* Clears floats after the columns */
+.songrow:after {
+    content: "";
+    display: table;
+    clear: both;
 }

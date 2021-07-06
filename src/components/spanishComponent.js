@@ -740,29 +740,43 @@ const SpanishComponent = ({ data }) => {
   return (
 
     <form>
+
+      <section className="block-circles">
+        <div className="circle one"
+             style={{
+               animationDuration: "4s",
+               backgroundColor: "#f16d7b",
+               transform: "translate3d(0px, 0px, 0px) scale(0.9921, 1)",
+               opacity: "0.9881"
+             }}/>
+        <div className="circle two" style={{
+          animationDuration: "4s",
+          backgroundColor: "#f16d7b",
+          transform: "translate(0px, 0px)",
+          opacity: 1
+        }}/>
+        <div className="hero-wrapper pbn hero animated animatedFadeInUp fadeInUp">
+          <h1 className="hero intro animated">Spanish</h1>
+          <div className="hero info-block info-block-line" style={{ marginBottom: "4em" }}>
+            <h2 className="hero">Daily Lessons</h2>
+          </div>
+        </div>
+      </section>
+
       <section className="section raise-top">
         <div className="section-content">
-          <h1 className="section-title">Daily Lessons</h1>
-
           <span className="days">LESSON 1 </span>
-          <p className="margin-para"> If you don’t already have an account with <a href="https://www.duolingo.com/"
-                                                                                   rel="noreferrer"
-                                                                                   target="_blank"> Duolingo, set one up
-            here. </a> Or you can log in with a Google or Facebook account. Duolingo has free lessons and does not
-            require a paid subscription. After you log in, <strong>complete the first lesson on Duolingo</strong>. If
-            you already know some Spanish, you can take the placement test before you get started.</p>
-          <p className="topBottom">Duolingo is the only account you need to create. You do NOT need to sign up for any
-            subscriptions or create any accounts in order to watch the videos
-            below and complete this Spanish course. </p>
-          <p className="topBottom">Next, watch the videos and answer the questions below.</p>
+
+          <p className="topBottom fadeIn">Welcome to Beginner Spanish. For your first lesson, watch the videos
+            and complete the assignments below.</p>
           <p className="topBottom">You may use a <a href="https://www.spanishdict.com/" rel="noreferrer"
-                                                    target="_blank">translator</a> to
+                                                    target="_blank">translator (click here) </a> to
             help you with your assignments in this course.</p>
 
           <p className="topBottom">If the speakers in the videos talk too quickly, you can slow down the playback speed.
             Also, be sure subtitles are always showing when you watch a video so you can follow along. Both of these
-            features
-            can be adjusted in the bottom menu of each video.</p>
+            features can be adjusted in the bottom menu of each video.</p>
+
           <Video videoUrl="https://www.youtube.com/embed/kzWZi03KM2U?list=PL_bC0YvGkS4Qv3DswsEkYTJqAU93HU9cz"/>
           <Video videoUrl="https://www.youtube.com/embed/POdNffXOJ-o"/>
           <h4>QUESTIONS</h4>
@@ -770,21 +784,36 @@ const SpanishComponent = ({ data }) => {
             <li>How common is the Spanish language in the world? Is it the 1st, 2nd, 3rd or 4th most commonly spoken
               language?
             </li>
-            <li>List some reasons it's valuable to learn Spanish</li>
+            <li>List some reasons it's valuable to learn Spanish.</li>
             <li>In which countries is the Spanish dialect easiest to understand?</li>
             <li>Write 5 Spanish words you learned.</li>
-            <li>How are vowel in the English language different than in the Spanish language?</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>How are vowels in the English language different than in the Spanish language?</li>
+            <li>Go to <a href="https://www.duolingo.com/"
+                         rel="noreferrer"
+                         target="_blank">Duolingo </a>and complete your first lesson there.
+            </li>
           </ol>
+          <p className="margin-para"> You will use Duolingo for this course. If you don’t already have an account
+            with <a href="https://www.duolingo.com/"
+                    rel="noreferrer"
+                    target="_blank"> Duolingo, set one up
+              here. </a> Or you can log in with a Google or Facebook account. Duolingo has free lessons and does not
+            require a paid subscription. After you log in, <strong>complete the first lesson on Duolingo</strong>. If
+            you already know some Spanish, you can take the placement test before you get started.</p>
+          <p>Duolingo is the only account you need to create for this course. You do NOT need to sign up for any
+            subscriptions or create any other accounts in order to watch the videos
+            below and complete this Spanish course. </p>
           <textarea className="textArea" onChange={onChangespanishListener1} value={spanishEssay1}/>
 
           <span className="days">LESSON 2 </span>
-          <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
-            href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
+          <p className="topBottom">Watch the videos and then answer the questions below.</p>
           {/*Learn Spanish in 10 Minutes - ALL the Basics You Need*/}
           {/*<Video videoUrl="https://www.youtube.com/embed/t7-nb1wlnyA"/>*/}
           {/*Spanish 101 SuperHolly*/}
           <Video videoUrl="https://www.youtube.com/embed/R2kMyM6Xd8Y?list=PLhj8d_ZijD0vopuloaa0QW-OHZfD--Ntb"/>
+          <p>Instead of doing a lesson today on Duolingo, you will watch a video on how to get the most out of using the
+            site to learn Spanish. Watch the video below and take notes on the tips the narrator gives.</p>
+          <Video videoUrl="https://www.youtube.com/embed/Vhz2HGy6Eqc"/>
           <h4>QUESTIONS</h4>
           <ol className="vocab">
             <li>How would you introduce yourself in Spanish?</li>
@@ -792,7 +821,7 @@ const SpanishComponent = ({ data }) => {
             <li>How do you say "You are a good student" in Spanish?</li>
             <li>What does "Ando llegando" mean?</li>
             <li>Write 5 phrases you learned from the video Spanish 101.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>What are 5 of the best tips mentioned in the video that you will start using on Duolingo?</li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener2} value={spanishEssay2}/>
 
@@ -808,7 +837,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English. Write these phrases in Spanish and then translate to English. For
               example: <i>¿Cómo te llamas? What's your name?</i></li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener3} value={spanishEssay3}/>
 
@@ -825,7 +855,8 @@ const SpanishComponent = ({ data }) => {
               English. Write these phrases in Spanish and then translate to English. For
               example: <i>¿Cómo te llamas? What's your name?</i></li>
             <li>Write 5 words for family member in Spanish. Examples: <i>papa, mama, hermano.</i></li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener4} value={spanishEssay4}/>
 
@@ -839,7 +870,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English. Write these phrases in Spanish and then translate to English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener5} value={spanishEssay5}/>
 
@@ -858,7 +890,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English. Write these phrases in Spanish and then translate to English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener6} value={spanishEssay6}/>
 
@@ -874,7 +907,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English. Write these phrases in Spanish and then translate to English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener7} value={spanishEssay7}/>
 
@@ -889,7 +923,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener8} value={spanishEssay8}/>
 
@@ -906,7 +941,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener9} value={spanishEssay9}/>
 
@@ -920,7 +956,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener10} value={spanishEssay10}/>
 
@@ -935,7 +972,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener11} value={spanishEssay11}/>
 
@@ -951,7 +989,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener12} value={spanishEssay12}/>
 
@@ -965,7 +1004,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener13} value={spanishEssay13}/>
 
@@ -982,7 +1022,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener14} value={spanishEssay14}/>
 
@@ -999,7 +1040,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener15} value={spanishEssay15}/>
 
@@ -1014,7 +1056,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 6 vegetables in Spanish.</li>
 
 
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener16} value={spanishEssay16}/>
 
@@ -1031,7 +1074,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener17} value={spanishEssay17}/>
 
@@ -1047,7 +1091,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener18} value={spanishEssay18}/>
 
@@ -1061,7 +1106,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className=" textArea" onChange={onChangespanishListener19} value={spanishEssay19}/>
 
@@ -1076,7 +1122,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className=" textArea" onChange={onChangespanishListener20} value={spanishEssay20}/>
 
@@ -1090,7 +1137,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener21} value={spanishEssay21}/>
 
@@ -1104,7 +1152,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className=" textArea" onChange={onChangespanishListener22} value={spanishEssay22}/>
 
@@ -1114,7 +1163,8 @@ const SpanishComponent = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/gOZFrwTTgok"/>
           <h4>QUESTIONS</h4>
           <ol className="vocab">
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
             <p>Translate the following words from the video into Spanish: </p>
             <li>pen</li>
             <li>desk</li>
@@ -1148,7 +1198,8 @@ const SpanishComponent = ({ data }) => {
               the video more
               than once.
             </li>
-            <li>What is the name of the lesson you completed on Duolingo.</li>
+            <li>What is the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                   target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className=" textArea" onChange={onChangespanishListener24} value={spanishEssay24}/>
 
@@ -1163,7 +1214,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 20 of your favorite words from the video. Write them in Spanish, then English.
               For example: <i>el barco = the boat</i></li>
             <li>Write 5 new phrases you learned from Super Easy Spanish.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener25} value={spanishEssay25}/>
 
@@ -1177,7 +1229,8 @@ const SpanishComponent = ({ data }) => {
             <li>What did Baruch see in the library? Answer in Spanish.</li>
             <li>List as many ways as you can to say "hot".</li>
             <li>Write 5 new phrases you learned from the video.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className=" textArea" onChange={onChangespanishListener26} value={spanishEssay26}/>
 
@@ -1192,7 +1245,8 @@ const SpanishComponent = ({ data }) => {
               English.
             </li>
             <li>What was in his bag? List the items in Spanish.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener27} value={spanishEssay27}/>
 
@@ -1209,7 +1263,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className=" textArea" onChange={onChangespanishListener28} value={spanishEssay28}/>
 
@@ -1224,7 +1279,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener29} value={spanishEssay29}/>
 
@@ -1241,7 +1297,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className=" textArea" onChange={onChangespanishListener30} value={spanishEssay30}/>
 
@@ -1257,7 +1314,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener31} value={spanishEssay31}/>
 
@@ -1273,7 +1331,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener32} value={spanishEssay32}/>
 
@@ -1288,7 +1347,8 @@ const SpanishComponent = ({ data }) => {
             <li>What are the 12 months of the year in Spanish?</li>
             <li>Describe in Spanish how Mexicans celebrate Christmas?</li>
             <li>Write 5 sentences you learned that include "I'm going to...".</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener33} value={spanishEssay33}/>
 
@@ -1304,7 +1364,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener34} value={spanishEssay34}/>
 
@@ -1322,7 +1383,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener35} value={spanishEssay35}/>
 
@@ -1341,7 +1403,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener36} value={spanishEssay36}/>
 
@@ -1369,7 +1432,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea"
                     onChange={onChangespanishListener38} value={spanishEssay38}/>
@@ -1387,7 +1451,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener39} value={spanishEssay39}/>
 
@@ -1404,7 +1469,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener40} value={spanishEssay40}/>
 
@@ -1418,7 +1484,8 @@ const SpanishComponent = ({ data }) => {
             <li>How do you write "Children play with sand at the beach" in Spanish?</li>
             <li>Write 5 new phrases you learned from either video.</li>
             <li>Write 5 new words you learned.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener41} value={spanishEssay41}/>
 
@@ -1434,7 +1501,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener42} value={spanishEssay42}/>
 
@@ -1446,7 +1514,8 @@ const SpanishComponent = ({ data }) => {
             <li>Explain the differences between saber and conocer.</li>
             <li>Write a sentence in Spanish using the verb saber.</li>
             <li>Write a sentence in Spanish using the verb conocer.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener43} value={spanishEssay43}/>
 
@@ -1460,7 +1529,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 sentences that use the verb quedar. Each sentence should use a different meaning than the
               others. Number each response.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener44} value={spanishEssay44}/>
 
@@ -1475,7 +1545,8 @@ const SpanishComponent = ({ data }) => {
             </li>
             <li>How would you say, "I like cats" in Spanish?</li>
             <li>Write 5 sentences in Spanish that use the verb <i>gustar.</i></li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener45} value={spanishEssay45}/>
 
@@ -1489,7 +1560,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener46} value={spanishEssay46}/>
 
@@ -1505,7 +1577,8 @@ const SpanishComponent = ({ data }) => {
             <li>How would you say, "The girl is tall" in Spanish?</li>
             <li>Write 5 phrases you learned about how to describe someone or ask how someone looks.</li>
             <li>Write 5 new phrases you learned from the Easy Spanish video.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener47} value={spanishEssay47}/>
 
@@ -1520,7 +1593,8 @@ const SpanishComponent = ({ data }) => {
             <li>How would you ask for the bill in Spanish?</li>
             <li>Write 4 phrases you learned from the Butterfly Spanish video.</li>
             <li>Write 5 new phrases you learned from Easy Spanish.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener48} value={spanishEssay48}/>
 
@@ -1533,7 +1607,8 @@ const SpanishComponent = ({ data }) => {
           <ol className="vocab">
             <li>What are the 10 most common questions in Spanish? Number your responses.</li>
             <li>Write 5 new phrases you learned from Easy Spanish.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener49} value={spanishEssay49}/>
 
@@ -1548,7 +1623,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write out the number 967 in Spanish.</li>
 
             <li>Write 5 new phrases you learned in Easy Spanish.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener50} value={spanishEssay50}/>
 
@@ -1562,7 +1638,8 @@ const SpanishComponent = ({ data }) => {
               You may use a <a href="https://www.spanishdict.com/" rel="noreferrer" target="_blank">translator</a> to
               help you if you need it.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener51} value={spanishEssay51}/>
 
@@ -1574,7 +1651,8 @@ const SpanishComponent = ({ data }) => {
           <ol className="vocab">
             <li>What was your favorite idiom form the video?</li>
             <li>Write 5 idioms you learned in the video.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener52} value={spanishEssay52}/>
 
@@ -1591,7 +1669,8 @@ const SpanishComponent = ({ data }) => {
             <li>I am very hot.</li>
             <li>Write 5 new phrases you learned to discuss the weather.</li>
             <li>Write 5 new phrases you learned from Easy Spanish.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener53} value={spanishEssay53}/>
 
@@ -1603,7 +1682,8 @@ const SpanishComponent = ({ data }) => {
           <ol className="vocab">
             <li>What is Spangish and why should you try to avoid using it.</li>
             <li>Write 2 <i>Spanglish</i> phrases you heard in the video or make up your own.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener54} value={spanishEssay54}/>
 
@@ -1619,7 +1699,8 @@ const SpanishComponent = ({ data }) => {
               you need it.
             </li>
 
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener55} value={spanishEssay55}/>
 
@@ -1635,7 +1716,8 @@ const SpanishComponent = ({ data }) => {
             </li>
             <li>Write 5 verbs that would be useful for emailing someone.</li>
             <li>Write 5 email expressions you learned.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener56} value={spanishEssay56}/>
 
@@ -1648,7 +1730,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener57} value={spanishEssay57}/>
 
@@ -1659,7 +1742,8 @@ const SpanishComponent = ({ data }) => {
           <h4>QUESTIONS</h4>
           <ol className="vocab">
             <li>Write 8 new words you learned in the video.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener58} value={spanishEssay58}/>
 
@@ -1670,7 +1754,8 @@ const SpanishComponent = ({ data }) => {
           <h4>QUESTIONS</h4>
           <ol className="vocab">
             <li>Write 5 new verbs you learned. Write the words in Spanish and then English.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener59} value={spanishEssay59}/>
 
@@ -1684,7 +1769,8 @@ const SpanishComponent = ({ data }) => {
             <li>you believe</li>
             <li>he understands</li>
             <li>Write conjugate three other verbs you learned.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener60} value={spanishEssay60}/>
 
@@ -1703,7 +1789,7 @@ const SpanishComponent = ({ data }) => {
           </ul>
           <Video videoUrl="https://www.youtube.com/embed/oYav1M8FUuo"/>
           <div className="songrow">
-            <h4><i>&nbsp; &nbsp;&nbsp;Perro Viejo</i> by Juanes</h4>
+            <h4><i>Perro Viejo</i> by Juanes</h4>
             <div className="songcolumn">
               <ul>
                 <li><i>&nbsp; Perro Viejo</i></li>
@@ -1812,7 +1898,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener62} value={spanishEssay62}/>
 
@@ -1826,7 +1913,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener63} value={spanishEssay63}/>
 
@@ -1841,7 +1929,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener64} value={spanishEssay64}/>
 
@@ -1858,7 +1947,8 @@ const SpanishComponent = ({ data }) => {
               English.
             </li>
             <li>What is your favorite book? Describe in Spanish why you like it.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener65} value={spanishEssay65}/>
 
@@ -1872,7 +1962,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener66} value={spanishEssay66}/>
 
@@ -1889,7 +1980,8 @@ const SpanishComponent = ({ data }) => {
             <li>What are 6 ways to say goodbye in Spanish?</li>
             <li>Are there differences between how Spanish is pronounced in Spain versus Latin America?</li>
             <li>Write 5 new phrases you learned in Easy Spanish.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener67} value={spanishEssay67}/>
 
@@ -1905,7 +1997,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener68} value={spanishEssay68}/>
 
@@ -1920,7 +2013,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener69} value={spanishEssay69}/>
 
@@ -1932,7 +2026,8 @@ const SpanishComponent = ({ data }) => {
           <ol className="vocab">
             <li>What are the different ways to say 'I'm sorry' in Spanish?</li>
             <li>Write 5 new words you learned.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener70} value={spanishEssay70}/>
 
@@ -1943,7 +2038,8 @@ const SpanishComponent = ({ data }) => {
           <h4>QUESTIONS</h4>
           <ol className="vocab">
             <li>Write 5 new phrases and 5 new words you learned in the video on love expressions.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener71} value={spanishEssay71}/>
 
@@ -1954,7 +2050,8 @@ const SpanishComponent = ({ data }) => {
           <h4>QUESTIONS</h4>
           <ol className="vocab">
             <li>Write 5 funny or not so funny phrases you learned in Spanish.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener72} value={spanishEssay72}/>
 
@@ -1971,7 +2068,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener73} value={spanishEssay73}/>
 
@@ -1987,7 +2085,8 @@ const SpanishComponent = ({ data }) => {
             <li> Give 2 examples of how to use it in a sentence.</li>
             <li>In Spanish, describe what was you favorite moment from this past year?</li>
             <li>Write 5 new phrases you learned from the video.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener74} value={spanishEssay74}/>
 
@@ -2005,7 +2104,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener75} value={spanishEssay75}/>
 
@@ -2022,7 +2122,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener76} value={spanishEssay76}/>
 
@@ -2034,7 +2135,8 @@ const SpanishComponent = ({ data }) => {
           <ol className="vocab">
             <li>What are 5 words that don't exist in Spanish?</li>
             <li>Write 5 new phrases you learned from the video.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener77} value={spanishEssay77}/>
 
@@ -2051,7 +2153,8 @@ const SpanishComponent = ({ data }) => {
             <li>What sounds does 'Y' make is Spanish?</li>
             <li>What sounds does 'LL' make is Spanish?</li>
 
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener78} value={spanishEssay78}/>
 
@@ -2067,7 +2170,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener79} value={spanishEssay79}/>
 
@@ -2079,7 +2183,8 @@ const SpanishComponent = ({ data }) => {
           <ol className="vocab">
             <li>How do you say in Spanish "Give me a Coke please."</li>
             <li>Write 5 new words you learned in the video.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener80} value={spanishEssay80}/>
 
@@ -2095,7 +2200,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener81} value={spanishEssay81}/>
 
@@ -2109,7 +2215,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener82} value={spanishEssay82}/>
 
@@ -2123,7 +2230,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener83} value={spanishEssay83}/>
 
@@ -2137,7 +2245,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener84} value={spanishEssay84}/>
 
@@ -2152,7 +2261,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new phrases you learned from Easy Spanish.</li>
             <li>When do you use the verb "ser"? Give an example in a sentence.</li>
             <li>When do you use the verb "estar"? Give an example in a sentence.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener85} value={spanishEssay85}/>
 
@@ -2166,7 +2276,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener86} value={spanishEssay86}/>
 
@@ -2180,7 +2291,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener87} value={spanishEssay87}/>
 
@@ -2197,7 +2309,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener88} value={spanishEssay88}/>
 
@@ -2209,7 +2322,8 @@ const SpanishComponent = ({ data }) => {
           <h4>QUESTIONS</h4>
           <ol className="vocab">
             <li>Write 5 new phrases you learned from both videos.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener89} value={spanishEssay89}/>
 
@@ -2223,7 +2337,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener90} value={spanishEssay90}/>
 
@@ -2242,7 +2357,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener91} value={spanishEssay91}/>
 
@@ -2257,7 +2373,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener92} value={spanishEssay92}/>
 
@@ -2271,7 +2388,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener93} value={spanishEssay93}/>
 
@@ -2285,7 +2403,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener94} value={spanishEssay94}/>
 
@@ -2301,7 +2420,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener95} value={spanishEssay95}/>
 
@@ -2317,7 +2437,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener96} value={spanishEssay96}/>
 
@@ -2330,7 +2451,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener97} value={spanishEssay97}/>
 
@@ -2348,7 +2470,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener98} value={spanishEssay98}/>
 
@@ -2361,7 +2484,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener99} value={spanishEssay99}/>
 
@@ -2375,7 +2499,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener100} value={spanishEssay100}/>
 
@@ -2391,7 +2516,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener101} value={spanishEssay101}/>
 
@@ -2408,7 +2534,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener102} value={spanishEssay102}/>
 
@@ -2427,7 +2554,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener103} value={spanishEssay103}/>
 
@@ -2444,7 +2572,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener104} value={spanishEssay104}/>
 
@@ -2463,7 +2592,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener105} value={spanishEssay105}/>
 
@@ -2479,7 +2609,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener106} value={spanishEssay106}/>
 
@@ -2492,7 +2623,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener107} value={spanishEssay107}/>
 
@@ -2505,7 +2637,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener108} value={spanishEssay108}/>
 
@@ -2523,7 +2656,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener109} value={spanishEssay109}/>
 
@@ -2538,7 +2672,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener110} value={spanishEssay110}/>
 
@@ -2556,7 +2691,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener111} value={spanishEssay111}/>
 
@@ -2573,7 +2709,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener112} value={spanishEssay112}/>
 
@@ -2588,7 +2725,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener113} value={spanishEssay113}/>
 
@@ -2601,7 +2739,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener114} value={spanishEssay114}/>
 
@@ -2614,7 +2753,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener115} value={spanishEssay115}/>
 
@@ -2630,7 +2770,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener116} value={spanishEssay116}/>
 
@@ -2647,7 +2788,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener117} value={spanishEssay117}/>
 
@@ -2661,7 +2803,8 @@ const SpanishComponent = ({ data }) => {
               Tu, Usted, Nosotros, Ustedes)
             </li>
             <li>Write 5 questions in Spanish using the verb "to go". Use a different pronoun for each sentence.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener118} value={spanishEssay118}/>
 
@@ -2678,7 +2821,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener119} value={spanishEssay119}/>
 
@@ -2691,7 +2835,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener120} value={spanishEssay120}/>
 
@@ -2705,7 +2850,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener121} value={spanishEssay121}/>
 
@@ -2718,7 +2864,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener122} value={spanishEssay122}/>
 
@@ -2733,7 +2880,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener123} value={spanishEssay123}/>
 
@@ -2747,7 +2895,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener124} value={spanishEssay124}/>
 
@@ -2760,7 +2909,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener125} value={spanishEssay125}/>
 
@@ -2779,7 +2929,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener126} value={spanishEssay126}/>
 
@@ -2798,7 +2949,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener127} value={spanishEssay127}/>
 
@@ -2815,7 +2967,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener128} value={spanishEssay128}/>
 
@@ -2828,7 +2981,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener129} value={spanishEssay129}/>
 
@@ -2839,7 +2993,8 @@ const SpanishComponent = ({ data }) => {
           <h4>QUESTIONS</h4>
           <ol className="vocab">
             <li>Write 10 new verbs you learned from the video.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener130} value={spanishEssay130}/>
 
@@ -2852,7 +3007,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener131} value={spanishEssay131}/>
 
@@ -2865,7 +3021,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener132} value={spanishEssay132}/>
 
@@ -2878,7 +3035,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener133} value={spanishEssay133}/>
 
@@ -2891,7 +3049,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener134} value={spanishEssay134}/>
 
@@ -2904,7 +3063,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener135} value={spanishEssay135}/>
 
@@ -2921,7 +3081,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener136} value={spanishEssay136}/>
 
@@ -2933,7 +3094,8 @@ const SpanishComponent = ({ data }) => {
           <h4>QUESTIONS</h4>
           <ol className="vocab">
             <li>Show 10 different ways to use the verb haber.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener137} value={spanishEssay137}/>
 
@@ -2948,7 +3110,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener138} value={spanishEssay138}/>
 
@@ -2964,7 +3127,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener139} value={spanishEssay139}/>
 
@@ -2987,7 +3151,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write a sentence in Spanish using the word bueno.</li>
             <li>Write a sentence in Spanish using the word por.</li>
             <li>Write a sentence in Spanish using the word para.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener140} value={spanishEssay140}/>
 
@@ -3001,7 +3166,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener141} value={spanishEssay141}/>
 
@@ -3015,7 +3181,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener142} value={spanishEssay142}/>
 
@@ -3029,7 +3196,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener143} value={spanishEssay143}/>
 
@@ -3045,7 +3213,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener144} value={spanishEssay144}/>
 
@@ -3062,7 +3231,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener145} value={spanishEssay145}/>
 
@@ -3077,7 +3247,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener146} value={spanishEssay146}/>
 
@@ -3091,7 +3262,8 @@ const SpanishComponent = ({ data }) => {
             <li>Give 8 different different examples of how to use the verb <i>dejar</i> in a sentence. Make sure your
               examples are all different from each other.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener147} value={spanishEssay147}/>
 
@@ -3110,7 +3282,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener148} value={spanishEssay148}/>
 
@@ -3125,7 +3298,8 @@ const SpanishComponent = ({ data }) => {
             <li>In Spanish, how would you say "I must go to see my mother tomorrow."</li>
             <li>In Spanish, how would you ask "What can you do today?"</li>
             <li>Write 2 new Spanish phrases you learned from the video.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener149} value={spanishEssay149}/>
 
@@ -3143,7 +3317,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener150} value={spanishEssay150}/>
 
@@ -3157,7 +3332,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener151} value={spanishEssay151}/>
 
@@ -3173,7 +3349,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener152} value={spanishEssay152}/>
 
@@ -3188,7 +3365,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener153} value={spanishEssay153}/>
 
@@ -3205,7 +3383,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener154} value={spanishEssay154}/>
 
@@ -3219,7 +3398,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener155} value={spanishEssay155}/>
 
@@ -3233,7 +3413,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener156} value={spanishEssay156}/>
 
@@ -3245,7 +3426,8 @@ const SpanishComponent = ({ data }) => {
           <h4>QUESTIONS</h4>
           <ol className="vocab">
             <li>Write 5 Spanish phrases you learned to be polite.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener157} value={spanishEssay157}/>
 
@@ -3260,7 +3442,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener158} value={spanishEssay158}/>
 
@@ -3275,7 +3458,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener159} value={spanishEssay159}/>
 
@@ -3290,7 +3474,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener160} value={spanishEssay160}/>
 
@@ -3304,7 +3489,8 @@ const SpanishComponent = ({ data }) => {
             <li>Choose 5 filler words the narrator discussed in the video and give an example by using each in a
               sentence. Then translate each sentence into English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener161} value={spanishEssay161}/>
 
@@ -3321,7 +3507,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener162} value={spanishEssay162}/>
 
@@ -3341,7 +3528,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener163} value={spanishEssay163}/>
 
@@ -3355,7 +3543,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 ways to make excuses in Spanish. You can use ones you learned in the video or make up your
               own.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener164} value={spanishEssay164}/>
 
@@ -3373,7 +3562,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener165} value={spanishEssay165}/>
 
@@ -3390,7 +3580,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener166} value={spanishEssay166}/>
 
@@ -3402,7 +3593,8 @@ const SpanishComponent = ({ data }) => {
           <h4>QUESTIONS</h4>
           <ol className="vocab">
             <li>Write 5 Spanish sayings you learned from the video and translate them to English.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener167} value={spanishEssay167}/>
 
@@ -3419,7 +3611,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener168} value={spanishEssay168}/>
 
@@ -3431,7 +3624,8 @@ const SpanishComponent = ({ data }) => {
           <h4>QUESTIONS</h4>
           <ol className="vocab">
             <li>In Spanish, describe yourself, on the inside and outside. Write no less than 5 sentences).</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener169} value={spanishEssay169}/>
 
@@ -3451,7 +3645,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener170} value={spanishEssay170}/>
 
@@ -3466,7 +3661,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener171} value={spanishEssay171}/>
 
@@ -3479,7 +3675,8 @@ const SpanishComponent = ({ data }) => {
             <li>What does "Este Wey" translate to in English?</li>
             <li>What does "y lo voy a sacar" mean?</li>
             <li>Write 5 new phrases you learned from the video.</li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener172} value={spanishEssay172}/>
 
@@ -3507,7 +3704,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener173} value={spanishEssay173}/>
 
@@ -3523,7 +3721,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener174} value={spanishEssay174}/>
 
@@ -3538,7 +3737,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener175} value={spanishEssay175}/>
 
@@ -3553,7 +3753,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener176} value={spanishEssay176}/>
 
@@ -3568,7 +3769,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener177} value={spanishEssay177}/>
 
@@ -3583,7 +3785,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener178} value={spanishEssay178}/>
 
@@ -3604,7 +3807,8 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 other Spanish phrases you learned from the video. Write them in Spanish and then translate them
               to English.
             </li>
-            <li>Write the name of the lesson you completed on Duolingo AND the total number of points you have.</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
           <textarea className="textArea" onChange={onChangespanishListener179} value={spanishEssay179}/>
 
@@ -3623,6 +3827,10 @@ const SpanishComponent = ({ data }) => {
             <li>Imagine you won a free trip. You get to select from any of the Spanish speaking destinations below.
               Which place do you pick and why would you like to go there? Write your response in Spanish.
             </li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a>AND the total number of
+              points you have.
+            </li>
           </ol>
           <div className="rowimages">
             <div className="columnimages">
@@ -3632,7 +3840,7 @@ const SpanishComponent = ({ data }) => {
               </div>
               <div><img src={require("../../public/images/stories/machupiccu.jpg")} style={{ maxWidth: "500px" }}
                         alt=""/>
-                <p className="captionTitle">Machu Piccu</p></div>
+                <p className="captionTitle">Machu Piccu, Peru</p></div>
 
               <div><img src={require("../../public/images/stories/galapagos2.jpg")} style={{ maxWidth: "500px" }}
                         alt=""/>

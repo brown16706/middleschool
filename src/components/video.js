@@ -5,7 +5,7 @@ import '../styles/styles.css'
 const Video = ({ videoUrl, ...props }) => {
 
   return (
-    <div >
+    <div className="videoMargins">
     <LazyLoad className="videoWrapper" offset={100}>
           <iframe
             src={videoUrl}
@@ -16,7 +16,8 @@ const Video = ({ videoUrl, ...props }) => {
             allowFullScreen
           />
       </LazyLoad>
-</div>
+      <p className="videoBottomMarg"/>
+    </div>
   )
 };
 // Example taken from https://github.com/twobin/react-lazyload

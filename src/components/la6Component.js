@@ -3,6 +3,7 @@ import ToggleSwitch from "./checkbox"
 import "../styles/styles.css"
 import Video from "./video"
 import Confetti from "./confetti"
+import { Link } from "gatsby"
 
 function useLocalStorageState(key, defaultValue = "") {
   const [state, setState] = React.useState(
@@ -615,13 +616,25 @@ const LA6Component = ({ data }) => {
 
 
   return (
-
+    
     <form>
+    <section className="block-circles">
+      <div className="circle one"
+           style={{ animationDuration: "4s", backgroundColor: '#89d4f0', transform: "translate3d(0px, 0px, 0px) scale(0.9921, 1)", opacity: "0.9881" }}/>
+      <div className="circle two" style={{ animationDuration: "4s", backgroundColor: '#89d4f0', transform: "translate(0px, 0px)", opacity: 1 }}/>
+      <div className="hero-wrapper pbn hero animated animatedFadeInUp fadeInUp">
+        <h1 className="hero intro ">Language Arts</h1>
+        <div className="hero info-block info-block-line " style={{ marginBottom: "4em" }}>
+          <Link to="/sixth" className='gradeLink'><h2 className="hero">6th Grade</h2></Link>
+        </div>
+      </div>
+      </section>
+      
       <section className="section raise-top fadeIn">
         <div className="section-content">
-          <h1 className="section-title">Daily Lessons</h1>
-          <span className="days">Books</span>
-          <p className="margin-para">The books required for this course are: D'Aulaires <i>Book of Greek Myths, The
+          <h1 className="section-title fadeIn">Daily Lessons</h1>
+          <span className="days fadeIn">Books</span>
+          <p className="margin-para fadeIn">The books required for this course are: D'Aulaires <i>Book of Greek Myths, The
             Egypt Game</i> by Zilpha
             Keatley Snyder, <i> The Golden Compass</i> by Philip Pullman, <i> The Hunger Games</i> by Suzanne Collins,
             and <i>Stargirl</i> by
@@ -635,23 +648,23 @@ const LA6Component = ({ data }) => {
             viewing. </p>
           <p>When you complete the reading, answer the following questions to your best ability, using complete
             sentences:</p>
-          <p>1. Explain the creation of the universe according to Greek mythology.<br/>
-            2. What is a possible explanation for why the ancient Greeks created gods of so many different
-            things? In other words, why was there a god of the sea, earthquakes, and storms (Poseidon) and a god
-            of the dead and the underworld (Hades)?
-            <br/> 3. Describe how the Greeks saw the world. In what ways is it different than how we see the
-            world
-            today.
-            <br/> 4. What did Uranus do to upset Mother Earth?
-            <br/> 5. What did Cronus do to his children and why?<br/></p>
+          <p>1. According to Greek mythology how was the universe created?<br/>
+            2. There was a god who controlled lightning, another who controlled the seas, another who controlled agriculture,
+            another who controlled the sun, etc. Why do you think the ancient Greeks created so many different gods?  <br/> 
+            3. Based on their mythology, describe how ancient Greeks saw the world. If you lived back then, do you think you would have
+            believed in so many gods and seen the world like the ancient Greeks did?<br/>
+            4. Compare how Ancient Greeks saw the world and how they practiced religion compared to how people today see the world and practice religion.
+            <br/> 5. Describe how Uranus upset Mother Earth.
+            <br/> 6. What do you think about Cronus as a leader?  What did he do to his children? Why did he do this? <br/></p>
 
           <textarea className="textArea"
                     placeholder="Write your responses here. Your work will automatically be saved to your Local Storage. 
-                    If you clear your cookies, your answers will be erased! Be sure to back up your work by saving it in another 
-                    location. You can (1) 'Select All' (select your answers inside this textbox by touching/clicking on it) and 
-                    copy/paste it into Google Docs, a Word Doc or into an email 
-                    and send it to your parent or teacher. (2) On a PC, you can 'Select All', click 'Print' and then save as a PDF on
-                     your computer. Be sure to label each assignment with the Subject, Chapter Title, and Lesson Number. Also, number your responses."
+                    
+                    If you clear your cookies, your answers will be erased! Be sure to back up your work by saving it in another location. 
+                    
+                    You can (1) 'Select All' (select your answers inside this textbox by touching/clicking on it) and copy/paste it into Google Docs, a Word Doc or into an email and send it to your parent or teacher. 
+                    
+                    (2) On a PC, you can 'Select All', click 'Print' and then save as a PDF on your computer. Be sure to label each assignment with the Subject, Chapter Title, and Lesson Number. Also, number your responses."
                     onChange={onChangeLA6Listener} value={la6Essay}/>
           <p>If you don’t already have an account with Quizlet, <a
             href="https://help.quizlet.com/hc/en-us/articles/360030555532-Signing-up-for-a-free-account"
@@ -662,34 +675,33 @@ const LA6Component = ({ data }) => {
             the flashcards and take the test for Olden Times, Gaea, The Titans, Cronus</a>.
             You can take the test as many times as you like so you can do your best.</p><br/>
 
-          <p><span className="days">LESSON 2</span></p>
-          <a href={require("../resources/books/Daulaires/2_zeus_and_his_family.pdf")} rel="noreferrer"
+          <span className="days">LESSON 2</span>
+         <p> <a href={require("../resources/books/Daulaires/2_zeus_and_his_family.pdf")} rel="noreferrer"
              target="_blank">
-            Read <i>Zeus and his Family.</i></a>
+           Read <i>Zeus and his Family </i></a> from D'Aulaire's Book of Greek Myths.</p>
           <p> Watch the video The Greek Gods</p>
           <Video videoUrl="https://www.youtube.com/embed/eJCm8W5RZes"/>
-          <p>To the best of your ability, answer the following questions:<br/>
-            1. How are Zeus and his siblings able to become rulers of the world?<br/>
-            2. Describe the spectacular birth of Zeus’ children.<br/>
+          <p>In complete sentences, answer the following questions:<br/>
+            1. Describe how Zeus and his siblings managed to become rulers of the world.<br/>
+            2. Zeus’ children were not born in an ordinary way.  Describe how they were born.<br/>
             3. What did you find the most interesting about the video?</p>
 
           <textarea className="textArea" onChange={onChangeLA6Listener2} value={la6Essay2}
-                    placeholder="Write your answers here. Back up your work or email it to your teacher/parent."/>
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+          />
 
           <p>Go to <a href="https://quizlet.com/519237427/lesson-2-zeus-and-his-family-pp-16-21-flash-cards/"
                       rel="noreferrer" target="_blank">
             Quizlet. Review the flashcards and take the test for Lesson 2</a>.
             You can take the test as many times as like so you can do your best.</p>
           <br/>
-          <p><span className="days">LESSON 3</span>
-          </p>
-          <a href={require("../resources/books/Daulaires/3_twelve_golden_thrones.pdf")} rel="noreferrer"
-             target="_blank"> Read
-            <i> Twelve Golden Thrones</i>.</a>
+          <span className="days">LESSON 3</span>
+          <p><a href={require("../resources/books/Daulaires/3_twelve_golden_thrones.pdf")} rel="noreferrer"
+             target="_blank"> Read <i> Twelve Golden Thrones</i></a> from D'Aulaire's Book of Greek Myths.</p>
           <br/>
-          <p>To the best of your ability, answer the following questions:<br/>
+          <p>In complete sentences, answer the following questions:<br/>
             1. Which god or goddess do you think would make the best president? Explain your answer.<br/>
-            2. The gods and goddesses can never die. How do you think this affects how they live their lives and
+            2. The gods and goddesses of ancient Greece could never die. How do you think this affects how they live their lives and
             make decisions?<br/>
             3. Would you choose to live forever if you could? Why or why not?</p>
           <textarea className="textArea"
@@ -701,31 +713,29 @@ const LA6Component = ({ data }) => {
             Quizlet. Review the flashcards and take the test for Lesson 3.</a>
             You can take the test as many times as like so you can do your best. </p>
           <br/>
-          <p><span className="days">LESSON 4</span>
-          </p><p><a href={require("../resources/books/Daulaires/4_hera_hephaestus.pdf")} rel="noreferrer"
-                    target="_blank"> Read <i>Hera
-          and Hephaestus</i>.</a></p>
+          <span className="days">LESSON 4</span>
+         <p><a href={require("../resources/books/Daulaires/4_hera_hephaestus.pdf")} rel="noreferrer"
+                    target="_blank"> Read <i>Hera and Hephaestus</i> </a>from D'Aulaire's Book of Greek Myths.</p>
           <p>After you finish the reading, answer the following questions to the
             best of your ability:<br/>
             1. Describe Hera. Who is she and what is she like?<br/>
-            2. Do you think the things she does out of jealousy is justified? Why or why not?<br/>
-            3. Describe Hephaestus. What was he known for?<br/>
-            4. What happened to him?
+            2. What do you think the things she does out of jealousy. Are they justified? Why or why not?<br/>
+            3. Describe Hephaestus. What was he known for?  Describe what happened to him.<br/>
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener4} value={la6Essay4}/>
 
-          <p>Go to <a href="Terms https://quizlet.com/519236864/lesson-4-hera-hephaestus-pp24-29-flash-cards/"
+          <p>Go to <a href="https://quizlet.com/519236864/lesson-4-hera-hephaestus-pp24-29-flash-cards/"
                       rel="noreferrer" target="_blank">
             Quizlet </a>, review the flashcards on Hera and Hephaestus, then take the test.
             You can take the test as many times as like so you can do your best. </p>
           <br/>
-          <p><span className="days">LESSON 5</span></p>
+          <span className="days">LESSON 5</span>
           <p>Watch the TedEd Video <i>What makes a hero?</i> by Matthew Winkler. </p>
 
           <Video videoUrl="https://www.youtube.com/embed/Hhk4N9A0oCA"/>
 
-          <p>To the best of your ability, answer the following questions:<br/>
-            1. Think of your favorite book or movie. Do you think it follow the hero’s journey pattern?
+          <p>In complete sentences, answer the following questions based on the TedEd lesson:<br/>
+            1. What is the hero’s journey pattern?  Think of your favorite book or movie. Do you think it follow the hero’s journey pattern?
             Explain.<br/>
             2. When does the hero realize that he/she is changed (or has outgrown his/her old life)? <br/>
             3. Can you think of an episode from your own life that fits the hero’s journey formula?<br/>
@@ -739,20 +749,19 @@ const LA6Component = ({ data }) => {
           <span className="days">LESSON 6</span>
           <p><a href={require("../resources/books/Daulaires/5_aphrodite_ares_athena.pdf")} rel="noreferrer"
                 target="_blank"> Read
-            <i> Aphrodite, Ares and Athena </i>.</a></p>
+            <i> Aphrodite, Ares and Athena </i></a> from D'Aulaire's Book of Greek Myths.</p>
           {/*Watch the Crash Course video <i> The Greeks and Romans - World Mythology</i>*/}
           {/*<Video videoUrl="https://www.youtube.com/embed/XNCQ9w59I7M"/>*/}
-          <p>To the best of your ability, answer the following questions:<br/>
-            1. What do you think is Aphrodite’s greatest power? <br/>
-            2. Would you like to have this ability? Why or why not? <br/>
+          <p>In complete sentences, answer the following questions:<br/>
+            1. What is Aphrodite’s greatest power? <br/>
+            2. Would you like to have this ability? Explain why or why not. <br/>
             3. What is your opinion about Ares? What do you think of him as a God?<br/>
-            4. Compare the gluttony of Cronus and Ares. How are they the same? How are they different? Who
-            causes
-            more suffering with their selfish actions? How does it affect others? <br/>
-            5. How is Athena different from the other goddesses?<br/>
-            6. To this day in Greece, there are many statues and monuments built in Athena's honor. What
-            qualities make
-            her special?
+            4. Compare Cronus and Ares, the god of war. How are Cronus and Ares the same? 
+            How are they different? Who do you dislike more and why?  Who
+            do you believe caused more suffering? <br/>
+            5. How is Athena different from other goddesses?<br/>
+            6. Numerous statues, monuments, paintings and athletic games were created to honor Athena. What
+            qualities do you think make her special?
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener6} value={la6Essay6}/>
 
@@ -761,10 +770,10 @@ const LA6Component = ({ data }) => {
             Quizlet. Review the flashcards and take the test for this lesson.</a>
             You can take the test as many times as like so you can do your best. </p>
           <br/>
-          <p><span className="days">LESSON 7</span></p>
+          <span className="days">LESSON 7</span>
           <p>Watch the TedEd Video <i>The Myth of Arachne and Athena</i> by Iseult Gillespie. </p>
           <Video videoUrl="https://www.youtube.com/embed/XvUHcsZOhJ8"/>
-          <p>To the best of your ability, answer the following questions:<br/>
+          <p>In complete sentences, answer the following questions based on the TedEd video:<br/>
             1. In "The Myth of Arachne" why did Athena disguise herself and sneak in amongst the mortals? What
             was she trying to do?<br/>
             2. Why did Athena punish Arachne?<br/>
@@ -780,18 +789,18 @@ const LA6Component = ({ data }) => {
           <br/>
           <span className="days">LESSON 8</span>
           <p> Read <i>Poseidon
-            and Apollo</i></p>
+            and Apollo</i> from D'Aulaire's Book of Greek Myths.</p>
           Watch the video <i>Poseidon: Lord of the Sea</i>
           <Video videoUrl="https://www.youtube.com/embed/o1iN2dQeS_s?list=PLgZdqfi4SZ0oAuzDDVjPVYJMQvfij88QQ"/>
           Watch the video <i>Apollo: The God of Light and Music</i>
           <Video videoUrl="https://www.youtube.com/embed/695TunhNpuw"/>
-          <p>To the best of your ability, answer the following questions:<br/>
-            1. Describe Poseidon and what he commanded. <br/>
+          <p>In complete sentences, answer the following questions:<br/>
+            1. Describe Poseidon. What is he known for and what things does he control? <br/>
             2. Do you believe Poseidon had any weaknesses? If so, what were they? If not, why do you believe
             this?<br/>
             3. What are 3 facts about Apollo?<br/>
-            4. In what ways would you want to be like Apollo?<br/>
-            5. Who would you prefer to have as a brother, Poseidon or Apollo? Explain.</p>
+            4. Are there any qualities Apollo has that you would want for yourself? Explain.<br/>
+            5. Who would you prefer to have as a brother, Poseidon or Apollo? Explain why.</p>
           <textarea className="textArea" onChange={onChangeLA6Listener8} value={la6Essay8}/>
 
           <p>Go to <a href="https://quizlet.com/519236422/lesson-6-poseidon-apollo-pp-38-43-flash-cards/"
@@ -801,19 +810,19 @@ const LA6Component = ({ data }) => {
           <br/>
           <span className="days">LESSON 9</span>
           <p> Read <i>Artemis
-            and Hermes</i>.</p>
+            and Hermes</i> from D'Aulaire's Book of Greek Myths.</p>
           Watch the video <i>Artemis: Goddess of the Hunt and Moon</i>
           <Video videoUrl="https://www.youtube.com/embed/H3fq1c-sy7s?list=PLgZdqfi4SZ0oAuzDDVjPVYJMQvfij88QQ"/>
           Watch the video <i>Hermes: The Messenger and Divine Trickster</i>
           <Video videoUrl="https://www.youtube.com/embed/H-zh8A99hiQ?list=PLgZdqfi4SZ0oAuzDDVjPVYJMQvfij88QQ"/>
-          <p>To the best of your ability, answer the following questions:<br/>
-            1. Describe Artemis. What are her special powers?<br/>
-            2. What promise did Zeus make to Artemis?<br/>
-            3. What does Artemis care about? Explain why you think this is.<br/>
-            4. Does she have any weaknesses? Explain.<br/>
-            5. What kind of child was Hermes?
+          <p>In complete sentences, answer the following questions:<br/>
+            1. Describe Artemis and her  abilities?  How do you like her?<br/>
+            2. Zeus promised Artemis something.  What was it?<br/>
+            3. What does Artemis care about? Explain why you think she cares about this so much.<br/>
+            4. Every god or goddess has weaknesses. What weaknesses does Artemis have? Explain.<br/>
+            5. Describe what Hermes was like as a child?<br/>
             6. Why is Hermes considered to be a master thief? Why does Zeus welcome him to Mt. Olympus?<br/>
-            7. Would you like to have Hermes as a close friend? Explain.
+            7. Would you like to have Hermes as a close friend? Why or why not?
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener9} value={la6Essay9}/>
 
@@ -824,16 +833,16 @@ const LA6Component = ({ data }) => {
           <br/>
           <span className="days">LESSON 10</span>
           <p> Read <i>Hades
-            and Persephone</i>.</p>
+            and Persephone</i> from D'Aulaire's Book of Greek Myths.</p>
           <p>Watch the video <i>Hades: God of the Underworld - Lord of the Dead</i></p>
           <Video videoUrl="https://www.youtube.com/embed/BMeNMdLMVN0?list=PLgZdqfi4SZ0oAuzDDVjPVYJMQvfij88QQ"/>
           <p>Watch the video <i>Hades and Persephone: The Story of the Seasons</i></p>
           <Video videoUrl="https://www.youtube.com/embed/5iJrhlOskag?list=PLgZdqfi4SZ0oAuzDDVjPVYJMQvfij88QQ"/>
-          <p>To the best of your ability, answer the following questions:<br/>
-            1. What are your impressions of Hades? What are his dominant traits?<br/>
-            2. Briefly describe what happened to Persephone. What are your thoughts about her fate?<br/>
-            3. How did the Greeks use the story of Persephone and Demeter to explain the seasons?<br/>
-            4. Do you think Hades is evil?
+          <p>In complete sentences, answer the following questions:<br/>
+            1. Describe Hades.  What do you think of him? Do you think he is good, evil or somewhere in between? Explain.<br/>
+            2. What happened to Persephone and what was your reaction to it?<br/>
+            3. The story of Persephone and Demeter explained to the ancient Greeks why there were seasons.  How would you describe this story
+            to someone who has never heard it before?<br/>
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener10} value={la6Essay10}/>
 
@@ -843,13 +852,12 @@ const LA6Component = ({ data }) => {
             You can take the test as many times as like so you can do your best. </p>
           <br/>
           <span className="days">LESSON 11</span>
-          <p>Read <i>Dionysus </i> <br/>
+          <p>Read <i>Dionysus </i>  from D'Aulaire's Book of Greek Myths.<br/>
           </p>
-          <p>To the best of your ability, answer the following questions:<br/>
-            1. What was Dionysus the God of? What was he known for?<br/>
-            2. What did you think of him?<br/>
-            3. Dionysus was said to have a dual nature. There were two very different sides to him. What does
-            this mean?</p>
+          <p>In complete sentences, answer the following questions:<br/>
+            1. Describe Dionysus and his good and bad qualities. What was he known for? <br/>
+            2. Dionysus was said to have a "dual nature." This means he had two very different sides to him. Describe his "dual nature."</p>
+          3. What did you think of him as a god?<br/>
           <textarea className="textArea" onChange={onChangeLA6Listener11} value={la6Essay11}/>
 
           <p>Go to <a href="https://quizlet.com/519235399/lesson-9-dionysus-pp-64-69-flash-cards/"
@@ -860,12 +868,13 @@ const LA6Component = ({ data }) => {
           <span className="days">LESSON 12</span>
 
           <p> Read <i>Prometheus
-            and the Minor Gods</i></p>
+            and the Minor Gods</i> from D'Aulaire's Book of Greek Myths.</p>
           <p>Watch the video <i>The Myth of Prometheus</i> by Iseult Gillespie</p>
           <Video videoUrl="https://www.youtube.com/embed/U_u91SjrEOE"/>
-          <p>To the best of your ability, answer the following questions:<br/>
-            1. Briefly describe what Prometheus did for humans and why Zeus punished him.<br/>
-            2. Do you think his punishment was fair? Explain.<br/>
+          <p>In complete sentences, answer the following questions:<br/>
+            1. Briefly describe what Prometheus did for humans.<br/>
+            2. Why did why Zeus punish him for doing this? <br/>
+            3. Do you think his punishment was fair? Explain.<br/>
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener12} value={la6Essay12}/>
 
@@ -876,17 +885,17 @@ const LA6Component = ({ data }) => {
           <br/>
           <span className="days">LESSON 13</span>
           <p> Read
-            <i> Pandora and Deucalion</i></p>
+            <i> Pandora and Deucalion</i> from D'Aulaire's Book of Greek Myths.</p>
           <p>Watch the video <i>The Myth of Pandora’s box</i> by Iseult Gillespie</p>
           <Video videoUrl="https://www.youtube.com/embed/pMdJxVjZMRI"/>
-          <p>To the best of your ability, answer the following questions:<br/>
+          <p>In complete sentences, answer the following questions:<br/>
             1. What gift did Zeus give to Pandora?<br/>
             2. What was Pandora warned not to do?<br/>
             3. Who did Pandora fall in love with?<br/>
-            4. What did Pandora hope to find when she looked inside the box?<br/>
+            4. What was Pandora hoping to find when she looked inside the box?<br/>
             5. What was at the bottom of Pandora's box?<br/>
             6. Why do you think Zeus gave Pandora the box?<br/>
-            7. Why is it important that hope was also in the box?<br/>
+            7. Why is it so important that hope was also in the box?<br/>
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener13} value={la6Essay13}/>
 
@@ -897,8 +906,8 @@ const LA6Component = ({ data }) => {
           <br/>
           <span className="days">LESSON 14</span>
           <p> Read
-            <i> Eos, Helios and Selene</i></p>
-          <p>To the best of your ability, answer the following questions:<br/>
+            <i> Eos, Helios and Selene</i> from D'Aulaire's Book of Greek Myths.</p>
+          <p>In complete sentences, answer the following questions:<br/>
             1. Briefly describe Eos, Helios and Selene.<br/>
             2. What are their strengths and weaknesses? <br/>
             3. What promise did Helios regret and what happened to his son?<br/>
@@ -912,8 +921,8 @@ const LA6Component = ({ data }) => {
           <br/>
           <span className="days">LESSON 15</span>
           <p> Read <i>Pan,
-            Echo and Syrinx</i></p>
-          <p>To the best of your ability, answer the following questions:<br/>
+            Echo and Syrinx</i> from D'Aulaire's Book of Greek Myths.</p>
+          <p>In complete sentences, answer the following questions:<br/>
             1. What kind of creature was Pan and what did he look like?<br/>
             2. Briefly explain what happened to Echo. Why could Echo only repeat the words of others?<br/>
             3. Describe Syrinx and who she is.</p>
@@ -926,10 +935,10 @@ const LA6Component = ({ data }) => {
           <br/>
           <span className="days">LESSON 16</span>
           <p> Read
-            <i> Centaurs and Asclepius</i></p>
+            <i> Centaurs and Asclepius</i> from D'Aulaire's Book of Greek Myths.</p>
           <p>Watch the video <i>The Centaurs of Greek Mythology</i></p>
           <Video videoUrl="https://www.youtube.com/embed/tJtJPKKAwhc?list=PLgZdqfi4SZ0oAuzDDVjPVYJMQvfij88QQ"/>
-          <p>To the best of your ability, answer the following questions:<br/>
+          <p>In complete sentences, answer the following questions:<br/>
             1. Describe what centaurs are.<br/>
             2. Who is Asclepius and what is he like? Does he have any special traits or abilities?
           </p>
@@ -941,10 +950,10 @@ const LA6Component = ({ data }) => {
             You can take the test as many times as like so you can do your best. </p>
           <br/>
           <span className="days">LESSON 17</span>
-          <p>Read <i>The Nine Muses</i></p>
+          <p>Read <i>The Nine Muses</i> from D'Aulaire's Book of Greek Myths.</p>
           Watch the video <i>Muses: The 9 Inspirational Goddesses of Greek Mythology</i>
           <Video videoUrl="https://www.youtube.com/embed/ORKCWfbrY8k?list=PLY7BFnOZ_ONSGH0Mg0XRwMv9K41eawUvp"/>
-          <p>To the best of your ability, answer the following questions:<br/>
+          <p>In complete sentences, answer the following questions:<br/>
             1. Describe the nine muses. What were they known for and why were they special?<br/>
             2. Do you think they were important? Explain.<br/>
             3. What is the meaning of the word "muse"? You can look this up if you're not sure.<br/>
@@ -975,8 +984,8 @@ const LA6Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangeLA6Listener18} value={la6Essay18}/>
 
           <span className="days">LESSON 19</span>
-          <p> Read <i>Europa and Cadmus</i></p>
-          <p>To the best of your ability, answer the following questions:<br/>
+          <p> Read <i>Europa and Cadmus</i> from D'Aulaire's Book of Greek Myths.</p>
+          <p>In complete sentences, answer the following questions:<br/>
             1. What happened to Europa at the beginning of the story?<br/>
             2. What is Cadmus’ task?<br/>
             3. What are some achievements of Cadmus?<br/>
@@ -990,8 +999,8 @@ const LA6Component = ({ data }) => {
             You can take the test as many times as like so you can do your best. </p>
           <br/>
           <span className="days">LESSON 20</span>
-          <p> Click here to read <i>Danaus, Perseus, and the Gorgon</i></p>
-          <p>To the best of your ability, answer the following questions:<br/>
+          <p> Click here to read <i>Danaus, Perseus, and the Gorgon</i> from D'Aulaire's Book of Greek Myths.</p>
+          <p>In complete sentences, answer the following questions:<br/>
             1. Describe what Danaus did to his daughter and her child, Perseus?<br/>
             2. Why did he do this?<br/>
             3. What did the king ask Perseus to bring him as a gift?<br/>
@@ -1028,10 +1037,10 @@ const LA6Component = ({ data }) => {
 
           <span className="days">LESSON 22</span>
           <p> Click here
-            to read <i>Midas, Sisyphus, Bellerophon, and Melampus</i></p>
+            to read <i>Midas, Sisyphus, Bellerophon, and Melampus</i> from D'Aulaire's Book of Greek Myths.</p>
           Watch the video <i>The myth of Sisyphus</i> by TedEd
           <Video videoUrl="https://www.youtube.com/embed/q4pDUxth5fQ"/>
-          <p>To the best of your ability, answer the following questions:<br/>
+          <p>In complete sentences, answer the following questions:<br/>
             1. What were the moral lessons you learned? <br/>
             2. Why was Midas punished? Do you think the punishment was fair? Why or why not? <br/>
             3. Explain why the author described Sisyphus as clever. How did he trick the gods?<br/>
@@ -1048,10 +1057,10 @@ const LA6Component = ({ data }) => {
           <br/>
           <span className="days">LESSON 23</span>
           <p> Read <i>Hercules
-            Part 1 </i></p>
+            Part 1 </i> from D'Aulaire's Book of Greek Myths.</p>
           Watch the video <i>Hercules: A Problematic Hero</i> by Crash Course
           <Video videoUrl="https://www.youtube.com/embed/R0qkSTvRQa8?list=PLEb6sGT7oD8G8nPbyvObaZUNdfV6kitZQ"/>
-          <p>To the best of your ability, answer the following questions:<br/>
+          <p>In complete sentences, answer the following questions:<br/>
             1. Why did Hercules have to serve the labors?<br/>
             2. Describe two of the labors.<br/>
             3. What do you think about Hercules as a hero?<br/>
@@ -1064,10 +1073,10 @@ const LA6Component = ({ data }) => {
             You can take the test as many times as like so you can do your best. </p>
           <br/>
           <span className="days">LESSON 24</span>
-          <p>/Read <i>Hercules Part 2</i></p>
-          Watch the Video <i>The myth of Hercules</i> by Alex Gendler. <br/>
+          <p>Read <i>Hercules Part 2</i> from D'Aulaire's Book of Greek Myths.</p>
+          Watch the Video <i>The Myth of Hercules</i> by Alex Gendler. <br/>
           <Video videoUrl="https://www.youtube.com/embed/nIIjhAuC76g"/>
-          <p>To the best of your ability, answer the following questions:<br/>
+          <p>In complete sentences, answer the following questions:<br/>
             3. What was Eurystheus’s relationship to Hercules?<br/>
             4. Why didn’t Hercules give the Ceryneian Hind to Eurystheus?<br/>
             5. What special item did Hercules need to defeat the Stymphalian birds?<br/>
@@ -1088,15 +1097,15 @@ const LA6Component = ({ data }) => {
           <p>Go to Quizlet to take <a href="https://quizlet.com/519222850/final-test-of-terms-flash-cards/"
                                       rel="noreferrer" target="_blank"> the final test </a>on all of the terms
             you've been learning
-            for D'Aulaire's Book
-            of Greek Myths. Spend some time reviewing the flashcards. When you are ready, take the test.
-            You can take the test as many times as like so you can do your best. </p>
+            for D'Aulaire's Book of Greek Myths. Spend some time reviewing the flashcards. When you are ready, take the test.
+            You can take the test as many times as like so you can do your best. Share with your parent or teacher how many you got correct out of 120.</p>
           <br/>
           <span className="days">LESSON 26</span>
           <p><b>Create Your Own Myth</b><br/>
             Myths were often used to explain natural phenomena. Your challenge is to create your
-            own myth to explain some natural phenomenon or land formation. It could be anything from the origin
-            of hurricanes to how the Grand Canyon. Tell this myth in a story
+            own myth to explain some natural phenomenon or land formation you find interesting. It can
+            be anything from the origin
+            of hurricanes to how the Grand Canyon was formed. Tell this myth in a story
             format, similar to how D’Aulaire wrote his stories about Greek gods and goddesses.<br/>
             <br/>Here are the guidelines:<br/>
             1. Your story must involve at least two Olympian Gods or Goddesses. You may involve more than two if
@@ -1108,7 +1117,7 @@ const LA6Component = ({ data }) => {
             5. Your story should clearly show that you know something about Greek mythology. You will do this by
             including details about the Olympian gods and goddesses that show you know their powers and
             personalities. <br/>
-            <br/> <b>If you're having trouble getting started, here are some ideas to get you thinking:</b> <br/>
+            <br/> <b>If you are having trouble getting started, here are some ideas to get you thinking:</b> <br/>
             Where did the Andes Mountains come from? <br/>
             Where did the Seine River come from? <br/>
             What made the North and/or South Pole(s)? <br/>
@@ -1123,12 +1132,11 @@ const LA6Component = ({ data }) => {
             remainder tomorrow). </p>
           <p> The next book you will read is <i>The Egypt Game</i> by Zilpha Keatley Snyder. After you watch the
             video below, read <a href={require("../resources/books/TheEgyptGameChapter1.pdf")} rel="noreferrer"
-                                 target="_blank"> <i>Chapter 1 ~ The Discovery of Egypt </i></a>
+                                 target="_blank"> <i>Chapter 1 ~ The Discovery of Egypt. </i></a>
             You can zoom in or out by using the + - icons at the bottom right. You can also enable fullscreen viewing.
           </p>
           <Video videoUrl="https://www.youtube.com/embed/hO1tzmi1V5g"/>
-          <p>After you complete the reading, write definitions for the vocabulary words below. Then, answer the
-            questions that follow. Be sure to use correct grammar.<br/>
+          <p>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
             <b>Vocabulary:</b> For each vocabulary word below, write a definition and then write a sentence using the
             word. Below is an example.<br/>
             1. taut <i style={{ color: "#4f5979" }}>stretched or pulled tight; not slack. "His muscles were taut from
@@ -1139,7 +1147,7 @@ const LA6Component = ({ data }) => {
             4. inspiration<br/>
             5. innovation<br/>
             6. ornate<br/>
-            <br/><i>Questions</i><br/>
+            <br/><strong>Questions</strong><br/>
             1. What are your first impressions of the Professor? Why?<br/>
             2. How did the Professor stumble upon the Egypt Game?<br/>
             3. Why is “Security” a good name for Marshall’s octopus?<br/>
@@ -1151,16 +1159,15 @@ const LA6Component = ({ data }) => {
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener26} value={la6Essay26}/>
           <span className="days">LESSONS 29 &amp; 30</span>
-          <p>After you wantch the video below, read <i>Chapter 2 ~ Enter April </i> from<i> The
-            Egypt Game</i>. After you complete the chapter, write definitions for
-            the vocabulary words below. Then answer the questions that follow.<br/>
+          <p>After you watch the video below, read <i>Chapter 2 ~ Enter April </i> from<i> The
+            Egypt Game</i>. Complete the vocabulary assignment and then answer the questions that follow.<br/>
             <Video videoUrl="https://www.youtube.com/embed/-_DN7l53J_c?list=PLvJNSf-7NfrO4ECq1tyS1SI9HlXMOKXZ7"/>
             <b>Vocabulary:</b> For each vocabulary word below, write a definition and then write a sentence using the
-            word. Be sure to do this for all the vocabulary words for this course. <br/>
+            word. <strong>Be sure to do this for all the vocabulary words for this course. </strong><br/>
             1. splendor <i>(you may use the internet to help you define these words)</i><br/>
             2. façade<br/>
             3. craggy<br/>
-            <br/><i>Questions</i><br/>
+            <br/><strong>Questions</strong><br/>
             1. Why did April move to the Casa Rosada? How would you feel if you were in the
             same situation?<br/>
             2. Who was Dorothea?<br/>
@@ -1176,16 +1183,14 @@ const LA6Component = ({ data }) => {
 
           <span className="days">LESSONS 31 &amp; 32</span>
           <p>After you watch the video, read <i>Chapter 3 ~ Enter Melanie and Marshall</i> from
-            <i> The Egypt Game</i>. After you
-            complete the chapter, write definitions for
-            the vocabulary words below. Then answer the questions that follow.<br/>
+            <i> The Egypt Game</i>. Complete the vocabulary assignment below and then answer the questions that follow.<br/>
             <Video videoUrl="https://www.youtube.com/embed/niZosUpuSyU?list=PLvJNSf-7NfrNSQl8ICXACg0XNUVM1dF2d"/>
             <i>Vocabulary</i><br/>
             1. teeter <br/>
             2. haughty<br/>
             3. occupation<br/>
             4. escapades<br/>
-            <br/><i>Questions</i><br/>
+            <br/><strong>Questions</strong><br/>
             1. If you were Melanie, what would your thoughts be about April at that first
             meeting?<br/>
             2. Why does April lie to Melanie about where April’s mom is?<br/>
@@ -1202,19 +1207,18 @@ const LA6Component = ({ data }) => {
 
           <span className="days">LESSONS 33 &amp; 34</span>
           <p>After you watch the video, read <i>Chapter 4 ~ The Egypt Girls</i> from
-            <i> The Egypt Game</i>. After you
-            complete the chapter, write definitions for
-            the vocabulary words below. Then answer the questions that follow.<br/>
+            <i> The Egypt Game</i>. Complete the vocabulary assignment below and then answer the questions that follow.<br/>
             <Video videoUrl="https://www.youtube.com/embed/jTsYuE_T0UQ?list=PLvJNSf-7NfrO4ECq1tyS1SI9HlXMOKXZ7"/>
 
-            <i>Vocabulary</i><br/>
+            <b>Vocabulary:</b> For each vocabulary word below, write a definition and then write a sentence using the
+            word. <br/>
             1. sympathetic<br/>
             2. accumulate<br/>
             3. reluctant<br/>
             4. sheer<br/>
             5. integrate<br/>
             6. evasive<br/>
-            <br/><i>Questions</i><br/>
+            <br/><strong>Questions</strong><br/>
             1. April and Melanie are very focused on Egypt. When have you been really focused
             on something? Explain.<br/>
             2. What was the one thing April didn’t know about? Why doesn’t she?<br/>
@@ -1225,20 +1229,21 @@ const LA6Component = ({ data }) => {
 
           <span className="days">LESSONS 35 &amp; 36</span>
           <p>Read <i>Chapter 5 ~ The Evil God and the Secret Spy</i> from
-            <i> The Egypt Game</i> and watach the video below. Write definitions for
+            <i> The Egypt Game</i> and watch the video below. Write definitions for
             the vocabulary words below. Then, answer the questions that follow.<br/>
             <Video videoUrl="https://www.youtube.com/embed/ioHMvicIOPY?list=PLvJNSf-7NfrO4ECq1tyS1SI9HlXMOKXZ7"/>
-            <i>Vocabulary</i><br/>
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            word. <br/>
             1. corrugate<br/>
             2. oblige<br/>
             3. warily<br/>
-            <br/><i>Questions</i><br/>
+            <br/><strong>Questions</strong><br/>
             1. What did April think the Professor would do if he caught them in his backyard?
             Why does she think that?<br/>
             2. What do you think would happen if the Professor caught them in his backyard?<br/>
             3. What was the Egyptian name they gave Marshall? Why?<br/>
             4. Why was the game postponed?<br/>
-            5. Based on the video: Give examples of when it's appropriate to use parenthesis.
+            5. Based on the video: Give 4 examples (using complete sentences) that show when it's appropriate to use parenthesis.
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener30} value={la6Essay30}/>
 
@@ -1246,11 +1251,10 @@ const LA6Component = ({ data }) => {
           <span className="days">LESSONS 35 &amp; 36</span>
           <p>Read <i>Chapter 6 ~ Eyelashes and Ceremony</i> from
             <i> The
-              Egypt Game</i> and watch the video. After you
-            complete the chapter, write definitions for
-            the vocabulary words below. Then answer the questions that follow.<br/>
+              Egypt Game</i> and watch the video. Complete the vocabulary assignment below and then answer the questions that follow.<br/>
             <Video videoUrl="https://www.youtube.com/embed/8L48L7IqJ4A?list=PLvJNSf-7NfrO4ECq1tyS1SI9HlXMOKXZ7"/>
-            <i>Vocabulary</i><br/>
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            word. <br/>
             1. triumphant<br/>
             2. treacherous<br/>
             3. crinoline<br/>
@@ -1258,7 +1262,7 @@ const LA6Component = ({ data }) => {
             5. leer<br/>
             6. mystic<br/>
             7. prostrations<br/>
-            <br/><i>Questions</i><br/>
+            <br/><strong>Questions</strong><br/>
             1. Why did Melanie hide April’s eyelashes? What would you have done if you were
             in a similar situation with a friend?<br/>
             2. Why did Toby and Ken give April a nickname? What was it?<br/>
@@ -1276,38 +1280,37 @@ const LA6Component = ({ data }) => {
           <span className="days">LESSONS 37 &amp; 38</span>
           <p>Read <i>Chapter 7 ~ Neferbeth</i> from
             <i> The
-              Egypt Game</i> and watch the video below. After you
-            complete the chapter, write definitions for
-            the vocabulary words below. Then answer the questions that follow.<br/>
+              Egypt Game</i> and watch the video below. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
             <Video videoUrl="https://www.youtube.com/embed/jWyX8vl6kMs?list=PLvJNSf-7NfrO4ECq1tyS1SI9HlXMOKXZ7"/>
-            <i>Vocabulary</i><br/>
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            word. <br/>
             1. ambush<br/>
             2. pang<br/>
             3. fink<br/>
             4. profile<br/>
             5. resemblance<br/>
-            <br/><i>Questions</i><br/>
+            <br/><strong>Questions</strong><br/>
             1. What did Mr. Ross mean when he said, “Melanie! The cruelest month is here”?<br/>
             2. Why did April and Melanie decide to let Elizabeth play in the Egypt Game?<br/>
             3. Based on the video: Give five examples of Latin or Greek roots. Define what each root means and give an
-            example used in a word.
+            example for each. For example bi- = two or twice <i>Example: bicycle</i>
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener32} value={la6Essay32}/>
 
           <br/>
           <span className="days">LESSONS 39 &amp; 40</span>
           <p>Read <i>Chapter 8 ~ Prisoners of Fear</i> from
-            <i> The Egypt Game</i> and watch the video. After you
-            complete the chapter, write definitions for
-            the vocabulary words below. Then answer the questions that follow.<br/>
+            <i> The Egypt Game</i> and watch the video. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
             <Video videoUrl="https://www.youtube.com/embed/tOb5motawPU?list=PLvJNSf-7NfrO4ECq1tyS1SI9HlXMOKXZ7"/>
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            word. <br/>
             1. dungeon<br/>
             2. clutches<br/>
             3. languish<br/>
             4. remedial<br/>
             5. suspicion<br/>
             6. circumstance<br/>
-            <br/><i>Questions</i><br/>
+            <br/><strong>Questions</strong><br/>
             1. How can someone be a “prisoner of fear”?<br/>
             2. How did they get the name Neferbeth?<br/>
             3. What happened in the neighborhood to put the Egypt Game on hold for a while?<br/>
@@ -1321,10 +1324,9 @@ const LA6Component = ({ data }) => {
           <span className="days">LESSONS 41 &amp; 42</span>
           <p>Read <i>Chapter 9 ~ Summoned by the Mighty One</i> from
             <i> The
-              Egypt Game</i>. After you
-            complete the chapter, write definitions for
-            the vocabulary words below. Then answer the questions that follow.<br/>
-            <i>Vocabulary</i><br/>
+              Egypt Game</i>. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            word. <br/>
             1. nag<br/>
             2. chaperone<br/>
             3. scheme<br/>
@@ -1332,7 +1334,7 @@ const LA6Component = ({ data }) => {
             5. tunic<br/>
             6. rapt<br/>
             7. monolith<br/>
-            <br/><i>Questions</i><br/>
+            <br/><strong>Questions</strong><br/>
             1. Why were the children allowed to go trick-or-treating? Do you think this was a good decision?
             Why/why not?<br/>
             2. What was April’s plan for the Egypt group on Halloween night? Is it a good plan?
@@ -1346,17 +1348,16 @@ const LA6Component = ({ data }) => {
           <span className="days">LESSONS 41 &amp; 42</span>
           <p>Read <i>Chapter 10 ~ The Return to Egypt</i> from
             <i> The
-              Egypt Game</i>. After you
-            complete the chapter, write definitions for
-            the vocabulary words below. Then answer the questions that follow.<br/>
-            <i>Vocabulary</i><br/>
+              Egypt Game</i>. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            word. <br/>
             1. sturdy<br/>
             2. wilt<br/>
             3. astonishment<br/>
             4. liable<br/>
             5. ignorance<br/>
             6. swagger<br/>
-            <br/><i>Questions</i><br/>
+            <br/><strong>Questions</strong><br/>
             1. Why did Marshall want to carry a sign? How is his sign different from what
             Melanie meant?<br/>
             2. What was the secret omen?<br/>
@@ -1368,17 +1369,16 @@ const LA6Component = ({ data }) => {
           <span className="days">LESSONS 43 &amp; 44</span>
           <p>Read <i>Chapter 11 ~ Egypt Invaded</i> from
             <i> The
-              Egypt Game</i>. After you
-            complete the chapter, write definitions for
-            the vocabulary words below. Then answer the questions that follow.<br/>
-            <i>Vocabulary</i><br/>
+              Egypt Game</i>. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            word. <br/>
             1. inspiration<br/>
             2. sacrifice<br/>
             3. sacred<br/>
             4. stalk<br/>
             5. coax<br/>
             6. humanity<br/>
-            <br/><i>Questions</i><br/>
+            <br/><strong>Questions</strong><br/>
             1. Why did April say they needed to make a sacrifice?<br/>
             2. Where did Elizabeth get the idea about cutting their fingers and writing a letter to
             Set with their own blood?<br/>
@@ -1390,17 +1390,16 @@ const LA6Component = ({ data }) => {
           <span className="days">LESSONS 45 &amp; 46</span>
           <p>Read <i>Chapter 12 ~ Elizabethan Diplomacy</i> from
             <i> The
-              Egypt Game</i>. After you
-            complete the chapter, write definitions for
-            the vocabulary words below. Then answer the questions that follow.<br/>
-            <i>Vocabulary</i><br/>
+              Egypt Game</i>. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            word. <br/>
             1. angular<br/>
             2. fiend<br/>
             3. consideration<br/>
             4. phony<br/>
             5. falter<br/>
             6. console<br/>
-            <br/><i>Questions</i><br/>
+            <br/><strong>Questions</strong><br/>
             1. What did Elizabeth tell the boys they could do if they didn’t tell?<br/>
             2. Why did Toby have a tough time getting out of the yard?<br/>
             3. Why is the title “Elizabethan Diplomacy” a good title for the chapter?<br/>
@@ -1411,15 +1410,14 @@ const LA6Component = ({ data }) => {
           <span className="days">LESSONS 47 &amp; 48</span>
           <p>Read <i>Chapter 13 ~ Moods and Maybes</i> from
             <i> The
-              Egypt Game</i>. After you
-            complete the chapter, write definitions for
-            the vocabulary words below. Then answer the questions that follow.<br/>
-            <i>Vocabulary</i><br/>
+              Egypt Game</i>. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            word. <br/>
             1. sidle<br/>
             2. devastated<br/>
             3. reluctant<br/>
             4. hollow<br/>
-            <br/><i>Questions</i><br/>
+            <br/><strong>Questions</strong><br/>
             1. Why couldn’t Toby go to Egypt before Friday?<br/>
             2. Why was April in such a bad mood? How would you feel if you were April?<br/>
             3. Describe the boys’ reaction to Egypt.<br/>
@@ -1431,15 +1429,14 @@ const LA6Component = ({ data }) => {
           <span className="days">LESSONS 49 &amp; 50</span>
           <p>Read <i>Chapter 14 ~ Hieroglyphics</i> from
             <i> The
-              Egypt Game</i>. After you
-            complete the chapter, write definitions for
-            the vocabulary words below. Then answer the questions that follow.<br/>
-            <i>Vocabulary</i><br/>
+              Egypt Game</i>. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            word. <br/>
             1. dagger<br/>
             2. balefully<br/>
             3. decipher<br/>
             4. adorn<br/>
-            <br/><i>Questions</i><br/>
+            <br/><strong>Questions</strong><br/>
             1. What did the boys bring with them to Egypt?<br/>
             2. What did they end up doing with the owl?<br/>
             3. What was Toby’s idea for the Egypt Game?<br/>
@@ -1460,14 +1457,15 @@ const LA6Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/9gD0K7oH92U"/>
           <p>After you complete the chapter and video, write definitions for
             the vocabulary words below. Then answer the questions that follow.<br/>
-            <i>Vocabulary</i><br/>
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            word. <br/>
             1. rendezvous<br/>
             2. solemn<br/>
             3. loot<br/>
             4. populace<br/>
             5. bier<br/>
             6. brine<br/>
-            <br/><i>Questions</i><br/>
+            <br/><strong>Questions</strong><br/>
             1. What happened that gave April and Melanie the idea for the Ceremony for the
             Dead?<br/>
             2. How did Toby and Ken get to be the High Priests of the ceremony?<br/>
@@ -1482,16 +1480,15 @@ const LA6Component = ({ data }) => {
           <span className="days">LESSONS 53 &amp; 54</span>
           <p>Read <i>Chapter 16 ~ The Oracle of Thoth</i> from
             <i> The
-              Egypt Game</i>. After you
-            complete the chapter, write definitions for
-            the vocabulary words below. Then answer the questions that follow.<br/>
-            <i>Vocabulary</i><br/>
+              Egypt Game</i>. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            word. <br/>
             1. oracle<br/>
             2. grotto<br/>
             3. trance<br/>
             4. deliberately<br/>
             5. consternation<br/>
-            <br/><i>Questions</i><br/>
+            <br/><strong>Questions</strong><br/>
             1. Why did Toby ask Mrs. Granger to explain what an oracle was? What happened
             as a result?<br/>
             2. Why did Toby think it was a bad idea to throw the questions into the fire?<br/>
@@ -1504,10 +1501,10 @@ const LA6Component = ({ data }) => {
 
           <br/>
           <span className="days">LESSON 55</span>
-          Watch the video <i>The Egyptian Book of the Dead: A guidebook for the underworld</i> by Tejal Gala with
-          TedEd
+          <p>Watch the video <i>The Egyptian Book of the Dead: A guidebook for the underworld</i> by Tejal Gala with
+            TedEd</p>
           <Video videoUrl="https://www.youtube.com/embed/1yv_MXNYbAo"/>
-          <p>To the best of your ability, answer the following questions:<br/>
+          <p>In complete sentences, answer the following questions:<br/>
             1. During the mummification process, which organ was the only one not removed?<br/>
             2. Who is the winged goddess of truth and justice?<br/>
             3. During the Weighing of the Heart Ceremony, what is the heart is weighed against? <br/>
@@ -1526,15 +1523,14 @@ const LA6Component = ({ data }) => {
           <span className="days">LESSONS 56 &amp; 57</span>
           <p>Read <i>Chapter 17 ~ The Oracle Speaks</i> from
             <i> The
-              Egypt Game</i>. After you
-            complete the chapter, write definitions for
-            the vocabulary words below. Then answer the questions that follow.<br/>
-            <i>Vocabulary</i><br/>
+              Egypt Game</i>. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            word. <br/>
             1. pilgrimage<br/>
             2. meditate<br/>
             3. wail<br/>
             4. accusations<br/>
-            <br/><i>Questions</i><br/>
+            <br/><strong>Questions</strong><br/>
             1. What happens when April removes the slip of paper from the stuffed owl's beak and reads it?<br/>
             2. Do you believe they trust each other? Explain.<br/>
             3. As soon as they finish the ceremony, they hear thunder and feel the first drops of rain.
@@ -1547,16 +1543,15 @@ const LA6Component = ({ data }) => {
           <span className="days">LESSONS 58 &amp; 59</span>
           <p>Read <i>Chapter 18 ~ Where is Security?</i> from
             <i> The
-              Egypt Game</i>. After you
-            complete the chapter, write definitions for
-            the vocabulary words below. Then answer the questions that follow.<br/>
-            <i>Vocabulary</i><br/>
+              Egypt Game</i>. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            word. <br/>
             1. impatient<br/>
             2. pester<br/>
             3. scarce<br/>
             4. limp<br/>
             5. gracious<br/>
-            <br/><i>Questions</i><br/>
+            <br/><strong>Questions</strong><br/>
             1. Why did Marshall want to go back to Egypt?<br/>
             2. Why didn’t Melanie ask her mom or dad to take them back to Egypt to get
             Security?<br/>
@@ -1570,16 +1565,15 @@ const LA6Component = ({ data }) => {
           <span className="days">LESSONS 60 &amp; 61</span>
           <p>Read <i>Chapter 19 ~ Confession and Confusion</i> from
             <i> The
-              Egypt Game</i>. After you
-            complete the chapter, write definitions for
-            the vocabulary words below. Then answer the questions that follow.<br/>
-            <i>Vocabulary</i><br/>
+              Egypt Game</i>. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            word. <br/>
             1. midst<br/>
             2. sober<br/>
             3. indignant<br/>
             4. flourish<br/>
             5. incredulous<br/>
-            <br/><i>Questions</i><br/>
+            <br/><strong>Questions</strong><br/>
             1. How did Toby get out of playing basketball with the guys at recess?<br/>
             2. What did Toby confess to April and Melanie?<br/>
             3. What happened to Toby that scared him the night he went to Egypt?<br/>
@@ -1592,17 +1586,16 @@ const LA6Component = ({ data }) => {
           <span className="days">LESSONS 62 &amp; 63</span>
           <p>Read <i>Chapter 20 ~ Fear Strikes</i> from
             <i> The
-              Egypt Game</i>. After you
-            complete the chapter, write definitions for
-            the vocabulary words below. Then answer the questions that follow.<br/>
-            <i>Vocabulary</i><br/>
+              Egypt Game</i>. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            word. <br/>
             1. consult<br/>
             2. gloat<br/>
             3. loom<br/>
             4. fume<br/>
             5. steadfast<br/>
             6. drone<br/>
-            <br/><i>Questions</i><br/>
+            <br/><strong>Questions</strong><br/>
             1. Who was the only person NOT to tell about a story or strange experience they’d
             had? Why?<br/>
             2. Describe the sequences the events of the night when April goes
@@ -1614,39 +1607,34 @@ const LA6Component = ({ data }) => {
           <span className="days">LESSONS 64 &amp; 65</span>
           <p>Read <i>Chapter 21 ~ The Hero</i> from
             <i> The
-              Egypt Game</i>. After you
-            complete the chapter, write definitions for
-            the vocabulary words below. Then answer the questions that follow.<br/>
-            <i>Vocabulary</i><br/>
+              Egypt Game</i>. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            word. <br/>
             1. hazy<br/>
             2. commotion<br/>
             3. vivid<br/>
             4. alibi<br/>
             5. tension<br/>
-            <br/><i>Questions</i><br/>
+            <br/><strong>Questions</strong><br/>
             1. Why does Marshall say he couldn’t yell for help?<br/>
             2. What did Marshall mean by “he was spotted”?<br/>
             3. Who was the person that yelled for help?<br/>
             4. Who grabbed April?<br/>
             5. Why did Marshall stop taking Security places with him? What does this show
-            about him?<br/>
-          </p>
+            about him?<br/> </p>
           <textarea className="textArea" onChange={onChangeLA6Listener47} value={la6Essay47}/>
 
           <br/>
           <span className="days">LESSONS 66 &amp; 67</span>
-          <p>Read <i>Chapter 21 ~ The Hero</i> from
-            <i> The
-              Egypt Game</i>. After you
-            complete the chapter, write definitions for
-            the vocabulary words below. Then answer the questions that follow.<br/>
-            <i>Vocabulary</i><br/>
+          <p>Read <i>Chapter 21 ~ The Hero</i> from <i> The Egypt Game</i>. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            word. <br/>
             1. hazy<br/>
             2. commotion<br/>
             3. vivid<br/>
             4. alibi<br/>
             5. tension<br/>
-            <br/><i>Questions</i><br/>
+            <br/><strong>Questions</strong><br/>
             1. Why does Marshall say he couldn’t yell for help?<br/>
             2. What did Marshall mean by “he was spotted”?<br/>
             3. Who was the person that yelled for help?<br/>
@@ -1659,17 +1647,15 @@ const LA6Component = ({ data }) => {
           <br/>
           <span className="days">LESSONS 68 &amp; 69</span>
           <p>Read <i>Chapter 23 ~ Christmas Keys</i> from
-            <i> The
-              Egypt Game</i>. After you
-            complete the chapter, write definitions for
-            the vocabulary words below. Then answer the questions that follow.<br/>
-            <i>Vocabulary</i><br/>
+            <i> The Egypt Game</i>. <br/>Complete the vocabulary assignment below and then answer the questions that follow.<br/>
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using the
+            word. <br/>
             1. intrigue<br/>
             2. primitive<br/>
             3. speculate<br/>
             4. extravagant<br/>
             5. rebellion<br/>
-            <br/><i>Questions</i><br/>
+            <br/><strong>Questions</strong><br/>
             1. Who wanted to see the Egyptians on Christmas Eve?<br/>
             2. Summarize the story of the Professor and his wife.<br/>
             3. What did the Professor give to the six children?<br/>
@@ -1718,7 +1704,7 @@ const LA6Component = ({ data }) => {
           <br/>
           <span className="days">LESSON 72</span>
           <p><b>Further Exploration of The Egypt Game</b><br/>
-            1. Why does April refuse the invitation to spend Christmas with her mother and Nick'?<br/>
+            1. Why does April refuse the invitation to spend Christmas with her mother and Nick?<br/>
             2. April's new home, the Casa Rosada, is referred to as "The Petrified Birthday Cake." What else in
             April's life might also be adequately defined using this metaphor? Why?<br/>
             3. Toward the end of the story the Professor is described as follows: "he looked pretty much as
@@ -1726,7 +1712,7 @@ const LA6Component = ({ data }) => {
             more lively." What does this reveal about the Professor and his experiences and feelings?<br/>
             4. What is meant by the comment that April "gave an internal nod of approval"? <br/>
             5. Explain what is meant by the comment that "When somebody saves your life, it makes him sort of
-            your property."<br/>
+            your property." What is your opinion about this statement?<br/>
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener52} value={la6Essay52}/>
 
@@ -1872,8 +1858,7 @@ const LA6Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangeLA6Listener140} value={la6Essay140}/>
 
           <p>Go to <a href="https://quizlet.com/126805/match" rel="noreferrer" target="_blank"> Quizlet and play
-            the Matching
-            Game </a>at least three times to
+            the Matching Game </a>at least three times to
             learn the vocabulary words for this novel.</p><br/>
           <span className="days">LESSON 80</span>
           <p>Read Chapter 7 John
@@ -2859,7 +2844,7 @@ const LA6Component = ({ data }) => {
           <p>Read Chapters 21 and 22 of Stargirl, pages 81-91.</p>
           <p><i>For the vocabulary word below, write the definition and then write a sentence using the
             word. </i><br/>
-            1. ofacetiously
+            1. facetiously<br/>
             2. obsessed
           </p>
           <p><i>After you complete the reading, answer the questions below:</i><br/>
@@ -3044,18 +3029,18 @@ const LA6Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangeLA6Listener122} value={la6Essay122}/>
           <br/>
           <span className="days">LESSON 144 - Persuasive Essay</span>
-          <p className="topBottom">After being homeschooled for most of her life, Stargirl enters the 10th grade with a
+          <p>After being homeschooled for most of her life, Stargirl enters the 10th grade with a
             big splash. At first everyone thinks she is amazing. She is different from anyone they've ever met. She has
             a pet rat, plays the ukelele, and doesn't conform to be like everyone else. Leo falls in love with her. Then
             everyone turns on Stargirl. Suddenly, everything that made her special now makes her an outcast. She knows
             that Leo sees himself as part of the group. He needs to fit in and needs her to fit in as well. So Stargirl
-            changes her personality and her appearance to make him happy.</p>
-          <p>In a 5 paragraph Persuasive essay, answer the following question:</p>
-          <p>Should Stargirl have changed to try to fit it and become popular?</p>
-          <p className="topBottom">Think about the question and form a clear opinion about it. Watch the video and read
+            changes her personality and her appearance to try to make him happy.</p>
+          <p>In a 5 paragraph Persuasive Essay, answer the following question:</p>
+          <p><i>Should Stargirl have changed to try to fit it and become popular?</i></p>
+          <p>Think about the question and form a clear opinion about it. Watch the video and read
             the outline below. Then write a persuasive essay that supports your opinion. Be sure to use examples from
             the book.</p>
-          <Video videourl="https://www.youtube.com/embed/5uSJEiNZ1rE"/>
+          <Video videoUrl="https://www.youtube.com/embed/5uSJEiNZ1rE"/>
           <p>Your five paragraph essay should follow the format below: </p>
           <ul className="assnList">
             <li>Title</li>
@@ -3078,7 +3063,7 @@ const LA6Component = ({ data }) => {
             </li>
             <li>Each paragraph should be 3-5 sentences.</li>
           </ul>
-          <p className="topBottom"><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
+          <p><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
                                       rel="noreferrer"
                                       target="_blank">Click
             here for a 5 Paragraph Essay outline </a>if you need help getting started.</p>
@@ -3087,14 +3072,14 @@ const LA6Component = ({ data }) => {
                     onChange={onChangeLA6Listener123} value={la6Essay123}/>
           <br/>
           <span className="days">LESSON 145 - Personal Narrative</span>
-          <p className="topBottom">Most people believe we are molded by our environment. Like Stargirl, we are
+          <p>Most people believe we are molded by our environment. Like Stargirl, we are
             influenced by the people we meet and changed by the experiences we have.</p>
 
-          <p className="topBottom">Write a personal narrative based on one of the following:<br/>
+          <p>Write a personal narrative based on one of the following:<br/>
             (1) A past <i>experience </i>that you feel influenced you to be the person you are today.<br/>
 
             (2) A <i>person </i> you feel influenced you to be the person you are today.</p>
-          <p className="topBottom">Your personal narrative should be 5 paragraphs long and follow the following
+          <p>Your personal narrative should be 5 paragraphs long and follow the following
             format:<br/>
             <ul className="assnList">
               <li>Title</li>
@@ -3114,7 +3099,7 @@ const LA6Component = ({ data }) => {
               <li>Each paragraph should be 3-5 sentences.</li>
             </ul>
           </p>
-          <p className="topBottom"><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
+          <p><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
                                       rel="noreferrer"
                                       target="_blank">Click
             here for a 5 Paragraph Essay outline </a>if you need help getting started.</p>
@@ -3140,7 +3125,7 @@ const LA6Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangeLA6Listener125} value={la6Essay125}/>
           <br/>
           <span className="days">LESSON 147</span>
-          <p className="topBottom">Create a new book cover design for <i> Stargirl</i>. <br/>
+          <p>Create a new book cover design for <i> Stargirl</i>. <br/>
             A book cover often helps a person decide if he or she will buy a book. Think about the impression you
             want the images, colors and text to create for readers. Create a cover for <i> Stargirl </i> that gives
             viewers a glimpse of the content and mood of the book. You can use whatever
@@ -3150,9 +3135,9 @@ const LA6Component = ({ data }) => {
                                                           target="_blank"> Canva's online book cover creation
               tool. </a>You
             choose how you want to design it.</p>
-          <img src={require("../../public/images/bookCovers/oldmanandtheseabookcover.jpg")}
+          <img src={require("../../public/images/bookCovers/bookcover.jpg")}
                alt="The Old Man and the Sea creative book cover"/><br/>
-          <p className="topBottom"> Your cover (or jacket) should include:<br/>
+          <p> Your cover (or jacket) should include:<br/>
             1. A clear title and the author's name. <br/>
             2. A graphic design that reflects the book's theme. <br/>
             3. A summary of the plot without giving away the ending. <br/>
@@ -3160,9 +3145,10 @@ const LA6Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangeLA6Listener126} value={la6Essay126}/>
           <br/>
           <span className="days">LESSON 148 - Expository Writing</span>
-          <p className="topBottom">An expository essay explains or describes a topic by presenting only facts,
+          <p>An expository essay explains or describes a topic by presenting only facts,
             statistics, and examples. It is
-            meant to be informative versus persuasive or entertaining.
+            meant to be informative versus persuasive or entertaining. Expository writing can be a description,
+ sequence, comparison, cause and effect or problem and solution.            
             Write a 5 paragraph expository essay based on one of the prompts below:<br/>
             <ul className="list"><strong>Description:</strong> describe a topic by listing characteristics, features,
               and examples. No opinions or trying to persuade.<br/>
@@ -3201,51 +3187,504 @@ const LA6Component = ({ data }) => {
               <li>Is there a problem your generation will have to face in the future? What are solutions?</li>
             </ul>
           </p>
-
           <textarea className="textArea" onChange={onChangeLA6Listener127} value={la6Essay127}/>
-          <br/>
-          <span className="days">LESSON 149</span>
 
+          <span className="days">WRITING STORIES </span>
+          <p><i>For each fictional writing assignment, address the items below to develop
+            your story:</i></p>
+          <p>POINT OF VIEW: Whose story are you telling? Using "I" is first person. Using
+            "you" is second person. Third person uses he or she. The third-person omniscient point of view tells the
+            thoughts and feelings of all the characters. </p>
+          <p>PLOT: What happens in the story? What are the sequence of events? </p>
+          <p>SETTING: Where and when is it (past, present or future)? </p>
+          <p>CONFLICT: What is the challenge the main character must face in order to grow and
+            change? What obstacles must be overcome? Most stories contain several small conflicts and one large or
+            major conflict. </p>
+          <p>RESOLUTION: How does the problem get solved? </p>
+          <p>CHARACTERS: Who is in your story? Who is the main character (protagonist)? Who
+            are the supporting characters? </p>
+          <p>Developing your characters is important because your readers must care about what
+            happens to them. They don’t have to be likable, but they must be credible. Your readers should be feel
+            the characters are real and be able to picture them clearly in their head. You should describe what they
+            look like and their personality. Include character traits (ex. humor, wit, introversion), strengths (ex.
+            intelligence, stamina, humor) and flaws (ex. short-temper, physical disability). The main character
+            (protagonist) is the most important because the story tends to revolve around them. They determine the
+            way the plot will develop and must solve a problem or solve a mystery. </p>
+          <p>Supporting characters are also important because they often help the main
+            character or serve as their enemy, creating obstacles. It’s your job to get the readers to feel
+            something for all of your characters; like them, hate them, root for them, feel devastated when they are
+            harmed and happy when they triumph.</p>
+          <p>You can print out the <a
+            href="../resources/languagearts/StoryOutlineWorksheet.pdf">Story Outline Worksheet</a> to help you get
+            started on a rough draft for your stories. It includes the following:<br/>
+            <ul className="assnList2">
+              <li>Title of your story:</li>
+              <li>The story is about</li>
+              <li>Main character:</li>
+              <li>Supporting characters:</li>
+              <li>Setting:</li>
+              <li>Write the first few lines of your story. Set the scene and introduce your characters.</li>
+              <li>Try to grab your readers’ attention in the first paragraph.</li>
+              <li>The first thing that happens and conflict introduced:</li>
+              <li>Next (build up):</li>
+              <li>Finally (resolution):</li>
+            </ul>
+          </p>
+          <p>Watch the the video below <strong> How to write descriptively</strong> by Nalo Hopkinson and then complete
+            the writing assignment that follows in Lesson 149.</p>
+          <Video videoUrl="https://www.youtube.com/embed/RSoRzTtwgP4"/>
+          
+          <span className="days">LESSON 149</span>
+          <p>After you watch the video <strong> Stephen King On Writing</strong>, you will write a mystery.</p>
+          <Video videoUrl="https://www.youtube.com/embed/lwhOd65gGoY"/>
+          <h4> Write a Mystery</h4>
+          <p>Select one of the images below to base your mystery on. Read the title and
+            caption and let the story unfold in
+            your imagination. Write your mystery in the textbox (below the images). This assignment is based on the
+            book <i>The Mysteries of Harris Burdick.</i></p>
+          <div className="rowimages">
+            <div className="columnimages">
+              <div><img src={require("../../public/images/stories/dog.jpg")}
+                        alt="girl with dog"/>
+                <p className="captionTitle">By the River</p>
+                <p className="caption">When the dog beckoned for her to follow, she quickly jumped on her bike. If she
+                  didn't get there by sunset, it would be too late.</p>
+              </div>
+              <div><img src={require("../../public/images/stories/throwingstone.jpg")} style={{ maxWidth: "500px" }}
+                        alt="child throwing a stone"/>
+                <p className="captionTitle">No Ordinary Day</p>
+                <p className="caption">She threw with all her might, but the stone came back once again, landing at
+                  her feet.</p></div>
+
+              <div><img src={require("../../public/images/stories/twokeys.jpg")} style={{ maxWidth: "500px" }}
+                        alt="two keys"/>
+                <p className="captionTitle">Unlocking Secrets</p>
+                <p className="caption">He had a hunch about what the keys would unlock. He grabbed both keys and
+                  ran.</p>
+              </div>
+            </div>
+            <div className="columnimages">
+              <div><img src={require("../../public/images/stories/traintracks.jpg")} style={{ maxWidth: "500px" }}
+                        alt="train tracks"/>
+                <p className="captionTitle">Final Destination </p>
+                <p className="caption">As the train passed by, you noticed one of the passengers staring at you. The
+                  face you saw was yours. </p>
+              </div>
+              <div><img src={require("../../public/images/stories/pathinwoods.jpg")} style={{ maxWidth: "500px" }}
+                        alt="path through the woods"/>
+                <p className="captionTitle">Off the Beaten Path</p>
+                <p className="caption">You are lost in the woods and it's getting late. Suddenly, a bright light
+                  appears in front of you. </p>
+              </div>
+              <div><img src={require("../../public/images/stories/maninthefog.jpg")} style={{ maxWidth: "500px" }}
+                        alt="man walking through the fog"/>
+                <p className="captionTitle">Man in the Fog</p>
+                <p className="caption">The man slowly walks toward your house. He stops, looks up at your window and
+                  says, "It's time." </p>
+              </div>
+            </div>
+          </div>
+          <p> A good mystery should include all of the elements listed above under "WRITING STORIES". It also
+            requires that you address these questions:</p>
+          <ul className="assnList">
+            <li>What is the mystery to solve? Is there a secret to uncover, an unexplained or supernatural event,
+              has something gone
+              missing?
+            </li>
+            <li>Clues - What are some hints that will help the reader figure things out?</li>
+            <li><i>Optional:</i> Are there ways you can throw the reader off the trail?</li>
+            <li>How will you set up your story? Use your main character to unravel the mystery and solve it.</li>
+          </ul>
+          <p>You can use the <a
+            href="../resources/languagearts/StoryOutlineWorksheet.pdf">Story Outline Worksheet</a> to get started.
+          </p>
           <textarea className="textArea" onChange={onChangeLA6Listener128} value={la6Essay128}/>
           <br/>
           <span className="days">LESSON 150</span>
-
+          <p>After you watch the video <strong> How to build a fictional world, </strong> you will write a fantasy
+            story.</p>
+          <Video videoUrl="https://www.youtube.com/embed/ZQTQSbjecLg"/>
+          <p><strong>Fantasy </strong> is a genre that has magical and
+            supernatural elements. Many novels have a real-world setting, like Twilight, while others novels are set
+            in an imaginary world. This genre has no connection to reality or science. For example, Lord of the
+            Rings is set in Middle Earth, with races and creatures the author created.
+            There are numerous subgenres of fantasy fiction. A few include high or epic fantasy (Lord of the Rings),
+            low fantasy (Indian in the Cupboard), dark fantasy (Twilight), contemporary fantasy (Harry Potter),
+            sword and sorcery (The Sorcerer's Apprentice), dark fantasy (Twilight), fables (The Alchemist), fairy
+            tales (Cinderella), and superhero fiction (Spiderman). </p>
+          <p>Select one of the images below as your book cover and then write a fantasy story
+            based on the image. What story unfolds in your imagination when you look at the image? Write your
+            story (5 paragraph minimum) in the textbox below. </p>
+          <div className="rowimages">
+            <div className="columnimages">
+              <img src={require("../../public/images/stories/balloon.jpg")}
+                   alt="fantasy hot air balloon"/>
+              <img src={require("../../public/images/stories/dragon.jpg")}
+                   alt=""/>
+              <img src={require("../../public/images/stories/elephant.jpg")}
+                   alt="Young man approaching elephant on the beach"/>
+            </div>
+            <div className="columnimages">
+              <img src={require("../../public/images/stories/snowstatue.jpg")}
+                   alt="A team of people walking upmountain next to enormous statue"/>
+              <img src={require("../../public/images/stories/greeneyes.jpg")}
+                   alt="fantasy image of green eyes"/>
+              <img src={require("../../public/images/stories/wolf.jpg")}
+                   alt="young girl with a wolf"/>
+            </div>
+          </div>
           <textarea className="textArea" onChange={onChangeLA6Listener129} value={la6Essay129}/>
-          <br/>
+          
           <span className="days">LESSON 151</span>
-
+          <p>Watch the video <strong> The importance of setting in a story</strong> and then complete the writing
+            assignment that follows.</p>
+          <Video videoUrl="https://www.youtube.com/embed/30CPmgVQNks"/>
+          <Video videoUrl="https://www.youtube.com/embed/6a6kbU88wu0"/>
+          <p><strong>Dystopian fiction</strong> describes a fictional place where things have gone
+            horribly wrong and life is terrible. The characters suffer oppression, terror or deprivation. Dystopian
+            fiction includes novels like<i> The Hunger Games, The Giver, Divergent, and The Handmaid's Tale.</i></p>
+          <p>Select one of the images below as your book cover. Then write a dystopian story
+            based on the picture. What story unfolds in your imagination when you look at the image? Write your
+            story in the textbox below the images. You may also choose to write a story based on your own concept
+            versus using one of the images below.</p>
+          <div className="rowimages">
+            <div className="columnimages">
+              <img src={require("../../public/images/stories/burningcity.jpg")}
+                   alt="city in distress"/>
+              <img src={require("../../public/images/stories/mermaid.jpg")}
+                   alt="underwater city"/>
+              <img src={require("../../public/images/stories/robot.jpg")}
+                   alt="child robot"/>
+            </div>
+            <div className="columnimages">
+              <img src={require("../../public/images/stories/swamp.jpg")}
+                   alt="man walking through swamp"/>
+              <img src={require("../../public/images/stories/train.jpg")}
+                   alt="girl waiting for train"/>
+              <img src={require("../../public/images/stories/vr.jpg")}
+                   alt="young person using virtual reality"/>
+            </div>
+          </div>
           <textarea className="textArea" onChange={onChangeLA6Listener130} value={la6Essay130}/>
           <br/>
           <span className="days">LESSON 152</span>
-
+          <h4>Write a BIOGRAPHY of someone who inspires you.</h4>
+          <p> If you don't have anyone in mind, there is a list below of a few inspirational
+            people. Take plenty of notes when you research this person's life and accomplishments.</p>
+          <Video videoUrl="https://www.youtube.com/embed/q7abluGwup8"/>
+          <p>You can use the <a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
+                                rel="noreferrer"
+                                target="_blank">Five Paragraph Essay outline</a> to help you get started. Be sure to
+            include the following elements in your biography:</p>
+          <p>
+            <ul className="assnList">
+              <li><strong>Introduction:</strong> state the person you chose and why you chose them.</li>
+              <li>Your thesis statement should cover the reasons why he/she inspires you and what this person has
+                taught us.
+              </li>
+              <li>In the body (2-3 paragraphs), include:</li>
+              <ol className="assnLetters">
+                <li>date and place of birth (death if appropriate)</li>
+                <li>description of childhood and early adulthood</li>
+                <li>people and events that influenced them and helped them develop into the person they became</li>
+                <li>accomplishments and greatest achievements</li>
+                <li>their impact on society, historical significance</li>
+                <li>when appropriate use quotes and significant details from your research</li>
+              </ol>
+              <li><strong>Conclusion:</strong> summarize the most important points of your biography.
+              </li>
+            </ul>
+          </p>
+          <p className="margin-para">
+            <ul className="assnList">
+              <li>Malala Yousafzai</li>
+              <li>Thomas Jefferson</li>
+              <li>Nelson Mandela</li>
+              <li>Mother Teresa</li>
+              <li>Albert Einstein</li>
+              <li>Amelia Earhart</li>
+              <li>Martin Luther King, Jr.</li>
+              <li>Mahatma Gandhi</li>
+              <li>George Washington</li>
+              <li>Eleanor Roosevelt</li>
+              <li>Elon Musk</li>
+              <li>Wolfgang Amadeus Mozart</li>
+              <li>Abraham Lincoln</li>
+              <li>Helen Keller</li>
+            </ul>
+          </p>
           <textarea className="textArea" onChange={onChangeLA6Listener132} value={la6Essay132}/>
-          <br/>
+          
           <span className="days">LESSON 153</span>
-
+          <p><strong>Science Fiction</strong><br/>
+            Science fiction themes include futuristic stories, space travel, time travel, and life on other planets.
+            They imagine how life would be different with technological and scientific advances. Science fiction
+            includes novels like<i> Ready Player One, Mad Max and The Martian.</i></p>
+          <p>Select one of the images below to base your own science fiction story on.
+            After you watch the video below, <strong> The power of a great introduction</strong>, write your story in
+            the textbox.
+            Be sure to back up your work and send a copy to your parent or teacher. If you prefer to write a story not
+            based on an image, this is
+            fine. </p>
+          <div className="rowimages">
+            <div className="columnimages">
+              <img src={require("../../public/images/stories/scifi1.jpg")}
+                   alt="cyborg girl"/>
+              <img src={require("../../public/images/stories/scifi2.jpg")}
+                   alt="Scifi planet "/>
+              <img src={require("../../public/images/stories/scifi3.jpg")}
+                   alt="Futuristic world "/>
+              <img src={require("../../public/images/stories/scifi4.jpg")}
+                   alt="Floating spaceship"/>
+            </div>
+            <div className="columnimages">
+              <img src={require("../../public/images/stories/scifi9.jpg")}
+                   alt="Lighted tunnel into space"/>
+              <img src={require("../../public/images/stories/scifi6.jpg")}
+                   alt="Robots on another planet"/>
+              <img src={require("../../public/images/stories/scifi7.jpg")}
+                   alt="Children approaching UFO"/>
+              <img src={require("../../public/images/stories/scifi8.jpg")}
+                   alt="Astronauts on another planet"/>
+            </div>
+          </div>
+          <Video videoUrl="https://www.youtube.com/embed/j0_u-lourd0"/>
           <textarea className="textArea" onChange={onChangeLA6Listener133} value={la6Essay133}/>
           <br/>
           <span className="days">LESSON 154</span>
-
+          <h4>Non-fiction Science Essay</h4>
+          <img src={require("../../public/images/stories/science.jpg")} alt="The Giver novel"/><br/>
+          <p>Write a five paragraph essay based on one of the questions below.
+            <ol className="vocab">
+              <li>What do you think is the most important invention of the last 100 years?</li>
+              <li>Should we colonize other planets? Why or why not?</li>
+              <li>If you could meet one famous inventor, who would it be?</li>
+              <li>What is a new invention you would like to create? For inspiration, check out the article <a
+                href="https://www.sciencefocus.com/future-technology/future-technology-22-ideas-about-to-change-our-world/"
+                rel="noreferrer" target="_blank"> Future technology: 25 ideas about to change our world</a></li>
+              <li>What will the world be like 1,000 years from now?</li>
+            </ol>
+          </p>
+          <p>Your essay should follow answer the question and follow the format below: </p>
+          <ul className="assnList">
+            <li>Write a hook to grab your reader's attention.</li>
+            <li>Your first paragraph should have a clear thesis statement (main idea of your essay). This
+              statement should convey the points or arguments you are going to
+              make.
+            </li>
+            <li>Paragraphs 2-4 should provide examples from the book that support your thesis statement. Each
+              paragraph should discuss a different point and use a different example. Using direct
+              quotes from the novel can be effective in proving your point.
+            </li>
+            <li>Your conclusion should restate your thesis in a different way. End with a thoughtful summary.</li>
+            <li>Each paragraph should be 3-5 sentences.</li>
+          </ul>
+          <p><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
+                                      rel="noreferrer"
+                                      target="_blank">Click
+            here for a 5 Paragraph Essay outline </a>if you need help getting started.</p>
           <textarea className="textArea" onChange={onChangeLA6Listener134} value={la6Essay134}/>
-          <br/>
+          
           <span className="days">LESSON 155</span>
+          <h4> Write an Adventure Story</h4>
+          <p>Stories in the adventure genre involve a hero who goes on an
+            exciting journey to some place very different than what he is used to. It is
+            also usually a journey of personal growth in which the protagonist grows into a hero. These stories are
+            usually fast-paced, with elements of danger, obstacles to overcome, and a
+            villain to defeat.
+          </p>
+          <p> Examples include The Adventures of Tom Sawyer, Gulliver's Travels, and Treaure
+            Planet.</p>
 
+          <p>Base your adventure on one of the images below. Write your story in the textbox
+            below and be sure to back up your work.</p>
+
+          <p> A good adventure should include all of the elements listed above under "WRITING STORIES". It should also
+            have the follow elements:
+            <ul className="assnList">
+              <li>A hero</li>
+              <li>A quest</li>
+              <li>A journey to a new and strange land</li>
+              <li>A villain</li>
+              <li>The hero is changed</li>
+            </ul></p>
+          <div className="rowimages">
+            <div className="columnimages">
+              <img src={require("../../public/images/stories/adventure1.jpg")}
+                   alt="old sailing ship"/>
+              <img src={require("../../public/images/stories/adventure2.jpg")}
+                   alt="astronaut in space"/>
+              <img src={require("../../public/images/stories/adventure3.jpg")}
+                   alt="pyramids"/>
+              <img src={require("../../public/images/stories/adventure4.jpg")}
+                   alt="girl in ice tunnel"/>
+            </div>
+            <div className="columnimages">
+              <img src={require("../../public/images/stories/adventure5.jpg")}
+                   alt="hot air balloon over desert"/>
+              <img src={require("../../public/images/stories/adventure6.jpg")}
+                   alt="ruins in the jungle"/>
+              <img src={require("../../public/images/stories/adventure7.jpg")}
+                   alt="grim reaper on boat with passengers"/>
+              <img src={require("../../public/images/stories/adventure8.jpg")}
+                   alt="castle"/>
+            </div>
+          </div>
+          <p>You can use the <a
+            href="../resources/languagearts/StoryOutlineWorksheet.pdf">Story Outline Worksheet</a> to get started.
+          </p>
           <textarea className="textArea" onChange={onChangeLA6Listener135} value={la6Essay135}/>
-          <br/>
+          
           <span className="days">LESSON 156</span>
-
+          <h4> Character Development</h4>
+          <p>No matter how exciting your plot may be, readers won't want to keep reading unless
+            you have great characters. Watch the videos below to learn how to develop characters your readers will fall
+            in love with and believe are real. Then complete the assignment posted after the videos.</p>
+          {/*Introduction to Character */}
+          <Video videoUrl="https://www.youtube.com/embed/ngZQUebMSEg"/>
+          {/*Internal vs. external features */}
+          <Video videoUrl="https://www.youtube.com/embed/Yl_okKqVXKo"/>
+          {/*Wants vs. needs */}
+          <Video videoUrl="https://www.youtube.com/embed/RgRfbvLkvnI"/>
+          {/*Obstacles */}
+          <Video videoUrl="https://www.youtube.com/embed/ZyNvgFmBQTs"/>
+          {/*Character arc */}
+          <Video videoUrl="https://www.youtube.com/embed/figcC-ANUu4"/>
+          {/*Stakes */}
+          <Video videoUrl="https://www.youtube.com/embed/WJ_iNkkgdCA"/>
+          {/*Advice on characters */}
+          <Video videoUrl="https://www.youtube.com/embed/SgGARYH2vRg"/>
+          <p>Your next two lessons will be to develop two great characters your readers will care
+            about: a protagonist and an antagonist. Start thinking about what they are like, consider: personality,
+            physical
+            appearance, strengths, weaknesses, special abilities (optional) and what they value. Develop these
+            characters in your mind and think about the following questions: <br/>
+            <ul className="list">
+              <li>What does your character want or want to achieve?</li>
+              <li>Where do you want your protagonist to travel to?</li>
+              <li>What are the obstacles they will face?</li>
+              <li>What do they risk losing if they fail in their quest?</li>
+              <li> What will they gain if they achieve their quest?</li>
+              <li>How do you want them to grow and change as a person?</li>
+              <li>Which fictional genres best suits your characters? You can choose from any that you've learned about:
+                adventure, fantasy, mythology, horror, mystery, fairy tale, etc.
+              </li>
+            </ul>
+          </p>
+          <p>Take a few minutes to complete the assignment below. Your responses can be short
+            bullet points.
+            <ol className="vocab">
+              <li>Close your eyes and imagine the protagonist for your next story. Briefly describe their external and
+                internal traits.
+              </li>
+              <li>List at least one place the protagonist will travel to. If you're not sure, where would you travel to
+                if
+                there were no limitations? This can be a place of your own creation.
+              </li>
+              <li> Picture the villain. What are they like?</li>
+              <li>What ideas do you have for the quest the protagonist will embark on? Are they chasing after an
+                artifact? Are they on a mission of some kind? Jot down any ideas you have.
+              </li>
+            </ol></p>
+          <p>Create a book cover design for your next story. Think about the impression and mood
+            you want the images and colors to create for your readers. You can use whatever
+            medium you choose: collage, paper and markers, or <a href="https://www.canva.com/create/book-covers/"
+                                                                 rel="noreferrer"
+                                                                 target="_blank"> Canva's online book cover creation
+              tool. </a>You choose how you want to design it. </p>
           <textarea className="textArea" onChange={onChangeLA6Listener136} value={la6Essay136}/>
-          <br/>
-          <span className="days">LESSON 157</span>
 
+          <span className="days">LESSON 157</span>
+          <h4> Character Development - The Protagonist</h4>
+          <p>It's time to fully develop the protagonist for your next story. Address the questions
+            below using complete sentences.</p>
+          <p>
+            <ol className="vocab">
+              <li> What is your protagonist's name, age, gender and where do they live?</li>
+              <li>Briefly describe your protagonist's background or childhood. Is there something about their background
+                or childhood that is important and shaped who they are as a
+                person? Examples: Their parents died and left them a fortune, they are poor growing up, they were
+                bullied, or they were raised in China and are fluent in Mandarin.
+              </li>
+              <li>Do they have any special abilities (optional). These can be supernatural or magical powers or worldly
+                abilities like a high IQ or jiu-jitsu skills.
+              </li>
+              <li>What are your character's strengths? Examples: Confidence, strong moral compass, problem solving
+                skills, loyalty, or persistence.
+              </li>
+              <li>What are your character's weaknesses? Are there any weaknesses or fears the villain can use against
+                them? Examples: Short temper, conflict avoidant, fear of snakes or a
+                physical handicap.
+              </li>
+              <li>Where will your protagonist to travel to? Describe how this is dramatically different than where they
+                live now?
+              </li>
+              <li>What is a quest they were meant to pursue? Are they chasing after an
+                artifact? Are they on a mission of some kind?
+              </li>
+              <li>What does your character want or want to achieve?</li>
+              <li>What are the obstacles they will face?</li>
+              <li>What do they risk losing if they fail in their quest?</li>
+              <li>How do you want them to grow and change as a person?</li>
+              <li>What will they gain if they achieve their quest?</li>
+              <li>What do does your protagonist look like? Be specific, including height, facial features, and how they
+                dress.
+              </li>
+              <li>Create a picture of your protagonist. You can sketch a picture or create your character on <a
+                href="https://charactercreator.org/#" rel="noreferrer" target="_blank">Character Creator </a>online. Be
+                sure to take a screen shot and save this to your device so you can include it with your story later.
+              </li>
+            </ol>
+          </p>
           <textarea className="textArea" onChange={onChangeLA6Listener137} value={la6Essay137}/>
           <br/>
           <span className="days">LESSON 158</span>
-
+          <h4> Character Development - The Antagonist</h4>
+          <p>Create the villain your protagonist will have to fight. <br/>
+            <li>What is your villain's name, gender and age?</li>
+            <li>What makes your villain a villain? Why does he do what he does? What is his backstory? Example: Lord
+              Voldemort wanted to become the supreme leader of wizards and rid the wizarding world of Muggles. His
+              mother had tricked his father
+              into loving her. He was not born from love and didn't know love as a child.
+            </li>
+            <li>What makes your villain powerful? What skills, abilities and traits make them <i>nearly</i> impossible
+              for your protagonist to defeat? Example: The Joker (in Batman) The Joker has no superhuman abilities, but
+              he is clever and uses chemical engineering to make poisonous weapons.
+            </li>
+            <li>What are their weaknesses? Will your hero be able to use a weakness against the villain to win?</li>
+            <li>What do does your protagonist look like? Be specific, including height, facial features, and how they
+              dress.
+            </li>
+            <li>Create a picture of your villain. You can sketch a picture or create your character on <a
+              href="https://charactercreator.org/#" rel="noreferrer" target="_blank">Character Creator </a>online. Be
+              sure to take a screen shot and save this to your device so you can include it with your story later.
+            </li>
+          </p>
           <textarea className="textArea" onChange={onChangeLA6Listener138} value={la6Essay138}/>
           <br/>
           <span className="days">LESSON 159</span>
-
+          <h4> Final Fictional Story</h4>
+          <p>It's time to write your final story for this class!</p>
+          <p>
+            <ul className="assnList">
+              <li>What point of view will you use?</li>
+              <li> What type of fiction or genre did you choose?</li>
+              <li>Title of your story.</li>
+              <li>Grab your readers’ attention in the first paragraph.</li>
+              <li>Where and when is it (past, present or future)? Who are your characters? Set the scene and introduce
+                your characters.
+              </li>
+              <li>What are the sequence events? Write about the first thing that happens. Introduce the conflict. What
+                is the challenge the main character must face in order to grow and
+                change? What obstacles must be overcome?
+              </li>
+              <li>Next (build up):</li>
+              <li>Finally (resolution). How will the problem be solved?</li>
+            </ul>
+            <br/> Write your story in the textbox and be sure to back up your work.
+          </p>
+          <p>You can use the <a
+            href="../resources/languagearts/StoryOutlineWorksheet.pdf">Story Outline Worksheet</a> to help.</p>
           <textarea className="textArea" onChange={onChangeLA6Listener139} value={la6Essay139}/>
 
           <h4> Vocabulary and Reading</h4>
@@ -3790,7 +4229,7 @@ const LA6Component = ({ data }) => {
           <p>The following is from <i>Literacy at Work: How to Write a Poem with Glenis Redmond.</i></p>
           {/*<p>Taken from <i>Countdown to Poetry Writing</i> by Steve Bowkett</p>*/}
           <Video videoUrl="https://www.youtube.com/embed/0w8PLcYP0sU"/>
-          <p> After you watch the video, complete the lists below. Then, use the lists to write
+          <p className="topBottom"> After you watch the video, complete the lists below. Then, use the lists to write
             your Self-Portrait Poem.</p>
           <h4>Write a list that describes your:</h4>
           <ol className="vocab">
@@ -3800,7 +4239,7 @@ const LA6Component = ({ data }) => {
             <li>Talents or strengths (Example: Athletic, Graceful, Reader)</li>
             <li>Challenges or things you find difficult (Being alone, Math, Racism)</li>
           </ol>
-          <p className="topBottom"> Use your lists to help you tell your story. Remember to use the poetry
+          <p> Use your lists to help you tell your story. Remember to use the poetry
             devices of alliteration, assonance, and anaphora. It's best if you can create your own poem, but if you
             want, you can use the sentences below as a model.</p>
           <ul>

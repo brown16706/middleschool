@@ -4,8 +4,8 @@ import style from "./footer.module.css"
 
 const Footer = ({ }) => (
   <footer className={style.colophon}>
-    SimpleDzn © {new Date().getFullYear()}
-    <Link style={{paddingLeft: "4em", color: "#9e9d9d"}} to="/termsofuse">Terms of Use </Link> 
+    <a href="https://www.simpledzn.com/" style={{color:"#9e9d9d", fontWeight: "normal"}} rel="noreferrer" target="_blank"> SimpleDzn © {new Date().getFullYear()}</a>
+    <Link style={{paddingLeft: "2em", color: "#9e9d9d"}} to="/termsofuse">Terms of Use </Link> 
   </footer>
 )
 

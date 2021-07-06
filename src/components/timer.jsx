@@ -21,8 +21,7 @@ function SetAlarm({ time }) {
       seconds = `0${seconds}`;
     }
     return timeValue > 0 ? `${minutes}:${seconds}` : ( <div>
-      <p>Click Stop to stop the alarm</p>
-      <audio src="./bird_alarm.mp3" autoPlay loop/>
+      <audio src="../../content/timer/bird_alarm.mp3" autoPlay loop/>
     </div> );
   }
 

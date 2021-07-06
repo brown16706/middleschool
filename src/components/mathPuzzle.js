@@ -1,6 +1,5 @@
 import React from "react";
 import Modal from "./modal";
-import style from "./mathPuzzle.module.css"
 
 const puzzleButton = {
   backgroundColor: '#a6ddd9',
@@ -12,6 +11,12 @@ margin: '2rem 0',
 borderRadius: '0.25em',
 border: '1px solid #fff'
 };
+
+const solution = {
+  color: '#6aaca7',
+  padding: '1em 1em 0'
+};
+
 
 class MathPuzzle extends React.Component {
   state = {
@@ -26,7 +31,7 @@ class MathPuzzle extends React.Component {
     return (
       <div>
         <Modal onClose={this.showModal} show={this.state.show}>
-          <p className={style.solutions}>{this.props.solution}</p>
+          <p style={solution}>{this.props.solution}</p>
         </Modal>
         <button style={puzzleButton}
                 type="button" 
