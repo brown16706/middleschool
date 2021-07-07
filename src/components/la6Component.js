@@ -621,7 +621,7 @@ const LA6Component = ({ data }) => {
       <section className="block-circles">
         <div className="circle one"
              style={{
-               animationDuration: "4s",
+               animationDuration: "3s",
                backgroundColor: "#89d4f0",
                transform: "translate3d(0px, 0px, 0px) scale(0.9921, 1)",
                opacity: "0.9881"
@@ -1216,7 +1216,8 @@ const LA6Component = ({ data }) => {
             3. April won’t call Caroline, Grandmother. What does this show about April?<br/>
             4. April bought eyelashes and other items at the drugstore. Why do you think she
             feels she needs all of this stuff?<br/>
-            5. Based on the video: List the different genres of fiction.<br/>
+            Based on the video:<br/>
+            5. List the different genres of fiction.<br/>
             6. Of the types listed, which genre is your favorite to read? Why?<br/>
             7. Which genre is your least favorite to read? Explain why.<br/>
             8. If you were asked to write a novel, which type (genre) of fiction would you choose?<br/>
@@ -1267,7 +1268,7 @@ const LA6Component = ({ data }) => {
             on something? Explain.<br/>
             2. What was the one thing April didn’t know about? Why doesn’t she?<br/>
             3. Who were the “worst enemies of Egypt” according to Melanie?<br/>
-            4. Based on the video: List the four word types and give an example of each.
+            4. Based on the video: List the four word types and give an example of each.<br/>
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener29} value={la6Essay29}/>
 
@@ -1293,7 +1294,8 @@ const LA6Component = ({ data }) => {
           <br/>
           <span className="days">LESSON 36</span>
           <p>Read <i>Chapter 6 ~ Eyelashes and Ceremony</i> from
-            <i> The Egypt Game</i> and watch the video. Complete the vocabulary assignment below and then answer the questions
+            <i> The Egypt Game</i> and watch the video. Complete the vocabulary assignment below and then answer the
+            questions
             that follow.<br/>
             <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using
             the
@@ -1313,13 +1315,14 @@ const LA6Component = ({ data }) => {
             a sketch.<br/>
             4. How did the girls keep track of the rituals they came up with? If the story was set
             during the present time, what might be some ways the girls could keep track of
-            their rituals?<br/> </p>
+            their rituals?<br/></p>
           <textarea className="textArea" onChange={onChangeLA6Listener31} value={la6Essay31}/>
 
           <br/>
           <span className="days">LESSONS 37 &amp; 38</span>
           <p>Read <i>Chapter 7 ~ Neferbeth</i> from
-            <i> The Egypt Game</i> and watch the video below. <br/>Complete the vocabulary assignment below and then answer
+            <i> The Egypt Game</i> and watch the video below. <br/>Complete the vocabulary assignment below and then
+            answer
             the questions that follow.<br/>
             <Video videoUrl="https://www.youtube.com/embed/jWyX8vl6kMs?list=PLvJNSf-7NfrO4ECq1tyS1SI9HlXMOKXZ7"/>
             <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using
@@ -1333,8 +1336,12 @@ const LA6Component = ({ data }) => {
             <br/><strong>Questions</strong><br/>
             1. What did Mr. Ross mean when he said, “Melanie! The cruelest month is here”?<br/>
             2. Why did April and Melanie decide to let Elizabeth play in the Egypt Game?<br/>
-            3. Based on the video: Give five examples of Latin or Greek roots. Define what each root means and give an
-            example for each. For example bi- = two or twice <i>Example: bicycle</i>
+            Based on the video: <br/>
+            3. Write a definition for <i>bi</i> and give three examples of it used in a word. <br/>
+            For example: <i>bi means two or twice = bicycle, bifocal, biweekly.</i><br/>
+            4. Write a definition for <i>inter</i> and give three examples of it used in a word. <br/>
+            5. Write a definition for <i> ist </i> and give three examples of it used in a word. <br/>
+
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener32} value={la6Essay32}/>
 
@@ -1413,7 +1420,8 @@ const LA6Component = ({ data }) => {
           <br/>
           <span className="days">LESSONS 43 &amp; 44</span>
           <p>Read <i>Chapter 11 ~ Egypt Invaded</i> from
-            <i> The Egypt Game</i>  and watch the video. <br/>Complete the vocabulary assignment below and then answer the questions that
+            <i> The Egypt Game</i> and watch the video. <br/>Complete the vocabulary assignment below and then answer
+            the questions that
             follow.<br/>
             <Video videoUrl="https://www.youtube.com/embed/ioHMvicIOPY?list=PLvJNSf-7NfrO4ECq1tyS1SI9HlXMOKXZ7"/>
             <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using
@@ -1430,13 +1438,15 @@ const LA6Component = ({ data }) => {
             2. Where did Elizabeth get the idea about cutting their fingers and writing a letter to
             Set with their own blood?<br/>
             3. What did April say they should sacrifice that made Marshall so upset?<br/>
-            4. Based on the video: Give 4 examples (using complete sentences) that show when it's appropriate to use  parenthesis. </p>
+            4. Based on the video: Give 4 examples (using complete sentences) that show when it's appropriate to use
+            parenthesis. </p>
           <textarea className="textArea" onChange={onChangeLA6Listener36} value={la6Essay36}/>
 
           <br/>
           <span className="days">LESSONS 45 &amp; 46</span>
           <p>Read <i>Chapter 12 ~ Elizabethan Diplomacy</i> from
-            <i> The Egypt Game</i> and watch the video. <br/>Complete the vocabulary assignment below and then answer the questions that
+            <i> The Egypt Game</i> and watch the video. <br/>Complete the vocabulary assignment below and then answer
+            the questions that
             follow.<br/>
             <Video videoUrl="https://www.youtube.com/embed/8L48L7IqJ4A?list=PLvJNSf-7NfrO4ECq1tyS1SI9HlXMOKXZ7"/>
             <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using
@@ -1453,18 +1463,19 @@ const LA6Component = ({ data }) => {
             2. Why did Toby have a tough time getting out of the yard?<br/>
             3. Why is the title “Elizabethan Diplomacy” a good title for the chapter?<br/>
             4. Based on the video: Describe when you would use a colon and provide an example in a sentence.<br/>
-            5.  Describe when you would use a semi-colon and provide an example in a sentence.<br/> </p>
+            5. Describe when you would use a semi-colon and provide an example in a sentence.<br/></p>
           <textarea className="textArea" onChange={onChangeLA6Listener37} value={la6Essay37}/>
 
           <br/>
           <span className="days">LESSONS 47 &amp; 48</span>
           <p>Read <i>Chapter 13 ~ Moods and Maybes</i> from
-            <i> The Egypt Game</i> and watch the videos. <br/>Complete the vocabulary assignment below and then answer the questions that
+            <i> The Egypt Game</i> and watch the videos. <br/>Complete the vocabulary assignment below and then answer
+            the questions that
             follow.<br/>
             <Video videoUrl="https://www.youtube.com/embed/7fXyx7kkx-8?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
             <Video videoUrl="https://www.youtube.com/embed/yqzDtHXGA-o?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
             <Video videoUrl="https://www.youtube.com/embed/-eFt1EMezJE?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
-            
+
             <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using
             the
             word. <br/>
@@ -1477,23 +1488,24 @@ const LA6Component = ({ data }) => {
             2. Why was April in such a bad mood? How would you feel if you were April?<br/>
             3. Describe the boys’ reaction to Egypt.<br/>
             4. What did the girls think about the boys’ visit to Egypt?<br/>
-            Based on the Videos:
-            5. Write a definition for <i>voc</i> and it in a sentence. <br/>
-            6. Write a definition for  <i>scrib</i> and <i> script  </i> and use each in a sentence. <br/>
-            7. Write a definition for  <i> gram </i> and use it in a sentence. <br/>
+            Based on the Videos:<br/>
+            5. Write a definition for <i>voc</i> and give three examples of it used in a word. <br/>
+            For example: <i>voc means calling or call back = advocate, provocative, vocabulary</i> <br/>
+            6. Write a definition for <i>scrib</i> and <i> script </i> and give three examples of each root used in a
+            word. <br/>
+            7. Write a definition for <i> gram </i> and give three examples of it used in a word. <br/>
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener38} value={la6Essay38}/>
 
           <br/>
           <span className="days">LESSONS 49 &amp; 50</span>
           <p>Read <i>Chapter 14 ~ Hieroglyphics</i> from
-            <i> The Egypt Game</i> and watch the videos. <br/>Complete the vocabulary assignment below and then answer the questions that
+            <i> The Egypt Game</i> and watch the videos. <br/>Complete the vocabulary assignment below and then answer
+            the questions that
             follow.<br/>
             <Video videoUrl="https://www.youtube.com/embed/sMC_pAm3gl4?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
             <Video videoUrl="https://www.youtube.com/embed/uDuawOsaMIQ?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
             <Video videoUrl="https://www.youtube.com/embed/P_sGcWJfCPo?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
-
-
             <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using
             the
             word. <br/>
@@ -1511,9 +1523,9 @@ const LA6Component = ({ data }) => {
             happen if the other boys found out that Toby and Ken were playing the Egypt
             Game? Give three different possibilities.<br/>
             Based on the videos:<br/>
-            6. Write a definition for  <i>sub </i> and use it in a sentence. <br/>
-            7. Write a definition for  <i>dis </i> and use it in a sentence. <br/>
-            8. Write a definition for  <i>nym </i> and use it in a sentence. <br/>
+            6. Write a definition for <i>sub </i> and give three examples of it used in a word. <br/>
+            7. Write a definition for <i>dis </i> and give three examples of it used in a word. <br/>
+            8. Write a definition for <i>nym </i> and give three examples of it used in a word. <br/>
 
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener39} value={la6Essay39}/>
@@ -1549,12 +1561,13 @@ const LA6Component = ({ data }) => {
           <br/>
           <span className="days">LESSONS 53 &amp; 54</span>
           <p>Read <i>Chapter 16 ~ The Oracle of Thoth</i> from
-            <i> The Egypt Game</i> and watch the videos. <br/>Complete the vocabulary assignment below and then answer the questions that
+            <i> The Egypt Game</i> and watch the videos. <br/>Complete the vocabulary assignment below and then answer
+            the questions that
             follow.<br/>
             <Video videoUrl="https://www.youtube.com/embed/uvTxc970aZM?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
             <Video videoUrl="https://www.youtube.com/embed/Btr7dA867xI?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
             <Video videoUrl="https://www.youtube.com/embed/LXs0jWIYsZ4?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
-            
+
             <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using
             the
             word. <br/>
@@ -1572,9 +1585,9 @@ const LA6Component = ({ data }) => {
             5. Why did Toby say they should all leave Egypt right after he gave the question to
             Thoth?<br/>
             Based on the videos:<br/>
-            6. Write a definition for <i>astro </i> and use it in a sentence. <br/>
-            7. Write a definition for <i>bio </i>  and use it in a sentence. <br/>
-            8. Write a definition for  <i>audi </i> and use it in a sentence. <br/>
+            6. Write a definition for <i>astro </i> and give three examples of it used in a word. <br/>
+            7. Write a definition for <i>bio </i> and use it in a sentence. <br/>
+            8. Write a definition for <i>audi </i> and give three examples of it used in a word. <br/>
 
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener41} value={la6Essay41}/>
@@ -1602,12 +1615,13 @@ const LA6Component = ({ data }) => {
           <br/>
           <span className="days">LESSONS 56 &amp; 57</span>
           <p>Read <i>Chapter 17 ~ The Oracle Speaks</i> from
-            <i> The Egypt Game</i> and watch the videos. <br/>Complete the vocabulary assignment below and then answer the questions that
+            <i> The Egypt Game</i> and watch the videos. <br/>Complete the vocabulary assignment below and then answer
+            the questions that
             follow.<br/>
             <Video videoUrl="https://www.youtube.com/embed/HTndjs_EjpY?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
             <Video videoUrl="https://www.youtube.com/embed/bdjQxguandM?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
             <Video videoUrl="https://www.youtube.com/embed/OIKDkx3OhK0?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
-                        <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using
+            <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using
             the word. <br/>
             1. pilgrimage<br/>
             2. meditate<br/>
@@ -1619,9 +1633,9 @@ const LA6Component = ({ data }) => {
             3. As soon as they finish the ceremony, they hear thunder and feel the first drops of rain.
             How do you think this reflects their moods?<br/>
             Based on the videos:<br/>
-            . Write a definition for <i>bene </i> and use it in a sentence. <br/>
-            . Write a definition for <i>chrono </i>  and use it in a sentence. <br/>
-            . Write a definition for  <i> cred</i> and use it in a sentence. <br/>
+            4. Write a definition for <i>bene </i> and give three examples of it used in a word. <br/>
+            5. Write a definition for <i>chrono </i> and give three examples of it used in a word. <br/>
+            6. Write a definition for <i> cred</i> and give three examples of it used in a word. <br/>
             <br/>
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener43} value={la6Essay43}/>
@@ -1629,7 +1643,8 @@ const LA6Component = ({ data }) => {
           <br/>
           <span className="days">LESSONS 58 &amp; 59</span>
           <p>Read <i>Chapter 18 ~ Where is Security?</i> from
-            <i> The Egypt Game</i> and watch the videos. <br/>Complete the vocabulary assignment below and then answer the questions that
+            <i> The Egypt Game</i> and watch the videos. <br/>Complete the vocabulary assignment below and then answer
+            the questions that
             follow.<br/>
             <Video videoUrl="https://www.youtube.com/embed/0jtBganeo98?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
             <Video videoUrl="https://www.youtube.com/embed/Smk5CvcC_zI?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
@@ -1650,20 +1665,21 @@ const LA6Component = ({ data }) => {
             4. What question did Marshall ask the oracle?<br/>
             5. What do you think the Egyptians will do in response to Marshall’s question?<br/>
             Based on the videos:<br/>
-            6. Write a definition for <i>geo </i> and use it in a sentence. <br/>
-            7. Write a definition for <i> gen</i>  and use it in a sentence. <br/>
-            8. Write a definition for  <i> flex</i> and use it in a sentence. <br/>
+            6. Write a definition for <i>geo </i> and give three examples of it used in a word. <br/>
+            7. Write a definition for <i> gen</i> and give three examples of it used in a word. <br/>
+            8. Write a definition for <i> flex</i> and give three examples of it used in a word. <br/>
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener44} value={la6Essay44}/>
 
           <br/>
           <span className="days">LESSONS 60 &amp; 61</span>
           <p>Read <i>Chapter 19 ~ Confession and Confusion</i> from
-            <i> The Egypt Game</i> and watch the videos. <br/>Complete the vocabulary assignment below and then answer the questions that
+            <i> The Egypt Game</i> and watch the videos. <br/>Complete the vocabulary assignment below and then answer
+            the questions that
             follow.<br/>
             <Video videoUrl="https://www.youtube.com/embed/wvpR3jjg9q0?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
             <Video videoUrl="https://www.youtube.com/embed/Eny0oDUOmk4?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
-            <Video videoUrl="https://www.youtube.com/embed/KhQHMVm0iIQ?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>            
+            <Video videoUrl="https://www.youtube.com/embed/KhQHMVm0iIQ?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
             <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using
             the
             word. <br/>
@@ -1679,16 +1695,17 @@ const LA6Component = ({ data }) => {
             4. What was the girls’ idea on what to say about Security?<br/>
             5. Why didn’t April have to use the story they made up about Security?<br/>
             Based on the videos:<br/>
-            6. Write a definition for <i>fid </i> and use it in a sentence. <br/>
-            7. Write a definition for <i>duc </i>  and use it in a sentence. <br/>
-            8. Write a definition for  <i> dict</i> and use it in a sentence. <br/>
+            6. Write a definition for <i>fid </i> and give three examples of it used in a word. <br/>
+            7. Write a definition for <i>duc </i> and give three examples of it used in a word. <br/>
+            8. Write a definition for <i> dict</i> and give three examples of it used in a word. <br/>
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener45} value={la6Essay45}/>
 
           <br/>
           <span className="days">LESSONS 62 &amp; 63</span>
           <p>Read <i>Chapter 20 ~ Fear Strikes</i> from
-            <i> The Egypt Game</i> and watch the videos. <br/>Complete the vocabulary assignment below and then answer the questions that
+            <i> The Egypt Game</i> and watch the videos. <br/>Complete the vocabulary assignment below and then answer
+            the questions that
             follow.<br/>
             <Video videoUrl="https://www.youtube.com/embed/YpWUPKZ3hsI?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
             <Video videoUrl="https://www.youtube.com/embed/E-ONTDXRUGA?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
@@ -1708,21 +1725,22 @@ const LA6Component = ({ data }) => {
             2. Describe the sequences the events of the night when April goes
             to babysit Marshall.<br/>
             Based on the videos:<br/>
-            3. Write a definition for <i>graph </i> and use it in a sentence. <br/>
-            4. Write a definition for <i>auto </i>  and use it in a sentence. <br/>
-            5. Write a definition for  <i>logue </i> and use it in a sentence. <br/>
+            3. Write a definition for <i>graph </i> and give three examples of it used in a word. <br/>
+            4. Write a definition for <i>auto </i> and give three examples of it used in a word. <br/>
+            5. Write a definition for <i>logue </i> and give three examples of it used in a word. <br/>
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener46} value={la6Essay46}/>
 
           <br/>
           <span className="days">LESSONS 64 &amp; 65</span>
           <p>Read <i>Chapter 21 ~ The Hero</i> from
-            <i> The Egypt Game</i> and watch the videos. <br/>Complete the vocabulary assignment below and then answer the questions that
+            <i> The Egypt Game</i> and watch the videos. <br/>Complete the vocabulary assignment below and then answer
+            the questions that
             follow.<br/>
             <Video videoUrl="https://www.youtube.com/embed/BBbsFsN8lkA?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
             <Video videoUrl="https://www.youtube.com/embed/8wBEql1STj4?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
             <Video videoUrl="https://www.youtube.com/embed/vkXIWwSCeDE?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
-            
+
             <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using
             the
             word. <br/>
@@ -1739,15 +1757,16 @@ const LA6Component = ({ data }) => {
             5. Why did Marshall stop taking Security places with him? What does this show
             about him?<br/>
             Based on the videos:<br/>
-            6. Write a definition for <i> phil</i> and use it in a sentence. <br/>
-            7. Write a definition for <i> path</i>  and use it in a sentence. <br/>
-            8. Write a definition for  <i>port </i> and use it in a sentence. <br/>
+            6. Write a definition for <i> phil</i> and give three examples of it used in a word. <br/>
+            7. Write a definition for <i> path</i> and give three examples of it used in a word. <br/>
+            8. Write a definition for <i>port </i> and give three examples of it used in a word. <br/>
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener47} value={la6Essay47}/>
 
           <br/>
           <span className="days">LESSONS 66 &amp; 67</span>
-          <p>Read <i>Chapter 21 ~ The Hero</i> from <i> The Egypt Game</i> and watch the videos. <br/>Complete the vocabulary assignment
+          <p>Read <i>Chapter 21 ~ The Hero</i> from <i> The Egypt Game</i> and watch the videos. <br/>Complete the
+            vocabulary assignment
             below and then answer the questions that follow.<br/>
             <Video videoUrl="https://www.youtube.com/embed/bju7cqHSTIE?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
             <Video videoUrl="https://www.youtube.com/embed/tTSQ9r-2w9Q?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
@@ -1767,9 +1786,9 @@ const LA6Component = ({ data }) => {
             5. Why did Marshall stop taking Security places with him? What does this show
             about him?<br/>
             Based on the videos:<br/>
-            6. Write a definition for <i>luc </i> and <i>lum</i> and use each term in a sentence. <br/>
-            7. Write a definition for <i> spect</i>  and use it in a sentence. <br/>
-            8. Write a definition for  <i> pend</i> and use it in a sentence. <br/>
+            6. Write a definition for <i>luc </i> and <i>lum</i> and give three examples for each used in a word. <br/>
+            7. Write a definition for <i> spect</i> and give three examples of it used in a word. <br/>
+            8. Write a definition for <i> pend</i> and give three examples of it used in a word. <br/>
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener48} value={la6Essay48}/>
 
@@ -1780,7 +1799,7 @@ const LA6Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/2bgkj7iidoc?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
           <Video videoUrl="https://www.youtube.com/embed/vEEezjwnpgY?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
           <Video videoUrl="https://www.youtube.com/embed/eo0yg--Sreo?list=PLLQh1KcEsatLzrxMxwbUacD68qcPh6FOc"/>
-            <p>Complete the vocabulary assignment below and then answer the questions that
+          <p>Complete the vocabulary assignment below and then answer the questions that
             follow.
             <strong>Vocabulary:</strong> For each vocabulary word, write a definition and then write a sentence using
             the
@@ -1797,12 +1816,13 @@ const LA6Component = ({ data }) => {
             4. What did the Professor say that the children gave him?<br/>
             5. Why did the Professor decide to put more time and energy into his store again?<br/>
             6. What do you think will happen to the Egyptians and the Egypt Game?<br/>
-              Based on the videos:<br/>
-              7. Write a definition for <i>sacr </i> and <i>sanct</i> and use each term in a sentence. <br/>
-              8. Write a definition for <i>mort </i>  and <i>necro </i>  and use each term in a sentence. <br/>
-              9. Write a definition for  <i> terr</i> and use it in a sentence. <br/>
+            Based on the videos:<br/>
+            7. Write a definition for <i>sacr </i> and <i>sanct</i> and give three examples for each used in a
+            word. <br/>
+            8. Write a definition for <i>mort </i> and <i>necro </i> and use each term in a sentence. <br/>
+            9. Write a definition for <i> terr</i> and give three examples of it used in a word. <br/>
 
-            </p>
+          </p>
           <textarea className="textArea" onChange={onChangeLA6Listener49} value={la6Essay49}/>
           <br/>
           <span className="days">LESSON 70</span>
@@ -2271,7 +2291,7 @@ const LA6Component = ({ data }) => {
             3. Who arrives at the end of the chapter?<br/>
             4. Describe Lyra's relationship with Roger. <br/>
             5. Why are the children at Bolvanger approximately the same age?<br/>
-            6. Who took away Bridget McGinn?  Is this significant?<br/>
+            6. Who took away Bridget McGinn? Is this significant?<br/>
             7. The chapter is called The Daemon Cages? Explain this.<br/>
             <br/></p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition
           and then use the word in a sentence. </p>
@@ -2309,7 +2329,7 @@ const LA6Component = ({ data }) => {
           <span className="days">LESSON 90</span>
           <p>Read Chapter 17 The Witches </p>
           <p><i>Complete the the questions and vocabulary assignment below:</i><br/>
-            1. What new things did you learn  about Lyra and Mrs. Coulter during their conversation?<br/>
+            1. What new things did you learn about Lyra and Mrs. Coulter during their conversation?<br/>
             2. What is the setting?<br/>
             3. Describe the main events for the chapter (2-4 sentences).<br/>
             4. Do you think Lyra is clever when she lies? Explain why or why not?<br/>
@@ -2332,7 +2352,7 @@ const LA6Component = ({ data }) => {
           <p>Read Chapter 18 Fog and Ice </p>
           <p><i>Complete the the questions and vocabulary assignment below:</i><br/>
             1. Describe the main events for the chapter. There should be a beginning, middle and end.<br/>
-            2. Describe Lee Scoresby’s personality. What does he want out of life? (4-6 sentences)
+            2. Describe Lee Scoresby’s personality. What does he want out of life? (4-6 sentences)<br/>
             3. Describe the life of a witch. (4-6 sentences)<br/>
             4. Serafina Pekkala believes priests are afraid of dust. Why?<br/>
           </p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and
@@ -2419,10 +2439,10 @@ const LA6Component = ({ data }) => {
           <span className="days">LESSON 95</span>
           <p>Read Chapter 22 Betrayal </p>
           <p><i>Complete the the questions and vocabulary assignment below:</i><br/>
-            1. Thoroid is a new character.  What is he like?  Why does he wake Lyra up? (2-5 sentences).<br/>
+            1. Thoroid is a new character. What is he like? Why does he wake Lyra up? <br/>
             2. Describe the main events for the chapter (2-4 sentences).<br/>
             3. Who does Lord Asriel take with him to do his experiment?<br/>
-            4. What does Lyra do at the end of the chapter? What does Iorek Byrnison do?  Explain why they did this?<br/>
+            4. What does Lyra do at the end of the chapter? What does Iorek Byrnison do? Explain why they did this?<br/>
           </p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and
           then use the word in a sentence. </p>
           <p>
@@ -2444,14 +2464,16 @@ const LA6Component = ({ data }) => {
             1. Describe the main events for the chapter (2-4 sentences).<br/>
             2. Where does Lyra go at the end of the book?<br/>
             3. Why do you think Mrs. Coulter decided not to go with Lord Asriel?<br/>
-          4. How did you like the book? Do you think you would like to read the other books in the series? Why or why not? </p>
+            4. How did you like the book? Do you think you would like to read the other books in the series? Why or why
+            not? </p>
           <textarea className="textArea" onChange={onChangeLA6Listener74} value={la6Essay74}/>
           <br/>
           <span className="days">LESSON 97</span>
           <p><i>Now that you've completed the novel, answer the questions below as thoughtfully as you
-            can:</i><br/>
-            1. Do you think humans are inherently good?<br/>
-            2. Does absolute power corrupt absolutely? <br/>
+            can and in complete sentences:</i><br/>
+            1. Do you think humans are inherently good? Explain your answer.<br/>
+            2. There is a quote that says that absolute power corrupt absolutely. What does this mean? Do you believe
+            this is true? <br/>
             3. Is "Dust" good or bad? What does Lyra think? What do you think?<br/>
             4. Are you the master of your own destiny, or does fate guide your course?<br/>
             5. Is Lord Asriel a hero or a villain? Is this a trick question?<br/>
@@ -2475,9 +2497,9 @@ const LA6Component = ({ data }) => {
             born.” Did Lyra have a choice to follow her destiny? Why or why not?<br/>
             4. Lyra often lies, and eventually lying becomes a matter of habit for her. Is lying always wrong,
             according to The Golden Compass? Use examples.<br/>
-            5. What do you believe are the qualities of a hero? Who are the heroes in the Golden Compass? Who
-            is
-            your favorite hero in the novel? What traits make him/her a hero in your mind? What actions did
+            5. What do you believe are the qualities of a hero? <br/>
+            6. Who are the heroes in the Golden Compass? <br/>
+            7. Who is your favorite hero in the novel? What traits make him/her a hero in your mind? What actions did
             you
             find heroic? <br/></p>
           <textarea className="textArea" onChange={onChangeLA6Listener76} value={la6Essay76}/>
@@ -2498,7 +2520,7 @@ const LA6Component = ({ data }) => {
             own life? Explain.<br/>
             4. What is the reaping? Do you think this practice is fair? Explain.<br/>
             5. Who is selected at the reaping?</p>
-          <p><i>Write definitions for the vocabulary words below. </i><br/>
+          <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. reaping -<br/>
             2. apothecary -<br/>
             3. racketeering -<br/>
@@ -2510,7 +2532,7 @@ const LA6Component = ({ data }) => {
             questions below:<br/>1. How does Katniss save her sister from the reaping?<br/> 2. What kind
             of
             person do you think Peeta is? What evidence from the book led you to come to this conclusion?</p>
-          <p>Write definitions for the vocabulary words below. <br/>
+          <p>Write definitions for the vocabulary words below and use each word in a sentence. <br/>
             1. condone -<br/>
             2. tenuous -<br/>
             3. mesmerized -<br/>
@@ -2524,7 +2546,7 @@ const LA6Component = ({ data }) => {
             influenced his son?<br/>
             3. What advice does Gale give Katniss about surviving the games?
           </p>
-          <p><i>Write definitions for the vocabulary words below. </i><br/>
+          <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. compensation -<br/>
             2. insurmountable -<br/></p>
           <textarea className="textArea" onChange={onChangeLA6Listener79} value={la6Essay79}/>
@@ -2536,7 +2558,7 @@ const LA6Component = ({ data }) => {
             2. What does Katniss mean when she says: “A Kind Peeta Mellark is far more dangerous to me than an
             unkind one” ?<br/>
             3. What happens to convince Haymitch that Peeta and Katniss might be fighters?</p>
-          <p><i>Write definitions for the vocabulary words below. </i><br/>
+          <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. gawking -<br/></p>
           <textarea className="textArea" onChange={onChangeLA6Listener80} value={la6Essay80}/>
           <br/>
@@ -2545,7 +2567,7 @@ const LA6Component = ({ data }) => {
             questions below:<br/>1. The presentation of the tributes seems to be greatly focused on visual
             presentation and looks — what does this reveal about the belief systems of the Capitol?<br/>
             2. Compare and contrast life in the Capitol to life in District 12. </p>
-          <p><i>Write definitions for the vocabulary words below. </i><br/>
+          <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. sustenance -<br/>
             2. demeanor -<br/></p>
           <textarea className="textArea" onChange={onChangeLA6Listener81} value={la6Essay81}/>
@@ -2555,7 +2577,7 @@ const LA6Component = ({ data }) => {
             questions below:<br/>1. What is an Avox? <br/>
             2. What prevents tributes from jumping off the roof? Why do you think this is in place? <br/>
             3. What reasons would Peeta have for being curious about Gale? </p>
-          <p><i>Write definitions for the vocabulary words below. </i><br/>
+          <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. corral -<br/>
             2. barbarism -<br/></p>
           <textarea className="textArea" onChange={onChangeLA6Listener82} value={la6Essay82}/>
@@ -2567,7 +2589,7 @@ const LA6Component = ({ data }) => {
             <br/>
             2. What reasons does Peeta give for thinking Katniss will be better than him in the arena?<br/>
             3. What does Katniss do before the judges? Why might this act be considered controversial? </p>
-          <p><i>Write definitions for the vocabulary words below. </i><br/>
+          <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. emaciated -<br/>
             2. arbitrary -<br/>
             3. deluge -<br/>
@@ -2582,7 +2604,7 @@ const LA6Component = ({ data }) => {
             the
             judges? <br/>
             2. Why do you think Peeta asked to be coached separately? </p>
-          <p><i>Write definitions for the vocabulary words below. </i><br/>
+          <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. leniency -<br/>
             2. arduous -<br/></p>
           <textarea className="textArea" onChange={onChangeLA6Listener84} value={la6Essay84}/>
@@ -2592,7 +2614,7 @@ const LA6Component = ({ data }) => {
             questions below:<br/>1. Describe Katniss and Peeta’s costumes. Why do you think Cinna dressed
             them like this? <br/>
             2. What shocking secret does Peeta reveal during his interview?</p>
-          <p><i>Write definitions for the vocabulary words below. </i><br/>
+          <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. pretense -<br/>
             2. banal -<br/>
             3. sullen -<br/>
@@ -2606,7 +2628,7 @@ const LA6Component = ({ data }) => {
             alone? <br/>
             2. What does Peeta mean when he says the following: “I want to die as myself.” <br/>
             3. What does Cinna make sure Katniss brings into the arena with her? &lt;</p>
-          <p><i>Write definitions for the vocabulary words below. </i><br/>
+          <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. entourage -<br/>
             2. hysteria -<br/>
             3. ruminate -<br/>
@@ -2619,7 +2641,7 @@ const LA6Component = ({ data }) => {
             questions below:<br/>1. Who is the first person to die in the arena? How do they die? <br/>
             2. How are the tributes notified that someone has died in the arena? <br/>
             3. How do you think Katniss feels when she hears Peeta planning with the Careers? </p>
-          <p><i>Write definitions for the vocabulary words below. </i><br/>
+          <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. equidistant -<br/>
             2. devise -<br/>
             3. assent -<br/>
@@ -2629,7 +2651,7 @@ const LA6Component = ({ data }) => {
           <span className="days">LESSON 110</span>
           <p>Read Chapter 12 from <i> The Hunger Games </i> and answer the
             question below:<br/> What are some of the conflicts faced by Katniss in chapter 12? </p>
-          <p><i>Write definitions for the vocabulary words below. </i><br/>
+          <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. disgrace -<br/>
             2. perplexed -<br/>
             3. foliage -<br/>
@@ -2641,7 +2663,7 @@ const LA6Component = ({ data }) => {
           <p>Read Chapter 13 from <i> The Hunger Games </i> and answer the
             questions below:<br/>1. Describe the attack that occurs in this chapter. <br/>
             2. What kind of injury does Katniss receive and how did she get it? </p>
-          <p><i>Write definitions for the vocabulary words below. </i><br/>
+          <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. manipulate -<br/>
             2. garment -<br/>
             3. conspiracy -<br/></p>
@@ -2652,7 +2674,7 @@ const LA6Component = ({ data }) => {
             questions below:<br/>1. What does Haymitch send to Katniss? <br/>
             2. Who does Katniss team up with? Why do you think she chose this person? <br/>
             3. Who saves Katniss’ life? </p>
-          <p><i>Write definitions for the vocabulary words below. </i><br/>
+          <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. precarious -<br/>
             2. persevere -<br/>
             3. sated -<br/>
@@ -2665,7 +2687,7 @@ const LA6Component = ({ data }) => {
           <p>Read Chapter 15 from <i> The Hunger Games </i> and address the
             following:<br/>Compare and contrast why Katniss and Rue think Peeta saved Katniss’ life.
           </p>
-          <p><i>Write definitions for the vocabulary words below. </i><br/>
+          <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. wracked -<br/>
             2. feeble -<br/>
             3. evasion -<br/></p>
@@ -2678,7 +2700,7 @@ const LA6Component = ({ data }) => {
             of chapter 16. What were the main problems or
             conflicts Katniss was trying to solve. Include supporting details. Explain why things happened as
             they did. </p>
-          <p><i>Write definitions for the vocabulary words below. </i><br/>
+          <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. ordeal -<br/>
             2. poised -<br/>
             3. rendezvous -<br/>
@@ -2692,7 +2714,7 @@ const LA6Component = ({ data }) => {
             following:<br/>Summarize the major events of chapter 17. What were the main problems or
             conflicts Katniss was trying to solve. Include supporting details. Explain why things happened as
             they did. </p>
-          <p><i>Write definitions for the vocabulary words below. </i><br/>
+          <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. famished -<br/>
             2. decadent -<br/></p>
           <textarea className="textArea" onChange={onChangeLA6Listener93} value={la6Essay93}/>
@@ -2702,7 +2724,7 @@ const LA6Component = ({ data }) => {
             questions below:<br/>1. How does Katniss mourn Rue? <br/>
             2. How does Rue’s district show their gratitude for the way Katniss honored Rue? <br/>
             3. What major rule change occurs at the end of this chapter? </p>
-          <p><i>Write definitions for the vocabulary words below. </i><br/>
+          <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. gore -<br/>
             2. despondent -<br/>
             3. lethargy -<br/>
@@ -2720,7 +2742,7 @@ const LA6Component = ({ data }) => {
             needs to do this? <br/>
             4. How do you think Haymitch feels about Katniss and Peeta? Who do you think he believes to be the
             stronger competitor and why? </p>
-          <p><i>Write definitions for the vocabulary words below. </i><br/>
+          <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. assailant -<br/>
             2. dissipate -<br/>
             3. pariah -<br/>
@@ -2736,7 +2758,7 @@ const LA6Component = ({ data }) => {
             she have to leave out because the Capitol is listening? <br/>
             2. What is the purpose of the feast? Why does Katniss want to go? <br/>
             3. How does Katniss trick Peeta so she can leave? </p>
-          <p><i>Write definitions for the vocabulary words below. </i><br/>
+          <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. tethered -<br/>
             2. scowl -<br/>
             3. potent -<br/>
@@ -2752,7 +2774,7 @@ const LA6Component = ({ data }) => {
             thoughts concerning Katniss and Peeta kissing? <br/>
             2. How does Foxface outsmart the rest of the tributes at the feast? <br/>
             3. Who saves Katniss and why? Why might this action upset the Capitol? </p>
-          <p><i>Write definitions for the vocabulary words below. </i><br/>
+          <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. forte -<br/>
             2. dignity -<br/>
             3. defiance -<br/></p>
@@ -2762,7 +2784,7 @@ const LA6Component = ({ data }) => {
           <p>Read Chapter 22 from <i> The Hunger Games </i> and answer the
             questions below:<br/>Describe the story Peeta tells Katniss. What does this reveal about both
             Peeta and his father? What do we learn about Katniss’ father?</p>
-          <p><i>Write definitions for the vocabulary words below. </i><br/>
+          <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. irreverent -<br/>
             2. fabricated -<br/>
             3. exorbitant -<br/></p>
@@ -2776,7 +2798,7 @@ const LA6Component = ({ data }) => {
             she
             survives, and why does she decide this? <br/>
             3. How does Peeta compare to Gale as a hunting partner?</p>
-          <p><i>Write definitions for the vocabulary words below. </i><br/>
+          <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. repellent -<br/>
             2. peevish -<br/>
             3. exasperation -<br/>
@@ -2785,8 +2807,10 @@ const LA6Component = ({ data }) => {
           <br/>
           <span className="days">LESSON 122</span>
           <p>Read Chapter 24 from <i> The Hunger Games </i> and answer the
-            question below:<br/>How is Peeta responsible for Foxface’s death? </p>
-          <p><i>Write definitions for the vocabulary words below. </i><br/>
+            question below:<br/>
+            1. Summarize the main events that happened in this chapter (3-5 sentences). <br/>
+            2. How is Peeta responsible for Foxface’s death? </p>
+          <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. dissonant -<br/>
             2. intersperse -<br/></p>
           <textarea className="textArea" onChange={onChangeLA6Listener100} value={la6Essay100}/>
@@ -2799,7 +2823,7 @@ const LA6Component = ({ data }) => {
             games? <br/>
             4. What announcement does Claudius make? Compare and contrast Peeta and Katniss’ reactions. <br/>
             5. How do Peeta and Katniss outsmart the game makers? </p>
-          <p><i>Write definitions for the vocabulary words below. </i><br/>
+          <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. callous -<br/>
             2. tourniquet -<br/></p>
           <textarea className="textArea" onChange={onChangeLA6Listener102} value={la6Essay102}/>
@@ -2809,7 +2833,7 @@ const LA6Component = ({ data }) => {
             questions below:<br/>1. What advice does Haymitch give to Katniss? <br/>
             2. What does Haymitch mean when he says: Don’t have to. He’s already there. <br/>
             3. What dangers do Katniss and Peeta still face despite the games being over? </p>
-          <p><i>Write definitions for the vocabulary words below. </i><br/>
+          <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. benign -<br/></p>
           <textarea className="textArea" onChange={onChangeLA6Listener103} value={la6Essay103}/>
           <br/>
@@ -2821,7 +2845,7 @@ const LA6Component = ({ data }) => {
             2. How does Katniss explain the use of the berries during the interview? <br/>
             3. Do you think Katniss was acting the whole time that she was in love with Peeta?
             Why or why not? </p>
-          <p><i>Write definitions for the vocabulary words below. </i><br/>
+          <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. insidious -<br/>
             2. segue -<br/></p>
           <textarea className="textArea" onChange={onChangeLA6Listener104} value={la6Essay104}/>
@@ -3357,10 +3381,8 @@ const LA6Component = ({ data }) => {
             11. Does Glendale win the state basketball tournament? <br/>
             12. What time is it now? How many years have passed since the Bunny Hop? <br/>
             13. Where did Stargirl go after she left Mica, Arizona? <br/>
-            14. Was Stargirl real? Are star people real? <br/>
-            15. What did Stargirl do for Leo? <br/>
-            16. Where was Stargirl’s office? <br/>
-            17. What happens to Stargirl’s scrapbook about the life of Peter Sinkowitz? <br/>
+            14. Do star people exist real life? Explain.<br/>
+            15. What happens to Stargirl’s scrapbook about the life of Peter Sinkowitz? <br/>
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener121} value={la6Essay121}/>
           <br/>
@@ -3394,14 +3416,14 @@ const LA6Component = ({ data }) => {
             that Leo sees himself as part of the group. He needs to fit in and needs her to fit in as well. So Stargirl
             changes her personality and her appearance to try to make him happy.</p>
           <p>In a 5 paragraph Persuasive Essay, answer the following question:</p>
-          <p><i>Should Stargirl have changed to try to fit it and become popular?</i></p>
+          <p><strong>Should Stargirl have changed to try to fit it and become popular?</strong></p>
           <p>Think about the question and form a clear opinion about it. Watch the video and read
             the outline below. Then write a persuasive essay that supports your opinion. Be sure to use examples from
             the book.</p>
           <Video videoUrl="https://www.youtube.com/embed/5uSJEiNZ1rE"/>
           <p>Your five paragraph essay should follow the format below: </p>
           <ul className="assnList">
-            <li>Title</li>
+            <li><strong>Title</strong></li>
             <li><strong>Introduction paragraph: </strong>Write a hook to grab your reader's attention. Your first
               paragraph should have a clear thesis statement (main idea of your essay). This
               statement should convey the points or arguments you are going to
@@ -3409,15 +3431,16 @@ const LA6Component = ({ data }) => {
               is this paper about?" The final sentence for this paragraph should smoothly transition to the next
               paragraph.
             </li>
-            <li><strong>Body</strong> Paragraphs 2-4 should provide examples from the book that support your thesis
+            <li><strong>Body:</strong> Paragraphs 2-4 should provide examples from the book that support your thesis
               statement. Each
               paragraph should discuss a different point and use different examples, explanations and support. Using
-              direct
-              quotes from the novel can be effective. Try to think of an argument someone might use against you and
+              direct quotes from the novel can be effective. Try to think of an argument someone might use against you
+              and
               address this in a paragraph.
             </li>
-            <li>Your <strong>conclusion </strong> should restate your thesis in a different way. End with a thoughtful
-              summary.
+            <li><strong>Conclusion:</strong> Your conclusion should restate your thesis in a different way. End with a
+              thoughtful
+              summary of what you covered.
             </li>
             <li>Each paragraph should be 3-5 sentences.</li>
           </ul>
@@ -3434,24 +3457,24 @@ const LA6Component = ({ data }) => {
             influenced by the people we meet and changed by the experiences we have.</p>
 
           <p>Write a personal narrative based on one of the following:<br/>
-            (1) A past <i>experience </i>that you feel influenced you to be the person you are today.<br/>
+            (1) A past <i>experience </i> you feel influenced you to be the person you are today.<br/>
 
             (2) A <i>person </i> you feel influenced you to be the person you are today.</p>
           <p>Your personal narrative should be 5 paragraphs long and follow the following
             format:<br/>
             <ul className="assnList">
-              <li>Title</li>
+              <li><strong>Title</strong></li>
               <li><strong>Introduction paragraph: </strong>Write a hook to grab your reader's attention. Your first
                 paragraph should have a clear thesis or main idea. It should answer the question, "What
                 is this essay about?" If you are writing about an experience, you should concisely state 3 ways the
                 experience changed and/or shaped you and how it did this.
               </li>
-              <li><strong>Body</strong> Paragraphs 2-4 should provide examples to support your thesis
+              <li><strong>Body:</strong> Paragraphs 2-4 should provide examples to support your thesis
                 statement. Each of these three paragraphs should elaborate on the three points you said you were going
-                to cover in your
-                introduction paragraph - the ways an experience (or a person) shaped you.
+                to cover in your introduction paragraph - the ways an experience (or a person) shaped you.
               </li>
-              <li>Your <strong>conclusion </strong> should restate your thesis in a different way. End with a thoughtful
+              <li><strong>Conclusion: </strong>Your conclusion should restate your thesis in a different way. End with a
+                thoughtful
                 summary.
               </li>
               <li>Each paragraph should be 3-5 sentences.</li>
@@ -3504,10 +3527,10 @@ const LA6Component = ({ data }) => {
           <br/>
           <span className="days">LESSON 148 - Expository Writing</span>
           <p>An expository essay explains or describes a topic by presenting only facts,
-            statistics, and examples. It is
-            meant to be informative versus persuasive or entertaining. Expository writing can be a description,
-            sequence, comparison, cause and effect or problem and solution.
-            Write a 5 paragraph expository essay based on one of the prompts below:<br/>
+            statistics, and examples. It is meant to be informative versus persuasive or entertaining. Expository
+            writing can be a description,
+            sequence, comparison, cause and effect or problem and solution.</p>
+          <p>Write a 5 paragraph expository essay based on one of the prompts below:<br/>
             <ul className="list"><strong>Description:</strong> describe a topic by listing characteristics, features,
               and examples. No opinions or trying to persuade.<br/>
               <li>Describe your neighborhood to someone house shopping in your area.</li>
@@ -3541,7 +3564,7 @@ const LA6Component = ({ data }) => {
               for the
               problem.<br/>
               <li>Animal abuse and neglect is a problem. What are solutions?</li>
-              <li>Pressures of materialism is a problem people face. What are solution?</li>
+              <li>Pressures of materialism is a problem people face. What are solutions?</li>
               <li>Is there a problem your generation is facing now? What is it and what is a solution/solutions?</li>
               <li>Is there a problem your generation will have to face in the future? What are solutions?</li>
             </ul>
@@ -3552,7 +3575,7 @@ const LA6Component = ({ data }) => {
           <p><i>For each fictional writing assignment, address the items below to develop
             your story:</i></p>
           <p>POINT OF VIEW: Whose story are you telling? Using "I" is first person. Using
-            "you" is second person. Third person uses he or she. The third-person omniscient point of view tells the
+            "you" is second person. Third person uses "he" or "she." The third-person omniscient point of view tells the
             thoughts and feelings of all the characters. </p>
           <p>PLOT: What happens in the story? What are the sequence of events? </p>
           <p>SETTING: Where and when is it (past, present or future)? </p>
@@ -3563,10 +3586,10 @@ const LA6Component = ({ data }) => {
           <p>CHARACTERS: Who is in your story? Who is the main character (protagonist)? Who
             are the supporting characters? </p>
           <p>Developing your characters is important because your readers must care about what
-            happens to them. They don’t have to be likable, but they must be credible. Your readers should be feel
+            happens to them. They don’t have to be likable, but they must be credible. Your readers should feel
             the characters are real and be able to picture them clearly in their head. You should describe what they
             look like and their personality. Include character traits (ex. humor, wit, introversion), strengths (ex.
-            intelligence, stamina, humor) and flaws (ex. short-temper, physical disability). The main character
+            intelligence, stamina, grit) and flaws (ex. short-temper, physical impairment). The main character
             (protagonist) is the most important because the story tends to revolve around them. They determine the
             way the plot will develop and must solve a problem or solve a mystery. </p>
           <p>Supporting characters are also important because they often help the main
@@ -3578,13 +3601,13 @@ const LA6Component = ({ data }) => {
             started on a rough draft for your stories. It includes the following:<br/>
             <ul className="assnList2">
               <li>Title of your story:</li>
-              <li>The story is about</li>
+              <li>The story in a nutshell:</li>
               <li>Main character:</li>
               <li>Supporting characters:</li>
               <li>Setting:</li>
-              <li>Write the first few lines of your story. Set the scene and introduce your characters.</li>
-              <li>Try to grab your readers’ attention in the first paragraph.</li>
-              <li>The first thing that happens and conflict introduced:</li>
+              <li>Write the first few lines of your story. Set the scene and introduce your characters:</li>
+              <li>Try to grab your readers’ attention in the first paragraph:</li>
+              <li>Write the first thing that happens and introduce the conflict:</li>
               <li>Next (build up):</li>
               <li>Finally (resolution):</li>
             </ul>
@@ -3627,7 +3650,7 @@ const LA6Component = ({ data }) => {
                         alt="train tracks"/>
                 <p className="captionTitle">Final Destination </p>
                 <p className="caption">As the train passed by, you noticed one of the passengers staring at you. The
-                  face you saw was yours. </p>
+                  face you saw was your own. </p>
               </div>
               <div><img src={require("../../public/images/stories/pathinwoods.jpg")} style={{ maxWidth: "500px" }}
                         alt="path through the woods"/>
@@ -3664,12 +3687,12 @@ const LA6Component = ({ data }) => {
             story.</p>
           <Video videoUrl="https://www.youtube.com/embed/ZQTQSbjecLg"/>
           <p><strong>Fantasy </strong> is a genre that has magical and
-            supernatural elements. Many novels have a real-world setting, like Twilight, while others novels are set
+            supernatural elements. Many novels have a real-world setting, like Twilight, while other novels are set
             in an imaginary world. This genre has no connection to reality or science. For example, Lord of the
             Rings is set in Middle Earth, with races and creatures the author created.
             There are numerous subgenres of fantasy fiction. A few include high or epic fantasy (Lord of the Rings),
             low fantasy (Indian in the Cupboard), dark fantasy (Twilight), contemporary fantasy (Harry Potter),
-            sword and sorcery (The Sorcerer's Apprentice), dark fantasy (Twilight), fables (The Alchemist), fairy
+            sword and sorcery (The Sorcerer's Apprentice), fables (The Alchemist), fairy
             tales (Cinderella), and superhero fiction (Spiderman). </p>
           <p>Select one of the images below as your book cover and then write a fantasy story
             based on the image. What story unfolds in your imagination when you look at the image? Write your
@@ -3813,15 +3836,17 @@ const LA6Component = ({ data }) => {
           <span className="days">LESSON 154</span>
           <h4>Non-fiction Science Essay</h4>
           <img src={require("../../public/images/stories/science.jpg")} alt="The Giver novel"/><br/>
-          <p>Write a five paragraph essay based on one of the questions below.
+          <p>Write a five paragraph essay based on ONE of the questions below.
             <ol className="vocab">
               <li>What do you think is the most important invention of the last 100 years?</li>
               <li>Should we colonize other planets? Why or why not?</li>
               <li>If you could meet one famous inventor, who would it be?</li>
               <li>What is a new invention you would like to create? For inspiration, check out the article <a
                 href="https://www.sciencefocus.com/future-technology/future-technology-22-ideas-about-to-change-our-world/"
-                rel="noreferrer" target="_blank"> Future technology: 25 ideas about to change our world</a></li>
-              <li>What will the world be like 1,000 years from now?</li>
+                rel="noreferrer" target="_blank"> Future technology: 25 ideas about to change our world.</a></li>
+              <li>Try to imagine what the world will be like 500 years from now. How is technology likely to change how
+                people live?
+              </li>
             </ol>
           </p>
           <p>Your essay should follow answer the question and follow the format below: </p>
@@ -3847,7 +3872,7 @@ const LA6Component = ({ data }) => {
           <span className="days">LESSON 155</span>
           <h4> Write an Adventure Story</h4>
           <p>Stories in the adventure genre involve a hero who goes on an
-            exciting journey to some place very different than what he is used to. It is
+            exciting journey to some place very different than what he or she is used to. It is
             also usually a journey of personal growth in which the protagonist grows into a hero. These stories are
             usually fast-paced, with elements of danger, obstacles to overcome, and a
             villain to defeat.
@@ -3895,7 +3920,7 @@ const LA6Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangeLA6Listener135} value={la6Essay135}/>
 
           <span className="days">LESSON 156</span>
-          <h4> Character Development</h4>
+          <h4> Character and Story Development</h4>
           <p>No matter how exciting your plot may be, readers won't want to keep reading unless
             you have great characters. Watch the videos below to learn how to develop characters your readers will fall
             in love with and believe are real. Then complete the assignment posted after the videos.</p>
@@ -3914,9 +3939,9 @@ const LA6Component = ({ data }) => {
           {/*Advice on characters */}
           <Video videoUrl="https://www.youtube.com/embed/SgGARYH2vRg"/>
           <p>Your next two lessons will be to develop two great characters your readers will care
-            about: a protagonist and an antagonist. Start thinking about what they are like, consider: personality,
-            physical
-            appearance, strengths, weaknesses, special abilities (optional) and what they value. Develop these
+            about: a protagonist and an antagonist. Start thinking about what they are like. Consider their:
+            personality,
+            physical appearance, strengths, weaknesses, special abilities (optional) and what they value. Develop these
             characters in your mind and think about the following questions: <br/>
             <ul className="list">
               <li>What does your character want or want to achieve?</li>
@@ -3931,27 +3956,33 @@ const LA6Component = ({ data }) => {
             </ul>
           </p>
           <p>Take a few minutes to complete the assignment below. Your responses can be short
-            bullet points.
+            bullet points. The main point of this assignment is to generate ideas.
             <ol className="vocab">
               <li>Close your eyes and imagine the protagonist for your next story. Briefly describe their external and
-                internal traits.
+                internal traits (physical appearance and character traits).
               </li>
-              <li>List at least one place the protagonist will travel to. If you're not sure, where would you travel to
-                if
-                there were no limitations? This can be a place of your own creation.
+              <li>List at least one place the protagonist will travel to. If you're not sure, where would <i>you </i>travel
+                to
+                if there were no limitations? This can be a real place or a setting of your own creation.
               </li>
-              <li> Picture the villain. What are they like?</li>
               <li>What ideas do you have for the quest the protagonist will embark on? Are they chasing after an
                 artifact? Are they on a mission of some kind? Jot down any ideas you have.
               </li>
+              <li> Picture the villain. What are they like?</li>
+              <li>Create a book cover design for your next story. Think about the impression and mood
+                you want the images and colors to create for your readers. You can use whatever
+                medium you choose: pencil sketch, collage, paper and markers, or <a
+                  href="https://www.canva.com/create/book-covers/"
+                  rel="noreferrer"
+                  target="_blank"> Canva's online book cover creation
+                  tool. </a>You choose how you want to design it. Your book cover should include a title.
+              </li>
             </ol></p>
-          <p>Create a book cover design for your next story. Think about the impression and mood
-            you want the images and colors to create for your readers. You can use whatever
-            medium you choose: collage, paper and markers, or <a href="https://www.canva.com/create/book-covers/"
-                                                                 rel="noreferrer"
-                                                                 target="_blank"> Canva's online book cover creation
-              tool. </a>You choose how you want to design it. </p>
-          <textarea className="textArea" onChange={onChangeLA6Listener136} value={la6Essay136}/>
+          <p>Below are examples of book covers.</p>
+          <img src={require("../../public/images/bookCovers/bookcover2.jpg")} alt="Book Covers"/>
+
+          <textarea className="textArea" placeholder="Write your responses here." onChange={onChangeLA6Listener136}
+                    value={la6Essay136}/>
 
           <span className="days">LESSON 157</span>
           <h4> Character Development - The Protagonist</h4>
@@ -3966,7 +3997,7 @@ const LA6Component = ({ data }) => {
                 bullied, or they were raised in China and are fluent in Mandarin.
               </li>
               <li>Do they have any special abilities (optional). These can be supernatural or magical powers or worldly
-                abilities like a high IQ or jiu-jitsu skills.
+                abilities like a high IQ or exceptional jiu-jitsu skills.
               </li>
               <li>What are your character's strengths? Examples: Confidence, strong moral compass, problem solving
                 skills, loyalty, or persistence.
@@ -3976,7 +4007,7 @@ const LA6Component = ({ data }) => {
                 physical handicap.
               </li>
               <li>Where will your protagonist to travel to? Describe how this is dramatically different than where they
-                live now?
+                live now.
               </li>
               <li>What is a quest they were meant to pursue? Are they chasing after an
                 artifact? Are they on a mission of some kind?
@@ -4000,50 +4031,57 @@ const LA6Component = ({ data }) => {
           <span className="days">LESSON 158</span>
           <h4> Character Development - The Antagonist</h4>
           <p>Create the villain your protagonist will have to fight. <br/>
-            <li>What is your villain's name, gender and age?</li>
-            <li>What makes your villain a villain? Why does he do what he does? What is his backstory? Example: Lord
-              Voldemort wanted to become the supreme leader of wizards and rid the wizarding world of Muggles. His
-              mother had tricked his father
-              into loving her. He was not born from love and didn't know love as a child.
-            </li>
-            <li>What makes your villain powerful? What skills, abilities and traits make them <i>nearly</i> impossible
-              for your protagonist to defeat? Example: The Joker (in Batman) The Joker has no superhuman abilities, but
-              he is clever and uses chemical engineering to make poisonous weapons.
-            </li>
-            <li>What are their weaknesses? Will your hero be able to use a weakness against the villain to win?</li>
-            <li>What do does your protagonist look like? Be specific, including height, facial features, and how they
-              dress.
-            </li>
-            <li>Create a picture of your villain. You can sketch a picture or create your character on <a
-              href="https://charactercreator.org/#" rel="noreferrer" target="_blank">Character Creator </a>online. Be
-              sure to take a screen shot and save this to your device so you can include it with your story later.
-            </li>
+            <ol className="vocab">
+              <li>What is your villain's name, gender and age?</li>
+              <li>What makes your villain a villain? What motivates them to do what they do? What is his backstory?
+                Example: Lord
+                Voldemort wanted to become the supreme leader of wizards and rid the wizarding world of Muggles. His
+                mother had tricked his father
+                into loving her. He was not born from love and didn't know love as a child.
+              </li>
+              <li>What makes your villain powerful? What skills, abilities and traits make them <i>nearly</i> impossible
+                for your protagonist to defeat? They can have supernatural abilities, but this isn't required. For
+                example, think about the Joker in Batman. The Joker has no superhuman abilities, but
+                he is clever and uses chemical engineering to make poisonous weapons.
+              </li>
+              <li>What are their weaknesses? Will your hero be able to use a weakness against the villain to win?</li>
+              <li>What does your protagonist look like? Be specific, including height, facial features, and how they
+                dress.
+              </li>
+              <li>Create a picture of your villain. You can sketch a picture or create your character on <a
+                href="https://charactercreator.org/#" rel="noreferrer" target="_blank">Character Creator </a>online. Be
+                sure to take a screen shot and save this to your device so you can include it with your story later.
+              </li>
+            </ol>
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener138} value={la6Essay138}/>
           <br/>
           <span className="days">LESSON 159</span>
           <h4> Final Fictional Story</h4>
-          <p>It's time to write your final story for this class!</p>
+          <p>It's time to write your final story for this class! Before you start writing it, consider the following
+            questions:</p>
           <p>
             <ul className="assnList">
               <li>What point of view will you use?</li>
-              <li> What type of fiction or genre did you choose?</li>
-              <li>Title of your story.</li>
-              <li>Grab your readers’ attention in the first paragraph.</li>
-              <li>Where and when is it (past, present or future)? Who are your characters? Set the scene and introduce
-                your characters.
-              </li>
-              <li>What are the sequence events? Write about the first thing that happens. Introduce the conflict. What
-                is the challenge the main character must face in order to grow and
+              <li>What type of fiction or genre did you choose?</li>
+              <li>What is the title of your story?</li>
+              <li>How will you grab your readers’ attention in the first paragraph?</li>
+              <li>What is the setting? Where and when is it (past, present or future)?</li>
+              <li>Who are your characters?</li>
+              <li>How will you set the scene and introduce your characters?</li>
+              <li>What are the sequence events?</li>
+              <li>What will be the first thing that happens?</li>
+              <li>What is the challenge the main character must face in order to grow and
                 change? What obstacles must be overcome?
               </li>
-              <li>Next (build up):</li>
-              <li>Finally (resolution). How will the problem be solved?</li>
+              <li>How will you introduce the conflict?</li>
+              <li>How will build up the story to its climax?</li>
+              <li>Finally, what will the resolution be? How will the problem be solved?</li>
             </ul>
-            <br/> Write your story in the textbox and be sure to back up your work.
+            <br/> Write your story in the textbox below.  Be sure to back up your work.
           </p>
           <p>You can use the <a
-            href="../resources/languagearts/StoryOutlineWorksheet.pdf">Story Outline Worksheet</a> to help.</p>
+            href="../resources/languagearts/StoryOutlineWorksheet.pdf">Story Outline Worksheet</a> to help you get started.</p>
           <textarea className="textArea" onChange={onChangeLA6Listener139} value={la6Essay139}/>
 
           <h4> Vocabulary and Reading</h4>
@@ -4063,24 +4101,20 @@ const LA6Component = ({ data }) => {
                                                                    }
                                                                  }/>
           <p className="margin-para"> Complete all assignments listed below for this unit (readings, videos and
-            practice). Check the "Completed" box above when you finish. <br/> <a
+            practice). Check the "Completed" box above when you finish. Your work will be saved in Khan Academy's website.<br/> <a
               href="https://www.khanacademy.org/ela/cc-6th-reading-vocab/x8c8165c7dcd5e900:cc-6th-banning-behavior/x8c8165c7dcd5e900:building-knowledge/a/welcome-to-the-banning-behavior-unit"
               rel="noreferrer" target="_blank"> Building knowledge: Banning Behavior
             </a>
             <ul className='assnList'>
-              <li>Welcome to the Banning Behavior unit!</li>
-              <li>Banning Behavior: unit vocabulary</li>
+              <li><a href="https://www.khanacademy.org/ela/cc-6th-reading-vocab/x8c8165c7dcd5e900:cc-6th-banning-behavior/x8c8165c7dcd5e900:building-knowledge/a/welcome-to-the-banning-behavior-unit" rel="noreferrer" target="_blank"> Welcome to the Banning Behavior unit!</a></li>
+              <li><a href="https://www.khanacademy.org/ela/cc-6th-reading-vocab/x8c8165c7dcd5e900:cc-6th-banning-behavior/x8c8165c7dcd5e900:building-knowledge/a/banning-behavior-unit-vocabulary" rel="noreferrer" target="_blank"> Banning Behavior: unit vocabulary</a></li>
             </ul>
-            <a
-              href="https://www.khanacademy.org/ela/cc-6th-reading-vocab/x8c8165c7dcd5e900:cc-6th-banning-behavior/x8c8165c7dcd5e900:close-reading/v/making-inferences-in-informational-texts-reading-khan-academy"
+            <a href="https://www.khanacademy.org/ela/cc-6th-reading-vocab/x8c8165c7dcd5e900:cc-6th-banning-behavior/x8c8165c7dcd5e900:close-reading/v/making-inferences-in-informational-texts-reading-khan-academy"
               rel="noreferrer" target="_blank"> Close reading: informational text: Banning Behavior
             </a>
             <ul className='assnList'>
-              <li>Making inferences in informational texts | Reading</li>
-              <li>Creating objective summaries | Reading</li>
-              <li>How can a text have two or more main ideas? | Reading</li>
-              <li>How do writers use examples to get their points across? | Reading</li>
-              <li>Practice: Banning Behavior: reading informational text; Are We a Nation of Addicts? 6</li>
+              <li><a href="https://www.khanacademy.org/ela/cc-6th-reading-vocab/x8c8165c7dcd5e900:cc-6th-banning-behavior/x8c8165c7dcd5e900:close-reading/v/making-inferences-in-informational-texts-reading-khan-academy" rel="noreferrer" target="_blank"> Making inferences in informational texts | Reading</a></li>
+              <li><a href="https://www.khanacademy.org/ela/cc-6th-reading-vocab/x8c8165c7dcd5e900:cc-6th-banning-behavior/x8c8165c7dcd5e900:close-reading/v/creating-objective-summaries-reading-khan-academy" rel="noreferrer" target="_blank">Creating objective summaries | Reading</a></li>
             </ul>
           </p>
 
@@ -4096,16 +4130,14 @@ const LA6Component = ({ data }) => {
                                                                    }
                                                                  }/>
           <p className="margin-para"> Complete all assignments listed below for this unit (readings, videos and
-            practice). Check the "Completed" box above when you finish. <br/> <a
+            practice). Check the "Completed" box above when you finish. <br/>
+            <a
               href="https://www.khanacademy.org/ela/cc-6th-reading-vocab/x8c8165c7dcd5e900:cc-6th-banning-behavior/x8c8165c7dcd5e900:close-reading/v/making-inferences-in-informational-texts-reading-khan-academy"
               rel="noreferrer" target="_blank"> Close reading: informational text: Banning Behavior
-            </a>
-            <ul className='assnList'>
-              <li>Making inferences in informational texts | Reading</li>
-              <li>Creating objective summaries | Reading</li>
-              <li>How can a text have two or more main ideas? | Reading</li>
-              <li>How do writers use examples to get their points across? | Reading</li>
-              <li>Practice: Banning Behavior: reading informational text; Are We a Nation of Addicts? 6</li>
+            </a>            <ul className='assnList'>
+              <li><a href="https://www.khanacademy.org/ela/cc-6th-reading-vocab/x8c8165c7dcd5e900:cc-6th-banning-behavior/x8c8165c7dcd5e900:close-reading/v/two-or-more-main-ideas-reading" rel="noreferrer" target="_blank">How can a text have two or more main ideas? | Reading</a></li>
+              <li><a href="https://www.khanacademy.org/ela/cc-6th-reading-vocab/x8c8165c7dcd5e900:cc-6th-banning-behavior/x8c8165c7dcd5e900:close-reading/v/using-examples-reading" rel="noreferrer" target="_blank"> How do writers use examples to get their points across?| Reading</a></li>
+              <li><a href="https://www.khanacademy.org/ela/cc-6th-reading-vocab/x8c8165c7dcd5e900:cc-6th-banning-behavior/x8c8165c7dcd5e900:close-reading/e/banning-behavior--reading-informational-text--are-we-a-nation-of-addicts--6" rel="noreferrer" target="_blank">Practice: Banning Behavior: reading informational text; Are We a Nation of Addicts? 6</a></li>
             </ul>
           </p>
 
@@ -4453,7 +4485,7 @@ const LA6Component = ({ data }) => {
 
           <span className="days">LESSON 176 </span>
           <h4> What makes a poem … a poem?</h4>
-          <p>What exactly makes a poem … a poem? Poets themselves have struggled with this question, often using
+          <p className="topBottom">What exactly makes a poem … a poem? Poets themselves have struggled with this question, often using
             metaphors to approximate a definition. Is a poem a little machine? A firework? An echo? A dream? </p>
           <p> What makes a poem a poem is its ability to make the reader feel something. It may rhyme, but doesn’t have
             to. Using few words, it creates a picture in the reader's mind and transports them to another place and
@@ -4493,14 +4525,14 @@ const LA6Component = ({ data }) => {
             <li> Why do you think Dickinson only wore white?</li>
             <li> Name two stylistic choices that Dickinson makes when she wants to avoid closure in her poetry.</li>
             <li> Emily Dickinson's personal life receives as much attention, or even more attention, than her poetry.
-              Why do you think this is so?
-            </li>
+              Why do you think this is so? </li>
             <li> To what extent was Emily Dickinson the eccentric recluse she is often portrayed as being?</li>
             <li> Describe some of the reasons that Dickinson did not gain fame as a poet during her lifetime.</li>
-            <li> "I’m nobody – who are you?" (288) is an invitation to loneliness. How does this poem or "I taste a
-              liquor never brewed" (214) invite the reader into the a kind of shared strangeness? Do you feel separated
-              or connected by the language?
-            </li>
+            <li>What did you think of the poem "Hope" is the Thing with Feathers? If you had to summarize it for someone who has never read it, what wouduld you say?</li>
+            <li>In the poem "Hope" what do you think these lines mean: <i>Yet - never - in Extremity, It asked a crumb - of me. </i></li>
+            <li> "I’m nobody – who are you?" is an invitation to loneliness. How does this poem invite the reader 
+              into a kind of shared strangeness? Do you feel separated
+              or connected by the language? </li>
             <li>Does Dickinson seem to be writing for other people or only for herself?</li>
             <li>Which Emily Dickinson poem is your favorite? Explain why.</li>
             <li>Based on the poem you chose, what is the imagery in the poem?</li>
@@ -4548,7 +4580,8 @@ const LA6Component = ({ data }) => {
             Relax. Hmmm… the poem has got you intrigued? But you don’t understand it. <br/>
             Not to worry. Poems aren’t
             crossword puzzles. There’s no correct answer. <br/>
-            A good poem will offer many paths to meander along.</p>
+            A good poem will offer many paths to meander along.<br/>
+            <i style={{fontSize: "80%"}}>An excerpt from "The Scottish Poetry  Library"</i></p>
           <h4><i>Summer’s Day </i> by Mary Oliver</h4>
           <Video videoUrl="https://www.youtube.com/embed/rBPHUE961zI"/>
           <p> William Butler Yeats is considered one of the greatest poets of the 1900’s.
@@ -4598,18 +4631,10 @@ const LA6Component = ({ data }) => {
             <li>Talents or strengths (Example: Athletic, Graceful, Reader)</li>
             <li>Challenges or things you find difficult (Being alone, Math, Racism)</li>
           </ol>
-          <p> Use your lists to help you tell your story. Remember to use the poetry
-            devices of alliteration, assonance, and anaphora. It's best if you can create your own poem, but if you
-            want, you can use the sentences below as a model.</p>
-          <ul>
-            <li>When I was in _____________________, I looked like _____________________.</li>
-            <li>I liked to play _____________________ with _____________________.</li>
-            <li>I was happy to _____________________ but felt scared when _____________________.</li>
-          </ul>
-          <p className="topBottom">This example is from the poet from the poet Glenis Redmond </p>
-          <h4>Self-Portrait: Bard in the Making
+          <p className="topBottom">This example is from the poet Glenis Redmond </p>
+          <h4><i>Self-Portrait: Bard in the Making</i>
           </h4>
-          <ul>
+          <ul style={{ color: "#7c7f93" }}>
             <li>When I was in the fifth grade</li>
             <li>I was the biggest tomboy</li>
             <li>always in t-shirt and jeans</li>
@@ -4626,6 +4651,23 @@ const LA6Component = ({ data }) => {
             <li>I could stop on a dime</li>
             <li>and give you nine cents change.</li>
           </ul>
+          <p className="topBottom"> Now use your lists to help you tell your story.  Use at least one of the following poetry devices:<br/>
+            alliteration <i style={{ color: "#7c7f93", fontSize: "90%" }}>repetition of initial consonant sounds - "The <b>sh</b>epherd <b>sh</b>ook <b>h</b>is <b>h</b>ead"</i><br/>
+            assonance <i style={{ color: "#7c7f93", fontSize: "90%"  }}>repetition of <b>vowel</b> sounds - "I'm reminded to line the lid of my eye"</i><br/>
+            and anaphora <i style={{ color: "#7c7f93", fontSize: "90%"  }}>repetition of words - Still I Rise by Maya Angelou<br/>
+              "I rise<br/>
+              Bringing the gifts that my ancestors gave,<br/>
+              I am the dream and the hope of the slave.<br/>
+              I rise<br/>
+              I rise<br/>
+              I rise."  </i></p>
+            <p className="topBottom">It's best if you can create your own poem, but if you want, you can use the sentences below as a model.</p>
+        <p>  <ul>
+            <li>When I was in _____________________, I looked like _____________________.</li>
+            <li>I liked to play _____________________ with _____________________.</li>
+            <li>I was happy to _____________________ but felt scared when _____________________.</li>
+        </ul></p>
+
 
           <textarea className="textArea" onChange={onChangela6Listener145} value={la6Essay145}/>
         </div>
