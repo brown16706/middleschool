@@ -778,13 +778,16 @@ const LA7Component = ({ data }) => {
             de Saint-Exupéry, published in 1943. The tale tells the story of a child, the little prince, who travels the
             universe gaining wisdom. </p>
 
-          <img src={require("../../public/images/bookCovers/littlePrince.jpg")} alt="The Alchemist novel"/><br/>
+          <a href={require("../resources/books/TheLittlePrince.pdf")}
+             rel="noreferrer"
+             target="_blank"><img src={require("../../public/images/bookCovers/littlePrince.jpg")} alt="The Alchemist novel"/></a>
+          <br/>
           <p>After you watch the video below, read <a href={require("../resources/books/TheLittlePrince.pdf")}
                                                       rel="noreferrer"
                                                       target="_blank">CHAPTER 1 of <i> The Little Prince. </i> </a> Then
-            answer the questions posted below.
+            answer the questions that follow.
           </p>
-          <Video videoUrl="https://www.youtube.com/embed/9gARHWfXE40"/>
+          <Video videoUrl="https://www.youtube.com/embed/FGAtsGgyzw4"/>
           <p>
             <ol className="vocab">
               <li>Who is the narrator of The Little Prince and what type of narration is used? Example: 1st person, 2nd
@@ -797,9 +800,7 @@ const LA7Component = ({ data }) => {
               <li>How many drawings did the child make?</li>
               <li>What career did the narrator give up in order to become a pilot?</li>
               <li>The pilot tells us that throughout his life, when he met a clear-sighted adult he would always show
-                them
-                what?
-              </li>
+                them what? </li>
               <li>What does the narrator think of adults?</li>
               <li> What should a person who flies planes study, according to the narrator?</li>
               <li>How old was the narrator of this book when he gave up his magnificent painting career?</li>
@@ -819,17 +820,23 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea"
                     placeholder="Write your responses here. Your work will automatically be saved to your Local Storage. 
                     If you clear your cookies, your answers will be erased! Be sure to back up your work by saving it in another 
-                    location. You can (1) 'Select All' (select your answers inside this textbox by touching/clicking on it) and 
+                    location. 
+                    ---
+                    You can (1) 'Select All' (select your answers inside this textbox by touching/clicking on it) and 
                     copy/paste it into Google Docs, a Word Doc or into an email 
-                    and send it to your parent or teacher. (2) On a PC, you can 'Select All', click 'Print' and then save as a PDF on
-                     your computer. Be sure to label each assignment with the Subject, Chapter Title, and Lesson Number. Also, number your responses."
+                    and send it to your parent or teacher. 
+                    (2) On a PC, you can 'Select All' (ctrl a), select 'Print' (ctrl p) and then save as a PDF on
+                     your computer. 
+                     ---
+                     Be sure to label each assignment with the Subject, Chapter Title, and Lesson Number. Also, number your responses."
                     onChange={onChangela7Listener1} value={la7Essay1}/>
 
           <span className="days">LESSON 2 </span>
           <p className="topBottom"> Read <a href={require("../resources/books/TheLittlePrince.pdf")} rel="noreferrer"
-                                            target="_blank">Chapter 2 of <i>The Little Prince. </i> </a> Then answer the
+                                            target="_blank">Chapter 2 of <i>The Little Prince and watch the video. </i> </a> Then answer the
             questions below.</p>
-          <Video videoUrl="https://www.youtube.com/embed/FGAtsGgyzw4"/>
+          <Video videoUrl="https://www.youtube.com/embed/ihi491RQo5A"/>
+
           <p>
             <ol className="vocab">
               <li>What is the setting or where does the plane crash happen?</li>
@@ -838,9 +845,8 @@ const LA7Component = ({ data }) => {
               <li>What does the little prince ask the pilot to draw?</li>
               <li>What is the first picture that the narrator actually draws for the little prince?</li>
               <li>The pilot has to make quite a few drawings before the little prince is satisfied. What picture
-                Does he like?
-              </li>
-              <li>Which picture is the little prince most pleased with? A</li>
+                Does he like?</li>
+              <li>Which picture is the little prince most pleased with? Why?</li>
               <li>After the plane crash, what does the pilot do?</li>
               <li>Why did the pilot get angry with the little prince?</li>
               <li>How far are the pilot and the little prince from civilization?</li>
@@ -855,7 +861,7 @@ const LA7Component = ({ data }) => {
               <li>adventure</li>
             </ol>
           </p>
-          <textarea className="textArea" onChange={onChangela7Listener2} value={la7Essay2}/>
+          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangela7Listener2} value={la7Essay2}/>
 
           <span className="days">LESSON 3 </span>
           <p className="topBottom"> Read <a href={require("../resources/books/TheLittlePrince.pdf")} rel="noreferrer"
@@ -893,7 +899,7 @@ const LA7Component = ({ data }) => {
               <li>scarcely</li>
             </ol>
           </p>
-          <textarea className="textArea" onChange={onChangela7Listener3} value={la7Essay3}/>
+          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangela7Listener3} value={la7Essay3}/>
 
           <span className="days">LESSON 4 </span>
           <p className="topBottom"> Read <a href={require("../resources/books/TheLittlePrince.pdf")} rel="noreferrer"
@@ -930,7 +936,7 @@ const LA7Component = ({ data }) => {
             </ol>
           </p>
 
-          <textarea className="textArea" onChange={onChangela7Listener4} value={la7Essay4}/>
+          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangela7Listener4} value={la7Essay4}/>
 
           <span className="days">LESSON 5 </span>
           <p className="topBottom"> Read <a href={require("../resources/books/TheLittlePrince.pdf")} rel="noreferrer"
@@ -966,7 +972,7 @@ const LA7Component = ({ data }) => {
               <li>astronomical</li>
             </ol>
           </p>
-          <textarea className="textArea" onChange={onChangela7Listener5} value={la7Essay5}/>
+          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangela7Listener5} value={la7Essay5}/>
 
           <span className="days">LESSON 6 </span>
           <p className="topBottom"> Read <a href={require("../resources/books/TheLittlePrince.pdf")} rel="noreferrer"
@@ -1004,7 +1010,7 @@ const LA7Component = ({ data }) => {
               <li>twilight</li>
             </ol>
           </p>
-          <textarea className="textArea" onChange={onChangela7Listener6} value={la7Essay6}/>
+          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangela7Listener6} value={la7Essay6}/>
 
           <span className="days">LESSON 7 </span>
           <p className="topBottom"> Read <a href={require("../resources/books/TheLittlePrince.pdf")} rel="noreferrer"
@@ -1040,7 +1046,7 @@ const LA7Component = ({ data }) => {
               <li>radiance</li>
             </ol>
           </p>
-          <textarea className="textArea" onChange={onChangela7Listener7} value={la7Essay7}/>
+          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangela7Listener7} value={la7Essay7}/>
 
           <span className="days">LESSON 8 </span>
           <p className="topBottom"> Read <a href={require("../resources/books/TheLittlePrince.pdf")} rel="noreferrer"
@@ -1083,7 +1089,7 @@ const LA7Component = ({ data }) => {
               <li>inseparable</li>
             </ol>
           </p>
-          <textarea className="textArea" onChange={onChangela7Listener8} value={la7Essay8}/>
+          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangela7Listener8} value={la7Essay8}/>
 
           <span className="days">LESSON 9 </span>
           <p className="topBottom"> Read <a href={require("../resources/books/TheLittlePrince.pdf")} rel="noreferrer"
@@ -1120,7 +1126,7 @@ const LA7Component = ({ data }) => {
               <li>consuming</li>
             </ol>
           </p>
-          <textarea className="textArea" onChange={onChangela7Listener9} value={la7Essay9}/>
+          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangela7Listener9} value={la7Essay9}/>
 
           <span className="days">LESSON 10 </span>
           <p className="topBottom"> Read <a href={require("../resources/books/TheLittlePrince.pdf")} rel="noreferrer"
@@ -1128,7 +1134,7 @@ const LA7Component = ({ data }) => {
             answer the questions below.</p>
           <p>
             <ol className="vocab">
-              <li>If all humanity were to stand upright and crowd together how much space would they take up,
+              <li>If all humanity were to stand upright and crowd together, how much space would they take up,
                 according to Chapter XVII?
               </li>
               <li>When the little prince arrives on the earth, why doesn’t he see ant people?</li>
@@ -1153,7 +1159,7 @@ const LA7Component = ({ data }) => {
               <li>absolute</li>
             </ol>
           </p>
-          <textarea className="textArea" onChange={onChangela7Listener10} value={la7Essay10}/>
+          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangela7Listener10} value={la7Essay10}/>
 
           <span className="days">LESSON 11 </span>
           <p className="topBottom"> Read <a href={require("../resources/books/TheLittlePrince.pdf")} rel="noreferrer"
@@ -1191,7 +1197,7 @@ const LA7Component = ({ data }) => {
               <li>obedience</li>
             </ol>
           </p>
-          <textarea className="textArea" onChange={onChangela7Listener11} value={la7Essay11}/>
+          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangela7Listener11} value={la7Essay11}/>
 
           <span className="days">LESSON 12 </span>
           <p className="topBottom"> Read <a href={require("../resources/books/TheLittlePrince.pdf")} rel="noreferrer"
@@ -1227,7 +1233,7 @@ const LA7Component = ({ data }) => {
               <li>giddy</li>
             </ol>
           </p>
-          <textarea className="textArea" onChange={onChangela7Listener12} value={la7Essay12}/>
+          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangela7Listener12} value={la7Essay12}/>
 
           <span className="days">LESSON 13 </span>
           <p className="topBottom"> Read <a href={require("../resources/books/TheLittlePrince.pdf")} rel="noreferrer"
@@ -1265,7 +1271,7 @@ const LA7Component = ({ data }) => {
               <li>eternal</li>
             </ol>
           </p>
-          <textarea className="textArea" onChange={onChangela7Listener13} value={la7Essay13}/>
+          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangela7Listener13} value={la7Essay13}/>
 
           <span className="days">LESSON 14 </span>
           <p className="topBottom"> Read <a href={require("../resources/books/TheLittlePrince.pdf")} rel="noreferrer"
@@ -1298,7 +1304,7 @@ const LA7Component = ({ data }) => {
               <li>asunder</li>
             </ol>
           </p>
-          <textarea className="textArea" onChange={onChangela7Listener14} value={la7Essay14}/>
+          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangela7Listener14} value={la7Essay14}/>
 
           <span className="days">LESSON 15 </span>
           <p className="topBottom"> Read <a href={require("../resources/books/TheLittlePrince.pdf")} rel="noreferrer"
@@ -1354,18 +1360,20 @@ const LA7Component = ({ data }) => {
 
           <span className="days">LESSON 17 </span>
           <h4> Create your own book cover design for <i> The Little Prince</i>. </h4>
+          <img src={require("../../public/images/bookCovers/littlePrince2.jpg")} alt="Little Prince"/>
+
           <p className="topBottom">A book cover often helps a person decide if they will buy a book. Think about the
             impression you want the images, colors and text to create for viewers. Create a cover for <i> The Little
               Prince</i> that gives viewers a glimpse of the content and mood of the book. Ideas can include how you
             imagined the little prince on one of the planets or an image of how you imagined the main characters. </p>
-          <p className="topBottom">You can use any medium you like: collage, paper and markers, or <a
+          <p className="topBottom">You can use any medium you like: collage, Photoshop, paper and markers, or <a
             href="https://www.canva.com/create/book-covers/" rel="noreferrer" target="_blank"> Canva’s online book
             cover
             creation tool. </a>You choose how you want to design it. Your cover should include:<br/>
             1. A clear title and the author’s name. <br/>
             2. A graphic design that reflects the books themes. <br/>
-            3. A summary of the plot without giving away the ending. For an idea of what's expected, read the summary of
-            a book you have, usually found on the inside of the book jacket/cover. <br/>
+            3. A summary of the plot without giving away the ending. Write this in the textbox below.  For an idea of what's expected, read the summary of
+            a book you have, usually found on the inside of the book jacket/cover. Or, you can find a summary doing an online search.<br/>
           </p>
           <textarea className="textArea" onChange={onChangela7Listener17} value={la7Essay17}/>
 
@@ -1376,19 +1384,18 @@ const LA7Component = ({ data }) => {
           <p className="topBottom"><strong>Do you think <i>The Little Prince </i>was written for children, adults, or
             both?</strong></p>
           <p className="topBottom">In a five paragraph essay, write a response to the question above. Take a few minutes
-            to think about the
-            question and then create an outline. Your introduction paragraph should grab your reader’s attention. It
-            also needs a clear thesis statement that conveys the points or arguments you are going to make. </p>
-          <p>For your three supporting paragraphs (paragraphs 2, 3 and 4), use three different examples or support from
-            the
-            novel. </p>
-          <p className="topBottom">Your conclusion should restate your thesis in a different way. End with a thoughtful
-            summary. Each
-            paragraph should be 3-5 sentences.</p>
+            to think about the question and then create an outline.  Each paragraph should be 3-5 sentences.</p>
           <p className="topBottom"><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
                                       rel="noreferrer"
                                       target="_blank">Click
-            here for a 5 Paragraph Essay outline </a>if you need help getting started. </p>
+            here for a 5 Paragraph Essay outline </a>to help you get started. </p>
+          <p className="topBottom"><strong>Introduction: </strong>Your first paragraph should grab your reader’s attention. It
+            also needs a clear thesis statement that conveys the points or arguments you are going to make. </p>
+          <p className="topBottom"><strong>Body: </strong> In your three supporting paragraphs (paragraphs 2, 3 and 4), use at least three different examples from
+            the novel. </p>
+          <p className="topBottom"><strong>Conclusion: </strong> Your final paragraph should restate your thesis in a different way. End with a thoughtful
+            summary.</p>
+
           <textarea className="textArea" onChange={onChangela7Listener18} value={la7Essay18}/>
 
           <span className="days">LESSON 19 </span>
@@ -1396,16 +1403,12 @@ const LA7Component = ({ data }) => {
             Then write a five paragraph essay explaining how the fable reflects Antoine de Saint-Exupéry’s own life
             and experiences.</p>
           <p className="topBottom">Many of the people, objects and events in <i> The Little Prince</i> represent people
-            and events from the
-            author’s life. For example, Saint-Exupéry searched for the meaning of life, he was a pilot who crashed in
+            and events from the  author’s life. For example, Saint-Exupéry searched for the meaning of life, he was a pilot who crashed in
             the desert and the rose is said to be his wife, Consuelo.</p>
           <p className="topBottom">In your essay, you must explain how the examples you select from the fable symbolize
-            things or people in
-            Saint-Exupéry’s life. It’s not enough to state that the rose was his wife. You must explain how you know
-            this
-            by referring to specific passages in the novel and the articles posted below. You can do further research
-            online to help support the points
-            you make.</p>
+            things or people in Saint-Exupéry’s life. It’s not enough to state that the rose was his wife. You must explain how you know
+            this by referring to specific passages in the novel and the articles posted below. You can do further research
+            online to help support the points you make.</p>
           <p className="topBottom"><a href={require("../resources/languagearts/littlePrinceArticle.pdf")}
                                       rel="noreferrer" target="_blank">Love
             letters that inspired 'The Little Prince’ </a></p>
@@ -1415,8 +1418,7 @@ const LA7Component = ({ data }) => {
             Saint-Exupéry. </a></p>
           <p className="topBottom"><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
                                       rel="noreferrer"
-                                      target="_blank">Click here for a 5 Paragraph Essay outline </a>if you need help in
-            getting started. </p>
+                                      target="_blank">Click here for a 5 Paragraph Essay outline </a>to help you get started. </p>
           <textarea className="textArea"
                     placeholder="Be sure to back up your work and send it to your teacher or parent."
                     onChange={onChangela7Listener19} value={la7Essay19}/>
@@ -1506,9 +1508,9 @@ const LA7Component = ({ data }) => {
           <p>Read <a href={require("../resources/books/ALongWalktoWaterChapter1.pdf")} rel="noreferrer"
                      target="_blank"><i>Chapter 2,</i></a> answer the questions and complete the vocabulary assignment
             below. <br/>
-            <strong>2008</strong><br/>
-            1. How does Nya spend her time?<br/>
-            <strong>1985</strong><br/>
+            <strong>YEAR 2008</strong><br/>
+            1. In this chapter, how does Nya spend her time?<br/>
+            <strong>YEAR 1985</strong><br/>
             2. What is happening around Salva as he runs away from the school?<br/>
             3. What three questions occupy Salva’s thoughts?<br/>
             4. When they organize by village, what does Salva discover?<br/>
@@ -1563,10 +1565,9 @@ const LA7Component = ({ data }) => {
             <strong>1985</strong><br/>
             2. Why doesn’t the group want Salva along? Why is he ultimately taken along by the
             man and woman?<br/>
-            3. What does it mean they are "walking to nowhere"? How do they survive?<br/>
-            4. Why do the boys, Buksa and Salva, fall behind? What have they discovered?<br/>
-            5. Can an entire group of people exist on this?<br/>
-            6. What questions would you like answered in the next Chapter?<br/>
+            3. What does it mean they are "walking to nowhere"? <br/>
+            4. Why do the boys, Buksa and Salva, fall behind? What have they discovered?  Can an entire group of people exist on this?<br/>
+            5. What do you think of the two main characters, Nya and Salva, so far?<br/>
             <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             <ol className="vocab">
@@ -1589,8 +1590,8 @@ const LA7Component = ({ data }) => {
             that sigh all the way to his heart?"<br/>
             4. Why is Salva dismayed that they are walking to Ethiopia, east? How are the boys
             good for each other?<br/>
-            5. Describe the Atuot people. Would you fear them?<br/>
-            6. Salva is amazed at the end of this Chapter. Predict the cause of his speechlessness.<br/>
+            5. Describe the Atuot people. Would you fear them? Explain.<br/>
+            6. Salva is amazed at the end of this Chapter. What do you think is the cause of his speechlessness?<br/>
             <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             <ol className="vocab">
@@ -1657,13 +1658,12 @@ const LA7Component = ({ data }) => {
           <span className="days">LESSON 29 </span>
           <p>Read Chapter 8, answer the questions and complete the vocabulary assignment below. <br/>
             <strong>2008</strong><br/>
-            1. Explain how Akeer’s laugh "was like music." What caused her illness? Is the
-            solution within the means of the family?<br/>
+            1. Explain how Akeer’s laugh "was like music." Why did she become sick?<br/>
             <strong>1985</strong><br/>
-            2. What wonders were found on the island?<br/>
+            2. What 'wonders' were found on the island?<br/>
             3. How do the villagers get food without any money?<br/>
             4. Why don’t they become nauseous again with this food?<br/>
-            5. Describe Salva’s good memories.
+            5. Describe Salva’s good memories.<br/>
             6. What do the fishermen know about the night that the travelers do not? How are
             they affected?<br/>
             7. Of all the elements Salva has faced, which do you think is the worst? How could
@@ -1683,15 +1683,15 @@ const LA7Component = ({ data }) => {
           <span className="days">LESSON 30 </span>
           <p>Read Chapter 9, answer the questions and complete the vocabulary assignment below. <br/>
             <strong>2008</strong><br/>
-            1. How does the village chief welcome strangers? What do you think they want?<br/>
+            1. How does the village chief welcome strangers? What do you think of this?<br/>
             <strong>1985</strong><br/>
-            2. How is the Akobo the worst element yet for the villagers to survive?<br/>
+            2. How is the Akobo the worst thing yet for the villagers to survive?<br/>
             3. How does uncle encourage Salva to keep walking? What might have happened to
             Salva without his uncle? How could you apply Uncle’s strategy in your own life?<br/>
             4. What do they find when they reach other people in the desert?<br/>
-            5. What is the choice faced here? Would you give water to the men? What is the right
+            5. Would you give water to the men? What is the right
             thing to do?<br/>
-            6. Will some have to die for the others to survive?<br/>
+            6. Do you think some will have to die for the others to survive?<br/>
             <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             <ol className="vocab">
@@ -1757,7 +1757,7 @@ const LA7Component = ({ data }) => {
             2. How does it feel to Salva to be without a family? What has he lost?<br/>
             3. What does Salva decide to do to survive?<br/>
             4. How does school look in the refugee camp? Why does he go?<br/>
-            1991
+            <strong>1991</strong><br/>
             5. How have things changed in the camp in six years? Why is it closing?<br/>
             6. What is the purpose of any government? What will be the outcome of the
             government’s actions?<br/>
@@ -1774,7 +1774,7 @@ const LA7Component = ({ data }) => {
           <span className="days">LESSON 34 </span>
           <p>Read Chapter 13, answer the questions and complete the vocabulary assignment below. <br/>
             <strong>2008</strong><br/>
-            1. What things make this drilling so difficult? What keeps people going in times of
+            1. What things make drilling so difficult? What do you think keeps people motivated in times of
             adversity?<br/>
             <strong>1991-1992</strong><br/>
             2. What is the government trying to do by driving the people into the water?<br/>
@@ -1800,9 +1800,9 @@ const LA7Component = ({ data }) => {
           <span className="days">LESSON 35 </span>
           <p>Read Chapter 14 and then answer the questions below. <br/>
             <strong>2009</strong><br/>
-            1. Why does the village celebrate? What could it mean that the new water is full of
+            1. Why does the village celebrate in this chapter? What could it mean that the new water is full of
             mud?<br/>
-            1992- <strong>1997</strong><br/>
+            <strong> 1992- 1997</strong><br/>
             2. Describe the misery at Kakuma. How does the population of Kakuma compare to
             the population in your own community?<br/>
             3. How were conditions different at the camp in Ifo?<br/>
@@ -1821,11 +1821,10 @@ const LA7Component = ({ data }) => {
             1. Why can’t the boys drink the water spraying from the hole? When will Nya lose her
             job?<br/>2. What was involved in the Lost Boys coming to America? Do you think that is a
             good name for them?<br/>
-            3. Why would people from America want to help these boys? Can they replace the
-            boy’s owns family?<br/>
-            4. Explain Salva’s experiences with clothes, Coca-Cola, the plane, winter.
+            3. Would you want to be able to help boys like Salva who come to America? <br/>
+            4. Describe Salva’s experiences with clothes, Coca-Cola, the plane, and winter.<br/>
             5. Would this be easier if Salva really was a boy instead of an adult?<br/>
-            6. Will it ever be possible for Salva to reconnect with any of his birth family?<br/>
+            6. Will it ever be possible for Salva to reconnect with any of his birth family? Explain.<br/>
             <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             <ol className="vocab">
@@ -1845,8 +1844,8 @@ const LA7Component = ({ data }) => {
             3. What are the difficulties involved in Salva reconnecting with his father?<br/>
             4. What are the many risks Salva is taking in order to find his father?<br/>
             5. Write as many "what if’s" as you can at the end of this Chapter. (Example: What if
-            Salva’s father has died? What if Salva is not allowed to return to the US?<br/>6. What would you like to see
-            happen in the next Chapter?<br/>
+            Salva’s father has died? What if Salva is not allowed to return to the US?)<br/>
+           <br/>
             <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             <ol className="vocab">
@@ -1864,18 +1863,18 @@ const LA7Component = ({ data }) => {
           <span className="days">LESSON 38 </span>
           <p>Read Chapter 17, answer the questions and complete the vocabulary assignment below. <br/>
             <strong>2009</strong><br/>
-            1. How close were your predictions on what building would be put up first? Why does
-            Nya ask if the girls can go to school too? How does having water change everything
-            for her people?<br/>
+            1. Were you able to predict which building would be put up first? <br/>
+            2. Why does  Nya ask if the girls can go to school too? 
+            3. How does having water change everything for her people?<br/>
             <strong>2003-2007</strong><br/>
-            2. Was the reunion of Salva and his father what you expected? Explain.
-            3. How is it possible that so much of his family is still alive? Why didn’t they give up
+            4. Was the reunion of Salva and his father what you expected? Explain.
+            5. How is it possible that so much of his family is still alive? Why didn’t they give up
             hope?<br/>
-            4. Should Salva take the risk and return to Lou Ariik? Would you?<br/>
-            5. What do you believe his idea is to help his people?<br/>
-            6. Why is Salva the best person to speak about his idea? Does his audience care
+            6. Should Salva take the risk and return to Lou Ariik? Would you?<br/>
+            7. What do you believe his idea is to help his people?<br/>
+            8. Why is Salva the best person to speak about his idea? Does his audience care
             about his speaking skills?<br/>
-            7. What would make people donate money to Salva?<br/>
+            9. What do you think would make people donate money to Salva?<br/>
           </p>
           <textarea className="textArea" onChange={onChangela7Listener38} value={la7Essay38}/>
 
@@ -1898,13 +1897,15 @@ const LA7Component = ({ data }) => {
           <h4>Create a new book cover for <i> A Long Walk to Water.</i></h4>
           <p>Make a cover that gives viewers a glimpse of the content and mood of
             the book. Think about the impression you want the images, colors and text to create for viewers. You can use
-            whatever medium you choose: collage, paper and markers, or <a
+            whatever medium you choose: collage, Photoshop, paper and markers, or <a
               href="https://www.canva.com/create/book-covers/" rel="noreferrer" target="_blank"> Canva’s online book
               cover creation tool. </a>You choose how you want to design it. Your cover should include: <br/>
             1. A clear title and the author’s name. <br/>
-            2. A graphic design that reflects the books themes. <br/>
-            3. A summary of the plot without giving away the ending. <br/>
+            2. A graphic design that reflects the novel's themes. <br/>
+            3. A summary of the plot without giving away the ending (write 3 and 4 in the textbox below). <br/>
             4. A review (your opinion) about the book. <br/></p>
+          <Video videoUrl="https://www.youtube.com/embed/0t78opcFHAM"/>
+
           <textarea className="textArea" onChange={onChangela7Listener40} value={la7Essay40}/>
 
           <span className="days">LESSON 41 </span>
@@ -2014,7 +2015,7 @@ const LA7Component = ({ data }) => {
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             <ol className="vocab">
               <li> audible</li>
-              <li> griamcing</li>
+              <li> grimacing</li>
               <li> spasm</li>
               <li> tundra</li>
             </ol>
@@ -2179,7 +2180,7 @@ const LA7Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/6IHUuZ8Evag"/>
           <p>Stories generally move forward through conflict. <br/>
             There are several types of conflict in <i> Hatchet.</i><br/>
-            List three types and describe what is happening with each (use examples and write in complete
+            List three types and describe what is happening with each (use examples from the novel and write in complete
             sentences).<br/>
             <ol className="vocab">After you state the type of conflict, explain how the conflict is playing out in the
               novel. <br/>
@@ -2270,9 +2271,9 @@ const LA7Component = ({ data }) => {
               <li>About how long has Brian been in the Canadian wilderness?</li>
               <li>Brian felt "he had never felt so rich somehow." What made him feel this way?</li>
               <li>What were the advantages and disadvantages of having the fire?</li>
-              <li>Brian tries to read the tracks in the sand and thinks to himself, (<i>"City boy with your city ways
+              <li>Brian tries to read the tracks in the sand and thinks to himself, <i>"City boy with your city ways
                 sitting in the sand trying to read the tracks and not knowing, not understanding. Why would anything
-                wild come up from the water to play in the sand?"</i> What does this mean? Why do think the author
+                wild come up from the water to play in the sand?"</i> What does this mean? Why do you think the author
                 included this?
               </li>
               <li>Brian didn’t like the eggs, but he ate them anyway. Why?</li>
@@ -2302,7 +2303,7 @@ const LA7Component = ({ data }) => {
               <li>Describe how he feels about his mind and body.</li>
               <li>What do think about his survival skills and ability to hunt and gather?</li>
               <li>Brian has things he tells himself he has to do. Do you think it’s important he always has things to
-                keep him ocuupied? Explain.
+                keep him occupied? Explain.
               </li>
               <li>Describe how Brian plans to make a signal fire.</li>
               <li>What do you think would be the best way for Brian to get a fish?</li>
@@ -3234,7 +3235,8 @@ const LA7Component = ({ data }) => {
             Relax. Hmmm… the poem has got you intrigued? But you don’t understand it. <br/>
             Not to worry. Poems aren’t
             crossword puzzles. There’s no correct answer. <br/>
-            A good poem will offer many paths to meander along.</p>
+            A good poem will offer many paths to meander along.<br/>
+            <i style={{fontSize: "80%"}}>An excerpt from "The Scottish Poetry  Library"</i></p>
           <h4><i>Summer’s Day </i> by Mary Oliver</h4>
           <Video videoUrl="https://www.youtube.com/embed/rBPHUE961zI"/>
           <p> William Butler Yeats is considered one of the greatest poets of the 1900’s.</p>
@@ -3375,23 +3377,23 @@ const LA7Component = ({ data }) => {
           <h4>Finding Emily Dickinson in the power of her poetry</h4>
           <Video videoUrl="https://www.youtube.com/embed/BLeMZ5WIdrI"/>
           <ol className="vocab">
-            <li> Based on the Crash Course video: Dickinson often makes references to "eyes" and "sight". What do
-              these references most likely symbolize?
+            <li> Based on the Crash Course video: Dickinson often makes references to "eyes" and "sight". What do these
+              references most likely symbolize.
             </li>
             <li> Why do you think Dickinson only wore white?</li>
             <li> Name two stylistic choices that Dickinson makes when she wants to avoid closure in her poetry.</li>
-            <li> Emily Dickinson's personal life receives as much attention, or even more attention, than her
-              poetry. Why do you think this is so?
-            </li>
+            <li> Emily Dickinson's personal life receives as much attention, or even more attention, than her poetry.
+              Why do you think this is so? </li>
             <li> To what extent was Emily Dickinson the eccentric recluse she is often portrayed as being?</li>
             <li> Describe some of the reasons that Dickinson did not gain fame as a poet during her lifetime.</li>
-            <li> "I’m nobody – who are you?" (288) is an invitation to loneliness. How does this poem or "I taste a
-              liquor never brewed" (214) invite the reader into the a kind of shared strangeness? Do you feel
-              separated or connected by the language?
-            </li>
+            <li>What did you think of the poem "Hope" is the Thing with Feathers? If you had to summarize it for someone who has never read it, what wouduld you say?</li>
+            <li>In the poem "Hope" what do you think these lines mean: <i>Yet - never - in Extremity, It asked a crumb - of me. </i></li>
+            <li> "I’m nobody – who are you?" is an invitation to loneliness. How does this poem invite the reader
+              into a kind of shared strangeness? Do you feel separated
+              or connected by the language? </li>
             <li>Does Dickinson seem to be writing for other people or only for herself?</li>
             <li>Which Emily Dickinson poem is your favorite? Explain why.</li>
-            <li>Based on the poem <i>Hope is the thing with feathers</i>, what is the imagery in the poem?</li>
+            <li>Based on the poem you chose, what is the imagery in the poem?</li>
             <li> What is the mood of the poem? Or how does it make you feel?</li>
             <li> What is the message of the poem?</li>
             <li> Which parts of it are lingering in your mind?</li>
@@ -3524,18 +3526,10 @@ const LA7Component = ({ data }) => {
             <li>Talents or strengths (Example: Athletic, Graceful, Reader)</li>
             <li>Challenges or things you find difficult (Being alone, Math, Racism)</li>
           </ol>
-          <p className="topBottom"> Use your lists to help you tell your story. Remember to use the poetry
-            devices of alliteration, assonance, and anaphora. It's best if you can create your own poem, but if you
-            want, you can use the sentences below as a model.</p>
-          <ul>
-            <li>When I was in _____________________, I looked like _____________________.</li>
-            <li>I liked to play _____________________ with _____________________.</li>
-            <li>I was happy to _____________________ but felt scared when _____________________.</li>
-          </ul>
-          <p className="topBottom">This example is from the poet from the poet Glenis Redmond </p>
+          <p className="topBottom">This example is from the poet Glenis Redmond </p>
           <h4>Self-Portrait: Bard in the Making
           </h4>
-          <ul>
+          <ul style={{ color: "#7c7f93" }}>
             <li>When I was in the fifth grade</li>
             <li>I was the biggest tomboy</li>
             <li>always in t-shirt and jeans</li>
@@ -3552,6 +3546,23 @@ const LA7Component = ({ data }) => {
             <li>I could stop on a dime</li>
             <li>and give you nine cents change.</li>
           </ul>
+          <p className="topBottom"> Now use your lists to help you tell your story.  Use at least one of the following poetry devices:<br/>
+            alliteration <i style={{ color: "#7c7f93", fontSize: "90%" }}>repetition of initial consonant sounds - "The <b>sh</b>epherd <b>sh</b>ook <b>h</b>is <b>h</b>ead"</i><br/>
+            assonance <i style={{ color: "#7c7f93", fontSize: "90%"  }}>repetition of <b>vowel</b> sounds - "I'm reminded to line the lid of my eye"</i><br/>
+            and anaphora <i style={{ color: "#7c7f93", fontSize: "90%"  }}>repetition of words - excerpt from "Still I Rise" by Maya Angelou<br/>
+              "I rise<br/>
+              Bringing the gifts that my ancestors gave,<br/>
+              I am the dream and the hope of the slave.<br/>
+              I rise<br/>
+              I rise<br/>
+              I rise."</i><br/>
+          It's best if you can create your own poem, but if you want, you can use the sentences below as a model.</p>
+          <ul>
+            <li>When I was in _____________________, I looked like _____________________.</li>
+            <li>I liked to play _____________________ with _____________________.</li>
+            <li>I was happy to _____________________ but felt scared when _____________________.</li>
+          </ul>
+  
           <textarea className="textArea" onChange={onChangela7Listener90} value={la7Essay90}/>
 
           <span className="days">LESSON 91 - The American Dream</span>
@@ -4009,7 +4020,7 @@ const LA7Component = ({ data }) => {
             href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-living-tongues/x4aa9073b12675eb1:untitled-57/a/welcome-to-the-living-tongues-unit?modal=1"
             rel="noreferrer" target="_blank">Intro to the Unit Living Tongues </a> and <a
             href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-living-tongues/x4aa9073b12675eb1:untitled-57/a/living-tongues-unit-vocabulary?modal=1"
-            rel="noreferrer" target="_blank"> Review the vocuabulary. </a></p>
+            rel="noreferrer" target="_blank"> Review the vocabulary. </a></p>
           <Video videoUrl="https://www.youtube.com/embed/INFWXZ_tl4M"/>
           <Video videoUrl="https://www.youtube.com/embed/R_bgo8j6jxc"/>
           <Video videoUrl="https://www.youtube.com/embed/NXO3KT8bne4"/>
@@ -5351,7 +5362,7 @@ const LA7Component = ({ data }) => {
             the word. <br/>
             <ol className="vocab">
               <li>alluding</li>
-              <li>omninous</li>
+              <li>ominous</li>
               <li>moored</li>
               <li>vagabond</li>
               <li>solemnities</li>
@@ -5871,13 +5882,12 @@ const LA7Component = ({ data }) => {
             story.</p>
           <Video videoUrl="https://www.youtube.com/embed/ZQTQSbjecLg"/>
           <p className="topBottom"><strong>Fantasy </strong> is a genre that has magical and
-            supernatural elements. Many novels have a real-world setting, like Twilight, while others novels are set
+            supernatural elements. Many novels have a real-world setting, like Twilight, while other novels are set
             in an imaginary world. This genre has no connection to reality or science. For example, Lord of the
             Rings is set in Middle Earth, with races and creatures the author created.
             There are numerous subgenres of fantasy fiction. A few include high or epic fantasy (The Hobbit and Lord of
-            the Rings),
-            low fantasy (Indian in the Cupboard), dark fantasy (Twilight), contemporary fantasy (Harry Potter),
-            sword and sorcery (The Sorcerer's Apprentice), dark fantasy (Twilight), fables (The Alchemist), fairy
+            the Rings), low fantasy (Indian in the Cupboard), dark fantasy (Twilight), contemporary fantasy (Harry Potter),
+            sword and sorcery (The Sorcerer's Apprentice), fables (The Alchemist), fairy
             tales (Cinderella), and superhero fiction (Spiderman). </p>
           <p className="topBottom">Select one of the images below as your book cover and then write a fantasy story
             based on the image. What story unfolds in your imagination when you look at the image? Write your
@@ -6103,9 +6113,8 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener176} value={la7Essay176}/>
 
           <span className="days">LESSON 177 </span>
-          <span className="days">LESSON 177 </span>
-          <h4> Character Development</h4>
-          <p className="topBottom">No matter how exciting your plot may be, readers won't want to keep reading unless
+          <h4> Character and Story Development</h4>
+          <p>No matter how exciting your plot may be, readers won't want to keep reading unless
             you have great characters. Watch the videos below to learn how to develop characters your readers will fall
             in love with and believe are real. Then complete the assignment posted after the videos.</p>
           {/*Introduction to Character */}
@@ -6122,13 +6131,12 @@ const LA7Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/WJ_iNkkgdCA"/>
           {/*Advice on characters */}
           <Video videoUrl="https://www.youtube.com/embed/SgGARYH2vRg"/>
-          <p className="topBottom">Your next two lessons will be to develop two great characters your readers will care
-            about: a protagonist and an antagonist. Start thinking about what they are like, consider: personality,
-            physical
-            appearance, strengths, weaknesses, special abilities (optional) and what they value. Develop these
+          <p>Your next two lessons will be to develop two great characters your readers will care
+            about: a protagonist and an antagonist. Start thinking about what they are like.  Consider their: personality,
+            physical appearance, strengths, weaknesses, special abilities (optional) and what they value. Develop these
             characters in your mind and think about the following questions: <br/>
             <ul className="list">
-              <li>What does your character want or want to achieve?</li>
+              <li>What does your character want to achieve?</li>
               <li>Where do you want your protagonist to travel to?</li>
               <li>What are the obstacles they will face?</li>
               <li>What do they risk losing if they fail in their quest?</li>
@@ -6139,32 +6147,33 @@ const LA7Component = ({ data }) => {
               </li>
             </ul>
           </p>
-          <p className="topBottom">Take a few minutes to complete the assignment below. Your responses can be short
-            bullet points.
+          <p>Take a few minutes to complete the assignment below. Your responses can be short
+            bullet points. The main point of this assignment is to generate ideas.
             <ol className="vocab">
               <li>Close your eyes and imagine the protagonist for your next story. Briefly describe their external and
-                internal traits.
+                internal traits (physical appearance and character traits).
               </li>
-              <li>List at least one place the protagonist will travel to. If you're not sure, where would you travel to
-                if
-                there were no limitations? This can be a place of your own creation.
+              <li>List at least one place the protagonist will travel to. If you're not sure, where would <i>you </i>travel to
+                if there were no limitations? This can be a real place or a setting of your own creation.
               </li>
-              <li> Picture the villain. What are they like?</li>
               <li>What ideas do you have for the quest the protagonist will embark on? Are they chasing after an
-                artifact? Are they on a mission of some kind? Jot down any ideas you have.
-              </li>
+                artifact? Are they on a mission of some kind? Jot down any ideas you have.</li>
+              <li> Picture the villain. What are they like?</li>
+              <li>Create a book cover design for your next story. Think about the impression and mood
+                you want the images and colors to create for your readers. You can use whatever
+                medium you choose: pencil sketch, collage, paper and markers, or <a href="https://www.canva.com/create/book-covers/"
+                                                                                    rel="noreferrer"
+                                                                                    target="_blank"> Canva's online book cover creation
+                  tool. </a>You choose how you want to design it.  Your book cover should include a title.</li>
             </ol></p>
-          <p className="topBottom">Create a book cover design for your next story. Think about the impression and mood
-            you want the images and colors to create for your readers. You can use whatever
-            medium you choose: collage, paper and markers, or <a href="https://www.canva.com/create/book-covers/"
-                                                                 rel="noreferrer"
-                                                                 target="_blank"> Canva's online book cover creation
-              tool. </a>You choose how you want to design it. </p>
+          <p>Below are examples of book covers.</p>
+          <img src={require("../../public/images/bookCovers/bookcover2.jpg")} alt="Book Covers"/>
+
           <textarea className="textArea" onChange={onChangela7Listener177} value={la7Essay177}/>
 
           <span className="days">LESSON 178 </span>
           <h4> Character Development - The Protagonist</h4>
-          <p className="topBottom">It's time to fully develop the protagonist for your next story. Address the questions
+          <p>It's time to fully develop the protagonist for your next story. Address the questions
             below using complete sentences.</p>
           <p>
             <ol className="vocab">
@@ -6175,7 +6184,7 @@ const LA7Component = ({ data }) => {
                 bullied, or they were raised in China and are fluent in Mandarin.
               </li>
               <li>Do they have any special abilities (optional). These can be supernatural or magical powers or worldly
-                abilities like a high IQ or jiu-jitsu skills.
+                abilities like a high IQ or exceptional jiu-jitsu skills.
               </li>
               <li>What are your character's strengths? Examples: Confidence, strong moral compass, problem solving
                 skills, loyalty, or persistence.
@@ -6185,12 +6194,11 @@ const LA7Component = ({ data }) => {
                 physical handicap.
               </li>
               <li>Where will your protagonist to travel to? Describe how this is dramatically different than where they
-                live now?
-              </li>
+                live now.              </li>
               <li>What is a quest they were meant to pursue? Are they chasing after an
                 artifact? Are they on a mission of some kind?
               </li>
-              <li>What does your character want or want to achieve?</li>
+              <li>What does your character want to achieve?</li>
               <li>What are the obstacles they will face?</li>
               <li>What do they risk losing if they fail in their quest?</li>
               <li>How do you want them to grow and change as a person?</li>
@@ -6232,29 +6240,30 @@ const LA7Component = ({ data }) => {
 
           <span className="days">LESSON 180 </span>
           <h4> Final Fictional Story</h4>
-          <p className="topBottom">It's time to write your final story for this class!</p>
+          <p>It's time to write your final story for this class! Before you start writing it, consider the following
+            questions:</p>
           <p>
             <ul className="assnList">
               <li>What point of view will you use?</li>
-              <li> What type of fiction or genre did you choose?</li>
-              <li>Title of your story.</li>
-              <li>Grab your readers’ attention in the first paragraph.</li>
-              <li>Where and when is it (past, present or future)? Who are your characters? Set the scene and introduce
-                your characters.
-              </li>
-              <li>What are the sequence events? Write about the first thing that happens. Introduce the conflict. What
-                is the challenge the main character must face in order to grow and
+              <li>What type of fiction or genre did you choose?</li>
+              <li>What is the title of your story?</li>
+              <li>How will you grab your readers’ attention in the first paragraph?</li>
+              <li>What is the setting? Where and when is it (past, present or future)?</li>
+              <li>Who are your characters?</li>
+              <li>How will you set the scene and introduce your characters?</li>
+              <li>What are the sequence events?</li>
+              <li>What will be the first thing that happens?</li>
+              <li>What is the challenge the main character must face in order to grow and
                 change? What obstacles must be overcome?
               </li>
-              <li>Next (build up):</li>
-              <li>Finally (resolution). How will the problem be solved?</li>
+              <li>How will you introduce the conflict?</li>
+              <li>How will build up the story to its climax?</li>
+              <li>Finally, what will the resolution be? How will the problem be solved?</li>
             </ul>
-            <br/> Write your story in the textbox and be sure to back up your work. When you submit this story to your
-            parent or teacher, include your character sketches and
-            book cover.
+            <br/> Write your story in the textbox below.  Be sure to back up your work.
           </p>
-          <p className="topBottom">You can use the <a
-            href="../resources/languagearts/StoryOutlineWorksheet.pdf">Story Outline Worksheet</a> to help.</p>
+          <p>You can use the <a
+            href="../resources/languagearts/StoryOutlineWorksheet.pdf">Story Outline Worksheet</a> to help you get started.</p>
           <textarea className="textArea" onChange={onChangela7Listener180} value={la7Essay180}/>
         </div>
       </section>
