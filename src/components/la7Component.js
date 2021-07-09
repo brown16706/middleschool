@@ -3697,7 +3697,7 @@ const LA7Component = ({ data }) => {
 
           <span className="days">LESSON 93 </span>
           <p className="topBottom">Begin reading the novel <strong>Esperanza Rising </strong> by Pam Munoz Ryan.
-            Esperanza is a young girl in Mexico, living life like a princess. She's forced to leave her country with her
+            Esperanza is a young girl in Mexico, living the life of a princess. She's forced to leave her country with her
             mother and everything she's known and tries to figure out life and how to survive as an immigrant in
             American society.</p>
           <p className="topBottom">The novel is available at your local library, local bookstore and online for
@@ -3780,7 +3780,7 @@ const LA7Component = ({ data }) => {
               </li>
               <li>When Esperanza’s didn’t let the little girl hold her doll, what did her mother do for the girl?</li>
               <li>How did Esperanza feel when the girl got off the train?</li>
-              <li>What did Carmen mean when she said, "I am poor, but I am rich?"</li>
+              <li>What did Carmen mean when she said, "I am poor, but I am rich"?</li>
               <li>How does Miguel describe the wealthiest people in Mexico? Specifically, he says their skin is what
                 color?
               </li>
@@ -3789,7 +3789,7 @@ const LA7Component = ({ data }) => {
                 are they behaving differently?
               </li>
               <li>Why is Miguel excited to go to the United States?</li>
-              <li>Why is this chapter entitled guayabas. What do guavas symbolize for Esperanza?</li>
+              <li>Why is this chapter entitled guayabas? What do guavas symbolize for Esperanza?</li>
             </ol>
           </p>
           <textarea className="textArea" onChange={onChangela7Listener95} value={la7Essay95}/>
@@ -3825,18 +3825,15 @@ const LA7Component = ({ data }) => {
               <li>How is her new home different from her old home?</li>
               <li>What were the two choices Ramona gave Esperanza when she was angry about their cabin?</li>
               <li>Esperanza still feels she is rich. Was it hard for Esperanza to accept the fact they are peasants
-                now?
-              </li>
+                now?</li>
               <li>What jobs does Esperanza have to do?</li>
-              <li>How had Ramona changed to Esperanza? Hair in braids, she seemed shorter, not herself p. 109</li>
-              <li>Who taught Esperanza how to sweep? Miguel p. 119</li>
+              <li>How had Ramona changed to Esperanza? </li>
+              <li>Who taught Esperanza how to sweep? </li>
               <li>Isabel teaches Esperanza several things. What do you believe were the three most important things for
-                Esperanza to learn?
-              </li>
+                Esperanza to learn?</li>
               <li>Describe what happened when Esperanza went to sweep the platform.</li>
               <li>In the novel, you are reading many new Spanish words. Esperanza has to learn English. What do you
-                think it would be like to move toa country and not know the language?
-              </li>
+                think it would be like to move toa country and not know the language?</li>
               <li>What do las cebollas (onions) symbolize in this chapter?</li>
             </ol>
           </p>
@@ -3962,15 +3959,12 @@ const LA7Component = ({ data }) => {
           <p className="topBottom">
             <ol className="vocab">
               <li>Why does Isabel pray so frequently?</li>
-              <li>Do you thin she will get her wish? Why or why not?</li>
+              <li>Do you think she will get her wish? Why or why not?</li>
               <li>Esperanza gave her doll to Isabel. Why did she do this?</li>
               <li>Have you ever given something you cherished to someone? Describe why.</li>
-              <li>he workers from Oklahoma were from the United States. How do you think they felt when they had to
-                compete for jobs with workers from another country?
-              </li>
-              <li>What nice things were going to be at the camp for the Oklahoma people? hot water, swimming pool,
-                inside toilets p. 218
-              </li>
+              <li>The workers from Oklahoma were from the United States. How do you think they felt when they had to
+                compete for jobs with workers from another country?</li>
+              <li>What nice things were going to be at the camp for the Oklahoma people? </li>
               <li>What happened to Miguel at work and how did he get muddy?</li>
               <li>How did Esperanza react when she finds out what happened to Miguel? Why do you think she reacted this
                 way? What happened to Miguel after?
@@ -3979,8 +3973,7 @@ const LA7Component = ({ data }) => {
               <li>Why did white Americans treat Mexicans differently?</li>
               <li>What news does Esperanza receive about Mama?</li>
               <li>What do Esperanza and Hortensia do to prepare for Mama’s return?</li>
-              <li>What happened to Esperanza’s money orders? How would you have reacted in</li>
-              <li>this situation?</li>
+              <li>What happened to Esperanza’s money orders? How would you have reacted in this situation?</li>
               <li>What do los duraznos (peaches) symbolize in this chapter?</li>
             </ol>
           </p>
@@ -4085,21 +4078,20 @@ const LA7Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/ZASEsKwEvqE"/>
           <p>Read the poem <a
             href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-living-tongues/x4aa9073b12675eb1:close-reading-poetry/e/living-tongues-reading-poetry-languages-7"
-            rel="noreferrer" target="_blank"> Languages by Carl Sandburg linked here and then complete the
-            questions. </a>In the textbox below, write a brief summary about what you read.</p>
+            rel="noreferrer" target="_blank"> Languages by Carl Sandburg linked here and then answer the
+            questions that follow the poem. </a>In the textbox below, write a brief summary about what you read.</p>
           <textarea className="textArea" onChange={onChangela7Listener107} value={la7Essay107}/>
 
           <span className="days">LESSON 108 </span>
           <h4>Applying vocabulary knowledge</h4>
           <p>Read the article, Saving Dying Languages 7, linked here and then complete the <a
             href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-living-tongues/x4aa9073b12675eb1:applying-vocabulary-knowledge/e/living-tongues-vocabulary-saving-dying-languages-7?modal=1"
-            rel="noreferrer" target="_blank"> questions. </a>Then in the textbox below, write a brief summary about what
-            you read.</p>
-          <h4>Reading for understanding: informational text</h4>
+            rel="noreferrer" target="_blank"> questions. </a>Then in the textbox below, write a brief summary of the poem. What message or meaning is the author trying to get across to his readers?</p>
+         <br/> <h4>Reading for understanding: informational text</h4>
           <p>Read the article <a
             href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-living-tongues/x4aa9073b12675eb1:reading-for-understanding-informational-text/e/living-tongues-reading-informational-text-the-code-that-was-never-broken-7"
             rel="noreferrer" target="_blank">linked here, The Code that Was Never Broken, and then complete the
-            questions. </a> In the textbox below, write a brief summary about what you learned.</p>
+            questions that follow. </a> In the textbox below, write a brief summary about what you learned.</p>
           <textarea className="textArea" onChange={onChangela7Listener108} value={la7Essay108}/>
 
           <span className="days">LESSON 109 </span>
@@ -4146,7 +4138,7 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener110} value={la7Essay110}/>
 
           <span className="days">LESSON 111 </span>
-          <h4><i>Teenage Drivers? Be Very Afraid </i> by Bruce Feiler</h4>
+          <p><span className="title"> Drivers? Be Very Afraid </span> Bruce Feiler</p>
           <p className="topBottom">Read the <a href={require("../resources/books/teenDrivers.pdf")}
                                                rel="noreferrer" target="_blank">short article </a> (attached
             as PDF) and then answer the questions below.</p>
@@ -4196,7 +4188,7 @@ const LA7Component = ({ data }) => {
             6. Quote text from the novel that best supports the inference that the attack on Johnny was
             a turning point for him.<br/>
             7. Infer how the narrator feels as he is being followed. What signs does he exhibit that tell
-            you this is how he feels?<br/>
+            you this is how he feels?  <i>Infer means to conclude or to assume something based on evidence. </i> <br/>
             8. What do we learn is the name of the narrator?<br/>
             9. Why is Ponyboy so reluctant to tell Darry how he really feels after the incident with the
             Socs?<br/>
@@ -4206,7 +4198,7 @@ const LA7Component = ({ data }) => {
             convey? Why do they want to portray this image?<br/>
             12. Although it is not stated directly, why is Darry so strict with Ponyboy? What might
             happen if Ponyboy were to get into trouble?<br/>
-            13. Infer what the Greasers might do as a result of the attack.<br/>
+            13. What do you think the Greasers might do as a result of the attack?<br/>
             14. Why might the author have dedicated several paragraphs from the chapter to tell about
             each of the boys in Ponyboy’s life?<br/>
             15. How did Two-Bit get his nickname? What is his real name?<br/>
@@ -4237,7 +4229,7 @@ const LA7Component = ({ data }) => {
           <p className="topBottom">
             1. How do the boys get into the Nightly Double? Why do they choose to do that?<br/>
             2. Why does Dally use vulgar and abrasive language with the girls at the movies?<br/>
-            3. How do the girls respond to the insults? From their reactions, what can you infer about
+            3. How do the girls respond to the insults? From their reactions, what can you deduce or assume about
             their personalities?<br/>
             4. What does Cherry mean when she calls Sodapop a "doll"?<br/>
             5. Why is Ponyboy embarrassed about Sodapop dropping out of school and working at a
@@ -4245,8 +4237,8 @@ const LA7Component = ({ data }) => {
             6. Why is Ponyboy uncomfortable about Dally’s behavior?<br/>
             7. Explain why the girls are okay with Johnny and Pony, but not Dally.<br/>
             8. Why are the girls alone and without a car?<br/>
-            9. What does Two-Bit do that scares Johnny and Pony? Infer why it is especially
-            frightening to Johnny.<br/>
+            9. What does Two-Bit do that scares Johnny and Pony? Why it is especially
+            frightening to Johnny?<br/>
             10. What rule do the Greasers follow, besides "stick together"? How do you think these rules
             came to be?<br/>
             11. Describe the attack on Johnny. Why do you think the attack was so traumatic to him?<br/>
@@ -4273,21 +4265,21 @@ const LA7Component = ({ data }) => {
             fighting suggest about their differences and similarities?<br/>
             3. Relate the story of Mickey Mouse and Soda. Why do you think it was included in the
             novel?<br/>
-            4. Explain the reference to watching the sunset. Why is it important to the buildup of the
-            relationship between Cherry Valance and Ponyboy?<br/>
+            4. The reference to watching the sunset is important to developing the 
+            relationship between Cherry Valance and Ponyboy.  Why is it important?<br/>
             5. After all the vulgar language and abuse at the movies, evaluate why Cherry would "fall in
-            love" with Dally. Considering the characters, assess how realistic this seems.<br/>
+            love" with Dally. Considering the characters, how realistic does this seem?<br/>
             6. When the blue Mustang rolls up, what are its occupants hoping to do? What do the
             Greasers think they want?<br/>
-            7. Compare and contrast the way the Greasers and by the Socs treat the girls. Which
-            group treats them better? Provide evidence.<br/>
-            8. Give your opinion of Cherry saying, "...if I see you in the hall at school or someplace and
-            don’t say hi, well, it’s not personal..." Explain the reasons for your point of view.<br/>
+            7. Compare the way the Greasers and the Socs treat the girls. Which
+            group treats them better? Give examples.<br/>
+            8. What did you think of Cherry saying, "...if I see you in the hall at school or someplace and
+            don’t say hi, well, it’s not personal..." What did you think of this?<br/>
             9. What do Pony and Johnny do instead of going home after the movies? What is the result
             of their decision?<br/>
             10. When Ponyboy doesn’t arrive home until 2:00 a.m., why doesn’t Darry call the police?<br/>
             11. After Darry slaps Ponyboy, Ponyboy concludes that Darry does not want him around.<br/>
-            Argue whether this actually how Darry feels, or if Ponyboy is overreacting. Provide
+            Do you think this is actually how Darry feels, or is Ponyboy overreacting? Provide
             evidence for your opinion.<br/>
             12. Why do Ponyboy and Johnny run away?<br/>
             13. Infer why Johnny says he likes it better when his father is hitting him.<br/>
@@ -4497,8 +4489,8 @@ const LA7Component = ({ data }) => {
             2. Why do you think that Johnny asks for another copy of Gone with the Wind?<br/>
             3. Ponyboy realizes that the gang needs Johnny. What is Johnny’s greatest contribution to
             the gang?<br/>
-            4. Why does Johnny really want to live, even though he has thought of suicide in the past,
-            and he would never be able to walk again?<br/>
+            4. Johnny has thought of suicide in the past.  Why does he want to live, even though he 
+            knows he would never be able to walk again?<br/>
             5. When the nurse announces to Johnny that his mother is there to see him, how does he
             react? When Two-Bit and Ponyboy see Johnny’s mother, what happens? How do they
             react? Why?<br/>
@@ -4542,7 +4534,7 @@ const LA7Component = ({ data }) => {
             would they do that? Do you think it is worth whatever is to be gained?<br/>
             4. How do the boys show their excitement about the rumble when they are at the Curtis
             house getting ready to head out?<br/>
-            5. Pony thinks the only good reason to fight is...?<br/>
+            5. Pony thinks there is only one good reason to fight. What is it?<br/>
             6. Pony believes that he and Darry are both going to "get somewhere." What does that
             mean to him? Do you believe they have any choice in the matter? Discuss in detail.<br/>
             7. Pony states that the Burmly boys have weird vocabularies. Why is this ironic? Cite
@@ -4678,7 +4670,7 @@ const LA7Component = ({ data }) => {
             <ol className="vocab">
               <li>flinching</li>
               <li>acquitted</li>
-              <li>vacuum:<i>state of emptiness</i></li>
+              <li>vacuum</li>
               <li>veered</li>
               <li>welled</li>
               <li>vast</li>
@@ -4691,19 +4683,19 @@ const LA7Component = ({ data }) => {
             below.</p>
           <ul className="list">
             <li>Did you think any of the Greasers were heroes? Provide your own definition of a hero and then explain,
-              using examples, how the character or characters you chose meet/s that definition.
+              using examples, how the character (or characters) you chose meet that definition.
             </li>
             <li>Were the Socs or the Greasers more of menace to society.</li>
             <li>Which gang from <i>The Outsiders </i> would you want to belong to? Be sure to describe the differences
               between the two groups.
             </li>
             <li>Although the author never uses the word outsider in her novel, it is the title of the book. Who do you
-              think the outsiders were? Be sure to define what you mean by outsiders in your essay and use examples from
+              think the outsiders were? Be sure to define what you mean by "outsiders" in your essay and use examples from
               the book to support your essay.
             </li>
           </ul>
           <p className="topBottom">Take a few minutes to think about your topic and then create an outline. You must
-            use examples from the novel to support your statement.</p>
+            use examples from the novel to support your statement. Each paragraph should be 3-5 sentences.</p>
           <p className="topBottom">Your introduction paragraph should grab your reader’s
             attention. It also needs a clear thesis statement that conveys the points or arguments you are going to
             make. </p>
@@ -4711,8 +4703,7 @@ const LA7Component = ({ data }) => {
             examples or support from
             the novel. </p>
           <p className="topBottom">Your conclusion should restate your thesis in a different way. End with a
-            thoughtful
-            summary. Each paragraph should be 3-5 sentences.</p>
+            thoughtful summary. </p>
           <p className="topBottom"><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
                                       rel="noreferrer"
                                       target="_blank">Click
@@ -4720,12 +4711,12 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener124} value={la7Essay124}/>
 
           <span className="days">LESSON 125 </span>
-          <p className="topBottom">Write a <strong>Persuasive Argument</strong></p>
+          <p className="topBottom">Write a <strong>Persuasive Argument.</strong></p>
           <p className="topBottom">In <i>The Outsiders,</i> Johnny and Pony Boy got into a tragic fight and Bob, a
             member of the Socs, is killed. Do you think Johnny is guilty or innocent of murder? </p>
           <p className="topBottom">Choose to be either the <strong>defense attorney</strong> or the <strong>prosecuting
             attorney</strong> for Johnny's court case. Write your argument from the perspective of an attorney and
-            use evidence from the book to support your claims. </p>
+            use evidence from the book to support your case. </p>
           <img src={require("../../public/images/stories/court.jpg")} alt="courtroom"/><br/>
           <p className="topBottom">If you are Johnny's defense attorney, you must convince a jury through your
             persuasive argument that he is innocent. If you are the prosecuting attorney for the case, you must
@@ -4744,25 +4735,12 @@ const LA7Component = ({ data }) => {
           <p className="topBottom">Identity and fitting in are major themes in <i>The Outsiders</i> and in the next
             novel you will read, <i>Out of My Mind</i>. </p>
           <p className="topBottom">For this lesson, complete the following:<br/>
-            <ul className="vocab">
+            <ol className="vocab">
               <li>Write at least 10 things that are important parts of your identity. Example: <i>American, daughter,
-                runner, guitar player, good sense of humor, loyal friend, good listener, loyal friend, impatient,
-                persistent, etc.</i></li>
+                runner, guitar player, good sense of humor, loyal friend, good listener, avid reader, impatient,
+                persistent, artistic, lover of travel, etc.</i></li>
 
-              <li>Think about how your personality traits and dreams have changed since you were a small child. Then
-                write
-                a story (2-3 paragraphs) telling how your identity has developed over the past several years. Describe
-                how
-                your experiences, interests and dreams have shaped the person you are now. Provide personal examples,
-                such
-                as life-changing events or moments of revelation, that molded you into the person you are today. Discuss
-                hobbies, interests and academic subjects you're excited about and how you've grown academically,
-                mentally
-                and socially over the past few years. Inform your reader about what shaped your identity, including your
-                experiences, passions and dreams.
-              </li>
-
-              <li>Describe when you feel like an outsider. What are the circumstance? Where are you and who are you
+              <li>Describe when you feel like an outsider. What are the circumstances? Where are you and who are you
                 usually with? What are the things that make you feel you don't fit in? Which things about your identity
                 are at odds with the place or people you're with?
               </li>
@@ -4771,15 +4749,21 @@ const LA7Component = ({ data }) => {
                 people (examples: at school, church, home, hanging out with a close friend, playing videos games with
                 friends online). Which things about your identity do you feel are most appreciated?
               </li>
-            </ul>
+
+              <li>Picture yourself 5 years ago. Think about what you looked like, your personality, and the dreams you had.
+                Think about how your personality traits and dreams have changed since you were a small child. <br/><br/>
+                Write a story (2-3 paragraphs) telling how your identity has developed over the past five years. Describe how
+                your experiences, life-changing events, moments of revelation, interests and dreams have shaped your identity.
+                This story should answer the question <span className="title"> What made me the person I am today?</span>
+              </li>
+            </ol>
           </p>
           <textarea className="textArea" onChange={onChangela7Listener126} value={la7Essay126}/>
 
           <span className="days">LESSON 127 </span>
           <p>The novel <strong>Out of My Mind, </strong> by Sharon Draper, is a story about an eleven-year-old girl
-            named
-            Melody. She can’t walk, talk or write because she has cerebral palsy. But she also has a photographic
-            memory; she can remember every detail of everything she has ever experienced. She’s the smartest kid in her
+            named Melody. She can’t walk, talk or write because she has cerebral palsy. But she also has a photographic
+            memory; she can remember every detail of everything she has ever seen or experienced. She’s the smartest kid in her
             school, but no one knows it. But she's determined to let them know somehow.
           </p>
           <p className="topBottom"><strong>Out of My Mind </strong> is available at your local library, local bookstore
