@@ -2648,10 +2648,11 @@ const LA7Component = ({ data }) => {
             for Brian to deal with. List what you
             think these problems would have been. </p>
           <p className="topBottom">If you could prepare a survival kit to successfully get Brian through the winter,
-            what would you include in the kit? List at least ten items you would place in the kit. 
+            what would you include in the kit? List at least ten items you would place in the kit.
             You may research this online.</p>
           <p className="topBottom">Now imagine you are the one who is trying to survive in the Canadian wilderness in
-            the middle of winter. Are there any items you would place in the survival kit for yourself that you didn’t include for
+            the middle of winter. Are there any items you would place in the survival kit for yourself that you didn’t
+            include for
             Brian? </p>
           <textarea className="textArea" onChange={onChangela7Listener66} value={la7Essay66}/>
 
@@ -2740,7 +2741,8 @@ const LA7Component = ({ data }) => {
           <p className="topBottom"><strong>Idioms</strong> are figures of speech that cannot be understood from a
             literal
             understanding of the words
-            alone. Examples: <span style={{color:"#7c7f93 "}}><i>The cat is out of the bag. Stop beating around the bush.</i></span> <br/>Someone visiting from
+            alone. Examples: <span style={{ color: "#7c7f93 " }}><i>The cat is out of the bag. Stop beating around the bush.</i></span>
+            <br/>Someone visiting from
             another country would not understand these phrases without someone explaining the meaning.</p>
 
           <p className="topBottom"><strong>Similes </strong>make comparisons between two unrelated elements by using
@@ -2768,7 +2770,8 @@ const LA7Component = ({ data }) => {
             sweep by sleeping geese. Dr. Suess often used alliteration and assonance in his books: Through three
             cheese trees three free fleas flew. While these fleas flew, freezy breeze blew. </p>
 
-          <p className="topBottom"><strong>Allusion</strong> is an <i>implied </i>reference to a person, event, or thing based on the
+          <p className="topBottom"><strong>Allusion</strong> is an <i>implied </i>reference to a person, event, or thing
+            based on the
             assumption that you
             know what the person is talking about. The author assumes the reader will understand the reference.
             Example: <i> You're acting like such a Scrooge! </i>This assumes the reader is familiar with the Scrooge
@@ -3090,7 +3093,8 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener78} value={la7Essay78}/>
 
           <span className="days">LESSON 79 </span>
-          <h4><i style={{ color: "#7c7f93" }}>From TedEd </i> The poet who painted with his words</h4> <p>Among the great poets of literary history, certain names
+          <h4><i style={{ color: "#7c7f93" }}>From TedEd </i> The poet who painted with his words</h4> <p>Among the
+          great poets of literary history, certain names
           like Homer, Shakespeare and Whitman are instantly recognizable. However, there’s an early 20th century
           great poet whose name you may not know: Guillaume Apollinaire. During Apollinaire’s short lifetime he
           created poetry that combined text and image in a way that seemingly predicted an artistic revolution to
@@ -3346,8 +3350,9 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener84} value={la7Essay84}/>
 
           <span className="days">LESSON 85 </span>
-          <p><strong> All the World's a Stage </strong> by William Shakespeare is a monologue (or speech) given by a character named Jaques in Shakespeare's play <strong>As You Like
-            It.</strong></p>
+          <p><strong> All the World's a Stage </strong> by William Shakespeare is a monologue (or speech) given by a
+            character named Jaques in Shakespeare's play <strong>As You Like
+              It.</strong></p>
           <Video videoUrl="https://www.youtube.com/embed/_jaSFtcDEiE?list=PLJicmE8fK0Egxi0hgy5Tw-NFyLcpJ4bzJ"/>
           <h4>Analysis of William Shakespeare's <i> All the World's a Stage </i></h4>
           <Video videoUrl="https://www.youtube.com/embed/BsD9u2BO2rM"/>
@@ -3697,7 +3702,8 @@ const LA7Component = ({ data }) => {
 
           <span className="days">LESSON 93 </span>
           <p className="topBottom">Begin reading the novel <strong>Esperanza Rising </strong> by Pam Munoz Ryan.
-            Esperanza is a young girl in Mexico, living the life of a princess. She's forced to leave her country with her
+            Esperanza is a young girl in Mexico, living the life of a princess. She's forced to leave her country with
+            her
             mother and everything she's known and tries to figure out life and how to survive as an immigrant in
             American society.</p>
           <p className="topBottom">The novel is available at your local library, local bookstore and online for
@@ -3825,15 +3831,18 @@ const LA7Component = ({ data }) => {
               <li>How is her new home different from her old home?</li>
               <li>What were the two choices Ramona gave Esperanza when she was angry about their cabin?</li>
               <li>Esperanza still feels she is rich. Was it hard for Esperanza to accept the fact they are peasants
-                now?</li>
+                now?
+              </li>
               <li>What jobs does Esperanza have to do?</li>
-              <li>How had Ramona changed to Esperanza? </li>
-              <li>Who taught Esperanza how to sweep? </li>
+              <li>How had Ramona changed to Esperanza?</li>
+              <li>Who taught Esperanza how to sweep?</li>
               <li>Isabel teaches Esperanza several things. What do you believe were the three most important things for
-                Esperanza to learn?</li>
+                Esperanza to learn?
+              </li>
               <li>Describe what happened when Esperanza went to sweep the platform.</li>
               <li>In the novel, you are reading many new Spanish words. Esperanza has to learn English. What do you
-                think it would be like to move toa country and not know the language?</li>
+                think it would be like to move toa country and not know the language?
+              </li>
               <li>What do las cebollas (onions) symbolize in this chapter?</li>
             </ol>
           </p>
@@ -3963,8 +3972,9 @@ const LA7Component = ({ data }) => {
               <li>Esperanza gave her doll to Isabel. Why did she do this?</li>
               <li>Have you ever given something you cherished to someone? Describe why.</li>
               <li>The workers from Oklahoma were from the United States. How do you think they felt when they had to
-                compete for jobs with workers from another country?</li>
-              <li>What nice things were going to be at the camp for the Oklahoma people? </li>
+                compete for jobs with workers from another country?
+              </li>
+              <li>What nice things were going to be at the camp for the Oklahoma people?</li>
               <li>What happened to Miguel at work and how did he get muddy?</li>
               <li>How did Esperanza react when she finds out what happened to Miguel? Why do you think she reacted this
                 way? What happened to Miguel after?
@@ -4086,8 +4096,9 @@ const LA7Component = ({ data }) => {
           <h4>Applying vocabulary knowledge</h4>
           <p>Read the article, Saving Dying Languages 7, linked here and then complete the <a
             href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-living-tongues/x4aa9073b12675eb1:applying-vocabulary-knowledge/e/living-tongues-vocabulary-saving-dying-languages-7?modal=1"
-            rel="noreferrer" target="_blank"> questions. </a>Then in the textbox below, write a brief summary of the poem. What message or meaning is the author trying to get across to his readers?</p>
-         <br/> <h4>Reading for understanding: informational text</h4>
+            rel="noreferrer" target="_blank"> questions. </a>Then in the textbox below, write a brief summary of the
+            poem. What message or meaning is the author trying to get across to his readers?</p>
+          <br/> <h4>Reading for understanding: informational text</h4>
           <p>Read the article <a
             href="https://www.khanacademy.org/ela/cc-7th-reading-vocab/x4aa9073b12675eb1:cc-7th-living-tongues/x4aa9073b12675eb1:reading-for-understanding-informational-text/e/living-tongues-reading-informational-text-the-code-that-was-never-broken-7"
             rel="noreferrer" target="_blank">linked here, The Code that Was Never Broken, and then complete the
@@ -4188,7 +4199,7 @@ const LA7Component = ({ data }) => {
             6. Quote text from the novel that best supports the inference that the attack on Johnny was
             a turning point for him.<br/>
             7. Infer how the narrator feels as he is being followed. What signs does he exhibit that tell
-            you this is how he feels?  <i>Infer means to conclude or to assume something based on evidence. </i> <br/>
+            you this is how he feels? <i>Infer means to conclude or to assume something based on evidence. </i> <br/>
             8. What do we learn is the name of the narrator?<br/>
             9. Why is Ponyboy so reluctant to tell Darry how he really feels after the incident with the
             Socs?<br/>
@@ -4213,7 +4224,7 @@ const LA7Component = ({ data }) => {
             <strong>Vocabulary</strong> For each vocabulary word below, write a definition and then write a sentence
             using the word. Below is an example.<br/>
             <ol className="vocab">
-              <li>unfathomable - <i style={{ color: "#4f5979" }}> unfathomable: impossible to understand or
+              <li>unfathomable - <i style={{ color: "#7c7f93" }}> unfathomable: impossible to understand or
                 incomprehensible. "For some unfathomable reason, he could not get through the assignment."</i></li>
               <li>asset</li>
               <li>rivalry</li>
@@ -4265,8 +4276,8 @@ const LA7Component = ({ data }) => {
             fighting suggest about their differences and similarities?<br/>
             3. Relate the story of Mickey Mouse and Soda. Why do you think it was included in the
             novel?<br/>
-            4. The reference to watching the sunset is important to developing the 
-            relationship between Cherry Valance and Ponyboy.  Why is it important?<br/>
+            4. The reference to watching the sunset is important to developing the
+            relationship between Cherry Valance and Ponyboy. Why is it important?<br/>
             5. After all the vulgar language and abuse at the movies, evaluate why Cherry would "fall in
             love" with Dally. Considering the characters, how realistic does this seem?<br/>
             6. When the blue Mustang rolls up, what are its occupants hoping to do? What do the
@@ -4489,7 +4500,7 @@ const LA7Component = ({ data }) => {
             2. Why do you think that Johnny asks for another copy of Gone with the Wind?<br/>
             3. Ponyboy realizes that the gang needs Johnny. What is Johnny’s greatest contribution to
             the gang?<br/>
-            4. Johnny has thought of suicide in the past.  Why does he want to live, even though he 
+            4. Johnny has thought of suicide in the past. Why does he want to live, even though he
             knows he would never be able to walk again?<br/>
             5. When the nurse announces to Johnny that his mother is there to see him, how does he
             react? When Two-Bit and Ponyboy see Johnny’s mother, what happens? How do they
@@ -4690,7 +4701,8 @@ const LA7Component = ({ data }) => {
               between the two groups.
             </li>
             <li>Although the author never uses the word outsider in her novel, it is the title of the book. Who do you
-              think the outsiders were? Be sure to define what you mean by "outsiders" in your essay and use examples from
+              think the outsiders were? Be sure to define what you mean by "outsiders" in your essay and use examples
+              from
               the book to support your essay.
             </li>
           </ul>
@@ -4750,11 +4762,14 @@ const LA7Component = ({ data }) => {
                 friends online). Which things about your identity do you feel are most appreciated?
               </li>
 
-              <li>Picture yourself 5 years ago. Think about what you looked like, your personality, and the dreams you had.
+              <li>Picture yourself 5 years ago. Think about what you looked like, your personality, and the dreams you
+                had.
                 Think about how your personality traits and dreams have changed since you were a small child. <br/><br/>
-                Write a story (2-3 paragraphs) telling how your identity has developed over the past five years. Describe how
-                your experiences, life-changing events, moments of revelation, interests and dreams have shaped your identity.
-                This story should answer the question <span className="title"> What made me the person I am today?</span>
+                Write a story (2-3 paragraphs) telling how your identity has developed over the past five years.
+                Describe how
+                your experiences, life-changing events, moments of revelation, interests and dreams have shaped your
+                identity.
+                Your story should answer the question <strong> What made you the person you are today?</strong>
               </li>
             </ol>
           </p>
@@ -4763,7 +4778,8 @@ const LA7Component = ({ data }) => {
           <span className="days">LESSON 127 </span>
           <p>The novel <strong>Out of My Mind, </strong> by Sharon Draper, is a story about an eleven-year-old girl
             named Melody. She can’t walk, talk or write because she has cerebral palsy. But she also has a photographic
-            memory; she can remember every detail of everything she has ever seen or experienced. She’s the smartest kid in her
+            memory; she can remember every detail of everything she has ever seen or experienced. She’s the smartest kid
+            in her
             school, but no one knows it. But she's determined to let them know somehow.
           </p>
           <p className="topBottom"><strong>Out of My Mind </strong> is available at your local library, local bookstore
@@ -4788,7 +4804,7 @@ const LA7Component = ({ data }) => {
               <li>How does Melody feel about her wheelchair?</li>
               <li>Why do you think others see her problems first?</li>
               <li>Why is Melody so aware of all the smells and sounds around her?</li>
-              <li>Do you think Melody have a right to be angry? Why or why not.</li>
+              <li>Do you think Melody has a right to be angry? Why or why not.</li>
               <li>Are her parents able to understand her?</li>
             </ol>
           </p>
@@ -4799,7 +4815,6 @@ const LA7Component = ({ data }) => {
             <ol className="vocab">
               <li> How does Melody describe her classmates at her new school?</li>
               <li>What does Melody think about school so far?</li>
-              <li>What is Melody’s disability?</li>
               <li>Why do people assume Melody is stupid?</li>
               <li>Why does she put on her "handicapped face"?</li>
               <li>Do you think Melody’s parents think she is only a burden? Explain.</li>
@@ -5014,7 +5029,7 @@ const LA7Component = ({ data }) => {
               <li>Do you think the accident with Penny is Melody’s fault? Why or why not?</li>
               <li> Why is Melody so fearful about Penny?</li>
               <li>Did Melody believe that what happened to Penny was her fault? How did she feel about herself? How did
-                Mrs. V respond to Melody about what happened?
+                Mrs. V respond to Melody regarding what happened?
               </li>
               <li>She has been thinking about Jill, her classmate in H5. Why?</li>
             </ol>
@@ -5045,7 +5060,7 @@ const LA7Component = ({ data }) => {
           <p className="topBottom">Research Cerebral Palsy. Then write an essay (minimum 5 paragraphs) that describes
             cerebral palsy and tells what it would be like to be Melody for a day. </p>
           <p className="topBottom">Explain the disability and how it affects someone socially, academically, emotionally
-            and and personally.</p>
+            and personally.</p>
           <p className="topBottom"><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
                                       rel="noreferrer"
                                       target="_blank">Click here for a 5 Paragraph Essay outline </a>if you need help
@@ -5054,19 +5069,22 @@ const LA7Component = ({ data }) => {
                     onChange={onChangela7Listener141} value={la7Essay141}/>
 
           <span className="days">LESSON 142</span>
-          <p className="topBottom"><a href={require("../resources/books/to-build-a-fire.pdf")} rel="noreferrer"
-                                      target="_blank">
-            <h4 className="topBottom">Read the short story <i>To Build a Fire</i> by Jack London.</h4>
-            <img src={require("../../public/images/bookCovers/tobuildafire.jpg")} alt="To Build a Fire"/></a></p>
-          <textarea className="textArea" onChange={onChangela7Listener142} value={la7Essay142}/>
+                      <p>Read the short story <strong><a href={require("../resources/books/to-build-a-fire.pdf")} rel="noreferrer"
+                                                                     target="_blank">To Build a Fire</a></strong> by Jack London.</p>
+            <p className="topBottom">Write a brief summary of the short story (1-2 paragraphs). Your summary should cover the "who, what,
+              when, where, why and how."</p>
+          <a href={require("../resources/books/to-build-a-fire.pdf")} rel="noreferrer"
+             target="_blank"><img src={require("../../public/images/bookCovers/tobuildafire.jpg")} alt="To Build a Fire"/></a>
+          <textarea className="textArea" placeholder="Write your summary here. Be sure to back up your work."
+                    onChange={onChangela7Listener142} value={la7Essay142}/>
 
           <span className="days">LESSON 143 </span>
-          <p className="topBottom">Watch the short film <i>To Build a Fire</i>. Then answer the questions below using
-            complete sentences based on the short story.</p>
+          <p className="topBottom">Watch the short film <i>To Build a Fire</i>. Then answer the questions below based on
+            the short story and film.</p>
           <Video videoUrl="https://www.youtube.com/embed/LzRrPQJlUwM"/>
           <p>
             <ol className="vocab">
-              <li>Describe the setting of the story.</li>
+              <li>Using details from the short story, describe the setting.</li>
               <li>Describe the protagonist. What are his strengths, weaknesses and character traits?</li>
               <li>Describe the dog and his traits. Are there ways in which the dog seems to have more sense than the
                 man?
@@ -5089,6 +5107,10 @@ const LA7Component = ({ data }) => {
               <li>If you had to choose a companion for a trip to the Arctic, would you choose to have the man or the dog
                 accompany you?
               </li>
+              <li>How did you like the short film? Did you think if accurately reflected the setting, characters and
+                plot of the short story?
+              </li>
+              <li>Did you enjoy the short <i>story</i> or the short <i>film</i> more? Explain why.</li>
             </ol>
           </p>
           <textarea className="textArea" onChange={onChangela7Listener143} value={la7Essay143}/>
@@ -5106,7 +5128,7 @@ const LA7Component = ({ data }) => {
                                                   target="_blank"> Chapter 1 is provided here. </a></p>
           <a href={require("../resources/books/TheHobbit.pdf")} rel="noreferrer" target="_blank">
             <img src={require("../../public/images/bookCovers/hobbit.jpg")} alt="The Hobbit"/><br/>
-            Read Chapter 1- "An Unexpected Party". </a>Then answer the questions below using
+            Read Chapter 1  "An Unexpected Party". </a>Then answer the questions below using
           complete sentences.
           <p className="topBottom">
             <ol className="vocab">
@@ -5129,7 +5151,7 @@ const LA7Component = ({ data }) => {
               <li>Summarize Read Chapter 1, describing events in the order that they happened.</li>
             </ol>
             <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using
-            the word. Below is an example.<br/>
+            the word. <br/>
             <ol className="vocab">
               <li>scuttled</li>
               <li>throng</li>
@@ -5143,7 +5165,7 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener144} value={la7Essay144}/>
 
           <span className="days">LESSON 145 </span>
-          <p className="topBottom">Read Chapter 2- "Roast Mutton". Then answer the questions below using complete
+          <p className="topBottom">Read Chapter 2  "Roast Mutton". Then answer the questions below using complete
             sentences.<br/>
             <ol className="vocab">
               <li>Sometimes in novels a change of clothing is symbolic of a new role. What do you think Bilbo’s
@@ -5159,13 +5181,11 @@ const LA7Component = ({ data }) => {
               <li>How do the others react to Bilbo’s mention of the key?</li>
               <li>Compare and contrast the speech of the dwarves with the speech of the trolls.</li>
               <li>What does Bilbo argue about with himself when he sees the trolls?</li>
-              <li>What do you think of the dwarves’ ability to make strategic plans? CITE EVIDENCE (page
-                #/paragraph)!
-              </li>
+              <li>What do you think of the dwarves’ ability to make strategic plans?</li>
               <li>In this Chapter, what important help does Bilbo provide toward attaining the dwarves’ goal?</li>
             </ol>
             <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using
-            the word. Below is an example.<br/>
+            the word. <br/>
             <ol className="vocab">
               <li>fluster</li>
               <li>defrayed</li>
@@ -5180,7 +5200,7 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener145} value={la7Essay145}/>
 
           <span className="days">LESSON 146 </span>
-          <p className="topBottom">Read Chapter 3- "A Short Rest". Then answer the questions below using complete
+          <p className="topBottom">Read Chapter 3  "A Short Rest". Then answer the questions below using complete
             sentences.<br/>
             <ol className="vocab">
               <li>1. What kind of creatures inhabited the valley of Rivendell?</li>
@@ -5194,7 +5214,7 @@ const LA7Component = ({ data }) => {
               <li>How does the stop in Rivendell help the dwarves move toward attaining their goal?</li>
             </ol>
             <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using
-            the word. Below is an example.<br/>
+            the word. <br/>
             <ol className="vocab">
               <li>reeking</li>
               <li>bannocks</li>
@@ -5209,7 +5229,7 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener146} value={la7Essay146}/>
 
           <span className="days">LESSON 147 </span>
-          <p className="topBottom">Read Chapter 4 – "Over Hill and Under Hill". Then answer the questions below
+          <p className="topBottom">Read Chapter 4  "Over Hill and Under Hill". Then answer the questions below
             using complete sentences.<br/>
             <ol className="vocab">
               <li>What mistake do the dwarves make about Durin’s Day? What does this tell you about them?</li>
@@ -5236,21 +5256,21 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener147} value={la7Essay147}/>
 
           <span className="days">LESSON 148 </span>
-          <p className="topBottom">Read Chapter 5 – "Riddles in the Dark". Then answer the questions below using
+          <p className="topBottom">Read Chapter 5  "Riddles in the Dark". Then answer the questions below using
             complete sentences.<br/>
             <ol className="vocab">
               <li>How did Gollum get his name? What does he call himself and why?</li>
               <li>Describe the surroundings where Bilbo found himself.</li>
-              <li>. How did Bilbo win the riddle game with Gollum? Was it a fair win?</li>
+              <li>How did Bilbo win the riddle game with Gollum? Was it a fair win?</li>
               <li>What special properties does Bilbo discover in the dagger and ring? How does he find out?</li>
               <li>Gollum concludes that Bilbo’s first statement to him was a lie. Why?</li>
               <li>How does Bilbo treat Gollum? How does Gollum treat Bilbo? Do they like or trust each other?</li>
               <li>What aspect of Gollum’s character was the most striking/strange to you? Why?</li>
               <li>How did Bilbo discover the power of the ring?</li>
-              <li>Do you like Gollum as a character? Why/Why not?</li>
+              <li>Do you like Gollum as a character? Explain why or why not.</li>
             </ol>
             <h4>Vocabulary</h4> For each vocabulary word below, write a definition and then write a sentence using
-            the word. Below is an example.<br/>
+            the word. <br/>
             <ol className="vocab">
               <li>groped</li>
               <li>subterranean</li>
@@ -5263,7 +5283,7 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener148} value={la7Essay148}/>
 
           <span className="days">LESSON 149 </span>
-          <p className="topBottom">Read Chapter 6 – "Out of the Frying-Pan and into the Fire". Then answer the
+          <p className="topBottom">Read Chapter 6  "Out of the Frying-Pan and into the Fire". Then answer the
             questions below using complete sentences.<br/>
             <ol className="vocab">
               <li>How has Bilbo changed since Chapter 1?</li>
@@ -5292,7 +5312,7 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener149} value={la7Essay149}/>
 
           <span className="days">LESSON 150 </span>
-          <p className="topBottom">Read Chapter 7 – "Queer Lodgings". Then answer the questions below using complete
+          <p className="topBottom">Read Chapter 7  "Queer Lodgings". Then answer the questions below using complete
             sentences.<br/>
             <ol className="vocab">
               <li>Explain Gandalf’s trick. Why does he choose this particular way of bringing the dwarves and Bilbo
@@ -5320,7 +5340,7 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener150} value={la7Essay150}/>
 
           <span className="days">LESSON 151 </span>
-          <p className="topBottom">Read Chapter 8 – "Flies and Spiders". Then answer the questions below using
+          <p className="topBottom">Read Chapter 8  "Flies and Spiders". Then answer the questions below using
             complete sentences.<br/>
             <ol className="vocab">
               <li>Describe Mirkwood. What is it like?</li>
@@ -5343,7 +5363,7 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener151} value={la7Essay151}/>
 
           <span className="days">LESSON 152 </span>
-          <p className="topBottom">Read Chapter 9 – "Barrels Out of Bond". Then answer the questions below using
+          <p className="topBottom">Read Chapter 9  "Barrels Out of Bond". Then answer the questions below using
             complete sentences.<br/>
             <ol className="vocab">
               <li>What leads the Elvenking to imprison the dwarves? How might they have avoided imprisonment? Do you
@@ -5373,7 +5393,7 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener152} value={la7Essay152}/>
 
           <span className="days">LESSON 153 </span>
-          <p className="topBottom">Read Chapter 10 – "A Warm Welcome". Then answer the questions below using
+          <p className="topBottom">Read Chapter 10  "A Warm Welcome". Then answer the questions below using
             complete sentences.<br/>
             <ol className="vocab">
               <li>How does luck play a role in the plot?</li>
@@ -5402,14 +5422,14 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener153} value={la7Essay153}/>
 
           <span className="days">LESSON 154 </span>
-          <p className="topBottom">Read Chapter 11 – "On the Doorstep". Then answer the questions below using
+          <p className="topBottom">Read Chapter 11  "On the Doorstep". Then answer the questions below using
             complete sentences.<br/>
             <ol className="vocab">
-              <li>What is the setting in this Chapter?</li>
+              <li>What is the setting in this chapter?</li>
               <li>Why did the men of the town leave the travelers at the end of the third day?</li>
               <li>How do some of the dwarves react to the closed door?</li>
               <li>Give some examples of advice the dwarves have not taken so far in the book.</li>
-              <li>Find an example of foreshadowing in this Chapter. What do you make of it?</li>
+              <li>Find an example of foreshadowing in this chapter. What do you make of it?</li>
               <li>Describe the relationship of the dwarves and the hobbit in this Chapter.</li>
               <li>What do you make of the thrush? What is so special about it?</li>
               <li>How did the dwarves get the secret door open?</li>
@@ -5430,7 +5450,7 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener154} value={la7Essay154}/>
 
           <span className="days">LESSON 155 </span>
-          <p className="topBottom">Read Chapter 12 – "Inside Information". Then answer the questions below using
+          <p className="topBottom">Read Chapter 12  "Inside Information". Then answer the questions below using
             complete sentences.<br/>
             <ol className="vocab">
               <li>What did Bilbo see at the end of the tunnel?</li>
@@ -5457,7 +5477,7 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener155} value={la7Essay155}/>
 
           <span className="days">LESSON 156 </span>
-          <p className="topBottom">Read Chapter 13 – "Not At Home"<br/>
+          <p className="topBottom">Read Chapter 13  "Not At Home"<br/>
             <ol className="vocab">
               <li>How does the Chapter title create dramatic irony?</li>
               <li>Compare and contrast Bilbo’s attitude about going down the tunnel and exploring Smaug’s hoard with
@@ -5484,7 +5504,7 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener156} value={la7Essay156}/>
 
           <span className="days">LESSON 157 </span>
-          <p className="topBottom">Read Chapter 14 – "Fire and Water". Then answer the questions below using
+          <p className="topBottom">Read Chapter 14  "Fire and Water". Then answer the questions below using
             complete sentences.<br/>
             <ol className="vocab">
               <li>What different interpretations did the townspeople make of the lights visible on the mountain?
@@ -5513,7 +5533,7 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener157} value={la7Essay157}/>
 
           <span className="days">LESSON 158 </span>
-          <p className="topBottom">Read Chapter 15 – "The Gathering Clouds." Then answer the questions below using
+          <p className="topBottom">Read Chapter 15  "The Gathering Clouds." Then answer the questions below using
             complete sentences.<br/>
             <ol className="vocab">
               <li>What did Thorin ask Roäc to do?</li>
@@ -5545,7 +5565,7 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener158} value={la7Essay158}/>
 
           <span className="days">LESSON 159 </span>
-          <p className="topBottom">Read Chapter 16 – "A Thief in the Night". Then answer the questions below using
+          <p className="topBottom">Read Chapter 16  "A Thief in the Night". Then answer the questions below using
             complete sentences.<br/>
             <ol className="vocab">
               <li>Why did Bilbo offer to take Bombur’s watch?</li>
@@ -5572,7 +5592,7 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener159} value={la7Essay159}/>
 
           <span className="days">LESSON 160 </span>
-          <p className="topBottom">Read Chapter 17 – "The Clouds Burst". Then answer the questions below using
+          <p className="topBottom">Read Chapter 17  "The Clouds Burst". Then answer the questions below using
             complete sentences.<br/>
             <ol className="vocab">
               <li>Why did Thorin throw Bilbo out of his camp?</li>
@@ -5600,7 +5620,7 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener160} value={la7Essay160}/>
 
           <span className="days">LESSON 161 </span>
-          <p className="topBottom">Read Chapter 18- "The Return Journey". Then answer the questions below using
+          <p className="topBottom">Read Chapter 18  "The Return Journey". Then answer the questions below using
             complete sentences.<br/>
             <ol className="vocab">
               <li>How does Bilbo end up alone on Ravenhill?</li>
@@ -5626,11 +5646,11 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener161} value={la7Essay161}/>
 
           <span className="days">LESSON 162 </span>
-          <p className="topBottom">Read Chapter 19 – "The Last Stage". Then answer the questions below using
+          <p className="topBottom">Read Chapter 19  "The Last Stage". Then answer the questions below using
             complete sentences.<br/>
             <ol className="vocab">
               <li>Compare and contrast the elves’ songs with the dwarves’ songs throughout the book.</li>
-              <li>1When Bilbo arrived home, what did he find?</li>
+              <li>When Bilbo arrived home, what did he find?</li>
               <li>How was the journey at the beginning of the story different than the journey back home?</li>
               <li>What does Bilbo’s poem reveal about him?</li>
               <li>What is ironic in Bilbo’s homecoming?</li>
@@ -5657,10 +5677,10 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener162} value={la7Essay162}/>
 
           <span className="days">LESSON 163 </span>
-          <p className="topBottom">Do you think there is a moral to this story? What did you learn by reading it? Answer
+          <p className="topBottom">Do you think there is a moral to this story? What did you learn by reading it? Address 
             these questions in a five paragraph essay.</p>
           <ul className="assnList">
-            <li>Spend a few minutes to think about the questions. Then write an outline for your essay</li>
+            <li>Spend a few minutes to think about the questions. Then write an outline for your essay.</li>
             <li>Your first paragraph should have a hook to grab your reader's attention. It should also have a clear
               thesis statement (main idea of your essay). This statement should convey the points or arguments you are
               going to
@@ -5701,8 +5721,7 @@ const LA7Component = ({ data }) => {
           <span className="days">LESSON 165 </span>
           <h4>Research paper</h4>
           <p className="topBottom">Choose from one of the topics below and write a research paper based on the Hobbit.
-            It must be at least five paragraphs. You can use the <a
-              href="../resources/languagearts/FiveParagraphEssayOutline.pdf"> Five Paragraph Essay outline </a> to help
+            It must be at least five paragraphs. You can use the <a href={ require("../resources/languagearts/FiveParagraphEssayOutline.pdf")} rel="noreferrer" target="_blank"> Five Paragraph Essay outline </a> to help
             you get started.</p>
           <ul className="list">
             <li>Tolkien includes traditional creatures such as elves, dwarves, dragons, trolls, goblins, and
@@ -5711,13 +5730,13 @@ const LA7Component = ({ data }) => {
             </li>
             <li>Explore the significance of birds in The Hobbit. What types of birds play a role in
               the story? The eagles, for example, have heavy symbolic significance in world
-              legends and mythology. Why do you think he chose these specific birds to play the roles that they did?
+              legends and mythology. Why do you think the author chose these specific birds to play the roles that they did?
             </li>
             <li>Does Bilbo Baggins fit the description of an archetypal hero? Compare this story to another classical or
               modern adventure story. How is Bilbo similar to other heroes in literature? How is he different?
             </li>
-            <li>If you have seen the movie, analyze the book in relation to the movie adaptation of The Hobbit.
-              How does the movie compare to the book? What did the director choose to leave in? What did he omit?
+            <li>If you have seen the movie, analyze the book in relation to the movie adaptation of <i>The Hobbit</i>.
+             Think about the following questions before writing your research paper: How does the movie compare to the book? What did the director choose to leave in? What did he omit?
               Did you like the book or the movie more?
             </li>
           </ul>
@@ -5842,6 +5861,53 @@ const LA7Component = ({ data }) => {
           </ol>
           <textarea className="textArea" onChange={onChangela7Listener169} value={la7Essay169}/>
 
+
+          <span className="days" style={{color:"#4f5979", fontSize: "130%"}}>WRITING STORIES </span>
+          <h4 style={{color:"#4f5979"}}>The remainder of this class will focus on writing stories and non-fiction essays
+            within different genres.</h4>
+          <p className="topBottom"><i>For each fictional writing assignment, address the items below to develop
+            your story:</i></p>
+          <p className="topBottom">POINT OF VIEW: Whose story are you telling? Using "I" is first person. Using
+            "you" is second person. Third person uses he or she. The third-person omniscient point of view tells the
+            thoughts and feelings of all the characters. </p>
+          <p className="topBottom">PLOT: What happens in the story? What are the sequence of events? </p>
+          <p className="topBottom">SETTING: Where and when is it (past, present or future)? </p>
+          <p className="topBottom">CONFLICT: What is the challenge the main character must face in order to grow and
+            change? What obstacles must be overcome? Most stories contain several small conflicts and one large or
+            major conflict. </p>
+          <p className="topBottom">RESOLUTION: How does the problem get solved? </p>
+          <p className="topBottom">CHARACTERS: Who is in your story? Who is the main character (protagonist)? Who
+            are the supporting characters? </p>
+          <p className="topBottom">Developing your characters is important because your readers must care about what
+            happens to them. They don’t have to be likable, but they must be credible. Your readers should be feel
+            the characters are real and be able to picture them clearly in their head. You should describe what they
+            look like and their personality. Include character traits (ex. humor, wit, introversion), strengths (ex.
+            intelligence, stamina, humor) and flaws (ex. short-temper, physical disability). The main character
+            (protagonist) is the most important because the story tends to revolve around them. They determine the
+            way the plot will develop and must solve a problem or solve a mystery. </p>
+          <p className="topBottom">Supporting characters are also important because they often help the main
+            character or serve as their enemy, creating obstacles. It’s your job to get the readers to feel
+            something for all of your characters; like them, hate them, root for them, feel devasted when they are
+            harmed and happy when they triumph.</p>
+          <p className="topBottom">You can print out the <a href={require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story Outline Worksheet</a> to help you get
+            started on a rough draft for your stories. It includes the following:<br/>
+            <ul className="assnList2">
+              <li>Title of your story:</li>
+              <li>The story is about</li>
+              <li>Main character:</li>
+              <li>Supporting characters:</li>
+              <li>Setting:</li>
+              <li>Write the first few lines of your story. Set the scene and introduce your characters.</li>
+              <li>Try to grab your readers’ attention in the first paragraph.</li>
+              <li>The first thing that happens and conflict introduced:</li>
+              <li>Next (build up):</li>
+              <li>Finally (resolution):</li>
+            </ul>
+          </p>
+          <p>Watch the the video below <strong> How to write descriptively</strong> by Nalo Hopkinson.  This will
+            help you complete the writing assignments that follow.</p>
+          <Video videoUrl="https://www.youtube.com/embed/RSoRzTtwgP4"/>
+          
           <span className="days">LESSON 170 </span>
           <p>After you watch the video <strong> Stephen King On Writing</strong>, you will write a mystery.</p>
           <Video videoUrl="https://www.youtube.com/embed/lwhOd65gGoY"/>
@@ -5887,7 +5953,7 @@ const LA7Component = ({ data }) => {
               <div><img src={require("../../public/images/stories/maninthefog.jpg")} style={{ maxWidth: "500px" }}
                         alt="man walking through the fog"/>
                 <p className="captionTitle">Man in the Fog</p>
-                <p className="caption">The man slowly walks toward your house. He stops, looks up at your window and
+                <p className="caption">The man slowly walks towards your house. He stops, looks up at your window and
                   says, "It's time." </p>
               </div>
             </div>
@@ -5903,8 +5969,7 @@ const LA7Component = ({ data }) => {
             <li><i>Optional:</i> Are there ways you can throw the reader off the trail?</li>
             <li>How will you set up your story? Use your main character to unravel the mystery and solve it.</li>
           </ul>
-          <p className="topBottom">You can use the <a
-            href="../resources/languagearts/StoryOutlineWorksheet.pdf">Story Outline Worksheet</a> to get started.
+          <p className="topBottom">You can use the <a href={require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story Outline Worksheet</a> to get started.
           </p>
           <textarea className="textArea" onChange={onChangela7Listener170} value={la7Essay170}/>
 
@@ -5981,7 +6046,7 @@ const LA7Component = ({ data }) => {
           <p className="topBottom"> If you don't have anyone in mind, there is a list below of a few inspirational
             people. Take plenty of notes when you research this person's life and accomplishments.</p>
           <Video videoUrl="https://www.youtube.com/embed/q7abluGwup8"/>
-          <p>You can use the <a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
+          <p>You can use the <a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")} rel="noreferrer" target="_blank">
                                 rel="noreferrer"
                                 target="_blank">Five Paragraph Essay outline</a> to help you get started. Be sure to
             include the following elements in your biography:</p>
@@ -6088,7 +6153,7 @@ const LA7Component = ({ data }) => {
             <li>Your conclusion should restate your thesis in a different way. End with a thoughtful summary.</li>
             <li>Each paragraph should be 3-5 sentences.</li>
           </ul>
-          <p className="topBottom"><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
+          <p className="topBottom"><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")} rel="noreferrer" target="_blank">
                                       rel="noreferrer"
                                       target="_blank">Click
             here for a 5 Paragraph Essay outline </a>if you need help getting started.</p>
@@ -6139,8 +6204,7 @@ const LA7Component = ({ data }) => {
                    alt="castle"/>
             </div>
           </div>
-          <p className="topBottom">You can use the <a
-            href="../resources/languagearts/StoryOutlineWorksheet.pdf">Story Outline Worksheet</a> to get started.
+          <p className="topBottom">You can use the <a href={require ("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story Outline Worksheet</a> to get started.
           </p>
           <textarea className="textArea" onChange={onChangela7Listener176} value={la7Essay176}/>
 
@@ -6300,8 +6364,7 @@ const LA7Component = ({ data }) => {
             </ul>
             <br/> Write your story in the textbox below. Be sure to back up your work.
           </p>
-          <p>You can use the <a
-            href="../resources/languagearts/StoryOutlineWorksheet.pdf">Story Outline Worksheet</a> to help you get
+          <p>You can use the <a href={ require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story Outline Worksheet</a> to help you get
             started.</p>
           <textarea className="textArea" onChange={onChangela7Listener180} value={la7Essay180}/>
         </div>
