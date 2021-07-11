@@ -743,8 +743,18 @@ const LA8Component = ({ data }) => {
 
       <section className="block-circles">
         <div className="circle one"
-             style={{ animationDuration: "4s", backgroundColor: '#83cae6', transform: "translate3d(0px, 0px, 0px) scale(0.9921, 1)", opacity: "0.9881" }}/>
-        <div className="circle two" style={{ animationDuration: "4s", backgroundColor: '#83cae6', transform: "translate(0px, 0px)", opacity: 1 }}/>
+             style={{
+               animationDuration: "4s",
+               backgroundColor: "#83cae6",
+               transform: "translate3d(0px, 0px, 0px) scale(0.9921, 1)",
+               opacity: "0.9881"
+             }}/>
+        <div className="circle two" style={{
+          animationDuration: "4s",
+          backgroundColor: "#83cae6",
+          transform: "translate(0px, 0px)",
+          opacity: 1
+        }}/>
         <div className="hero-wrapper pbn hero animated animatedFadeInUp fadeInUp">
           <h1 className="hero intro animated">Language Arts</h1>
           <div className="hero info-block info-block-line" style={{ marginBottom: "4em" }}>
@@ -752,7 +762,7 @@ const LA8Component = ({ data }) => {
           </div>
         </div>
       </section>
-      
+
       <section className="section raise-top">
         <div className="section-content">
           <h1 className="section-title">Daily Lessons</h1>
@@ -768,19 +778,16 @@ const LA8Component = ({ data }) => {
           <p className="margin-para"> The first book you will read for this course is <a
             href={require("../resources/books/The_Alchemist.pdf")} rel="noreferrer" target="_blank"> <i>The
             Alchemist.</i> </a> It is available <a href={require("../resources/books/The_Alchemist.pdf")}
-                                                   rel="noreferrer" target="_blank"> here as a PDF. </a> If you
-            prefer a hard copy, it is available at your local library, local bookstore, and can be purchased online.
-          </p>
-          <img src={require("../../public/images/bookCovers/theAlchemist.jpg")} alt="The Alchemist novel"/><br/>
+                                                   rel="noreferrer" target="_blank"> here as a PDF. </a></p>
+          <a href={require("../resources/books/The_Alchemist.pdf")} rel="noreferrer" target="_blank"><img
+            src={require("../../public/images/bookCovers/theAlchemist.jpg")} alt="The Alchemist"/></a><br/>
           <p className="margin-para"> The Alchemist is a fable about following your dreams and paying attention to
             signs the universe sends you. Like most fables, The Alchemist has a theme or moral that describes a
             universal truth about life. </p>
-          <p className="margin-para">The Alchemist is an allegory, or a story that reveals a deeper, hidden meaning.
-            The author does not make his point directly. As you read, look for hidden meanings that are found
-            throughout the fable.</p>
-          <p>After you read the Prologue through page 11, answer the questions below. For all of your assignments,
-            be sure to use complete sentences and number your
-            answers. <br/>
+          <p className="margin-para">The story is an allegory, which means there is a deeper, hidden meaning to
+            discover.</p>
+          <p>After you read the Prologue through page 11, answer the questions below. For all of your work,
+            be sure to use complete sentences and number your answers. <br/>
             1. Who is Santiago? Describe what he is like. How is his life different than yours?<br/>
             2. What is strange or unusual about Santiago's dream?<br/>
             3. Recall a dream you have had. What makes his dream so memorable? Do you think dreams have
@@ -789,13 +796,16 @@ const LA8Component = ({ data }) => {
             5. What do Santiago's parents hope he will do for his career? What is Santiago's plan for himself?<br/>
             6. What does Santiago plan to do in Tarifa?<br/>
           </p>
-          <textarea className="textArea" onChange={onChangela8Listener1} value={la8Essay1}/>
+          <textarea className="textArea" placeholder="Write your responses here. Your work will automatically be saved to your Local Storage. 
+                    If you clear your cookies, your answers will be erased! Be sure to back up your work by saving it in another location. 
+                    You can (1) 'Select All' (select your answers inside this textbox by touching/clicking on it) and copy/paste it into Google Docs, a Word Doc or into an email and send it to your parent or teacher. 
+                    (2) On a PC, you can 'Select All' (ctrl a), click 'Print' (ctrl p) and then save as a PDF on your computer. Be sure to label each assignment with the Subject, Chapter Title, and Lesson Number. Also, number your responses."
+                    onChange={onChangela8Listener1} value={la8Essay1}/>
 
           <span className="days">LESSON 2 </span>
           <p> Read pp. 12 - 34 in <a href={require("../resources/books/The_Alchemist.pdf")} rel="noreferrer"
                                      target="_blank"> <i>The Alchemist. </i></a> Then, answer the following
-            questions
-            using complete sentences:<br/>
+            questions using complete sentences:<br/>
             1. Santiago stops in Tarifa to consult with an old woman about his recurring dream. What price does she
             charge him?<br/>
             2. Santiago meets an old man in the village. What is his name and why do you think that the author
@@ -804,11 +814,13 @@ const LA8Component = ({ data }) => {
             4. How does the old man convince Santiago of his power?<br/>
             5. Describe the concept of Personal Legends? Why does the old man
             believe few people ever achieve their Personal Legends?<br/>
-            6. Why does the old man tell Santiago to follow "omens"? Do you believe that omens exist? Why or
-            why not?<br/>
+            6. Why does the old man tell Santiago to follow "omens"? Do you believe that omens exist? Why or why
+            not?<br/>
             7. What does the old man take from the breastplate as a gift to Santiago?<br/>
             8. The old man tells Santiago the secret of happiness. What is it?<br/></p>
-          <textarea className="textArea" onChange={onChangela8Listener2} value={la8Essay2}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangela8Listener2} value={la8Essay2}/>
 
           <span className="days">LESSON 3 </span>
           <p>Read pp. 34 - 49 in <a href={require("../resources/books/The_Alchemist.pdf")} rel="noreferrer"
@@ -823,7 +835,9 @@ const LA8Component = ({ data }) => {
             5. What comfort do the black and white stones provide to Santiago?<br/>
             6. Describe the first interaction between Santiago and the crystal merchant.
           </p>
-          <textarea className="textArea" onChange={onChangela8Listener3} value={la8Essay3}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangela8Listener3} value={la8Essay3}/>
 
           <span className="days">LESSON 4 </span>
           <p>PART TWO</p>
@@ -837,7 +851,9 @@ const LA8Component = ({ data }) => {
             5. According to the Englishman, what is the Soul of the World?<br/>
             6. What is an alchemist?<br/>
           </p>
-          <textarea className="textArea" onChange={onChangela8Listener4} value={la8Essay4}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangela8Listener4} value={la8Essay4}/>
 
           <span className="days">LESSON 5 </span>
           <p>Watch the the video below about <strong>Figurative Language</strong> and then answer the questions that
@@ -879,9 +895,8 @@ const LA8Component = ({ data }) => {
             Example: Deafening silence. A known secret.</p>
 
           <p className="topBottom"><strong>Personification</strong> is a metaphor where human actions, feelings or
-            traits are
-            given to a non-human.
-            Examples: Books were her constant companions. That car's a beauty. An angry sky.</p>
+            traits are given to a non-human. Examples: Books were her constant companions. That car's a beauty. An angry
+            sky.</p>
 
           <p className="topBottom"><strong>Alliteration </strong>is the repetition of the same letter sound across the
             start
@@ -889,12 +904,14 @@ const LA8Component = ({ data }) => {
             line of text. The word comes from the Latin "littera," meaning "letter of the alphabet". Example: The
             slithering snake slid sideways silently. </p>
 
-          <p className="topBottom"><strong>Assonance </strong>is the repetition of vowel <i>sounds</i> within a group of
+          <p className="topBottom"><strong>Assonance </strong>is the repetition of vowel <i>sounds</i> within a group
+            of
             words. Example: Fleet feet
             sweep by sleeping geese. Dr. Suess often used alliteration and assonance in his books: Through three
             cheese trees three free fleas flew. While these fleas flew, freezy breeze blew. </p>
 
-          <p className="topBottom">Allusion is an <i>implied </i>reference to a person, event, or thing based on the
+          <p className="topBottom"><strong>Allusion </strong>is an <i>implied </i>reference to a person, event, or thing
+            based on the
             assumption that you
             know what the person is talking about. The author assumes the reader will understand the reference.
             Example: <i> You're acting like such a Scrooge! </i>This assumes the reader is familiar with the Scrooge
@@ -925,7 +942,9 @@ const LA8Component = ({ data }) => {
             </ol>
           </p>
 
-          <textarea className="textArea" onChange={onChangela8Listener5} value={la8Essay5}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangela8Listener5} value={la8Essay5}/>
 
           <span className="days">LESSON 6 </span>
           <p>Read pp. 82 - 106 in <a href={require("../resources/books/The_Alchemist.pdf")} rel="noreferrer"
@@ -939,7 +958,9 @@ const LA8Component = ({ data }) => {
             5. What is the language of the world and how does Santiago learn it?<br/>
             6. What agreement do Fatima and Santiago come to?<br/>
           </p>
-          <textarea className="textArea" onChange={onChangela8Listener6} value={la8Essay6}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangela8Listener6} value={la8Essay6}/>
 
           <span className="days">LESSON 7 </span>
           <p>Read pp. 108 - 126 in <a href={require("../resources/books/The_Alchemist.pdf")} rel="noreferrer"
@@ -954,7 +975,9 @@ const LA8Component = ({ data }) => {
             7. What was Santiago's reward for saving the oasis?<br/>
             8. Describe the "goodbyes" that are said between Fatima and Santiago as he is leaving.<br/>
           </p>
-          <textarea className="textArea" onChange={onChangela8Listener7} value={la8Essay7}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangela8Listener7} value={la8Essay7}/>
 
           <span className="days">LESSON 8 </span>
           <p>Read pp. 126 – 148 (to the asterisk) in <a href={require("../resources/books/The_Alchemist.pdf")}
@@ -970,7 +993,9 @@ const LA8Component = ({ data }) => {
             5. The alchemist set Santiago up for this test. Why would he do this?<br/>
             6. Who is at risk of death here? Explain.<br/>
           </p>
-          <textarea className="textArea" onChange={onChangela8Listener8} value={la8Essay8}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangela8Listener8} value={la8Essay8}/>
 
           <span className="days">LESSON 9 </span>
           <p>Watch the video <strong> What is Personification? </strong>Then complete the assignment below. </p>
@@ -997,10 +1022,13 @@ const LA8Component = ({ data }) => {
             journey. <br/>
             12. Was there one lesson more important than the other that he learned? Explain your answer. <br/>
           </p>
-          <textarea className="textArea" onChange={onChangela8Listener9} value={la8Essay9}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangela8Listener9} value={la8Essay9}/>
 
           <span className="days">LESSON 10 </span>
-          <p>After you watch the video below<strong> The Alchemist, a Summary & Analysis, </strong> answer the following
+          <p>After you watch the video below<strong> The Alchemist, a Summary & Analysis, </strong> answer the
+            following
             questions: </p>
           <Video videoUrl="https://www.youtube.com/embed/6Xi06683LPo"/>
           <p>1. At the start of his journey, when Santiago asks a gypsy woman to interpret his dream about a
@@ -1038,12 +1066,14 @@ const LA8Component = ({ data }) => {
             the one looking for him? What is the meaning of two dead hawks and the falcon in the oasis? At one point
             the alchemist explains to Santiago the secret of successfully turning metal into gold. How does this
             process compare to finding a Personal Legend? <br/>
-            7. At the very end of the journey, why did the alchemist leave Santiago alone to complete it? <br/>
+            7. At the very end, why did the alchemist leave Santiago alone to complete the journey? <br/>
             8. Earlier in the story, the alchemist told Santiago "when you possess great treasures within you, and
             try to tell others of them, seldom are you believed." At the end of the story, how did this simple
             lesson save Santiago's life? How did it lead him back to the treasure he was looking for? <br/></p>
 
-          <textarea className="textArea" onChange={onChangela8Listener10} value={la8Essay10}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangela8Listener10} value={la8Essay10}/>
 
           <span className="days">LESSON 11 </span>
           <p>After you watch the video below <strong> Top Quotes And Lessons,</strong> answer the questions below to
@@ -1074,7 +1104,9 @@ const LA8Component = ({ data }) => {
             other hand, are there some dreams which we are correct to fear? Do you believe some dreams should simply
             remain as dreams? Why/why not? <br/>
           </p>
-          <textarea className="textArea" onChange={onChangela8Listener11} value={la8Essay11}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangela8Listener11} value={la8Essay11}/>
 
           <span className="days">LESSON 12 </span>
           <p>Complete ONE of the projects listed below. <br/>
@@ -1085,7 +1117,9 @@ const LA8Component = ({ data }) => {
             3. Scrapbook (with explanatory notes) of Santiago's travels—feature pictures and items which Santiago
             accumulates as he learns about life. <br/>
           </p>
-          <textarea className="textArea" onChange={onChangela8Listener12} value={la8Essay12}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangela8Listener12} value={la8Essay12}/>
 
           <span className="days">LESSON 13 </span>
           <p>Produce a creative writing piece which captures some of the central ideas of the book. You can come up
@@ -1093,12 +1127,14 @@ const LA8Component = ({ data }) => {
           <ul className='assnList'>
             <li> Journal: A Day in the Life of a Shepherd</li>
             <li> Rewrite a portion of the story from a different perspective: Fatima, the Alchemist, the Fortune
-              Teller, the crystal merchant the sheep!
+              Teller, the crystal merchant or the sheep.
             </li>
             <li> Write Santiago's "How-To Find Your Treasure" Handbook, or "Personal Legends for Dummies"</li>
-            <li> Write a letter from Santiago to Fatima and a second one Fatima to Santiago.</li>
+            <li> Write a letter from Santiago to Fatima and a second one from Fatima to Santiago.</li>
           </ul>
-          <textarea className="textArea" onChange={onChangela8Listener13} value={la8Essay13}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangela8Listener13} value={la8Essay13}/>
 
           <span className="days">LESSON 14 </span>
           <h4>Funny Business with Khan Academy</h4>
@@ -1127,7 +1163,9 @@ const LA8Component = ({ data }) => {
               <li>Practice: Funny Business: reading drama; A Midsummer Night's Dream 8</li>
             </ul>
           </p>
-          <textarea className="textArea" onChange={onChangela8Listener14} value={la8Essay14}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangela8Listener14} value={la8Essay14}/>
 
           <span className="days">LESSON 15 </span>
           <p className="margin-para"> Complete all assignments listed below for this unit (readings, videos and
@@ -1186,10 +1224,11 @@ const LA8Component = ({ data }) => {
             novel is available at your local library, local bookstore and online for purchase. Until your
             copy arrives, the <a href={require("../resources/books/PiecingMeTogetherExcerpt.pdf")}
                                  rel="noreferrer" target="_blank"> reading for today's lesson is provided
-              here. </a></p> <br/>
+              here (thorugh chapter 6). </a></p> <br/>
           <a href={require("../resources/books/PiecingMeTogetherExcerpt.pdf")} rel="noreferrer"
              target="_blank">
-            <img src={require("../../public/images/bookCovers/piecingMeTogether.jpg")} alt="Piecing Me Together novel"/><br/>
+            <img src={require("../../public/images/bookCovers/piecingMeTogether.jpg")}
+                 alt="Piecing Me Together novel"/><br/>
           </a>
           <ol className="vocab">
             <li>What language is Jade learning to speak to find a way out?</li>
@@ -1349,11 +1388,10 @@ const LA8Component = ({ data }) => {
             <li>What does Frank give Jade?</li>
             <li>Where does Sam,Lee Lee and Jade go when Sam comes to their neighborhood for the first time?
             </li>
-            <li>Who is Kobe?</li>
-            <li>Who is Andrea?</li>
+            <li>Who are Kobe and Andrea?</li>
             <li>Who is Lee Lee's English teacher and what does she let them do?</li>
             <li>What is the Thanksgiving tradition Jade and her mom have and who joins them this year?</li>
-            <li>What does Jade,EJ,Mom and Lee Lee eat during Thanksgiving dinner?</li>
+            <li>What does Jade, EJ, Mom and Lee Lee eat during Thanksgiving dinner?</li>
             <li>What is discussed over Thanksgiving dinner?</li>
             <li>What do they do on Thanksgiving after dinner?</li>
             <li>What did Max do during the Woman to Woman outing to the Portland Art Museum that upsets
@@ -1461,13 +1499,12 @@ const LA8Component = ({ data }) => {
           <ol className="vocab">
             <li>Who convinces Jade to not quit Woman to Woman?</li>
             <li>What street was the McMennamins on that Jade and Maxine visited?</li>
-            <li>What did McMenamins on the 33rd use to be?</li>
             <li>What did the bar in McMenamins use to be?</li>
             <li>What does Maxine drink when at McMenamins?</li>
-            <li>How far away (minutes) is Vancouver from Jade's house?</li>
+            <li>How far away (in minutes) is Vancouver from Jade's house?</li>
             <li>What does EJ think praying is?</li>
-            <li>What is the name of the girl who was in the news (Vancouver) and what happened (what was
-              broken and by who)?
+            <li>What is the name of the girl who was in the news (Vancouver) and what happened? What was
+              broken and by who?
             </li>
             <li>Who sends Jade to Mrs Parker for 'being disrespectful'?</li>
             <li>Before Jade goes home after the Ms Weber incident in school,who does see?</li>
@@ -1493,14 +1530,12 @@ const LA8Component = ({ data }) => {
           <p>Read <strong>Chapters 49 - 54</strong> in the novel <i> Piecing Me Together. </i> Then complete the
             assignment below.</p>
           <ol className=" vocab">
-            <li>What is Sam's excuse for Hannah not getting in trouble(for being disrespectful to Ms Weber)?
-            </li>
+            <li>What is Sam's excuse for Hannah not getting in trouble(for being disrespectful to Ms Weber)?</li>
             <li>What were Jade and Lee Lee thankful for when they were talking on the phone about Natasha
               ramsey?
             </li>
             <li>Who used to joke with children about monstrous tales and made themselves a monster because
-              of
-              their dark skin?
+              of their dark skin?
             </li>
             <li>Where did Jade and Max walk during their outing together?</li>
             <li>What is Mr Flores eating when Jade talks to him about the study abroad program?</li>
@@ -1560,6 +1595,8 @@ const LA8Component = ({ data }) => {
             <li>What are some of the food served by the waiters in the auction event?</li>
             <li>What is Lee Lee's homework about?</li>
           </ol>
+          <h4>Vocabulary</h4>
+          For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
           <ol className="vocab">
             <li>pry</li>
             <li>intact</li>
@@ -1623,7 +1660,7 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener31} value={la8Essay31}/>
 
           <span className="days">LESSON 32 </span>
-          <p><i>Sometimes it feels like I leave home a whole person, <br/>
+          <p className="topBottom"><i>Sometimes it feels like I leave home a whole person, <br/>
             sent off with kisses from Mom, who is hanging her<br/>
             every hope on my future. By the time I get home I feel<br/>
             like my soul has been shattered into a million pieces. <br/>
@@ -1636,43 +1673,33 @@ const LA8Component = ({ data }) => {
             about being stitched together and coming undone, <br/>
             being stitched together and coming undone. I wonder<br/>
             if there's ever a way for a girl like me to feel whole. <br/>
-            —PIECING ME TOGETHER (p. 85)</i><br/></p>
+            —PIECING ME TOGETHER </i><br/></p>
           <h4>Deeper Thinking about <i>Piecing Me Together. </i></h4>
           <p>Answer the questions below to the best of your ability.</p>
           <ol className="vocab">
-            <li> When you read the passage above, is it something you can relate to or is it difficult
-              to
-              understand what
-              Jade is experiencing? Explain your thoughts.
+            <li> When you read the passage above, is it something you can relate to or is it difficult to understand
+              what Jade is experiencing? Explain your thoughts.
             </li>
             <li> How do we know that Jade is considered poor or "low income?</li>
-            <li> Does Jade take for granted how much things cost? Do other people in the story?
-              Explain how
-              you know
+            <li> Does Jade take for granted how much things cost? Do other people in the story? Explain how you know
               this.
             </li>
-            <li> How does Jade feel about Lee Lee taking her around to expensive restaurants? Does she
-              enjoy it?
+            <li> How does Jade feel about Lee Lee taking her around to expensive restaurants? Does she enjoy it?
               Explain.
             </li>
             <li> What feelings does Jade have about her economic situation and why?</li>
             <li>There are instances when Jade's lack of money causes her to keep secrets from people in
               her life. Why does she choose to do this? What might be the impact on her relationships when she's
-              unable to
-              be honest about her reality?
+              unable to be honest?
             </li>
-            <li>Are there certain people with whom Jade can be transparent about money? If she chose to
-              reveal the truth
-              of her situation with others, how might she share it? What might be the impact of her
-              honesty on those
+            <li>Are there certain people with whom Jade can be transparent about money? If she chose to reveal the truth
+              of her situation with others, how might she share it? What might be the impact of her honesty on those
               relationships?
             </li>
-            <li>Jade thinks, "Always the realist, I think. Always the poorest." What skills does Jade
-              have
-              that perhaps
+            <li>Jade thinks, "Always the realist, I think. Always the poorest." What skills does Jade have that perhaps
               her wealthy classmate Kennedy or her mentor Maxine may not have?
             </li>
-            <li>Have you ever hidden something about your family reality from others?</li>
+            <li>Have you ever hidden something about your family from others?</li>
           </ol>
           <textarea className="textArea" onChange={onChangela8Listener32} value={la8Essay32}/>
 
@@ -1715,7 +1742,7 @@ const LA8Component = ({ data }) => {
               about
               how she views her neighborhood?
             </li>
-            <li>What assumptions do people make about your neighborhood? What don't they know?</li>
+            <li>What assumptions do people make about your neighborhood?</li>
           </ol>
           <textarea className="textArea" onChange={onChangela8Listener33} value={la8Essay33}/>
 
@@ -1726,35 +1753,26 @@ const LA8Component = ({ data }) => {
             <li>When does Jade experience herself as "too black" or check her behavior so she won't be
               seen that way?
             </li>
-            <li> Why do Maxine's parents coach her not to be too black? What are they afraid of? What
-              might be the
+            <li> Why do Maxine's parents coach her not to be too black? What are they afraid of? What might be the
               consequences of being too black?
             </li>
-            <li> Are there times Jade might experience herself as "not black enough"? How might that
-              impact her
+            <li> Are there times Jade might experience herself as "not black enough"? How might that impact her
               relationships and her feelings about herself?
             </li>
-            <li> Do you agree that "white people can handle black sadness better than black anger"? Why?
-            </li>
-            <li> What part of yourself, what identity, do you sometimes or always repress to fit in?
-            </li>
-            <li> Why is it so hard for Sam and other white people in Jade's life (school staff) to see
-              the
-              ways in which
+            <li> Do you agree that "white people can handle black sadness better than black anger"? Why?</li>
+            <li> What part of yourself, what identity, do you sometimes or always repress to fit in?</li>
+            <li> Why is it so hard for Sam and other white people in Jade's life (school staff) to see the ways in which
               Jade experiences mistreatment as a black girl?
             </li>
-            <li> Describe Jade's experience at the mall store. What does it feel like for Jade to see
-              that
+            <li> Describe Jade's experience at the mall store. What does it feel like for Jade to see that
               she's being mistreated? Did you think it was because of her race?
             </li>
-            <li> Jade was sure it was because of race. What do you think it felt like for her to have
-              Sam
-              and the other shoppers ignore, deny, or explain it away?
+            <li> Jade was sure it was because of race. What do you think it felt like for her to have Sam and the other
+              shoppers ignore, deny, or explain it away?
             </li>
             <li> Do you think they should have behaved differently? How so?</li>
-            <li> What's the difference between the opportunities Jade is offered and the opportunities
-              Sam
-              is offered? How
+            <li> What's the difference between the opportunities Jade is offered and the opportunities Sam is offered?
+              How
               is race playing a role?
             </li>
           </ol>
@@ -1774,9 +1792,6 @@ const LA8Component = ({ data }) => {
             <li>What do you know about the #BlackLivesMatter movement? How does Jade, Sam, and Lee Lee's
               experience of the Natasha Ramsey incident connect with the meaning of that movement?
             </li>
-            <li>Thinking about intersectionality or simply about Jade's life, what are your responses to
-              the insistence of some whites that #AllLivesMatter?
-            </li>
             <li>More police interactions with black men and women end in police committing violence than
               with white men and women. How does that make you feel?
             </li>
@@ -1784,11 +1799,9 @@ const LA8Component = ({ data }) => {
               important to also understand that Clark was a slave owner?
             </li>
             <li>Why is Jade drawn to York's role in the story?</li>
-            <li>Jade asks what it would have been like if York had received land and freedom. She
-              wonders
-              what would have happened if he could have built something and passed on that strength and
-            </li>
-            <li>accomplishment to other generations. How might York's ancestors have been changed? What
+            <li>Jade asks what it would have been like if York had received land and freedom. She wonders
+              what would have happened if he could have built something and passed on that strength and accomplishment
+              to other generations. How might York's ancestors have been changed? What
               does this help you see about being the descendants of a slave?
             </li>
             <li>What do you think is the most important story from your ancestry?</li>
@@ -1799,33 +1812,22 @@ const LA8Component = ({ data }) => {
           <h4>Deeper Thinking continued… <i>Piecing Me Together: Racial Identity </i></h4>
           <p>Answer the questions below to the best of your ability.</p>
           <ol className="vocab">
-            <li>Jade is embarrassed that she has never thought about Thanksgiving as "celebrating that
-              our
-              nation was stolen from indigenous people." Can we be thankful on a national holiday while
-              at
-              the same time acknowledging the reality of what our nation did to native people?
-            </li>
             <li>Sports team logos are long-term symbols of our pride in our community's teams. When that
               logo is offensive to marginalized people, should it be changed? Explain your opinion.
             </li>
-            <li>Is there a reason the author includes Sacagawea and York's story within Jade's story?
-              Are
-              there any parallels in their stories?
+            <li>Is there a reason the author includes Sacagawea and York's story within Jade's story? Are
+              there any similarities or parallels in their stories?
             </li>
-            <li>Sacagawea and York provide such a potent metaphor for Jade's situation. Jade is selected
-              out of and removed from her community for special treatment, but what actual power does
-              she
+            <li>Sacagawea and York provide a metaphor for Jade's situation. Jade is selected
+              out of and removed from her community for special treatment, but what actual power does she
               have? Do you think anything is expected of her? Explain your answer.
             </li>
-            <li>When talking with Lee Lee about Sacagawea and York, Jade is "wondering how they must
-              have
-              felt having a form of freedom but no real power"? Does that statement also apply to Jade?
-              To
+            <li>When talking with Lee Lee about Sacagawea and York, Jade is "wondering how they must have
+              felt having a form of freedom but no real power"? Does that statement also apply to Jade? To
               you? Explain why or why not.
             </li>
             <li>Are there moments when you are learning about marginalized and/or oppressed people that
-              make you feel uncomfortable? What in particular do you notice stirs up the most
-              discomfort?
+              make you feel uncomfortable?
             </li>
           </ol>
           <textarea className="textArea" onChange={onChangela8Listener36} value={la8Essay36}/>
@@ -1835,28 +1837,22 @@ const LA8Component = ({ data }) => {
           <p>Answer the questions below to the best of your ability.</p>
           <ol className="vocab">
             <li>Do the Dairy Queen boys know Jade? Why do the boys feel they can rank girls and comment
+              on their bodies? How do their comments affect Jade's belief that she is both plus sized and beautiful?
             </li>
-            <li>on their bodies? How do their comments affect Jade's belief that she is both plus sized
-              and
-            </li>
-            <li>beautiful?</li>
             <li>Do girls comment on boys' bodies and looks? Is it different? If so, how?</li>
             <li>What do you wish Jade had said to those boys? Would you have said that?</li>
             <li>Why can Jade speak up for herself with E.J. and celebrate her beauty? How is it
-              different
-              from
+              different from her silence with the Dairy Queen boys?
             </li>
-            <li>her silence with the Dairy Queen boys?</li>
             <li>Do you publicly rank people by appearance? Have you been ranked?</li>
             <li>Where do Jade and the girls in her neighborhood "connect and are just the same"?</li>
             <li>How has Jade's scholarship and mentor situation put her on another path? How does this
               divide Jade from her peers? How does it create a divide within herself?
             </li>
-            <li>How are Maxine and Sabrina a "different type of black"? How does this split Jade in two?
+            <li>How are Maxine and Sabrina a "different type of black"? How does this make Jade feel?
             </li>
             <li>Do you tend to be aware of yourself more as just an individual, or as part of a group?
-              Why
-              do you think that is?
+              Why do you think that is?
             </li>
             <li>What did you think of the book and how did you like it?</li>
           </ol>
@@ -1884,50 +1880,50 @@ const LA8Component = ({ data }) => {
           <span className="days">LESSON 39 </span>
           <p>Watch the video <strong> Literary Genres and Subgenres. </strong></p>
           <Video videoUrl="https://www.youtube.com/embed/oarGRayak5o"/>
-        <p>  1. What are the four main literary genres? and subgenres.<br/>
-          2. Which genre and subgenre category do the examples below fall into? Write the genre and
-          subgenre for each:
-          <ol className="assnLetters">
-            <li>William Shakespeare's sad play Romeo and Juliet</li>
-            <li>a story about a girl who finds a door to a world where animals talk and everyone can
-              fly
-            </li>
-            <li>the story Barrack Obama wrote about his life</li>
-            <li>very old stories from Germany that about different topics important in life</li>
-            <li>a story about an alien from Mars who becomes
-              friends with a boy
-            </li>
-            <li>a poem about a mother's ideas about children</li>
-          </ol>
-          3. List 2 <i>subgenres</i>s for each <i>main</i> genre, a total of eight examples. You can use
-          examples from the video and also include others not mentioned. For example, <i>urban
-          fantasy</i> is a subgenre of fiction, which features supernatural creatures interacting with
-          humans in a contemporary city. <br/>
-          4. Which subgenre of books do you enjoy reading most? Which subgenre of movies are your
-          favorites? Explain. <br/>
-          5. Write definitions for the following terms:<br/>
-          <ul className="assnList">
-            <li> Literary</li>
-            <li> Subgenre</li>
-            <li> Literature</li>
-            <li> Genre</li>
-          </ul></p>
+          <p> 1. What are the four main literary genres? and subgenres.<br/>
+            2. Which genre and subgenre category do the examples below fall into? Write the genre and
+            subgenre for each:
+            <ol className="assnLetters">
+              <li>William Shakespeare's sad play Romeo and Juliet</li>
+              <li>a story about a girl who finds a door to a world where animals talk and everyone can
+                fly
+              </li>
+              <li>the story Barrack Obama wrote about his life</li>
+              <li>very old stories from Germany that about different topics important in life</li>
+              <li>a story about an alien from Mars who becomes
+                friends with a boy
+              </li>
+              <li>a poem about a mother's ideas about children</li>
+            </ol>
+            3. List 2 <i>subgenres</i>s for each <i>main</i> genre, a total of eight examples. You can use
+            examples from the video and also include others not mentioned. For example, <i>urban
+              fantasy</i> is a subgenre of fiction. This genre features supernatural creatures interacting with
+            humans in a contemporary city. <br/>
+            4. Which subgenre of books do you enjoy reading most? Which subgenre of movies are your
+            favorites? Explain. <br/>
+            5. Write definitions for the following terms:<br/>
+            <ul className="assnList">
+              <li> Literary</li>
+              <li> Subgenre</li>
+              <li> Literature</li>
+              <li> Genre</li>
+            </ul>
+          </p>
           <textarea className="textArea" onChange={onChangela8Listener39} value={la8Essay39}/>
 
           <span className="days">LESSON 40 </span>
           <p className="topBottom"> The next book you will read is the classic<a
             href={require("../resources/books/TheOldManandTheSea.pdf")} rel="noreferrer" target="_blank"> <i>The
-            Old Man and the Sea</i> </a> by Earnest Hemingway. It is linked <a
-            href={require("../resources/books/TheOldManandTheSea.pdf")} rel="noreferrer" target="_blank"> here as a
-            PDF. </a> If you prefer a hard copy, it is available at your local library, local bookstore, and can be
-            purchased online. </p> <p className="topBottom"> The Old Man and the Sea is a short novel about an
-          aging fisherman who goes on an epic battle to catch a giant marlin. </p>
-          <img src={require("../../public/images/bookCovers/oldmanandthesea.jpg")} alt="The Old Man and the Sea novel"/><br/>
+            Old Man and the Sea</i> </a> by Earnest Hemingway. <i>The Old Man and the Sea </i>is a short novel about an
+            aging fisherman who goes on an epic battle to catch a giant marlin. It is linked <a
+              href={require("../resources/books/TheOldManandTheSea.pdf")} rel="noreferrer" target="_blank"> here as a
+              PDF. <img src={require("../../public/images/bookCovers/oldmanandthesea.jpg")}
+                        alt="The Old Man and the Sea novel"/></a></p>
           <p className="topBottom">After you read <a href={require("../resources/books/TheOldManandTheSea.pdf")}
                                                      rel="noreferrer" target="_blank">Day 1 – Preparation, pages 2 -
             20,</a> answer the following questions:</p>
           <ol className="vocab">
-            <li>How is Santiago (the old man) described/characterized early in the story?</li>
+            <li>How is Santiago (the old man) described?</li>
             <li>How is luck important to Santiago and Manolin (the boy)?</li>
             <li>What is the relationship between Santiago and Manolin?</li>
             <li>How is Santiago separated from or different from the other fishermen?</li>
@@ -1935,8 +1931,9 @@ const LA8Component = ({ data }) => {
             <li>How are the nightly precautions Santiago takes with his fishing equipment both realistic and
               optimistic?
             </li>
-            <li>Identify some details of Santiago's house. How is Santiago's house described? What do these</li>
-            <li>details reveal about him?</li>
+            <li>Identify some details of Santiago's house. How is Santiago's house described? What do these details
+              reveal about him?
+            </li>
             <li>What do Santiago and Manolin pretend? Why do they do this?</li>
             <li>Describe Santiago and Manolin's differing reactions to the Yankee's defeat. What might this suggest
               about each character?
@@ -1954,7 +1951,7 @@ const LA8Component = ({ data }) => {
             <li>Why does Santiago call the sea "la mar"? What might this indicate about Santiago?</li>
             <li>What are Santiago's feelings for creatures of the sea including the birds?</li>
             <li>Describe ways in which Santiago demonstrates his fishing skill. Explain why this might be important
-              for Santiago to be a Code Hero.
+              for Santiago to be a kind of hero.
             </li>
             <li>What two signs indicate that there are fish nearby?</li>
             <li>What might the Portuguese Man-of-war symbolize?</li>
@@ -1977,13 +1974,15 @@ const LA8Component = ({ data }) => {
             <li>In what ways are the fish and Santiago and the fish alike?</li>
             <li>Describe Santiago's right and left hands:</li>
             <li>Why does Santiago say the fish is more noble than he? Explain:</li>
-            <li>Some critics see Santiago as a Christ symbol. What about Santiago's current physical</li>
-            <li>condition supports this idea?</li>
+            <li>Some critics see Santiago as a Christ symbol. What about Santiago's current physical condition supports
+              this idea?
+            </li>
             <li>In which direction does the fish turn? What does this tell Santiago?</li>
             <li>What does Santiago think of while the fish pulls? What do these thoughts have in common?</li>
-            <li>Identify two (2) things Santiago does to preserve his strength:</li>
-            <li>What does Santiago dream of? What is the dream symbolic of? What might Santiago's dreams</li>
-            <li>show about his present situation?</li>
+            <li>Identify two things Santiago does to preserve his strength:</li>
+            <li>What does Santiago dream of? What is the dream symbolic of? What might Santiago's dreamsshow about his
+              present situation?
+            </li>
           </ol>
           <textarea className="textArea" onChange={onChangela8Listener42} value={la8Essay42}/>
 
@@ -1993,14 +1992,13 @@ const LA8Component = ({ data }) => {
             questions:</p>
           <ol className="vocab">
             <li>How does Hemingway stress the endurance of Santiago? How do we know Santiago is working hard?</li>
-            <li>How is the fish's size described? Does the description make it easier or harder to visualize th
-              efish?
+            <li>How is the fish's size described? Does the description make it easier or harder to visualize the fish?
             </li>
             <li>What is the slave work?</li>
             <li>Hemingway surprises the reader by placing the first appearance of the sharks in the middle of a
               sentence in the middle of a paragraph. Why does Hemingway want to surprise the reader here?
             </li>
-            <li>Does Santiago despair? How might his reactions help define the behavior of Code Hero?</li>
+            <li>Does Santiago despair? How might his reactions help define the behavior of a hero?</li>
             <li>What is Santiago's question about sin? What is his answer?</li>
             <li>Distinguish the second shark attack from the first. What is different about the second attack?</li>
             <li>Why do the attacks come in this order?</li>
@@ -2022,83 +2020,80 @@ const LA8Component = ({ data }) => {
               </li>
               <li>What premonitions (predictions) of Santiago's death are there?</li>
               <li>Is the ending hopeful or discouraging? Explain.</li>
-            </ol></p>
-            <textarea className="textArea" onChange={onChangela8Listener44} value={la8Essay44}/>
+            </ol>
+          </p>
+          <textarea className="textArea" onChange={onChangela8Listener44} value={la8Essay44}/>
 
-            <span className="days">LESSON 45 </span>
-            <h4>Five Paragraph Essay</h4>
-            <p className="topBottom"> Many of Ernest Hemingway's greatest novels include the Code Hero. In The Old
-              Man and the Sea,
-              Santiago fits the profile of a code hero in many different ways.</p>
-            <p className="topBottom"> In a five paragraph essay, explain how Santiago fits the mold of
-              a Hemingway Code
-              Hero. Make sure you identify and explain 3 Code Hero characteristics (read below) and provide examples
-              explaining how Santiago fulfills these characteristics. Be sure to choose characteristics you
-              understand, can explain and can provide examples for from the novel.</p>
-            <p className="topBottom"><strong>HEMINGWAY CODE HERO:</strong> Hemingway's protagonists are usually figures
-              who
-              try to follow a
-              hyper-masculine moral code and make sense of the world through those beliefs. Hemingway himself
-              defined the Code Hero as "a man who lives correctly, following the ideals of honor, courage and
-              endurance in a world that is sometimes chaotic, often stressful, and always painful." This code
-              typically involves several traits for the Code Hero:<br/>
-              (1) Measuring himself against the difficulties life throws in his way, realizing that we will all lose
-              ultimately because we are mortals, but playing the game honestly and passionately in spite of that
-              knowledge <br/>
-              (2) Facing death with dignity, enduring physical and emotional pain in silence<br/>
-              (3) Never showing emotions<br/>
-              (4) Maintaining free-will and individualism, never weakly allowing commitment to a single woman or
-              social convention to prevent adventure, travel, and acts of bravery<br/>
-              (5) Being completely honest, keeping one's word or promise<br/>
-              (6) Being courageous and brave, daring to travel and have "beautiful adventures," as Hemingway would
-              phrase it<br/>
-              (7) Admitting the truth of Nada (Spanish, "nothing"), i.e., that no external source outside of oneself
-              can provide meaning or purpose. This existential awareness also involves facing death without hope of
-              an afterlife, which the Hemingway Code Hero considers more brave than "cowering" behind false
-              religious hopes. <br/>
-              (8) The Hemingway Code Hero typically has some sort of physical or psychological wound symbolizing his
-              tragic flaw or a weakness of his character, which must be overcome before he can prove his manhood (or
-              re-prove it, since the struggle to be honest and brave is a continual one). Also, many Hemingway Code
-              Heroes suffer from a fear of the dark, which represents the transience or meaninglessness of life in
-              the face of eventual and permanent death. <br/></p>
-            <p>Your five paragraph essay should follow the format below: </p>
-            <ul className="assnList">
-              <li>Write a hook to grab your reader's attention.</li>
-              <li>Your first paragraph should have a clear thesis statement (main idea of your essay). This
-                statement should convey the points or arguments you are going to
-                make.
-              </li>
-              <li>Paragraphs 2-4 should provide examples from the book that support your thesis statement. Each
-                paragraph should discuss a different point and use a different example. Using direct
-                quotes from the novel can be effective in proving your point.
-              </li>
-              <li>Your conclusion should restate your thesis in a different way. End with a thoughtful summary.</li>
-              <li>Each paragraph should be 3-5 sentences.</li>
-            </ul>
-            <p className="topBottom"><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
-                                        rel="noreferrer"
-                                        target="_blank">Click
-              here for a 5 Paragraph Essay outline </a>if you need help getting started.</p>
-            <textarea className="textArea" onChange={onChangela8Listener45} value={la8Essay45}/>
+          <span className="days">LESSON 45 </span>
+          <h4>Five Paragraph Essay</h4>
+          <p className="topBottom"> Many of Ernest Hemingway's greatest novels include the <i
+            style={{ color: "#6e7693" }}> Code Hero.</i> Hemingway
+            defined the <i>Code Hero</i> as "a man who lives correctly, following the ideals of honor, courage and
+            endurance in a world that is sometimes chaotic, often stressful, and always painful." (The <i>Code
+              Hero</i> is explained in detail below.) In The Old
+            Man and the Sea, Santiago fits the profile of this type of hero in many different ways. </p>
+          <p className="topBottom"><strong style={{ color: "#6e7693" }}> In a five paragraph essay, explain how Santiago
+            is
+            a Hemingway Code Hero. </strong></p>
+          <p>Identify and describe three Code Hero characteristics (read below) that Santiago has. Provide examples
+            from <i>The Old Man and the Sea </i> that show how he is an example of a "Hemingway Hero." </p>
+          <p className="topBottom"><strong>HEMINGWAY CODE HERO:</strong> Hemingway's protagonists are usually figures
+            who try to follow a hyper-masculine moral code and make sense of the world through those beliefs.<br/>
+            <strong> The Code Hero:</strong><br/>
+            (1) meaures himself against the difficulties life throws in his way, realizing that we will all lose
+            ultimately because we are mortals, but playing the game honestly and passionately in spite of that
+            knowledge <br/>
+            (2) faces death with dignity, enduring physical and emotional pain in silence<br/>
+            (3) never shows emotions<br/>
+            (4) maintains free-will and individualism, never weakly allowing commitment to a single woman or
+            social convention to prevent adventure, travel, and acts of bravery<br/>
+            (5) is completely honest, keeping one's word or promise<br/>
+            (6) is courageous and brave, daring to travel and have "beautiful adventures," as Hemingway would
+            phrase it<br/>
+            (7) admits the truth of Nada (Spanish, "nothing"), i.e., that no external source outside of oneself
+            can provide meaning or purpose. This existential awareness also involves facing death without hope of
+            an afterlife, which the Hemingway Code Hero considers more brave than "cowering" behind false
+            religious hopes. <br/>
+            (8) has some sort of physical or psychological wound symbolizing his
+            tragic flaw or a weakness of his character, which must be overcome before he can prove his manhood (or
+            re-prove it, since the struggle to be honest and brave is a continual one). <br/></p>
+          <p>Your five paragraph essay should follow the format below: </p>
+          <ul className="assnList">
+            <li>Write a hook to grab your reader's attention.</li>
+            <li>Your first paragraph should have a clear thesis statement (main idea of your essay). This
+              statement should convey the points or arguments you are going to make.
+            </li>
+            <li>Paragraphs 2-4 should provide examples from the book that support your thesis statement. Each
+              paragraph should discuss a different point and use a different example. Using direct
+              quotes from the novel can be effective in proving your point.
+            </li>
+            <li>Your conclusion should restate your thesis in a different way. End with a thoughtful summary.</li>
+            <li>Each paragraph should be 3-5 sentences.</li>
+          </ul>
+          <p className="topBottom">For help getting started, <a
+            href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")}
+            rel="noreferrer"
+            target="_blank">click here for a 5 Paragraph Essay outline. </a></p>
+          <textarea className="textArea" onChange={onChangela8Listener45} value={la8Essay45}/>
 
-            <span className="days">LESSON 46 </span>
-            <p className="topBottom">Create a new book cover design for <i> The Old Man and the Sea</i>. <br/>
-              A book cover often helps a person decide if he or she will buy a book. Think about the impression you
-              want the images, colors and text to create for viewers. Create a cover for <i> The Old Man and the
-                Sea </i> that gives viewers a glimpse of the content and mood of the book. You can use whatever
-              medium
-              you choose: collage, paper and markers, or <a href="https://www.canva.com/create/book-covers/"
-                                                            rel="noreferrer"
-                                                            target="_blank"> Canva's online book cover creation
-                tool. </a>You
-              choose how you want to design it.</p>
-            <img src={require("../../public/images/bookCovers/oldmanandtheseabookcover.jpg")}
-                 alt="The Old Man and the Sea creative book cover"/><br/>
-            <p className="topBottom"> Your cover (or jacket) should include:<br/>
+          <span className="days">LESSON 46 </span>
+          <p className="topBottom">Create a new book cover design for <i> The Old Man and the Sea</i>. <br/>
+            A book cover often helps a person decide if he or she will buy a book. Think about the impression you
+            want the images, colors and text to create for viewers. Create a cover for <i> The Old Man and the
+              Sea </i> that gives viewers a glimpse of the content and mood of the book. You can use whatever
+            medium
+            you choose: collage, water colors, Photoshop, paper and markers, or <a
+              href="https://www.canva.com/create/book-covers/"
+              rel="noreferrer"
+              target="_blank"> Canva's online book cover creation
+              tool (free). </a>You choose how you want to design it.</p>
+          <img src={require("../../public/images/bookCovers/oldmanandtheseabookcover.jpg")}
+               alt="The Old Man and the Sea creative book cover"/><br/>
+          <p className="topBottom"> Your cover (or jacket) should include:<br/>
             1. A clear title and the author's name. <br/>
-            2. A graphic design that reflects the book's theme. <br/>
+            2. A design that reflects the book's theme. <br/>
             3. A summary of the plot without giving away the ending. <br/>
-            4. A review (your opinion) about the book.
+            4. A review (your opinion) about the book. 3 and 4 can be written below in the textbox.
           </p>
           <textarea className="textArea" onChange={onChangela8Listener46} value={la8Essay46}/>
 
@@ -2110,17 +2105,18 @@ const LA8Component = ({ data }) => {
           <ol className="vocab">
             <li>Are there any aspects of the novel you would have liked to go differently? For example, a version in
               which Manolin went fishing with him or one in which Santiago brought the marlin back in perfect
-              condition? Explain why you like to see this change. If you wouldn't change anything about the novel,
+              condition? Explain why you'd like to see this change. If you wouldn't change anything about the novel,
               explain why.
             </li>
             <li>Describe the important aspects of Santiago's relationship with Manolin.</li>
-            <li>Santiago says, "A man can be destroyed but not defeated." Do you agree? Explain.</li>
+            <li>Santiago says, "A man can be destroyed but not defeated." What does this mean? Do you agree? Explain.
+            </li>
             <li>What does the old man symbolize and what does the sea symbolize?</li>
             <li><i>The Old Man and the Sea</i> is often described as the story of man. Do you agree? Why or why not?
             </li>
-            <li>What did you think of the novel? Did you like it? Hate it? Explain why.</li>
+            <li>What did you think of the novel? Did you like it, love it, hate it? Explain why.</li>
             <li>The Old Man and the Sea won the 1953 Pulitzer Prize in Literature and in 1954, Hemingway won the
-              Nobel Prize in Literature. Do you believe these awards were deserved? Explain why or why not.
+              Nobel Prize in Literature. Do you believe these awards were deserved by Hemingway? Explain why or why not.
             </li>
           </ol>
           <textarea className="textArea" onChange={onChangela8Listener47} value={la8Essay47}/>
@@ -2208,7 +2204,7 @@ const LA8Component = ({ data }) => {
             Death. </i> </strong> Then, read the poem and answer the questions below. </p>
           <Video videoUrl="https://www.youtube.com/embed/5GOfjV6u0Co"/>
           <Video videoUrl="https://www.youtube.com/embed/4eGFMw3U1ts"/>
-          <p><i> Because I Could Not Stop for Death</i> by Emily Dickinson.
+          <p><i style={{ color: "#6e7693", fontWeight: "bold" }} > Because I Could Not Stop for Death</i> by Emily Dickinson.
             <blockquote
               cite="https://www.poetryfoundation.org/poems/47652/because-i-could-not-stop-for-death-479">Because I
               could not stop for Death – <br/>
@@ -2234,15 +2230,17 @@ const LA8Component = ({ data }) => {
               Since then – 'tis Centuries – and yet<br/>
               Feels shorter than the Day<br/>
               I first surmised the Horses' Heads<br/>
-              Were toward Eternity –<br/><br/>
-              1. Understanding poetry begins with visualizing the central
-              images in the poem. Describe the imagery in the poem? What do you see, taste, smell, hear, and
-              feel? <br/>
-              2. What is the mood of the poem? (How does it make you feel?) <br/>
-              3. What is the message of the poem? All of the above questions point to the message the poet
-              wants to convey. <br/>
-              4. Were you intrigued by the title of the piece? <br/>
-              5. Did the poem match your expectation after reading the title? Explain. <br/></blockquote>
+              Were toward Eternity –<br/></blockquote>
+          </p>
+          <p className="topBottom"><strong>QUESTIONS</strong><br/>
+            1. Understanding poetry begins with visualizing the central
+            images in the poem. Describe the imagery in the poem. What do you see, taste, smell, hear, and
+            feel? <br/>
+            2. What is the mood of the poem? (How does it make you feel?) <br/>
+            3. What is the message of the poem? All of the above questions point to the message the poet
+            wants to convey. <br/>
+            4. Were you intrigued by the title of the piece? <br/>
+            5. Did the poem match your expectation after reading the title? Explain. <br/>
           </p>
           <textarea className="textArea" onChange={onChangela8Listener53} value={la8Essay53}/>
 
@@ -2254,16 +2252,14 @@ const LA8Component = ({ data }) => {
             href={require("../resources/books/TheBookThiefChapter1.pdf")} rel="noreferrer" target="_blank"><i>The
             Book
             Thief.</i></a> It is available at your local library, local bookstore, or can be purchased online.
-            Until
-            you get a copy, it is posted above
-            as a PDF. You can zoom in or out by using the + - icons. </p>
+            Until you get a copy, the first chapter is posted here as a PDF.</p>
           <Video videoUrl="https://www.youtube.com/embed/soP7d3e212k "/>
           <p> Read <a
             href={require("../resources/books/TheBookThiefChapter1.pdf")} rel="noreferrer" target="_blank"> the
-            Prologue and Continuation of Prologue: Death and Chocolate, Beside the Railway Line, The
-            Eclipse, and The Flag.</a> Then, complete the questions below in the textbox. You may want to read
-            through
-            the questions before doing the reading so you know what to look for. <br/>
+            <i style={{ color: "#6e7693" }}> Prologue and Continuation of Prologue: Death and Chocolate, Beside the
+              Railway Line, The
+              Eclipse, and The Flag.</i></a> Then, complete the questions below. You may want to read
+            through the questions before reading so you know what to look for. <br/>
             Continuation of Prologue: A Mountain Range of Rubble<br/>
             Death and Chocolate<br/>
             1. From what point of view is the novel told? Who is the narrator of the story? How do you know?<br/>
@@ -2272,39 +2268,37 @@ const LA8Component = ({ data }) => {
             3. What theory does the narrator suggest about colors? Purpose? Why does the narrator need
             distractions?<br/>
             4. What are the most important parts of the story according to the narrator?<br/>
-            5. Who do you think is <i> The Book Thief</i>? Has he or she already been named? Explain your
-            answer.<br/>
-            6. Comment on the following quote: "Here is a small fact. You are going to die." How<br/>
-            7. does this impact the story's tone? What was your reaction to it?<br/>
-            8. What word choices does the narrator (author) use to try to convince the reader that he is being
+            5. Who do you think is the book thief? Has he or she already been named?<br/>
+            6. Comment on the following quote: "Here is a small fact. You are going to die." How does this impact the
+            story's tone? What was your reaction to this line when you read it?<br/>
+            7. What word choices does the narrator use to try to convince the reader that he is being
             cheerful about the subject of death? Is the narrator able to fully present death as a cheerful topic?
             Why or why not? <br/>
-            9. Death, the narrator, finds his duties painful. Cite textual evidence showing why Death<br/>
-            feels this way.<br/>
+            8. Death, the narrator, finds his duties painful. Cite textual evidence showing why Death  feels this way.<br/>
             <i>Beside the Railway Line</i><br/>
-            10. What purpose does this section of the novel serve?<br/>
-            11. What impression does Death give himself? Do you feel you can trust Death as the narrator? Why or
+            9. What purpose does this section of the novel serve?<br/>
+            10. What impression do you have of Death so far? Do you feel you can trust Death as the narrator? Why or
             why not?<br/>
-            12. Whose death does Death describe first in the novel?<br/>
+            11. Whose death does Death describe first in the novel?<br/>
             <i> The Eclipse </i> <br/>
-            13. In addition to describing the pilot's death, what does Death describe for the reader?<br/>
-            14. What does an eclipse frequently symbolize for Death?<br/>
+            12. In addition to describing the pilot's death, what does Death describe for the reader?<br/>
+            13. What does an eclipse frequently symbolize for Death?<br/>
             <i> The Flag </i><br/>
-            15. Infer (guess from the information) what has happened just prior to Death's arrival based on the
+            14. Infer (guess from the information) what has happened just prior to Death's arrival based on the
             description of the setting.<br/>
-            16. What image does Death paint for the reader when he sees <i> The Book Thief</i> the third time? How
+            15. What image does Death paint for the reader when he sees <i> The Book Thief</i> the third time? How
             does Death "feel" about the image of Liesel? Why does Death not comfort the child? What does this
             imply about Death's ultimate power?<br/>
-            17. Why does Death take the item from the garbage truck?<br/>
-            18. Identify the three colors associated with <i> The Book Thief</i>. What clue to the novel's
+            16. Why does Death take the item from the garbage truck?<br/>
+            17. Identify the three colors associated with <i> The Book Thief</i>. What clue to the novel's
             historical context does the reader first get from "the colors"? For a hint, look up the German Nazi
             flag during WWII. <br/>
-            19. Death says, "First the colours. Then the humans. That's how I usually see things." Death describes
+            18. Death says, "First the colours. Then the humans. That's how I usually see things." Death describes
             the way he sees colors: "A single hour can consist of thousands of different colours. Waxy yellows,
             cold-spat blues. Murky darknesses." Why are colors important to Death?<br/>
-            20. Choose a significant or memorable day from your life. Imagine colors that reflect the events, your
+            19. Choose a significant or memorable day from your life. Imagine colors that reflect the events, your
             feelings and emotions. Describe the colors you would use to describe these things? <br/>
-            21. What colors do you associate with:<br/>
+            20. What colors do you associate with:<br/>
             <ul className="assnList2">
               <li>death</li>
               <li>peace</li>
@@ -2328,16 +2322,15 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener54} value={la8Essay54}/>
 
           <span className="days">LESSON 55 </span>
-          <p className="topBottom"><strong> Personification: </strong> Giving human-­‐like characteristics to
-            non-­‐living
+          <p className="topBottom"><strong> Personification: </strong> Giving human-like characteristics to
+            non-living
             things. <br/>
             <strong> Simile: </strong> Comparing two things using "like" or "as". <br/>
             <strong> Metaphor: </strong> Comparing two things not using "like" or "as". <br/></p>
-          <p>The author uses figurative language throughout the novel. Below are quotes from <i> The Book
+          <p className="topBottom">The author uses figurative language throughout the novel. Below are quotes from <i> The Book
             Thief</i>. For each quote, state which literary device (personification, simile, or metaphor) the
-            author used and explain how you know this. For example, "The bodies were stuck there, like driftwood
-            after the<br/>
-            flood." This is a simile; "like" was used to compare the bodies to driftwood. <br/>
+            author used and explain how you know this. </p>
+          <p>For example, "The bodies were stuck there, like driftwood after the flood." This is a simile; "like" was used to compare the bodies to driftwood. <br/>
 
             Prologue: <br/>
             1. "What will the sky be saying?" Personification, simile, or metaphor? Explain why. <br/>
@@ -2349,19 +2342,19 @@ const LA8Component = ({ data }) => {
             6. "The children-­‐voices laughing, and the smiles like salt, but decaying fast." <br/>
             7. "The streets were ruptured veins."<br/></p>
           <p className="topBottom"> There are many examples of personification in <i> The Book Thief</i>, but the
-            most important example
-            is personifying death. "Death" is the narrator and has human characteristics that allow readers to
+            most important example is the personification of Death. "Death" is the narrator and has human characteristics that allow readers to
             "connect" with him. At one point in the book, Death expresses sadness "taking" children who are so
             young. He says, 'Even Death has a heart'. While death does not really have a heart, the character of
             Death certainly does.</p>
-          <p> After you finish the assignment above, take a few moments to picture in your head what Death looks
-            like. <br/>
+          <p> After you finish the assignment above, close your eyes and imagine in your mind what Death
+             looks like. <br/>
             1. Write a brief description of Death's physical appearance. How tall is he? What color are his eyes,
             skin and hair? How does he dress? <br/>
-            2. Next, either sketch a picture on paper or create Death's character online using <a
-              href="https://charactercreator.org/#" rel="noreferrer" target="_blank"> a character
+            2. Create an image that depicts how you see Death's character using any medium you like.
+            You can sketch an image on paper, use watercolors, markers, Photoshop, or <a
+              href="https://charactercreator.org/#" rel="noreferrer" target="_blank"> an online character
               creator.</a> When
-            you finish, take a screen shot and send this to your teacher/parent.<br/>
+            you finish, take a screen shot and send this to your teacher/parent with the written part of your assignment.<br/>
           </p>
           <textarea className="textArea" onChange={onChangela8Listener55} value={la8Essay55}/>
 
@@ -2369,7 +2362,7 @@ const LA8Component = ({ data }) => {
           <p>After you read Part One: <i>The Grave Digger's Handbook and Arrival on Himmel Street in The Book
             Thief, </i>answer the questions below. Be sure to use complete sentences and number your
             responses. <br/>
-            1. Death opens Part 1 with a flashback, what is it? <br/>
+            1. Death begins Part 1 with a flashback, what is it? <br/>
             2. Who are Liesel and Werner Meminger? Describe the setting. How old is Liesel?<br/>
             3. What happens when Liesel wakes form her dream about the Fuher?<br/>
             4. What observation does Death make for the reader?<br/>
@@ -2401,13 +2394,13 @@ const LA8Component = ({ data }) => {
             8. What makes Liesel's adjustment to life with the Hubermanns" particularly difficult? How does Papa
             help her?<br/>
             9. Why is The Gravedigger's Handbook so important to Liesel?<br/>
-            10. Identify the Hubermanns" children.<br/>
+            10. Identify the Hubermanns' children.<br/>
             11. What makes school particularly difficult for Liesel?<br/>
             12. After Liesel's 10th birthday, what is she enrolled in?<br/>
             13. Describe Rosa's feelings and behavior with regard to her laundry clients. Which client does Rosa
             detest the most? What happens when she sends Liesel to the client's door? Why does Rosa tell Liesel
             she has to do other people's laundry?<br/>
-            14. Briefly decribe Frau Holtzapfel. What is Frau Holtzapfel known for at the Hubermanns" home? Why
+            14. Briefly decribe Frau Holtzapfel. What is Frau Holtzapfel known for at the Hubermanns' home? Why
             and how does it affect Liesel?<br/>
           </p>
           <textarea className="textArea" onChange={onChangela8Listener57} value={la8Essay57}/>
@@ -2447,7 +2440,7 @@ const LA8Component = ({ data }) => {
           <p> Read <i> The Other Side of Sandpaper and The Smell of Friendship.</i><br/>
             1. What important number does Death provide in regard to the Germans support of Hitler? How does it
             relate to Hans?<br/>
-            2. What even led to Liesel's bed wetting? How is it a defining moment in her life?<br/>
+            2. What event led to Liesel's bed wetting? How is it a defining moment in her life?<br/>
             3. Why is the sandpaper useful?<br/>
             The Smell of Friendship<br/>
             4. Where does Papa take Liesel for reading lessons? How does he get Mama to agree?<br/>
@@ -2488,13 +2481,13 @@ const LA8Component = ({ data }) => {
             2. In a work of literature, there are various methods of arranging the details of the story such as
             cause and effect. How does Zusak use this method to revel future events in the story?<br/>
             3. What is special about the 2nd book Liesel steals? What does it signify?<br/>
-            The Joy of Cigarettes<br/>
+            <i> The Joy of Cigarettes</i><br/>
             4. Despite her hardship, several things have brought Liesel happiness; what are they?<br/>
             5. The last line in The Gravedigger's Handbook reads "We wish you every success with your career in
             the funerary arts and hope this book has helped in some way." How does this relate to Liesel and
             Papa?<br/>
             6. Why does Death like Papa?<br/>
-            7. What gifts does Liesel receive for Christmas from the Hubermanns"? What question does the receipt
+            7. What gifts does Liesel receive for Christmas from the Hubermanns'? What question does the receipt
             of these gifts inspire Liesel to ask? Infer about Liesel's relationship with the Hubermanns based on
             her question.<br/>
           </p>
@@ -2509,7 +2502,7 @@ const LA8Component = ({ data }) => {
             3. To whom does Liesel write her letters? Why does she have a foreboding sense with regard to 1 of the
             letters?<br/>
             4. What questions/concerns does Liesel now have regarding her mother?<br/>
-            Dead Letters<br/>
+            <i>  Dead Letters</i><br/>
             5. Briefly explain why the title of this section is appropriate.<br/>
             6. Why does Mama reprimand PaPa on Liesel's birthday?<br/>
             7. Explain why Liesel receives a severe beating from Mama. <br/>
@@ -2526,7 +2519,7 @@ const LA8Component = ({ data }) => {
             2. What do the Hubermanns search frantically for to display? Why couldn"t they find it and what can
             you infer about that?<br/>
             3. Summarize the unrest between Hans and Hans Junior. What does Death foreshadow for Hans Junior?<br/>
-            100 Percent Pure German Sweat<br/>
+            <i> 100 Percent Pure German Sweat</i><br/>
             4. Why does Death include Tommy Mueller's inability to hear in this chapter?<br/>
             5. How does Liesel feel about the book burning? Why do you believe Liesel is compelled to see the fire
             lit?<br/>
@@ -2541,7 +2534,7 @@ const LA8Component = ({ data }) => {
             1. What statement does Liesel make about Hitler as a result of the new found opinion she has made
             throughout the evening? How does Papa respond and why? How do you think Liesel feels about Papa's
             reaction?<br/>
-            Book of Fire<br/>
+            <i>Book of Fire</i><br/>
             2. What does Liesel notice as the workmen are cleaning up the fire remnants? How does she describe it?
             Significance? How does her choice cause her fear?<br/>
             <strong>Vocabulary</strong><br/>
@@ -2571,7 +2564,7 @@ const LA8Component = ({ data }) => {
             The Way Home and The Mayor's Library</i><br/>
             1. Why is Liesel afraid when Hans realizes she stole another book? What happens to Papa when he
             discovers the book she has stolen? What factors are involved?<br/>
-            The Mayors Library" <br/>
+            <i>The Mayor's Library</i> <br/>
             2. Who does Liesel try to avoid on her laundry rounds? Why does she do this? Why can she no longer avoid
             it?<br/>
             3. Liesel knows the Mayor's wife saw her take the book from the bonfire. How does Liesel know this?<br/>
@@ -2585,7 +2578,7 @@ const LA8Component = ({ data }) => {
             1. The setting changes in this chapter? Describe the setting? Why did the setting change?<br/>
             2. Describe what Max is like. Who is he?<br/>
             3. What items does the visitor bring Max, and what can you infer from these items?<br/>
-            The Attributes of Summer<br/>
+            <i>The Attributes of Summer</i><br/>
             4. How is Liesel's summer divided? <br/>
             5. Describe the protagonist, theme, and plot of Liesel's book. Why might the Nazi Party want to burn
             this book?<br/>
@@ -2604,7 +2597,7 @@ const LA8Component = ({ data }) => {
             1. What treasure does Rudy and Liesel discover on the laundry rounds? What do they do with it?<br/>
             2. What does this episode demonstrate about Frau Diller?<br/>
           </p>
-          The Struggler, Continued<br/>
+          <i> The Struggler, Continued</i><br/>
           3. What does Death's title and introduction to this section indicate about the division of the
           plot?<br/>
           4. What does Max Vandenburg read?<br/>
@@ -2623,7 +2616,7 @@ const LA8Component = ({ data }) => {
             offers?<br/>
             5. How is the tone in the final passage of the chapter contradicted by the example of foreshadowing in
             the last line of the chapter?<br/>
-            The Struggler, Continued<br/>
+            <i>The Struggler, Continued</i><br/>
             6. How is the number 13 important in this chapter?<br/>
             8. What internal conflict does Max grapples with.<br/>
             <strong>Vocabulary</strong><br/>
@@ -2659,7 +2652,7 @@ const LA8Component = ({ data }) => {
             theme for the novel? Why or why not?<br/>
             4. Briefly identify Erik Vandenburg. How does Hans get his accordion?<br/>
             5. Summarize Han's political conflict. Name his major mistake.<br/>
-            A Good Girl<br/>
+            <i>A Good Girl</i><br/>
             6. Explain the significance of Nov. 1940?<br/>
             7. When Max arrives, how does Liesel respond?<br/>
             8. What do you believe is the "wild card" Death refers to?<br/>
@@ -2681,7 +2674,7 @@ const LA8Component = ({ data }) => {
             5. What is written on the piece of paper from his mother? Why is this important?<br/>
             6. Why do you think Max is concerned about Liesel?<br/>
             7. Who speaks first at the end of the chapter?<br/>
-            The Wrath of Rosa<br/>
+            <i>The Wrath of Rosa</i><br/>
             8. What startles Liesel from her sleep?<br/>
             9. Why does Liesel finds Rosa's reaction to Max unusual?<br/>
             <strong>Vocabulary</strong><br/>
@@ -2701,7 +2694,7 @@ const LA8Component = ({ data }) => {
             3. What story does Hans offer to Liesel?<br/>
             4. Of what promise does Hans remind Liesel, and if she breaks the promise what will happen?<br/>
             5. How does Rosa uncharacteristically greet Liesel after her talk with Hans?<br/>
-            The Sleeper<br/>
+            <i>The Sleeper</i><br/>
             6. Why does Max sleep the first 3 days with the Hubermanns? What does he say in his sleep?<br/>
           </p>
           <textarea className="textArea" onChange={onChangela8Listener73} value={la8Essay73}/>
@@ -2709,7 +2702,7 @@ const LA8Component = ({ data }) => {
           <span className="days">LESSON 74 </span>
           <p> Read <i> The Swapping of Nightmares and Pages from the Basement </i><br/>
             1. Why does Max decide he should hide in the basement? Behind what is he hidden?<br/>
-            2. Why does Max want to get up and walk out of the Hubermanns" house? What does he do, and why?<br/>
+            2. Why does Max want to get up and walk out of the Hubermanns' house? What does he do, and why?<br/>
             3. What does Liesel notice in the basement? What does want to ask Max?<br/>
             4. What do Mama and Papa argue about since Max's arrival?<br/>
             5. According to Death, what does Liesel learn about Rosa?<br/>
@@ -2717,7 +2710,7 @@ const LA8Component = ({ data }) => {
             7. What comparison does Death make to Liesel reading in the Mayor's library to Max living in the
             basement?<br/>
             8. How does Hans and Liesel's reading save Max's life?<br/>
-            9. What change do the Hubermanns" make in their routine in order to preserve Max's health and
+            9. What change do the Hubermanns make in their routine in order to preserve Max's health and
             safety?<br/>
             10. How does Max characterize or think of himself? Do you agree? Explain.<br/>
             11. What prompts Liesel to tell Papa she does not need him to stay with her when she has a nightmare?
@@ -2725,7 +2718,7 @@ const LA8Component = ({ data }) => {
             12. What gift does Liesel bring Max daily? <br/>
             13. What gift does Liesel receive on her 12th birthday? How does she include Max in her special
             day?<br/>
-            Pages from the Basement<br/>
+            <i> Pages from the Basement</i><br/>
             14. Why can't Liesel go into the basement?<br/>
             15. Comment on the importance of the book Max gives Liesel. How does he give it her and what is her
             reaction?<br/>
@@ -2738,7 +2731,7 @@ const LA8Component = ({ data }) => {
             1. What does Death announce about Rudy? Why would it be characterized as "small?<br/>
             2. Explain Death's foreshadowing of Rudy's death, including Death's feelings.<br/>
 
-            The Gamblers (A Seven Sided Die)<br/>
+            <i>The Gamblers (A Seven Sided Die)</i><br/>
             3. Analyze the symbolism of the seven sided die. List the 7 sides.<br/>
             4. As Death mentions his own interests, how does this explanation support the idea that the POV
             matters
@@ -2754,8 +2747,7 @@ const LA8Component = ({ data }) => {
             response? Symbolism?<br/>
             12. Who is the first person to enter the ring? Symbolism?<br/>
             13. How does Death relate Max's dream to the well recognized joke "There's a Jew and a German standing
-            in
-            a basement, right?" Do you find the reference powerful? Why?<br/>
+            in a basement, right?" Do you find the reference powerful? Why?<br/>
             14. Why is the seven sided die an appropriate symbol for the story?<br/>
             15. What does the Mayor's wife give Liesel? How does Liesel respond?<br/>
             16. What form does Liesel's subconscious take when she is verbally attacking the Mayor's wife?<br/>
@@ -2766,13 +2758,11 @@ const LA8Component = ({ data }) => {
           <p> Read <i> Rudy's Youth and The Losers</i><br/>
             1. Rudy's 3 problems are :<br/>
             2. The story flashes forward two years, what does Liesel long to do? What has she come to understand
-            about
-            her and Rudy's experience at the Hitler Youth Camp?<br/>
-            The Losers<br/>
+            about her and Rudy's experience at the Hitler Youth Camp?<br/>
+            <i>The Losers</i><br/>
             3. Briefly identify Viktor Chemmel. Compare him to Arthur Berg as a leader. What parallels might you
-            draw
-            between their leadership style and leaders from this historical time period?<br/>
-            4. On what terms to Viktor and Rudy separate?<br/><br/>
+            draw between their leadership style and leaders from this historical time period?<br/>
+            4. On what terms do Viktor and Rudy separate?<br/><br/>
             <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. preemptively <br/>
@@ -2786,7 +2776,7 @@ const LA8Component = ({ data }) => {
           <p> Read <i> Sketches and The Whistler and the Shoes </i><br/>
             1. Max intends to write Liesel an autobiography but what changes? What inspires him?<br/>
             2. What happens when Liesel sneaks a peek of Max's sketches?<br/><br/>
-            The Whistler and the Shoes<br/>
+            <i> The Whistler and the Shoes</i><br/>
             3. Explain the significance of "I need a win, Liesel. Honestly."?<br/>
             4. How does Liesel try to improve Rudy's spirits? Outcome?<br/>
             5. As Liesel and Rudy are running away, what has been left behind? What does Rudy do?<br/>
@@ -2802,7 +2792,7 @@ const LA8Component = ({ data }) => {
             3. Why is Rudy behaving so dangerously? <br/>
             4. What is the result?<br/>
             The Floating Book (Part II)<br/>
-            3. Explain Rudy's victory.<br/><br/>
+            5. Explain Rudy's victory.<br/><br/>
             <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. envisaged <br/>
@@ -2821,7 +2811,7 @@ const LA8Component = ({ data }) => {
             1. What frustrates Death about his appearance? Why is he overwhelmed? Why does he refer to the years
             79 and 1346? What is his opinion of war?<br/>
             2. How does Death find relief from the strain of his job?<br/><br/>
-            The Snowman<br/>
+            <i> The Snowman</i><br/>
             3. Explain the importance of what Liesel brings Max on Christmas Eve.<br/>
             4. What is contradictory about Liesel considering this the best Christmas ever? <br/>
             5. Explain the situation in February about Max. Who takes charge? Why does Liesel feel guilty?<br/>
@@ -2840,16 +2830,16 @@ const LA8Component = ({ data }) => {
             Fresh Air, and Old Nightmare, and What to DO with a Jewish Corpse<br/>
             4. What desire does Liesel express to Rudy? How does he respond and what is the outcome of the
             venture?<br/>
-            What does Death suggest about the open window?<br/>
-            5. What are Hans and Rosa worried about if Max dies? How does Liesel put an end to that
+            5. What does Death suggest about the open window?<br/>
+            6. What are Hans and Rosa worried about if Max dies? How does Liesel put an end to that
             conversation?<br/>
-            6. Interpret the dream Liesel has of Max replacing her brother?<br/>
-            7. Why does Mama go to Liesel's class?<br/>
-            8. What fear does Max admit to Liesel? Why might he fear such a thing. How does Liesel ease his
+            7. Interpret the dream Liesel has of Max replacing her brother?<br/>
+            8. Why does Mama go to Liesel's class?<br/>
+            9. What fear does Max admit to Liesel? Why might he fear such a thing. How does Liesel ease his
             fear?<br/>
-            9. As Max recovers, Liesel's world is returning to normal; how is that contrasting with the outside
+            10. As Max recovers, Liesel's world is returning to normal; how is that contrasting with the outside
             world?<br/>
-            10. Death states "Yes, the boss was at my shoulder. Get it done. Get it done." Who is the boss?
+            11. Death states "Yes, the boss was at my shoulder. Get it done. Get it done." Who is the boss?
             Explain.<br/>
           </p>
           <textarea className="textArea" onChange={onChangela8Listener80} value={la8Essay80}/>
@@ -2863,8 +2853,7 @@ const LA8Component = ({ data }) => {
             3. Who is the "visitor," and what could this mean for the family?<br/>
             4. What is the purpose of Liesel's stunt during the soccer game? <br/>
             5. Explain the out come of the episode. In what condition do the Hubermanns find Max? What do you
-            believe
-            Max was going to do with the scissors?<br/><br/>
+            believe Max was going to do with the scissors?<br/><br/>
             <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. surly <br/>
@@ -2878,10 +2867,9 @@ const LA8Component = ({ data }) => {
           <p> Read <i> The Schmunzeler and Death's Diary: The Parisians </i><br/>
             1. Who is the second visitor?<br/>
             2. How does Liesel classify her condition after the day's events?<br/>
-            Death's Diary: The Parisians<br/>
+            <i> Death's Diary: The Parisians</i><br/>
             3. Death claims "the sky was the color of Jews." What color do you suppose that would be? Why might
-            Death
-            classify the sky this way?<br/>
+            Death classify the sky this way?<br/>
             4. Describe Death's inner conflict and your reaction to it.<br/>
             <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
@@ -2907,15 +2895,13 @@ const LA8Component = ({ data }) => {
             3. Explain what Liesel experiences in one of the customer's home. What is Hans explanation?<br/>
             4. Liesel writes about her life and vows never to drink champagne again, why?<br/>
             5. What does Death foreshadow? How do you explain the author's use of the simile "Hard times were
-            coming.
-            Like a parade."?<br/>
-            The Trilogy<br/>
+            coming. Like a parade."?<br/>
+            <i> The Trilogy</i><br/>
             6. To what three installments does the chapter title refer?<br/>
             7. How does Rudy spend his time while Liesel is working with Hans? What is his goal?<br/>
             8. Summarize Rudy's success at the festival. How does Liesel perform?<br/>
             9. How does Rudy respond when Liesel asks why he would intentionally disqualify himself from the race?
-            Why
-            do you think he did it?<br/>
+             Why do you think he did it?<br/>
             10. What does Rudy do with his medals?<br/>
             11. What does Liesel do after she finishes the Dream Carrier?<br/>
             12. Why does Rudy take Liesel to the mayor's house? Explain why Liesel stops and looks back at the
@@ -2927,11 +2913,11 @@ const LA8Component = ({ data }) => {
 
           <span className="days">LESSON 84 </span>
           <p> Read <i> The Sound of Sirens and The Sky Stealer </i><br/>
-            1. What dilemma confronts the Hubermanns" in regards to air raids? <br/>
+            1. What dilemma confronts the Hubermanns in regards to air raids? <br/>
             2. Identify the people who take shelter in the Fielder's basement. Which does Liesel determine to be
             the
             most fearful?<br/>
-            3. How does Death feel about the individuals in the shelter? Agree or disagree.<br/>
+            3. How does Death feel about the individuals in the shelter?  Do you agree or disagree?<br/>
             4. Explain "For those people life was still achievable.<br/>
             5. What does Max admit to the family? How long has it been since Max viewed the outside?<br/><br/>
             The Sky Stealer<br/>
@@ -3040,16 +3026,10 @@ const LA8Component = ({ data }) => {
             4. Why does Death explain that Hans would "need to perfect the art of forgetting."?<br/>
             5. Death presents a short letter that Hans writes home. Death then follows with the details of Han's
             task
-            and the reasons for the brevity of his letter. Did the vivid explanation change your initial
-            impression
-            of
-            Papa's short letter? Why or why not?<br/>
+            and the reasons for the brevity of his letter. Did the vivid explanation change your initial impression of Papa's short letter? Why or why not?<br/>
             The Bread Eaters<br/>
-            6. Who are the "three desperate men" that consumes Liesel's thoughts? What has become Liesel's
-            favorite
-            distraction?<br/>
-            7. What does Rudy plan to do with the sack full of bread that he shows Liesel? What argument does he
-            use
+            6. Who are the "three desperate men" that consumes Liesel's thoughts? What has become Liesel's favorite distraction?<br/>
+            7. What does Rudy plan to do with the sack full of bread that he shows Liesel? What argument does he use
             to convince Liesel to help him?<br/>
             8. How does the incident strengthen or alter the reader's characterization of Rudy? Explain.<br/>
             9. Why does Liesel attend the parades of the Jews? Explain her internal conflict.<br/>
@@ -4310,7 +4290,7 @@ const LA8Component = ({ data }) => {
             <li className="interpret">But I don’t see those colors in her cheeks.</li>
             <li>And in some pérfumes is there more delight</li>
             <li>Than in the breath that from my mistress reeks.</li>
-            <li className="interpret"> And some perfumes smell more delightful than my mistress’s reeking
+            <li className="interpret"> And some perfumes smell more delightful than my mistress’ reeking
               breath.
             </li>
             <li>I love to hear her speak, yet well I know</li>
@@ -4522,7 +4502,8 @@ const LA8Component = ({ data }) => {
           Analysis of Fire and Ice
           <Video videoUrl="https://www.youtube.com/embed/p0YjUfmwBC0"/>
           <h4 className="topBottom">BY ROBERT FROST</h4>
-          <ul>
+          <ul style={{ color: "#6e7693" }}>
+            <li><strong> Fire and Ice</strong></li>
             <li className="poem">Some say the world will end in fire,</li>
             <li>Some say in ice.</li>
             <li>From what I’ve tasted of desire</li>
@@ -4535,7 +4516,7 @@ const LA8Component = ({ data }) => {
           </ul>
           <h4>Questions</h4>
           <ol className="vocab">
-            <li>What is the message of the poem? What is it about?</li>
+            <li><i>Based on the poem "The Road Not Taken" </i> What is the message of the poem? What is it about?</li>
             <li>What does the "road less traveled" mean?</li>
             <li>Are there clues that Frost believes one road was not necessarily much better than another?
               Explain.
@@ -4545,6 +4526,9 @@ const LA8Component = ({ data }) => {
             <li>What is the mood of the poem? (How does it make you feel?)</li>
             <li>Write about a time you had to make a tough decision. Did you choose the easy road or the hard
               road.
+            </li>
+            <li><i>Based on the poem "Fire and Ice" </i> What is your interpretation of the poem? What do you think it
+              means?
             </li>
           </ol>
           <textarea className="textArea" onChange={onChangela8Listener148} value={la8Essay148}/>
@@ -4576,7 +4560,8 @@ const LA8Component = ({ data }) => {
           <span className="days">LESSON 150 </span>
           <h4>How do you read a poem? </h4>
           <p>Excerpts taken from the SPL Poetry Handbook </p>
-          <p className="margin-para" style={{ color: "#7c7f93", fontSize: "110%", lineHeight: "1.7" }}> Slow down. Read
+          <p className="margin-para" style={{ color: "#7c7f93", fontSize: "110%", lineHeight: "1.7" }}> Slow down.
+            Read
             it slowly.<br/>
             A good poet will have made every word in the poem count. <br/>Step into the poem
             and wander around. Take your time. <br/>
@@ -4587,7 +4572,8 @@ const LA8Component = ({ data }) => {
             Relax. Hmmm… the poem has got you intrigued? But you don’t understand it. <br/>
             Not to worry. Poems aren’t
             crossword puzzles. There’s no correct answer. <br/>
-            A good poem will offer many paths to meander along.</p>
+            A good poem will offer many paths to meander along.<br/>
+            <i style={{ fontSize: "80%" }}>An excerpt from "The Scottish Poetry Library"</i></p>
           <h4><i>Summer’s Day </i> by Mary Oliver</h4>
           <Video videoUrl="https://www.youtube.com/embed/rBPHUE961zI"/>
           <p> William Butler Yeats is considered one of the greatest poets of the 1900’s.</p>
@@ -4727,23 +4713,28 @@ const LA8Component = ({ data }) => {
           <h4>Finding Emily Dickinson in the power of her poetry</h4>
           <Video videoUrl="https://www.youtube.com/embed/BLeMZ5WIdrI"/>
           <ol className="vocab">
-            <li> Based on the Crash Course video: Dickinson often makes references to "eyes" and "sight". What do
-              these references most likely symbolize?
+            <li> Based on the Crash Course video: Dickinson often makes references to "eyes" and "sight". What do these
+              references most likely symbolize.
             </li>
             <li> Why do you think Dickinson only wore white?</li>
             <li> Name two stylistic choices that Dickinson makes when she wants to avoid closure in her poetry.</li>
-            <li> Emily Dickinson's personal life receives as much attention, or even more attention, than her
-              poetry. Why do you think this is so?
+            <li> Emily Dickinson's personal life receives as much attention, or even more attention, than her poetry.
+              Why do you think this is so?
             </li>
             <li> To what extent was Emily Dickinson the eccentric recluse she is often portrayed as being?</li>
             <li> Describe some of the reasons that Dickinson did not gain fame as a poet during her lifetime.</li>
-            <li> "I’m nobody – who are you?" (288) is an invitation to loneliness. How does this poem or "I taste a
-              liquor never brewed" (214) invite the reader into the a kind of shared strangeness? Do you feel
-              separated or connected by the language?
+            <li>What did you think of the poem "Hope" is the Thing with Feathers? If you had to summarize it for someone
+              who has never read it, what wouduld you say?
+            </li>
+            <li>In the poem "Hope" what do you think these lines mean: <i>Yet - never - in Extremity, It asked a crumb -
+              of me. </i></li>
+            <li> "I’m nobody – who are you?" is an invitation to loneliness. How does this poem invite the reader
+              into a kind of shared strangeness? Do you feel separated
+              or connected by the language?
             </li>
             <li>Does Dickinson seem to be writing for other people or only for herself?</li>
             <li>Which Emily Dickinson poem is your favorite? Explain why.</li>
-            <li>Based on the poem <i>Hope is the thing with feathers</i>, what is the imagery in the poem?</li>
+            <li>Based on the poem you chose, what is the imagery in the poem?</li>
             <li> What is the mood of the poem? Or how does it make you feel?</li>
             <li> What is the message of the poem?</li>
             <li> Which parts of it are lingering in your mind?</li>
@@ -4847,18 +4838,10 @@ const LA8Component = ({ data }) => {
             <li>Talents or strengths (Example: Athletic, Graceful, Reader)</li>
             <li>Challenges or things you find difficult (Being alone, Math, Racism)</li>
           </ol>
-          <p className="topBottom"> Use your lists to help you tell your story. Remember to use the poetry
-            devices of alliteration, assonance, and anaphora. It's best if you can create your own poem, but if you
-            want, you can use the sentences below as a model.</p>
-          <ul>
-            <li>When I was in _____________________, I looked like _____________________.</li>
-            <li>I liked to play _____________________ with _____________________.</li>
-            <li>I was happy to _____________________ but felt scared when _____________________.</li>
-          </ul>
-          <p className="topBottom">This example is from the poet from the poet Glenis Redmond </p>
+          <p className="topBottom">This example is from the poet Glenis Redmond </p>
           <h4>Self-Portrait: Bard in the Making
           </h4>
-          <ul>
+          <ul style={{ color: "#7c7f93" }}>
             <li>When I was in the fifth grade</li>
             <li>I was the biggest tomboy</li>
             <li>always in t-shirt and jeans</li>
@@ -4875,6 +4858,29 @@ const LA8Component = ({ data }) => {
             <li>I could stop on a dime</li>
             <li>and give you nine cents change.</li>
           </ul>
+          <p className="topBottom"> Now use your lists to help you tell your story. Use at least one of the following
+            poetry devices:<br/>
+            alliteration <i style={{ color: "#7c7f93", fontSize: "90%" }}>repetition of initial consonant sounds -
+              "The <b>sh</b>epherd <b>sh</b>ook <b>h</b>is <b>h</b>ead"</i><br/>
+            assonance <i style={{ color: "#7c7f93", fontSize: "90%" }}>repetition of <b>vowel</b> sounds - "I'm reminded
+              to line the lid of my eye"</i><br/>
+            and anaphora <i style={{ color: "#7c7f93", fontSize: "90%" }}>repetition of words - Still I Rise by Maya
+              Angelou<br/>
+              "I rise<br/>
+              Bringing the gifts that my ancestors gave,<br/>
+              I am the dream and the hope of the slave.<br/>
+              I rise<br/>
+              I rise<br/>
+              I rise."</i></p>
+          <p className="topBottom">It's best if you can create your own poem, but if you want, you can use the sentences
+            below as a model.</p>
+          <p>
+            <ul>
+              <li>When I was in _____________________, I looked like _____________________.</li>
+              <li>I liked to play _____________________ with _____________________.</li>
+              <li>I was happy to _____________________ but felt scared when _____________________.</li>
+            </ul>
+          </p>
           <textarea className="textArea" onChange={onChangela8Listener156} value={la8Essay156}/>
 
           <span className="days">LESSON 157 - Cirque du Freak</span>
@@ -5222,8 +5228,9 @@ const LA8Component = ({ data }) => {
             </ul></p>
           <textarea className="textArea" onChange={onChangela8Listener169} value={la8Essay169}/>
 
-          <span className="days">WRITING STORIES </span>
-          <h4>The remainder of this class will focus on writing stories and non-fiction essays
+          <span className="days" style={{ color: "#4f5979", fontSize: "130%" }}>WRITING STORIES </span>
+          <h4 style={{ color: "#4f5979" }}>The remainder of this class will focus on writing stories and non-fiction
+            essays
             within different genres.</h4>
           <p className="topBottom"><i>For each fictional writing assignment, address the items below to develop
             your story:</i></p>
@@ -5250,7 +5257,8 @@ const LA8Component = ({ data }) => {
             something for all of your characters; like them, hate them, root for them, feel devasted when they are
             harmed and happy when they triumph.</p>
           <p className="topBottom">You can print out the <a
-            href="../resources/languagearts/StoryOutlineWorksheet.pdf">Story Outline Worksheet</a> to help you get
+            href={require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story
+            Outline Worksheet</a> to help you get
             started on a rough draft for your stories. It includes the following:<br/>
             <ul className="assnList2">
               <li>Title of your story:</li>
@@ -5265,10 +5273,11 @@ const LA8Component = ({ data }) => {
               <li>Finally (resolution):</li>
             </ul>
           </p>
-          <p>Watch the the video below <strong> How to write descriptively</strong> by Nalo Hopkinson and then complete
+          <p>Watch the the video below <strong> How to write descriptively</strong> by Nalo Hopkinson and then
+            complete
             the
             writing assignment that follows in Lesson 170.</p>
-          <Video videoUrl="https://www.youtube.com/embed/ RSoRzTtwgP4"/>
+          <Video videoUrl="https://www.youtube.com/embed/RSoRzTtwgP4"/>
 
           <span className="days">LESSON 170</span>
           <p>After you watch the video <strong> Stephen King On Writing</strong>, you will write a mystery.</p>
@@ -5289,7 +5298,8 @@ const LA8Component = ({ data }) => {
               <div><img src={require("../../public/images/stories/throwingstone.jpg")} style={{ maxWidth: "500px" }}
                         alt="child throwing a stone"/>
                 <p className="captionTitle">No Ordinary Day</p>
-                <p className="caption">She threw with all her might, but the stone came back and, once again, landed at
+                <p className="caption">She threw with all her might, but the stone came back and, once again, landed
+                  at
                   her feet.</p></div>
 
               <div><img src={require("../../public/images/stories/twokeys.jpg")} style={{ maxWidth: "500px" }}
@@ -5315,7 +5325,7 @@ const LA8Component = ({ data }) => {
               <div><img src={require("../../public/images/stories/maninthefog.jpg")} style={{ maxWidth: "500px" }}
                         alt="man walking through the fog"/>
                 <p className="captionTitle">Man in the Fog</p>
-                <p className="caption">The man slowly walks toward your house. He stops, looks up at your window and
+                <p className="caption">The man slowly walks towards your house. He stops, looks up at your window and
                   says, "It's time." </p>
               </div>
             </div>
@@ -5332,7 +5342,8 @@ const LA8Component = ({ data }) => {
             <li>How will you set up your story? Use your main character to unravel the mystery and solve it.</li>
           </ul>
           <p className="topBottom">You can use the <a
-            href="../resources/languagearts/StoryOutlineWorksheet.pdf">Story Outline Worksheet</a> to get started.
+            href={require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story
+            Outline Worksheet</a> to get started.
           </p>
           <textarea className="textArea"
                     placeholder="Be sure to back up your work. Copy/paste it into another document or email it to your parent/teacher."
@@ -5343,12 +5354,12 @@ const LA8Component = ({ data }) => {
             story.</p>
           <Video videoUrl="https://www.youtube.com/embed/ZQTQSbjecLg"/>
           <p className="topBottom"><strong>Fantasy </strong> is a genre that has magical and
-            supernatural elements. Many novels have a real-world setting, like Twilight, while others novels are set
+            supernatural elements. Many novels have a real-world setting, like Twilight, while other novels are set
             in an imaginary world. This genre has no connection to reality or science. For example, Lord of the
             Rings is set in Middle Earth, with races and creatures the author created.
             There are numerous subgenres of fantasy fiction. A few include high or epic fantasy (Lord of the Rings),
             low fantasy (Indian in the Cupboard), dark fantasy (Twilight), contemporary fantasy (Harry Potter),
-            sword and sorcery (The Sorcerer's Apprentice), dark fantasy (Twilight), fables (The Alchemist), fairy
+            sword and sorcery (The Sorcerer's Apprentice), fables (The Alchemist), fairy
             tales (Cinderella), and superhero fiction (Spiderman). </p>
           <p className="topBottom">Select one of the images below as your book cover and then write a fantasy story
             based on the image. What story unfolds in your imagination when you look at the image? Write your
@@ -5380,7 +5391,8 @@ const LA8Component = ({ data }) => {
             assignment that follows.</p>
           <Video videoUrl="https://www.youtube.com/embed/30CPmgVQNks"/>
           <Video videoUrl="https://www.youtube.com/embed/6a6kbU88wu0"/>
-          <p className="topBottom"><strong>Dystopian fiction</strong> describes a fictional place where things have gone
+          <p className="topBottom"><strong>Dystopian fiction</strong> describes a fictional place where things have
+            gone
             horribly wrong and life is terrible. The characters suffer oppression, terror or deprivation. Dystopian
             fiction includes novels like<i> The Hunger Games, The Giver, Divergent, and The Handmaid's Tale.</i></p>
           <p className="topBottom">Select one of the images below as your book cover. Then write a dystopian story
@@ -5574,15 +5586,16 @@ const LA8Component = ({ data }) => {
             </div>
           </div>
           <p className="topBottom">You can use the <a
-            href="../resources/languagearts/StoryOutlineWorksheet.pdf">Story Outline Worksheet</a> to get started.
+            href={require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story
+            Outline Worksheet</a> to get started.
           </p>
           <textarea className="textArea"
                     placeholder="Be sure to backup your work and send it to your parent or teacher."
                     onChange={onChangela8Listener176} value={la8Essay176}/>
 
           <span className="days">LESSON 177 </span>
-          <h4> Character Development</h4>
-          <p className="topBottom">No matter how exciting your plot may be, readers won't want to keep reading unless
+          <h4> Character and Story Development</h4>
+          <p>No matter how exciting your plot may be, readers won't want to keep reading unless
             you have great characters. Watch the videos below to learn how to develop characters your readers will fall
             in love with and believe are real. Then complete the assignment posted after the videos.</p>
           {/*Introduction to Character */}
@@ -5599,13 +5612,13 @@ const LA8Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/WJ_iNkkgdCA"/>
           {/*Advice on characters */}
           <Video videoUrl="https://www.youtube.com/embed/SgGARYH2vRg"/>
-          <p className="topBottom">Your next two lessons will be to develop two great characters your readers will care
-            about: a protagonist and an antagonist. Start thinking about what they are like, consider: personality,
-            physical
-            appearance, strengths, weaknesses, special abilities (optional) and what they value. Develop these
+          <p>Your next two lessons will be to develop two great characters your readers will care
+            about: a protagonist and an antagonist. Start thinking about what they are like. Consider their:
+            personality,
+            physical appearance, strengths, weaknesses, special abilities (optional) and what they value. Develop these
             characters in your mind and think about the following questions: <br/>
             <ul className="list">
-              <li>What does your character want or want to achieve?</li>
+              <li>What does your character want to achieve?</li>
               <li>Where do you want your protagonist to travel to?</li>
               <li>What are the obstacles they will face?</li>
               <li>What do they risk losing if they fail in their quest?</li>
@@ -5616,32 +5629,37 @@ const LA8Component = ({ data }) => {
               </li>
             </ul>
           </p>
-          <p className="topBottom">Take a few minutes to complete the assignment below. Your responses can be short
-            bullet points.
+          <p>Take a few minutes to complete the assignment below. Your responses can be short
+            bullet points. The main point of this assignment is to generate ideas.
             <ol className="vocab">
               <li>Close your eyes and imagine the protagonist for your next story. Briefly describe their external and
-                internal traits.
+                internal traits (physical appearance and character traits).
               </li>
-              <li>List at least one place the protagonist will travel to. If you're not sure, where would you travel to
-                if
-                there were no limitations? This can be a place of your own creation.
+              <li>List at least one place the protagonist will travel to. If you're not sure, where would <i>you </i>travel
+                to
+                if there were no limitations? This can be a real place or a setting of your own creation.
               </li>
-              <li> Picture the villain. What are they like?</li>
               <li>What ideas do you have for the quest the protagonist will embark on? Are they chasing after an
                 artifact? Are they on a mission of some kind? Jot down any ideas you have.
               </li>
+              <li> Picture the villain. What are they like?</li>
+              <li>Create a book cover design for your next story. Think about the impression and mood
+                you want the images and colors to create for your readers. You can use whatever
+                medium you choose: pencil sketch, collage, paper and markers, or <a
+                  href="https://www.canva.com/create/book-covers/"
+                  rel="noreferrer"
+                  target="_blank"> Canva's online book cover creation
+                  tool. </a>You choose how you want to design it. Your book cover should include a title.
+              </li>
             </ol></p>
-          <p className="topBottom">Create a book cover design for your next story. Think about the impression and mood
-            you want the images and colors to create for your readers. You can use whatever
-            medium you choose: collage, paper and markers, or <a href="https://www.canva.com/create/book-covers/"
-                                                                 rel="noreferrer"
-                                                                 target="_blank"> Canva's online book cover creation
-              tool. </a>You choose how you want to design it. </p>
+          <p>Below are examples of book covers.</p>
+          <img src={require("../../public/images/bookCovers/bookcover2.jpg")} alt="Book Covers"/>
+
           <textarea className="textArea" onChange={onChangela8Listener177} value={la8Essay177}/>
 
           <span className="days">LESSON 178 </span>
           <h4> Character Development - The Protagonist</h4>
-          <p className="topBottom">It's time to fully develop the protagonist for your next story. Address the questions
+          <p>It's time to fully develop the protagonist for your next story. Address the questions
             below using complete sentences.</p>
           <p>
             <ol className="vocab">
@@ -5652,7 +5670,7 @@ const LA8Component = ({ data }) => {
                 bullied, or they were raised in China and are fluent in Mandarin.
               </li>
               <li>Do they have any special abilities (optional). These can be supernatural or magical powers or worldly
-                abilities like a high IQ or jiu-jitsu skills.
+                abilities like a high IQ or exceptional jiu-jitsu skills.
               </li>
               <li>What are your character's strengths? Examples: Confidence, strong moral compass, problem solving
                 skills, loyalty, or persistence.
@@ -5662,7 +5680,7 @@ const LA8Component = ({ data }) => {
                 physical handicap.
               </li>
               <li>Where will your protagonist to travel to? Describe how this is dramatically different than where they
-                live now?
+                live now.
               </li>
               <li>What is a quest they were meant to pursue? Are they chasing after an
                 artifact? Are they on a mission of some kind?
@@ -5693,7 +5711,8 @@ const LA8Component = ({ data }) => {
               into loving her. He was not born from love and didn't know love as a child.
             </li>
             <li>What makes your villain powerful? What skills, abilities and traits make them <i>nearly</i> impossible
-              for your protagonist to defeat? Example: The Joker (in Batman) The Joker has no superhuman abilities, but
+              for your protagonist to defeat? Example: The Joker (in Batman) The Joker has no superhuman abilities,
+              but
               he is clever and uses chemical engineering to make poisonous weapons.
             </li>
             <li>What are their weaknesses? Will your hero be able to use a weakness against the villain to win?</li>
@@ -5709,29 +5728,31 @@ const LA8Component = ({ data }) => {
 
           <span className="days">LESSON 180 </span>
           <h4> Final Fictional Story</h4>
-          <p className="topBottom">It's time to write your final story for this class!</p>
+          <p>It's time to write your final story for this class! Before you start writing it, consider the following
+            questions:</p>
           <p>
             <ul className="assnList">
               <li>What point of view will you use?</li>
-              <li> What type of fiction or genre did you choose?</li>
-              <li>Title of your story.</li>
-              <li>Grab your readers’ attention in the first paragraph.</li>
-              <li>Where and when is it (past, present or future)? Who are your characters? Set the scene and introduce
-                your characters.
-              </li>
-              <li>What are the sequence events? Write about the first thing that happens. Introduce the conflict. What
-                is the challenge the main character must face in order to grow and
+              <li>What type of fiction or genre did you choose?</li>
+              <li>What is the title of your story?</li>
+              <li>How will you grab your readers’ attention in the first paragraph?</li>
+              <li>What is the setting? Where and when is it (past, present or future)?</li>
+              <li>Who are your characters?</li>
+              <li>How will you set the scene and introduce your characters?</li>
+              <li>What are the sequence events?</li>
+              <li>What will be the first thing that happens?</li>
+              <li>What is the challenge the main character must face in order to grow and
                 change? What obstacles must be overcome?
               </li>
-              <li>Next (build up):</li>
-              <li>Finally (resolution). How will the problem be solved?</li>
+              <li>How will you introduce the conflict?</li>
+              <li>How will build up the story to its climax?</li>
+              <li>Finally, what will the resolution be? How will the problem be solved?</li>
             </ul>
-            <br/> Write your story in the textbox and be sure to back up your work. When you submit this story to your
-            parent or teacher, include your character sketches and
-            book cover.
+            <br/> Write your story in the textbox below. Be sure to back up your work.
           </p>
-          <p className="topBottom">You can use the <a
-            href="../resources/languagearts/StoryOutlineWorksheet.pdf">Story Outline Worksheet</a> to help.</p>
+          <p>You can use the <a
+            href={require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story
+            Outline Worksheet</a> to help you get started.</p>
           <textarea className="textArea" onChange={onChangela8Listener180} value={la8Essay180}/>
         </div>
       </section>
