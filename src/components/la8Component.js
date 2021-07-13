@@ -1224,7 +1224,7 @@ const LA8Component = ({ data }) => {
             novel is available at your local library, local bookstore and online for purchase. Until your
             copy arrives, the <a href={require("../resources/books/PiecingMeTogetherExcerpt.pdf")}
                                  rel="noreferrer" target="_blank"> reading for today's lesson is provided
-              here (thorugh chapter 6). </a></p> <br/>
+              here (through chapter 6). </a></p> <br/>
           <a href={require("../resources/books/PiecingMeTogetherExcerpt.pdf")} rel="noreferrer"
              target="_blank">
             <img src={require("../../public/images/bookCovers/piecingMeTogether.jpg")}
@@ -1313,14 +1313,14 @@ const LA8Component = ({ data }) => {
             assignment below.</p>
           <ol className=" vocab">
             <li>Describe Mom's favorite mug and how she got it</li>
-            <li>What does Jade eat for breakfast on her b'day?</li>
-            <li>What does Jade plan to do on her b'day?</li>
-            <li>What kind of music does Jade listen to on her bday?</li>
-            <li>What kind of cake do they eat on Jade's b'day?</li>
+            <li>What does Jade eat for breakfast on her birthday?</li>
+            <li>What does Jade plan to do on her birthday?</li>
+            <li>What kind of music does Jade listen to on her birthday?</li>
+            <li>What kind of cake do they eat on Jade's birthday?</li>
             <li>What does jade use out of her mother's closet on the Sunday when she doesn't have her hair
               in braids?
             </li>
-            <li>What does Sam do for Jade for her B'day?</li>
+            <li>What does Sam do for Jade for her birthday?</li>
             <li>What does Dad get Jade for her birthday?</li>
             <li>What does Jade eat when she visits her dad?</li>
             <li>Jade takes pictures of many things on her way home from her father's house after he gave her
@@ -2093,7 +2093,8 @@ const LA8Component = ({ data }) => {
             1. A clear title and the author's name. <br/>
             2. A design that reflects the book's theme. <br/>
             3. A summary of the plot without giving away the ending. <br/>
-            4. A review (your opinion) about the book. 3 and 4 can be written below in the textbox.
+            4. A review (your opinion) about the book. Your summary and review should be 4-6 paragraphs and
+            can be written in the textbox below.
           </p>
           <textarea className="textArea" onChange={onChangela8Listener46} value={la8Essay46}/>
 
@@ -2204,7 +2205,8 @@ const LA8Component = ({ data }) => {
             Death. </i> </strong> Then, read the poem and answer the questions below. </p>
           <Video videoUrl="https://www.youtube.com/embed/5GOfjV6u0Co"/>
           <Video videoUrl="https://www.youtube.com/embed/4eGFMw3U1ts"/>
-          <p><i style={{ color: "#6e7693", fontWeight: "bold" }} > Because I Could Not Stop for Death</i> by Emily Dickinson.
+          <p><i style={{ color: "#6e7693", fontWeight: "bold" }}> Because I Could Not Stop for Death</i> by Emily
+            Dickinson.
             <blockquote
               cite="https://www.poetryfoundation.org/poems/47652/because-i-could-not-stop-for-death-479">Because I
               could not stop for Death – <br/>
@@ -2274,7 +2276,8 @@ const LA8Component = ({ data }) => {
             7. What word choices does the narrator use to try to convince the reader that he is being
             cheerful about the subject of death? Is the narrator able to fully present death as a cheerful topic?
             Why or why not? <br/>
-            8. Death, the narrator, finds his duties painful. Cite textual evidence showing why Death  feels this way.<br/>
+            8. Death, the narrator, finds his duties painful. Cite textual evidence showing why Death feels this
+            way.<br/>
             <i>Beside the Railway Line</i><br/>
             9. What purpose does this section of the novel serve?<br/>
             10. What impression do you have of Death so far? Do you feel you can trust Death as the narrator? Why or
@@ -2327,10 +2330,12 @@ const LA8Component = ({ data }) => {
             things. <br/>
             <strong> Simile: </strong> Comparing two things using "like" or "as". <br/>
             <strong> Metaphor: </strong> Comparing two things not using "like" or "as". <br/></p>
-          <p className="topBottom">The author uses figurative language throughout the novel. Below are quotes from <i> The Book
-            Thief</i>. For each quote, state which literary device (personification, simile, or metaphor) the
+          <p className="topBottom">The author uses figurative language throughout the novel. Below are quotes
+            from <i> The Book
+              Thief</i>. For each quote, state which literary device (personification, simile, or metaphor) the
             author used and explain how you know this. </p>
-          <p>For example, "The bodies were stuck there, like driftwood after the flood." This is a simile; "like" was used to compare the bodies to driftwood. <br/>
+          <p>For example, "The bodies were stuck there, like driftwood after the flood." This is a simile; "like" was
+            used to compare the bodies to driftwood. <br/>
 
             Prologue: <br/>
             1. "What will the sky be saying?" Personification, simile, or metaphor? Explain why. <br/>
@@ -2342,19 +2347,21 @@ const LA8Component = ({ data }) => {
             6. "The children-­‐voices laughing, and the smiles like salt, but decaying fast." <br/>
             7. "The streets were ruptured veins."<br/></p>
           <p className="topBottom"> There are many examples of personification in <i> The Book Thief</i>, but the
-            most important example is the personification of Death. "Death" is the narrator and has human characteristics that allow readers to
+            most important example is the personification of Death. "Death" is the narrator and has human
+            characteristics that allow readers to
             "connect" with him. At one point in the book, Death expresses sadness "taking" children who are so
             young. He says, 'Even Death has a heart'. While death does not really have a heart, the character of
             Death certainly does.</p>
           <p> After you finish the assignment above, close your eyes and imagine in your mind what Death
-             looks like. <br/>
+            looks like. <br/>
             1. Write a brief description of Death's physical appearance. How tall is he? What color are his eyes,
             skin and hair? How does he dress? <br/>
             2. Create an image that depicts how you see Death's character using any medium you like.
             You can sketch an image on paper, use watercolors, markers, Photoshop, or <a
               href="https://charactercreator.org/#" rel="noreferrer" target="_blank"> an online character
               creator.</a> When
-            you finish, take a screen shot and send this to your teacher/parent with the written part of your assignment.<br/>
+            you finish, take a screen shot and send this to your teacher/parent with the written part of your
+            assignment.<br/>
           </p>
           <textarea className="textArea" onChange={onChangela8Listener55} value={la8Essay55}/>
 
@@ -2394,13 +2401,13 @@ const LA8Component = ({ data }) => {
             8. What makes Liesel's adjustment to life with the Hubermanns" particularly difficult? How does Papa
             help her?<br/>
             9. Why is The Gravedigger's Handbook so important to Liesel?<br/>
-            10. Identify the Hubermanns' children.<br/>
+            10. Identify the Hubermanns's children.<br/>
             11. What makes school particularly difficult for Liesel?<br/>
             12. After Liesel's 10th birthday, what is she enrolled in?<br/>
             13. Describe Rosa's feelings and behavior with regard to her laundry clients. Which client does Rosa
             detest the most? What happens when she sends Liesel to the client's door? Why does Rosa tell Liesel
             she has to do other people's laundry?<br/>
-            14. Briefly decribe Frau Holtzapfel. What is Frau Holtzapfel known for at the Hubermanns' home? Why
+            14. Briefly decribe Frau Holtzapfel. What is Frau Holtzapfel known for at the Hubermanns's home? Why
             and how does it affect Liesel?<br/>
           </p>
           <textarea className="textArea" onChange={onChangela8Listener57} value={la8Essay57}/>
@@ -2487,7 +2494,7 @@ const LA8Component = ({ data }) => {
             the funerary arts and hope this book has helped in some way." How does this relate to Liesel and
             Papa?<br/>
             6. Why does Death like Papa?<br/>
-            7. What gifts does Liesel receive for Christmas from the Hubermanns'? What question does the receipt
+            7. What gifts does Liesel receive for Christmas from the Hubermanns's? What question does the receipt
             of these gifts inspire Liesel to ask? Infer about Liesel's relationship with the Hubermanns based on
             her question.<br/>
           </p>
@@ -2502,7 +2509,7 @@ const LA8Component = ({ data }) => {
             3. To whom does Liesel write her letters? Why does she have a foreboding sense with regard to 1 of the
             letters?<br/>
             4. What questions/concerns does Liesel now have regarding her mother?<br/>
-            <i>  Dead Letters</i><br/>
+            <i> Dead Letters</i><br/>
             5. Briefly explain why the title of this section is appropriate.<br/>
             6. Why does Mama reprimand PaPa on Liesel's birthday?<br/>
             7. Explain why Liesel receives a severe beating from Mama. <br/>
@@ -2702,7 +2709,7 @@ const LA8Component = ({ data }) => {
           <span className="days">LESSON 74 </span>
           <p> Read <i> The Swapping of Nightmares and Pages from the Basement </i><br/>
             1. Why does Max decide he should hide in the basement? Behind what is he hidden?<br/>
-            2. Why does Max want to get up and walk out of the Hubermanns' house? What does he do, and why?<br/>
+            2. Why does Max want to get up and walk out of the Hubermanns's house? What does he do, and why?<br/>
             3. What does Liesel notice in the basement? What does want to ask Max?<br/>
             4. What do Mama and Papa argue about since Max's arrival?<br/>
             5. According to Death, what does Liesel learn about Rosa?<br/>
@@ -2901,7 +2908,7 @@ const LA8Component = ({ data }) => {
             7. How does Rudy spend his time while Liesel is working with Hans? What is his goal?<br/>
             8. Summarize Rudy's success at the festival. How does Liesel perform?<br/>
             9. How does Rudy respond when Liesel asks why he would intentionally disqualify himself from the race?
-             Why do you think he did it?<br/>
+            Why do you think he did it?<br/>
             10. What does Rudy do with his medals?<br/>
             11. What does Liesel do after she finishes the Dream Carrier?<br/>
             12. Why does Rudy take Liesel to the mayor's house? Explain why Liesel stops and looks back at the
@@ -2917,14 +2924,13 @@ const LA8Component = ({ data }) => {
             2. Identify the people who take shelter in the Fielder's basement. Which does Liesel determine to be
             the
             most fearful?<br/>
-            3. How does Death feel about the individuals in the shelter?  Do you agree or disagree?<br/>
-            4. Explain "For those people life was still achievable.<br/>
+            3. How does Death feel about the individuals in the shelter? Do you agree or disagree?<br/>
+            4. Explain what is meant by the statement, "For those people life was still achievable.<br/>
             5. What does Max admit to the family? How long has it been since Max viewed the outside?<br/><br/>
-            The Sky Stealer<br/>
+            <i> The Sky Stealer</i><br/>
             6. How does the first raid compare to the second?<br/>
             7. What superstition does Hans practice?<br/>
-            8. How does Liesel cope with being in the shelter the 2nd time? What reaction does she receive from
-            the
+            8. How does Liesel cope with being in the shelter the 2nd time? What reaction does she receive from the
             others?<br/>
             9. Do the families return home right after the raid is over? Explain the effect of the raid on Himmel
             Street.<br/>
@@ -2938,12 +2944,11 @@ const LA8Component = ({ data }) => {
             2. Why does Frau Holtzapfel visit the Hubermanns?<br/>
             3. What are Liesel's feeling about the deal Mama makes with Frau?<br/>
             4. Interpret the last line of the chapter.<br/>
-            The Long Walk to Dachau<br/>
+            <i>The Long Walk to Dachau</i><br/>
             5. What are the wishes Death hears as he exits the truck with the dead Jew? <br/>
             6. What is Han's reaction when he sees Rudy and Liesel on the street?<br/>
             7. Explain the significance of Death's statement that many of the Jews would greet death like their
-            last
-            true friend.<br/>
+            last true friend.<br/>
             8. What impacts Liesel the most about the Jews passing thorough Molching on their way to Dachau?<br/>
             9. Why is Papa beaten by the soldier?<br/>
             10. Who stands beside Liesel as the drama is taking place on the street? How does the crowd
@@ -2964,7 +2969,7 @@ const LA8Component = ({ data }) => {
             2. Explain the meaning of the note Hans finds at the river.<br/>
             3. Why do you think that Death does not equate the word silence with the words peace, quiet, or calm
             following this event?<br/><br/>
-            The Idiot and the Coat Men<br/>
+            <i>The Idiot and the Coat Men</i><br/>
             4. Describe Han's feelings about Max's departure.<br/>
             5. Why might the Hubermanns want the Party to come search their home?<br/>
             6. Coat men-<br/>
@@ -2984,7 +2989,7 @@ const LA8Component = ({ data }) => {
             2. Why might the author intersperse the conversation in the kitchen with the conversation about
             dominoes
             that Rudy and his siblings hold?<br/><br/>
-            The Thought of Rudy Naked<br/>
+            <i> The Thought of Rudy Naked</i><br/>
             3. How does this chapter connect with the previous chapter?<br/>
             4. The purpose of the inspection of Rudy and his classmates is __________________.<br/>
             5. What does Rudy finally explain to Liesel, and how does she react?<br/>
@@ -3001,7 +3006,7 @@ const LA8Component = ({ data }) => {
             1. Why might Hans be grateful for punishment by the Nazi Party?<br/>
             2. Why does the paper make Han's suspicious?<br/>
             3. What is Papa's wish?<br/>
-            The Promise Keeper's Wife<br/>
+            <i>The Promise Keeper's Wife</i><br/>
             4. How do Alex and Hans spend the evening? What is Rosa's reaction?<br/>
             5. Discuss the scene of Hans and Liesel at the train station.<br/>
             6. Where does Rudy tell Liesel they are going? Why? How is this characteristic of Rudy?<br/>
@@ -3024,11 +3029,12 @@ const LA8Component = ({ data }) => {
             2. Who are the LSE? Why have they been selected for this section?<br/>
             3. Why is Han's seat on the vehicle important?<br/>
             4. Why does Death explain that Hans would "need to perfect the art of forgetting."?<br/>
-            5. Death presents a short letter that Hans writes home. Death then follows with the details of Han's
-            task
-            and the reasons for the brevity of his letter. Did the vivid explanation change your initial impression of Papa's short letter? Why or why not?<br/>
-            The Bread Eaters<br/>
-            6. Who are the "three desperate men" that consumes Liesel's thoughts? What has become Liesel's favorite distraction?<br/>
+            5. Death presents a short letter that Hans writes home. Death then follows with the details of Han's task
+            and the reasons for the brevity of his letter. Did the vivid explanation change your initial impression of
+            Papa's short letter? Why or why not?<br/>
+            <i>The Bread Eaters</i><br/>
+            6. Who are the "three desperate men" that consumes Liesel's thoughts? What has become Liesel's favorite
+            distraction?<br/>
             7. What does Rudy plan to do with the sack full of bread that he shows Liesel? What argument does he use
             to convince Liesel to help him?<br/>
             8. How does the incident strengthen or alter the reader's characterization of Rudy? Explain.<br/>
@@ -3044,7 +3050,7 @@ const LA8Component = ({ data }) => {
             3. Comment on your impression of the Word Shaker. Why do you think Max decided to keep this in the
             book?
             What secret does the story impart to Liesel? <br/>
-            The Anarchist's Suit Collection<br/>
+            <i>The Anarchist's Suit Collection</i><br/>
             4. How and where does Liesel obtain Rudy's Christmas gift? <br/>
             5. What does Death urge Liesel to do when Rudy falls? Does she oblige? Does this foreshadow, or give
             you
@@ -3093,10 +3099,10 @@ const LA8Component = ({ data }) => {
             1. What does Liesel find when she and Rudy go to the mayors house? What does Liesel realize about the
             library?<br/>
             2. Who enjoys the gift of cookies?<br/>
-            The Cardplayer
+            <i> The Cardplayer</i><br/>
             3. Who is Reinhold Zucker.<br/>
             4. Why doesn't Zucker like Hans?<br/>
-            The Snows on Stalingrad<br/>
+            <i> The Snows on Stalingrad</i><br/>
             5. Who answers Frau's door in January 1943?<br/>
             6. What news does Michael bring Rosa?<br/>
           </p>
@@ -3108,11 +3114,10 @@ const LA8Component = ({ data }) => {
             2. When Liesel thinks of her brother, what fill her with sadness then a smile?<br/>
             3. After Liesel accepts her brother's death, he no longer invades her dreams but appears to Liesel in
             another way. Why is this significant?<br/>
-            The Accident<br/>
+            <i>The Accident</i><br/>
             4. What order does Zucker give to Hans? How does Hans respond?<br/>
             5. Discuss the results of the accident. What does Hans claim after he is safe? What past incident is
-            this
-            parallel to?<br/>
+            this parallel to?<br/>
             6. Based on Schipper's explanation of Han's injuries, what can be inferred about Hans" character?<br/>
           </p>
           <textarea className="textArea" onChange={onChangela8Listener93} value={la8Essay93}/>
@@ -3120,9 +3125,8 @@ const LA8Component = ({ data }) => {
           <span className="days">LESSON 94 </span>
           <p> Read <i> The Bitter Taste of Questions and One Toolbox, One Bleeder, One Bear </i><br/>
             1. Discuss the letter that Rosa and Liesel receive. What is Rudy's response when Liesel tells him
-            about
-            the letter?<br/>
-            One Toolbox, One Bleeder, One Bear<br/>
+            about the letter?<br/>
+            <i> One Toolbox, One Bleeder, One Bear</i><br/>
             2. Explain Rudy's behavior since his father left and Hans has returned.<br/>
             3. Infer the significance of Rudy walking down the street with his toolbox. Unusual tool?
             Purpose?<br/>
@@ -3131,12 +3135,10 @@ const LA8Component = ({ data }) => {
             successful?<br/>
             6. Identify Michael Holtzapfel internal conflict in the shelter. <br/>
             7. Describe how Liesel's role changes from thief to provider in the shelter.<br/>
-            8. What causes Rudy and Liesel to run to the Amper River? What do they find there? Explain the
-            importance
-            of the event for Death and Liesel. What is Rudy doing? Based on Rudy's recent feelings of anger, do
-            you
+            8. What causes Rudy and Liesel to run to the Amper River? What do they find there? Explain the importance
+            of the event for Death and Liesel. What is Rudy doing? Based on Rudy's recent feelings of anger, do you
             consider this strange?<br/>
-            9. Analyze the final paragraph in this chapter.<br/>
+            9. Analyze the final paragraph in this chapter. What does it mean?<br/>
             <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write the definition and then write a sentence using the word. <br/>
             1. protruded <br/>
@@ -3168,15 +3170,13 @@ const LA8Component = ({ data }) => {
             chapter?<br/>
             3. When Liesel is rescued, Death states that he could not fully share in their enthusiasm, why?<br/>
             4. Explain the significance of Liesel's scream as the soldiers pull her from the rubble. <br/>
-            The Ninety Eight Day<br/>
+            <i> The Ninety Eight Day</i><br/>
             5. Why do you think Death describes the first 97 days after he has already told the reader the outcome
-            of
-            the 98th day?<br/>
+            of the 98th day?<br/>
             6. Why are the Jews brought to the town during this period?<br/>
             7. Death presents the image of Michael Holtzapfel on July 24th as a "pendulum, another clock stopped."
             Identify and explain the figurative language.<br/>
-            8. What does Death learn about Michael's death from <i> <i> The Book Thief</i></i>? Who gives the news
-            to
+            8. What does Death learn about Michael's death from <i> <i> The Book Thief</i></i>? Who gives the news to
             his mother? <br/>
           </p>
           <textarea className="textArea" onChange={onChangela8Listener96} value={la8Essay96}/>
@@ -3185,9 +3185,8 @@ const LA8Component = ({ data }) => {
           <p> Read <i> The War Maker and Way of Words </i><br/>
             1. What does Death reveal in regards to the war and the situation in Germany?<br/>
             2. How does Liesel try to identify Max in the parade of Jews? <br/>
-            Way of Words<br/>
-            3.How does Liesel reach out to Max a second time she runs into him in the parade? What is the
-            outcome?<br/>
+            <i> Way of Words</i><br/>
+            3.How does Liesel reach out to Max a second time she runs into him in the parade? What is the outcome?<br/>
             4. Why does Max think it's a great day to die?<br/>
             5. Analyze Rudy's action in regards to Liesel and his relationship. <br/>
             <strong>Vocabulary</strong><br/>
@@ -3205,7 +3204,7 @@ const LA8Component = ({ data }) => {
             1. Where does Rudy go after seeing Max? In what ways does Liesel demonstrate her supreme trsut in
             Rudy?<br/>
             2. Clarify the irony in what Liesel wants from Rudy.<br/>
-            Ilsa Hermann's Little Black Book<br/>
+            <i> Ilsa Hermann's Little Black Book</i><br/>
             3. Where does Liesel go to rejuvenate in mid August? What act of vandalism does she commit?<br/>
             4. What does Liesel leave for Frau Hermann? How has the power of words changed Liesel?<br/>
             5. Describe the scene when Frau Hermann comes to visit Liesel at 33 Himmel Street.<br/>
@@ -3221,13 +3220,12 @@ const LA8Component = ({ data }) => {
           <p> Read <i> The Rib Cage Planes and The End of the World (Part II)</i><br/>
             1. How has the content of the bold sections changed in this chapter?<br/>
             2. What literary device does Liesel use to describe Papa?<br/>
-            The End of the World (Part II)<br/>
+            <i> The End of the World (Part II)</i><br/>
             3. Why is Death telling the story of <i> The Book Thief</i>?<br/>
             4. Describe the sequence of event the night of the air raid.<br/>
             5. Why does Death provide a detailed description of collecting the souls on Himmel Street?<br/>
             6. Characterize Death by his ironic memories of life.<br/>
-            7. Death stresses the good things Rosa's has done in her life because __________________. What does
-            Liesel
+            7. Death stresses the good things Rosa's has done in her life because __________________. What does Liesel
             say to Rosa?<br/>
             8. Describe the scene when Liesel sees Rudy's body.<br/>
             9. What metaphor does Death offer for Han's body? When Liesel is finally able to look at Hans, what
@@ -3245,7 +3243,7 @@ const LA8Component = ({ data }) => {
 
           <span className="days">LESSON 100 </span>
           <p> Read <i> Epilogue: The Last Color </i><br/>
-            Death and Liesel, Wood in the Afternoon, Max, and The Handover Man<br/>
+            <i> Death and Liesel, Wood in the Afternoon, Max, and The Handover Man</i><br/>
             1. Explain Liesel's life. Describe her passing.<br/>
             2. Whom does Liesel live with after the bombing? Explain the connection with Alex Steiner. <br/>
             3. Alex Steiner regrets what? Why?<br/>
@@ -3262,9 +3260,9 @@ const LA8Component = ({ data }) => {
 
           <span className="days">LESSON 101 </span>
           <p> DEEPER THINKING ABOUT <i> The Book Thief</i><br/>
-            1. What was the author's purpose behind choosing Death as a narrator? Is this a trustworthy narrator?
+            1. Why do you think the author chose Death as a narrator? Is this a trustworthy narrator?
             How does Death see things that a human narrator might not?<br/>
-            2. In the opening of the book when Liesel steals her first book, The Gravedigger's Handbook, this
+            2. In the opening of the book when Liesel steals her first book, <i>The Gravedigger's Handbook,</i> this
             event
             can be thought of as the first of many turning points for her. What are some of the others? Talk about
             two other major characters and what their turning points are, as well as turning points for the
@@ -3287,8 +3285,8 @@ const LA8Component = ({ data }) => {
             inclusion of these acts?<br/>
             10. Who has power in this book? How does Liesel gain power, and how does Max? Toward the end of the
             novel Liesel remarks to herself that words give power. How so?<br/>
-            11. Discuss the meaning of Max painting over Mein Kampf. What is he able to express by doing this and
-            by drawing over it, that he cannot convey in person?<br/>
+            11. What is the meaning behind Max painting over Mein Kampf? What is he able to express by doing this and
+            by drawing over it?<br/>
           </p>
           <textarea className="textArea" onChange={onChangela8Listener101} value={la8Essay101}/>
 
@@ -3296,15 +3294,18 @@ const LA8Component = ({ data }) => {
           <h4>Create a new book cover design for <i> The Book Thief</i>. </h4>
           <p>A book cover/jacket often helps a person decide if they will buy a book. Think about the impression
             you want the images, colors and text to create for viewers. Create a cover for <i> The Book Thief</i> that
-            gives viewers a glimpse of the content and mood of the book. You can use whatever medium you choose:
-            collage, paper and markers, or <a href="https://www.canva.com/create/book-covers/" rel='noreferrer'
-                                              target="_blank"> Canva's online book cover creation tool. </a>You
+            gives viewers a glimpse of the content and mood of the book. You can use whatever medium you choose,
+            including:
+            collage, Photoshop, paper and markers, or <a href="https://www.canva.com/create/book-covers/"
+                                                         rel='noreferrer'
+                                                         target="_blank"> Canva's online book cover creation tool. </a>You
             choose how you want to design it. Your cover should
             include:<br/>
             1. A clear title and the author's name. <br/>
             2. A graphic design that reflects the book's theme. <br/>
             3. A summary of the plot without giving away the ending. <br/>
-            4. A review (your opinion) about the book. <br/>
+            4. A review (your opinion) about the book. Your summary and review should be 5-6 paragraphs and
+            can be written in the textbox below.<br/>
             <br/></p>
           <textarea className="textArea" onChange={onChangela8Listener102} value={la8Essay102}/>
 
@@ -3315,9 +3316,12 @@ const LA8Component = ({ data }) => {
             But what could I tell her about those things that she didn't already know? I wanted to ask her how the
             same thing could be so ugly and so glorious, and its words and stories so damning and brilliant." </i>
           </p>
-          <p className="topBottom">In a five
-            paragraph essay, discuss how beauty is revealed in the story, even in the midst of so much
-            brutality.</p>
+          <p className="topBottom"><strong>In a five paragraph essay, discuss how beauty and kindness are revealed in
+            the story, even in the midst of so much
+            brutality.</strong></p>
+          <p className="topBottom">Your introduction paragraph should give a short overview or summary of the main
+            points your essay will address.
+            Start with a hook to grab your reader’s attention.</p>
           <p className="topBottom">For your three supporting paragraphs (paragraphs 2, 3 and 4), use three different
             examples of kindnesses
             shown or beautiful moments shared between characters. </p>
@@ -3331,11 +3335,11 @@ const LA8Component = ({ data }) => {
 
           <span className="days">LESSON 104 </span>
           <p className="margin-para"> Complete all assignments listed below for this unit (readings, videos and
-            practice). <br/> Write a brief summary of what you learned in the textbox below. <br/> <a
+            practice). <br/> Write a brief summary of what you learned in the textbox below. <br/>
+            <a
               href="https://www.khanacademy.org/ela/cc-8th-reading-vocab/xe1f784c7c84e84fc:cc-8th-crossing-the-line/xe1f784c7c84e84fc:untitled-58/a/welcome-to-the-crossing-the-line-unit"
-              rel="noreferrer" target="_blank"> </a>
+              rel="noreferrer" target="_blank"> Building knowledge: Crossing the Line</a>
             <ul className="assnList">
-              <h4>Building knowledge: Crossing the Line</h4>
               <li>Welcome to the Crossing the Line unit!</li>
               <li>Crossing the Line: unit vocabulary</li>
             </ul>
@@ -3353,11 +3357,11 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener104} value={la8Essay104}/>
 
           <span className="days">LESSON 105 </span>
-          <h4>Close reading: fiction: Crossing the Line</h4>
           <p className="margin-para"> Complete all assignments listed below for this unit (readings, videos and
             practice). <br/> Write a brief summary of what you learned in the textbox below. <br/> <a
               href="https://www.khanacademy.org/ela/cc-8th-reading-vocab/xe1f784c7c84e84fc:cc-8th-crossing-the-line/xe1f784c7c84e84fc:close-reading-realistic-fiction/v/citing-evidence-in-literary-analysis-reading"
-              rel="noreferrer" target="_blank"> </a>
+              rel="noreferrer" target="_blank"> Close reading: fiction: Crossing the Line
+            </a>
             <ul className="assnList">
               <li>Citing evidence in literary analysis | Reading</li>
               <li>Making objective summaries of literary texts | Reading</li>
@@ -3415,12 +3419,12 @@ const LA8Component = ({ data }) => {
             the great price his community pays for such perfection. This book is available at your local library
             or can be purchased online. Until you get a copy, the <a
               href={require("../resources/books/TheGiverChapter1.pdf")} rel="noreferrer"
-              target="_blank"> first chapter of the Giver is posted here</a> as a PDF.</p>
-          <img src={require("../../public/images/bookCovers/giver.jpg")} alt="The Giver novel"/><br/>
+              target="_blank"> first chapter of <i> The Giver</i> is posted here as a PDF.
+              <img src={require("../../public/images/bookCovers/giver.jpg")} alt="The Giver novel"/></a></p><br/>
 
           <p>Read Chapter 1 of <i>The Giver.</i> Then, answer the questions and complete the vocabulary assignment
             below. Be sure to use complete sentences.</p>
-          <p>1. Why might the people in The Giver be afraid of a plane flying over the community?<br/>
+          <p>1. Why might the people in <i> The Giver</i> be afraid of a plane flying over the community?<br/>
             2. Who is Asher?<br/>
             3. What is one way Asher is different than Jonas?<br/>
             4. Is making students apologize and explain their actions a good idea?<br/>
@@ -3496,8 +3500,8 @@ const LA8Component = ({ data }) => {
             Why?<br/>
             2. How are "Stirrings" treated?<br/>
             3. Who else that Jonas knows seem to have "Stirrings"?<br/>
-            4. Do you agree with Jonas’s thought, "Always better, less rude, to talk about things that were the
-            same"?<br/>
+            4. Jonas thought, "Always better, less rude, to talk about things that were the
+            same"? Do you agree?<br/>
             5. What does the treatment for the "Stirrings" do?<br/>
             6. Why was Jonas embarrassed about telling his dream?<br/>
             7. How important is sameness in Jonas’s community?<br/>
@@ -3526,8 +3530,7 @@ const LA8Component = ({ data }) => {
             10. Why might this committee only have elders on it?<br/>
             11. All the members of Jonas’s family had to sign a pledge that they would not become attached to the
             new child, Gabe. Do you think it’s possible to keep such a promise?<br/>
-            12. What do you think of how families in Jonas’s community are
-            formed?<br/>
+            12. What do you think of how families in Jonas’s community are formed?<br/>
             <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             1. buoyancy<br/>
@@ -3579,14 +3582,13 @@ const LA8Component = ({ data }) => {
           <span className="days">LESSON 115 </span>
           <p>Read Chapter 8 of <i>The Giver.</i><br/>
             1. How would it feel to have people apologize every time they made you uncomfortable?<br/>
+            1. How would it feel to have people apologize every time they made you uncomfortable?<br/>
             2. How would you feel if you had to apologize every time you made someone uncomfortable?<br/>
             3. What are the five attributes needed to be a Receiver of Memory?<br/>
             4. Why might the Receiver of Memory be the most important Elder?<br/>
             5. What does the fact that no one in the community has felt pain (other than scraped knees and similar
             minor issues) tell us about the community?<br/>
-            6. What do you think Jonas’s Capacity to See Beyond is?<br/>
-            7. Would you rather be selected, as Jonas was, or assigned, as
-            his groupmates were?<br/>
+            6. Would you rather be selected, as Jonas was, or assigned, as his groupmates were?<br/>
             <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             1. anticipation<br/>
@@ -3603,13 +3605,14 @@ const LA8Component = ({ data }) => {
             2. What does mean when a name is designated "Not-To-Be-Spoken"?<br/>
             3. According to Jonas’s parents, what happened to the previous Receiver-in-Training?<br/>
             4. In Jonas’s directions for being Receiver, what do rules 4 and 5 tell us about this job? You can go
-            back to the book to find the answer.
-            5. In Jonas’s directions for being Receiver, what does rule 7 tell us about this job?<br/>
+            back to the book to find the answer.<br/>
+            5. What does rule 7 tell us about Jonas' job?<br/>
             6. In Jonas’s directions for being Receiver, what do rule 8 tell us about this job?<br/>
             7. Why is Jonas unnerved by rule 8 as he thinks about it more?<br/>
             8. Jonas tells himself several times that things can’t change between him and his best friend, Asher. Do
             you think they can? Do you think they will?<br/>
-            9. Why does Jonas find the final rule in his instructions, "You may lie," so unsettling?<br/>
+            9. There are several rules for Jonas to follow in his instructions. Why does he find the final rule, "You
+            may lie," so unsettling?<br/>
             <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             1. annex<br/>
@@ -3634,13 +3637,13 @@ const LA8Component = ({ data }) => {
           <span className="days">LESSON 117 </span>
           <p>Read Chapter 10 of <i>The Giver.</i><br/>
             1. What does the fact that Jonas has never seen a locked door before tell us about his community?<br/>
-            2. What doesthe fact that Jonas’s dwelling is basically identical toall other community members’
+            2. What does the fact that Jonas’s dwelling is basically identical to all other community members’
             dwellings tell us about the community?<br/>
             3. What are some of the differences between Jonas’s dwelling and that of the Receiver?<br/>
             4. Why would the Receiver have a different dwelling than the rest of the community?<br/>
             5. What does the Receiver look like?<br/>
             6. What is the job of the Receiver?<br/>
-            7. What does the fact that Jonas doesn’t know what "downhill" mean about where he lives
+            7. What does the fact that Jonas doesn’t know what "downhill" mean about where he lives.<br/>
             8. What do you think it means to live in a place where no doors are ever locked?<br/>
             9. Jonas says, "I thought there was only us. I thought there was only now. " Do you think that’s a good
             way to live?<br/>
@@ -3688,8 +3691,9 @@ const LA8Component = ({ data }) => {
             4. From the descriptions we’ve had so far, Jonas’s world seems ideal –there is plenty of food for
             everyone, everyone gets along, people learn well and have jobs doing things they like and are good at.
             Do you agree with Jonas that those things are not worth the price of losing colors?<br/>
-            5. Imagine a world without color. What color would you miss most?<br/>
-            6. What value, if any, is there to Sameness?<br/>
+            5. Imagine a world without color. How would that make you feel?<br/>
+            6. If you could hang on to only one color for the rest of your life, what color would you choose?<br/>
+            7. Do you think there is value to Sameness? Explain why or why not.<br/>
             <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             1. admonition<br/>
@@ -3709,17 +3713,17 @@ const LA8Component = ({ data }) => {
             1. What is Jonas’s reasoning for why not being able to see colors is not fair?<br/>
             2. What is Sameness supposed to prevent?<br/>
             3. What memory changes Jonas’s "perception of the color he knew as red"?<br/>
-            4. How (andhow often) does <i> The Giver</i>assist the Council of Elders?<br/>
+            4. How does the Giver assist the Council of Elders?<br/>
             5. Is it important for people to get advice from others who have more knowledge? Why?<br/>
             6. If you could stop things from changing, would you? Why or why not?<br/>
             7. What happens to the memories if the Receiver doesn’t have them?<br/>
-            8. What does <i> The Giver</i>mean when he says the instructors "know nothing"?<br/>
-            9. <i> The Giver</i>is clearly hurt by some memories. Can memories hurt you?<br/>
+            8. What does the Giver mean when he says the instructors "know nothing"?<br/>
+            9. The Giver is clearly hurt by some memories. Can memories hurt you?<br/>
             10. Why hasn’t Jonas been hurt by the memories yet?<br/>
             11. Do you agree with Jonas that people have to be protected from wrong choices?<br/>
             12. As Jonas continues his training, he often finds himself angry with his groupmates and his family.
             Why?<br/>
-            13. <i> The Giver</i>says that without memories, knowledge is meaningless. What does he mean?<br/>
+            13. The Giver says that without memories, knowledge is meaningless. What does he mean?<br/>
             <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             1. anguished<br/>
@@ -3737,14 +3741,14 @@ const LA8Component = ({ data }) => {
           <span className="days">LESSON 121 </span>
           <p>Read Chapter 14 of <i>The Giver.</i><br/>
             1. What is different about this memory of riding a sled?<br/>
-            2. Why might <i> The Giver</i>not allow Jonas a pain reliever?<br/>
+            2. Why might the Giver not allow Jonas a pain reliever?<br/>
             3. Why does Jonas’s pain cause him to feel lonely?<br/>
             4. Does feeling pain lead to wisdom? How?<br/>
             5. What was one of the decisions the Giver’s wisdom helped him make?<br/>
             6. What are two similarities between Jonas and Gabriel? <br/>
             7. Do you think Jonas’s decision to not tell what he had done was a good one? Why or why not?<br/>
-            7. Do you agree that painful memories are made easier when they are shared?<br/>
-            8. Do you think it’s fair that one person in the community—The Receiver—should have to be burdened and
+            8. Do you agree that painful memories are made easier when they are shared?<br/>
+            9. Do you think it’s fair that one person in the community—The Receiver—should have to be burdened and
             pained by memories so that no one else is?<br/>
             <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
@@ -3767,9 +3771,9 @@ const LA8Component = ({ data }) => {
           <span className="days">LESSON 122 </span>
           <p>Read Chapter 15 of <i>The Giver.</i><br/>
             1. How does Jonas help the Giver?<br/>
-            2. How did <i> The Giver</i>feel after Jonas helped him?<br/>
-            3. Why does <i> The Giver</i>feel that way?<br/>
-            4. Why do you think <i> The Giver</i>asks Jonas to forgive him?<br/>
+            2. How did the Giver feel after Jonas helped him?<br/>
+            3. Why does the Giver feel that way?<br/>
+            4. Why do you think the Giver asks Jonas to forgive him?<br/>
             <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             1. annex<br/>
@@ -3794,7 +3798,7 @@ const LA8Component = ({ data }) => {
             6. What is Jonas’s first lie to his parents?<br/>
             7. When Jonas gets the memories of colors, he starts to be able to see colors all around him. What will
             probably happen after Jonas gets the memory of feeling love?<br/>
-            8. <i> The Giver</i>gives Jonas many good memories. What are some of your best memories?<br/>
+            8. The Giver gives Jonas many good memories. What are some of your best memories?<br/>
             9. Do you think the elderly should be part of the community, or separate, as in Jonas’s community?<br/>
             10. Do you think Jonas’s parents love him? Do you think they know what love is?<br/>
             11. Do you agree with Jonas that things could be different? How?<br/>
@@ -3837,10 +3841,10 @@ const LA8Component = ({ data }) => {
           <p>Read Chapter 18 of <i>The Giver.</i><br/>
             1. Why did Rosemary request release?<br/>
             2. How did Rosemary’s release affect the community?<br/>
-            3. Why might <i> The Giver</i>have been angry about Rosemary’s release?<br/>
+            3. Why might the Giver have been angry about Rosemary’s release?<br/>
             4. Why is it now a rule that Receivers can’t ask for release?<br/>
             5. Do you think Rosemary sounds like she was or wasn’t brave?<br/>
-            6. Why did <i> The Giver</i>seem distracted after telling Jonas to stay away from the river?<br/>
+            6. Why did the Giver seem distracted after telling Jonas to stay away from the river?<br/>
             <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             1. dejected<br/>
@@ -3852,13 +3856,13 @@ const LA8Component = ({ data }) => {
           <span className="days">LESSON 126 </span>
           <p>Read Chapter 19 of <i>The Giver.</i><br/>
             1. What happens when someone is released?<br/>
-            2. A euphemism is when people use a gentler word or phrase in place of a harder word or phrase ("tossing
-            your cookies" instead of "throwing up" or "vomiting"). Why might the community use the euphemism
-            "released"?<br/>
+            2. A euphemism is when someone uses a mild word or phrase in place of a harsh word or phrase ("the
+            company let him go" instead of "the company fired him"). Why might the community use the euphemism
+            "released"?
+            What do you think about someone being "released"?<br/>
             3. Was Rosemary brave? Why or why not?<br/>
-            4. What do you think of what Jonas’s community calls "release"?<br/>
-            5. Were you surprised at what it was?<br/>
-            6. How do you think this new knowledge will affect Jonas?<br/>
+            4. Were you surprised at what "release" was?<br/>
+            5. How do you think this new knowledge will affect Jonas?<br/>
             <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             1. chute<br/>
@@ -3869,17 +3873,17 @@ const LA8Component = ({ data }) => {
           <span className="days">LESSON 127 </span>
           <p>Read Chapter 20 of <i>The Giver.</i><br/>
             1. Why doesn’t Jonas want to go home?<br/>
-            2. Why won’t <i> The Giver</i>go with Jonas?<br/>
-            3. <i> The Giver</i>didn’t see beyond; he heard beyond. What was he able to hear that no one else
+            2. Why won’t the Giver go with Jonas?<br/>
+            3. The Giver didn’t see beyond; he heard beyond. What was he able to hear that no one else
             could?<br/>
             4. When Jonas leaves, why won’t his parents talk to other people about it at first?<br/>
             5. Why is Jonas supposed to leave his clothes by the river?<br/>
-            6. Who is The Giver’s daughter?<br/>
-            7. What is <i> The Giver</i>planning on doing after he has helped the community bear the memories?<br/>
+            6. Who is the Giver’s daughter?<br/>
+            7. What is the Giver planning on doing after he has helped the community bear the memories?<br/>
             8. What are some reasons for the Giver’s plans for himself after he has helped the community?<br/>
             9. Jonas knows that if his plan fails, he could be killed. But he believes that if he stays, his life is
             no longer worth living. Do you agree?<br/>
-            10. Do you think <i> The Giver</i>should go with Jonas or stay? Why?<br/>
+            10. Do you think the Giver should go with Jonas or stay? Why?<br/>
             <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             1. acquire<br/>
@@ -3896,11 +3900,11 @@ const LA8Component = ({ data }) => {
             3. Why did Jonas steal his father’s bike?<br/>
             4. How does Jonas use his memories of snow?<br/>
             5. No matter how long it has been since Jonas left, planes can move faster than bikes. Still, the planes
-            give up their search. How might the plan Jonas and <i> The Giver</i>came up with be connected to how
+            give up their search. How might the plan Jonas and the Giver came up with be connected to how
             long the planes searched?<br/>
             6. How does Jonas show that he understands that the meaning of everything is to care about others?<br/>
-            7. How do you think <i> The Giver</i>will feel when he realizes Jonas is gone? How will Jonas’s friends
-            and family feel?<br/>
+            7. How do you think the Giver will feel when he realizes Jonas is gone? How do you think Jonas’s friends
+            and family will feel?<br/>
             8. Why is the community so desperate to get Jonas back?<br/>
             <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
@@ -3953,7 +3957,7 @@ const LA8Component = ({ data }) => {
             4. How does Jonas use memories to help him struggle up the hill? What do you think the author is trying
             to say about the importance of good memories in helping us achieve our goals?<br/>
             5. Although most of the memories have left Jonas, the feelings have not. Why do you think that is?<br/>
-            6. How do you think the story ends?<br/>
+            6. What do you think happens to Jonas and Gabe at the end of the story?<br/>
             <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
             1. crested<br/>
@@ -3969,47 +3973,45 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener130} value={la8Essay130}/>
 
           <span className="days">LESSON 131 </span>
-          <h4>Deeper Thinking: The Giver</h4>
+          <h4>Deeper Thinking: <i>The Giver</i></h4>
           <p>1. Families have a huge impact on how children grow up. Sometimes adults are not good parents and hurt
             their children’s development; other times, adults might be good parents, but their children need more
             time or attention than the parents can provide. Should children be raised by people other than their
             biological parents if the biological parents aren’t willing or able to raise the children well?<br/>
-            2. What might be positive about creating Sameness, where humans remove all things that were unexpected,
-            inconvenient, and unusual from life? What might be negative?<br/>
-            3. The word "utopia" means a place where everything is perfect. In what ways is the utopia of <i> The
-              Giver</i> perfect?<br/>
-            4. In what ways is the utopia of <i> The Giver </i>something different than perfect?<br/>
-            5. Do the needs of the many outweigh the needs of the few? Why or why not?<br/>
-            6. In order to change plans suddenly and sneak away from the community with Gabriel, Jonas must have
+            2. The word "utopia" means a place where everything is perfect. In what ways is the utopia of <i> The
+              Giver </i> perfect?<br/>
+            3. In what ways is the utopia of <i> The Giver</i> something different than perfect?<br/>
+            4. Do the needs of the many outweigh the needs of the few? Why or why not?<br/>
+            5. In order to change plans suddenly and sneak away from the community with Gabriel, Jonas must have
             learned many new values during his time with the Giver. What were some of the things Jonas learned? Give
             examples. <br/>
-            7. Why did Lois Lowry leave the ending of the story ambiguous?<br/>
+            6. It's not clear what happens to Jonas and Gabe at the end. Why do you think the author, Lois Lowry, left
+            the ending of the story ambiguous (<i>unclear; open to more than one interpretation</i>)?<br/>
           </p>
           <textarea className="textArea" onChange={onChangela8Listener131} value={la8Essay131}/>
 
           <span className="days">LESSON 132 </span>
           <h4> Thinking about the plot: The Giver</h4>
-          <p> 1. In what ways did Jonas’s world seem perfect?<br/>
-            2. What advantages might "Sameness" have for today’s communities?
-            3. What were some of the things missing from Jonas’s world?<br/>
-            4. What are some of the reasons that Jonas felt he had to run away?<br/>
+          <p> 1. What advantages might "Sameness" have for today’s communities?<br/>
+            2. What were some of the things missing from Jonas’s world?<br/>
+            3. What are some reasons Jonas felt he had to run away?<br/>
           </p>
           <textarea className="textArea" onChange={onChangela8Listener132} value={la8Essay132}/>
 
           <span className="days">LESSON 133 </span>
-          <p> Thinking about the setting: The Giver<br/>
+          <p> Thinking about the SETTING: The Giver<br/>
             1. Does <i> The Giver </i>take place anywhere that’s familiar to you?<br/>
             2. When does <i> The Giver </i>take place?<br/>
             3. What first told you that <i> The Giver </i>takes place in a very different culture and time?<br/>
+            4. Describe the setting at the end of the story when Jonas and Gabe have gotten away. How was it
+            different?<br/>
           </p>
           <textarea className="textArea" onChange={onChangela8Listener133} value={la8Essay133}/>
 
           <span className="days">LESSON 134 </span>
-          <p><strong>Create a New Ending</strong> for <i> The Giver </i> where you tell readers what happened to Jonas
-            and
-            Gabe.
-            The author left the conclusion of the story ambiguous; it wasn’t clear what happened them. Rewrite
-            the ending of <i>The Giver </i>with at least of 5 paragraphs.
+          <p><strong>Create a New Ending for <i> The Giver </i> </strong> in which you tell readers what happened to Jonas
+            and Gabe. The author left the conclusion of the story ambiguous. Rewrite the ending 
+            making it clear how the story ends. (4 - 5 paragraphs).
           </p>
           <textarea className="textArea" onChange={onChangela8Listener134} value={la8Essay134}/>
 
@@ -4034,8 +4036,8 @@ const LA8Component = ({ data }) => {
           <span className="days">LESSON 136 </span>
           <p> Thinking about the characters: The Giver<br/>
             1. Who would you rather have for a friend, Jonas or Asher? Why?<br/>
-            2. Do you think <i> The Giver </i>would be a good grandfather? Why or why not?<br/>
-            3. Why is the relationship between Jonas and <i> The Giver </i>dangerous?<br/>
+            2. Do you think the Giver would be a good grandfather? Why or why not?<br/>
+            3. Why is the relationship between Jonas and the Giver dangerous?<br/>
             4. What does Gabe represent at the end of this book?<br/>
             5. How can Jonas’s father be so fond of children and still perform releases?<br/>
             6. Who is your least favorite character? Why?<br/>
@@ -4049,8 +4051,8 @@ const LA8Component = ({ data }) => {
             2. How does <i> The Giver </i>compare to other books you have really enjoyed?<br/>
             3. How does the subject of censorship relate to the theme of The Giver?<br/>
             4. What do you think the leaders in Jonas’s community would say about censorship?<br/>
-            5. What would Jonas and <i> The Giver </i>say?<br/>
-            6. How do you imagine <i> The Giver </i>ends?<br/>
+            5. What would Jonas and the Giver say?<br/>
+            6. How do you imagine <i> The Giver</i> ends?<br/>
             7. Would you like to see the ending more spelled out? Why or why not?<br/>
           </p>
           <textarea className="textArea" onChange={onChangela8Listener137} value={la8Essay137}/>
@@ -4066,7 +4068,8 @@ const LA8Component = ({ data }) => {
             1. A clear title and the author’s name. <br/>
             2. A graphic design that reflects the books themes. <br/>
             3. A summary of the plot without giving away the ending. <br/>
-            4. A review (your opinion) about the book. <br/>
+            4. A review (your opinion) about the book. Your summary and review should be 5-6 paragraphs and
+            can be written in the textbox below.<br/>
           </p>
           <textarea className="textArea" onChange={onChangela8Listener138} value={la8Essay138}/>
 
@@ -4724,7 +4727,7 @@ const LA8Component = ({ data }) => {
             <li> To what extent was Emily Dickinson the eccentric recluse she is often portrayed as being?</li>
             <li> Describe some of the reasons that Dickinson did not gain fame as a poet during her lifetime.</li>
             <li>What did you think of the poem "Hope" is the Thing with Feathers? If you had to summarize it for someone
-              who has never read it, what wouduld you say?
+              who has never read it, what would you say?
             </li>
             <li>In the poem "Hope" what do you think these lines mean: <i>Yet - never - in Extremity, It asked a crumb -
               of me. </i></li>
@@ -4913,7 +4916,7 @@ const LA8Component = ({ data }) => {
               <li> What has the narrator always been fascinated by? Why did this annoy his mother?</li>
               <li> Who is the narrator’s best friend? How is his best friend described?</li>
               <li> Why was Mr Dalton angry with Darren and how did Steve calm Mr Dalton down?</li>
-              <li> What was the bad news Steve told the group of friends and how do you think theywould feel about
+              <li> What was the bad news Steve told the group of friends and how do you think they would feel about
                 this?
               </li>
               <li> Describe a friend you've had, who like Steve, drove you to like them because of their
@@ -5254,7 +5257,7 @@ const LA8Component = ({ data }) => {
             way the plot will develop and must solve a problem or solve a mystery. </p>
           <p className="topBottom">Supporting characters are also important because they often help the main
             character or serve as their enemy, creating obstacles. It’s your job to get the readers to feel
-            something for all of your characters; like them, hate them, root for them, feel devasted when they are
+            something for all of your characters; like them, hate them, root for them, feel devastated when they are
             harmed and happy when they triumph.</p>
           <p className="topBottom">You can print out the <a
             href={require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story
