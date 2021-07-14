@@ -878,16 +878,12 @@ const LA8Component = ({ data }) => {
             alone. Examples: The cat is out of the bag. Stop beating around the bush. <br/>Someone visiting from
             another country would not understand these phrases without someone explaining the meaning.</p>
 
-          <p className="topBottom"><strong>Similes </strong>make comparisons between two unrelated elements by using
-            'like' or
-            'as' to highlight a
+          <p className="topBottom"><strong>Similes </strong>make comparisons between two unrelated elements by using 'like' or 'as' to highlight a
             common quality both things share. Examples: Her eyes shone like diamonds. He was as strong as a horse.
           </p>
 
-          <p className="topBottom">A <strong>metaphor</strong> makes a comparison between two unrelated things by
-            stating one
-            thing is the other
-            thing. Example: Life is a rollercoaster.</p>
+          <p className="topBottom"><strong>Metaphors</strong> make comparisons between two unrelated things by
+            stating one thing <i>is</i> the other thing. Example: Life is a rollercoaster.</p>
 
           <p className="topBottom"><strong>Oxymorons </strong>combine two opposing elements into a single phrase to be
             thought
@@ -4009,9 +4005,10 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener133} value={la8Essay133}/>
 
           <span className="days">LESSON 134 </span>
-          <p><strong>Create a New Ending for <i> The Giver </i> </strong> in which you tell readers what happened to Jonas
-            and Gabe. The author left the conclusion of the story ambiguous. Rewrite the ending 
-            making it clear how the story ends. (4 - 5 paragraphs).
+          <p><strong>Create a New Ending for <i> The Giver </i> </strong> in which you tell readers what happened to
+            Jonas
+            and Gabe. The author left the conclusion of the story ambiguous. Rewrite the ending
+            making it clear how the story ends. (4 - 5 paragraphs)
           </p>
           <textarea className="textArea" onChange={onChangela8Listener134} value={la8Essay134}/>
 
@@ -4022,11 +4019,10 @@ const LA8Component = ({ data }) => {
             1. What do <i>you</i> think is the most important theme in The Giver?<br/>
             2. How much would you be willing to give up to live in a safe and secure world? Would you give up as
             much as the people in Jonas’s community?<br/>
-            3. When you read the final rule in his instructions, "You may lie," how did you feel about this? If you
+            3. When you read the final rule in Jonas's instructions, "You may lie," how did you feel about this? If you
             took a job at a company, and they told you that lying to people about your work and what you did was
             advisable, how would you react?<br/>
-            4. What are the good and bad things about Jonas’s family?<br/>
-            5. There are groups in the United States today that actively seek to maintain an identity outside the
+            4. There are groups in the United States today that actively seek to maintain an identity outside the
             mainstream culture: the Amish, the Mennonites, Native American tribes and the Hasidic Jewish community.
             What benefits do these groups expect from defining themselves as "other"? What are the disadvantages?
             How does the mainstream culture put pressure on such groups? <br/>
@@ -4034,7 +4030,7 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener135} value={la8Essay135}/>
 
           <span className="days">LESSON 136 </span>
-          <p> Thinking about the characters: The Giver<br/>
+          <p> Thinking about the characters: <i>The Giver</i><br/>
             1. Who would you rather have for a friend, Jonas or Asher? Why?<br/>
             2. Do you think the Giver would be a good grandfather? Why or why not?<br/>
             3. Why is the relationship between Jonas and the Giver dangerous?<br/>
@@ -4047,9 +4043,13 @@ const LA8Component = ({ data }) => {
 
           <span className="days">LESSON 137 </span>
           <p> Thinking about the success of<i> The Giver </i><br/>
-            1. Do you think that <i> The Giver </i>seems like an award-winning book?<br/>
-            2. How does <i> The Giver </i>compare to other books you have really enjoyed?<br/>
-            3. How does the subject of censorship relate to the theme of The Giver?<br/>
+            1. <i>The Giver </i>is an award-winning book. Does this surprise you or do you think it is deserving of
+            awards? Explain.<br/>
+            2. How does <i> The Giver </i>compare to some of your favorite books?<br/>
+            3. Many schools have censored books like "Harry Potter", "To Kill A Mockingbird" and "The Adventures of
+            Huckleberry Finn".
+            Censorship means students are prohibited from reading them. How does the subject of censorship relate to the
+            theme of The Giver? Describe what things are censored and why you believe they are not allowed?<br/>
             4. What do you think the leaders in Jonas’s community would say about censorship?<br/>
             5. What would Jonas and the Giver say?<br/>
             6. How do you imagine <i> The Giver</i> ends?<br/>
@@ -4061,10 +4061,11 @@ const LA8Component = ({ data }) => {
           <p> Create a new book cover for The Giver. <br/>
             A book cover often helps a person decide if they will buy a book. Think about the impression you want
             the images, colors and text to create for viewers. Create a cover for <i> The Giver </i>that gives
-            viewers a glimpse of the content and mood of the book. You can use whatever medium you choose: collage,
-            paper and markers, or <a href="https://www.canva.com/create/book-covers/" rel='noreferrer'
-                                     target="_blank"> Canva’s online book cover creation tool. </a>You choose how
-            you want to design it. Your cover should include:
+            readers a glimpse of the content and mood of the book. You can use whatever medium you choose: collage,
+            paper and markers, Photoshop, or <a href="https://www.canva.com/create/book-covers/" rel='noreferrer'
+                                                target="_blank"> Canva’s online book cover creation tool. </a>You choose
+            how
+            you want to design it. Your cover should include:<br/>
             1. A clear title and the author’s name. <br/>
             2. A graphic design that reflects the books themes. <br/>
             3. A summary of the plot without giving away the ending. <br/>
@@ -4073,13 +4074,15 @@ const LA8Component = ({ data }) => {
           </p>
           <textarea className="textArea" onChange={onChangela8Listener138} value={la8Essay138}/>
 
-          <img src={require("../../public/images/poems/poetry.jpg")} alt="poetry"/>
+          <img src={require("../../public/images/poems/poetry.jpg")} alt="poetry"/><br/>
           <span className="days">LESSON 139 </span>
           <h4> What makes a poem … a poem?</h4>
-          <p>What exactly makes a poem … a poem? Poets themselves have struggled with this question, often using
+          <p className="topBottom">What exactly makes a poem … a poem? Poets themselves have struggled with this
+            question, often using
             metaphors to approximate a definition. Is a poem a little machine? A firework? An echo? A dream? </p>
-          <p> What makes a poem a poem is its ability to make the reader feel something. It may rhyme, but doesn’t
-            have to. Using few words, it creates a picture in the reader's mind and transports them to another place
+          <p className="topBottom"> What makes a poem a poem is its ability to make the reader feel something. It may
+            rhyme, but doesn’t have to. Using few words, it creates a picture in the reader's mind and transports them
+            to another place
             and time. </p>
           <Video videoUrl="https://www.youtube.com/embed/JwhouCNq-Fc"/>
           <ol className="vocab">
@@ -4094,16 +4097,30 @@ const LA8Component = ({ data }) => {
             <li> William Carlos Williams described poetry as a machine made of words. Lilian Moore described poetry
               as a firework. After watching the video, think of another metaphor that represents poetry well.
             </li>
-            <li> Find an example from a novel or short story that reads like poetry. What makes it sound poetic?
+            <li> Find an example from a novel or short story that reads like poetry. What makes it sound
+              poetic?
             </li>
           </ol>
+          <p style={{ fontSize: "90%", padding: "10px 25px" }}> For example, below are lines taken from Cormac
+            McCarthy's novel <i>"The Road"</i>:<br/>
+            <i>"He walked out in the gray light and stood and he saw for a brief moment the absolute truth of the
+              world. The cold relentless circling of the intestate earth. Darkness implacable. The blind dogs of the sun
+              in
+              their running. The crushing black vacuum of the universe. And somewhere two hunted animals trembling
+              like ground-foxes in their cover. Borrowed time and borrowed world and borrowed eyes with which to sorrow
+              it."</i></p>
+          <p style={{ fontSize: "90%", padding: "10px 25px" }}> The author creates imagery you can see and feel. He uses
+            similes to help create this imagery: <i>"two
+              hunted animals trembling like ground-foxes." </i> He uses alliteration (he repeats the "b" sound for
+            effect) in the line <i>"Borrowed time and borrowed world and borrowed eyes."</i></p>
+
           <textarea className="textArea" onChange={onChangela8Listener139} value={la8Essay139}/>
 
           <span className="days">LESSON 140 </span>
           <h4>The pleasure of poetic pattern</h4> <p>Humans are creatures of rhythm and repetition. From our breath
-          to our gait: rhythm is central to our experience, and often brings us pleasure. We can find pleasure in
-          the rhythm of a song, or even the rows of an orchard. Of course, too much repetition can also backfire.
-          David Silverstein describes what poetic repetition is and why it works.</p>
+          to our gait, rhythm is a part of how we experience many things, including the rhythm of a song. Of
+          course, too much repetition can also backfire. David Silverstein describes what poetic repetition is and why
+          it works.</p>
           <Video videoUrl="https://www.youtube.com/embed/URuMb15CWJs"/>
           <h4> Dr. Maya Angelou Recites Her Poem "Phenomenal Woman"</h4>
           <Video videoUrl="https://www.youtube.com/embed/VeFfhH83_RE"/>
@@ -4111,7 +4128,7 @@ const LA8Component = ({ data }) => {
             <li> We are creatures of repetition within our own bodies. Which bodily functions involve rhythm and
               repetition?
             </li>
-            <li> What is an example of repetition in language?</li>
+            <li> What is an example of repetition in language from Maya's Angelou's poem "Phenomenal Woman"?</li>
             <li> A repeated pattern of stressed syllables is known as what?</li>
             <li> What is the repetition of vowel sounds called.</li>
             <li> Think of song lyrics that employs repetition. What is the name of the song? How does the singer use
@@ -4120,15 +4137,16 @@ const LA8Component = ({ data }) => {
             <li> Have you noticed some lines/lyrics are more fun to sing along with than others? Does repetition of
               sound appear more or less in those lines/lyrics? If so, which kinds of repetition do they use?
             </li>
-            <li> Can you find a visual representation of repetition in your world? Maybe repeated rows of desks? Or
-              roads lined with trees? How might you capture that repetition in language, so someone might visualize
-              the patterns without physically seeing them?
+            <li> Can you find a visual representation of repetition in your world? Maybe repeated rows of flowers? Or
+              roads lined with trees? How would you capture that repetition in words, so someone could visualize
+              the patterns without actually seeing them?
             </li>
           </ol>
           <textarea className="textArea" onChange={onChangela8Listener140} value={la8Essay140}/>
 
           <span className="days">LESSON 141 </span>
-          <h4>The art of the metaphor</h4> <p>How do metaphors help us better understand the world? And, what makes
+          <h4>From TedEd: The art of the metaphor</h4> <p>How do metaphors help us better understand the world? And,
+          what makes
           a good metaphor? Explore these questions with writers like Langston Hughes and Carl Sandburg, who have
           mastered the art of bringing a scene or emotion to life.</p>
           <Video videoUrl="https://www.youtube.com/embed/A0edKgL9EgM"/>
@@ -4183,7 +4201,7 @@ const LA8Component = ({ data }) => {
             <li> What is a metaphor? Define it using your own words.</li>
             <li> What is a simile?</li>
             <li> "An elephant in the room" is a way of saying what?</li>
-            <li> How would you describe the mother in Langston Hughes' poem "Mother to Son"? What kind of life has
+            <li> How would you describe the mother in Langston Hughes's poem "Mother to Son"? What kind of life has
               she had?
             </li>
             <li> Why do you think poets enjoy using metaphors so much?</li>
@@ -4201,24 +4219,23 @@ const LA8Component = ({ data }) => {
           <p>BY MARY OLIVER (Read by Tom Hiddleston in video below)</p>
           <img src={require("../../public/images/poems/wildgeese.jpg")} alt="Wild Geese poem"/><br/>
           <Video videoUrl="https://www.youtube.com/embed/zIEXGgQi3T8"/>
+          <p>Based on the video "Become a slam poet in five steps":</p>
           <ol className="vocab">
-            <li className="poem"><i>Based on the video "Become a slam poet in five steps":</i> What is the yellow
-              paper Tyler is writing about?
-            </li>
+            <li className="poem">What is the yellow paper Tyler is writing about?</li>
             <li>What is Ms. Gayle's step 2?</li>
             <li>When Ms. Gayle says, "Cut the fat," what does she mean?</li>
             <li>Which step gets repeated?</li>
             <li>What is Tyler writing about?</li>
             <li>If you had to write a poem, what would it be about?</li>
-            <p>In Mary Oliver's poem <i>Wild Geese,</i> the poet demonstrates her understanding of people needing a
+            <p style={{ padding: "15px 30px 5px" }}>In Mary Oliver's poem <i>Wild Geese,</i> the poet demonstrates her
+              understanding of people needing a
               sense of purpose. She also understands how many people feel like they are an outsider. In simple
-              words, she encourages her readers to
-              look to nature for answers to life's questions. </p>
+              words, she encourages her readers to look to nature for answers to life's questions. </p>
             <li>How does the poem <i> Wild Geese </i> make you feel? (sad? hopeful? melancholy? Why?</li>
             <li> The poet uses words like "despair" and "lonely" and creates an image of someone walking on his/her
               knees. Is this poem hopeful or hopeless? Both at once? Or somewhere in between?
             </li>
-            <li> In <i>Wild Geese </i> what is the poet's message? What is she trying to convince us of? Are you
+            <li> In <i>Wild Geese, </i> what is the poet's message? What is she trying to convince us of? Are you
               convinced?
             </li>
           </ol>
@@ -4233,8 +4250,8 @@ const LA8Component = ({ data }) => {
             Sonnets, including <i>Shall I Compare Thee to a Summer’s Day.</i></p>
           <Video videoUrl="https://www.youtube.com/embed/I5lsuyUNu_4"/>
           <Video videoUrl="https://www.youtube.com/embed/bDpW1sHrBaU"/>
-          <ul>
-            <li> Shall I compare thee to a summer's day?</li>
+          <ul style={{ color: "#4f5979" }}>
+            <li><strong> Shall I compare thee to a summer's day?</strong></li>
             <li> Thou art more lovely and more temperate:</li>
             <li> Rough winds do shake the darling buds of May,</li>
             <li> Sometime too hot the eye of heaven shines,</li>
@@ -4248,6 +4265,7 @@ const LA8Component = ({ data }) => {
             <li> So long as men can breathe or eyes can see,</li>
             <li> So long lives this and this gives life to thee.</li>
           </ul>
+          <p className="topBottom"><strong>Questions</strong></p>
           <ol className="vocab">
             <li> What is the stress pattern of an iamb?</li>
             <li> (Fill in the blank) Iambic pentameter contains _____ feet, each of which contains _____
@@ -4272,7 +4290,8 @@ const LA8Component = ({ data }) => {
           <h4>Insults by Shakespeare</h4> <p>"You’re a fishmonger!" By taking a closer look at Shakespeare’s
           words–specifically his insults–we see why he is known as a master playwright whose works transcend time
           and appeal to audiences all over the world.</p>
-          <p> Along with writing some of most famous quotes in literature, Shakespeare’s insults, put-downs, and
+          <p className="topBottom"> Along with writing some of most famous quotes in literature, Shakespeare’s insults,
+            put-downs, and
             cussing were second to none. After you watch the video and read the poem below, answer the questions in
             the textbox below. </p>
           <Video videoUrl="https://www.youtube.com/embed/vdCjKH5IKJ8"/>
@@ -4341,7 +4360,7 @@ const LA8Component = ({ data }) => {
             sense of this massive text? Jill Dash shares everything you need to know to read Homer’s "Odyssey."</p>
           <Video videoUrl="https://www.youtube.com/embed/8Z9FQxcCAZ0"/>
           <Video videoUrl="https://www.youtube.com/embed/MS4jk5kavy4"/>
-          <h4>Based on the video <i>Everything you need to know to read Homer’s "Odyssey"</i></h4>
+          <p>Based on the video <i>Everything you need to know to read Homer’s "Odyssey"</i></p>
           <ol className="vocab">
             <li>When did the Greek alphabet first appear?</li>
             <li>What helped the rhapsodes remember and recite the poem?</li>
@@ -4357,7 +4376,7 @@ const LA8Component = ({ data }) => {
             <li>The oral tradition of "Iliad" and "Odyssey" make these stories cultural, communal, entertainment
               experiences. Since Homer’s time, in what ways has public, communal entertainment changed?
             </li>
-            <h4>Based on the video <i>A Long and Difficult Journey, or The Odyssey: Crash Course Literature</i></h4>
+            <p>Based on the video <i>A Long and Difficult Journey, or The Odyssey: Crash Course Literature</i></p>
             <li>What is an "Epic Poem"?</li>
             <li>Who is Telemachus?</li>
             <li>Who is Penelope?</li>
@@ -4386,7 +4405,7 @@ const LA8Component = ({ data }) => {
           come. Watch the video below and then answer the questions about Apollinaire.</p>
           <Video videoUrl="https://www.youtube.com/embed/YJ0x1YOuMwQ"/>
           <h4> Ocean of Earth </h4>
-          <ul>
+          <ul style={{ color: "#4f5979" }}>
             <li>by GUILLAUME APOLLINAIRE</li>
             <li className="poem">I have built a house in the middle of the Ocean</li>
             <li>Its windows are the rivers flowing from my eyes</li>
@@ -4409,10 +4428,11 @@ const LA8Component = ({ data }) => {
             <li>Around the house is this ocean that you know well</li>
             <li> And is never still</li>
           </ul>
+          <br/>
+          <p><strong>Questions</strong></p>
+          <p>Based on the video:</p>
           <ol className="vocab">
-            <li className="poem"><i>Based on the video:</i> Which new form of liberty does Apollinaire experiment
-              with in his poetry?
-            </li>
+            <li className="poem">Which new form of liberty does Apollinaire experiment with in his poetry?</li>
             <li> Which parts of the poem "Lettre Océan" could best be described as traditional poetry? Explain your
               answer.
             </li>
@@ -4426,7 +4446,8 @@ const LA8Component = ({ data }) => {
             <li> Which parts of the poem "Lettre-Océan" could best be described as traditional poetry? Explain your
               answer.
             </li>
-            <li><i>Based on the poem Ocean of Earth: What is the imagery in the poem? </i></li>
+            <p> Based on the poem <i>Ocean of Earth:</i></p>
+            <li>What is the imagery in the poem?</li>
             <li> What is the mood of the poem? (How does it make you feel?)</li>
             <li> What is the message of the poem?</li>
             <li> Were you intrigued by the title of the piece? Explain what you thought of it.</li>
@@ -4439,8 +4460,8 @@ const LA8Component = ({ data }) => {
           Whitman’s poem ‘A Noiseless Patient Spider’ with the help of three animators who each used a different
           animation style to bring this beautiful poem to life.</p>
           <Video videoUrl="https://www.youtube.com/embed/6jCw8ydqkrg"/>
-          <ul>
-            <h4>A Noiseless Patient Spider</h4>
+          <h4>A Noiseless Patient Spider</h4>
+          <ul style={{ color: "#4f5979" }}>
             <li>BY WALT WHITMAN</li>
             <li className="poem">A noiseless patient spider,</li>
             <li>I mark’d where on a little promontory it stood isolated,</li>
@@ -4454,6 +4475,7 @@ const LA8Component = ({ data }) => {
             <li>Till the bridge you will need be form’d, till the ductile anchor hold,</li>
             <li>Till the gossamer thread you fling catch somewhere, O my soul.</li>
           </ul>
+          <br/>
           <h4>Questions</h4>
           <ol className="vocab">
             <li>Whitman uses alliteration (the occurrence of the same letter or sound at the beginning of closely
@@ -4487,25 +4509,27 @@ const LA8Component = ({ data }) => {
 
           <span className="days">LESSON 148 </span>
           <h4>Robert Frost (1874- 1963)</h4>
-          <p>Robert Frost was an American poet known for his poems about life in New England’s countryside. When his
+          <p className="topBottom">Robert Frost was an American poet known for his poems about life in New England’s
+            countryside. When his
             father died in 1885, Frost and his sister lived with their grandparents while his mother pursued work as
             a teacher in the northeast. </p>
-          <p>After graduating high school, he briefly attended Dartmouth College but quit to pursue becoming a poet.
+          <p className="topBottom">After graduating high school, he briefly attended Dartmouth College but quit to
+            pursue becoming a poet.
             Until he was unable to earn money as a poet, he farmed and taught school. Shortly after getting married
             and starting a family, he moved to England and published collections of his poems. When he moved back to
             the United States three years later he was famous. </p>
           <h4>"The Road Not Taken" by Robert Frost</h4>
           <Video videoUrl="https://www.youtube.com/embed/yGB_K_xlHdI?list=PLJicmE8fK0Egxi0hgy5Tw-NFyLcpJ4bzJ"/>
-          <p>Analysis of Robert Frost's "The Road Not Taken" </p>
+          <p>Analysis of "The Road Not Taken" </p>
           <Video videoUrl="https://www.youtube.com/embed/fMcsadmTPoE"/>
-          <p>All-In for Allegory<br/>
+          <p><strong>All-In for Allegory</strong><br/>
             The Road Not Taken is an example of an allegory. An allegory is a story or poem that has two meanings: a
             literal meaning and a figurative one. </p>
           <Video videoUrl="https://www.youtube.com/embed/4IOsFCieGQA"/>
           Analysis of Fire and Ice
           <Video videoUrl="https://www.youtube.com/embed/p0YjUfmwBC0"/>
           <h4 className="topBottom">BY ROBERT FROST</h4>
-          <ul style={{ color: "#6e7693" }}>
+          <ul style={{ color: "#4f5979" }}>
             <li><strong> Fire and Ice</strong></li>
             <li className="poem">Some say the world will end in fire,</li>
             <li>Some say in ice.</li>
@@ -4517,9 +4541,11 @@ const LA8Component = ({ data }) => {
             <li>Is also great</li>
             <li>And would suffice.</li>
           </ul>
-          <h4>Questions</h4>
+          <br/>
+          <p><strong>Questions</strong></p>
+          <p>Based on the poem "The Road Not Taken" </p>
           <ol className="vocab">
-            <li><i>Based on the poem "The Road Not Taken" </i> What is the message of the poem? What is it about?</li>
+            <li>What is the message of the poem? What is it about?</li>
             <li>What does the "road less traveled" mean?</li>
             <li>Are there clues that Frost believes one road was not necessarily much better than another?
               Explain.
@@ -4530,9 +4556,8 @@ const LA8Component = ({ data }) => {
             <li>Write about a time you had to make a tough decision. Did you choose the easy road or the hard
               road.
             </li>
-            <li><i>Based on the poem "Fire and Ice" </i> What is your interpretation of the poem? What do you think it
-              means?
-            </li>
+            <p>Based on the poem <i>"Fire and Ice": </i></p>
+            <li>What is your interpretation of the poem? Summarize what you think it means.</li>
           </ol>
           <textarea className="textArea" onChange={onChangela8Listener148} value={la8Essay148}/>
 
@@ -4542,7 +4567,8 @@ const LA8Component = ({ data }) => {
           <h4><i>First Kiss</i> by Tim Seibles </h4>
           <Video videoUrl="https://www.youtube.com/embed/dv9sgFHS2Do?list=PLJicmE8fK0Egxi0hgy5Tw-NFyLcpJ4bzJ"/>
           <ol className="vocab">
-            <li><h4>Based on the poem <i>If </i>by Rudyard Kipling: </h4> Why is Kipling’s poem titled "If"?</li>
+            <p>Based on the poem <i>"If "</i>by Rudyard Kipling: </p>
+            <li>Why is Kipling’s poem titled "If"?</li>
             <li> Qualities which ‘make a man’ according to the poet in ‘If’.</li>
             <li> What does the poet say about lies and hate?</li>
             <li>Why does the poet call triumph and disaster two impostors?</li>
@@ -4552,7 +4578,7 @@ const LA8Component = ({ data }) => {
             <li> Do you think the poem ‘If’ is relevant in today’s world?</li>
             <li> What is ‘pitch and toss’? What does it signify in the poem?</li>
             <li> What was the poem’s purpose. What it achieved? Explain.</li>
-            <li> Based on the poem<h4><i>First Kiss</i> by Tim Seibles: </h4></li>
+            <p> Based on the poem <i>"First Kiss"</i> by Tim Seibles: </p>
             <li> What did you think of the poem?</li>
             <li> What were some metaphors used in this poem? Which did you think was the best use of metaphor?</li>
             <li> What is the mood of the poem?</li>
@@ -4564,8 +4590,7 @@ const LA8Component = ({ data }) => {
           <h4>How do you read a poem? </h4>
           <p>Excerpts taken from the SPL Poetry Handbook </p>
           <p className="margin-para" style={{ color: "#7c7f93", fontSize: "110%", lineHeight: "1.7" }}> Slow down.
-            Read
-            it slowly.<br/>
+            Read it slowly.<br/>
             A good poet will have made every word in the poem count. <br/>Step into the poem
             and wander around. Take your time. <br/>
             See where the encounter takes you. <br/>
@@ -4580,30 +4605,29 @@ const LA8Component = ({ data }) => {
           <h4><i>Summer’s Day </i> by Mary Oliver</h4>
           <Video videoUrl="https://www.youtube.com/embed/rBPHUE961zI"/>
           <p> William Butler Yeats is considered one of the greatest poets of the 1900’s.</p>
-          <h4><i>The Second Coming</i> by William Butler Yeats</h4>
           <Video videoUrl="https://www.youtube.com/embed/IY2oIsA4c7k"/>
-          <h4>Analysis of William Butler Yeats's "The Second Coming"</h4>
+          <h4>Analysis of "The Second Coming"</h4>
           <Video videoUrl="https://www.youtube.com/embed/1S8WWWHl3JE"/>
           <h4><i> Ode to the Only Black Kid in the Class</i> poem by Clint Smith</h4>
           <Video videoUrl="https://www.youtube.com/embed/OGoehR_k0Xk"/>
-          <ol className="vocab">
-            <li className="poem"><i>Based on Summer’s Day: </i> Select one line that you enjoyed the most or was the
+          <ol className="vocab"><p>Based on <i>Summer’s Day:</i></p>
+            <li className="poem"> Select one line that you enjoyed the most or was the
               most meaningful to you. Explain why you chose this line.
             </li>
             <li> Describe how the writer uses imagery throughout the poem. Give an example that you think was her
               best use of imagery.
             </li>
-            <li> What was the writer’s purpose with the poem? Do you think she achieved her purpose? Why or why
-              not.
+            <li> What was the writer’s purpose with the poem? Do you think she achieved her purpose?
+              Why or why not.
             </li>
-            <li><i>Based on The Second Coming: </i>Why was Yeats so fearful of the future?</li>
+            <p>Based on <i>The Second Coming:</i></p>
+            <li>Why was Yeats so fearful of the future?</li>
             <li> What does the falcon represent?</li>
             <li> Did Yeats seem like a happy guy? Explain.</li>
             <li> What was your overall impression of the poem?</li>
             <li> What is the mood of the poem? How does it make you feel?</li>
-            <li><i>Based on Ode to the Only Black Kid in the Class:</i> What was your reaction to the title of the
-              poem?
-            </li>
+            <p> Based on <i>Ode to the Only Black Kid in the Class:</i></p>
+            <li>What was your reaction to the title of the poem?</li>
             <li> Was the poem as you expected it would be or did it surprise you in some way? Explain.</li>
             <li> Which parts of the poem are lingering in your mind?</li>
             <li> What are the questions that it makes you want to ask?</li>
@@ -4670,6 +4694,7 @@ const LA8Component = ({ data }) => {
             <li>Is second childishness and mere oblivion;</li>
             <li>Sans teeth, sans eyes, sans taste, sans everything.</li>
           </ul>
+          <br/>
           <p><strong>Answer the questions below in complete sentences.</strong></p>
           <ol className="vocab">
             <li> Jaques’ speech is a metaphor. What are the two main things he’s comparing?</li>
@@ -4716,7 +4741,8 @@ const LA8Component = ({ data }) => {
           <h4>Finding Emily Dickinson in the power of her poetry</h4>
           <Video videoUrl="https://www.youtube.com/embed/BLeMZ5WIdrI"/>
           <ol className="vocab">
-            <li> Based on the Crash Course video: Dickinson often makes references to "eyes" and "sight". What do these
+            <p>Based on the Crash Course video: </p>
+            <li>Dickinson often makes references to "eyes" and "sight". What do these
               references most likely symbolize.
             </li>
             <li> Why do you think Dickinson only wore white?</li>
@@ -4737,7 +4763,7 @@ const LA8Component = ({ data }) => {
             </li>
             <li>Does Dickinson seem to be writing for other people or only for herself?</li>
             <li>Which Emily Dickinson poem is your favorite? Explain why.</li>
-            <li>Based on the poem you chose, what is the imagery in the poem?</li>
+            <li>Based on the poem you chose, describe is the imagery in the poem.</li>
             <li> What is the mood of the poem? Or how does it make you feel?</li>
             <li> What is the message of the poem?</li>
             <li> Which parts of it are lingering in your mind?</li>
@@ -4794,7 +4820,7 @@ const LA8Component = ({ data }) => {
           <h4>Mad Girl's Love Song by Sylvia Plath</h4>
           <Video videoUrl="https://www.youtube.com/embed/EZ8RHI8K6xc"/>
           <img src={require("../../public/images/poems/figTree.jpg")} alt="woman blended with a tree"/><br/>
-          <p className="topBottom" style={{ color: "#7c7f93", fontSize: "110%", lineHeight: "1.7" }}><i>I saw my
+          <p className="topBottom" style={{ color: "#4f5979", fontSize: "110%", lineHeight: "1.7" }}><i>I saw my
             life branching out before me like the green fig tree in the story. From the tip of every
             branch, like a fat purple fig, a wonderful future beckoned and winked. One fig was a husband and a happy
             home and children, and another fig was a famous poet and another fig was a brilliant professor, and
@@ -4810,7 +4836,7 @@ const LA8Component = ({ data }) => {
           <ol className="vocab">
             <li> Briefly describe Sylvia Plath and her background.</li>
             <li> How did her life end? At what age did she die?</li>
-            <li> Based on <i>The Fig Tree</i>: What does the fig tree and each of the figs symbolize?</li>
+            <li> Based on <i>The Fig Tree,</i> what does the fig tree and each of the figs symbolize?</li>
             <li> What is the mood of the poem? How does Plath get this mood across to reader?</li>
             <li> Describe the imagery Plath creates of the figs.</li>
             <li> What sense do you get about how the author is feeling as she writes about the fig tree? (Example:
@@ -4844,7 +4870,7 @@ const LA8Component = ({ data }) => {
           <p className="topBottom">This example is from the poet Glenis Redmond </p>
           <h4>Self-Portrait: Bard in the Making
           </h4>
-          <ul style={{ color: "#7c7f93" }}>
+          <ul style={{ color: "#4f5979", fontStyle: "italic" }}>
             <li>When I was in the fifth grade</li>
             <li>I was the biggest tomboy</li>
             <li>always in t-shirt and jeans</li>
@@ -4861,13 +4887,14 @@ const LA8Component = ({ data }) => {
             <li>I could stop on a dime</li>
             <li>and give you nine cents change.</li>
           </ul>
+          <br/>
           <p className="topBottom"> Now use your lists to help you tell your story. Use at least one of the following
             poetry devices:<br/>
-            alliteration <i style={{ color: "#7c7f93", fontSize: "90%" }}>repetition of initial consonant sounds -
+            alliteration <i style={{ color: "#4f5979", fontSize: "90%" }}>repetition of initial consonant sounds -
               "The <b>sh</b>epherd <b>sh</b>ook <b>h</b>is <b>h</b>ead"</i><br/>
-            assonance <i style={{ color: "#7c7f93", fontSize: "90%" }}>repetition of <b>vowel</b> sounds - "I'm reminded
+            assonance <i style={{ color: "#4f5979", fontSize: "90%" }}>repetition of <b>vowel</b> sounds - "I'm reminded
               to line the lid of my eye"</i><br/>
-            and anaphora <i style={{ color: "#7c7f93", fontSize: "90%" }}>repetition of words - Still I Rise by Maya
+            and anaphora <i style={{ color: "#4f5979", fontSize: "90%" }}>repetition of words - Still I Rise by Maya
               Angelou<br/>
               "I rise<br/>
               Bringing the gifts that my ancestors gave,<br/>
@@ -4888,18 +4915,18 @@ const LA8Component = ({ data }) => {
 
           <span className="days">LESSON 157 - Cirque du Freak</span>
           <p><i>Cirque Du Freak</i> is the frightening saga of a young boy whose visit to a mysterious freak show
-            leads him on a journey into a dark world of vampires. Filled with grotesque creatures, murderous
+            leads him on a journey into a dark world of vampires. It is filled with grotesque creatures, murderous
             vampires, and a petrifying ending. This book is available at your local library
             or can be purchased online. Until you get a copy, the <a
               href={require("../resources/books/cirqueDuFreakExcerpt.pdf")} rel="noreferrer"
-              target="_blank"> reading for the first lesson is posted here</a> as a PDF.</p>
-          <img src={require("../../public/images/bookCovers/cirqueDuFreak.jpg")} alt="Cirque Du Freak novel"/>
-          <div className="topBottom">Read Chapters 1, 2 and 3 of <i> Cirque Du Freak.</i> Then, answer the
-            questions and complete the vocabulary assignment
-            below. Be sure to use complete sentences.
+              target="_blank"> reading for the first lesson is posted here as a PDF.
+              <img src={require("../../public/images/bookCovers/cirqueDuFreak.jpg")} alt="Cirque Du Freak novel"/></a>
+          </p>
+          <div className="topBottom">After you read Chapters 1, 2 and 3 of <i> Cirque Du Freak,</i> answer the
+            questions and complete the vocabulary assignment below. Be sure to use complete sentences in your work.
             <ol className="vocab">
               <li> When you first saw the image for this novel and read the title, what was your first impression?
-                What did you think this story might be about. Include the type of conflict, characters and
+                What did you think this story might be about? Include the type of conflict, characters and
                 settings you imagined.
               </li>
               <li> From the Introduction, do you believe this is a true story? Explain
@@ -4937,8 +4964,8 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener157} value={la8Essay157}/>
 
           <span className="days">LESSON 158 </span>
-          <div className="topBottom">Read Chapters 4, 5, and 6 of <i> Cirque Du Freak.</i> Be sure to use complete
-            sentences in your work below.
+          <div className="topBottom">Read Chapters 4, 5, and 6 of <i> Cirque Du Freak</i> and then complete the work
+            below.
             <ol className="vocab">
               <li> In Chapter 5, what metaphor does Mrs. Quinn use to describe Darren?</li>
               <li> If it were you and 3 friends, how would you have handled dividing up the only 2 tickets?</li>
@@ -4960,8 +4987,8 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener158} value={la8Essay158}/>
 
           <span className="days">LESSON 159 </span>
-          <div className="topBottom">Read Chapters 7, 8, and 9 of <i> Cirque Du Freak.</i> Be sure to use complete
-            sentences in your work below.
+          <div className="topBottom">Read Chapters 7, 8, and 9 of <i> Cirque Du Freak</i> and then complete the work
+            below.
             <ol className="vocab">
               <li> What did the outside of the building look like where the freak show was happening?</li>
               <li> After reading Chapter 7, discuss whether "not telling" is telling a lie.</li>
@@ -5011,8 +5038,8 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener160} value={la8Essay160}/>
 
           <span className="days">LESSON 161 </span>
-          <div className="topBottom">Read Chapters 13 and 14 of <i> Cirque Du Freak.</i> Be sure to use complete
-            sentences in your work below.
+          <div className="topBottom">Read Chapters 13 and 14 of <i> Cirque Du Freak</i> and then complete the work
+            below.
             <ol className="vocab">
               <li> Describe the idiom used in Chapter 13 (about Gertha Teeth). What
                 does it really mean in context?
@@ -5039,8 +5066,8 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener161} value={la8Essay161}/>
 
           <span className="days">LESSON 162 </span>
-          <div className="topBottom">Read Chapters 15, 16 and 17 of <i> Cirque Du Freak.</i> Be sure to use
-            complete sentences in your work below.
+          <div className="topBottom">Read Chapters 15, 16 and 17 of <i> Cirque Du Freak</i> and then answer the
+            questions below in complete sentences.
             <ol className="vocab">
               <li> In Chapter 15, what makes Mr. Crepsley state that he hates children.
                 Why do you think Steve wants to be a vampire so badly?
@@ -5068,8 +5095,8 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener162} value={la8Essay162}/>
 
           <span className="days">LESSON 163 </span>
-          <div className="topBottom">Read Chapters 18 and 19 of <i> Cirque Du Freak.</i> Be sure to use complete
-            sentences in your work below.
+          <div className="topBottom">Read Chapters 18 and 19 of <i> Cirque Du Freak</i> and then complete the work
+            below.
             <ol className="vocab">
               <li> Right after reading Chapter 18, describe what you think happened to
                 Darren. Were you right? Why or why not?
@@ -5077,19 +5104,14 @@ const LA8Component = ({ data }) => {
               <li> What simile does Darren use to describe his immediate actions on the
                 first page of Chapter 19?
               </li>
-              <li> Why can’t Darren stop himself from playing with the spider, even
-                though he recognizes the danger?
+              <li> Why can’t Darren stop himself from playing with the spider, even though he recognizes the danger?
               </li>
               <li> Use personal experience to draw comparisons between yourself and Darren.</li>
               <li> Consider a time when you couldn’t stop yourself from doing something dangerous.</li>
               <li> Predict why the world would come crashing down on Darren at the end of Chapter 19.</li>
               <li> Write about a time you faked being sick. What did you do or say. Did you get away with it?</li>
               <li> What tricks does Darren get the spider to do?</li>
-              <li> Listen to some of Mozart’s music (below) and write one paragraph describing it. Include how you
-                felt listening to it. Skip around to hear a variety of his work.
-              </li>
             </ol>
-            <Video videoUrl="https://www.youtube.com/embed/Rb0UmrCXxVA"/>
           </div>
           <textarea className="textArea" onChange={onChangela8Listener163} value={la8Essay163}/>
 
@@ -5116,8 +5138,7 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener164} value={la8Essay164}/>
 
           <span className="days">LESSON 165 </span>
-          <div className="topBottom">Read Chapters 22 and 23 of <i> Cirque Du Freak.</i> Be sure to use complete
-            sentences in your work below.
+          <div className="topBottom">Read Chapters 22 and 23 of <i> Cirque Du Freak.</i>
             <ol className="vocab">
               <li> Summarize or describe what happens in chapters 22 and 23</li>
               <li> Why did Steve’s mother blame Darren for what happened?</li>
@@ -5138,8 +5159,7 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener165} value={la8Essay165}/>
 
           <span className="days">LESSON 166 </span>
-          <div className="topBottom">Read Chapters 24, 25 and 26 of <i> Cirque Du Freak.</i> Be sure to use
-            complete sentences in your work below.
+          <div className="topBottom">Read Chapters 24, 25 and 26 of <i> Cirque Du Freak.</i>
             <ol className="vocab">
               <li> In Chapter 24, Crepsley states, "But one who just takes a little blood to
                 fill his rumbling belly...where is the harm in that?" Do you agree or
@@ -5167,8 +5187,7 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener166} value={la8Essay166}/>
 
           <span className="days">LESSON 167 </span>
-          <div className="topBottom">Read Chapters 27 and 28 of <i> Cirque Du Freak.</i> Be sure to use complete
-            sentences in your work below.
+          <div className="topBottom">Read Chapters 27 and 28 of <i> Cirque Du Freak.</i>
             <ol className="vocab">
               <li> In Chapter 27, why doesn’t Darren feel like a normal human being
                 anymore?
@@ -5186,8 +5205,8 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener167} value={la8Essay167}/>
 
           <span className="days">LESSON 168 </span>
-          <div className="topBottom">Read Chapters 29,30,31,32 and 33
-            of <i> Cirque Du Freak.</i> Be sure to use complete sentences in your work below.
+          <div className="topBottom">Read Chapters 29 - 33
+            of <i> Cirque Du Freak.</i>
             <ol className="vocab">
               <li> In Chapter 30, why does Crepsley mean when he says, "No one comes
                 searching for a dead person?"
@@ -5213,10 +5232,10 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener168} value={la8Essay168}/>
 
           <span className="days">LESSON 169 </span>
-          <h4>After you watch the video below, write a short chapter based on Cirque Du Freak</h4>
+          <h4>Write an epilogue based on Cirque Du Freak. (An epilogue is a section
+            at the end of a book that tells readers the fate of the main characters and wraps up any loose ends.)</h4>
           <p>Imagine that the author asks you to write an epilogue for the novel in which Darren meets Steve in 10
             years. You have the freedom to have this chapter go however you like. </p>
-          <Video videoUrl="https://www.youtube.com/embed/xjKruwAfZWk"/>
           <p>Be sure to cover the following questions in your chapter:
             <ul className='assnList'>
               <li> Plot - What happens? Is there a mystery to solve, an unexplained event, a secret to unfold, has
@@ -5235,8 +5254,8 @@ const LA8Component = ({ data }) => {
           <h4 style={{ color: "#4f5979" }}>The remainder of this class will focus on writing stories and non-fiction
             essays
             within different genres.</h4>
-          <p className="topBottom"><i>For each fictional writing assignment, address the items below to develop
-            your story:</i></p>
+          <p className="topBottom">For each fictional writing assignment, address the items below to develop
+            your story:</p>
           <p className="topBottom">POINT OF VIEW: Whose story are you telling? Using "I" is first person. Using
             "you" is second person. Third person uses he or she. The third-person omniscient point of view tells the
             thoughts and feelings of all the characters. </p>
@@ -5248,10 +5267,11 @@ const LA8Component = ({ data }) => {
           <p className="topBottom">RESOLUTION: How does the problem get solved? </p>
           <p className="topBottom">CHARACTERS: Who is in your story? Who is the main character (protagonist)? Who
             are the supporting characters? </p>
-          <p className="topBottom">Developing your characters is important because your readers must care about what
+          <p className="topBottom"><strong>Developing your characters</strong> is important because your readers must care about what
             happens to them. They don’t have to be likable, but they must be credible. Your readers should be feel
-            the characters are real and be able to picture them clearly in their head. You should describe what they
-            look like and their personality. Include character traits (ex. humor, wit, introversion), strengths (ex.
+            the characters are real and be able to picture them clearly in their heads. You should describe what they
+            look like and their personality. <br/>
+            Include character traits (ex. humor, wit, introversion), strengths (ex.
             intelligence, stamina, humor) and flaws (ex. short-temper, physical disability). The main character
             (protagonist) is the most important because the story tends to revolve around them. They determine the
             way the plot will develop and must solve a problem or solve a mystery. </p>
@@ -5261,31 +5281,26 @@ const LA8Component = ({ data }) => {
             harmed and happy when they triumph.</p>
           <p className="topBottom">You can print out the <a
             href={require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story
-            Outline Worksheet</a> to help you get
-            started on a rough draft for your stories. It includes the following:<br/>
+            Outline Worksheet</a> to help you get started on a rough draft for your stories. It includes the following:<br/>
             <ul className="assnList2">
               <li>Title of your story:</li>
-              <li>The story is about</li>
+              <li>In 1-2 sentences, say what your story is about:</li>
               <li>Main character:</li>
               <li>Supporting characters:</li>
               <li>Setting:</li>
-              <li>Write the first few lines of your story. Set the scene and introduce your characters.</li>
-              <li>Try to grab your readers’ attention in the first paragraph.</li>
-              <li>The first thing that happens and conflict introduced:</li>
+              <li>Write the first few lines of your story. Set the scene and introduce your characters:</li>
+              <li>Try to grab your readers’ attention in the first paragraph:</li>
+              <li>Write the first thing that happens and introduce the conflict:</li>
               <li>Next (build up):</li>
               <li>Finally (resolution):</li>
             </ul>
           </p>
-          <p>Watch the the video below <strong> How to write descriptively</strong> by Nalo Hopkinson and then
-            complete
-            the
-            writing assignment that follows in Lesson 170.</p>
+          <span className="days">LESSON 170 - Write a Mystery</span>
+          <p>Watch the the videos below and then complete the writing assignment that follows.</p>
           <Video videoUrl="https://www.youtube.com/embed/RSoRzTtwgP4"/>
-
-          <span className="days">LESSON 170</span>
-          <p>After you watch the video <strong> Stephen King On Writing</strong>, you will write a mystery.</p>
-          <Video videoUrl="https://www.youtube.com/embed/lwhOd65gGoY"/>
+          <Video videoUrl="https://www.youtube.com/embed/xjKruwAfZWk"/>
           <h4> Write a Mystery</h4>
+
           <p className="topBottom">Select one of the images below to base your mystery on. Read the title and
             caption and let the story unfold in
             your imagination. Write your mystery in the textbox (below the images). This assignment is based on the
@@ -5522,7 +5537,7 @@ const LA8Component = ({ data }) => {
               <li>What will the world be like 1,000 years from now?</li>
             </ol>
           </p>
-          <p>Your essay should follow answer the question and follow the format below: </p>
+          <p>Your essay should follow the format below: </p>
           <ul className="assnList">
             <li>Write a hook to grab your reader's attention.</li>
             <li>Your first paragraph should have a clear thesis statement (main idea of your essay). This
@@ -5615,25 +5630,23 @@ const LA8Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/WJ_iNkkgdCA"/>
           {/*Advice on characters */}
           <Video videoUrl="https://www.youtube.com/embed/SgGARYH2vRg"/>
-          <p>Your next two lessons will be to develop two great characters your readers will care
+          <p className="topBottom">Your next two lessons will be to develop two great characters your readers will care
             about: a protagonist and an antagonist. Start thinking about what they are like. Consider their:
-            personality,
-            physical appearance, strengths, weaknesses, special abilities (optional) and what they value. Develop these
-            characters in your mind and think about the following questions: <br/>
-            <ul className="list">
-              <li>What does your character want to achieve?</li>
-              <li>Where do you want your protagonist to travel to?</li>
-              <li>What are the obstacles they will face?</li>
-              <li>What do they risk losing if they fail in their quest?</li>
-              <li> What will they gain if they achieve their quest?</li>
-              <li>How do you want them to grow and change as a person?</li>
-              <li>Which fictional genres best suits your characters? You can choose from any that you've learned about:
-                adventure, fantasy, mythology, horror, mystery, fairy tale, etc.
-              </li>
-            </ul>
-          </p>
-          <p>Take a few minutes to complete the assignment below. Your responses can be short
-            bullet points. The main point of this assignment is to generate ideas.
+            personality, physical appearance, strengths, weaknesses, special abilities (optional) and what they value.</p>
+          <p> Develop these characters in your mind and think about the following questions: </p>
+          <ul className="list">
+            <li>What does your character want or want to achieve?</li>
+            <li>Where do you want your protagonist to travel to?</li>
+            <li>What are the obstacles they will face?</li>
+            <li>What do they risk losing if they fail in their quest?</li>
+            <li> What will they gain if they achieve their quest?</li>
+            <li>How do you want them to grow and change as a person?</li>
+            <li>Which fictional genre best suits your characters? You can choose from any that you've learned about:
+              adventure, fantasy, mythology, horror, mystery, fairy tale, etc.
+            </li>
+          </ul>
+          <p className="topBottom">Complete the assignment below. Your responses can be short bullet points. The main point of this assignment is to generate ideas.
+
             <ol className="vocab">
               <li>Close your eyes and imagine the protagonist for your next story. Briefly describe their external and
                 internal traits (physical appearance and character traits).
@@ -5656,7 +5669,7 @@ const LA8Component = ({ data }) => {
               </li>
             </ol></p>
           <p>Below are examples of book covers.</p>
-          <img src={require("../../public/images/bookCovers/bookcover2.jpg")} alt="Book Covers"/>
+          <img src={require("../../public/images/bookCovers/bookcover2.jpg")} alt="Book Covers"/><br/>
 
           <textarea className="textArea" onChange={onChangela8Listener177} value={la8Essay177}/>
 
@@ -5707,25 +5720,28 @@ const LA8Component = ({ data }) => {
           <span className="days">LESSON 179 </span>
           <h4> Character Development - The Antagonist</h4>
           <p className="topBottom">Create the villain your protagonist will have to fight. <br/>
-            <li>What is your villain's name, gender and age?</li>
-            <li>What makes your villain a villain? Why does he do what he does? What is his backstory? Example: Lord
-              Voldemort wanted to become the supreme leader of wizards and rid the wizarding world of Muggles. His
-              mother had tricked his father
-              into loving her. He was not born from love and didn't know love as a child.
-            </li>
-            <li>What makes your villain powerful? What skills, abilities and traits make them <i>nearly</i> impossible
-              for your protagonist to defeat? Example: The Joker (in Batman) The Joker has no superhuman abilities,
-              but
-              he is clever and uses chemical engineering to make poisonous weapons.
-            </li>
-            <li>What are their weaknesses? Will your hero be able to use a weakness against the villain to win?</li>
-            <li>What do does your protagonist look like? Be specific, including height, facial features, and how they
-              dress.
-            </li>
-            <li>Create a picture of your villain. You can sketch a picture or create your character on <a
-              href="https://charactercreator.org/#" rel="noreferrer" target="_blank">Character Creator </a>online. Be
-              sure to take a screen shot and save this to your device so you can include it with your story later.
-            </li>
+              <ol className="vocab">
+                <li>What is your villain's name, gender and age?</li>
+                <li>What makes your villain a villain? What motivates them to do what they do? What is his backstory?
+                  Example: Lord
+                  Voldemort wanted to become the supreme leader of wizards and rid the wizarding world of Muggles. His
+                  mother had tricked his father
+                  into loving her. He was not born from love and didn't know love as a child.
+                </li>
+                <li>What makes your villain powerful? What skills, abilities and traits make them <i>nearly</i> impossible
+                  for your protagonist to defeat? They can have supernatural abilities, but this isn't required. For
+                  example, think about the Joker in Batman. The Joker has no superhuman abilities, but
+                  he is clever and uses chemical engineering to make poisonous weapons.
+                </li>
+                <li>What are their weaknesses? Will your hero be able to use a weakness against the villain to win?</li>
+                <li>What does your protagonist look like? Be specific, including height, facial features, and how they
+                  dress.
+                </li>
+                <li>Create a picture of your villain. You can sketch a picture or create your character on <a
+                  href="https://charactercreator.org/#" rel="noreferrer" target="_blank">Character Creator </a>online. Be
+                  sure to take a screen shot and save this to your device so you can include it with your story later.
+                </li>
+              </ol>
           </p>
           <textarea className="textArea" onChange={onChangela8Listener179} value={la8Essay179}/>
 
