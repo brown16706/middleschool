@@ -661,12 +661,10 @@ const LA6Component = ({ data }) => {
             sentences:</p>
           <p>1. According to Greek mythology how was the universe created?<br/>
             2. There was a god who controlled lightning, another who controlled the seas, another who controlled
-            agriculture,
-            another who controlled the sun, etc. Why do you think the ancient Greeks created so many different
+            agriculture, another who controlled the sun, etc. Why do you think the ancient Greeks created so many different
             gods? <br/>
             3. Based on their mythology, describe how ancient Greeks saw the world. If you lived back then, do you think
-            you would have
-            believed in so many gods and seen the world like the ancient Greeks did?<br/>
+            you would have believed in so many gods and seen the world like the ancient Greeks did?<br/>
             4. Compare how Ancient Greeks saw the world and how they practiced religion compared to how people today see
             the world and practice religion.
             <br/> 5. Describe how Uranus upset Mother Earth.
@@ -2529,9 +2527,15 @@ const LA6Component = ({ data }) => {
           <br/>
           <span className="days">LESSON 100</span>
           <p>Read Chapter 2 from <i>The Hunger Games</i> and answer the
-            questions below:<br/>1. How does Katniss save her sister from the reaping?<br/> 2. What kind
-            of
-            person do you think Peeta is? What evidence from the book led you to come to this conclusion?</p>
+            questions below:<br/>
+            1. How does Katniss save her sister from the reaping?<br/> 
+            2. How does Katniss know Peeta?  What kind of person do you think Peeta is? What evidence from the book led you to come to this conclusion?<br/>
+          3. Describe Gale. What do you think of him?<br/>
+            4. What do you know so far about Katniss's mother. How would you describe her mental state?<br/>
+            5. When some holds three middle fingers to their mouth and then holds them out, what does this mean?<br/>
+            6. What is the signifiance of the dandelion?<br/>
+
+          </p>
           <p>Write definitions for the vocabulary words below and use each word in a sentence. <br/>
             1. condone -<br/>
             2. tenuous -<br/>
@@ -2542,9 +2546,13 @@ const LA6Component = ({ data }) => {
           <span className="days">LESSON 101</span>
           <p>Read Chapter 3 from <i> The Hunger Games </i>and answer the
             questions below: <br/>1. What instructions does Katniss leave for her mother?<br/>
-            2. What act of kindness does Peeta’s dad show to Katniss? How do you think this man might of
-            influenced his son?<br/>
-            3. What advice does Gale give Katniss about surviving the games?
+            2. What act of kindness does Peeta’s dad show to Katniss? What do you think Peeta thought of this?<br/>
+            3. What advice does Gale give Katniss about surviving the games?<br/>
+           4. What happens after the anthem? <br/>
+            5. Before Katniss has to leave, what does she tell her family?<br/>
+            6. Describe what you know about the competitors Katniss and Peeta will face.<br/>
+            7. What is a mockingjay?  Who does the mockinjay make Katniss think of?<br/>
+            8. Describe Effie. What things does she value?  How do you like her?<br/>
           </p>
           <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. compensation -<br/>
@@ -2555,9 +2563,13 @@ const LA6Component = ({ data }) => {
           <p>Read Chapter 4 from <i> The Hunger Games </i> and answer the
             questions below:<br/>1. Do you think Haymitch will be helpful as a mentor? Why or why
             not?<br/>
-            2. What does Katniss mean when she says: “A Kind Peeta Mellark is far more dangerous to me than an
-            unkind one” ?<br/>
-            3. What happens to convince Haymitch that Peeta and Katniss might be fighters?</p>
+            2. What does Katniss mean when she says: “A kind Peeta Mellark is far more dangerous to me than an
+            unkind one”?  Why does she think Peeta's kindness is a threat?<br/>
+            3. Haymitch starts to believe that Peeta and Katniss may be fighters.  What changes his mind about them?<br/>
+             4. Is Katniss close to her mother? Explain why or why not.<br/>
+             5. Haymitch makes a deal with Peeta and Katniss. What is it? What advice does he give them?<br/>
+             6. Why does Katniss not like Haymitch?<br/>
+          </p>
           <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. gawking -<br/></p>
           <textarea className="textArea" onChange={onChangeLA6Listener80} value={la6Essay80}/>
@@ -2566,7 +2578,11 @@ const LA6Component = ({ data }) => {
           <p>Read Chapter 5 from <i> The Hunger Games </i> and answer the
             questions below:<br/>1. The presentation of the tributes seems to be greatly focused on visual
             presentation and looks — what does this reveal about the belief systems of the Capitol?<br/>
-            2. Compare and contrast life in the Capitol to life in District 12. </p>
+            2. Compare and contrast life in the Capitol to life in District 12.<br/>
+          3. Why do newcomers like Cinna get assigned District 12?<br/>
+          4. How is Katniss's life different than the lives of those who live in the capital?<br/>
+  5. How are the costumes for Katniss and Peeta dofferent than the costumes usually worn by tributes from District 12?<br/>
+          </p>
           <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. sustenance -<br/>
             2. demeanor -<br/></p>
@@ -2576,7 +2592,12 @@ const LA6Component = ({ data }) => {
           <p>Read Chapter 6 from <i> The Hunger Games </i> and answer the
             questions below:<br/>1. What is an Avox? <br/>
             2. What prevents tributes from jumping off the roof? Why do you think this is in place? <br/>
-            3. What reasons would Peeta have for being curious about Gale? </p>
+            3. What do you think Peeta is curious about Gale? <br/></p>
+         4. Why does Effie Trinket stay with Peeta and Katniss?<br/> ...
+          5. What is Katniss's room like?<br/>
+          6. Do you agree with the advice that Haymitch has been giving Katniss and Peeta so far?<br/>
+          7. Katniss feels she is in Peeta's debt again. Why? What did he do?<br/>
+              
           <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. corral -<br/>
             2. barbarism -<br/></p>
@@ -2584,11 +2605,17 @@ const LA6Component = ({ data }) => {
           <br/>
           <span className="days">LESSON 105</span>
           <p>Read Chapter 7 from <i> The Hunger Games </i> and answer the
-            questions below:<br/>1. What are the pros and cons of Peeta and Katniss being coached
-            together?
-            <br/>
-            2. What reasons does Peeta give for thinking Katniss will be better than him in the arena?<br/>
-            3. What does Katniss do before the judges? Why might this act be considered controversial? </p>
+            questions below:<br/>1. Do you think it's a good idea for Peeta and Katniss to be coached
+            together? Explain.<br/>
+            2. Why does Peeta believe Katniss will be better than him in the arena?<br/>
+            3. What does Katniss do before the judges? Why might this act be considered controversial? 
+         4. What does Katniss think of the twins?<br/>
+          5. Why does Katniss hate meeting the other Tributes?<br/>
+          6. What do you think Peeta means by “she has no idea the effect she can have” <br/>
+          7. Who are the Gamemakers? What did Katniss do in her private session with them?<br/>
+          8. How does Haymitch want Katniss and Peeta to behave when they ae in public together?  Why does he want this?<br/>
+          9. Who is Rue? What skill does she have that may serve her well in the Games?<br/>
+          </p>
           <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. emaciated -<br/>
             2. arbitrary -<br/>
@@ -2603,7 +2630,11 @@ const LA6Component = ({ data }) => {
             questions below:<br/>1. What does Katniss fear will happen as a result of her behavior before
             the
             judges? <br/>
-            2. Why do you think Peeta asked to be coached separately? </p>
+            2. Why do you think Peeta asked to be coached separately? <br/>
+            3. Why does the score given to each tribute matter?<br/>
+            4.  Describe how Gale and Katniss first met.<br/>
+           5. Haymitch tells Katniss that plans have changed. What does he tell her?<br/>          
+          </p>
           <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. leniency -<br/>
             2. arduous -<br/></p>
@@ -2613,7 +2644,15 @@ const LA6Component = ({ data }) => {
           <p>Read Chapter 9 from <i> The Hunger Games </i> and answer the
             questions below:<br/>1. Describe Katniss and Peeta’s costumes. Why do you think Cinna dressed
             them like this? <br/>
-            2. What shocking secret does Peeta reveal during his interview?</p>
+            2. What surprising secret does Peeta reveal during his interview?<br/>
+         3. How does Katniss feel about Peeta?<br/>
+         4. Katniss is trying to help Katniss become better at what?<br/>
+  5. Why does the capital bother with interviewing the Tributes?<br/>
+  6. What new things have you learned about people in the capital?<br/>
+  7. How does the interview go for Katniss? Do people like her?<br/>
+  8. Describe the costume Cinna makes for Katniss.<br/>
+  
+        </p>
           <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. pretense -<br/>
             2. banal -<br/>
@@ -2626,8 +2665,12 @@ const LA6Component = ({ data }) => {
           <p>Read Chapter 10 from <i> The Hunger Games </i> and answer the
             questions below:<br/>1. How does Katniss react to Peeta’s declaration once they are
             alone? <br/>
-            2. What does Peeta mean when he says the following: “I want to die as myself.” <br/>
-            3. What does Cinna make sure Katniss brings into the arena with her? &lt;</p>
+            2. What does Peeta mean when he says: “I want to die as myself.” <br/>
+            3. Cinna makes sure Katniss brings what into the arena with her?<br/>
+            4. What effect does Peeta's interview have on people in the capital? <br/>
+          5. When the Games ended, what happened to the arenas?<br/>
+          6. Before they leave for the Games, what final advice does Haymitch give?<br/>
+          </p>
           <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. entourage -<br/>
             2. hysteria -<br/>
@@ -2638,9 +2681,15 @@ const LA6Component = ({ data }) => {
           <br/>
           <span className="days">LESSON 109</span>
           <p>Read Chapter 11 from <i> The Hunger Games </i> and answer the
-            questions below:<br/>1. Who is the first person to die in the arena? How do they die? <br/>
+            questions below:<br/>1. Describe the Cornucopia.<br/>
             2. How are the tributes notified that someone has died in the arena? <br/>
-            3. How do you think Katniss feels when she hears Peeta planning with the Careers? </p>
+            3. How do you think Katniss feels when she hears Peeta planning with the Careers? 
+          4. Who is the first person to die in the arena? How do they die? <br/>
+           5. What does Katniss see in the Cornucopia that she wants the most?
+           6. How would you describe the games when they first begin?<br/>
+           7. What woke up Katniss that first night and what happened to the Tribute who woke her?<br/>
+          </p>
+          
           <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. equidistant -<br/>
             2. devise -<br/>
@@ -2650,7 +2699,14 @@ const LA6Component = ({ data }) => {
           <br/>
           <span className="days">LESSON 110</span>
           <p>Read Chapter 12 from <i> The Hunger Games </i> and answer the
-            question below:<br/> What are some of the conflicts faced by Katniss in chapter 12? </p>
+            question below:<br/>
+            1. What are some of the conflicts Katniss has to face2? <br/>
+            2. Describe Peeta's physical condition in this chapter.<br/>
+            3. What are Katniss's feelings for Peeta? <br/>
+            4. Peeta has been with the Career Tributes> They didn't kill him. Why?<br/>
+           5. Katniss is aware of the cameras. Does this change how she behaves in front of them? Explain.<br/>
+           6. Describe how the chapter ends.<br/>
+          </p>
           <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. disgrace -<br/>
             2. perplexed -<br/>
@@ -2684,9 +2740,12 @@ const LA6Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangeLA6Listener90} value={la6Essay90}/>
           <br/>
           <span className="days">LESSON 113</span>
-          <p>Read Chapter 15 from <i> The Hunger Games </i> and address the
-            following:<br/>Compare and contrast why Katniss and Rue think Peeta saved Katniss’ life.
-          </p>
+          <p>Read Chapter 15 from <i> The Hunger Games </i> and answer the questions below.</p>
+          <ol className="vocab">
+            <li>Why do Katniss and Rue think Peeta saved Katniss’s life? What did he do?</li>
+            <li>When Katniss see the weapons available, how does this change her perspective about the Games?</li>
+            <li>Citizens not allowed to eat crops in District 11. Why is this?</li>
+          </ol>
           <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. wracked -<br/>
             2. feeble -<br/>
@@ -2695,9 +2754,7 @@ const LA6Component = ({ data }) => {
           <br/>
           <span className="days">LESSON 114</span>
           <p>Read Chapter 16 from <i> The Hunger Games </i> and address the following:<br/>Summarize
-            the major
-            events
-            of chapter 16. What were the main problems or
+            the major events of chapter 16. What were the main problems or
             conflicts Katniss was trying to solve. Include supporting details. Explain why things happened as
             they did. </p>
           <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
@@ -3597,11 +3654,11 @@ const LA6Component = ({ data }) => {
             something for all of your characters; like them, hate them, root for them, feel devastated when they are
             harmed and happy when they triumph.</p>
           <p>You can print out the <a
-            href="../resources/languagearts/StoryOutlineWorksheet.pdf">Story Outline Worksheet</a> to help you get
+            href={ require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story Outline Worksheet</a> to help you get
             started on a rough draft for your stories. It includes the following:<br/>
             <ul className="assnList2">
               <li>Title of your story:</li>
-              <li>The story in a nutshell:</li>
+              <li>In 1-2 sentences, say what your story is about:</li>
               <li>Main character:</li>
               <li>Supporting characters:</li>
               <li>Setting:</li>
@@ -3612,13 +3669,10 @@ const LA6Component = ({ data }) => {
               <li>Finally (resolution):</li>
             </ul>
           </p>
-          <p>Watch the the video below <strong> How to write descriptively</strong> by Nalo Hopkinson and then complete
-            the writing assignment that follows in Lesson 149.</p>
+          <span className="days">LESSON 149 - Write a Mystery</span>
+          <p>Watch the the videos below and then complete the writing assignment that follows.</p>
           <Video videoUrl="https://www.youtube.com/embed/RSoRzTtwgP4"/>
-
-          <span className="days">LESSON 149</span>
-          <p>After you watch the video <strong> Stephen King On Writing</strong>, you will write a mystery.</p>
-          <Video videoUrl="https://www.youtube.com/embed/lwhOd65gGoY"/>
+          <Video videoUrl="https://www.youtube.com/embed/xjKruwAfZWk"/>
           <h4> Write a Mystery</h4>
           <p>Select one of the images below to base your mystery on. Read the title and
             caption and let the story unfold in
@@ -3661,7 +3715,7 @@ const LA6Component = ({ data }) => {
               <div><img src={require("../../public/images/stories/maninthefog.jpg")} style={{ maxWidth: "500px" }}
                         alt="man walking through the fog"/>
                 <p className="captionTitle">Man in the Fog</p>
-                <p className="caption">The man slowly walks toward your house. He stops, looks up at your window and
+                <p className="caption">The man slowly walks towards your house. He stops, looks up at your window and
                   says, "It's time." </p>
               </div>
             </div>
@@ -3678,7 +3732,7 @@ const LA6Component = ({ data }) => {
             <li>How will you set up your story? Use your main character to unravel the mystery and solve it.</li>
           </ul>
           <p>You can use the <a
-            href="../resources/languagearts/StoryOutlineWorksheet.pdf">Story Outline Worksheet</a> to get started.
+            href={ require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story Outline Worksheet</a> to get started.
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener128} value={la6Essay128}/>
           <br/>
@@ -3849,7 +3903,7 @@ const LA6Component = ({ data }) => {
               </li>
             </ol>
           </p>
-          <p>Your essay should follow answer the question and follow the format below: </p>
+          <p>Your essay should follow the format below: </p>
           <ul className="assnList">
             <li>Write a hook to grab your reader's attention.</li>
             <li>Your first paragraph should have a clear thesis statement (main idea of your essay). This
@@ -3915,7 +3969,7 @@ const LA6Component = ({ data }) => {
             </div>
           </div>
           <p>You can use the <a
-            href="../resources/languagearts/StoryOutlineWorksheet.pdf">Story Outline Worksheet</a> to get started.
+            href={ require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story Outline Worksheet</a> to get started.
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener135} value={la6Essay135}/>
 
@@ -3938,11 +3992,10 @@ const LA6Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/WJ_iNkkgdCA"/>
           {/*Advice on characters */}
           <Video videoUrl="https://www.youtube.com/embed/SgGARYH2vRg"/>
-          <p>Your next two lessons will be to develop two great characters your readers will care
+          <p className="topBottom">Your next two lessons will be to develop two great characters your readers will care
             about: a protagonist and an antagonist. Start thinking about what they are like. Consider their:
-            personality,
-            physical appearance, strengths, weaknesses, special abilities (optional) and what they value. Develop these
-            characters in your mind and think about the following questions: <br/>
+            personality, physical appearance, strengths, weaknesses, special abilities (optional) and what they value.</p>
+          <p> Develop these characters in your mind and think about the following questions: </p>
             <ul className="list">
               <li>What does your character want or want to achieve?</li>
               <li>Where do you want your protagonist to travel to?</li>
@@ -3950,28 +4003,22 @@ const LA6Component = ({ data }) => {
               <li>What do they risk losing if they fail in their quest?</li>
               <li> What will they gain if they achieve their quest?</li>
               <li>How do you want them to grow and change as a person?</li>
-              <li>Which fictional genres best suits your characters? You can choose from any that you've learned about:
+              <li>Which fictional genre best suits your characters? You can choose from any that you've learned about:
                 adventure, fantasy, mythology, horror, mystery, fairy tale, etc.
               </li>
             </ul>
-          </p>
-          <p>Take a few minutes to complete the assignment below. Your responses can be short
-            bullet points. The main point of this assignment is to generate ideas.
+          <p className="topBottom">Complete the assignment below. Your responses can be short bullet points. The main point of this assignment is to generate ideas.
             <ol className="vocab">
               <li>Close your eyes and imagine the protagonist for your next story. Briefly describe their external and
-                internal traits (physical appearance and character traits).
-              </li>
-              <li>List at least one place the protagonist will travel to. If you're not sure, where would <i>you </i>travel
-                to
-                if there were no limitations? This can be a real place or a setting of your own creation.
-              </li>
+                internal traits (physical appearance and character traits).</li>
+              <li>List at least one place the protagonist will travel to. If you're not sure, where would <i>you </i>travel to
+                if there were no limitations? This can be a real place or a setting of your own creation.</li>
               <li>What ideas do you have for the quest the protagonist will embark on? Are they chasing after an
-                artifact? Are they on a mission of some kind? Jot down any ideas you have.
-              </li>
+                artifact? Are they on a mission of some kind? Jot down any ideas you have.</li>
               <li> Picture the villain. What are they like?</li>
               <li>Create a book cover design for your next story. Think about the impression and mood
                 you want the images and colors to create for your readers. You can use whatever
-                medium you choose: pencil sketch, collage, paper and markers, or <a
+                medium you choose: pencil sketch, Photoshop, collage, paper and markers, or <a
                   href="https://www.canva.com/create/book-covers/"
                   rel="noreferrer"
                   target="_blank"> Canva's online book cover creation
@@ -3979,7 +4026,7 @@ const LA6Component = ({ data }) => {
               </li>
             </ol></p>
           <p>Below are examples of book covers.</p>
-          <img src={require("../../public/images/bookCovers/bookcover2.jpg")} alt="Book Covers"/>
+          <img src={require("../../public/images/bookCovers/bookcover2.jpg")} alt="Book Covers"/><br/>
 
           <textarea className="textArea" placeholder="Write your responses here." onChange={onChangeLA6Listener136}
                     value={la6Essay136}/>
@@ -4081,7 +4128,7 @@ const LA6Component = ({ data }) => {
             <br/> Write your story in the textbox below.  Be sure to back up your work.
           </p>
           <p>You can use the <a
-            href="../resources/languagearts/StoryOutlineWorksheet.pdf">Story Outline Worksheet</a> to help you get started.</p>
+            href={ require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story Outline Worksheet</a> to help you get started.</p>
           <textarea className="textArea" onChange={onChangeLA6Listener139} value={la6Essay139}/>
 
           <h4> Vocabulary and Reading</h4>
@@ -4528,15 +4575,15 @@ const LA6Component = ({ data }) => {
               Why do you think this is so? </li>
             <li> To what extent was Emily Dickinson the eccentric recluse she is often portrayed as being?</li>
             <li> Describe some of the reasons that Dickinson did not gain fame as a poet during her lifetime.</li>
-            <li>What did you think of the poem "Hope" is the Thing with Feathers? If you had to summarize it for someone who has never read it, what wouduld you say?</li>
-            <li>In the poem "Hope" what do you think these lines mean: <i>Yet - never - in Extremity, It asked a crumb - of me. </i></li>
+            <li> What did you think of the poem "Hope" is the Thing with Feathers? If you had to summarize it for someone who has never read it, what wouduld you say?</li>
+            <li> In the poem "Hope" what do you think these lines mean: <i>Yet - never - in Extremity, It asked a crumb - of me. </i></li>
             <li> "I’m nobody – who are you?" is an invitation to loneliness. How does this poem invite the reader 
               into a kind of shared strangeness? Do you feel separated
               or connected by the language? </li>
-            <li>Does Dickinson seem to be writing for other people or only for herself?</li>
-            <li>Which Emily Dickinson poem is your favorite? Explain why.</li>
-            <li>Based on the poem you chose, what is the imagery in the poem?</li>
-            <li> What is the mood of the poem? Or how does it make you feel?</li>
+            <li> Does Dickinson seem to be writing for other people or only for herself?</li>
+            <li> Which Emily Dickinson poem is your favorite? Explain why.</li>
+            <li> Based on the poem you chose, what is the imagery in the poem?</li>
+            <li> What is the mood of the poem? How does it make you feel?</li>
             <li> What is the message of the poem?</li>
             <li> Which parts of it are lingering in your mind?</li>
           </ol>
@@ -4569,7 +4616,7 @@ const LA6Component = ({ data }) => {
 
           <span className="days">LESSON 179 </span>
           <h4>How do you read a poem? </h4>
-          <p className="margin-para" style={{ color: "#7c7f93", fontSize: "110%", lineHeight: "1.7" }}> Slow down. Read
+          <p className="margin-para" style={{ color: "#4f5979", fontSize: "110%", lineHeight: "1.7" }}> Slow down. Read
             it slowly.<br/>
             A good poet will have made every word in the poem count. <br/>Step into the poem
             and wander around. Take your time. <br/>
@@ -4634,7 +4681,7 @@ const LA6Component = ({ data }) => {
           <p className="topBottom">This example is from the poet Glenis Redmond </p>
           <h4><i>Self-Portrait: Bard in the Making</i>
           </h4>
-          <ul style={{ color: "#7c7f93" }}>
+          <ul style={{ color: "#4f5979", fontStyle: "italic" }}>
             <li>When I was in the fifth grade</li>
             <li>I was the biggest tomboy</li>
             <li>always in t-shirt and jeans</li>
@@ -4650,11 +4697,11 @@ const LA6Component = ({ data }) => {
             <li>I was the fastest sprinter in the school</li>
             <li>I could stop on a dime</li>
             <li>and give you nine cents change.</li>
-          </ul>
+          </ul><br/>
           <p className="topBottom"> Now use your lists to help you tell your story.  Use at least one of the following poetry devices:<br/>
-            alliteration <i style={{ color: "#7c7f93", fontSize: "90%" }}>repetition of initial consonant sounds - "The <b>sh</b>epherd <b>sh</b>ook <b>h</b>is <b>h</b>ead"</i><br/>
-            assonance <i style={{ color: "#7c7f93", fontSize: "90%"  }}>repetition of <b>vowel</b> sounds - "I'm reminded to line the lid of my eye"</i><br/>
-            and anaphora <i style={{ color: "#7c7f93", fontSize: "90%"  }}>repetition of words - Still I Rise by Maya Angelou<br/>
+            alliteration <i style={{ color: "#4f5979", fontSize: "90%" }}>repetition of initial consonant sounds - "The <b>sh</b>epherd <b>sh</b>ook <b>h</b>is <b>h</b>ead"</i><br/>
+            assonance <i style={{ color: "#4f5979", fontSize: "90%"  }}>repetition of <b>vowel</b> sounds - "I'm reminded to line the lid of my eye"</i><br/>
+            and anaphora <i style={{ color: "#4f5979", fontSize: "90%"  }}>repetition of words - Still I Rise by Maya Angelou<br/>
               "I rise<br/>
               Bringing the gifts that my ancestors gave,<br/>
               I am the dream and the hope of the slave.<br/>
