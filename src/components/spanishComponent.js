@@ -803,7 +803,21 @@ const SpanishComponent = ({ data }) => {
           <p>Duolingo is the only account you need to create for this course. You do NOT need to sign up for any
             subscriptions or create any other accounts in order to watch the videos
             below and complete this Spanish course. </p>
-          <textarea className="textArea" onChange={onChangespanishListener1} value={spanishEssay1}/>
+          <textarea className="textArea" placeholder="Write your responses here. Your work will automatically be saved to your Local Storage. 
+                    -----
+                    If you clear your cookies, your answers will be erased! Be sure to back up your work by saving it in another 
+                    location. 
+                    -----
+                    You can 'Select All' (select your answers inside this textbox by touching/clicking on (ctrl a)) and 
+                    copy/paste it into Google Docs, a Word Doc or into an email  and send it to your parent or teacher. 
+                    -----
+                    Some devices allow you to 'Select All' and then 'Share' via email or another app.
+                    -----
+                    You may prefer to copy/paste the questions into this textbox for easier viewing and grading by your parent or teacher.
+                    -----
+                    Be sure to label each assignment with the Subject and Lesson Number."
+
+                    onChange={onChangespanishListener1} value={spanishEssay1}/>
 
           <span className="days">LESSON 2 </span>
           <p className="topBottom">Watch the videos and then answer the questions below.</p>
@@ -823,7 +837,7 @@ const SpanishComponent = ({ data }) => {
             <li>Write 5 phrases you learned from the video Spanish 101.</li>
             <li>What are 5 of the best tips mentioned in the video that you will start using on Duolingo?</li>
           </ol>
-          <textarea className="textArea" onChange={onChangespanishListener2} value={spanishEssay2}/>
+          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangespanishListener2} value={spanishEssay2}/>
 
           <span className="days">LESSON 3 </span>
           <p className="topBottom">Watch the videos, answer the questions below and complete a full lesson on <a
@@ -840,7 +854,7 @@ const SpanishComponent = ({ data }) => {
             <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
                                                                  target="_blank"> Duolingo. </a></li>
           </ol>
-          <textarea className="textArea" onChange={onChangespanishListener3} value={spanishEssay3}/>
+          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangespanishListener3} value={spanishEssay3}/>
 
           <span className="days">LESSON 4 </span>
           <p className="topBottom">Watch the videos, answer the questions below and complete a full lesson on <a
@@ -858,7 +872,7 @@ const SpanishComponent = ({ data }) => {
             <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
                                                                  target="_blank"> Duolingo. </a></li>
           </ol>
-          <textarea className="textArea" onChange={onChangespanishListener4} value={spanishEssay4}/>
+          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangespanishListener4} value={spanishEssay4}/>
 
           <span className="days">LESSON 5 </span>
           <p className="topBottom">Watch the videos, answer the questions below and complete a full lesson on <a
@@ -873,7 +887,7 @@ const SpanishComponent = ({ data }) => {
             <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
                                                                  target="_blank"> Duolingo. </a></li>
           </ol>
-          <textarea className="textArea" onChange={onChangespanishListener5} value={spanishEssay5}/>
+          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangespanishListener5} value={spanishEssay5}/>
 
           <span className="days">LESSON 6 </span>
           <p className="topBottom">Watch the videos, answer the questions below and complete a full lesson on <a
@@ -893,7 +907,7 @@ const SpanishComponent = ({ data }) => {
             <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
                                                                  target="_blank"> Duolingo. </a></li>
           </ol>
-          <textarea className="textArea" onChange={onChangespanishListener6} value={spanishEssay6}/>
+          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangespanishListener6} value={spanishEssay6}/>
 
           <span className="days">LESSON 7 </span>
           <p className="topBottom">Watch the videos, answer the questions below and complete a full lesson on <a
@@ -910,7 +924,7 @@ const SpanishComponent = ({ data }) => {
             <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
                                                                  target="_blank"> Duolingo. </a></li>
           </ol>
-          <textarea className="textArea" onChange={onChangespanishListener7} value={spanishEssay7}/>
+          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangespanishListener7} value={spanishEssay7}/>
 
           <span className="days">LESSON 8 </span>
           <p className="topBottom">Watch the videos, answer the questions below and complete a full lesson on <a
@@ -926,7 +940,7 @@ const SpanishComponent = ({ data }) => {
             <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
                                                                  target="_blank"> Duolingo. </a></li>
           </ol>
-          <textarea className="textArea" onChange={onChangespanishListener8} value={spanishEssay8}/>
+          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangespanishListener8} value={spanishEssay8}/>
 
           <span className="days">LESSON 9 </span>
           <p className="topBottom">Watch the videos, answer the questions below and complete a full lesson on <a
@@ -944,7 +958,7 @@ const SpanishComponent = ({ data }) => {
             <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
                                                                  target="_blank"> Duolingo. </a></li>
           </ol>
-          <textarea className="textArea" onChange={onChangespanishListener9} value={spanishEssay9}/>
+          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangespanishListener9} value={spanishEssay9}/>
 
           <span className="days">LESSON 10 </span>
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
@@ -959,7 +973,7 @@ const SpanishComponent = ({ data }) => {
             <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
                                                                  target="_blank"> Duolingo. </a></li>
           </ol>
-          <textarea className="textArea" onChange={onChangespanishListener10} value={spanishEssay10}/>
+          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangespanishListener10} value={spanishEssay10}/>
 
           <span className="days">LESSON 11 </span>
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
@@ -975,7 +989,7 @@ const SpanishComponent = ({ data }) => {
             <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
                                                                  target="_blank"> Duolingo. </a></li>
           </ol>
-          <textarea className="textArea" onChange={onChangespanishListener11} value={spanishEssay11}/>
+          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangespanishListener11} value={spanishEssay11}/>
 
           <span className="days">LESSON 12 </span>
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
@@ -992,7 +1006,7 @@ const SpanishComponent = ({ data }) => {
             <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
                                                                  target="_blank"> Duolingo. </a></li>
           </ol>
-          <textarea className="textArea" onChange={onChangespanishListener12} value={spanishEssay12}/>
+          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangespanishListener12} value={spanishEssay12}/>
 
           <span className="days">LESSON 13 </span>
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
@@ -1007,7 +1021,7 @@ const SpanishComponent = ({ data }) => {
             <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
                                                                  target="_blank"> Duolingo. </a></li>
           </ol>
-          <textarea className="textArea" onChange={onChangespanishListener13} value={spanishEssay13}/>
+          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangespanishListener13} value={spanishEssay13}/>
 
           <span className="days">LESSON 14 </span>
           <p className="topBottom">Watch the videos, answer the questions below and complete a full lesson on <a
@@ -1025,7 +1039,7 @@ const SpanishComponent = ({ data }) => {
             <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
                                                                  target="_blank"> Duolingo. </a></li>
           </ol>
-          <textarea className="textArea" onChange={onChangespanishListener14} value={spanishEssay14}/>
+          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangespanishListener14} value={spanishEssay14}/>
 
           <span className="days">LESSON 15 </span>
           <p className="topBottom">Watch the videos, answer the questions below and complete a full lesson on <a
@@ -3870,7 +3884,7 @@ const SpanishComponent = ({ data }) => {
 
       < Confetti/>
       < h3
-        style={{ textAlign: "center", height: "70vh", width: "100vw" }}> You finished Spanish! </h3>
+        style={{ textAlign: "center", height: "70vh", width: "100vw" }}> You finished Middle School Spanish! </h3>
     </form>
   )
 }

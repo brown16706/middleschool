@@ -833,16 +833,19 @@ const LA7Component = ({ data }) => {
           </p>
           <textarea className="textArea"
                     placeholder="Write your responses here. Your work will automatically be saved to your Local Storage. 
+                    -----
                     If you clear your cookies, your answers will be erased! Be sure to back up your work by saving it in another 
                     location. 
-                    ---
-                    You can (1) 'Select All' (select your answers inside this textbox by touching/clicking on it) and 
-                    copy/paste it into Google Docs, a Word Doc or into an email 
-                    and send it to your parent or teacher. 
-                    (2) On a PC, you can 'Select All' (ctrl a), select 'Print' (ctrl p) and then save as a PDF on
-                     your computer. 
-                     ---
-                     Be sure to label each assignment with the Subject, Chapter Title, and Lesson Number. Also, number your responses."
+                    -----
+                    You can 'Select All' (select your answers inside this textbox by touching/clicking on (ctrl a)) and 
+                    copy/paste it into Google Docs, a Word Doc or into an email  and send it to your parent or teacher. 
+                    -----
+                    Some devices allow you to 'Select All' and then 'Share' via email or another app.
+                    -----
+                    You may prefer to copy/paste the questions into this textbox for easier viewing and grading by your parent or teacher.
+                    -----
+                    Be sure to label each assignment with the Subject and Lesson Number."
+
                     onChange={onChangela7Listener1} value={la7Essay1}/>
 
           <span className="days">LESSON 2 </span>
@@ -2741,7 +2744,7 @@ const LA7Component = ({ data }) => {
           <p className="topBottom"><strong>Idioms</strong> are figures of speech that cannot be understood from a
             literal
             understanding of the words
-            alone. Examples: <span style={{ color: "#4f5979 " }}><i>The cat is out of the bag. Stop beating around the bush.</i></span>
+            alone. Examples: <span style={{ color: "#4f5979" }}><i>The cat is out of the bag. Stop beating around the bush.</i></span>
             <br/>Someone visiting from
             another country would not understand these phrases without someone explaining the meaning.</p>
 
