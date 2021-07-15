@@ -773,6 +773,8 @@ const LA8Component = ({ data }) => {
             Until you get a copy, the first chapter of each book is linked as a PDF. The novels are available at
             your local library, local bookstore, or can be purchased online. If the books are out of copyright, they
             are provided below as PDFs. </p>
+          
+          <p className="margin-para fadeIn">Users may encounter texts, videos or poetry they consider controversial, offensive, or inappropriate. It is the responsibility of the parent, guardian or teacher to review all materials before their student views them.</p>
 
           <span className="days">LESSON 1 </span>
           <p className="margin-para"> The first book you will read for this course is <a
@@ -4890,18 +4892,18 @@ const LA8Component = ({ data }) => {
           <br/>
           <p className="topBottom"> Now use your lists to help you tell your story. Use at least one of the following
             poetry devices:<br/>
-            alliteration <i style={{ color: "#4f5979", fontSize: "90%" }}>repetition of initial consonant sounds -
-              "The <b>sh</b>epherd <b>sh</b>ook <b>h</b>is <b>h</b>ead"</i><br/>
-            assonance <i style={{ color: "#4f5979", fontSize: "90%" }}>repetition of <b>vowel</b> sounds - "I'm reminded
-              to line the lid of my eye"</i><br/>
-            and anaphora <i style={{ color: "#4f5979", fontSize: "90%" }}>repetition of words - Still I Rise by Maya
+            <strong>alliteration:</strong> repetition of initial consonant sounds -
+            "The <b>sh</b>epherd <b>sh</b>ook <b>h</b>is <b>h</b>ead"-<br/>
+            <strong>assonance:</strong> repetition of <b>vowel</b> sounds - "I'm reminded
+            to line the lid of my eye"<br/>
+            <strong>anaphora: </strong> repetition of words - <i style={{ color: "#4f5979"}}>Still I Rise by Maya
               Angelou<br/>
               "I rise<br/>
               Bringing the gifts that my ancestors gave,<br/>
               I am the dream and the hope of the slave.<br/>
               I rise<br/>
               I rise<br/>
-              I rise."</i></p>
+              I rise." </i></p>
           <p className="topBottom">It's best if you can create your own poem, but if you want, you can use the sentences
             below as a model.</p>
           <p>
@@ -5410,8 +5412,7 @@ const LA8Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/30CPmgVQNks"/>
           <Video videoUrl="https://www.youtube.com/embed/6a6kbU88wu0"/>
           <p className="topBottom"><strong>Dystopian fiction</strong> describes a fictional place where things have
-            gone
-            horribly wrong and life is terrible. The characters suffer oppression, terror or deprivation. Dystopian
+            gone horribly wrong and life is terrible. The characters suffer oppression, terror or deprivation. Dystopian
             fiction includes novels like<i> The Hunger Games, The Giver, Divergent, and The Handmaid's Tale.</i></p>
           <p className="topBottom">Select one of the images below as your book cover. Then write a dystopian story
             based on the picture. What story unfolds in your imagination when you look at the image? Write your

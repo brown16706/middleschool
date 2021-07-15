@@ -645,13 +645,13 @@ const LA6Component = ({ data }) => {
           <h1 className="section-title fadeIn">Daily Lessons</h1>
           <span className="days fadeIn">Books</span>
           <p className="margin-para fadeIn">The books required for this course are: D'Aulaires <i>Book of Greek Myths,
-            The
-            Egypt Game</i> by Zilpha
-            Keatley Snyder, <i> The Golden Compass</i> by Philip Pullman, <i> The Hunger Games</i> by Suzanne Collins,
-            and <i>Stargirl</i> by
+            The Egypt Game</i> by Zilpha Keatley Snyder, <i> The Golden Compass</i> by Philip Pullman, <i> The Hunger Games</i> by Suzanne Collins, and <i>Stargirl</i> by
             Jerry Spinelli. They are all available at your local library, local bookstore, or can be
             purchased online. Until you get a copy, the first chapter for each book is linked as a PDF. The entire book
             is posted if it is out of copyright.</p>
+
+          <p className="margin-para fadeIn">Users may encounter texts, videos or poetry they consider controversial, offensive, or inappropriate. It is the responsibility of the parent, guardian or teacher to review all materials before their student views them.</p>
+
           <span className="days">LESSON 1</span>
           <p>The first book you will read is D'Aulaires <i>Book of Greek Myths.</i> Begin reading <a
             href={require("../resources/books/Daulaires/1_olden_times.pdf")} rel="noreferrer" target="_blank">
@@ -858,18 +858,16 @@ const LA6Component = ({ data }) => {
             You can take the test as many times as like so you can do your best. </p>
           <br/>
           <span className="days">LESSON 10</span>
-          <p> Read <i>Hades
-            and Persephone</i> from D'Aulaire's Book of Greek Myths.</p>
+          <p> Read <i>Hades and Persephone</i> from D'Aulaire's Book of Greek Myths.</p>
           <p>Watch the video <i>Hades: God of the Underworld - Lord of the Dead</i></p>
           <Video videoUrl="https://www.youtube.com/embed/BMeNMdLMVN0?list=PLgZdqfi4SZ0oAuzDDVjPVYJMQvfij88QQ"/>
-          <p>Watch the video <i>Hades and Persephone: The Story of the Seasons</i></p>
-          <Video videoUrl="https://www.youtube.com/embed/5iJrhlOskag?list=PLgZdqfi4SZ0oAuzDDVjPVYJMQvfij88QQ"/>
+          <p>Watch the video <i>Hades and Persephone: The Abduction Goddess of Spring and Queen of the Underworld</i></p>
+          <Video videoUrl="https://www.youtube.com/embed/khpjQZ693Q4"/>
           <p>In complete sentences, answer the following questions:<br/>
-            1. Describe Hades. What do you think of him? Do you think he is good, evil or somewhere in between? Explain.<br/>
+            1. Describe Hades. What do you think of him? Do you think he is good, evil or somewhere in between? Use examples from the reading and videos to support your opinion.<br/>
             2. What happened to Persephone and what was your reaction to it?<br/>
             3. The story of Persephone and Demeter explained to the ancient Greeks why there were seasons. How would you
-            describe this story
-            to someone who has never heard it before?<br/>
+            describe this story to someone who has never heard it before?<br/>
           </p>
           <textarea className="textArea"
                     placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
@@ -1021,6 +1019,10 @@ const LA6Component = ({ data }) => {
             reading about the other gods and goddesses in which you learn about their background, struggles,
             strengths and weaknesses.<br/>
           </p>
+          <p>You can use the <a
+            href={require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story
+            Outline Worksheet</a> to help you get started.
+          </p>
           <textarea className="textArea" onChange={onChangeLA6Listener18} value={la6Essay18}/>
 
           <span className="days">LESSON 19</span>
@@ -1060,6 +1062,8 @@ const LA6Component = ({ data }) => {
           <p>You have just discovered another planet in our solar system. You must look at its characteristics and
             then decide what name you will give it, following the tradition of naming the planets after
             characters from Roman mythology.<br/>
+            <img src={require("../../public/images/stories/planets.jpg")}
+                 alt='solar system'/><br/>
             1. Where does your planet lie in the solar system? How many other planets are between it and the
             sun?<br/>
             2. How big is your planet? Compare it in size to one of the other planets.<br/>
@@ -1159,13 +1163,15 @@ const LA6Component = ({ data }) => {
             5. Your story should clearly show that you know something about Greek mythology. You will do this by
             including details about the Olympian gods and goddesses that show you know their powers and
             personalities. <br/>
-            <br/> <b>If you are having trouble getting started, here are some ideas to get you thinking:</b> <br/>
+            <br/> <b>Below are some ideas to get you thinking:</b> <br/>
             Where did the Andes Mountains come from? <br/>
             Where did the Seine River come from? <br/>
             What made the North and/or South Pole(s)? <br/>
             Why is Earth the third planet from the sun? <br/>
             What causes a solar eclipse? <br/>
           </p>
+          <p>You can use the <a href={require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story
+            Outline Worksheet</a> to help you get started.</p>
           <textarea className="textArea" onChange={onChangeLA6Listener25} value={la6Essay25}/>
 
           <span className="days">LESSONS 27 &amp; 28</span>
@@ -1922,8 +1928,7 @@ const LA6Component = ({ data }) => {
             7. Why did the Master put poison into Lord Asriel's drink?
           </p>
           <p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and then
-            use the word in a sentence. An example is below.</p>
-          <p>
+            use the word in a sentence. An example is below.<br/>
             <ol className="vocab">
               <li>solemn: <i> marked by the invocation of a religious sanction, solemn
                 oath, or ceremony. Gloomy. <br/>She had a solemn expression on her face. </i></li>
@@ -1937,7 +1942,6 @@ const LA6Component = ({ data }) => {
               <li>disposed</li>
             </ol>
           </p>
-          <br/>
 
           <textarea className="textArea" onChange={onChangeLA6Listener54} value={la6Essay54}/>
           <br/>
@@ -1946,8 +1950,7 @@ const LA6Component = ({ data }) => {
           <p><i>Complete the the questions and vocabulary assignment below:</i></p>
           <p>1. What are new insights about the characters (new traits or important information about them).
             Include other characters if they played a significant role. If there is a character you particularly
-            liked
-            or disliked, describe them. (2-5 sentences).<br/>
+            liked or disliked, describe them. (2-5 sentences).<br/>
             2. What is the setting: where and when the events take place (1-3 sentences).<br/>
             3. Describe the main events for the chapter (2-4 sentences). This usually involves a problem or
             conflict the main character is trying to solve. Include supporting details. There should be a
@@ -1957,8 +1960,7 @@ const LA6Component = ({ data }) => {
             that are different?
           </p>
           <p><strong>VOCABULARY</strong><br/>For each word below, write the definition and then use the word in a
-            sentence. </p>
-          <p>
+            sentence. <br/>
             <ol className="vocab">
               <li> tawny</li>
               <li>impassive</li>
@@ -1970,33 +1972,28 @@ const LA6Component = ({ data }) => {
               <li>severed</li>
             </ol>
           </p>
-          <br/>
 
           <textarea className="textArea" onChange={onChangeLA6Listener55} value={la6Essay55}/>
 
           <span className="days">LESSON 76</span>
           <p>Read Chapter 3 <i> Lyra's Jordan</i></p>
           <p><i>Complete the the questions and vocabulary assignment below:</i></p>
-          <p>1. What are new insights about the characters (new traits or important information about them).
-            Include other characters if they played a significant role. If there is a character you particularly
-            liked
-            or disliked, describe them. (2-5 sentences).<br/>
-            2. What is the setting: where and when the events take place (1-3 sentences).<br/>
-            3. Describe the main events for the chapter (2-4 sentences). This usually involves a problem or
+          <Video videoUrl="https://www.youtube.com/embed/5alYLJS4OrE"/>
+          <p>1. In the novel, humans have dæmons, creatures that take animal forms. Imagine that you have a daemon you are connected to. What kind of daemon do you think you would
+            have? Describe this creature in detail.<br/>
+            2.  If it were possible to have a dæmon of your own, would you want one? Explain why or why not.<br/>
+            3. What are new insights you have about the characters (new traits or important information about them).
+            Include any characters that played a significant role. (2-5 sentences).<br/>
+            4. What is the setting: where and when the events take place (1-3 sentences).<br/>
+            5. Describe the main events for the chapter (2-4 sentences). This usually involves a problem or
             conflict the main character is trying to solve. Include supporting details. There should be a
             beginning, middle and end (2-4 sentences).<br/>
-            4. What was your favorite part and why? (1-3 sentences)<br/>
-            5. In the novel, humans have dæmons, creatures that take animal forms. Would you want a dæmon of your own?
-            Explain why or why not.<br/>
-            The dæmons apparently stay in one
-            6. Imagine that you have a daemon you are connected to. What kind of daemon do you think you would
-            have? Describe this creature in detail.<br/>
+            6. What was your favorite part of this chapter and why? (1-3 sentences)<br/>
             7. Describe the Gobblers. What are they?
             8. Lyra decides to fight the Gobblers. Why do you think this is?
           </p>
           <p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and then
-            use the word in a sentence. </p>
-          <p>
+            use the word in a sentence. <br/>
             <ol className="vocab">
               <li> festooned</li>
               <li>luminous</li>
@@ -2007,7 +2004,6 @@ const LA6Component = ({ data }) => {
               <li>postulated</li>
             </ol>
           </p>
-          <br/>
           <textarea className="textArea" onChange={onChangeLA6Listener56} value={la6Essay56}/>
 
 
@@ -2024,8 +2020,7 @@ const LA6Component = ({ data }) => {
             4. What is an alethiometer? What does it do?<br/>
             5. What was your favorite part of this chapter and why? (1-3 sentences)
           </p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and
-          then use the word in a sentence. </p>
-          <p>
+          then use the word in a sentence. <br/>
             <ol className="vocab">
               <li> piecemeal</li>
               <li>squalid</li>
@@ -2036,7 +2031,6 @@ const LA6Component = ({ data }) => {
               <li>mutinously</li>
             </ol>
           </p>
-          <br/>
           <textarea className="textArea" onChange={onChangeLA6Listener57} value={la6Essay57}/>
 
           <span className="days">LESSON 78</span>
@@ -2052,8 +2046,7 @@ const LA6Component = ({ data }) => {
             5. The novel talks about "experimental theology." What does this mean?<br/>
             6. Lyra leaves Mrs. Coulter. What happened at the party that made her do this?</p>
           <p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and then
-            use the word in a sentence. </p>
-          <p>
+            use the word in a sentence. <br/>
             <ol className="vocab">
               <li>sardonically</li>
               <li>breviary</li>
@@ -2063,7 +2056,6 @@ const LA6Component = ({ data }) => {
               <li>fervent</li>
             </ol>
           </p>
-          <br/>
           <textarea className="textArea" onChange={onChangeLA6Listener58} value={la6Essay58}/>
 
           <span className="days">LESSON 79</span>
@@ -2079,8 +2071,7 @@ const LA6Component = ({ data }) => {
             4. Why was Lyra netted by the Gyptians?<br/>
             5. Describe Panserbjorne.</p>
           <p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and then
-            use the word in a sentence. </p>
-          <p>
+            use the word in a sentence. <br/>
             <ol className="vocab">
               <li>copiously</li>
               <li>propitiate</li>
@@ -2090,7 +2081,6 @@ const LA6Component = ({ data }) => {
               <li>rapt</li>
             </ol>
           </p>
-          <br/>
           <textarea className="textArea" onChange={onChangeLA6Listener140} value={la6Essay140}/>
 
           <span className="days">LESSON 80</span>
@@ -2102,8 +2092,7 @@ const LA6Component = ({ data }) => {
             3. Describe the main events for the chapter (2-4 sentences).<br/>
             4. What was your favorite part of this chapter and why? (1-3 sentences)
           </p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and
-          then use the word in a sentence. </p>
-          <p>
+          then use the word in a sentence. <br/>
             <ol className="vocab">
               <li>pique</li>
               <li>errant</li>
@@ -2114,7 +2103,6 @@ const LA6Component = ({ data }) => {
               <li>incessant</li>
             </ol>
           </p>
-          <br/>
 
           <textarea className="textArea" onChange={onChangeLA6Listener59} value={la6Essay59}/>
 
@@ -2128,8 +2116,7 @@ const LA6Component = ({ data }) => {
             sentences)
             5. Do any of the characters show leadership qualities? Explain.
           </p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and
-          then use the word in a sentence. </p>
-          <p>
+          then use the word in a sentence. <br/>
             <ol className="vocab">
               <li> rescind</li>
               <li>enthralled</li>
@@ -2139,7 +2126,6 @@ const LA6Component = ({ data }) => {
               <li>dispositions</li>
             </ol>
           </p>
-          <br/>
 
           <textarea className="textArea" onChange={onChangeLA6Listener101} value={la6Essay101}/>
 
@@ -2155,15 +2141,13 @@ const LA6Component = ({ data }) => {
             6) Why did John Faa change his mind about Lyra going to Bolvangar? <br/>
 
           </p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and
-          then use the word in a sentence. </p>
-          <p>
+          then use the word in a sentence. <br/>
             <ol className="vocab">
               <li>delude</li>
               <li>despondency</li>
               <li>reproach</li>
             </ol>
           </p>
-          <br/>
           <textarea className="textArea" onChange={onChangeLA6Listener60} value={la6Essay60}/>
 
           <span className="days">LESSON 83</span>
@@ -2176,8 +2160,7 @@ const LA6Component = ({ data }) => {
             believe this is true? Explain why or why not. <br/>
           </p>
           <p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and
-            then use the word in a sentence. </p>
-          <p>
+            then use the word in a sentence. <br/>
             <ol className="vocab">
               <li>abated</li>
               <li>repugnant</li>
@@ -2185,7 +2168,6 @@ const LA6Component = ({ data }) => {
               <li>malevolent</li>
             </ol>
           </p>
-          <br/>
           <textarea className="textArea" onChange={onChangeLA6Listener61} value={la6Essay61}/>
 
           <span className="days">LESSON 84</span>
@@ -2200,15 +2182,13 @@ const LA6Component = ({ data }) => {
             sentences).<br/>
             6. What was your favorite part and why? (1-3 sentences)
           </p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and
-          then use the word in a sentence. </p>
-          <p>
+          then use the word in a sentence. <br/>
             <ol className="vocab">
               <li>conjure</li>
               <li>formidable</li>
               <li>indignant</li>
             </ol>
           </p>
-          <br/>
 
           <textarea className="textArea" onChange={onChangeLA6Listener62} value={la6Essay62}/>
           <br/>
@@ -2223,8 +2203,7 @@ const LA6Component = ({ data }) => {
             conflict the main character is trying to solve. Include supporting details. This will help explain
             the how and why something happened. There should be a beginning, middle and end (2-4 sentences).
           </p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and
-          then use the word in a sentence. </p>
-          <p>
+          then use the word in a sentence. <br/>
             <ol className="vocab">
               <li>pallid</li>
               <li>gesticulating</li>
@@ -2232,7 +2211,6 @@ const LA6Component = ({ data }) => {
               <li>taboo</li>
             </ol>
           </p>
-          <br/>
 
           <textarea className="textArea" onChange={onChangeLA6Listener63} value={la6Essay63}/>
           <br/>
@@ -2245,8 +2223,7 @@ const LA6Component = ({ data }) => {
             4. What was your favorite part?<br/>
             5. Describe the steps involved when Lee Scoresby makes gas.<br/>
           </p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and
-          then use the word in a sentence. </p>
-          <p>
+          then use the word in a sentence. <br/>
             <ol className="vocab">
               <li>suffused</li>
               <li>pedantic</li>
@@ -2254,7 +2231,6 @@ const LA6Component = ({ data }) => {
               <li>impassive</li>
             </ol>
           </p>
-          <br/>
 
           <textarea className="textArea" onChange={onChangeLA6Listener64} value={la6Essay64}/>
           <br/>
@@ -2270,15 +2246,13 @@ const LA6Component = ({ data }) => {
             3. Describe the main events for the chapter (2-4 sentences).<br/>
             4. Who do you think has a dull daemon? Why is it so dull?</p><p className="topBottom">
           <strong>VOCABULARY</strong><br/>For each word below, write the definition and then use the word in a sentence.
-        </p>
-          <p>
+        <br/>
             <ol className="vocab">
               <li>meticulous</li>
               <li>forlorn</li>
               <li>perpetual</li>
             </ol>
           </p>
-          <br/>
 
           <textarea className="textArea" onChange={onChangeLA6Listener65} value={la6Essay65}/>
 
@@ -2292,16 +2266,14 @@ const LA6Component = ({ data }) => {
             5. Why are the children at Bolvanger approximately the same age?<br/>
             6. Who took away Bridget McGinn? Is this significant?<br/>
             7. The chapter is called The Daemon Cages? Explain this.<br/>
-            <br/></p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition
-          and then use the word in a sentence. </p>
-          <p>
+           </p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition
+          and then use the word in a sentence. <br/>
             <ol className="vocab">
               <li>enveloping</li>
               <li>sanguine</li>
               <li>conspicuous</li>
             </ol>
           </p>
-          <br/>
 
           <textarea className="textArea" onChange={onChangeLA6Listener66} value={la6Essay66}/>
 
@@ -2313,8 +2285,7 @@ const LA6Component = ({ data }) => {
             3. Describe the main events for the chapter (2-4 sentences).<br/>
             4. What was your favorite part and why? (1-3 sentences)</p>
           <p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and then
-            use the word in a sentence. </p>
-          <p>
+            use the word in a sentence. <br/>
             <ol className="vocab">
               <li>banished</li>
               <li>apparatus</li>
@@ -2322,7 +2293,6 @@ const LA6Component = ({ data }) => {
               <li>resigned</li>
             </ol>
           </p>
-          <br/>
           <textarea className="textArea" onChange={onChangeLA6Listener67} value={la6Essay67}/>
 
           <span className="days">LESSON 90</span>
@@ -2334,8 +2304,7 @@ const LA6Component = ({ data }) => {
             4. Do you think Lyra is clever when she lies? Explain why or why not?<br/>
             5. What do you think about how Lyra gets others to do what she tells them? Explain.<br/>
           </p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and
-          then use the word in a sentence. </p>
-          <p>
+          then use the word in a sentence. <br/>
             <ol className="vocab">
               <li>rectified</li>
               <li>haggard</li>
@@ -2344,7 +2313,6 @@ const LA6Component = ({ data }) => {
               <li>querulously</li>
             </ol>
           </p>
-          <br/>
           <textarea className="textArea" onChange={onChangeLA6Listener68} value={la6Essay68}/>
 
           <span className="days">LESSON 91</span>
@@ -2355,15 +2323,13 @@ const LA6Component = ({ data }) => {
             3. Describe the life of a witch. (4-6 sentences)<br/>
             4. Serafina Pekkala believes priests are afraid of dust. Why?<br/>
           </p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and
-          then use the word in a sentence. </p>
-          <p>
+          then use the word in a sentence. <br/>
             <ol className="vocab">
               <li>inflammable</li>
               <li>buoyancy</li>
               <li>abominable</li>
             </ol>
           </p>
-          <br/>
 
           <textarea className="textArea" onChange={onChangeLA6Listener69} value={la6Essay69}/>
           <br/>
@@ -2375,15 +2341,13 @@ const LA6Component = ({ data }) => {
             3. What does Lyra convince Iofur to do? How does she do this?<br/>
             4. Describe the main events for the chapter. There should be a beginning, middle and end.<br/>
           </p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and
-          then use the word in a sentence. </p>
-          <p>
+          then use the word in a sentence. <br/>
             <ol className="vocab">
               <li>perceptive</li>
               <li>besotted</li>
               <li>exploit</li>
             </ol>
           </p>
-          <br/>
 
           <textarea className="textArea" onChange={onChangeLA6Listener70} value={la6Essay70}/>
           <br/>
@@ -2399,15 +2363,13 @@ const LA6Component = ({ data }) => {
             4. What does Iorek Byrnison mean when he calls Lyra “Lyra Silvertongue”?<br/>
             5. Why does Mrs. Coulter want to kill Lord Asriel?<br/>
           </p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and
-          then use the word in a sentence. </p>
-          <p>
+          then use the word in a sentence. <br/>
             <ol className="vocab">
               <li>preposterous</li>
               <li>vulnerable</li>
               <li>obligation</li>
             </ol>
           </p>
-          <br/>
 
           <textarea className="textArea" onChange={onChangeLA6Listener71} value={la6Essay71}/>
 
@@ -2421,8 +2383,7 @@ const LA6Component = ({ data }) => {
             5. Describe the main events for the chapter. <br/>
             6. Describe how Dust makes the alethiometer work.<br/>
           </p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and
-          then use the word in a sentence. </p>
-          <p>
+          then use the word in a sentence. <br/>
             <ol className="vocab">
               <li>wary</li>
               <li>imperious</li>
@@ -2431,7 +2392,6 @@ const LA6Component = ({ data }) => {
               <li>confused</li>
             </ol>
           </p>
-          <br/>
 
           <textarea className="textArea" onChange={onChangeLA6Listener72} value={la6Essay72}/>
           <br/>
@@ -2443,8 +2403,7 @@ const LA6Component = ({ data }) => {
             3. Who does Lord Asriel take with him to do his experiment?<br/>
             4. What does Lyra do at the end of the chapter? What does Iorek Byrnison do? Explain why they did this?<br/>
           </p><p className="topBottom"><strong>VOCABULARY</strong><br/>For each word below, write the definition and
-          then use the word in a sentence. </p>
-          <p>
+          then use the word in a sentence. <br/>
             <ol className="vocab">
               <li>gaunt</li>
               <li>lavish</li>
@@ -2453,7 +2412,6 @@ const LA6Component = ({ data }) => {
               <li>interrogate</li>
             </ol>
           </p>
-          <br/>
 
           <textarea className="textArea" onChange={onChangeLA6Listener73} value={la6Essay73}/>
           <br/>
@@ -2520,9 +2478,9 @@ const LA6Component = ({ data }) => {
             4. What is the reaping? Do you think this practice is fair? Explain.<br/>
             5. Who is selected at the reaping?</p>
           <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
-            1. reaping -<br/>
-            2. apothecary -<br/>
-            3. racketeering -<br/>
+            1. reaping <br/>
+            2. apothecary <br/>
+            3. racketeering <br/>
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener77} value={la6Essay77}/>
           <br/>
@@ -2535,14 +2493,14 @@ const LA6Component = ({ data }) => {
             3. Describe Gale. What do you think of him?<br/>
             4. What do you know so far about Katniss's mother. How would you describe her mental state?<br/>
             5. When some holds three middle fingers to their mouth and then holds them out, what does this mean?<br/>
-            6. What is the signifiance of the dandelion?<br/>
+            6. What is the significance of the dandelion?<br/>
 
           </p>
           <p>Write definitions for the vocabulary words below and use each word in a sentence. <br/>
-            1. condone -<br/>
-            2. tenuous -<br/>
-            3. mesmerized -<br/>
-            4. treason -<br/></p>
+            1. condone <br/>
+            2. tenuous <br/>
+            3. mesmerized <br/>
+            4. treason <br/></p>
           <textarea className="textArea" onChange={onChangeLA6Listener78} value={la6Essay78}/>
           <br/>
           <span className="days">LESSON 101</span>
@@ -2557,8 +2515,8 @@ const LA6Component = ({ data }) => {
             8. Describe Effie. What things does she value? How do you like her?<br/>
           </p>
           <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
-            1. compensation -<br/>
-            2. insurmountable -<br/></p>
+            1. compensation <br/>
+            2. insurmountable <br/></p>
           <textarea className="textArea" onChange={onChangeLA6Listener79} value={la6Essay79}/>
           <br/>
           <span className="days">LESSON 102</span>
@@ -2572,8 +2530,8 @@ const LA6Component = ({ data }) => {
             5. Haymitch makes a deal with Peeta and Katniss. What is it? What advice does he give them?<br/>
             6. Why does Katniss not like Haymitch?<br/>
           </p>
-          <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
-            1. gawking -<br/></p>
+          <p><i>Write definitions for the vocabulary word below and use each word in a sentence. </i><br/>
+            1. gawking <br/></p>
           <textarea className="textArea" onChange={onChangeLA6Listener80} value={la6Essay80}/>
           <br/>
           <span className="days">LESSON 103</span>
@@ -2587,8 +2545,8 @@ const LA6Component = ({ data }) => {
             District 12?<br/>
           </p>
           <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
-            1. sustenance -<br/>
-            2. demeanor -<br/></p>
+            1. sustenance <br/>
+            2. demeanor <br/></p>
           <textarea className="textArea" onChange={onChangeLA6Listener81} value={la6Essay81}/>
           <br/>
           <span className="days">LESSON 104</span>
@@ -2602,8 +2560,8 @@ const LA6Component = ({ data }) => {
           7. Katniss feels she is in Peeta's debt again. Why? What did he do?<br/>
 
           <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
-            1. corral -<br/>
-            2. barbarism -<br/></p>
+            1. corral <br/>
+            2. barbarism <br/></p>
           <textarea className="textArea" onChange={onChangeLA6Listener82} value={la6Essay82}/>
           <br/>
           <span className="days">LESSON 105</span>
@@ -2621,12 +2579,12 @@ const LA6Component = ({ data }) => {
             9. Who is Rue? What skill does she have that may serve her well in the Games?<br/>
           </p>
           <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
-            1. emaciated -<br/>
-            2. arbitrary -<br/>
-            3. deluge -<br/>
-            4. amiable -<br/>
-            5. arrogance -<br/>
-            6. surly -<br/></p>
+            1. emaciated <br/>
+            2. arbitrary <br/>
+            3. deluge <br/>
+            4. amiable <br/>
+            5. arrogance <br/>
+            6. surly <br/></p>
           <textarea className="textArea" onChange={onChangeLA6Listener83} value={la6Essay83}/>
           <br/>
           <span className="days">LESSON 106</span>
@@ -2640,8 +2598,8 @@ const LA6Component = ({ data }) => {
             5. Haymitch tells Katniss that plans have changed. What does he tell her?<br/>
           </p>
           <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
-            1. leniency -<br/>
-            2. arduous -<br/></p>
+            1. leniency <br/>
+            2. arduous <br/></p>
           <textarea className="textArea" onChange={onChangeLA6Listener84} value={la6Essay84}/>
           <br/>
           <span className="days">LESSON 107</span>
@@ -2658,11 +2616,11 @@ const LA6Component = ({ data }) => {
 
           </p>
           <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
-            1. pretense -<br/>
-            2. banal -<br/>
-            3. sullen -<br/>
-            5. prestigious -<br/>
-            7. elusive -<br/></p>
+            1. pretense <br/>
+            2. banal <br/>
+            3. sullen <br/>
+            4. prestigious <br/>
+            5. elusive <br/></p>
           <textarea className="textArea" onChange={onChangeLA6Listener85} value={la6Essay85}/>
           <br/>
           <span className="days">LESSON 108</span>
@@ -2687,9 +2645,9 @@ const LA6Component = ({ data }) => {
           <p>Read Chapter 11 from <i> The Hunger Games </i> and answer the
             questions below:<br/>1. Describe the Cornucopia.<br/>
             2. How are the tributes notified that someone has died in the arena? <br/>
-            3. How do you think Katniss feels when she hears Peeta planning with the Careers?
+            3. How do you think Katniss feels when she hears Peeta planning with the Careers?<br/>
             4. Who is the first person to die in the arena? How do they die? <br/>
-            5. What does Katniss see in the Cornucopia that she wants the most?
+            5. What does Katniss see in the Cornucopia that she wants the most?<br/>
             6. How would you describe the games when they first begin?<br/>
             7. What woke up Katniss that first night and what happened to the Tribute who woke her?<br/>
           </p>
@@ -2722,7 +2680,7 @@ const LA6Component = ({ data }) => {
           <span className="days">LESSON 111</span>
           <p>Read Chapter 13 from <i> The Hunger Games </i> and answer the
             questions below:<br/>1. Describe the attack that occurs in this chapter. <br/>
-            2. What kind of injury does Katniss receive and how did she get it?
+            2. What kind of injury does Katniss receive and how did she get it?<br/>
             3. Who does Katniss believe started the fire?<br/>
             4. Why is Katniss temporarily safe from the Tributes while she's in the tree? Why can't they get to
             her? <br/>
@@ -2759,10 +2717,10 @@ const LA6Component = ({ data }) => {
           <ol className="vocab">
             <li>Why do Katniss and Rue think Peeta saved Katniss’s life? What did he do?</li>
             <li>How do things change for Katniss after she has a bow? Does her perspective about the Games change?</li>
-            <li>Citizens not allowed to eat crops in District 11. Why is this?</li>
+            <li>Citizens are not allowed to eat crops in District 11. Why is this?</li>
             <li>Describe what the poison did to Katniss.</li>
             <li>Katniss forms an alliance. Who is it with?</li>
-            <li>Katniss believes her conversation with Rue will be blocked. Why would they block it?</li>
+            <li>Katniss believes her conversation with Rue will be blocked. Why would the Gamemakers block it?</li>
           </ol>
           <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. wracked <br/>
@@ -2800,8 +2758,7 @@ const LA6Component = ({ data }) => {
             <li>What happened to the boy from District 3?</li>
             <li>Why doesn't Katniss think "Foxface" would be a good ally?</li>
             <li>What do you think are Katniss's greatest strengths as a Tribute? What are her greatest weaknesses?</li>
-            <li>If you were a Tribute, how well do you think you would be doing at this point in the Games? What would
-              be
+            <li>If you were a Tribute in the Games, how well do you think you would be doing at this point in the Games? What would be
               your greatest strengths? What would be your greatest weaknesses?
             </li>
           </ol>
@@ -2859,7 +2816,7 @@ const LA6Component = ({ data }) => {
             4. Why does Katniss change the story of how she got Prim's goat?  <br/>
             5. How significant is it to have a goat if you live in District 12? <br/>
             6. What is delivered in the latest parachute? Is it something that will save Peeta? <br/>
-            3. How does Katniss trick Peeta so she can leave?  <br/></p>
+            7. How does Katniss trick Peeta so she can leave?  <br/></p>
           <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. tethered <br/>
             2. scowl <br/>
@@ -2911,8 +2868,7 @@ const LA6Component = ({ data }) => {
             3. How does Peeta compare to Gale as a hunting partner?<br/>
             4. How do Peeta and Katniss assume Haymitch won the Games?<br/>
             5. Why do you think Haymitch drinks so much?<br/>
-           6. When Katniss thinks about winning the Games, what does she imagine for her future? Is it hopeful or something else?  <br/>
-            have for the future?
+           6. When Katniss thinks about winning the Games, what does she imagine for her future? Is what she imagines hopeful or gloomy?  <br/>
           </p>
           <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. repellent <br/>
@@ -3003,14 +2959,14 @@ const LA6Component = ({ data }) => {
             develop within yourself? Why? How does that character demonstrate that
             trait/quality in the novel?<br/>
             7. What happened in The Hunger Games that reminds you of your own life or
-            something you have experienced? Explain by telling what happened in the book
+            something you have experienced? Explain by telling what happened in the book, 
             then what happened to you (or how it reminds you of something in your life).<br/>
             8. What is the most important choice made by a character in the novel? Why
             does that character make that choice? Would you make the same choice?
             Why or why not.<br/>
             9. Would you change the ending of The Hunger Games? If yes, tell your ending and
             why you would change it. If no, explain why the ending is perfect the way it is.<br/>
-            10.Which character matures the most in The Hunger Games? Give specific
+            10. Which character matures the most in The Hunger Games? Give specific
             examples of how that character changes. <br/>
             11. How we behave when we are placed into uncomfortable or
             terrible situations says a lot about our character. Which tributes
@@ -3019,7 +2975,7 @@ const LA6Component = ({ data }) => {
             went along with the inhumanity of the Games? How did they
             show their true colors?<br/>
             12. At the end of the novel, what are some things you believe will happen next? Will Katniss and
-            Peeta begin a relationship? How will Gale react? How will their lives change?<br/>
+            Peeta begin a relationship? How will Gale react to Peeta and Katniss's relationship? How will their lives change?<br/>
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener105} value={la6Essay105}/>
 
@@ -3072,8 +3028,8 @@ const LA6Component = ({ data }) => {
             17. Does Stargirl always do the right thing? <br/>
             18. Kevin says, <q>How long do you think somebody who’s really like that is going to
               last around here?</q> This is foreshadowing. Define <q>foreshadowing.</q> <br/>
-            18. What are the students at Mica Area High School like? <br/>
-            19. What would a hotbed of conformity look like? <br/>
+            19. What are the students at Mica Area High School like? <br/>
+            20. What would a hotbed of conformity look like? <br/>
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener106} value={la6Essay106}/>
           <br/>
@@ -3197,8 +3153,8 @@ const LA6Component = ({ data }) => {
             9. How does Stargirl allegedly say the Pledge of Allegiance? <br/>
             10. What happens when Anna Grisdale’s grandfather dies? <br/>
             11. What happens when Danny Pike goes bicycle riding? What is the aftermath? <br/>
-            12. What is the significance of the <q>Pledge of Allegiance, the Grisdale funeral, and the Danny
-              Pike affair</q>?<br/></p>
+            12. What is the significance of the Pledge of Allegiance, the Grisdale funeral, and the Danny
+              Pike affair?<br/></p>
           <textarea className="textArea" onChange={onChangeLA6Listener110} value={la6Essay110}/>
 
           <span className="days">LESSON 132</span>
@@ -3224,12 +3180,11 @@ const LA6Component = ({ data }) => {
             School? <br/>
             4. What does Leo regard as Stargirl’s <q>most remarkable</q> feature? <br/>
             5. Why does Stargirl leave a game in which the Electrons are ahead, 78-29? <br/>
-            6. Is it morally wrong to run up the score against an already beaten opposing team? <br/>
-            7. Why would the coach of Mica Area High School run up the score against the opposing
-            team? <br/>
-            8. What trick do the cheerleaders play on Stargirl? <br/>
-            9. What has happened to Stargirl’s popularity? <br/>
-            10. How does Stargirl act while appearing on Hot Seat? Which pantomime does she perform? <br/>
+            6. Why would the coach of Mica Area High School run up the score against the opposing
+            team? Do you think this is wrong to do?<br/>
+            7. What trick do the cheerleaders play on Stargirl? <br/>
+            8. What has happened to Stargirl’s popularity? <br/>
+            9. How does Stargirl act while appearing on Hot Seat? Which pantomime does she perform? <br/>
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener111} value={la6Essay111}/>
 
@@ -3248,24 +3203,15 @@ const LA6Component = ({ data }) => {
           <p><i>After you complete the reading, answer the questions below:</i><br/>
             1. How does Stargirl respond to the various questions and charges leveled against her? <br/>
             2. When asked if she loves her country, Stargirl answers that yes, she does love her country.
-            She
-            also asks, <q>Do you love yours?</q> How would you answer these questions? <br/>
-            3. <q>Why don’t you say the Pledge of Allegiance right</q>.<br/>
-            4. <q>Why do you cheer for the other team?</q>.<br/>
-            5. <q>Why did Stargirl quit homeschooling?</q> <br/>
-            6. Why doesn’t Stargirl respond to these questions? <br/><q>You meddle into everybody’s
-              business. You
-              stick your nose in, whether you’re invited or not. Why do you do that? Where’d you come from,
-              Mars or something? Why don’t you go back to where you came from?</q><br/>
-            7. Why does faculty adviser Mr. Robineau stop Hot Seat? <br/>
-            8. Does Stargirl change after Hot Seat? What does she do on Valentine’s Day? <br/>
-            9. Does Stargirl change after Hot Seat? Does she cheer for the Sun Valley basketball team? <br/>
-            10. After Sun Valley basketball star Ron Kovac is injured, what does Stargirl do? <br/>
-            11. After Sun Valley basketball star Ron Kovac is injured and carried off court in a
-            stretcher, <br/>
-            12. Why does the Mica Area High School basketball team lose to Glendale? <br/>
-            13. Why does Stargirl’s face get <q>bloody</q>?<br/>
-            14. What do you think of the ending of this chapter? <br/>
+            She also asks, <q>Do you love yours?</q> How would you feel and how would you respond to being asked all the questions that Stargirl was asked? <br/>
+            3. Why did Stargirl quit homeschooling? <br/>
+            4. Why does faculty adviser Mr. Robineau stop Hot Seat? <br/>
+            5. Does Stargirl change after Hot Seat?<br/>
+            6. What does she do on Valentine’s Day?  <br/>
+            7. After Sun Valley basketball star Ron Kovac is injured, what does Stargirl do? <br/>
+            8. Why does the Mica Area High School basketball team lose to Glendale? <br/>
+            9. Why does Stargirl’s face get <q>bloody</q>?<br/>
+            10. What do you think of the ending of this chapter? <br/>
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener112} value={la6Essay112}/>
           <br/>
@@ -3292,7 +3238,7 @@ const LA6Component = ({ data }) => {
             5. What happens when Stargirl tells Leo, <q>You’re welcome</q>?<br/>
             6. What decision does the cheerleading squad make? Is it the right decision to make? <br/>
             7. Why do a group of girls call Leo <q>Starboy</q>?<br/>
-            8. Why does Leo spy — for the second time — on Stargirl? <br/>
+            8. Why does Leo spy, for the second time, on Stargirl? <br/>
             9. What do Leo and Stargirl talk about? <br/>
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener113} value={la6Essay113}/>
@@ -3375,9 +3321,9 @@ const LA6Component = ({ data }) => {
             Stargirl, sees this? <br/>
             6. What does it mean to say that Stargirl is <q>the Johnny Appleseed of loose change</q>?<br/>
             7. The reference to <q>Johnny Appleseed</q> is an allusion. What is an allusion? <br/>
-            8. Are Stargirl’s parents <q>normal folks</q>?<br/>
-            9. Is Stargirl’s home a normal home? <br/>
-            10. Is Stargirl’s room a normal room? <br/>
+            8. Are Stargirl’s parents <q>normal</q> parents?<br/>
+            9. Is Stargirl’s home a <q>normal</q>  home? <br/>
+            10. Is Stargirl’s room a <q>normal</q>  room? <br/>
             11. What is Stargirl’s <q>happy wagon</q>? How many stones are in it? <br/>
             12. Is Stargirl affected by the shunning at school? <br/>
             13. What new things do we learn about Stargirl? <br/>
@@ -3448,7 +3394,7 @@ const LA6Component = ({ data }) => {
             4. What does Susan think will happen when she returns to Mica Area High School, as
             winner of the state oratorical contest? <br/>
             5. What does Mr. McShane mean when he asks, <q>Susan, did you ever hear of counting your
-              chickens [before they hatch]?</q>.<br/>
+              chickens [before they hatch]?</q><br/>
             6. What does Susan/Stargirl do when they stop for a moment in the desert? <br/>
             7. This novel pays attention to dead things: fossils, decaying cacti, extinct birds. Why? <br/>
             8. Does Susan have any good points? <br/>
@@ -3457,8 +3403,6 @@ const LA6Component = ({ data }) => {
             10. How does Stargirl’s speech <q>I Thought I Heard a Moa</q> go over at the state oratorical
             contest? <br/>
             11. How many people from Mica witness Stargirl’s speeches? <br/>
-            12. How does Stargirl’s speech go over in the finals of the state oratorical contest? <br/>
-            13. Is Stargirl popular at the state oratorical contest? <br/>
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener119} value={la6Essay119}/>
           <br/>
@@ -3489,7 +3433,7 @@ const LA6Component = ({ data }) => {
             12. Why does Stargirl say to Leo, <q>I know you’re not going to ask me to the Ocotillo Ball. It’s
               okay</q>?<br/>
             13. Is Leo a needy soul? <br/>
-            14. Who wants to be a member of the musical group THE UKEE DOOKS? <br/>
+            14. Who wants to be a member of the musical group the Ukee Dooks? <br/>
             15. Why does Kevin think it is <q>now okay to say bad things about Stargirl</q>?<br/>
             16. Why aren’t the after-school performances of the Ukee Dooks magical times? <br/>
             17. Who is braver: Leo or Dori Dilson? <br/>
@@ -3547,9 +3491,9 @@ const LA6Component = ({ data }) => {
           <br/>
           <span className="days">LESSON 144 - Persuasive Essay</span>
           <p>After being homeschooled for most of her life, Stargirl enters the 10th grade with a
-            big splash. At first everyone thinks she is amazing. She is different from anyone they've ever met. She has
-            a pet rat, plays the ukelele, and doesn't conform to be like everyone else. Leo falls in love with her. Then
-            everyone turns on Stargirl. Suddenly, everything that made her special now makes her an outcast. She knows
+            big splash. At first everyone at the school thinks she is amazing. She is different from anyone they have ever met. She has
+            a pet rat, plays the ukelele, and doesn't conform to be like everyone else. Leo falls in love with her. </p>
+          <p className="topBottom">Then, everyone turns on Stargirl. Suddenly, everything that once made her special now makes her an outcast. She knows
             that Leo sees himself as part of the group. He needs to fit in and needs her to fit in as well. So Stargirl
             changes her personality and her appearance to try to make him happy.</p>
           <p>In a 5 paragraph Persuasive Essay, answer the following question:</p>
@@ -3667,7 +3611,7 @@ const LA6Component = ({ data }) => {
             statistics, and examples. It is meant to be informative versus persuasive or entertaining. Expository
             writing can be a description,
             sequence, comparison, cause and effect or problem and solution.</p>
-          <p>Write a 5 paragraph expository essay based on one of the prompts below:<br/>
+          <p>Write a 5 paragraph expository essay based on <strong>one </strong>of the prompts below:<br/>
             <ul className="list"><strong>Description:</strong> describe a topic by listing characteristics, features,
               and examples. Do not give opinions or try to persuade the reader.<br/>
               <li>Describe your neighborhood to someone house shopping in your area.</li>
@@ -3736,7 +3680,7 @@ const LA6Component = ({ data }) => {
           <p>You can print out the <a
             href={require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story
             Outline Worksheet</a> to help you get
-            started on a rough draft for your stories. It includes the following:<br/>
+            started on a rough draft for your stories. Include the following:<br/>
             <ul className="assnList2">
               <li>Title of your story:</li>
               <li>In 1-2 sentences, say what your story is about:</li>
@@ -3749,7 +3693,7 @@ const LA6Component = ({ data }) => {
               <li>Next (build up):</li>
               <li>Finally (resolution):</li>
             </ul>
-          </p>
+          </p><br/>
           <span className="days">LESSON 149 - Write a Mystery</span>
           <p>Watch the the videos below and then complete the writing assignment that follows.</p>
           <Video videoUrl="https://www.youtube.com/embed/RSoRzTtwgP4"/>
@@ -3812,10 +3756,8 @@ const LA6Component = ({ data }) => {
             <li><i>Optional:</i> Are there ways you can throw the reader off the trail?</li>
             <li>How will you set up your story? Use your main character to unravel the mystery and solve it.</li>
           </ul>
-          <p>You can use the <a
-            href={require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story
-            Outline Worksheet</a> to get started.
-          </p>
+          <p>You can use the <a href={require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story
+            Outline Worksheet</a> to get started.</p>
           <textarea className="textArea" onChange={onChangeLA6Listener128} value={la6Essay128}/>
           <br/>
           <span className="days">LESSON 150</span>
@@ -4052,7 +3994,7 @@ const LA6Component = ({ data }) => {
           </div>
           <p>You can use the <a
             href={require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story
-            Outline Worksheet</a> to get started.
+            Outline Worksheet</a> to help you get started.
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener135} value={la6Essay135}/>
 
@@ -4123,8 +4065,7 @@ const LA6Component = ({ data }) => {
           <span className="days">LESSON 157</span>
           <h4> Character Development - The Protagonist</h4>
           <p>It's time to fully develop the protagonist for your next story. Address the questions
-            below using complete sentences.</p>
-          <p>
+            below using complete sentences.<br/>
             <ol className="vocab">
               <li> What is your protagonist's name, age, gender and where do they live?</li>
               <li>Briefly describe your protagonist's background or childhood. Is there something about their background
@@ -4710,8 +4651,7 @@ const LA6Component = ({ data }) => {
           <h4>Thinking Like a Poet</h4>
           <p>The following exercise is from Steve Bowkett’s <i>Countdown to Poetry.</i> Take a few moments to study the
             image below.</p>
-          <p><img src={require("../../public/images/poems/wolves.jpg")} alt="black and white of wolves"/><br/></p>
-          <p>
+          <p><img src={require("../../public/images/poems/wolves.jpg")} alt="black and white of wolves"/><br/><br/>
             <ol className="vocab">
               <li> What are four things that you find the most intriguing or captivating about this image?</li>
               <li> Close your eyes and imagine the picture is in color. Describe what you see and describe the colors in
@@ -4816,11 +4756,11 @@ const LA6Component = ({ data }) => {
           <br/>
           <p className="topBottom"> Now use your lists to help you tell your story. Use at least one of the following
             poetry devices:<br/>
-            alliteration <i style={{ color: "#4f5979", fontSize: "90%" }}>repetition of initial consonant sounds -
-              "The <b>sh</b>epherd <b>sh</b>ook <b>h</b>is <b>h</b>ead"</i><br/>
-            assonance <i style={{ color: "#4f5979", fontSize: "90%" }}>repetition of <b>vowel</b> sounds - "I'm reminded
-              to line the lid of my eye"</i><br/>
-            and anaphora <i style={{ color: "#4f5979", fontSize: "90%" }}>repetition of words - Still I Rise by Maya
+            <strong>alliteration:</strong> repetition of initial consonant sounds -
+              "The <b>sh</b>epherd <b>sh</b>ook <b>h</b>is <b>h</b>ead"-<br/>
+            <strong>assonance:</strong> repetition of <b>vowel</b> sounds - "I'm reminded
+              to line the lid of my eye"<br/>
+            <strong>anaphora: </strong> repetition of words - <i style={{ color: "#4f5979"}}>Still I Rise by Maya
               Angelou<br/>
               "I rise<br/>
               Bringing the gifts that my ancestors gave,<br/>

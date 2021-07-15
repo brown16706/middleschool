@@ -772,11 +772,11 @@ const LA7Component = ({ data }) => {
             Saint Exupéry, <i> Long Walk to Water </i> by Linda Sue Park, <i> Hatchet </i> by Gary
             Paulsen, <i> Esperanza Rising </i> by Pam Muñoz, <i>The Outsiders </i> by S.E. Hinton, <i>Out of My
               Mind</i> by Sharon Draper and <i>The Hobbit</i> by J.R.R. Tolkien.</p>
-          <p className="margin-para fadeIn">Until you get a copy, the first chapter of each book is linked as a PDF. The
-            novels
-            are available at
-            your local library, local bookstore, or can be purchased online. If the books are out of copyright, they
+          <p className="margin-para fadeIn">Until you get a copy, the first chapter of each book is linked as a PDF. The novels
+            are available at your local library, local bookstore, or can be purchased online. If the books are out of copyright, they
             are provided below as PDFs. </p>
+          
+          <p className="margin-para fadeIn">Users may encounter texts, videos or poetry they consider controversial, offensive, or inappropriate. It is the responsibility of the parent, guardian or teacher to review all materials before their student views them.</p>
 
           <span className="days">LESSON 1 </span>
           <p className="margin-para"> The first book you will read for this course is <a
@@ -3587,18 +3587,18 @@ const LA7Component = ({ data }) => {
           </ul><br/>
           <p className="topBottom"> Now use your lists to help you tell your story. Use at least one of the following
             poetry devices:<br/>
-            alliteration: <i style={{ color: "#4f5979"}}>repetition of initial consonant sounds -
-              "The <b>sh</b>epherd <b>sh</b>ook <b>h</b>is <b>h</b>ead"</i><br/>
-            assonance: <i style={{ color: "#4f5979" }}>repetition of <b>vowel</b> sounds - "I'm reminded
-              to line the lid of my eye"</i><br/>
-            and anaphora: <i style={{ color: "#4f5979"}}>repetition of words - excerpt from "Still I
-              Rise" by Maya Angelou<br/>
+            <strong>alliteration:</strong> repetition of initial consonant sounds -
+            "The <b>sh</b>epherd <b>sh</b>ook <b>h</b>is <b>h</b>ead"-<br/>
+            <strong>assonance:</strong> repetition of <b>vowel</b> sounds - "I'm reminded
+            to line the lid of my eye"<br/>
+            <strong>anaphora: </strong> repetition of words - <i style={{ color: "#4f5979"}}>Still I Rise by Maya
+              Angelou<br/>
               "I rise<br/>
               Bringing the gifts that my ancestors gave,<br/>
               I am the dream and the hope of the slave.<br/>
               I rise<br/>
               I rise<br/>
-              I rise."</i></p>
+              I rise." </i></p>
           <p className="topBottom">It's best if you can create your own poem, but if you want, you can use the sentences below as a model.</p>
           <ul>
             <li>When I was in _____________________, I looked like _____________________.</li>
