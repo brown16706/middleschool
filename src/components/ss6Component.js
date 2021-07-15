@@ -741,8 +741,18 @@ const SS6Component = ({ data }) => {
     <form>
       <section className="block-circles">
         <div className="circle one"
-             style={{ animationDuration: "5s", backgroundColor: '#64ccbc', transform: "translate3d(0px, 0px, 0px) scale(0.9921, 1)", opacity: "0.9881" }}/>
-        <div className="circle two" style={{ animationDuration: "5s", backgroundColor: '#64ccbc', transform: "translate(0px, 0px)", opacity: 1 }}/>
+             style={{
+               animationDuration: "5s",
+               backgroundColor: "#64ccbc",
+               transform: "translate3d(0px, 0px, 0px) scale(0.9921, 1)",
+               opacity: "0.9881"
+             }}/>
+        <div className="circle two" style={{
+          animationDuration: "5s",
+          backgroundColor: "#64ccbc",
+          transform: "translate(0px, 0px)",
+          opacity: 1
+        }}/>
         <div className="hero-wrapper pbn hero animated animatedFadeInUp fadeInUp">
           <h1 className="hero intro animated">Social Studies</h1>
           <div className="hero info-block info-block-line" style={{ marginBottom: "4em" }}>
@@ -750,7 +760,7 @@ const SS6Component = ({ data }) => {
           </div>
         </div>
       </section>
-      
+
       <section className="section raise-top fadeIn">
         <div className="section-content">
           <h1 className="section-title fadeIn">Ancient Civilizations &#38; Geography</h1>
@@ -763,7 +773,9 @@ const SS6Component = ({ data }) => {
             2. When you think about the cave paintings found in Lascaux, France, what do you think were the
             concerns of prehistoric cultures and how were these concerns expressed in their artwork?<br/>
             3. What might be the result if the climate of a region suddenly became much colder?<br/>
-           </p>
+            4. Name three examples of landforms and three examples of bodies of water.<br/>
+            4. How do the five themes of geography help geographers?<br/>
+          </p>
           <textarea className="textArea"
                     placeholder="Write your answers here. Your work will automatically be saved to the Local Storage of your device. 
                     -----
@@ -775,7 +787,7 @@ const SS6Component = ({ data }) => {
                     -----
                     Some devices allow you to 'Select All' and then 'Share' via email or another app.
                     -----
-                    You may prefer to copy/paste the questions into this textbox for easier viewing and grading by your parent or teacher.
+                    You may prefer to copy/paste the questions into this textbox for easier reading by your parent or teacher.
                     -----
                     Be sure to label each assignment with the Subject and Lesson Number."
 
@@ -791,7 +803,7 @@ const SS6Component = ({ data }) => {
             1. What do political maps show?<br/>
             2. Why have maps changed throughout history?<br/>
             3. What might be the result if the climate of a region suddenly became much colder?<br/>
-            <i>Based on the video:</i><br/>
+            <span style={{ color: "#4f5979" }}>Based on the video:</span><br/>
             4. What did you think was the most interesting thing you learned from the video?<br/>
             5. Which careers in geography seemed the most fascinating?<br/>
           </p>
@@ -809,14 +821,16 @@ const SS6Component = ({ data }) => {
           <p>
             1. Why did the Mercator map become so popular? Who did it help the most?<br/>
             2. When you look at a map, what are some problems, inaccuracies or misconceptions with what you see?<br/>
-            Based on the video:<br/>
+            <span style={{ color: "#4f5979" }}>Based on the video:</span><br/>
             3. Describe how the typical flat, rectangular map is created.<br/>
             4. Why is a book of maps known as an atlas?<br/>
             5. In the 1960's, what revolutionized maps and took them to another level?<br/>
             6. Despite its shortcomings, why might companies such as Google still use the Mercator projection
             map?<br/></p>
 
-          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." placeholder="Back up your work." onChange={onChangeSS6Listener3}
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    placeholder="Back up your work." onChange={onChangeSS6Listener3}
                     value={SS6Essay3}/>
 
           <span className="days">LESSON 4</span>
@@ -829,7 +843,9 @@ const SS6Component = ({ data }) => {
             3. Why is studying early people so hard?<br/>
             4. Does the idea of becoming an archaeologist appeal to you? Why or why not? <br/>
           </p>
-          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangeSS6Listener4} value={SS6Essay4}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangeSS6Listener4} value={SS6Essay4}/>
 
           <span className="days">LESSON 5</span>
           <p>Watch <b>What Happened Before History? Human Origins – In a Nutshell</b></p>
@@ -846,7 +862,9 @@ const SS6Component = ({ data }) => {
             6. Describe the ways we are superior to our distant ancestors.<br/>
             7. How were our distant ancestors superior to us? <br/>
           </p>
-          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangeSS6Listener5} value={SS6Essay5}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangeSS6Listener5} value={SS6Essay5}/>
 
           <span className="days">LESSON 6</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/1.4_the_tools_of_history.pdf")} rel="noreferrer"
@@ -859,7 +877,9 @@ const SS6Component = ({ data }) => {
             4. Write two facts and two opinions about Stonehenge.<br/>
             5. Compare a historian's job with that of an archaeologist.<br/>
           </p>
-          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangeSS6Listener6} value={SS6Essay6}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangeSS6Listener6} value={SS6Essay6}/>
 
           <span className="days">LESSON 7</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/2.1_the_earliest_human_societies.pdf")}
@@ -878,7 +898,9 @@ const SS6Component = ({ data }) => {
             4. Do you believe that the lives of most hunter-gatherers was good or very difficult? Explain.<br/>
             5. What were two interesting things you learned from the videos?
           </p>
-          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangeSS6Listener7} value={SS6Essay7}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangeSS6Listener7} value={SS6Essay7}/>
 
           <span className="days">LESSON 8</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/2.2_the_earliest_human_societies.pdf")}
@@ -900,7 +922,9 @@ const SS6Component = ({ data }) => {
             6.How did environmental conditions influence the locations of early farms?<br/>
             7. What advantages did humans gain by domesticating wolves?<br/>
           </p>
-          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangeSS6Listener8} value={SS6Essay8}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangeSS6Listener8} value={SS6Essay8}/>
 
           <span className="days">LESSON 9</span>
           <p>Watch the video <b> Mankind: The Story of All of Us: Birth of Farming</b></p>
@@ -914,7 +938,9 @@ const SS6Component = ({ data }) => {
             4. How did society change with agriculture?<br/>
             5. What was the most surprising thing you learned from the videos?<br/>
           </p>
-          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangeSS6Listener9} value={SS6Essay9}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangeSS6Listener9} value={SS6Essay9}/>
 
           <span className="days">LESSON 10</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/2.3_the_earliest_human_societies.pdf")}
@@ -927,14 +953,17 @@ const SS6Component = ({ data }) => {
             4. How did surpluses affect village life?<br/>
             5. What were some of the advantages of living in a village like Catal Huyuk?
           </p>
-          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangeSS6Listener10} value={SS6Essay10}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangeSS6Listener10} value={SS6Essay10}/>
 
           <span className="days">LESSON 11</span>
-          <p>
-            <a href="https://earth.google.com/web/@17.90693717,-12.41937117,-34606.55899502a,57359668.97d,35y,0.00004064h,18.19296234t,0r/data=CjwSOhIgYmU3N2ZmYzU0MTc1MTFlOGFlOGZkMzdkYTU5MmE0MmEiFnNwbC14LXgteC1zcGxhc2hzY3JlZW4"
-               target="_blank" rel="noreferrer">
-              Click to play the Google Maps game Carmen Santiago: Crown Jewels
-              <img src={require("../../public/images/socialstudies/carmen-sandiego.png")} alt=""/></a></p>
+          <p className="margin-para">
+            <a
+              href="https://earth.google.com/web/@17.90693717,-12.41937117,-34606.55899502a,57359668.97d,35y,0.00004064h,18.19296234t,0r/data=CjwSOhIgYmU3N2ZmYzU0MTc1MTFlOGFlOGZkMzdkYTU5MmE0MmEiFnNwbC14LXgteC1zcGxhc2hzY3JlZW4"
+              target="_blank" rel="noreferrer">
+              Click to play the Google Maps game Carmen Santiago: Crown Jewels. The game may take a few moments to load.
+              <img src={require("../../public/images/socialstudies/carmen-sandiego.png")} alt="carmen sandiego"/></a></p><br/>
           {/*<textarea className="textArea" onChange={onChangeSS6Listener11} value={SS6Essay11}/>*/}
 
           <span className="days">LESSON 12</span>
@@ -951,7 +980,9 @@ const SS6Component = ({ data }) => {
             4. How was irrigation connected to trade?<br/>
             5. How did Mesopotamians create a successful society?<br/>
           </p>
-          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangeSS6Listener12} value={SS6Essay12}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangeSS6Listener12} value={SS6Essay12}/>
 
           <span className="days">LESSON 13</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/3.2_ancient_mesopotamia.pdf")} rel="noreferrer"
@@ -968,7 +999,9 @@ const SS6Component = ({ data }) => {
             5. How did warfare change the government in Sumer?<br/>
             6. What was the most interesting thing you learned from the video?
           </p>
-          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangeSS6Listener13} value={SS6Essay13}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangeSS6Listener13} value={SS6Essay13}/>
 
           <span className="days">LESSON 14</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/3.3_ancient_mesopotamia.pdf")} rel="noreferrer"
@@ -988,10 +1021,13 @@ const SS6Component = ({ data }) => {
             beginning of writing?<br/>
             7. What was the most interesting thing you learned from the video?<br/>
           </p>
-          <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangeSS6Listener14} value={SS6Essay14}/>
+          <textarea className="textArea"
+                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    onChange={onChangeSS6Listener14} value={SS6Essay14}/>
 
           <span className="days">LESSON 15</span>
-          <p><a href={require("../resources/social-studies/ss-pdfs6th/3b_city-states_in_mesopotamia.pdf")} rel="noreferrer"
+          <p><a href={require("../resources/social-studies/ss-pdfs6th/3b_city-states_in_mesopotamia.pdf")}
+                rel="noreferrer"
                 target="_blank">Click
             here
             to read <i>Chapter 3b City-States in Mesopotamia</i></a>
@@ -1065,21 +1101,29 @@ const SS6Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangeSS6Listener18} value={SS6Essay18}/>
 
           <span className="days">LESSON 19</span>
-          <p>Imagine that you have a private jet at your disposal and can travel anywhere in the world. If you
-            could travel to any destination, where would you go?<br/>
-            Paris to see the Eiffel Tower? <br/>Machu Pichu in Peru? <br/>Angel Falls in Venezuela? <br/>Kangaroo
-            Island off the coast of Australia? <br/>Avatar mountains (Zhangjiajie) in China? <br/>Big Sur in
-            California?
-          </p>
-          If you have no idea where to you'd like to go, get inspired by <a href="https://www.lifehack.org/articles/lifestyle/17-stunning-places-visit-with-google-maps.html"
-                                                                            target="_blank" rel="noreferrer"> this site about stunning places</a> or this video showing some of the most
-          beautiful places in the world.<br/>
+          <p className="topBottom">Imagine that you have a private jet at your disposal and can travel anywhere in the
+            world. If you
+            could travel to any destination, where would you go?</p>
+          <ul className="list">
+            <li>Paris to see the Eiffel Tower?</li>
+            <li>Machu Pichu in Peru?</li>
+            <li>Angel Falls in Venezuela?</li>
+            <li>Kangaroo Island off the coast of Australia?</li>
+            <li>Avatar mountains (Zhangjiajie) in China?</li>
+            <li>Big Sur in California?
+            </li>
+          </ul>
+          <p className="topBottom"> If you have no idea where to you'd like to go, get inspired by <a
+            href="https://www.lifehack.org/articles/lifestyle/17-stunning-places-visit-with-google-maps.html"
+            target="_blank" rel="noreferrer"> this site about stunning places</a> or this video showing some of the most
+            beautiful places in the world.</p>
 
           <Video videoUrl="https://www.youtube.com/embed/vwZBiG1_IWs"/>
 
           <p> Next, answer the following questions:<br/>
             1. What place would you visit?<br/>
-            2. Locate this place virtually on <a href="https://earth.google.com/web/">Google Earth</a> or <a href="https://www.google.com/maps">Google Maps</a> using satellite view.<br/>
+            2. Locate this place virtually on <a href="https://earth.google.com/web/">Google Earth</a> or <a
+              href="https://www.google.com/maps">Google Maps</a> using satellite view.<br/>
             3. Why did you choose this place?<br/>
             4. Discuss the cultural, historical or environmental significance this place has. (In what ways do
             you think is it important?)<br/>
@@ -1143,7 +1187,7 @@ const SS6Component = ({ data }) => {
             3. What was the purpose of the pyramids? Why did pharaohs build them?<br/>
             4. What did the pyramids do for pharaohs while they were alive and what were they meant to do after
             they died?<br/>
-            Based on the video <i>Who Built the Pyramids</i><br/>
+            <span style={{ color: "#4f5979" }}>Based on the video <i>Who Built the Pyramids</i></span><br/>
             5. For how many years was Khufu's pyramid the largest man-made structure in the world?<br/>
             6. Why were Pyramids ideal for building large-scale monuments?<br/>
             7. Egypt's great stone pyramids were the work of how many generations of Egyptians?<br/>
@@ -1163,7 +1207,7 @@ const SS6Component = ({ data }) => {
             2. How did Akhenaton try to change Egyptian religion?<br/>
             3. How did Ramses II expand Egypt?<br/>
             4. Why do you think Thutmose tried to erase all records of Hatshepsut’s reign?<br/>
-            Based on the video <i> The Egyptian myth of the death of Osiris </i><br/>
+            <span style={{ color: "#4f5979" }}>Based on the video <i> The Egyptian myth of the death of Osiris </i></span><br/>
             5. Briefly describe the warrior god Set. What was he the god of?<br/>
             6. Who was Set's wife?<br/>
             7. What was used to imprison Osiris?<br/>
@@ -1196,7 +1240,6 @@ const SS6Component = ({ data }) => {
                 rel="noreferrer" target="_blank">Click here
             to read <i>Chapter 6.2 Kush and Other African Kingdoms</i></a>
           </p>
-
           <p>Watch the video <b>AD and BC Explained </b>(as well as CE and BCE)</p>
           <Video videoUrl="https://www.youtube.com/embed/kDNH4G9iacw"/>
           <p>
@@ -1207,10 +1250,11 @@ const SS6Component = ({ data }) => {
             5. In what ways did the adoption of Christianity as the official religion affect the culture of
             Aksum?<br/>
             6. Based on the video, explain what the following abbreviations stand for: <br/>
-            AD<br/>
-            BC<br/>
-            CE<br/>
-            BCE<br/>
+            <ol className="assnLetters">
+              <li>AD</li>
+                <li>BC</li>
+              <li>CE</li>
+              <li>BCE</li></ol>
           </p>
           <textarea className="textArea" onChange={onChangeSS6Listener25} value={SS6Essay25}/>
 
@@ -1226,7 +1270,7 @@ const SS6Component = ({ data }) => {
             3. What role did ironworking play in Nok culture?<br/>
             4. Why was the migration of Bantu speakers so slow?<br/>
             5. Why did the Bantus overwhelm the people into whose territory they migrated?<br/>
-            7. Comparing Compare the importance of ironmaking in the Nok and Bantu cultures.<br/>
+            6. Comparing Compare the importance of ironmaking in the Nok and Bantu cultures.<br/>
           </p>
           <textarea className="textArea" onChange={onChangeSS6Listener26} value={SS6Essay26}/>
 
@@ -1343,7 +1387,8 @@ const SS6Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangeSS6Listener33} value={SS6Essay33}/>
 
           <span className="days">LESSON 34</span>
-          <p><a href={require("../resources/social-studies/ss-pdfs6th/9.1_ancient_america_geography.pdf")} rel="noreferrer"
+          <p><a href={require("../resources/social-studies/ss-pdfs6th/9.1_ancient_america_geography.pdf")}
+                rel="noreferrer"
                 target="_blank">Click
             here
             to read <i>Chapter 9.1 Ancient America</i></a>
@@ -1354,12 +1399,13 @@ const SS6Component = ({ data }) => {
             3. How do the geography and climate of Mesoamerica contrast with those of the Andes?<br/>
             4. Why are the seasons reversed in North and South America?<br/>
             5. Why is farming a challenge in the Andes?<br/>
-            6. How did farmers grow crops in the rainy lowlands of Mesoamerica?<br/>
+            6. How did farmers grow crops in the rainy lowlands of Mesoamerica?<br/></p>
 
             <textarea className="textArea" onChange={onChangeSS6Listener34} value={SS6Essay34}/>
 
             <span className="days">LESSON 35</span>
-            <p><a href={require("../resources/social-studies/ss-pdfs6th/9.2_ancient_america_andean.pdf")} rel="noreferrer"
+            <p><a href={require("../resources/social-studies/ss-pdfs6th/9.2_ancient_america_andean.pdf")}
+                  rel="noreferrer"
                   target="_blank">Click
               here
               to read <i>Chapter 9.2 Ancient America</i></a>
@@ -1370,16 +1416,11 @@ const SS6Component = ({ data }) => {
               3. What does Moche art tell us about their civilization?<br/>
               4. How have archaeologists learned about the Moche civilization?<br/>
               5. What are the Nazca Lines?<br/></p>
-            <textarea value="" name="ssanswers33" id="ssanswers33" className="ssanswers"
-                      placeholder="Type your answers here."/>
-            <p>After you answer the questions, click the SAVE button. Be sure to backup your work and/or send it
-              to your teacher/parent.
-            </p><br/>
-
             <textarea className="textArea" onChange={onChangeSS6Listener35} value={SS6Essay35}/>
 
             <span className="days">LESSON 36</span>
-            <p><a href={require("../resources/social-studies/ss-pdfs6th/9.3_ancient_america_olmec.pdf")} rel="noreferrer"
+            <p><a href={require("../resources/social-studies/ss-pdfs6th/9.3_ancient_america_olmec.pdf")}
+                  rel="noreferrer"
                   target="_blank">Click
               here
               to read <i>Chapter 9.3 Ancient America</i></a>
@@ -1396,7 +1437,8 @@ const SS6Component = ({ data }) => {
             <textarea className="textArea" onChange={onChangeSS6Listener36} value={SS6Essay36}/>
 
             <span className="days">LESSON 37</span>
-            <p><a href={require("../resources/social-studies/ss-pdfs6th/9.4_ancient_america_mayans.pdf")} rel="noreferrer"
+            <p><a href={require("../resources/social-studies/ss-pdfs6th/9.4_ancient_america_mayans.pdf")}
+                  rel="noreferrer"
                   target="_blank">Click
               here
               to read <i>Chapter 9.4 Ancient America</i></a>
@@ -1428,23 +1470,31 @@ const SS6Component = ({ data }) => {
             <textarea className="textArea" onChange={onChangeSS6Listener38} value={SS6Essay38}/>
 
             <span className="days">LESSON 39</span>
-            <a href="https://earth.google.com/web/@1.50183132,-12.4193674,-30086.36432683a,63200085.51329613d,35y,0.00003868h,0t,0r/data=CjwSOhIgN2ZhM2Q1Njg0MDZlMTFlOTg2Y2U5OWYyYWQ2OTYwMTgiFnNwbC14LXgteC1zcGxhc2hzY3JlZW4?utm_source=referral&utm_campaign=keyword&utm_term=carmen2"
-               rel="noreferrer" target="_blank">
-              Click to play the Google Maps game Carmen Santiago: Tutankhamun’s Mask Caper
-              <img src="../../public/images/socialstudies/carmen-sandiego.png" alt=""/></a></p>
-          <br/>
+          <p className="margin-para">
+            <a
+              href="https://earth.google.com/web/@1.50183132,-12.4193674,-30086.36432683a,63200085.51329613d,35y,0.00003868h,0t,0r/data=CjwSOhIgN2ZhM2Q1Njg0MDZlMTFlOTg2Y2U5OWYyYWQ2OTYwMTgiFnNwbC14LXgteC1zcGxhc2hzY3JlZW4?utm_source=referral&utm_campaign=keyword&utm_term=carmen2"
+              target="_blank" rel="noreferrer">
+              Play the Google Maps game Carmen Santiago: Tutankhamun’s Mask Caper. The game may take a few moments to load.
+              <img src={require("../../public/images/socialstudies/carmen-sandiego.png")} alt="carmen sandiego"/></a></p><br/>
 
 
-          <textarea className="textArea" onChange={onChangeSS6Listener39} value={SS6Essay39}/>
+          {/*<textarea className="textArea" onChange={onChangeSS6Listener39} value={SS6Essay39}/>*/}
 
           <span className="days">LESSON 40</span>
-          <p>It's time to travel to another destination somewhere in the world. Where would you like to go this
-            time?<br/>
-            The Colosseum in Rome? <br/>The Acropolis in Athens? <br/>The pyramids of Giza? <br/>
-            The Great Wall of China? <br/>The Grand Canyon in Arizona? <br/>The vineyards of Tuscany?
-          </p>
-          If you have no idea where to you'd like to go, get inspired by this video showing some of the most
-          amazing places in the world.<br/>
+          <p className="topBottom">It's time to travel to another destination somewhere in the world. Where would you
+            like to go this
+            time?</p>
+          <ul className="list">
+            <li>The Colosseum in Rome?</li>
+            <li>The Acropolis in Athens?</li>
+            <li>The pyramids of Giza?</li>
+            <li>The Great Wall of China?</li>
+            <li>The Grand Canyon in Arizona?</li>
+            <li>The vineyards of Tuscany?</li>
+          </ul>
+          <p className="topBottom">If you have no idea where to you'd like to go, get inspired by this video showing
+            some of the most
+            amazing places in the world.</p>
           <Video videoUrl="https://www.youtube.com/embed/pFoty21X370"/>
           <p> Next, answer the following questions:<br/>
             1. What place would you visit?<br/>
@@ -1467,12 +1517,9 @@ const SS6Component = ({ data }) => {
           <span className="days">LESSON 41</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/10.1_the_hebrew_kingdoms.pdf")} rel="noreferrer"
                 target="_blank">Click
-            here
-            to read <i>Chapter 10.1 The Hebrew Kingdoms</i></a>
+            here to read <i>Chapter 10.1 The Hebrew Kingdoms</i></a>
           </p>
-          <p>Watch the video <b>The Hebrew Bible | The Story of the Jews</b> by PBS</p>
-          <Video videoUrl="https://www.youtube.com/embed/lkc35rew5ZU"/>
-          <p>After you complete the reading and watch the video, answer the following questions:<br/>
+          <p>After you complete the reading, answer the following questions:<br/>
             1. What is the central belief of the Hebrews? <br/>
             2. Why did the Hebrews go to Egypt?<br/>
             3. Who led the Israelites in their escape from slavery in Egypt?<br/>
@@ -1718,7 +1765,7 @@ const SS6Component = ({ data }) => {
             Be sure to justify your answer with examples.<br/>
             4. What became of Alexander’s empire after his death? <br/>
             5. Define Hellenistic.<br/>
-            6. What do you think of Alexander as a leader?<br/>
+            6. What do you think of Alexander as a leader? How do you think he is remembered?<br/>
             7. How do you want to be remembered?<br/>
           </p>
           <textarea className="textArea" onChange={onChangeSS6Listener51} value={SS6Essay51}/>
@@ -1754,8 +1801,8 @@ const SS6Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/ar8S6virCwM"/>
           <p>After you watch the two videos, answer the following
             questions:<br/>
-            Based on the video <i>The ancient origins of the
-              Olympics</i><br/>
+            <span style={{ color: "#4f5979" }}>Based on the video <i>The ancient origins of the
+              Olympics</i></span><br/>
             1. What was the first event in the ancient Olympics?<br/>
             2. What was the profession of the first winner of the ancient
             Olympics?<br/>
@@ -1764,8 +1811,8 @@ const SS6Component = ({ data }) => {
             4. Which events made up the pentathlon?<br/>
             5. The Olympics are held only every four years. What is the
             history behind this schedule?<br/>
-            Based on the video <i> A day in the life of an ancient
-              Athenian,</i><br/>
+            <span style={{ color: "#4f5979" }}>Based on the video <i> A day in the life of an ancient
+              Athenian</i></span><br/>
             6. How did Archias find husbands for his daughters?<br/>
             7. Athenian women weren’t allowed to vote. What are some of the
             ways they might have been able to
@@ -1823,8 +1870,8 @@ const SS6Component = ({ data }) => {
             1. Which of Plato's ideas did you think were pretty
             good?<br/>
             2. Which did you disagree with or think were bad?<br/>
-            3. Based on the video<i>Plato’s Allegory of the
-              Cave,</i> briefly describe what Plato hoped to show
+            <span style={{ color: "#4f5979" }}>Based on the video<i> Plato’s Allegory of the Cave</i> </span><br/>
+            3.  Briefly describe what Plato hoped to show
             people through this allegory (or story with hidden
             meaning).<br/>
             4. How do the prisoners respond to being chained?<br/>
@@ -1979,11 +2026,11 @@ const SS6Component = ({ data }) => {
             sometimes confusing?<br/>
             16. Who wrote all the recorded history of Ancient Rome that we have today?<br/>
             17. How does the public know that a woman is betrothed to be married?<br/>
-
+          </p>
             <textarea className="textArea" onChange={onChangeSS6Listener59} value={SS6Essay59}/>
 
             <span className="days">LESSON 61</span>
-            Watch the video <b>The Roman Empire. Or Republic. Or...Which Was It?</b> by Crash Course</p>
+           <p> Watch the video <b>The Roman Empire. Or Republic. Or...Which Was It?</b> by Crash Course</p>
           <Video videoUrl="https://www.youtube.com/embed/oPf27gAup9U"/>
 
           <p>After you watch the video, answer the following questions:<br/>
@@ -1999,17 +2046,20 @@ const SS6Component = ({ data }) => {
 
           <textarea className="textArea" onChange={onChangeSS6Listener101} value={SS6Essay101}/>
           <span className="days">LESSON 62</span>
-          <p>It's time to travel to another destination somewhere in the world. Where would you go this
-            time?<br/>
-            The alien landscape of Cappadocia, Turkey? <br/>The Appalachian Trial? <br/> Padar Island in
-            Indonesia? <br/>
-            Antarctica to visit the penguins? <br/>The Pools of Plitvice in Croatia?
-          </p>
-          If you have no idea where to you'd like to go, get inspired by this video showing some of the most
-          dangerous places in the world.<br/>
+          <p className="topBottom">It's time to travel to another destination somewhere in the world. Where will you go this time?</p>
+          <ul className="list">
+            <li>The alien landscape of Cappadocia, Turkey?</li>
+            <li>The Appalachian Trial?</li>
+            <li>Padar Island in Indonesia?</li>
+            <li>Antarctica to visit the penguins?</li>
+            <li>The Pools of Plitvice in Croatia?</li>
+          </ul>
+          <p className="topBottom"> If you have no idea where to you'd like to go, get inspired by this video showing
+            some of the most
+            dangerous places in the world.</p>
           <Video videoUrl="https://www.youtube.com/embed/X2cdi0CLrJc"/>
           <p> Next, answer the following questions:<br/>
-            1. What place would you visit?<br/>
+            1. What place would you like to see?<br/>
             2. Locate this place virtually on <a href="https://earth.google.com/web/">Google Earth</a> or <a
               href="https://www.google.com/maps">Google Maps</a> using satellite view.<br/>
             3. Why did you choose this place?<br/>
@@ -2017,8 +2067,7 @@ const SS6Component = ({ data }) => {
             you think is it important?)<br/>
             5. After your jet lands, how will you get to this place? (Ex. I will take a cab. It’s 30 minutes
             from the airport." OR "I will need to get a GPS and trek 3 days into the jungle to find it." OR "a
-            mountain
-            bike is the best mode of transportation."<br/>
+            mountain bike is the best mode of transportation."<br/>
             6. Where will you stay and for how long? (Ex. I will stay in a hut on the beach for 3 months OR
             …in a treehouse in the jungle for the weekend OR …in a rented camper so I can tour the area for 6
             months.<br/>
@@ -2026,7 +2075,7 @@ const SS6Component = ({ data }) => {
             8. What things/activities will you do when you get there?<br/>
             <br/></p>
           <textarea className="textArea" onChange={onChangeSS6Listener60} value={SS6Essay60}/>
-          1
+          
           <span className="days">LESSON 63</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/14.1_the_birth_of_christianity.pdf")}
                 rel="noreferrer" target="_blank">Click
@@ -2095,7 +2144,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 66</span>
           <p>Watch the video <b> Christianity from Judaism to Constantine
-          </b> Crash Course </p>
+          </b> by Crash Course </p>
           <Video videoUrl="https://www.youtube.com/embed/TG55ErfdaeY"/>
           <p>After you watch the video, answer the following questions:<br/>
             1. What does any understanding of Christianity have to start with?<br/>
@@ -2115,14 +2164,14 @@ const SS6Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangeSS6Listener64} value={SS6Essay64}/>
 
           <span className="days">LESSON 67</span>
-          <p>
-            <a href="https://earth.google.com/web/@17.90693717,-12.41937117,-34606.55899502a,57359668.97d,35y,0.00004064h,18.19296234t,0r/data=CjwSOhIgZjJhMmExN2E0MDZlMTFlOTk5MGE5OWYyYWQ2OTYwMTgiFnNwbC14LXgteC1zcGxhc2hzY3JlZW4"
-               rel="noreferrer" target="_blank">
-              Click to play the Google Maps game Carmen Santiago: The keys to the Kremlin Caper
-              <img src="../../public/images/socialstudies/carmen-sandiego.png" alt=""/></a>
-          </p><br/>
+          <p className="margin-para">
+            <a
+              href="https://earth.google.com/web/@17.90693717,-12.41937117,-34606.55899502a,57359668.97d,35y,0.00004064h,18.19296234t,0r/data=CjwSOhIgZjJhMmExN2E0MDZlMTFlOTk5MGE5OWYyYWQ2OTYwMTgiFnNwbC14LXgteC1zcGxhc2hzY3JlZW4"
+              target="_blank" rel="noreferrer">
+              Play the Google Maps game Carmen Santiago: The keys to the Kremlin Caper. The game may take a few moments to load.
+              <img src={require("../../public/images/socialstudies/carmen-sandiego.png")} alt="carmen sandiego"/></a></p><br/>
 
-          <textarea className="textArea" onChange={onChangeSS6Listener65} value={SS6Essay65}/>
+          {/*<textarea className="textArea" onChange={onChangeSS6Listener65} value={SS6Essay65}/>*/}
 
           <span className="days">LESSON 68</span>
           <p>Watch the video <b>The Fall of Rome </b>by Crash Course </p>
@@ -2143,7 +2192,8 @@ const SS6Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangeSS6Listener66} value={SS6Essay66}/>
 
           <span className="days">LESSON 69</span>
-          <p><a href={require("../resources/social-studies/ss-pdfs6th/15.1_romes_decline_and_legacy.pdf")} rel="noreferrer"
+          <p><a href={require("../resources/social-studies/ss-pdfs6th/15.1_romes_decline_and_legacy.pdf")}
+                rel="noreferrer"
                 target="_blank">Click
             here
             to read <i>Chapter 15.1 Rome's Decline and Legacy</i></a>
@@ -2168,7 +2218,8 @@ const SS6Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangeSS6Listener67} value={SS6Essay67}/>
 
           <span className="days">LESSON 70</span>
-          <p><a href={require("../resources/social-studies/ss-pdfs6th/15.2_romes_decline_and_legacy.pdf")} rel="noreferrer"
+          <p><a href={require("../resources/social-studies/ss-pdfs6th/15.2_romes_decline_and_legacy.pdf")}
+                rel="noreferrer"
                 target="_blank">Click
             here to read <i>Chapter 15.2 Rome's Decline and Legacy</i></a>
           </p>
@@ -2190,7 +2241,8 @@ const SS6Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangeSS6Listener68} value={SS6Essay68}/>
 
           <span className="days">LESSON 71</span>
-          <p><a href={require("../resources/social-studies/ss-pdfs6th/15.3_romes_decline_and_legacy.pdf")} rel="noreferrer"
+          <p><a href={require("../resources/social-studies/ss-pdfs6th/15.3_romes_decline_and_legacy.pdf")}
+                rel="noreferrer"
                 target="_blank">Click
             here
             to read <i>Chapter 15.3 Rome's Decline and Legacy</i></a>
@@ -2216,7 +2268,8 @@ const SS6Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangeSS6Listener69} value={SS6Essay69}/>
 
           <span className="days">LESSON 72</span>
-          <p><a href={require("../resources/social-studies/ss-pdfs6th/15.4_romes_decline_and_legacy.pdf")} rel="noreferrer"
+          <p><a href={require("../resources/social-studies/ss-pdfs6th/15.4_romes_decline_and_legacy.pdf")}
+                rel="noreferrer"
                 target="_blank">Click
             here
             to read <i>Chapter 15.4 Rome's Decline and Legacy</i></a>
@@ -2239,42 +2292,28 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 73</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/Who-Were-the-Vikings.pdf")} rel="noreferrer"
-                target="_blank">Click
-            here to
-            read <i>Who were the Vikings? </i></a>
-          </p>
-          <br/>
-          <p>Watch the video <i>The Vikings </i></p>
+                target="_blank">Click here to read <i>Who were the Vikings? </i></a></p>
+       
+          <p>Watch the video <i>The Vikings </i>
           <Video videoUrl="https://www.youtube.com/embed/3xIy7FoiaQY"/>
-          <br/>
-          <p>
             1. Where did the Vikings come from (where was their homeland)?<br/>
             2. When the British first saw the Vikings, what did they do?<br/>
             3. Would you say that all of the Vikings were bad? Explain.<br/>
             4. The Vikings were pagans, meaning that they believed in more than one god and did not
-            follow the
-            religious beliefs of much of the rest of the world. What religion were most people living
-            in
-            Britain?<br/>
-            5. The Vikings preferred the land in Britain to their own in Scandinavia. WHy was
-            this?<br/>
-            6. What were some special characteristics of the Vikings' longboats that boats from other
-            countries
-            did not have?<br/>
-            7. What was the most interesting thing you learned about the Vikings?<br/>
-          </p>
+            follow the religious beliefs of much of the rest of the world. What religion were most people living in Britain?<br/>
+            5. The Vikings preferred the land in Britain to their own in Scandinavia. WHy was this?<br/>
+            6. What were some special characteristics of the Vikings' longboats that boats from other countries did not have?<br/>
+            7. What was the most interesting thing you learned about the Vikings?<br/></p>
           <textarea className="textArea" onChange={onChangeSS6Listener71} value={SS6Essay71}/>
 
           <span className="days">LESSON 74</span>
-          <p><a href={require("../resources/social-studies/ss-pdfs6th/Viking-Traders-and-Explorers.pdf")} rel="noreferrer"
-                target="_blank">Click
-            here to read <i>Viking Traders and Explorers </i></a>
+          <p><a href={require("../resources/social-studies/ss-pdfs6th/Viking-Traders-and-Explorers.pdf")}
+                rel="noreferrer"
+                target="_blank">Click here to read <i>Viking Traders and Explorers </i></a>
           </p>
-          <br/>
-          <p>Watch the video <b>What is Norse Mythology? </b></p>
-          <Video videoUrl="https://www.youtube.com/embed/TXBU9nWdq2g"/>
-          <br/>
-          <p>
+          <p>Watch the video <b>What is Norse Mythology? </b>
+            <Video videoUrl="https://www.youtube.com/embed/TXBU9nWdq2g"/>
+            
             1. What countries did the Vikings sail to?<br/>
             2. What items did the Vikings trade?<br/>
             3. In the year 985, which Viking explorer "discovered" America by accident?<br/>
@@ -2289,10 +2328,8 @@ const SS6Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangeSS6Listener72} value={SS6Essay72}/>
 
           <span className="days">LESSON 75</span>
-          <p>Watch the video <b>The Vikings </b>by Crash Course</p>
+          <p>Watch the video <b>The Vikings </b>by Crash Course
           <Video videoUrl="https://www.youtube.com/embed/Wc5zUK2MKNY"/>
-          <br/>
-          <p>
             1. What are some countries that the Vikings came from?<br/>
             2. John Green states in the video that the Vikings were mostly "agriculturalists."
             What does that
@@ -2309,7 +2346,6 @@ const SS6Component = ({ data }) => {
           <p>Watch the video <b>The Dark Ages... How Dark Were They, Really? </b> by Crash
             Course</p>
           <Video videoUrl="https://www.youtube.com/embed/QV7CanyzhZg"/>
-          <br/>
           <p>
             1. Why is this period known as the Dark Ages?<br/>
             2. What did Europe lack during the Dark Ages?<br/>
@@ -2379,13 +2415,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 79</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/16.2_Early_Middle_Ages.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>Chapter </i></a>
-          </p>
-          <p><a href={require("../resources/social-studies/ss-pdfs6th/16.2_Early_Middle_Ages.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>16.2 Europe After the Fall of Rome </i></a>
-          </p>
+                target="_blank">Click here to read <i>16.2 Europe After the Fall of Rome </i></a></p>
           <p>
             1. What two groups of people were largely responsible for the northern spread of
             Christianity?<br/>
@@ -2531,7 +2561,6 @@ const SS6Component = ({ data }) => {
           <span className="days">LESSON 87</span>
           <p>Watch the video <b> The Renaissance: Was it a Thing? </b> by Crash Course</p>
           <Video videoUrl="https://www.youtube.com/embed/Vufba_ZcoR0"/>
-          <br/>
           <p>
             1. What are the basic characteristics of Renaissance art and architecture?<br/>
             2. What is meant by the term humanism in the Renaissance: What subjects did
@@ -2568,7 +2597,6 @@ const SS6Component = ({ data }) => {
           <span className="days">LESSON 89</span>
           <p>Watch the video <b> Florence and the Renaissance</b> by Crash Course</p>
           <Video videoUrl="https://www.youtube.com/embed/tecocKSclwc"/>
-          <br/>
           <p>
             1. What two cultures were “rediscovered” during the Italian Renaissance?<br/>
             2. What two areas of life or culture could we see these ancient “ideas”
@@ -2590,7 +2618,7 @@ const SS6Component = ({ data }) => {
           <span className="days">LESSON 90</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/17.2_Renaissance.pdf")} rel="noreferrer"
                 target="_blank">Click here to read
-            <i>17.2 The Italian Renaissance </i></a>
+            <i> 17.2 The Italian Renaissance </i></a>
           </p>
           <p>1. What contributions did Dante Alighieri and Niccolo Machiavelli
             make to the Renaissance?<br/>
@@ -2637,20 +2665,18 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 92</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/WriteAStory.pdf")} rel="noreferrer"
-                target="_blank"><b>Write a Historical
-            Narrative</b>
-          </a></p>
+                target="_blank"><b>Write a Historical Narrative</b></a></p>
           <p>Write a fictional historical narrative set in Europe during the
             Renaissance. <a href={require("../resources/social-studies/ss-pdfs6th/WriteAStory.pdf")} rel="noreferrer"
                             target="_blank">This attachment </a>
             will walk you through the steps on how to write your narrative. </p>
-          <p> Think about what will happen in your story. <br/>
-            How will you describe where it will take place?<br/>
-            Who will your characters be? Which character will tell the story?<br/>
-            What difficulty will your characters have to overcome?<br/>
-            How will your story end?<br/>
+          <p> <ul className="list"><li>Think about what will happen in your story. </li>
+            <li>How will you describe where and when it will take place?</li>
+            <li>Who will your characters be? Which character will tell the story?</li>
+            <li>What difficulty will your characters have to overcome?</li>
+            <li>How will your story end?</li></ul>
           </p>
-          <textarea className="textArea" onChange={onChangeSS6Listener90} value={SS6Essay90}/>
+          <textarea className="textArea" placeholder="Write your Historical Narrative here.  Be sure to back up your work." onChange={onChangeSS6Listener90} value={SS6Essay90}/>
 
           <span className="days">LESSON 93</span>
           <p>Watch the video <b>Luther and the Protestant Reformation</b> by Crash
@@ -2659,19 +2685,11 @@ const SS6Component = ({ data }) => {
           <br/>
 
           <p>
-            1. Before the Protestant Reformation, what was the dominant or main type
-            of Christianity in Europe?
-            What
-            made it so powerful?<br/>
-            2. What were indulgences? Why did Martin Luther disagree with them, and
-            how did he show it?<br/>
+            1. Before the Protestant Reformation, what was the dominant or main type of Christianity in Europe? What made it so powerful?<br/>
+            2. What were indulgences? Why did Martin Luther disagree with them, and how did he show it?<br/>
             3. How did the printing press help Luther become so influential?<br/>
-            4. How did Luther's protests against the Church lead to other
-            denominations or forms of
-            Christianity?<br/>
-            5. Why were some European political leaders, such as Kings and Dukes,
-            attracted to Luther’s
-            movement?<br/>
+            4. How did Luther's protests against the Church lead to other denominations or forms of Christianity?<br/>
+            5. Why were some European political leaders, such as Kings and Dukes, attracted to Luther’s movement?<br/>
             6. How could supporting Luther benefit them?<br/>
           </p>
           <textarea className="textArea" onChange={onChangeSS6Listener91} value={SS6Essay91}/>
@@ -2679,22 +2697,15 @@ const SS6Component = ({ data }) => {
           <span className="days">LESSON 94</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/18.1_Reformation_of_Christianity.pdf")}
                 rel="noreferrer" target="_blank">Click
-            here to read <i>18.1 Reformation of Christianity: </i>The Protestant
-            Reformation</a>
+            here to read <i>18.1 Reformation of Christianity: </i>The Protestant Reformation</a>
           </p>
           <p>
-            1. What were three complaints people had about the Roman Catholic Church
-            in the early 1500s?<br/>
-            2. What was Martin Luther's list of complaints about the Roman Catholic
-            Church called?<br/>
-            3. How did Luther's ideas about interpreting the Bible differ from
-            Catholics' ideas?<br/>
+            1. What were three complaints people had about the Roman Catholic Church in the early 1500s?<br/>
+            2. What was Martin Luther's list of complaints about the Roman Catholic Church called?<br/>
+            3. How did Luther's ideas about interpreting the Bible differ from Catholics' ideas?<br/>
             4. What did King Henry VIII do that makes him a Reformation figure?<br/>
             5. How did John Calvin's ideas affect life in Geneva?<br/>
-            6. How might William Tyndale's life have been different if he had lived
-            after Henry VIII broke
-            away from the Catholic Church?<br/>
-
+            6. How might William Tyndale's life have been different if he had lived after Henry VIII broke away from the Catholic Church?<br/>
           </p>
           <textarea className="textArea" onChange={onChangeSS6Listener92} value={SS6Essay92}/>
 
@@ -2703,17 +2714,12 @@ const SS6Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/xy_M4pDjafo"/>
           <br/>
           <p>
-            1. What did the church do when they were faced with the challenge of
-            Protestantism? <br/>
-            2. What happened when the Catholic church made attempts to reform the
-            church?<br/>
+            1. What did the church do when they were faced with the challenge of Protestantism? <br/>
+            2. What happened when the Catholic church made attempts to reform the church?<br/>
             3. What was the Papal Index?<br/>
             4. Describe the Jesuits and what they worked to accomplish.<br/>
-            5. Describe how Jesuits tried to adapt their strategies to different
-            parts of the world in order to
-            convince people in other countries and cultures to convert.<br/>
-            6. Briefly summarize your thoughts/opinions about the Catholic
-            Counter-Reformation.<br/>
+            5. Describe how Jesuits tried to adapt their strategies to different parts of the world in order to convince people in other countries and cultures to convert.<br/>
+            6. Briefly summarize your thoughts/opinions about the Catholic Counter-Reformation.<br/>
           </p>
           <textarea className="textArea" onChange={onChangeSS6Listener93} value={SS6Essay93}/>
 
@@ -2723,14 +2729,10 @@ const SS6Component = ({ data }) => {
             here to read <i>18.2 The Catholic Reformation</i></a>
           </p>
           <p>
-            1. Why was the Catholic Church stronger in Spain than in many other
-            parts of Europe?<br/>
+            1. Why was the Catholic Church stronger in Spain than in many other parts of Europe?<br/>
             2. What religious order did Ignatius of Loyola create?<br/>
-            3. How did the Catholic Church try to fight the spread of Protestant
-            ideas?<br/>
-            4. Which do you think was a better way to reform the Catholic Church,
-            new religious orders or the
-            Council of Trent? Why?<br/>
+            3. How did the Catholic Church try to fight the spread of Protestant ideas?<br/>
+            4. Which do you think was a better way to reform the Catholic Church, new religious orders or the Council of Trent? Why?<br/>
             5. Where did Catholic missionaries travel?<br/>
           </p>
           <textarea className="textArea" onChange={onChangeSS6Listener94} value={SS6Essay94}/>
@@ -2741,12 +2743,10 @@ const SS6Component = ({ data }) => {
             here to read <i>18.3 Effects of Reformation </i></a>
           </p>
           <p>
-            1. Why do you think the Catholic Church had more influence in southern
-            Europe?<br/>
+            1. Why do you think the Catholic Church had more influence in southern Europe?<br/>
             2. Where did the Thirty Years' War begin?<br/>
             3. What started the wars of religion in France?<br/>
-            4. What were two areas of society that changed as a result of the
-            Reformation?<br/>
+            4. What were two areas of society that changed as a result of the Reformation?<br/>
             5. How did the Reformation lead to the growth of federalism?<br/>
           </p>
           <textarea className="textArea" onChange={onChangeSS6Listener95} value={SS6Essay95}/>
@@ -2775,32 +2775,14 @@ const SS6Component = ({ data }) => {
           <p>After you finish questions 1-7 above, go to <a href="https://tapmap.simpledzn.com" rel="noreferrer"
                                                             target="_blank">Tap
             Map to practice European geography for 20 minutes.</a><br/>
-            <span className='smallerFont'> a) Click <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">here to start a 20 MINUTE
-                TIMER. </a>Play Tap Map until the timer goes off. <br/>
-              b) Memorize each country's location under the Practice setting and then take the quiz. Each time you
-              retake the quiz, your score should improve.
-              In a couple of weeks, you should be able to locte every European country!<br/>
+            <span style={{color: "#4f5979"}}> a) Select Europe under 'Select Region Quiz' and play Tap Map until the timer goes off. 
+               Click <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">here to start a 20 MINUTE
+                TIMER. </a><br/>
+              b) Try to memorize each country's location.  When you tap on a country, the name will appear.  
+              After you practice, take the quiz on Europe. Each time you
+              retake the quiz, your score should improve.  In a couple of weeks, you should be able to locate every European country!<br/>
                c) Record your final score below.</span></p>
-          <ul>
-              <span className='smallerFont'><li><a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map Instructions</a></li>
-              <li>a) Click on <span className="taphighlt">PRACTICE </span>in Tap Map's side menu and select
-                <span className="taphighlt">Europe</span> from the dropdown menu. <br/></li>
 
-              <li>b) Click on each country on the map in Europe and try to memorize where each one is located
-                (5- 10 minutes).
-              </li>
-
-              <li>c) Then select a quiz to take. <span className="taphighlt">"Click on a Country"</span>
-                lists a country and you have to find it on the map. <span
-                  className="taphighlt">"Type the Country Name"</span> will
-                highlight a country in Europe and you have to write in the name.
-              </li>
-
-              <li>d) You will receive a score and a list of countries you answered
-                incorrectly. Review these. Then click CANCEL to go back to the practice map. Try to
-                memorize where these countries are.
-              </li>     </span>
-          </ul>
           <textarea className="textArea" placeholder="Answer the questions and post your score from Tap Map."
                     onChange={onChangeSS6Listener96} value={SS6Essay96}/>
 
@@ -2808,8 +2790,7 @@ const SS6Component = ({ data }) => {
           <p>Watch the video below about<b> Andorra.</b> Then answer the questions that follow:</p>
           <Video videoUrl="https://www.youtube.com/embed/POOvmkhlUD4?list=PLR7XO54Pktt-h8T-dtr4MXy0_MpbWukHW"/>
           <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the
-            meaning
-            behind the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
+            meaning behind the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
             4. Did you learn anything about their history, economy or government? If so, explain.<br/>
@@ -2818,12 +2799,13 @@ const SS6Component = ({ data }) => {
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map</a> score for today.
           </p>
-          <p><span className='smallerFont'>After you finish the questions above, go to <a href="https://tapmap.simpledzn.com">Tap
+          <p><span style={{color: "#4f5979"}}>After you finish the questions above, go to <a
+            href="https://tapmap.simpledzn.com">Tap
             Map</a> to learn where countries are located.<br/>
             Practice for about 5-10 minutes, then spend another 10 -15 minutes taking the quiz. Go back to
-            the practice setting after each quiz to memorize the countries you get incorrect.<br/>
-            Set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer. </a><br/>
-            Record your final score below. </span><br/></p>
+            practicing where countries are located after each quiz to memorize their location.  
+            Set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer. </a>  
+             Record your final score below. </span><br/></p>
           <textarea className="textArea" onChange={onChangeSS6Listener97} value={SS6Essay97}/>
 
           <span className="days">LESSON 100</span>
@@ -2867,9 +2849,10 @@ const SS6Component = ({ data }) => {
             7. List three things about the country you found to be very interesting or surprising. <br/>
             8. <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">TAP MAP</a> quiz score for today.
           </p>
-          <p> <span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/"
-                                                                                            rel="noreferrer"
-                                                                                            target="_blank">20 minute timer </a>
+          <p> <span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/"
+            rel="noreferrer"
+            target="_blank">20 minute timer </a>
               and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a> to memorize and quiz yourself on
               country location. Do this until the timer goes off.</span></p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener99} value={SS6Essay99}/>
@@ -2888,9 +2871,10 @@ const SS6Component = ({ data }) => {
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p> <span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/"
-                                                                                            rel="noreferrer"
-                                                                                            target="_blank">20 minute timer </a>
+          <p> <span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/"
+            rel="noreferrer"
+            target="_blank">20 minute timer </a>
               and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country
               location. Do this until the timer goes off.</span></p><br/>
 
@@ -2910,13 +2894,12 @@ const SS6Component = ({ data }) => {
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p> <span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/"
-                                                                                            rel="noreferrer"
-                                                                                            target="_blank">20 minute timer </a>
+          <p> <span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/"
+            rel="noreferrer"
+            target="_blank">20 minute timer </a>
               and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country
               location. Do this until the timer goes off.</span></p><br/>
-
-
           <textarea className="textArea" onChange={onChangeSS6Listener102} value={SS6Essay102}/>
 
           <span className="days">LESSON 104</span>
@@ -2933,9 +2916,10 @@ const SS6Component = ({ data }) => {
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'>  After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/"
-                                                                                            rel="noreferrer"
-                                                                                            target="_blank">20 minute timer </a> and then go to <a href="https://tapmap.simpledzn.com">Tap Map </a>to memorize and quiz yourself on country location. </span>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/"
+            rel="noreferrer"
+            target="_blank">20 minute timer </a>   and then go to <a href="https://tapmap.simpledzn.com">Tap Map </a>to memorize and quiz yourself on where European countries are located.  Record your final score below.</span>
           </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener103} value={SS6Essay103}/>
 
@@ -2953,9 +2937,10 @@ const SS6Component = ({ data }) => {
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/"
-                                                                                           rel="noreferrer"
-                                                                                           target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/"
+            rel="noreferrer"
+            target="_blank">20 minute timer </a>   and then go to <a href="https://tapmap.simpledzn.com">Tap Map </a>to memorize and quiz yourself on where European countries are located.  Record your final score below.</span>
           </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener104} value={SS6Essay104}/>
 
@@ -2973,9 +2958,10 @@ const SS6Component = ({ data }) => {
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/"
-                                                                                           rel="noreferrer"
-                                                                                           target="_blank">20 minute timer </a>   and then go to <a href="https://tapmap.simpledzn.com">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/"
+            rel="noreferrer"
+            target="_blank">20 minute timer </a>   and then go to <a href="https://tapmap.simpledzn.com">Tap Map </a>to memorize and quiz yourself on where European countries are located.  Record your final score below.</span>
           </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener105} value={SS6Essay105}/>
 
@@ -2993,9 +2979,10 @@ const SS6Component = ({ data }) => {
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/"
-                                                                                           rel="noreferrer"
-                                                                                           target="_blank">20 minute timer </a>   and then go to <a href="https://tapmap.simpledzn.com">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/"
+            rel="noreferrer"
+            target="_blank">20 minute timer </a>   and then go to <a href="https://tapmap.simpledzn.com">Tap Map </a>to memorize and quiz yourself on where European countries are located.  Record your final score below.</span>
           </p><br/>
 
           <textarea className="textArea" onChange={onChangeSS6Listener106} value={SS6Essay106}/>
@@ -3006,7 +2993,7 @@ const SS6Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/yJ7-30I0I4o?list=PLR7XO54Pktt-YwmKtu2BLBS7jtVKRP94x"/>
           <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the
             meaning
-            behind the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
+            behind the colors and/or the design? <br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
             4. Did you learn anything about their history, economy or government? If so, explain.<br/>
@@ -3015,9 +3002,10 @@ const SS6Component = ({ data }) => {
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/"
-                                                                                           rel="noreferrer"
-                                                                                           target="_blank">20 minute timer </a>   and then go to <a href="https://tapmap.simpledzn.com">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/"
+            rel="noreferrer"
+            target="_blank">20 minute timer </a>   and then go to <a href="https://tapmap.simpledzn.com">Tap Map </a>to memorize and quiz yourself on where European countries are located.  Record your final score below.</span>
           </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener107} value={SS6Essay107}/>
 
@@ -3027,7 +3015,7 @@ const SS6Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/n7QdS-W_HYU?list=PLR7XO54Pktt-YwmKtu2BLBS7jtVKRP94x"/>
           <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the
             meaning
-            behind the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
+            behind the colors and/or the design? <br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
             4. Did you learn anything about their history, economy or government? If so, explain.<br/>
@@ -3036,9 +3024,10 @@ const SS6Component = ({ data }) => {
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="/https://timer.athomemiddleschool.com/"
-                                                                                           rel="noreferrer"
-                                                                                           target="_blank">20 minute timer </a>   and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/"
+            rel="noreferrer"
+            target="_blank">20 minute timer </a>   and then go to <a href="https://tapmap.simpledzn.com">Tap Map </a>to memorize and quiz yourself on where European countries are located.  Record your final score below.</span>
           </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener108} value={SS6Essay108}/>
 
@@ -3048,7 +3037,7 @@ const SS6Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/IFYkJtSnUjo?list=PLR7XO54Pktt-YwmKtu2BLBS7jtVKRP94x"/>
           <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the
             meaning
-            behind the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
+            behind the colors and/or the design? <br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
             4. Did you learn anything about their history, economy or government? If so, explain.<br/>
@@ -3057,9 +3046,10 @@ const SS6Component = ({ data }) => {
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/"
-                                                                                           rel="noreferrer"
-                                                                                           target="_blank">20 minute timer </a>   and then go to <a href="https://tapmap.simpledzn.com">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/"
+            rel="noreferrer"
+            target="_blank">20 minute timer </a>   and then go to <a href="https://tapmap.simpledzn.com">Tap Map </a>to memorize and quiz yourself on where European countries are located.  Record your final score below.</span>
           </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener109} value={SS6Essay109}/>
 
@@ -3067,7 +3057,6 @@ const SS6Component = ({ data }) => {
           <p>Watch the videos below about<b> Estonia. </b></p>
           <Video videoUrl="https://www.youtube.com/embed/1TTPq38LyPU?list=PLR7XO54Pktt-h8T-dtr4MXy0_MpbWukHW"/>
           <Video videoUrl="https://www.youtube.com/embed/FskySq7GPEA?list=PLR7XO54Pktt-YwmKtu2BLBS7jtVKRP94x"/>
-          <p>TAP MAP</p>
 
           <textarea className="textArea" onChange={onChangeSS6Listener110} value={SS6Essay110}/>
 
@@ -3078,7 +3067,7 @@ const SS6Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/DAIyRVxrjP4?list=PLR7XO54Pktt-YwmKtu2BLBS7jtVKRP94x"/>
           <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the
             meaning
-            behind the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
+            behind the colors and/or the design? <br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
             4. Did you learn anything about their history, economy or government? If so, explain.<br/>
@@ -3088,20 +3077,20 @@ const SS6Component = ({ data }) => {
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
 
-          <p> After you finish the questions above, go to <a href="https://tapmap.simpledzn.com" rel="noreferrer"
-                                                             target="_blank">Tap
-            Map</a> to practice and quiz yourself for 20 minutes.<br/>
-            b) Set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">timer.</a><br/>
-            c) Record your final score below.</p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/"
+            rel="noreferrer"
+            target="_blank">20 minute timer </a>   and then go to <a href="https://tapmap.simpledzn.com">Tap Map </a>to memorize and quiz yourself on where European countries are located.  Record your final score below.</span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener111} value={SS6Essay111}/>
 
           <span className="days">LESSON 113</span>
-          <p>Watch the videos below about<b>France. </b></p>
+          <p>Watch the videos below about<b> France. </b></p>
           <Video videoUrl="https://www.youtube.com/embed/g0QrBphsioM?list=PLR7XO54Pktt-h8T-dtr4MXy0_MpbWukHW"/>
           <Video videoUrl="https://www.youtube.com/embed/QrSnDl4Wowc?list=PLR7XO54Pktt-YwmKtu2BLBS7jtVKRP94x"/>
           <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the
             meaning
-            behind the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
+            behind the colors and/or the design? <br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
             4. Did you learn anything about their history, economy or government? If so, explain.<br/>
@@ -3111,11 +3100,11 @@ const SS6Component = ({ data }) => {
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
 
-          <p> After you finish the questions above, go to <a href="https://tapmap.simpledzn.com" rel="noreferrer"
-                                                             target="_blank">Tap
-            Map</a> to practice and quiz yourself for 20 minutes.<br/>
-            b) Set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">timer.</a><br/>
-            c) Record your final score below.</p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/"
+            rel="noreferrer"
+            target="_blank">20 minute timer </a>   and then go to <a href="https://tapmap.simpledzn.com">Tap Map </a>to memorize and quiz yourself on where European countries are located.  Record your final score below.</span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener112} value={SS6Essay112}/>
 
           <span className="days">LESSON 114</span>
@@ -3124,7 +3113,7 @@ const SS6Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/Q5EtPnFHv9Y?list=PLR7XO54Pktt-YwmKtu2BLBS7jtVKRP94x"/>
           <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the
             meaning
-            behind the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
+            behind the colors and/or the design? <br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
             4. Did you learn anything about their history, economy or government? If so, explain.<br/>
@@ -3134,11 +3123,11 @@ const SS6Component = ({ data }) => {
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
 
-          <p> After you finish the questions above, go to <a href="https://tapmap.simpledzn.com" rel="noreferrer"
-                                                             target="_blank">Tap
-            Map</a> to practice and quiz yourself for 20 minutes.<br/>
-            b) Set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">timer.</a><br/>
-            c) Record your final score below.</p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/"
+            rel="noreferrer"
+            target="_blank">20 minute timer </a>   and then go to <a href="https://tapmap.simpledzn.com">Tap Map </a>to memorize and quiz yourself on where European countries are located.  Record your final score below.</span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener113} value={SS6Essay113}/>
 
           <span className="days">LESSON 115</span>
@@ -3147,7 +3136,7 @@ const SS6Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/3pApsofDrGE?list=PLR7XO54Pktt-YwmKtu2BLBS7jtVKRP94x"/>
           <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the
             meaning
-            behind the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
+            behind the colors and/or the design? <br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
             4. Did you learn anything about their history, economy or government? If so, explain.<br/>
@@ -3157,11 +3146,11 @@ const SS6Component = ({ data }) => {
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
 
-          <p> After you finish the questions above, go to <a href="https://tapmap.simpledzn.com" rel="noreferrer"
-                                                             target="_blank">Tap
-            Map</a> to practice and quiz yourself for 20 minutes.<br/>
-            b) Set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">timer.</a><br/>
-            c) Record your final score below.</p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/"
+            rel="noreferrer"
+            target="_blank">20 minute timer </a>   and then go to <a href="https://tapmap.simpledzn.com">Tap Map </a>to memorize and quiz yourself on where European countries are located.  Record your final score below.</span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener114} value={SS6Essay114}/>
 
           <span className="days">LESSON 116</span>
@@ -3170,7 +3159,7 @@ const SS6Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/WHd28MTV4cE?list=PLR7XO54Pktt-YwmKtu2BLBS7jtVKRP94x"/>
           <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the
             meaning
-            behind the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
+            behind the colors and/or the design? <br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
             4. Did you learn anything about their history, economy or government? If so, explain.<br/>
@@ -3180,11 +3169,11 @@ const SS6Component = ({ data }) => {
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
 
-          <p> After you finish the questions above, go to <a href="https://tapmap.simpledzn.com" rel="noreferrer"
-                                                             target="_blank">Tap
-            Map</a> to practice and quiz yourself for 20 minutes.<br/>
-            b) Set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">timer.</a><br/>
-            c) Record your final score below.</p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/"
+            rel="noreferrer"
+            target="_blank">20 minute timer </a>   and then go to <a href="https://tapmap.simpledzn.com">Tap Map </a>to memorize and quiz yourself on where European countries are located.  Record your final score below.</span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener115} value={SS6Essay115}/>
 
           <span className="days">LESSON 117</span>
@@ -3194,7 +3183,7 @@ const SS6Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/cwJ4gdcArmg?list=PLR7XO54Pktt-YwmKtu2BLBS7jtVKRP94x"/>
           <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the
             meaning
-            behind the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
+            behind the colors and/or the design? <br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
             4. Did you learn anything about their history, economy or government? If so, explain.<br/>
@@ -3203,12 +3192,11 @@ const SS6Component = ({ data }) => {
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-
-          <p> After you finish the questions above, go to <a href="https://tapmap.simpledzn.com" rel="noreferrer"
-                                                             target="_blank">Tap
-            Map</a> to practice and quiz yourself for 20 minutes.<br/>
-            b) Set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">timer.</a><br/>
-            c) Record your final score below.</p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/"
+            rel="noreferrer"
+            target="_blank">20 minute timer </a>   and then go to <a href="https://tapmap.simpledzn.com">Tap Map </a>to memorize and quiz yourself on where European countries are located.  Record your final score below.</span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener116} value={SS6Essay116}/>
 
           <span className="days">LESSON 118</span>
@@ -3218,7 +3206,7 @@ const SS6Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/GwWCepOCn-g?list=PLR7XO54Pktt-YwmKtu2BLBS7jtVKRP94x"/>
           <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the
             meaning
-            behind the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
+            behind the colors and/or the design? <br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
             4. Did you learn anything about their history, economy or government? If so, explain.<br/>
@@ -3227,10 +3215,10 @@ const SS6Component = ({ data }) => {
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/"
-                                                                                           rel="noreferrer"
-                                                                                           target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/"
+            rel="noreferrer"
+            target="_blank">20 minute timer </a>   and then go to <a href="https://tapmap.simpledzn.com">Tap Map </a>to memorize and quiz yourself on where European countries are located.  Record your final score below.</span>
           </p><br/>
 
           <textarea className="textArea" onChange={onChangeSS6Listener117} value={SS6Essay117}/>
@@ -3239,10 +3227,10 @@ const SS6Component = ({ data }) => {
           <p>Watch the video below about<b> Ireland</b> by Geography
             Now. </p>
           <Video videoUrl="https://www.youtube.com/embed/yWZiO7YNoPQ?list=PLR7XO54Pktt-h8T-dtr4MXy0_MpbWukHW"/>
-          <Video videoUrl="https://www.youtube.com/embedHpIPtsWH4KU?list=PLR7XO54Pktt-YwmKtu2BLBS7jtVKRP94x/"/>
+          <Video videoUrl="https://www.youtube.com/embed/HpIPtsWH4KU"/>
+          
           <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the
-            meaning
-            behind the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
+            meaning behind the colors and/or the design? <br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
             4. Did you learn anything about their history, economy or government? If so, explain.<br/>
@@ -3251,12 +3239,11 @@ const SS6Component = ({ data }) => {
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-
-          <p> After you finish the questions above, go to <a href="https://tapmap.simpledzn.com" rel="noreferrer"
-                                                             target="_blank">Tap
-            Map</a> to practice and quiz yourself for 20 minutes.<br/>
-            b) Set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">timer.</a><br/>
-            c) Record your final score below.</p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/"
+            rel="noreferrer"
+            target="_blank">20 minute timer </a>   and then go to <a href="https://tapmap.simpledzn.com">Tap Map </a>to memorize and quiz yourself on where European countries are located.  Record your final score below.</span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener118} value={SS6Essay118}/>
 
           <span className="days">LESSON 120</span>
@@ -3266,7 +3253,7 @@ const SS6Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/jo6-0q90DZs?list=PLR7XO54Pktt-YwmKtu2BLBS7jtVKRP94x"/>
           <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is
             the meaning
-            behind the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
+            behind the colors and/or the design? <br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
             4. Did you learn anything about their history, economy or government? If so, explain.<br/>
@@ -3275,10 +3262,10 @@ const SS6Component = ({ data }) => {
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/"
-                                                                                           rel="noreferrer"
-                                                                                           target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/"
+            rel="noreferrer"
+            target="_blank">20 minute timer </a>   and then go to <a href="https://tapmap.simpledzn.com">Tap Map </a>to memorize and quiz yourself on where European countries are located.  Record your final score below.</span>
           </p><br/>
 
           <textarea className="textArea" onChange={onChangeSS6Listener119} value={SS6Essay119}/>
@@ -3291,7 +3278,7 @@ const SS6Component = ({ data }) => {
 
           <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is
             the meaning
-            behind the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
+            behind the colors and/or the design? <br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
             4. Did you learn anything about their history, economy or government? If so, explain.<br/>
@@ -3300,10 +3287,10 @@ const SS6Component = ({ data }) => {
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/"
-                                                                                           rel="noreferrer"
-                                                                                           target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/"
+            rel="noreferrer"
+            target="_blank">20 minute timer </a>   and then go to <a href="https://tapmap.simpledzn.com">Tap Map </a>to memorize and quiz yourself on where European countries are located.  Record your final score below.</span>
           </p><br/>
 
           <textarea className="textArea" onChange={onChangeSS6Listener120} value={SS6Essay120}/>
@@ -3315,7 +3302,7 @@ const SS6Component = ({ data }) => {
 
           <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What
             is the meaning
-            behind the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
+            behind the colors and/or the design? <br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
             4. Did you learn anything about their history, economy or government? If so,
@@ -3325,12 +3312,11 @@ const SS6Component = ({ data }) => {
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/"
-                                                                                           rel="noreferrer"
-                                                                                           target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/"
+            rel="noreferrer"
+            target="_blank">20 minute timer </a>   and then go to <a href="https://tapmap.simpledzn.com">Tap Map </a>to memorize and quiz yourself on where European countries are located.  Record your final score below.</span>
           </p><br/>
-
           <textarea className="textArea" onChange={onChangeSS6Listener121} value={SS6Essay121}/>
 
           <span className="days">LESSON 123</span>
@@ -3340,7 +3326,7 @@ const SS6Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/T779caWg1n4?list=PLR7XO54Pktt-YwmKtu2BLBS7jtVKRP94x"/>
           <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What
             is the meaning
-            behind the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
+            behind the colors and/or the design? <br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
             4. Did you learn anything about their history, economy or government? If so,
@@ -3350,12 +3336,11 @@ const SS6Component = ({ data }) => {
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/"
-                                                                                           rel="noreferrer"
-                                                                                           target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/"
+            rel="noreferrer"
+            target="_blank">20 minute timer </a>   and then go to <a href="https://tapmap.simpledzn.com">Tap Map </a>to memorize and quiz yourself on where European countries are located.  Record your final score below.</span>
           </p><br/>
-
           <textarea className="textArea" onChange={onChangeSS6Listener122} value={SS6Essay122}/>
 
           <span className="days">LESSON 124</span>
@@ -3376,10 +3361,10 @@ const SS6Component = ({ data }) => {
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/"
-                                                                                           rel="noreferrer"
-                                                                                           target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/"
+            rel="noreferrer"
+            target="_blank">20 minute timer </a>   and then go to <a href="https://tapmap.simpledzn.com">Tap Map </a>to memorize and quiz yourself on where European countries are located.  Record your final score below.</span>
           </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener123} value={SS6Essay123}/>
 
@@ -3389,7 +3374,7 @@ const SS6Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/btNqrzqTqlg?list=PLR7XO54Pktt-YwmKtu2BLBS7jtVKRP94x"/>
           <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What
             is the meaning
-            behind the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
+            behind the colors and/or the design? <br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
             4. Did you learn anything about their history, economy or government? If so,
@@ -3399,10 +3384,10 @@ const SS6Component = ({ data }) => {
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/"
-                                                                                           rel="noreferrer"
-                                                                                           target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/"
+            rel="noreferrer"
+            target="_blank">20 minute timer </a>   and then go to <a href="https://tapmap.simpledzn.com">Tap Map </a>to memorize and quiz yourself on where European countries are located.  Record your final score below.</span>
           </p><br/>
 
           <textarea className="textArea" onChange={onChangeSS6Listener124} value={SS6Essay124}/>
@@ -3413,7 +3398,7 @@ const SS6Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/zxXoMs30kZg?list=PLR7XO54Pktt-YwmKtu2BLBS7jtVKRP94x"/>
           <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What
             is the meaning
-            behind the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
+            behind the colors and/or the design? <br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
             4. Did you learn anything about their history, economy or government? If so,
@@ -3422,12 +3407,7 @@ const SS6Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
-            today.</p>
-
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/"
-                                                                                           rel="noreferrer"
-                                                                                           target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
-          </p><br/>
+            today. Practice until you are able to locate every country in Europe.</p>
 
           <textarea className="textArea" onChange={onChangeSS6Listener125} value={SS6Essay125}/>
 
@@ -3437,7 +3417,7 @@ const SS6Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/Hqs6Rzndelo?list=PLR7XO54Pktt-YwmKtu2BLBS7jtVKRP94x"/>
           <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What
             is the meaning
-            behind the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
+            behind the colors and/or the design? <br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
             4. Did you learn anything about their history, economy or government? If so,
@@ -3446,12 +3426,7 @@ const SS6Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
-            today.</p>
-
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/"
-                                                                                           rel="noreferrer"
-                                                                                           target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
-          </p><br/>
+            today. Practice until you are able to locate every country in Europe.</p>
 
           <textarea className="textArea" onChange={onChangeSS6Listener126} value={SS6Essay126}/>
 
@@ -3471,12 +3446,7 @@ const SS6Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
-            today.</p>
-
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/"
-                                                                                           rel="noreferrer"
-                                                                                           target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
-          </p><br/>
+            today. Practice until you are able to locate every country in Europe.</p>
 
           <textarea className="textArea" onChange={onChangeSS6Listener127} value={SS6Essay127}/>
 
@@ -3487,7 +3457,7 @@ const SS6Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/cc3qclOhxFA?list=PLR7XO54Pktt-YwmKtu2BLBS7jtVKRP94x"/>
           <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What
             is the meaning
-            behind the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
+            behind the colors and/or the design? <br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
             4. Did you learn anything about their history, economy or government? If so,
@@ -3496,13 +3466,7 @@ const SS6Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
-            today.</p>
-
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/"
-                                                                                           rel="noreferrer"
-                                                                                           target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
-          </p><br/>
-
+            today. Practice until you are able to locate every country in Europe.</p>
           <textarea className="textArea" onChange={onChangeSS6Listener128} value={SS6Essay128}/>
 
           <span className="days">LESSON 130</span>
@@ -3519,13 +3483,7 @@ const SS6Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
-            today.</p>
-
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/"
-                                                                                           rel="noreferrer"
-                                                                                           target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
-          </p><br/>
-
+            today. Practice until you are able to locate every country in Europe.</p>
           <textarea className="textArea" onChange={onChangeSS6Listener129} value={SS6Essay129}/>
 
           <span className="days">LESSON 131</span>
@@ -3543,12 +3501,7 @@ const SS6Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
-            today.</p>
-
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/"
-                                                                                           rel="noreferrer"
-                                                                                           target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
-          </p><br/>
+            today. Practice until you are able to locate every country in Europe.</p>
 
           <textarea className="textArea" onChange={onChangeSS6Listener130} value={SS6Essay130}/>
 
@@ -3567,12 +3520,7 @@ const SS6Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
-            today.</p>
-
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/"
-                                                                                           rel="noreferrer"
-                                                                                           target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
-          </p><br/>
+            today. Practice until you are able to locate every country in Europe.</p>
 
           <textarea className="textArea" onChange={onChangeSS6Listener132} value={SS6Essay132}/>
 
@@ -3591,12 +3539,7 @@ const SS6Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
-            today.</p>
-
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/"
-                                                                                           rel="noreferrer"
-                                                                                           target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
-          </p><br/>
+            today. Practice until you are able to locate every country in Europe.</p>
 
           <textarea className="textArea" onChange={onChangeSS6Listener133} value={SS6Essay133}/>
 
@@ -3615,19 +3558,12 @@ const SS6Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
-            today.</p>
-
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/"
-                                                                                           rel="noreferrer"
-                                                                                           target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
-          </p><br/>
-
+            today. Practice until you are able to locate every country in Europe.</p>
           <textarea className="textArea" onChange={onChangeSS6Listener134} value={SS6Essay134}/>
 
           <span className="days">LESSON 135</span>
           <p>Watch the video below about<b> San Marino</b> by Geography Now. Then answer the questions that follow.
           </p>
-
           <Video videoUrl="https://www.youtube.com/embed/SU4W_tIFbTc?list=PLR7XO54Pktt-h8T-dtr4MXy0_MpbWukHW"/>
           <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What
             is the meaning
@@ -3640,12 +3576,7 @@ const SS6Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
-            today.</p>
-
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/"
-                                                                                           rel="noreferrer"
-                                                                                           target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
-          </p><br/>
+            today. Practice until you are able to locate every country in Europe.</p>
 
           <textarea className="textArea" onChange={onChangeSS6Listener135} value={SS6Essay135}/>
 
@@ -3665,13 +3596,11 @@ const SS6Component = ({ data }) => {
             7. List three things about the country you found to be very interesting or
             surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
-            today.</p>
-
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span></p><br/>
+            today. Practice until you are able to locate every country in Europe.</p>
 
           <textarea className="textArea" onChange={onChangeSS6Listener136} value={SS6Essay136}/>
 
-          <p className="regions">Middle Eastern Countries</p>
+          <span className="regions">Middle Eastern Countries</span><br/>
 
           <span className="days">LESSON 137</span>
           <p>Watch the video below about<b> Bahrain</b> by Geography Now. Then answer the questions that follow.</p>
@@ -3687,12 +3616,16 @@ const SS6Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or
             surprising.<br/>
-            8. Your <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>score for
+            8. Your <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East:
+              Countries - Map Quiz Game </a>score for
             today.</p>
 
-          <p>- After you finish the questions above, go to <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a> to
+          <p>- After you finish the questions above, go to <a href="https://online.seterra.com/en/vgp/3049"
+                                                              rel="noreferrer" target="_blank">The Middle East:
+            Countries - Map Quiz Game </a> to
             continue quizzing yourself on Middle Eastern Countries.<br/>
-            - Practice for 20 minutes. <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">Set a 20 minute
+            - Practice for 20 minutes. <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">Set
+              a 20 minute
               timer. </a><br/>
             - Record your final score below.</p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener137} value={SS6Essay137}/>
@@ -3712,10 +3645,14 @@ const SS6Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or
             surprising.<br/>
-            8. Your <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>score for
+            8. Your <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East:
+              Countries - Map Quiz Game </a>score for
             today.</p>
 
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
 
           <textarea className="textArea" onChange={onChangeSS6Listener138} value={SS6Essay138}/>
 
@@ -3723,17 +3660,21 @@ const SS6Component = ({ data }) => {
           <p>Watch the video below about<b> Iran</b> by Geography Now. Then answer the questions that follow.</p>
 
           <Video videoUrl="https://www.youtube.com/embed/2xQM4Zy5zIk?list=PLMRyiKpIukC-FPqtWyOee_dFYMeVie49H"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
-            8. Your <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>score for
+            8. Your <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East:
+              Countries - Map Quiz Game </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
 
           <textarea className="textArea" onChange={onChangeSS6Listener139} value={SS6Essay139}/>
 
@@ -3743,8 +3684,7 @@ const SS6Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/YHQqsx9wsnc?list=PLMRyiKpIukC-FPqtWyOee_dFYMeVie49H"/>
           <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you
             like it? What is the meaning
-            behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+            behind the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
             2. What language do they speak? If they speak more than one, list them
             all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
@@ -3754,10 +3694,14 @@ const SS6Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or
             surprising.<br/>
-            8. Your <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>score for
+            8. Your <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East:
+              Countries - Map Quiz Game </a>score for
             today.</p>
 
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
 
           <textarea className="textArea" onChange={onChangeSS6Listener140} value={SS6Essay140}/>
 
@@ -3767,8 +3711,7 @@ const SS6Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/AWKmazrRIwA?list=PLMRyiKpIukC-FPqtWyOee_dFYMeVie49H"/>
           <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you
             like it? What is the meaning
-            behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+            behind the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
             2. What language do they speak? If they speak more than one, list them
             all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
@@ -3779,109 +3722,137 @@ const SS6Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or
             surprising.<br/>
-            8. Your <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>score for
+            8. Your <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East:
+              Countries - Map Quiz Game </a>score for
             today.</p>
 
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
 
           <textarea className="textArea" onChange={onChangeSS6Listener141} value={SS6Essay141}/>
           <span className="days">LESSON 142</span>
           <p>Watch the video below about<b> Jordan</b> by Geography Now. Then answer the questions that follow. </p>
 
           <Video videoUrl="https://www.youtube.com/embed/aWfu0BKOZ5g?list=PLMRyiKpIukC-FPqtWyOee_dFYMeVie49H"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
-            8. Your <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>score for
+            8. Your <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East:
+              Countries - Map Quiz Game </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener142} value={SS6Essay142}/>
 
           <span className="days">LESSON 143</span>
           <p>Watch the video below about<b> Kuwait</b> by Geography Now. Then answer the questions that follow. </p>
           <Video videoUrl="https://www.youtube.com/embed/S_pUIeE4Eko?list=PLMRyiKpIukC-FPqtWyOee_dFYMeVie49H"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
-            8. Your <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>score for
+            8. Your <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East:
+              Countries - Map Quiz Game </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener143} value={SS6Essay143}/>
 
           <span className="days">LESSON 144</span>
           <p>Watch the video below about<b> Lebanon</b> by Geography
             Now. Then answer the questions that follow.</p>
           <Video videoUrl="https://www.youtube.com/embed/vvgLLqpRT6s?list=PLMRyiKpIukC-FPqtWyOee_dFYMeVie49H"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
-            8. Your <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>score for
+            8. Your <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East:
+              Countries - Map Quiz Game </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener144} value={SS6Essay144}/>
 
           <span className="days">LESSON 145</span>
           <p>Watch the video below about<b> Oman</b> by Geography Now. Then answer the questions that follow.</p>
           <Video videoUrl="https://www.youtube.com/embed/mw-gmjzN4Fw?list=PLMRyiKpIukC-FPqtWyOee_dFYMeVie49H"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
-            8. Your <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>score for
+            8. Your <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East:
+              Countries - Map Quiz Game </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener145} value={SS6Essay145}/>
 
           <span className="days">LESSON 146</span>
           <p>Watch the video below about<b> Qatar</b> by Geography Now. Then answer the questions that follow.</p>
           <Video videoUrl="https://www.youtube.com/embed/oqfW7xn215o?list=PLMRyiKpIukC-FPqtWyOee_dFYMeVie49H"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
-            8. Your <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>score for
+            8. Your <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East:
+              Countries - Map Quiz Game </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener146} value={SS6Essay146}/>
 
           <span className="days">LESSON 147</span>
           <p>Watch the video below about<b> Saudi
             Arabia</b> by Geography Now. Then answer the questions that follow.</p>
           <Video videoUrl="https://www.youtube.com/embed/tP68QwVvAZk?list=PLMRyiKpIukC-FPqtWyOee_dFYMeVie49H"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
-            8. Your <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>score for
+            8. Your <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East:
+              Countries - Map Quiz Game </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener147} value={SS6Essay147}/>
 
           <span className="days">LESSON 148</span>
@@ -3892,45 +3863,55 @@ const SS6Component = ({ data }) => {
           <p> 1. What new things did you learn?<br/>
             2. What were interesting things you learned about the various countries' flags?<br/>
             3. List three things you found to be very interesting or surprising in the video.<br/>
-            4. Your <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East: Countries - Map Quiz Game </a>score for
+            4. Your <a href="https://online.seterra.com/en/vgp/3049" rel="noreferrer" target="_blank">The Middle East:
+              Countries - Map Quiz Game </a>score for
             today.</p>
 
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener148} value={SS6Essay148}/><br/>
-          <p className="regions">North &amp; Central America</p>
+          <span className="regions">North &amp; Central America</span><br/>
 
           <span className="days">LESSON 149</span>
           <p>Watch the video below about<b> Canada</b> by Geography Now. Then answer the questions that follow.</p>
 
           <Video videoUrl="https://www.youtube.com/embed/SxhUsPBFPkU?list=PLR7XO54Pktt8Ui5oXABHerdCzzHg9noTw"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener149} value={SS6Essay149}/>
 
           <span className="days">LESSON 150</span>
           <p>Watch the videos below about<b> Mexico</b> by Geography Now. Then answer the questions that follow.</p>
           <Video videoUrl="https://www.youtube.com/embed/Kxy74EAjAec?list=PLR7XO54Pktt8Ui5oXABHerdCzzHg9noTw"/>
           <Video videoUrl="https://www.youtube.com/embed/oi8MDZqDh-o?list=PLR7XO54Pktt-YwmKtu2BLBS7jtVKRP94x"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? <br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener150} value={SS6Essay150}/>
 
           <span className="days">LESSON 151</span>
@@ -3938,50 +3919,59 @@ const SS6Component = ({ data }) => {
           </p>
           <Video videoUrl="https://www.youtube.com/embed/L1TSpYN0MBg?list=PLR7XO54Pktt8Ui5oXABHerdCzzHg9noTw"/>
           <Video videoUrl="https://www.youtube.com/embed/-ToD8fKbhiw?list=PLR7XO54Pktt-YwmKtu2BLBS7jtVKRP94x"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? <br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener151} value={SS6Essay151}/>
 
           <span className="days">LESSON 152</span>
           <p>Watch the video below about<b> Honduras</b> by Geography Now. Then answer the questions that follow.</p>
           <Video videoUrl="https://www.youtube.com/embed/ND8PduJlN6A?list=PLR7XO54Pktt8Ui5oXABHerdCzzHg9noTw"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener152} value={SS6Essay152}/>
 
           <span className="days">LESSON 153</span>
           <p>Watch the videos below about<b> Nicaragua</b> by Geography Now. Then answer the questions that follow.</p>
           <Video videoUrl="https://www.youtube.com/embed/rr65vnslEZ0?list=PLR7XO54Pktt8Ui5oXABHerdCzzHg9noTw"/>
           <Video videoUrl="https://www.youtube.com/embed/QeJ_e6IxDbo?list=PLR7XO54Pktt-YwmKtu2BLBS7jtVKRP94x"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? <br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener153} value={SS6Essay153}/>
 
           <span className="days">LESSON 154</span>
@@ -3989,397 +3979,470 @@ const SS6Component = ({ data }) => {
           </p>
           <Video videoUrl="https://www.youtube.com/embed/-t5uzY77zwA?list=PLR7XO54Pktt8Ui5oXABHerdCzzHg9noTw"/>
           <Video videoUrl="https://www.youtube.com/embed/1NIFbbRyOfM?list=PLR7XO54Pktt-YwmKtu2BLBS7jtVKRP94x"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? <br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener154} value={SS6Essay154}/>
 
           <span className="days">LESSON 155</span>
           <p>Watch the video below about<b> Panama</b> by Geography Now. Then answer the questions that follow.</p>
           <Video videoUrl="https://www.youtube.com/embed/P722VC7b9iM?list=PLR7XO54Pktt8Ui5oXABHerdCzzHg9noTw"/>
           <Video videoUrl="https://www.youtube.com/embed/bvmOrcSzxWI?list=PLR7XO54Pktt-YwmKtu2BLBS7jtVKRP94x"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? <br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener155} value={SS6Essay155}/>
 
           <span className="days">LESSON 156</span>
           <p>Watch the video below about<b> Belize</b> by Geography Now. Then answer the questions that follow.</p>
           <Video videoUrl="https://www.youtube.com/embed/3MrYk3kCUGk?list=PLR7XO54Pktt8Ui5oXABHerdCzzHg9noTw"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener156} value={SS6Essay156}/>
 
           <span className="days">LESSON 157</span>
           <p>Watch the video below about<b> Costa Rica </b> by Geography Now. Then answer the questions that follow.
           </p>
           <Video videoUrl="https://www.youtube.com/embed/DaBEGru_IEc?list=PLR7XO54Pktt8Ui5oXABHerdCzzHg9noTw"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener157} value={SS6Essay157}/>
 
           <span className="days">LESSON 158</span>
           <p>Watch the video below about<b>Barbados </b> by Geography Now. Then answer the questions that follow.</p>
           <Video videoUrl="https://www.youtube.com/embed/uvA3DUJCxpY?list=PLR7XO54Pktt8Ui5oXABHerdCzzHg9noTw"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener158} value={SS6Essay158}/>
 
           <span className="days">LESSON 159</span>
           <p>Watch the video below about<b> the Bahamas</b> by Geography Now. Then answer the questions that follow.
           </p>
           <Video videoUrl="https://www.youtube.com/embed/J9aV4Zn8JJE?list=PLR7XO54Pktt8Ui5oXABHerdCzzHg9noTw"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener159} value={SS6Essay159}/>
 
           <span className="days">LESSON 160</span>
           <p>Watch the video below about<b> Antigua &amp; Barbuda</b> by Geography Now. Then answer the questions that
             follow.</p>
           <Video videoUrl="https://www.youtube.com/embed/5OpiUD3qtY8?list=PLR7XO54Pktt8Ui5oXABHerdCzzHg9noTw"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener160} value={SS6Essay160}/>
 
           <span className="days">LESSON 161</span>
           <p>Watch the videos below about<b> Cuba</b> by Geography Now. Then answer the questions that follow.</p>
           <Video videoUrl="https://www.youtube.com/embed/iQnhoYc2QTg?list=PLR7XO54Pktt8Ui5oXABHerdCzzHg9noTw"/>
           <Video videoUrl="https://www.youtube.com/embed/gFA7wpGJJiw?list=PLR7XO54Pktt-YwmKtu2BLBS7jtVKRP94x"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? <br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener161} value={SS6Essay161}/>
 
           <span className="days">LESSON 162</span>
           <p>Watch the videos below about<b> Dominica</b> by Geography Now. Then answer the questions that follow.</p>
           <Video videoUrl="https://www.youtube.com/embed/OGaML8Gg8JQ?list=PLR7XO54Pktt8Ui5oXABHerdCzzHg9noTw"/>
           <Video videoUrl="https://www.youtube.com/embed/Q5nOtEPQoqA?list=PLR7XO54Pktt-YwmKtu2BLBS7jtVKRP94x"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? <br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener162} value={SS6Essay162}/>
 
           <span className="days">LESSON 163</span>
           <p>Watch the videos below about<b> Dominican Republic</b> by Geography Now. Then answer the questions that
             follow.</p>
           <Video videoUrl="https://www.youtube.com/embed/dQv3t5VCc3U?list=PLR7XO54Pktt8Ui5oXABHerdCzzHg9noTw"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener163} value={SS6Essay163}/>
 
           <span className="days">LESSON 164</span>
           <p>Watch the video below about<b> Grenada</b> by Geography Now. Then answer the questions that follow.</p>
           <Video videoUrl="https://www.youtube.com/embed/fHZ_cVHPRmM?list=PLR7XO54Pktt8Ui5oXABHerdCzzHg9noTw"/>
           <Video videoUrl="https://www.youtube.com/embed/DVlvA4lyInM?list=PLR7XO54Pktt-YwmKtu2BLBS7jtVKRP94x"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? <br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener164} value={SS6Essay164}/>
 
           <span className="days">LESSON 165</span>
           <p>Watch the video below about<b> Haiti</b> by Geography Now. Then answer the questions that follow.</p>
           <Video videoUrl="https://www.youtube.com/embed/O0G9a2Kn6-Q?list=PLR7XO54Pktt8Ui5oXABHerdCzzHg9noTw"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener165} value={SS6Essay165}/>
 
           <span className="days">LESSON 166</span>
           <p>Watch the video below about<b> Jamaica</b> by Geography Now. Then answer the questions that follow.</p>
           <Video videoUrl="https://www.youtube.com/embed/LaLumU4pSf8?list=PLR7XO54Pktt8Ui5oXABHerdCzzHg9noTw"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener166} value={SS6Essay166}/>
 
           <span className="days">LESSON 167</span>
           <p>Watch the video below about<b> St Kitts &amp; Nevis</b> by Geography Now. Then answer the questions that
             follow.</p>
           <Video videoUrl="https://www.youtube.com/embed/y5FPRLgQ41Q?list=PLR7XO54Pktt8Ui5oXABHerdCzzHg9noTw"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener167} value={SS6Essay167}/>
 
           <span className="days">LESSON 168</span>
           <p>Watch the video below about<b> St Vincent &amp; the Grenadines</b> by Geography Now. Then answer the
             questions that follow.</p>
           <Video videoUrl="https://www.youtube.com/embed/E5DV8mD9_eQ?list=PLR7XO54Pktt8Ui5oXABHerdCzzHg9noTw"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener168} value={SS6Essay168}/>
 
           <span className="days">LESSON 169</span>
           <p>Watch the video below about<b> Bolivia</b> by Geography Now. Then answer the questions that follow.</p>
           <Video videoUrl="https://www.youtube.com/embed/AJx1RcIO61I?list=PLR7XO54Pktt-DmLWCKF7Kc908nqX2HBjh"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener169} value={SS6Essay169}/>
 
           <span className="days">LESSON 170</span>
           <p>Watch the video below about<b> Argentina</b> by Geography Now. Then answer the questions that follow.</p>
           <Video videoUrl="https://www.youtube.com/embed/1U0N4SGL46A?list=PLR7XO54Pktt-DmLWCKF7Kc908nqX2HBjh"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener170} value={SS6Essay170}/>
 
           <span className="days">LESSON 171</span>
           <p>Watch the video below about<b> Brazil</b> by Geography Now. Then answer the questions that follow.</p>
           <Video videoUrl="https://www.youtube.com/embed/JFfcD-SkqIc?list=PLR7XO54Pktt-DmLWCKF7Kc908nqX2HBjh"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener171} value={SS6Essay171}/>
 
           <span className="days">LESSON 172</span>
           <p>Watch the video below about<b> Chile</b> by Geography Now. Then answer the questions that follow.</p>
           <Video videoUrl="https://www.youtube.com/embed/8P4Hi99hUJc?list=PLR7XO54Pktt-DmLWCKF7Kc908nqX2HBjh"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener172} value={SS6Essay172}/>
 
           <span className="days">LESSON 173</span>
           <p>Watch the video below about<b> Colombia</b> by Geography Now. Then answer the questions that follow.</p>
           <Video videoUrl="https://www.youtube.com/embed/rTsPaAIJdnw?list=PLR7XO54Pktt-DmLWCKF7Kc908nqX2HBjh"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener173} value={SS6Essay173}/>
 
           <span className="days">LESSON 174</span>
           <p>Watch the videos below about<b> Ecuador</b> by Geography Now. Then answer the questions that follow.</p>
           <Video videoUrl="https://www.youtube.com/embed/7jzB0YVBUOs?list=PLR7XO54Pktt-DmLWCKF7Kc908nqX2HBjh"/>
           <Video videoUrl="https://www.youtube.com/embed/cMEz5He5aG0?list=PLR7XO54Pktt-YwmKtu2BLBS7jtVKRP94x"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? <br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener174} value={SS6Essay174}/>
 
           <span className="days">LESSON 175</span>
           <p>Watch the video below about<b> Guyana</b> by Geography Now. Then answer the questions that follow.</p>
           <Video videoUrl="https://www.youtube.com/embed/tr5xeKcHGqw?list=PLR7XO54Pktt-DmLWCKF7Kc908nqX2HBjh"/>
-          <textarea className="textArea" onChange={onChangeSS6Listener175} value={SS6Essay175}/>          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-          online.<br/>
+          <textarea className="textArea" onChange={onChangeSS6Listener175} value={SS6Essay175}/>          <p> 1.
+          Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind the
+          colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
           2. What language do they speak? If they speak more than one, list them all.<br/>
           3. Would you ever want to live there? Why or why not.<br/>
-          4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+          4. Did you learn anything about their history, economy or government? If so, explain.<br/>
           5. List a few ways that this country is different than where you live.<br/>
           6. Describe what you learned about the land and physical geography. <br/>
           7. List three things about the country you found to be very interesting or surprising.<br/>
           8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
           today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
 
 
           <span className="days">LESSON 176</span>
           <p>Watch the video below about<b> Paraguay</b> by Geography Now. Then answer the questions that follow.</p>
           <Video videoUrl="https://www.youtube.com/embed/8wbNEJjBa0k?list=PLR7XO54Pktt-DmLWCKF7Kc908nqX2HBjh"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener176} value={SS6Essay176}/>
 
           <span className="days">LESSON 177</span>
           <p>Watch the videos below about<b> Peru</b> by Geography Now. Then answer the questions that follow.</p>
           <Video videoUrl="https://www.youtube.com/embed/x0XCXGXGZMs?list=PLR7XO54Pktt-DmLWCKF7Kc908nqX2HBjh"/>
           <Video videoUrl="https://www.youtube.com/embed/0qKRinI-alU?list=PLR7XO54Pktt-YwmKtu2BLBS7jtVKRP94x"/>
-          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning  behind the colors and/or the design? If the flag is not research it
-            online.<br/>
+          <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the meaning behind
+            the colors and/or the design? <br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
-            4. Did you learn anything about their history, economy or government? If so,  explain.<br/>
+            4. Did you learn anything about their history, economy or government? If so, explain.<br/>
             5. List a few ways that this country is different than where you live.<br/>
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
             today.</p>
-          <p><span className='smallerFont'> After you finish the questions above, set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span></p><br/>
+          <p><span className='smallerFont'> After you finish the questions above, set a <a
+            href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer </a>and then go to <a
+            href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>to memorize and quiz yourself on country  location. </span>
+          </p><br/>
           <textarea className="textArea" onChange={onChangeSS6Listener177} value={SS6Essay177}/>
 
           {/*<span className="days">LESSON 178</span>*/}
@@ -4404,5 +4467,5 @@ const SS6Component = ({ data }) => {
     </form>
   )
 }
-  
+
 export default SS6Component
