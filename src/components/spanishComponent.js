@@ -745,13 +745,13 @@ const SpanishComponent = ({ data }) => {
         <div className="circle one"
              style={{
                animationDuration: "4s",
-               backgroundColor: "#f16d7b",
+               backgroundColor: "#f8de7e",
                transform: "translate3d(0px, 0px, 0px) scale(0.9921, 1)",
                opacity: "0.9881"
              }}/>
         <div className="circle two" style={{
           animationDuration: "4s",
-          backgroundColor: "#f16d7b",
+          backgroundColor: "#f8de7e",
           transform: "translate(0px, 0px)",
           opacity: 1
         }}/>
@@ -775,7 +775,7 @@ const SpanishComponent = ({ data }) => {
 
           <p className="topBottom">If the speakers in the videos talk too quickly, you can slow down the playback speed.
             Also, be sure subtitles are always showing when you watch a video so you can follow along. Both of these
-            features can be adjusted in the bottom menu of each video.</p>
+            features can be adjusted in the bottom menu of each video under Settings.</p>
 
           <Video videoUrl="https://www.youtube.com/embed/kzWZi03KM2U?list=PL_bC0YvGkS4Qv3DswsEkYTJqAU93HU9cz"/>
           <Video videoUrl="https://www.youtube.com/embed/POdNffXOJ-o"/>
@@ -784,10 +784,10 @@ const SpanishComponent = ({ data }) => {
             <li>How common is the Spanish language in the world? Is it the 1st, 2nd, 3rd or 4th most commonly spoken
               language?
             </li>
-            <li>List some reasons it's valuable to learn Spanish.</li>
+            <li>List the reasons it's valuable to learn Spanish.</li>
             <li>In which countries is the Spanish dialect easiest to understand?</li>
-            <li>Write 5 Spanish words you learned.</li>
             <li>How are vowels in the English language different than in the Spanish language?</li>
+            <li>Write 5 Spanish words you learned and translate them to English.</li>
             <li>Go to <a href="https://www.duolingo.com/"
                          rel="noreferrer"
                          target="_blank">Duolingo </a>and complete your first lesson there.
@@ -797,7 +797,7 @@ const SpanishComponent = ({ data }) => {
             with <a href="https://www.duolingo.com/"
                     rel="noreferrer"
                     target="_blank"> Duolingo, set one up
-              here. </a> Or you can log in with a Google or Facebook account. Duolingo has free lessons and does not
+              here. </a> You can also log in with a Google or Facebook account. Duolingo has free lessons and does not
             require a paid subscription. After you log in, <strong>complete the first lesson on Duolingo</strong>. If
             you already know some Spanish, you can take the placement test before you get started.</p>
           <p>Duolingo is the only account you need to create for this course. You do NOT need to sign up for any
@@ -1049,7 +1049,7 @@ const SpanishComponent = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/t7-nb1wlnyA?list=PL_bC0YvGkS4Svpvjvpu7U-3stjplGJMR-"/>
           <h4>QUESTIONS</h4>
           <ol className="vocab">
-            <li>Write 10 words you learned. Write them in Spanish and and English. For example: <i>1. por favor =
+            <li>Write 10 words you learned. Write them in Spanish and in English. <br/>For example: <i>1. por favor =
               please.</i></li>
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
@@ -1066,8 +1066,8 @@ const SpanishComponent = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/CzOmAG729Lw?list=PL_bC0YvGkS4Svpvjvpu7U-3stjplGJMR-"/>
           <h4>QUESTIONS</h4>
           <ol className="vocab">
-            <li>Write the body parts you learned in Spanish. Write them in Spanish and and English.</li>
-            <li>Write 6 vegetables in Spanish.</li>
+            <li>Write the body parts you learned in Spanish. Write them in Spanish and translate to English.</li>
+            <li>Write 6 vegetables in Spanish and then translate to English.</li>
 
 
             <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
@@ -1081,7 +1081,7 @@ const SpanishComponent = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/jHqxgPXGr-M?list=PLjHgrj6tC7AaUmiqReLL3VxDKKwX4QhZ2"/>
           <h4>QUESTIONS</h4>
           <ol className="vocab">
-            <li>What goes wrong at the concert? What did they find in the theatre? Answer in a complete sentence in
+            <li>What goes wrong at the concert? What did they find in the theatre? Answer in a complete sentences in
               Spanish.
             </li>
             <li>Describe in Spanish what happens in this episode of "Learn Spanish for Beginners."</li>
@@ -1101,7 +1101,7 @@ const SpanishComponent = ({ data }) => {
           <h4>QUESTIONS</h4>
           <ol className="vocab">
             <li>Describe in Spanish what happens in this episode of "Learn Spanish for Beginners."</li>
-            <li>What are the different flavors of ice cream? Write them in Spanish.</li>
+            <li>What are the different flavors of ice cream shown in the video? Write them in Spanish.</li>
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
             </li>
@@ -1177,9 +1177,7 @@ const SpanishComponent = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/gOZFrwTTgok"/>
           <h4>QUESTIONS</h4>
           <ol className="vocab">
-            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
-                                                                 target="_blank"> Duolingo. </a></li>
-            <p>Translate the following words from the video into Spanish: </p>
+           <p>Translate the following words from the video into Spanish: </p>
             <li>pen</li>
             <li>desk</li>
             <li>box</li>
@@ -1199,8 +1197,12 @@ const SpanishComponent = ({ data }) => {
             <li>sink</li>
             <li>water</li>
             <li>restroom</li>
+            <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
+                                                                 target="_blank"> Duolingo. </a></li>
           </ol>
-          <textarea className="textArea" onChange={onChangespanishListener23} value={spanishEssay23}/>
+          <textarea className="textArea" placeholder="Copy/paste the words into this textbox and then write your translations here. Example:
+          1. pen = stylo
+          2. desk = la mesa" onChange={onChangespanishListener23} value={spanishEssay23}/>
 
           <span className="days">LESSON 24 </span>
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
@@ -1215,7 +1217,8 @@ const SpanishComponent = ({ data }) => {
             <li>What is the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
                                                                    target="_blank"> Duolingo. </a></li>
           </ol>
-          <textarea className=" textArea" onChange={onChangespanishListener24} value={spanishEssay24}/>
+          <textarea className=" textArea" placeholder="Example
+          1. this = este/esta" onChange={onChangespanishListener24} value={spanishEssay24}/>
 
           <span className=" days">LESSON 25 </span>
           <p className="topBottom">Watch the videos, answer the questions below and complete a full lesson on <a
@@ -1240,8 +1243,8 @@ const SpanishComponent = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/prFaX69m-wo?list=PLkjyx6Il3YUYWNS7C1N_qnPS-w-NWEgD9"/>
           <h4>QUESTIONS</h4>
           <ol className="vocab">
-            <li>What did Baruch see in the library? Answer in Spanish.</li>
-            <li>List as many ways as you can to say "hot".</li>
+            <li>What did Baruch see in the library? Answer in Spanish in complete sentences.</li>
+            <li>List all the different ways to say "hot" in Spanish.</li>
             <li>Write 5 new phrases you learned from the video.</li>
             <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
                                                                  target="_blank"> Duolingo. </a></li>
@@ -1410,9 +1413,9 @@ const SpanishComponent = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/Giu9wFPA0Wg?list=PLA5UIoabheFM7agDaTy7VItg8vu_UuFs6"/>
           <h4>QUESTIONS</h4>
           <ol className="vocab">
-            <li>How would you write, it is 7 o'clock?</li>
-            <li>How would you write, it is 8:30?</li>
-            <li>How would you write, it is 3:15?</li>
+            <li>How would you write, "It is 7:00?"</li>
+            <li>How would you write, "It is 8:30?"</li>
+            <li>How would you write, "It is 3:15?"</li>
             <li>Write 3 sentences in Spanish using the conjugated verb "ir".</li>
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English.
@@ -1460,11 +1463,10 @@ const SpanishComponent = ({ data }) => {
           <h4>QUESTIONS</h4>
           <ol className="vocab">
             <li>Write 5 different ways to say goodbye in Spanish. Which one is your favorite or the one you are likely
-              to use most?
-            </li>
-            <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
-              English.
-            </li>
+              to use most?</li>
+            <li>Write five sentences that use the progressive verb tense "ing." For example "I am talking to you. = Estoy hablando contigo." </li>
+            <li>Write 5 new Spanish phrases you learned from the video. Write the phrases in Spanish and then translate them to
+             English.</li>
             <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
                                                                  target="_blank"> Duolingo. </a></li>
           </ol>
@@ -1481,8 +1483,9 @@ const SpanishComponent = ({ data }) => {
             <li>What are markets like in Mexico? What things would you find there? Be sure to answer in Spanish.</li>
             <li>What are the 4 ways to ask "How are you?" in Spanish?</li>
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
-              English.
-            </li>
+              English.</li>
+            <li>Write 10 items you would find at the market. Write the words in Spanish and then translate them to
+              English.</li>
             <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
                                                                  target="_blank"> Duolingo. </a></li>
           </ol>
