@@ -916,10 +916,10 @@ const SS7Component = ({ data }) => {
           <span className="days">LESSON 7</span>
           <p>Watch the video below: <b> The Enlightenment </b>by Crash Course. Then, complete the essay assignment
             that follows.</p>
-          <Video videoUrl="https://www.youtube.com/embed/NnoFj2cMRLY"/>
           <p>The Enlightenment brought about numerous changes. Write a 5 Paragraph Essay on which impact of the
             Enlightenment you think is most important. To get started on how to write the essay, watch the video
             below: <b> Writing Ninjas: </b> How to Write a 5 Paragraph essay</p>
+          <Video videoUrl="https://www.youtube.com/embed/NnoFj2cMRLY"/>
           <Video videoUrl="https://www.youtube.com/embed/5uSJEiNZ1rE"/>
           <p>Take a few minutes to think about the essay topic and then create an outline for <i> which impact of
             the Enlightenment you think is most important.</i> <a
@@ -3739,14 +3739,15 @@ const SS7Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Write your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
-            today. Instructions below: 
+            today. Instructions below:
           </p>
 
-          <p><span className='smallerFont'> Under "Select Region Quiz" select <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">South America. </a>Try to memorize where
+          <p><span className='smallerFont'> Under "Select Region Quiz" select <a href="https://tapmap.simpledzn.com"
+                                                                                 rel="noreferrer" target="_blank">South America. </a>Try to memorize where
             countries are located by clicking on each country. The country's name will appear. When you're ready, click on "Start Quiz." Practice memorizing country location for 20 minutes. You can <a
-            href="https://timer.athomemiddleschool.com/"
-            rel="noreferrer"
-            target="_blank">set a 20 minute timer here</a>. Record your top score below.</span>
+              href="https://timer.athomemiddleschool.com/"
+              rel="noreferrer"
+              target="_blank">set a 20 minute timer here</a>. Record your top score below.</span>
           </p><br/>
 
           <textarea className="textArea" onChange={onChangeSS7Listener122} value={SS7Essay122}/>
@@ -3965,7 +3966,7 @@ const SS7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangeSS7Listener130} value={SS7Essay130}/>
 
           <span className="regions margin-para">Central & Western Asia</span><br/>
-          
+
           <span className="days">LESSON 132</span>
           <p>Watch the video below about<b> Bahrain</b> by Geography Now. </p>
           <Video videoUrl="https://www.youtube.com/embed/P2gHUcwZbYk?list=PLR7XO54Pktt8v1Cur1RbsA6-kaj4utyKB"/>
@@ -3980,7 +3981,7 @@ const SS7Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a> score
-            for today.  Under "Select Region Quiz" click on "Asia".</p>
+            for today. Under "Select Region Quiz" click on "Asia".</p>
 
           <p><span className='smallerFont'> After you finish the questions above, set a <a
             href="https://timer.athomemiddleschool.com/"
@@ -4005,7 +4006,7 @@ const SS7Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
-            today.  Under "Select Region Quiz" click on "Asia".
+            today. Under "Select Region Quiz" click on "Asia".
           </p>
 
           <p><span className='smallerFont'> After you finish the questions above, set a <a
@@ -4031,7 +4032,7 @@ const SS7Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
-            today.   Under "Select Region Quiz" click on "Asia".
+            today. Under "Select Region Quiz" click on "Asia".
           </p>
 
           <p><span className='smallerFont'> After you finish the questions above, set a <a
@@ -4058,7 +4059,7 @@ const SS7Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
-            today.   Under "Select Region Quiz" click on "Asia".
+            today. Under "Select Region Quiz" click on "Asia".
           </p>
 
           <p><span className='smallerFont'> After you finish the questions above, set a <a
@@ -4087,7 +4088,7 @@ const SS7Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
-            today.   Under "Select Region Quiz" click on "Asia".
+            today. Under "Select Region Quiz" click on "Asia".
           </p>
 
           <p><span className='smallerFont'> After you finish the questions above, set a <a
@@ -4114,7 +4115,7 @@ const SS7Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
-            today.   Under "Select Region Quiz" click on "Asia".
+            today. Under "Select Region Quiz" click on "Asia".
           </p>
           <p><span className='smallerFont'> After you finish the questions above, set a <a
             href="https://timer.athomemiddleschool.com/"
@@ -4139,7 +4140,7 @@ const SS7Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
-            today.   Under "Select Region Quiz" click on "Asia".
+            today. Under "Select Region Quiz" click on "Asia".
           </p>
 
           <p><span className='smallerFont'> After you finish the questions above, set a <a
@@ -4165,7 +4166,7 @@ const SS7Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
-            today.   Under "Select Region Quiz" click on "Asia".
+            today. Under "Select Region Quiz" click on "Asia".
           </p>
           <p><span className='smallerFont'> After you finish the questions above, set a <a
             href="https://timer.athomemiddleschool.com/"
@@ -4191,7 +4192,7 @@ const SS7Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
-            today.   Under "Select Region Quiz" click on "Asia".
+            today. Under "Select Region Quiz" click on "Asia".
           </p>
 
           <p><span className='smallerFont'> After you finish the questions above, set a <a
@@ -4422,15 +4423,19 @@ const SS7Component = ({ data }) => {
 
           <span className="days">LESSON 150</span>
           <p>It's time to travel again anywhere in the world. Where will you go this time?</p>
-        <p>  <ul className="list"><li>Milford Sound in New Zealand? </li>
-            <li>Zhangye Danxia Geopark, China? </li>
-            <li>Venice, Italy? </li>
-            <li>Banff National Park, Canada?</li> 
-          <li>Great Ocean Road, Australia?</li></ul></p>
           <p>
-          If you have no idea where to you'd like to go, get inspired by this video showing some of the most
-          scientifically impossible
-          places in the world.</p>
+            <ul className="list">
+              <li>Milford Sound in New Zealand?</li>
+              <li>Zhangye Danxia Geopark, China?</li>
+              <li>Venice, Italy?</li>
+              <li>Banff National Park, Canada?</li>
+              <li>Great Ocean Road, Australia?</li>
+            </ul>
+          </p>
+          <p>
+            If you have no idea where to you'd like to go, get inspired by this video showing some of the most
+            scientifically impossible
+            places in the world.</p>
           <Video videoUrl="https://www.youtube.com/embed/S3ksC_8jGuc"/>
           <p> Next, answer the following questions:<br/>
             1. What place would you visit?<br/>
@@ -4964,7 +4969,7 @@ const SS7Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
-           today from the Oceania Map.
+            today from the Oceania Map.
           </p>
           <p><span className='smallerFont'> After you finish the questions above, set a <a
             href="https://timer.athomemiddleschool.com/"
@@ -4988,7 +4993,7 @@ const SS7Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
-           today from the Oceania Map.
+            today from the Oceania Map.
           </p>
           <p><span className='smallerFont'> After you finish the questions above, set a <a
             href="https://timer.athomemiddleschool.com/"
@@ -5012,7 +5017,7 @@ const SS7Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
-           today from the Oceania Map.
+            today from the Oceania Map.
           </p>
           <p><span className='smallerFont'> After you finish the questions above, set a <a
             href="https://timer.athomemiddleschool.com/"
@@ -5038,7 +5043,7 @@ const SS7Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
-           today from the Oceania Map.
+            today from the Oceania Map.
           </p>
           <p><span className='smallerFont'> After you finish the questions above, set a <a
             href="https://timer.athomemiddleschool.com/"
@@ -5061,7 +5066,7 @@ const SS7Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
-           today from the Oceania Map.
+            today from the Oceania Map.
           </p>
           <p><span className='smallerFont'> After you finish the questions above, set a <a
             href="https://timer.athomemiddleschool.com/"
@@ -5086,7 +5091,7 @@ const SS7Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
-           today from the Oceania Map.
+            today from the Oceania Map.
           </p>
           <p><span className='smallerFont'> After you finish the questions above, set a <a
             href="https://timer.athomemiddleschool.com/"
@@ -5109,7 +5114,7 @@ const SS7Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
-           today from the Oceania Map.
+            today from the Oceania Map.
           </p>
           <p><span className='smallerFont'> After you finish the questions above, set a <a
             href="https://timer.athomemiddleschool.com/"
@@ -5133,7 +5138,7 @@ const SS7Component = ({ data }) => {
             6. Describe what you learned about the land and physical geography. <br/>
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. Your <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map </a>score for
-           today from the Oceania Map.
+            today from the Oceania Map.
           </p>
           <p><span className='smallerFont'> After you finish the questions above, set a <a
             href="https://timer.athomemiddleschool.com/"
@@ -5168,15 +5173,15 @@ const SS7Component = ({ data }) => {
 
           <span className="days">LESSON 181</span>
           <p>It's time to travel one last time anywhere in the world. Where will you go?
-          <ul className="list">
-            <li>Acadia National Park, Maine?</li>
-            <li>Lake Tahoe, Nevada?</li>
-            <li>The Taj Mahal, Agra, India? </li>
-            <li>The Amazon Rainforest, Brazil? </li>
-            <li>Santorini, Greece? </li>
-            <li>Bora Bora, French Polynesia?</li> 
-            <li>Edinburgh Castle in Scotland?</li>
-          </ul>
+            <ul className="list">
+              <li>Acadia National Park, Maine?</li>
+              <li>Lake Tahoe, Nevada?</li>
+              <li>The Taj Mahal, Agra, India?</li>
+              <li>The Amazon Rainforest, Brazil?</li>
+              <li>Santorini, Greece?</li>
+              <li>Bora Bora, French Polynesia?</li>
+              <li>Edinburgh Castle in Scotland?</li>
+            </ul>
           </p>
           If you have no idea where to you'd like to go, get inspired by this video showing some of the most beautiful
           places in the USA.<br/>

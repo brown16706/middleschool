@@ -3391,7 +3391,7 @@ const LA7Component = ({ data }) => {
               sans everything"?
             </li>
             <li> Give an example of alliteration used in the monologue. Alliteration is repetition of a letter/sound
-              at the beginning of words. Example: <i>Sheep should sleep in a shed. </i>When the speaker says that
+              at the beginning of words. Example: <i>Sheep should sleep in a shed. </i>
             </li>
             <li> The words ‘exits’ and ‘entrances’ are metaphors for what? What do those two words really mean?</li>
             <li> The speech is full of metaphors and similes. Give at least one example of each.</li>
@@ -3489,10 +3489,9 @@ const LA7Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/iJn0ZPd6mYo"/>
           <h4>Why should you read Sylvia Plath? by Iseult Gillespie</h4>
           <Video videoUrl="https://www.youtube.com/embed/wCWl8ZIgCHk"/>
-          <h4>Mad Girl's Love Song by Sylvia Plath</h4>
-          <Video videoUrl="https://www.youtube.com/embed/EZ8RHI8K6xc"/>
-          <img src={require("../../public/images/poems/figTree.jpg")} alt="woman blended with a tree"/><br/>
-          <p className="topBottom" style={{ color: "#4f5979", fontSize: "110%", lineHeight: "1.7" }}><i>I saw my
+          <h4>The Fig Tree by Sylvia Plath</h4>
+          <Video videoUrl="https://www.youtube.com/embed/FAtvKkpYe_4"/>
+      <p className="topBottom" style={{ color: "#4f5979", fontSize: "110%", lineHeight: "1.7" }}><i>I saw my
             life branching out before me like the green fig tree in the story. From the tip of every
             branch, like a fat purple fig, a wonderful future beckoned and winked. One fig was a husband and a happy
             home and children, and another fig was a famous poet and another fig was a brilliant professor, and
@@ -3507,7 +3506,6 @@ const LA7Component = ({ data }) => {
           <h4> Answer the questions below:</h4>
           <ol className="vocab">
             <li> Briefly describe Sylvia Plath and her background.</li>
-            <li> How did her life end? At what age did she die?</li>
             <li> Based on <i>The Fig Tree</i>: What does the fig tree and each of the figs symbolize?</li>
             <li> What is the mood of the poem? How does Plath get this mood across to reader?</li>
             <li> Describe the imagery Plath creates of the figs.</li>
@@ -3564,7 +3562,7 @@ const LA7Component = ({ data }) => {
           <ol className="vocab">
             <li>Outer self - how you look (Example: Brown eyes, Mahogany skin, Tomboy, Graceful swagger, Pigtails)
             </li>
-            <li>Inner self - feelings and emotions (Example: Joy, Shame, Focused, Popular, Lonely)</li>
+            <li>Inner self - feelings and emotions (Example: Joy, Introvert, Shame, Focused, Popular, Lonely)</li>
             <li>Talents or strengths (Example: Athletic, Graceful, Reader)</li>
             <li>Challenges or things you find difficult (Being alone, Math, Racism)</li>
           </ol>
@@ -5858,35 +5856,40 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener169} value={la7Essay169}/>
 
 
-          <span className="days" style={{color:"#4f5979", fontSize: "130%"}}>WRITING STORIES </span>
-          <h4 style={{color:"#4f5979"}}>The remainder of this class will focus on writing stories and non-fiction essays
+          <span className="days" style={{ color: "#4f5979", fontSize: "130%" }}>WRITING STORIES </span>
+          <h4 style={{ color: "#4f5979" }}>The remainder of this class will focus on writing stories and non-fiction
+            essays
             within different genres.</h4>
-          <p className="topBottom"><i>For each fictional writing assignment, address the items below to develop
-            your story:</i></p>
-          <p className="topBottom">POINT OF VIEW: Whose story are you telling? Using "I" is first person. Using
+          <p className="topBottom">For each fictional writing assignment, address the items below to develop
+            your story:</p>
+          <p>POINT OF VIEW: Whose story are you telling? Using "I" is first person. Using
             "you" is second person. Third person uses he or she. The third-person omniscient point of view tells the
             thoughts and feelings of all the characters. </p>
           <p className="topBottom">PLOT: What happens in the story? What are the sequence of events? </p>
-          <p className="topBottom">SETTING: Where and when is it (past, present or future)? </p>
+          <p>SETTING: Where and when is it (past, present or future)? </p>
           <p className="topBottom">CONFLICT: What is the challenge the main character must face in order to grow and
             change? What obstacles must be overcome? Most stories contain several small conflicts and one large or
             major conflict. </p>
-          <p className="topBottom">RESOLUTION: How does the problem get solved? </p>
+          <p>RESOLUTION: How does the problem get solved? </p>
           <p className="topBottom">CHARACTERS: Who is in your story? Who is the main character (protagonist)? Who
             are the supporting characters? </p>
-          <p className="topBottom">Developing your characters is important because your readers must care about what
+          <p><strong>Developing your characters</strong> is important because your readers must
+            care about what
             happens to them. They don’t have to be likable, but they must be credible. Your readers should be feel
-            the characters are real and be able to picture them clearly in their head. You should describe what they
-            look like and their personality. Include character traits (ex. humor, wit, introversion), strengths (ex.
+            the characters are real and be able to picture them clearly in their heads. You should describe what they
+            look like and their personality. </p>
+          <p className="topBottom">Include character traits (ex. humor, wit, introversion), strengths (ex.
             intelligence, stamina, humor) and flaws (ex. short-temper, physical disability). The main character
             (protagonist) is the most important because the story tends to revolve around them. They determine the
             way the plot will develop and must solve a problem or solve a mystery. </p>
-          <p className="topBottom">Supporting characters are also important because they often help the main
+          <p className="topBottom" >Supporting characters are also important because they often help the main
             character or serve as their enemy, creating obstacles. It’s your job to get the readers to feel
-            something for all of your characters; like them, hate them, root for them, feel devasted when they are
+            something for all of your characters; like them, hate them, root for them, feel devastated when they are
             harmed and happy when they triumph.</p>
-          <p className="topBottom">You can print out the <a href={require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story Outline Worksheet</a> to help you get
-            started on a rough draft for your stories. It includes the following:<br/>
+          <p style={{paddingBottom:"1.5em"}}>You can print out the <a
+            href={require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story
+            Outline Worksheet</a> to help you get started on a rough draft for your stories. It includes the
+            following:<br/>
             <ul className="assnList2">
               <li>Title of your story:</li>
               <li>In 1-2 sentences, say what your story is about:</li>
@@ -5974,14 +5977,14 @@ const LA7Component = ({ data }) => {
           <p className="topBottom"><strong>Fantasy </strong> is a genre that has magical and
             supernatural elements. Many novels have a real-world setting, like Twilight, while other novels are set
             in an imaginary world. This genre has no connection to reality or science. For example, Lord of the
-            Rings is set in Middle Earth, with races and creatures the author created.
-            There are numerous subgenres of fantasy fiction. A few include high or epic fantasy (The Hobbit and Lord of
-            the Rings), low fantasy (Indian in the Cupboard), dark fantasy (Twilight), contemporary fantasy (Harry
-            Potter),
+            Rings is set in Middle Earth, with races and creatures the author created.</p>
+          <p>There are numerous subgenres of fantasy fiction. A few include high or epic fantasy (Lord of the Rings),
+            low fantasy (Indian in the Cupboard), dark fantasy (Twilight), contemporary fantasy (Harry Potter),
             sword and sorcery (The Sorcerer's Apprentice), fables (The Alchemist), fairy
             tales (Cinderella), and superhero fiction (Spiderman). </p>
-          <p className="topBottom">Select one of the images below as your book cover and then write a fantasy story
-            based on the image. What story unfolds in your imagination when you look at the image? Write your
+          <p className="topBottom"><strong>Select one of the images below as your book cover and then write a fantasy story
+            based on the image.</strong></p>
+          <p>What story unfolds in your imagination when you look at the image? Write your
             story (5 paragraph minimum) in the textbox below. </p>
           <div className="rowimages">
             <div className="columnimages">
@@ -6004,7 +6007,7 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener171} value={la7Essay171}/>
 
           <span className="days">LESSON 172 </span>
-          <p>Watch the video <strong> The importance of setting in a story</strong> and then complete the writing
+          <p>Watch the video <strong> The Importance of Setting in a Story</strong> and then complete the writing
             assignment that follows.</p>
           <Video videoUrl="https://www.youtube.com/embed/30CPmgVQNks"/>
           <Video videoUrl="https://www.youtube.com/embed/6a6kbU88wu0"/>
@@ -6045,26 +6048,25 @@ const LA7Component = ({ data }) => {
                                 target="_blank">Five Paragraph Essay outline</a> to help you get started. Be sure to
             include the following elements in your biography:</p>
           <p className="margin-para">
-            <ul className="assnList">
-              <li><strong>Introduction:</strong> state the person you chose and why you chose them.</li>
-              <li>Your thesis statement should cover the reasons why he/she inspires you and what this person has
+            <ul className="list">
+              <li><strong>Introduction:</strong> state the person you chose and why you chose them.  Your thesis statement should cover the reasons why he/she inspires you and what this person has
                 taught us.
               </li>
-              <li>In the body (2-3 paragraphs), include:</li>
-              <ol className="assnLetters">
-                <li>date and place of birth (death if appropriate)</li>
+              <li><strong>Body:</strong> Paragraphs 2 - 4 should include:</li>
+              <ul className="list" style={{paddingLeft:"20px"}}>
+                <li>date and place of birth (date of death if appropriate)</li>
                 <li>description of childhood and early adulthood</li>
                 <li>people and events that influenced them and helped them develop into the person they became</li>
                 <li>accomplishments and greatest achievements</li>
                 <li>their impact on society, historical significance</li>
                 <li>when appropriate use quotes and significant details from your research</li>
-              </ol>
-              <li><strong>Conclusion:</strong> summarize the most important points of your biography.
+              </ul>
+              <li><strong>Conclusion:</strong> the final paragraph should summarize the most important points of your biography.
               </li>
             </ul>
           </p>
-          <p className="margin-para">
-            <ul className="assnList">
+          <p style={{color:"#35516e"}}><strong>Inspiring People</strong><br/>
+            <ul className="assnList" style={{paddingLeft:"10px"}}>
               <li>Malala Yousafzai</li>
               <li>Thomas Jefferson</li>
               <li>Nelson Mandela</li>
@@ -6089,11 +6091,10 @@ const LA7Component = ({ data }) => {
             They imagine how life would be different with technological and scientific advances. Science fiction
             includes novels like<i> Ready Player One, Mad Max and The Martian.</i></p>
           <p className="topBottom">Select one of the images below to base your own science fiction story on.
-            After you watch the video below, <strong> The power of a great introduction</strong>, write your story in
-            the textbox.
-            Be sure to back up your work and send a copy to your parent or teacher. If you prefer to write a story not
-            based on an image, this is
-            fine. </p>
+            After you watch the video below, <strong> The power of a great introduction</strong>, write your story in the textbox. Be sure to back up your work and send a copy to your parent or teacher. If you prefer to write a story not based on an image, this is fine. </p>
+          <p className="topBottom">You can use the <a
+            href={require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story
+            Outline Worksheet</a> to get started.</p>
           <div className="rowimages">
             <div className="columnimages">
               <img src={require("../../public/images/stories/scifi1.jpg")}
@@ -6135,21 +6136,16 @@ const LA7Component = ({ data }) => {
           </p>
           <p>Your essay should follow the format below: </p>
           <ul className="assnList">
-            <li>Write a hook to grab your reader's attention.</li>
-            <li>Your first paragraph should have a clear thesis statement (main idea of your essay). This
+            <li>Write a hook to grab your reader's attention.  Your first paragraph should have a clear thesis statement (main idea of your essay). This
               statement should convey the points or arguments you are going to
-              make.
-            </li>
+              make.</li>
             <li>Paragraphs 2-4 should provide examples from the book that support your thesis statement. Each
-              paragraph should discuss a different point and use a different example. Using direct
-              quotes from the novel can be effective in proving your point.
-            </li>
+              paragraph should discuss a different point and use different examples. Using direct
+              quotes from the novel can be effective in proving your point.</li>
             <li>Your conclusion should restate your thesis in a different way. End with a thoughtful summary.</li>
             <li>Each paragraph should be 3-5 sentences.</li>
           </ul>
-          <p className="topBottom"><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")} rel="noreferrer" target="_blank">
-                                      rel="noreferrer"
-                                      target="_blank">Click
+          <p className="topBottom"><a href={require("../resources/languagearts/FiveParagraphEssayOutline.pdf")} rel="noreferrer" target="_blank">Click
             here for a 5 Paragraph Essay outline </a>if you need help getting started.</p>
           <textarea className="textArea" onChange={onChangela7Listener175} value={la7Essay175}/>
 
@@ -6176,6 +6172,7 @@ const LA7Component = ({ data }) => {
               <li>A villain</li>
               <li>The hero is changed</li>
             </ul></p>
+          <p className="topBottom">You can use the <a href={require ("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story Outline Worksheet</a> to get started.</p>
           <div className="rowimages">
             <div className="columnimages">
               <img src={require("../../public/images/stories/adventure1.jpg")}
@@ -6198,8 +6195,6 @@ const LA7Component = ({ data }) => {
                    alt="castle"/>
             </div>
           </div>
-          <p className="topBottom">You can use the <a href={require ("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story Outline Worksheet</a> to get started.
-          </p>
           <textarea className="textArea" onChange={onChangela7Listener176} value={la7Essay176}/>
 
           <span className="days">LESSON 177 </span>
@@ -6357,12 +6352,9 @@ const LA7Component = ({ data }) => {
               <li>How will you introduce the conflict?</li>
               <li>How will build up the story to its climax?</li>
               <li>Finally, what will the resolution be? How will the problem be solved?</li>
-            </ul>
-            <br/> Write your story in the textbox below. Be sure to back up your work.
-          </p>
-          <p>You can use the <a href={ require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story Outline Worksheet</a> to help you get
-            started.</p>
-          <textarea className="textArea" onChange={onChangela7Listener180} value={la7Essay180}/>
+            </ul></p>
+            <p className="topBottom">You can use the <a href={require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story Outline Worksheet</a> to help you get started.</p>
+            <textarea className="textArea" placeholder="Write your story here. Be sure to back up your work."  onChange={onChangela7Listener180} value={la7Essay180}/>
         </div>
       </section>
       <Confetti/>

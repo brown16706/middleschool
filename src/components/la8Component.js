@@ -773,8 +773,10 @@ const LA8Component = ({ data }) => {
             Until you get a copy, the first chapter of each book is linked as a PDF. The novels are available at
             your local library, local bookstore, or can be purchased online. If the books are out of copyright, they
             are provided below as PDFs. </p>
-          
-          <p className="margin-para fadeIn">Users may encounter texts, videos or poetry they consider controversial, offensive, or inappropriate. It is the responsibility of the parent, guardian or teacher to review all materials before their student views them.</p>
+
+          <p className="margin-para fadeIn">Users may encounter texts, videos or poetry they consider controversial,
+            offensive, or inappropriate. It is the responsibility of the parent, guardian or teacher to review all
+            materials before their student views them.</p>
 
           <span className="days">LESSON 1 </span>
           <p className="margin-para"> The first book you will read for this course is <a
@@ -788,7 +790,9 @@ const LA8Component = ({ data }) => {
             universal truth about life. </p>
           <p className="margin-para">The story is an allegory, which means there is a deeper, hidden meaning to
             discover.</p>
-          <p>After you read the Prologue through page 11, answer the questions below. For all of your work,
+          <p>After you read the <a href={require("../resources/books/The_Alchemist.pdf")} rel="noreferrer"
+                                   target="_blank">
+            Prologue through page 11, </a>answer the questions below. For all of your work in this class,
             be sure to use complete sentences and number your answers. <br/>
             1. Who is Santiago? Describe what he is like. How is his life different than yours?<br/>
             2. What is strange or unusual about Santiago's dream?<br/>
@@ -890,7 +894,8 @@ const LA8Component = ({ data }) => {
             alone. Examples: The cat is out of the bag. Stop beating around the bush. <br/>Someone visiting from
             another country would not understand these phrases without someone explaining the meaning.</p>
 
-          <p className="topBottom"><strong>Similes </strong>make comparisons between two unrelated elements by using 'like' or 'as' to highlight a
+          <p className="topBottom"><strong>Similes </strong>make comparisons between two unrelated elements by using
+            'like' or 'as' to highlight a
             common quality both things share. Examples: Her eyes shone like diamonds. He was as strong as a horse.
           </p>
 
@@ -1035,9 +1040,8 @@ const LA8Component = ({ data }) => {
                     onChange={onChangela8Listener9} value={la8Essay9}/>
 
           <span className="days">LESSON 10 </span>
-          <p>After you watch the video below<strong> The Alchemist, a Summary & Analysis, </strong> answer the
-            following
-            questions: </p>
+          <p>After you watch the video below<strong> The Alchemist, Summary & Analysis, </strong> answer the questions
+            below: </p>
           <Video videoUrl="https://www.youtube.com/embed/6Xi06683LPo"/>
           <p>1. At the start of his journey, when Santiago asks a gypsy woman to interpret his dream about a
             treasure in the Egyptian pyramids, she asks for one tenth of the treasure in return. When Santiago asks
@@ -1126,7 +1130,7 @@ const LA8Component = ({ data }) => {
             accumulates as he learns about life. <br/>
           </p>
           <textarea className="textArea"
-                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    placeholder="Write which project you chose to complete. Give your parent or teacher the finished assignment for this lesson."
                     onChange={onChangela8Listener12} value={la8Essay12}/>
 
           <span className="days">LESSON 13 </span>
@@ -1141,7 +1145,7 @@ const LA8Component = ({ data }) => {
             <li> Write a letter from Santiago to Fatima and a second one from Fatima to Santiago.</li>
           </ul>
           <textarea className="textArea"
-                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    placeholder="Write your creative piece here. Email it to your parent/teacher or copy/paste it into another document to back up your work."
                     onChange={onChangela8Listener13} value={la8Essay13}/>
 
           <span className="days">LESSON 14 </span>
@@ -1150,7 +1154,7 @@ const LA8Component = ({ data }) => {
             href="https://support.khanacademy.org/hc/en-us/articles/204451324-How-do-I-create-my-account-"
             rel="noreferrer" target="_blank"> set up a free account on Khan Academy </a> and then begin the lesson
             below.</p>
-          <p> Complete all assignments listed below for this unit (readings, videos and
+          <p> Complete all assignments listed below for this unit on Khan Academy (readings, videos and
             practice).<br/> Write a brief summary of what you learned in the textbox below. <br/>
             <ul className='assnList'><a
               href="https://www.khanacademy.org/ela/cc-8th-reading-vocab/xe1f784c7c84e84fc:cc-8th-funny-business/xe1f784c7c84e84fc:building-knowledge/a/welcome-to-the-funny-business-unit"
@@ -1172,11 +1176,12 @@ const LA8Component = ({ data }) => {
             </ul>
           </p>
           <textarea className="textArea"
-                    placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
+                    placeholder="Write your summary here."
                     onChange={onChangela8Listener14} value={la8Essay14}/>
 
           <span className="days">LESSON 15 </span>
-          <p className="margin-para"> Complete all assignments listed below for this unit (readings, videos and
+          <p className="margin-para"> Complete all assignments listed below for this unit on Khan Academy (readings,
+            videos and
             practice). <br/> Write a brief summary of what you learned in the textbox below. <br/></p>
 
           <ul className='assnList'><a
@@ -1187,10 +1192,11 @@ const LA8Component = ({ data }) => {
             <li>What is an argument? | Reading</li>
             <li>Practice: Funny Business: reading informational text; This Is Your Brain on Comedy 8</li>
           </ul>
-          <textarea className="textArea" onChange={onChangela8Listener15} value={la8Essay15}/>
+          <textarea className="textArea" placeholder="Write your summary here." onChange={onChangela8Listener15}
+                    value={la8Essay15}/>
 
           <span className="days">LESSON 16 </span>
-          <p> Complete all assignments listed below for this unit (readings, videos and
+          <p> Complete all assignments listed below for this unit on Khan Academy (readings, videos and
             practice). <br/> Write a brief summary of what you learned in the textbox below. <br/></p>
           <ul className='assnList'><a
             href="https://www.khanacademy.org/ela/cc-8th-reading-vocab/xe1f784c7c84e84fc:cc-8th-funny-business/xe1f784c7c84e84fc:applying-knowledge/v/figurative-language-reading"
@@ -1199,10 +1205,11 @@ const LA8Component = ({ data }) => {
             <li>Connotation | Reading</li>
             <li>Practice: Funny business: vocabulary; A Midsummer Night's Dream 8</li>
           </ul>
-          <textarea className="textArea" onChange={onChangela8Listener16} value={la8Essay16}/>
+          <textarea className="textArea" placeholder="Write your summary here." onChange={onChangela8Listener16}
+                    value={la8Essay16}/>
 
           <span className="days">LESSON 17 </span>
-          <p> Complete all assignments listed below for this unit (readings, videos and
+          <p> Complete all assignments listed below for this unit on Khan Academy (readings, videos and
             practice). <br/> Write a brief summary of what you learned in the textbox below. <br/></p>
           <ul className='assnList'><a
             href="https://www.khanacademy.org/ela/cc-8th-reading-vocab/xe1f784c7c84e84fc:cc-8th-funny-business/xe1f784c7c84e84fc:reading-for-understanding/v/developing-themes-reading"
@@ -1211,10 +1218,11 @@ const LA8Component = ({ data }) => {
             <li>Developing themes | Reading</li>
             <li>Practice: Funny business: reading realistic fiction; Use What You Have 8</li>
           </ul>
-          <textarea className="textArea" onChange={onChangela8Listener17} value={la8Essay17}/>
+          <textarea className="textArea" placeholder="Write your summary here." onChange={onChangela8Listener17}
+                    value={la8Essay17}/>
 
           <span className="days">LESSON 18 </span>
-          <p> Complete all assignments listed below for this unit (readings, videos
+          <p> Complete all assignments listed below for this unit on Khan Academy (readings, videos
             and practice). <br/> Write a brief summary of what you learned in the textbox below. <br/></p>
           <ul className='assnList'><a
             href="https://www.khanacademy.org/ela/cc-8th-reading-vocab/xe1f784c7c84e84fc:cc-8th-funny-business/xe1f784c7c84e84fc:reading-for-understanding-fiction-an-uncomfortable-bed/v/how-pov-affects-readers-reading"
@@ -1223,7 +1231,8 @@ const LA8Component = ({ data }) => {
             <li>How POV affects readers | Reading</li>
             <li>Practice: Funny business: reading realistic fiction; An Uncomfortable Bed 8</li>
           </ul>
-          <textarea className="textArea" onChange={onChangela8Listener18} value={la8Essay18}/>
+          <textarea className="textArea" placeholder="Write your summary here." onChange={onChangela8Listener18}
+                    value={la8Essay18}/>
 
           <span className="days">LESSON 19 </span>
           <p>Begin reading the novel <strong>Piecing Me Together</strong> by Renee Watson. It is a story about Jade, a
@@ -1232,7 +1241,7 @@ const LA8Component = ({ data }) => {
             novel is available at your local library, local bookstore and online for purchase. Until your
             copy arrives, the <a href={require("../resources/books/PiecingMeTogetherExcerpt.pdf")}
                                  rel="noreferrer" target="_blank"> reading for today's lesson is provided
-              here (through chapter 6). </a></p> <br/>
+              here. </a></p> <br/>
           <a href={require("../resources/books/PiecingMeTogetherExcerpt.pdf")} rel="noreferrer"
              target="_blank">
             <img src={require("../../public/images/bookCovers/piecingMeTogether.jpg")}
@@ -1910,19 +1919,19 @@ const LA8Component = ({ data }) => {
             4. Which subgenre of books do you enjoy reading most? Which subgenre of movies are your
             favorites? Explain. <br/>
             5. Write definitions for the following terms:<br/>
-            <ul className="assnList">
+            <ol className="assnLetters">
               <li> Literary</li>
               <li> Subgenre</li>
               <li> Literature</li>
               <li> Genre</li>
-            </ul>
+            </ol>
           </p>
           <textarea className="textArea" onChange={onChangela8Listener39} value={la8Essay39}/>
 
           <span className="days">LESSON 40 </span>
           <p className="topBottom"> The next book you will read is the classic<a
             href={require("../resources/books/TheOldManandTheSea.pdf")} rel="noreferrer" target="_blank"> <i>The
-            Old Man and the Sea</i> </a> by Earnest Hemingway. <i>The Old Man and the Sea </i>is a short novel about an
+            Old Man and the Sea</i> </a> by Ernest Hemingway. <i>The Old Man and the Sea </i>is a short novel about an
             aging fisherman who goes on an epic battle to catch a giant marlin. It is linked <a
               href={require("../resources/books/TheOldManandTheSea.pdf")} rel="noreferrer" target="_blank"> here as a
               PDF. <img src={require("../../public/images/bookCovers/oldmanandthesea.jpg")}
@@ -1939,7 +1948,7 @@ const LA8Component = ({ data }) => {
             <li>How are the nightly precautions Santiago takes with his fishing equipment both realistic and
               optimistic?
             </li>
-            <li>Identify some details of Santiago's house. How is Santiago's house described? What do these details
+            <li>How is Santiago's house described? Identify some details about it. What do these details
               reveal about him?
             </li>
             <li>What do Santiago and Manolin pretend? Why do they do this?</li>
@@ -2034,11 +2043,10 @@ const LA8Component = ({ data }) => {
 
           <span className="days">LESSON 45 </span>
           <h4>Five Paragraph Essay</h4>
-          <p className="topBottom"> Many of Ernest Hemingway's greatest novels include the <i
-            style={{ color: "#6e7693" }}> Code Hero.</i> Hemingway
+          <p className="topBottom"> Many of Ernest Hemingway's greatest novels include the <i> Code Hero.</i> Hemingway
             defined the <i>Code Hero</i> as "a man who lives correctly, following the ideals of honor, courage and
-            endurance in a world that is sometimes chaotic, often stressful, and always painful." (The <i>Code
-              Hero</i> is explained in detail below.) In The Old
+            endurance in a world that is sometimes chaotic, often stressful, and always painful." The <i>Code
+              Hero</i> is explained in more detail below. In The Old
             Man and the Sea, Santiago fits the profile of this type of hero in many different ways. </p>
           <p className="topBottom"><strong style={{ color: "#6e7693" }}> In a five paragraph essay, explain how Santiago
             is
@@ -2060,8 +2068,7 @@ const LA8Component = ({ data }) => {
             phrase it<br/>
             (7) admits the truth of Nada (Spanish, "nothing"), i.e., that no external source outside of oneself
             can provide meaning or purpose. This existential awareness also involves facing death without hope of
-            an afterlife, which the Hemingway Code Hero considers more brave than "cowering" behind false
-            religious hopes. <br/>
+            an afterlife. <br/>
             (8) has some sort of physical or psychological wound symbolizing his
             tragic flaw or a weakness of his character, which must be overcome before he can prove his manhood (or
             re-prove it, since the struggle to be honest and brave is a continual one). <br/></p>
@@ -2071,11 +2078,14 @@ const LA8Component = ({ data }) => {
             <li>Your first paragraph should have a clear thesis statement (main idea of your essay). This
               statement should convey the points or arguments you are going to make.
             </li>
-            <li>Paragraphs 2-4 should provide examples from the book that support your thesis statement. Each
-              paragraph should discuss a different point and use a different example. Using direct
-              quotes from the novel can be effective in proving your point.
+            <li>Paragraphs 2-4 should provide Code Hero examples from the book that support your thesis statement. Each
+              paragraph should discuss a different Code Hero characteristic and how Santiago showed this characteristic.
+              Using direct
+              quotes can be effective in proving your points.
             </li>
-            <li>Your conclusion should restate your thesis in a different way. End with a thoughtful summary.</li>
+            <li>Your conclusion should restate your thesis in a different way. End with a thoughtful summary of your
+              essay.
+            </li>
             <li>Each paragraph should be 3-5 sentences.</li>
           </ul>
           <p className="topBottom">For help getting started, <a
@@ -2131,7 +2141,8 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener47} value={la8Essay47}/>
 
           <span className="days">LESSON 48 </span>
-          <p className="margin-para"> Complete all assignments listed below for this unit (readings, videos and
+          <p className="margin-para"> Complete all assignments listed below for this unit on Khan Academy (readings,
+            videos and
             practice). <br/> Write a brief summary of what you learned in the textbox below. <br/> <a
               href="https://www.khanacademy.org/ela/cc-8th-reading-vocab/xe1f784c7c84e84fc:cc-8th-obscuring-the-truth/xe1f784c7c84e84fc:untitled-46/a/welcome-to-the-obscuring-the-truth-unit"
               rel="noreferrer" target="_blank"> Building knowledge: Obscuring the Truth</a>
@@ -2150,10 +2161,12 @@ const LA8Component = ({ data }) => {
               <li>Practice: Obscuring the truth: reading informational text; Why Do We Lie? 8</li>
             </ul>
           </p>
-          <textarea className="textArea" onChange={onChangela8Listener48} value={la8Essay48}/>
+          <textarea className="textArea" placeholder="Write your summary here." onChange={onChangela8Listener48}
+                    value={la8Essay48}/>
 
           <span className="days">LESSON 49 </span>
-          <p className="margin-para"> Complete all assignments listed below for this unit (readings, videos and
+          <p className="margin-para"> Complete all assignments listed below for this unit on Khan Academy (readings,
+            videos and
             practice). <br/> Write a brief summary of what you learned in the textbox below. <br/> <a
               href="https://www.khanacademy.org/ela/cc-8th-reading-vocab/xe1f784c7c84e84fc:cc-8th-obscuring-the-truth/xe1f784c7c84e84fc:close-reading-informational-text-the-science-of-lying/v/connotation-reading"
               rel="noreferrer" target="_blank"> Close reading: informational text; The Science of Lying: Obscuring
@@ -2165,10 +2178,12 @@ const LA8Component = ({ data }) => {
               <li>Practice: Obscuring the truth: reading informational text; The Science of Lying 8</li>
             </ul>
           </p>
-          <textarea className="textArea" onChange={onChangela8Listener49} value={la8Essay49}/>
+          <textarea className="textArea" placeholder="Write your summary here." onChange={onChangela8Listener49}
+                    value={la8Essay49}/>
 
           <span className="days">LESSON 50 </span>
-          <p className="margin-para"> Complete all assignments listed below for this unit (readings, videos and
+          <p className="margin-para"> Complete all assignments listed below for this unit on Khan Academy (readings,
+            videos and
             practice). <br/> Write a brief summary of what you learned in the textbox below. <br/> <a
               href="https://www.khanacademy.org/ela/cc-8th-reading-vocab/xe1f784c7c84e84fc:cc-8th-obscuring-the-truth/xe1f784c7c84e84fc:untitled-48/v/figurative-language-reading"
               rel="noreferrer" target="_blank"> Applying vocabulary knowledge: Obscuring the Truth</a>
@@ -2178,10 +2193,12 @@ const LA8Component = ({ data }) => {
               <li>Practice: Obscuring the truth: vocabulary; Why Do We Lie? 8</li>
             </ul>
           </p>
-          <textarea className="textArea" onChange={onChangela8Listener50} value={la8Essay50}/>
+          <textarea className="textArea" placeholder="Write your summary here." onChange={onChangela8Listener50}
+                    value={la8Essay50}/>
 
           <span className="days">LESSON 51 </span>
-          <p className="margin-para"> Complete all assignments listed below for this unit (readings, videos
+          <p className="margin-para"> Complete all assignments listed below for this unit on Khan Academy (readings,
+            videos
             and practice). <br/> Write a brief summary of what you learned in the textbox below. <br/> <a
               href="https://www.khanacademy.org/ela/cc-8th-reading-vocab/xe1f784c7c84e84fc:cc-8th-obscuring-the-truth/xe1f784c7c84e84fc:reading-for-understanding-fiction-one-big-mess/v/citing-evidence-in-literary-analysis-reading"
               rel="noreferrer" target="_blank"> Reading for understanding: fiction; One Big Mess: Obscuring
@@ -2193,20 +2210,24 @@ const LA8Component = ({ data }) => {
               <li>Practice: Obscuring the truth: reading realistic fiction; One Big Mess 8</li>
             </ul>
           </p>
-          <textarea className="textArea" onChange={onChangela8Listener51} value={la8Essay51}/>
+          <textarea className="textArea" placeholder="Write your summary here." onChange={onChangela8Listener51}
+                    value={la8Essay51}/>
 
           <span className="days">LESSON 52 </span>
-          <p className="margin-para"> Complete all assignments listed below for this unit (readings, videos
+          <p className="margin-para"> Complete all assignments listed below for this unit on Khan Academy (readings,
+            videos
             and practice). <br/> Write a brief summary of what you learned in the textbox below. <br/> <a
               href="https://www.khanacademy.org/ela/cc-8th-reading-vocab/xe1f784c7c84e84fc:cc-8th-obscuring-the-truth/xe1f784c7c84e84fc:reading-for-understanding-fiction-the-open-window/v/changes-in-pov-and-dramatic-irony-reading"
               rel="noreferrer" target="_blank"> Reading for understanding: fiction; The Open Window:
-              Obscuring the Truth</a></p>
-          <ul className='assnList'>
-            <li>Changes in POV and dramatic irony | Reading</li>
-            <li>Different mediums and the tone of the text</li>
-            <li>Practice: Obscuring the truth: reading realistic fiction; The Open Window 8</li>
-          </ul>
-          <textarea className="textArea" onChange={onChangela8Listener52} value={la8Essay52}/>
+              Obscuring the Truth</a>
+            <ul className='assnList'>
+              <li>Changes in POV and dramatic irony | Reading</li>
+              <li>Different mediums and the tone of the text</li>
+              <li>Practice: Obscuring the truth: reading realistic fiction; The Open Window 8</li>
+            </ul>
+          </p>
+          <textarea className="textArea" placeholder="Write your summary here." onChange={onChangela8Listener52}
+                    value={la8Essay52}/>
 
           <span className="days">LESSON 53 </span>
           <p>Watch the videos below: <strong> Personification</strong> and <strong><i>Because I Could Not Stop for
@@ -2247,8 +2268,7 @@ const LA8Component = ({ data }) => {
             images in the poem. Describe the imagery in the poem. What do you see, taste, smell, hear, and
             feel? <br/>
             2. What is the mood of the poem? (How does it make you feel?) <br/>
-            3. What is the message of the poem? All of the above questions point to the message the poet
-            wants to convey. <br/>
+            3. What is the message of the poem? What is Dickinson trying to convince her readers of?<br/>
             4. Were you intrigued by the title of the piece? <br/>
             5. Did the poem match your expectation after reading the title? Explain. <br/>
           </p>
@@ -2264,14 +2284,14 @@ const LA8Component = ({ data }) => {
             Thief.</i></a> It is available at your local library, local bookstore, or can be purchased online.
             Until you get a copy, the first chapter is posted here as a PDF.</p>
           <Video videoUrl="https://www.youtube.com/embed/soP7d3e212k "/>
-          <p> Read <a
-            href={require("../resources/books/TheBookThiefChapter1.pdf")} rel="noreferrer" target="_blank"> the
+          <p className="topBottom"> Read the <a
+            href={require("../resources/books/TheBookThiefChapter1.pdf")} rel="noreferrer" target="_blank">
             <i style={{ color: "#6e7693" }}> Prologue and Continuation of Prologue: Death and Chocolate, Beside the
               Railway Line, The
-              Eclipse, and The Flag.</i></a> Then, complete the questions below. You may want to read
-            through the questions before reading so you know what to look for. <br/>
-            Continuation of Prologue: A Mountain Range of Rubble<br/>
-            Death and Chocolate<br/>
+              Eclipse, and The Flag.</i></a> Then, complete the questions below. You may want to skim
+            through the questions before reading the book so you know what to look for. </p>
+          <p className="topBottom"><i> Continuation of Prologue: A Mountain Range of Rubble</i><br/>
+            <i> Death and Chocolate</i><br/>
             1. From what point of view is the novel told? Who is the narrator of the story? How do you know?<br/>
             2. Compare Death as a narrator in <i>The Book Thief</i> with Emily Dickinson's depiction of Death in
             her poem <i> Because I Could Not Stop For Death.</i><br/>
@@ -2310,14 +2330,14 @@ const LA8Component = ({ data }) => {
             19. Choose a significant or memorable day from your life. Imagine colors that reflect the events, your
             feelings and emotions. Describe the colors you would use to describe these things? <br/>
             20. What colors do you associate with:<br/>
-            <ul className="assnList2">
+            <ol className="assnLetters">
               <li>death</li>
               <li>peace</li>
               <li>passion</li>
               <li>happiness</li>
               <li>childhood</li>
               <li>anger</li>
-            </ul>
+            </ol>
             <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. hindered <br/>
@@ -2342,11 +2362,13 @@ const LA8Component = ({ data }) => {
             from <i> The Book
               Thief</i>. For each quote, state which literary device (personification, simile, or metaphor) the
             author used and explain how you know this. </p>
-          <p>For example, "The bodies were stuck there, like driftwood after the flood." This is a simile; "like" was
-            used to compare the bodies to driftwood. <br/>
+          <p className="topBottom" style={{ color: "#385775" }}>For example, "The bodies were stuck there, like
+            driftwood after the flood." This is a simile; "like" was
+            used to compare the bodies to driftwood. </p>
 
-            Prologue: <br/>
-            1. "What will the sky be saying?" Personification, simile, or metaphor? Explain why. <br/>
+          <p> Prologue: Identify if it is <strong>personification, simile,</strong> or <strong>metaphor </strong>and
+            explain why.<br/>
+            1. "What will the sky be saying?" <br/>
             2.…I witness the ones who are left behind, crumbling among the jigsaw puzzle of realization, despair,
             and surprise." <br/>
             3. "Trees wore blankets of ice." <br/>
@@ -2360,7 +2382,8 @@ const LA8Component = ({ data }) => {
             "connect" with him. At one point in the book, Death expresses sadness "taking" children who are so
             young. He says, 'Even Death has a heart'. While death does not really have a heart, the character of
             Death certainly does.</p>
-          <p> After you finish the assignment above, close your eyes and imagine in your mind what Death
+          <p className="topBottom"> After you finish the assignment above, close your eyes and imagine in your mind what
+            Death
             looks like. <br/>
             1. Write a brief description of Death's physical appearance. How tall is he? What color are his eyes,
             skin and hair? How does he dress? <br/>
@@ -2368,7 +2391,7 @@ const LA8Component = ({ data }) => {
             You can sketch an image on paper, use watercolors, markers, Photoshop, or <a
               href="https://charactercreator.org/#" rel="noreferrer" target="_blank"> an online character
               creator.</a> When
-            you finish, take a screen shot and send this to your teacher/parent with the written part of your
+            you finish, take a screen shot and send this to your teacher or parent with the written part of your
             assignment.<br/>
           </p>
           <textarea className="textArea" onChange={onChangela8Listener55} value={la8Essay55}/>
@@ -2662,7 +2685,7 @@ const LA8Component = ({ data }) => {
           <p> Read <i> Part Four: The Standover Man<br/>
             The Accordionist (The Secret Life of Hans Hubermann) and A Good Girl </i><br/>
             1. Which 2 questions does Max ask Hans? Why does he do this?<br/>
-            2. Death remembers Hans from WWI and states they have never had a scheduled meeting, why?<br/>
+            2. Death remembers Hans from WWI and states they have never had a scheduled meeting. Explain why.<br/>
             3. What "small but noteworthy note" does Death offer the reader in this chapter? Could this embody the
             theme for the novel? Why or why not?<br/>
             4. Briefly identify Erik Vandenburg. How does Hans get his accordion?<br/>
@@ -2999,8 +3022,8 @@ const LA8Component = ({ data }) => {
             that Rudy and his siblings hold?<br/><br/>
             <i> The Thought of Rudy Naked</i><br/>
             3. How does this chapter connect with the previous chapter?<br/>
-            4. The purpose of the inspection of Rudy and his classmates is __________________.<br/>
-            5. What does Rudy finally explain to Liesel, and how does she react?<br/>
+            4. What is the purpose of inspecting Rudy and his classmates?<br/>
+            5. What does Rudy finally explain to Liesel and how does she react?<br/>
             <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. rogue <br/>
@@ -3126,7 +3149,7 @@ const LA8Component = ({ data }) => {
             4. What order does Zucker give to Hans? How does Hans respond?<br/>
             5. Discuss the results of the accident. What does Hans claim after he is safe? What past incident is
             this parallel to?<br/>
-            6. Based on Schipper's explanation of Han's injuries, what can be inferred about Hans" character?<br/>
+            6. Based on Schipper's explanation of Han's injuries, what can be inferred about Hans's character?<br/>
           </p>
           <textarea className="textArea" onChange={onChangela8Listener93} value={la8Essay93}/>
 
@@ -3158,9 +3181,9 @@ const LA8Component = ({ data }) => {
 
           <span className="days">LESSON 95 </span>
           <p> Read <i> Homecoming</i><br/>
-            1. How many years have passed from Liesel's arrival at the Hubermanns home and Han's return?<br/>
-            2. What is Death's implication in the last 2 lines of the chapter? How do Death's words affect the
-            tone?<br/>
+            1. How much time has passed from Liesel's arrival at the Hubermanns home and Hans's return?<br/>
+            2. When Hans returns home, everyone is happy. How do we know this will not last?<br/>
+            3. How do Death's words affect the tone of the chapter?<br/>
             <strong>Vocabulary</strong><br/>
             For each vocabulary word below, write the definition and then write a sentence using the word. <br/>
             1. semblance <br/>
@@ -3176,7 +3199,7 @@ const LA8Component = ({ data }) => {
             1. How does Death feel about the bombing of Himmel Street?<br/>
             2. Throughout the novel, Zusak has stressed the power of words. How does this theme ring true in this
             chapter?<br/>
-            3. When Liesel is rescued, Death states that he could not fully share in their enthusiasm, why?<br/>
+            3. When Liesel is rescued, Death states that he could not fully share in their enthusiasm. Why?<br/>
             4. Explain the significance of Liesel's scream as the soldiers pull her from the rubble. <br/>
             <i> The Ninety Eight Day</i><br/>
             5. Why do you think Death describes the first 97 days after he has already told the reader the outcome
@@ -3236,7 +3259,7 @@ const LA8Component = ({ data }) => {
             7. Death stresses the good things Rosa's has done in her life because __________________. What does Liesel
             say to Rosa?<br/>
             8. Describe the scene when Liesel sees Rudy's body.<br/>
-            9. What metaphor does Death offer for Han's body? When Liesel is finally able to look at Hans, what
+            9. What metaphor does Death offer for Hans's body? When Liesel is finally able to look at Hans, what
             does
             Death see?<br/>
             10. What vision, which Liesel reveals later to Death, does she have of Papa as she kneels next to his
@@ -3273,12 +3296,10 @@ const LA8Component = ({ data }) => {
             2. In the opening of the book when Liesel steals her first book, <i>The Gravedigger's Handbook,</i> this
             event
             can be thought of as the first of many turning points for her. What are some of the others? Talk about
-            two other major characters and what their turning points are, as well as turning points for the
-            community
-            as a whole.<br/>
+            two other major characters and what their turning points are.<br/>
             3. Knowing that Liesel is called a "thief," how does the book complicate our ideas of justice and
             judgment? Which characters do you view as just/unjust or brave/cowardly, and why? Which events or
-            details most color your perceptions of these characters?<br/>
+            details most influence your perceptions of these characters?<br/>
             4. What choices do characters make about groups they will belong to? What groups do they belong to
             without choice? What are the consequences?<br/>
             5. Discuss Liesel's friendship with Rudy. Does she love him in the way he loves her, or is it a
@@ -3342,7 +3363,8 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener103} value={la8Essay103}/>
 
           <span className="days">LESSON 104 </span>
-          <p className="margin-para"> Complete all assignments listed below for this unit (readings, videos and
+          <p className="margin-para"> Complete all assignments listed below for this unit on Khan Academy (readings,
+            videos and
             practice). <br/> Write a brief summary of what you learned in the textbox below. <br/>
             <a
               href="https://www.khanacademy.org/ela/cc-8th-reading-vocab/xe1f784c7c84e84fc:cc-8th-crossing-the-line/xe1f784c7c84e84fc:untitled-58/a/welcome-to-the-crossing-the-line-unit"
@@ -3362,10 +3384,12 @@ const LA8Component = ({ data }) => {
               </li>
             </ul>
           </p>
-          <textarea className="textArea" onChange={onChangela8Listener104} value={la8Essay104}/>
+          <textarea className="textArea" placeholder="Write your summary here." onChange={onChangela8Listener104}
+                    value={la8Essay104}/>
 
           <span className="days">LESSON 105 </span>
-          <p className="margin-para"> Complete all assignments listed below for this unit (readings, videos and
+          <p className="margin-para"> Complete all assignments listed below for this unit on Khan Academy (readings,
+            videos and
             practice). <br/> Write a brief summary of what you learned in the textbox below. <br/> <a
               href="https://www.khanacademy.org/ela/cc-8th-reading-vocab/xe1f784c7c84e84fc:cc-8th-crossing-the-line/xe1f784c7c84e84fc:close-reading-realistic-fiction/v/citing-evidence-in-literary-analysis-reading"
               rel="noreferrer" target="_blank"> Close reading: fiction: Crossing the Line
@@ -3378,10 +3402,12 @@ const LA8Component = ({ data }) => {
               <li>Practice: Crossing the Line: reading realistic fiction; Whatever It Takes 8</li>
             </ul>
           </p>
-          <textarea className="textArea" onChange={onChangela8Listener105} value={la8Essay105}/>
+          <textarea className="textArea" placeholder="Write your summary here." onChange={onChangela8Listener105}
+                    value={la8Essay105}/>
 
           <span className="days">LESSON 106 </span>
-          <p className="margin-para"> Complete all assignments listed below for this unit (readings, videos and
+          <p className="margin-para"> Complete all assignments listed below for this unit on Khan Academy (readings,
+            videos and
             practice). <br/> Write a brief summary of what you learned in the textbox below. <br/> <a
               href="https://www.khanacademy.org/ela/cc-8th-reading-vocab/xe1f784c7c84e84fc:cc-8th-crossing-the-line/xe1f784c7c84e84fc:applying-vocabulary-knowledge/v/figurative-language-reading"
               rel="noreferrer" target="_blank"> Applying vocabulary knowledge: Crossing the Line</a>
@@ -3391,10 +3417,12 @@ const LA8Component = ({ data }) => {
               <li>Practice: Crossing the Line: vocabulary; Performance-Enhancing Drugs in Sports 8</li>
             </ul>
           </p>
-          <textarea className="textArea" onChange={onChangela8Listener106} value={la8Essay106}/>
+          <textarea className="textArea" placeholder="Write your summary here." onChange={onChangela8Listener106}
+                    value={la8Essay106}/>
 
           <span className="days">LESSON 107 </span>
-          <p className="margin-para"> Complete all assignments listed below for this unit (readings, videos and
+          <p className="margin-para"> Complete all assignments listed below for this unit on Khan Academy (readings,
+            videos and
             practice). <br/> Write a brief summary of what you learned in the textbox below. <br/> <a
               href="https://www.khanacademy.org/ela/cc-8th-reading-vocab/xe1f784c7c84e84fc:cc-8th-crossing-the-line/xe1f784c7c84e84fc:reading-for-understanding-informational-text/v/part-to-whole-relationships-in-text-structure-reading"
               rel="noreferrer" target="_blank"> Reading for understanding: informational text: Crossing the
@@ -3405,10 +3433,12 @@ const LA8Component = ({ data }) => {
               <li>Practice: Crossing the Line: reading informational text; The ACTN3 Gene 8</li>
             </ul>
           </p>
-          <textarea className="textArea" onChange={onChangela8Listener107} value={la8Essay107}/>
+          <textarea className="textArea" placeholder="Write your summary here." onChange={onChangela8Listener107}
+                    value={la8Essay107}/>
 
           <span className="days">LESSON 108 </span>
-          <p className="margin-para"> Complete all assignments listed below for this unit (readings, videos
+          <p className="margin-para"> Complete all assignments listed below for this unit on Khan Academy (readings,
+            videos
             and practice). <br/> Write a brief summary of what you learned in the textbox below. <br/> <a
               href="https://www.khanacademy.org/ela/cc-8th-reading-vocab/xe1f784c7c84e84fc:cc-8th-crossing-the-line/xe1f784c7c84e84fc:reading-for-understanding-fiction/v/developing-themes-reading"
               rel="noreferrer" target="_blank"> Reading for understanding: fiction</a>
@@ -3418,7 +3448,8 @@ const LA8Component = ({ data }) => {
               <li>Practice: Crossing the Line: reading creative fiction; The Race Official</li>
             </ul>
           </p>
-          <textarea className="textArea" onChange={onChangela8Listener108} value={la8Essay108}/>
+          <textarea className="textArea" placeholder="Write your summary here." onChange={onChangela8Listener108}
+                    value={la8Essay108}/>
 
           <span className="days">LESSON 109 - The Giver</span>
 
@@ -3465,10 +3496,11 @@ const LA8Component = ({ data }) => {
             6. What might be some benefits of having a job assigned to you when you are twelve?<br/>
             7. What might be some drawbacks of having a job assigned to you when you are twelve?<br/>
             8. How would you feel not to have your own individual birthday?<br/>
-            9. If you were attending the Ceremony of Twelve with Jonas, what
+            9. If you attended the Ceremony of Twelve with Jonas, what Assignment do you think the Elders would choose
+            for you?<br/>
             10. Assignment do you think the Elders would select for you?<br/>
             <strong>Vocabulary</strong><br/>
-            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. adherance <br/>
             2. appeal <br/>
             3. aptitude<br/>
@@ -3481,15 +3513,15 @@ const LA8Component = ({ data }) => {
           <p>Read Chapter 4 of <i>The Giver.</i><br/>
             1. What word might we use in our society for "Rehabilitation Directors"?<br/>
             2. Why might there be a rule against bragging?<br/>
-            3. Do you agree or disagree that it is a good idea to avoid talking about people’s successes?<br/>
-            Why?<br/>
+            3. Do you agree or disagree that it is a good idea to avoid talking about people’s successes?
+            Explain why.<br/>
             4. What is the rumor among Elevens about completing volunteer hours?<br/>
             5. Why might the Old need assistance?<br/>
             6. What is the main ceremony at the release of the Old?<br/>
             7. Jonas’s community has a lot of rules. Do you think that’s a
             good thing or a bad thing? Why?<br/>
             <strong>Vocabulary</strong><br/>
-            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. chortled<br/>
             2. gravitating<br/>
             3. hasten<br/>
@@ -3504,8 +3536,7 @@ const LA8Component = ({ data }) => {
 
           <span className="days">LESSON 112 </span>
           <p>Read Chapter 5 of <i>The Giver.</i><br/>
-            1. Is it normal for people around Jonas’s age to have "Stirrings"?<br/>
-            Why?<br/>
+            1. Is it normal for people around Jonas’s age to have "Stirrings"? Explain why.<br/>
             2. How are "Stirrings" treated?<br/>
             3. Who else that Jonas knows seem to have "Stirrings"?<br/>
             4. Jonas thought, "Always better, less rude, to talk about things that were the
@@ -3515,7 +3546,7 @@ const LA8Component = ({ data }) => {
             7. How important is sameness in Jonas’s community?<br/>
             8. How important is it in your community?<br/>
             <strong>Vocabulary</strong><br/>
-            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. disquieting <br/>
             2. infraction<br/>
             3. mirky<br/>
@@ -3540,7 +3571,7 @@ const LA8Component = ({ data }) => {
             new child, Gabe. Do you think it’s possible to keep such a promise?<br/>
             12. What do you think of how families in Jonas’s community are formed?<br/>
             <strong>Vocabulary</strong><br/>
-            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. buoyancy<br/>
             2. congregated<br/>
             3. correspond<br/>
@@ -3572,7 +3603,7 @@ const LA8Component = ({ data }) => {
             10. How would you feel if you were in Jonas’s shoes and the Chief Elder skipped right over you when she
             was making Assignments?<br/>
             <strong>Vocabulary</strong><br/>
-            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. acquisition<br/>
             2. aptitude<br/>
             3. avert<br/>
@@ -3598,7 +3629,7 @@ const LA8Component = ({ data }) => {
             minor issues) tell us about the community?<br/>
             6. Would you rather be selected, as Jonas was, or assigned, as his groupmates were?<br/>
             <strong>Vocabulary</strong><br/>
-            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. anticipation<br/>
             2. benign<br/>
             3. crescendo<br/>
@@ -3622,7 +3653,7 @@ const LA8Component = ({ data }) => {
             9. There are several rules for Jonas to follow in his instructions. Why does he find the final rule, "You
             may lie," so unsettling?<br/>
             <strong>Vocabulary</strong><br/>
-            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. annex<br/>
             2. compel<br/>
             3. comprehension<br/>
@@ -3656,7 +3687,7 @@ const LA8Component = ({ data }) => {
             9. Jonas says, "I thought there was only us. I thought there was only now. " Do you think that’s a good
             way to live?<br/>
             <strong>Vocabulary</strong><br/>
-            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. accumulates<br/>
             2. alcove<br/>
             3. conspicuous<br/>
@@ -3675,7 +3706,7 @@ const LA8Component = ({ data }) => {
             5. Why is the old Receiver’s new name more appropriate to the current situation?<br/>
             6. Can you imagine giving up such things as snow and hills because they are impractical?<br/>
             <strong>Vocabulary</strong><br/>
-            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. agriculture<br/>
             2. consciousness <br/>
             3. conveyance<br/>
@@ -3703,7 +3734,7 @@ const LA8Component = ({ data }) => {
             6. If you could hang on to only one color for the rest of your life, what color would you choose?<br/>
             7. Do you think there is value to Sameness? Explain why or why not.<br/>
             <strong>Vocabulary</strong><br/>
-            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. admonition<br/>
             2. capacity<br/>
             3. commerce<br/>
@@ -3722,7 +3753,7 @@ const LA8Component = ({ data }) => {
             2. What is Sameness supposed to prevent?<br/>
             3. What memory changes Jonas’s "perception of the color he knew as red"?<br/>
             4. How does the Giver assist the Council of Elders?<br/>
-            5. Is it important for people to get advice from others who have more knowledge? Why?<br/>
+            5. Is it important for people to get advice from others who have more knowledge? Explain why.<br/>
             6. If you could stop things from changing, would you? Why or why not?<br/>
             7. What happens to the memories if the Receiver doesn’t have them?<br/>
             8. What does the Giver mean when he says the instructors "know nothing"?<br/>
@@ -3730,10 +3761,10 @@ const LA8Component = ({ data }) => {
             10. Why hasn’t Jonas been hurt by the memories yet?<br/>
             11. Do you agree with Jonas that people have to be protected from wrong choices?<br/>
             12. As Jonas continues his training, he often finds himself angry with his groupmates and his family.
-            Why?<br/>
+            Explain why.<br/>
             13. The Giver says that without memories, knowledge is meaningless. What does he mean?<br/>
             <strong>Vocabulary</strong><br/>
-            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. anguished<br/>
             2. array<br/>
             3. assimilated<br/>
@@ -3759,7 +3790,7 @@ const LA8Component = ({ data }) => {
             9. Do you think it’s fair that one person in the community—The Receiver—should have to be burdened and
             pained by memories so that no one else is?<br/>
             <strong>Vocabulary</strong><br/>
-            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. accommodate<br/>
             2. anesthetic<br/>
             3. assuage<br/>
@@ -3783,7 +3814,7 @@ const LA8Component = ({ data }) => {
             3. Why does the Giver feel that way?<br/>
             4. Why do you think the Giver asks Jonas to forgive him?<br/>
             <strong>Vocabulary</strong><br/>
-            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. annex<br/>
             2. contorted<br/>
             3. parched<br/>
@@ -3811,7 +3842,7 @@ const LA8Component = ({ data }) => {
             10. Do you think Jonas’s parents love him? Do you think they know what love is?<br/>
             11. Do you agree with Jonas that things could be different? How?<br/>
             <strong>Vocabulary</strong><br/>
-            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. bearings<br/>
             2. ecstatic<br/>
             3. faltered<br/>
@@ -3833,7 +3864,7 @@ const LA8Component = ({ data }) => {
             anymore?<br/>
             6. Should Jonas have asked them to stop playing it? Why or why not?<br/>
             <strong>Vocabulary</strong><br/>
-            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. accounted<br/>
             2. fleeting<br/>
             3. horde<br/>
@@ -3854,7 +3885,7 @@ const LA8Component = ({ data }) => {
             5. Do you think Rosemary sounds like she was or wasn’t brave?<br/>
             6. Why did the Giver seem distracted after telling Jonas to stay away from the river?<br/>
             <strong>Vocabulary</strong><br/>
-            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. dejected<br/>
             2. luminous<br/>
             3. serene<br/>
@@ -3872,7 +3903,7 @@ const LA8Component = ({ data }) => {
             4. Were you surprised at what "release" was?<br/>
             5. How do you think this new knowledge will affect Jonas?<br/>
             <strong>Vocabulary</strong><br/>
-            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. chute<br/>
             2. receptacle<br/>
           </p>
@@ -3891,9 +3922,9 @@ const LA8Component = ({ data }) => {
             8. What are some reasons for the Giver’s plans for himself after he has helped the community?<br/>
             9. Jonas knows that if his plan fails, he could be killed. But he believes that if he stays, his life is
             no longer worth living. Do you agree?<br/>
-            10. Do you think the Giver should go with Jonas or stay? Why?<br/>
+            10. Do you think the Giver should go with Jonas or stay? Explain why.<br/>
             <strong>Vocabulary</strong><br/>
-            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. acquire<br/>
             2. emphatically<br/>
             3. inconsiderate<br/>
@@ -3915,7 +3946,7 @@ const LA8Component = ({ data }) => {
             and family will feel?<br/>
             8. Why is the community so desperate to get Jonas back?<br/>
             <strong>Vocabulary</strong><br/>
-            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. augmented<br/>
             2. condemned<br/>
             3. diminished<br/>
@@ -3942,7 +3973,7 @@ const LA8Component = ({ data }) => {
             5. Briefly describe the "simple moments of exquisite happiness" Jonas begins to experience as he gets
             further away from the community.<br/>
             <strong>Vocabulary</strong><br/>
-            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. flagging<br/>
             2. grimly<br/>
             3. lush<br/>
@@ -3967,7 +3998,7 @@ const LA8Component = ({ data }) => {
             5. Although most of the memories have left Jonas, the feelings have not. Why do you think that is?<br/>
             6. What do you think happens to Jonas and Gabe at the end of the story?<br/>
             <strong>Vocabulary</strong><br/>
-            For each vocabulary word below, write a definition and then write a sentence using the word.<br/>
+            For each vocabulary word below, write the definition and then write a sentence using the word.<br/>
             1. crested<br/>
             2. diminished<br/>
             3. feebly<br/>
@@ -4017,18 +4048,19 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener133} value={la8Essay133}/>
 
           <span className="days">LESSON 134 </span>
-          <p><strong>Create a New Ending for <i> The Giver </i> </strong> in which you tell readers what happened to
-            Jonas
-            and Gabe. The author left the conclusion of the story ambiguous. Rewrite the ending
-            making it clear how the story ends. (4 - 5 paragraphs)
+          <p>The author left the conclusion of <i> The Giver </i> ambiguous. <strong>Create a new ending for the
+            story </strong> in which you tell readers what happened to Jonas and Gabe. Watch the video below and then rewrite the final chapter, making it clear how the story ends
+            (4 - 5 paragraphs).
+            <Video videoUrl="https://www.youtube.com/embed/dcYgWiZd2XU"/>
+
           </p>
-          <textarea className="textArea" onChange={onChangela8Listener134} value={la8Essay134}/>
+          <textarea className="textArea" placeholder="Rewrite the final chapter of The Giver here. Be sure to email a copy of your work to your parent or teacher or copy/paste to another document." onChange={onChangela8Listener134} value={la8Essay134}/>
 
           <span className="days">LESSON 135 </span>
           <p>Thinking about the themes: The Giver<br/>
-            The main themes in <i> The Giver </i>revolve around Connections with others, Choice, Freedom versus
-            security, Sameness versus diversity, Individuality, Honesty, and Family. <br/>
-            1. What do <i>you</i> think is the most important theme in The Giver?<br/>
+            The main themes in <i> The Giver </i>revolve around connections with others, choice, freedom versus
+            security, sameness versus diversity, individuality, honesty, and family. <br/>
+            1. What do <i>you</i> think is the most important theme in <i>The Giver</i>?<br/>
             2. How much would you be willing to give up to live in a safe and secure world? Would you give up as
             much as the people in Jonas’s community?<br/>
             3. When you read the final rule in Jonas's instructions, "You may lie," how did you feel about this? If you
@@ -4043,13 +4075,13 @@ const LA8Component = ({ data }) => {
 
           <span className="days">LESSON 136 </span>
           <p> Thinking about the characters: <i>The Giver</i><br/>
-            1. Who would you rather have for a friend, Jonas or Asher? Why?<br/>
+            1. Who would you rather have for a friend, Jonas or Asher? Explain why.<br/>
             2. Do you think the Giver would be a good grandfather? Why or why not?<br/>
             3. Why is the relationship between Jonas and the Giver dangerous?<br/>
             4. What does Gabe represent at the end of this book?<br/>
             5. How can Jonas’s father be so fond of children and still perform releases?<br/>
             6. Who is your least favorite character? Why?<br/>
-            7. Which character do you feel the most sympathy for? Why?<br/>
+            7. Which character do you feel the most sympathy for? Explain why.<br/>
           </p>
           <textarea className="textArea" onChange={onChangela8Listener136} value={la8Essay136}/>
 
@@ -4065,7 +4097,8 @@ const LA8Component = ({ data }) => {
             4. What do you think the leaders in Jonas’s community would say about censorship?<br/>
             5. What would Jonas and the Giver say?<br/>
             6. How do you imagine <i> The Giver</i> ends?<br/>
-            7. Would you like to see the ending more spelled out? Why or why not?<br/>
+            7. In a previous assignment, you rewrote the final chapter of <i>The Giver</i> to clarify what happened to Gabe and Jonas.  Do you like that the author left you guessing about what happened to them at the end of the story or 
+            would you like to see the ending more spelled out? Explain why you feel this way.<br/>
           </p>
           <textarea className="textArea" onChange={onChangela8Listener137} value={la8Essay137}/>
 
@@ -4084,7 +4117,7 @@ const LA8Component = ({ data }) => {
             4. A review (your opinion) about the book. Your summary and review should be 5-6 paragraphs and
             can be written in the textbox below.<br/>
           </p>
-          <textarea className="textArea" onChange={onChangela8Listener138} value={la8Essay138}/>
+          <textarea className="textArea" placeholder="Write your summary and review here. Copy/paste your work into another document and send it with your book cover to your parent or teacher." onChange={onChangela8Listener138} value={la8Essay138}/>
 
           <img src={require("../../public/images/poems/poetry.jpg")} alt="poetry"/><br/>
           <span className="days">LESSON 139 </span>
@@ -4203,25 +4236,22 @@ const LA8Component = ({ data }) => {
               describe your own life right now with a metaphor, what object would you compare your life to? (You can
               use a simile if that’s easier, and write the phrase "My life feels like a _______" as a way to get
               started.) Once you’ve picked the object, describe the object for a few sentences. (What you’re doing
-              here is making up and exploring a new extended metaphor of your own.)
-            </li>
+              here is making up and exploring a new extended metaphor of your own.)</li>
             <li> Do you think that a description of a cricket would be read the same way or mean the same thing if
               it had been in a science paper about crickets instead of a poem? Do we read things in different ways
               at different times, and can you say why a person might want to read a poem (or listen to the words of
-              a song) at all?
-            </li>
+              a song) at all?</li>
             <li> What is a metaphor? Define it using your own words.</li>
             <li> What is a simile?</li>
             <li> "An elephant in the room" is a way of saying what?</li>
             <li> How would you describe the mother in Langston Hughes's poem "Mother to Son"? What kind of life has
-              she had?
-            </li>
-            <li> Why do you think poets enjoy using metaphors so much?</li>
+              she had? Why do you think she is telling her son all of this? </li>
+            <li> Why do you believe poets enjoy using metaphors so much?</li>
           </ol>
           <textarea className="textArea" onChange={onChangela8Listener141} value={la8Essay141}/>
 
           <span className="days">LESSON 142 </span>
-          <h4>Become a slam poet in five steps</h4>
+          <h4>Become a slam poet in five steps - by TedEd</h4>
           <p>With enough passion and practice, becoming a slam poet is within your reach. Explore a distant memory
             on paper, then read it out loud. Edit. Try reading it out loud again, and add your finishing touches. In
             this TedEd video, Gayle Danley offers five steps to being a slam poet — while being downright poetic in
@@ -4243,7 +4273,7 @@ const LA8Component = ({ data }) => {
               understanding of people needing a
               sense of purpose. She also understands how many people feel like they are an outsider. In simple
               words, she encourages her readers to look to nature for answers to life's questions. </p>
-            <li>How does the poem <i> Wild Geese </i> make you feel? (sad? hopeful? melancholy? Why?</li>
+            <li>How does the poem <i> Wild Geese </i> make you feel? (sad? hopeful? connected?) Why?</li>
             <li> The poet uses words like "despair" and "lonely" and creates an image of someone walking on his/her
               knees. Is this poem hopeful or hopeless? Both at once? Or somewhere in between?
             </li>
@@ -4468,7 +4498,7 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener146} value={la8Essay146}/>
 
           <span className="days">LESSON 147 </span>
-          <h4> A poetic experiment: Walt Whitman, interpreted by three animators</h4> <p>Take a journey through Walt
+          <h4>A poetic experiment: Walt Whitman, interpreted by three animators</h4> <p>Take a journey through Walt
           Whitman’s poem ‘A Noiseless Patient Spider’ with the help of three animators who each used a different
           animation style to bring this beautiful poem to life.</p>
           <Video videoUrl="https://www.youtube.com/embed/6jCw8ydqkrg"/>
@@ -4488,7 +4518,7 @@ const LA8Component = ({ data }) => {
             <li>Till the gossamer thread you fling catch somewhere, O my soul.</li>
           </ul>
           <br/>
-          <h4>Questions</h4>
+          <h4>Questions taken from TedEd</h4>
           <ol className="vocab">
             <li>Whitman uses alliteration (the occurrence of the same letter or sound at the beginning of closely
               connected or adjacent words) in this poem. Read the poem and list the phrases that contain
@@ -4568,7 +4598,7 @@ const LA8Component = ({ data }) => {
             <li>Write about a time you had to make a tough decision. Did you choose the easy road or the hard
               road.
             </li>
-            <p>Based on the poem <i>"Fire and Ice": </i></p>
+            <p>Based on the poem <i>"Fire and Ice" </i></p>
             <li>What is your interpretation of the poem? Summarize what you think it means.</li>
           </ol>
           <textarea className="textArea" onChange={onChangela8Listener148} value={la8Essay148}/>
@@ -4579,16 +4609,16 @@ const LA8Component = ({ data }) => {
           <h4><i>First Kiss</i> by Tim Seibles </h4>
           <Video videoUrl="https://www.youtube.com/embed/dv9sgFHS2Do?list=PLJicmE8fK0Egxi0hgy5Tw-NFyLcpJ4bzJ"/>
           <ol className="vocab">
-            <p>Based on the poem <i>"If "</i>by Rudyard Kipling: </p>
+            <p>Based on the poem <i>"If"</i>by Rudyard Kipling: </p>
             <li>Why is Kipling’s poem titled "If"?</li>
-            <li> Qualities which ‘make a man’ according to the poet in ‘If’.</li>
+            <li> Qualities which "make a man" according to the poet in ‘If’.</li>
             <li> What does the poet say about lies and hate?</li>
             <li>Why does the poet call triumph and disaster two impostors?</li>
             <li> What poetic devices, structural or stylistic techniques are used in the poem?</li>
             <li> How can power of Will help a person?</li>
             <li> Why should people keep their calm in difficult situations?</li>
-            <li> Do you think the poem ‘If’ is relevant in today’s world?</li>
-            <li> What is ‘pitch and toss’? What does it signify in the poem?</li>
+            <li> Do you think the poem "If" is relevant in today’s world?</li>
+            <li> What is "pitch and toss"? What does it signify in the poem?</li>
             <li> What was the poem’s purpose. What it achieved? Explain.</li>
             <p> Based on the poem <i>"First Kiss"</i> by Tim Seibles: </p>
             <li> What did you think of the poem?</li>
@@ -4651,18 +4681,16 @@ const LA8Component = ({ data }) => {
           <h4>Thinking Like a Poet</h4>
           <p>The following exercise is from Steve Bowkett’s <i>Countdown to Poetry.</i> Take a few moments to study
             the image below.</p>
-          <img src={require("../../public/images/poems/bwimage1.jpg")}
-               alt="black and white of boy running to tree with birds"/><br/>
+          <img src={require("../../public/images/poems/tree.jpg")}
+               alt="black and white tree and sunset"/><br/>
           <ol className="vocab">
             <li> What are four things that you find the most intriguing or captivating about this image?</li>
             <li> Close your eyes and imagine the picture is in color. Describe what you see and describe the colors
-              in detail.
-            </li>
+              in detail.</li>
             <li> Now focus on the sound and imagine what sounds you can hear.</li>
             <li> Now imagine you can step into the picture. Describe what it is like. Is there a breeze? Do you
-              smell anything? What do things feel like? Is it warm or cold? What do you see when you turn around? IS
-              there anything surprising there that isn’t in the picture?
-            </li>
+              smell anything? What do things feel like? Is it warm or cold? What do you see when you turn around? Is
+              there anything surprising there that isn’t in the picture?</li>
             <li> If this picture could tell a story, what is the story about? What will about to happen next?</li>
             <li> Describe this picture in 12 words or less. Twelve is not many words so choose each one carefully.
             </li>
@@ -4716,9 +4744,9 @@ const LA8Component = ({ data }) => {
               sans everything"?
             </li>
             <li> Give an example of alliteration used in the monologue. Alliteration is repetition of a letter/sound
-              at the beginning of words. Example: <i>Sheep should sleep in a shed. </i>When the speaker says that
+              at the beginning of words. Example: <i>Sheep should sleep in a shed. </i>
             </li>
-            <li> The words ‘exits’ and ‘entrances’ are metaphors for what? What do those two words really mean?</li>
+            <li> The words "exits’ and "entrances’ are metaphors for what? What do those two words really mean?</li>
             <li> The speech is full of metaphors and similes. Give at least one example of each.</li>
           </ol>
           <textarea className="textArea" onChange={onChangela8Listener152} value={la8Essay152}/>
@@ -4754,13 +4782,11 @@ const LA8Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/BLeMZ5WIdrI"/>
           <ol className="vocab">
             <p>Based on the Crash Course video: </p>
-            <li>Dickinson often makes references to "eyes" and "sight". What do these
-              references most likely symbolize.
+            <li>Dickinson often makes references to "eyes" and "sight". What do these references most likely symbolize.
             </li>
             <li> Why do you think Dickinson only wore white?</li>
             <li> Name two stylistic choices that Dickinson makes when she wants to avoid closure in her poetry.</li>
-            <li> Emily Dickinson's personal life receives as much attention, or even more attention, than her poetry.
-              Why do you think this is so?
+            <li> Emily Dickinson's personal life receives as much attention, or even more attention, than her poetry. Why do you think this is so?
             </li>
             <li> To what extent was Emily Dickinson the eccentric recluse she is often portrayed as being?</li>
             <li> Describe some of the reasons that Dickinson did not gain fame as a poet during her lifetime.</li>
@@ -4783,9 +4809,11 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener153} value={la8Essay153}/>
 
           <span className="days">LESSON 154 </span>
-          <h4><i>Still I Rise</i> by Maya Angelou</h4>
+          <h4><a href="https://www.poetryfoundation.org/poems/46446/still-i-rise"
+                 rel="noreferrer" target="_blank"><i>Still I Rise</i></a> by Maya Angelou</h4>
           <Video videoUrl="https://www.youtube.com/embed/fthuqMaPe0Y"/>
-          <h4><i> Alone </i> by Edgar Allan Poe</h4>
+          <h4><a href=" https://www.poetryfoundation.org/poems/46477/alone-56d2265f2667d"
+                 rel="noreferrer" target="_blank"><i> Alone </i></a> by Edgar Allan Poe</h4>
           <Video videoUrl="https://www.youtube.com/embed/SS_YShPMYdM"/>
           <p>Based on the poem: <a href="https://www.poetryfoundation.org/poems/46446/still-i-rise"
                                    rel="noreferrer" target="_blank"> <i>Still I Rise</i></a> by Maya Angelou:</p>
@@ -4801,13 +4829,12 @@ const LA8Component = ({ data }) => {
             <li> Give an examples of imagery used.</li>
             <li> Give an example of a metaphor used.</li>
             <li> Give an example of a simile used.</li>
-            <li>What does Angelou mean when she says, "Out of the hut of history's shame / I rise. "</li>
+            <li> What does Angelou mean when she says, "Out of the hut of history's shame / I rise. "</li>
             <li> How do we know the narrator has hope of the future?</li>
             <li> List two phrases from the final stanzas that suggest the horrors of slavery.</li>
             <li> How did the poem impact you or make you feel?</li>
-            <p className="topBottom"> Based on the poem <a
-              href=" https://www.poetryfoundation.org/poems/46477/alone-56d2265f2667d"
-              rel="noreferrer" target="_blank"> <strong> Alone </strong> </a>by Edgar Allan Poe</p>
+            <p> Based on the poem <a href=" https://www.poetryfoundation.org/poems/46477/alone-56d2265f2667d"
+                                     rel="noreferrer" target="_blank">Alone</a>  by Edgar Allan Poe</p>
             <li> What is the "mystery" that the speaker describes? What is the effect of the speaker's refusal to
               tell us more about it?
             </li>
@@ -4829,9 +4856,8 @@ const LA8Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/iJn0ZPd6mYo"/>
           <h4>Why should you read Sylvia Plath? by Iseult Gillespie</h4>
           <Video videoUrl="https://www.youtube.com/embed/wCWl8ZIgCHk"/>
-          <h4>Mad Girl's Love Song by Sylvia Plath</h4>
-          <Video videoUrl="https://www.youtube.com/embed/EZ8RHI8K6xc"/>
-          <img src={require("../../public/images/poems/figTree.jpg")} alt="woman blended with a tree"/><br/>
+          <h4>The Fig Tree by Sylvia Plath</h4>
+          <Video videoUrl="https://www.youtube.com/embed/FAtvKkpYe_4"/>
           <p className="topBottom" style={{ color: "#4f5979", fontSize: "110%", lineHeight: "1.7" }}><i>I saw my
             life branching out before me like the green fig tree in the story. From the tip of every
             branch, like a fat purple fig, a wonderful future beckoned and winked. One fig was a husband and a happy
@@ -4847,7 +4873,6 @@ const LA8Component = ({ data }) => {
           <h4> Answer the questions below:</h4>
           <ol className="vocab">
             <li> Briefly describe Sylvia Plath and her background.</li>
-            <li> How did her life end? At what age did she die?</li>
             <li> Based on <i>The Fig Tree,</i> what does the fig tree and each of the figs symbolize?</li>
             <li> What is the mood of the poem? How does Plath get this mood across to reader?</li>
             <li> Describe the imagery Plath creates of the figs.</li>
@@ -4875,7 +4900,7 @@ const LA8Component = ({ data }) => {
           <ol className="vocab">
             <li>Outer self - how you look (Example: Brown eyes, Mahogany skin, Tomboy, Graceful swagger, Pigtails)
             </li>
-            <li>Inner self - feelings and emotions (Example: Joy, Shame, Focused, Popular, Lonely)</li>
+            <li>Inner self - feelings and emotions (Example: Joy, Shame, Focused, Introverted, Popular, Lonely)</li>
             <li>Talents or strengths (Example: Athletic, Graceful, Reader)</li>
             <li>Challenges or things you find difficult (Being alone, Math, Racism)</li>
           </ol>
@@ -4906,7 +4931,7 @@ const LA8Component = ({ data }) => {
             "The <b>sh</b>epherd <b>sh</b>ook <b>h</b>is <b>h</b>ead"-<br/>
             <strong>assonance:</strong> repetition of <b>vowel</b> sounds - "I'm reminded
             to line the lid of my eye"<br/>
-            <strong>anaphora: </strong> repetition of words - <i style={{ color: "#4f5979"}}>Still I Rise by Maya
+            <strong>anaphora: </strong> repetition of words - <i style={{ color: "#4f5979" }}>Still I Rise by Maya
               Angelou<br/>
               "I rise<br/>
               Bringing the gifts that my ancestors gave,<br/>
@@ -5244,11 +5269,13 @@ const LA8Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela8Listener168} value={la8Essay168}/>
 
           <span className="days">LESSON 169 </span>
-          <h4>Write an epilogue based on Cirque Du Freak. (An epilogue is a section
-            at the end of a book that tells readers the fate of the main characters and wraps up any loose ends.)</h4>
-          <p>Imagine that the author asks you to write an epilogue for the novel in which Darren meets Steve in 10
+          <p><strong>Write an epilogue based on Cirque Du Freak. </strong> An epilogue is a section
+            at the end of a book that tells readers the fate of the main characters and wraps up any loose ends.</p>
+          <p className="topBottom">Imagine that the author asks you to write an epilogue for the novel in which Darren meets Steve in 10
             years. You have the freedom to have this chapter go however you like. </p>
-          <p>Be sure to cover the following questions in your chapter:
+          <p>Watch the video below and then complete the writing assignment.</p>
+          <Video videoUrl="https://www.youtube.com/embed/RSoRzTtwgP4"/>
+          <p>Be sure to cover the following questions in your Epilogue:
             <ul className='assnList'>
               <li> Plot - What happens? Is there a mystery to solve, an unexplained event, a secret to unfold, has
                 someone disappeared?
@@ -5260,7 +5287,7 @@ const LA8Component = ({ data }) => {
               <li> Point of View - Will you use first, second, or third person narrative?</li>
               <li> Conflict - What is the challenge the main character must face in order to grow and change?</li>
             </ul></p>
-          <textarea className="textArea" onChange={onChangela8Listener169} value={la8Essay169}/>
+          <textarea className="textArea" placeholder="Write your Epilogue for Cirque du Freak here. Be sure to back up your work. Email it to your parent or teacher or copy/paste it into another document." onChange={onChangela8Listener169} value={la8Essay169}/>
 
           <span className="days" style={{ color: "#4f5979", fontSize: "130%" }}>WRITING STORIES </span>
           <h4 style={{ color: "#4f5979" }}>The remainder of this class will focus on writing stories and non-fiction
@@ -5268,32 +5295,34 @@ const LA8Component = ({ data }) => {
             within different genres.</h4>
           <p className="topBottom">For each fictional writing assignment, address the items below to develop
             your story:</p>
-          <p className="topBottom">POINT OF VIEW: Whose story are you telling? Using "I" is first person. Using
+          <p>POINT OF VIEW: Whose story are you telling? Using "I" is first person. Using
             "you" is second person. Third person uses he or she. The third-person omniscient point of view tells the
             thoughts and feelings of all the characters. </p>
           <p className="topBottom">PLOT: What happens in the story? What are the sequence of events? </p>
-          <p className="topBottom">SETTING: Where and when is it (past, present or future)? </p>
+          <p>SETTING: Where and when is it (past, present or future)? </p>
           <p className="topBottom">CONFLICT: What is the challenge the main character must face in order to grow and
             change? What obstacles must be overcome? Most stories contain several small conflicts and one large or
             major conflict. </p>
-          <p className="topBottom">RESOLUTION: How does the problem get solved? </p>
+          <p>RESOLUTION: How does the problem get solved? </p>
           <p className="topBottom">CHARACTERS: Who is in your story? Who is the main character (protagonist)? Who
             are the supporting characters? </p>
-          <p className="topBottom"><strong>Developing your characters</strong> is important because your readers must care about what
+          <p><strong>Developing your characters</strong> is important because your readers must
+            care about what
             happens to them. They don’t have to be likable, but they must be credible. Your readers should be feel
             the characters are real and be able to picture them clearly in their heads. You should describe what they
-            look like and their personality. <br/>
-            Include character traits (ex. humor, wit, introversion), strengths (ex.
+            look like and their personality. </p>
+           <p className="topBottom">Include character traits (ex. humor, wit, introversion), strengths (ex.
             intelligence, stamina, humor) and flaws (ex. short-temper, physical disability). The main character
             (protagonist) is the most important because the story tends to revolve around them. They determine the
             way the plot will develop and must solve a problem or solve a mystery. </p>
-          <p className="topBottom">Supporting characters are also important because they often help the main
+          <p className="topBottom" >Supporting characters are also important because they often help the main
             character or serve as their enemy, creating obstacles. It’s your job to get the readers to feel
             something for all of your characters; like them, hate them, root for them, feel devastated when they are
             harmed and happy when they triumph.</p>
-          <p className="topBottom">You can print out the <a
+          <p style={{paddingBottom:"1.8em"}}>You can print out the <a
             href={require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story
-            Outline Worksheet</a> to help you get started on a rough draft for your stories. It includes the following:<br/>
+            Outline Worksheet</a> to help you get started on a rough draft for your stories. It includes the
+            following:<br/>
             <ul className="assnList2">
               <li>Title of your story:</li>
               <li>In 1-2 sentences, say what your story is about:</li>
@@ -5308,8 +5337,7 @@ const LA8Component = ({ data }) => {
             </ul>
           </p>
           <span className="days">LESSON 170 - Write a Mystery</span>
-          <p>Watch the the videos below and then complete the writing assignment that follows.</p>
-          <Video videoUrl="https://www.youtube.com/embed/RSoRzTtwgP4"/>
+          <p>Watch the video below and then complete the writing assignment that follows.</p>
           <Video videoUrl="https://www.youtube.com/embed/xjKruwAfZWk"/>
           <h4> Write a Mystery</h4>
 
@@ -5386,13 +5414,14 @@ const LA8Component = ({ data }) => {
           <p className="topBottom"><strong>Fantasy </strong> is a genre that has magical and
             supernatural elements. Many novels have a real-world setting, like Twilight, while other novels are set
             in an imaginary world. This genre has no connection to reality or science. For example, Lord of the
-            Rings is set in Middle Earth, with races and creatures the author created.
-            There are numerous subgenres of fantasy fiction. A few include high or epic fantasy (Lord of the Rings),
+            Rings is set in Middle Earth, with races and creatures the author created.</p>
+            <p>There are numerous subgenres of fantasy fiction. A few include high or epic fantasy (Lord of the Rings),
             low fantasy (Indian in the Cupboard), dark fantasy (Twilight), contemporary fantasy (Harry Potter),
             sword and sorcery (The Sorcerer's Apprentice), fables (The Alchemist), fairy
             tales (Cinderella), and superhero fiction (Spiderman). </p>
-          <p className="topBottom">Select one of the images below as your book cover and then write a fantasy story
-            based on the image. What story unfolds in your imagination when you look at the image? Write your
+          <p className="topBottom"><strong>Select one of the images below as your book cover and then write a fantasy story
+            based on the image.</strong></p>
+          <p>What story unfolds in your imagination when you look at the image? Write your
             story (5 paragraph minimum) in the textbox below. </p>
           <div className="rowimages">
             <div className="columnimages">
@@ -5417,7 +5446,7 @@ const LA8Component = ({ data }) => {
                     onChange={onChangela8Listener171} value={la8Essay171}/>
 
           <span className="days">LESSON 172 </span>
-          <p>Watch the video <strong> The importance of setting in a story</strong> and then complete the writing
+          <p>Watch the video <strong> The Importance of Setting in a Story</strong> and then complete the writing
             assignment that follows.</p>
           <Video videoUrl="https://www.youtube.com/embed/30CPmgVQNks"/>
           <Video videoUrl="https://www.youtube.com/embed/6a6kbU88wu0"/>
@@ -5460,26 +5489,25 @@ const LA8Component = ({ data }) => {
                                 target="_blank">Five Paragraph Essay outline</a> to help you get started. Be sure to
             include the following elements in your biography:</p>
           <p className="margin-para">
-            <ul className="assnList">
-              <li><strong>Introduction:</strong> state the person you chose and why you chose them.</li>
-              <li>Your thesis statement should cover the reasons why he/she inspires you and what this person has
+            <ul className="list">
+              <li><strong>Introduction:</strong> state the person you chose and why you chose them.  Your thesis statement should cover the reasons why he/she inspires you and what this person has
                 taught us.
               </li>
-              <li>In the body (2-3 paragraphs), include:</li>
-              <ol className="assnLetters">
-                <li>date and place of birth (death if appropriate)</li>
+              <li><strong>Body:</strong> Paragraphs 2 - 4 should include:</li>
+              <ul className="list" style={{paddingLeft:"20px"}}>
+              <li>date and place of birth (date of death if appropriate)</li>
                 <li>description of childhood and early adulthood</li>
                 <li>people and events that influenced them and helped them develop into the person they became</li>
                 <li>accomplishments and greatest achievements</li>
                 <li>their impact on society, historical significance</li>
-                <li>when appropriate use quotes and significant details from your research</li>
-              </ol>
-              <li><strong>Conclusion:</strong> summarize the most important points of your biography.
-              </li>
+              <li>when appropriate use quotes and significant details from your research</li>
+              </ul>
+              <li><strong>Conclusion:</strong> the final paragraph should summarize the most important points of your biography.
+            </li>
             </ul>
           </p>
-          <p className="margin-para">
-            <ul className="assnList">
+          <p style={{color:"#35516e"}}><strong>Inspiring People</strong><br/>
+            <ul className="assnList" style={{paddingLeft:"10px"}}>
               <li>Malala Yousafzai</li>
               <li>Thomas Jefferson</li>
               <li>Nelson Mandela</li>
@@ -5504,11 +5532,11 @@ const LA8Component = ({ data }) => {
             They imagine how life would be different with technological and scientific advances. Science fiction
             includes novels like<i> Ready Player One, Mad Max and The Martian.</i></p>
           <p className="topBottom">Select one of the images below to base your own science fiction story on.
-            After you watch the video below, <strong> The power of a great introduction</strong>, write your story in
-            the textbox.
-            Be sure to back up your work and send a copy to your parent or teacher. If you prefer to write a story not
-            based on an image, this is
-            fine. </p>
+            After you watch the video below, <strong> The power of a great introduction</strong>, write your story in the textbox.
+            Be sure to back up your work and send a copy to your parent or teacher. If you prefer to write a story not based on an image, this is fine. </p>
+          <p className="topBottom">You can use the <a
+            href={require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story
+            Outline Worksheet</a> to get started.</p>
           <div className="rowimages">
             <div className="columnimages">
               <img src={require("../../public/images/stories/scifi1.jpg")}
@@ -5550,13 +5578,10 @@ const LA8Component = ({ data }) => {
           </p>
           <p>Your essay should follow the format below: </p>
           <ul className="assnList">
-            <li>Write a hook to grab your reader's attention.</li>
-            <li>Your first paragraph should have a clear thesis statement (main idea of your essay). This
-              statement should convey the points or arguments you are going to
-              make.
-            </li>
+            <li>Write a hook to grab your reader's attention. Your first paragraph should have a clear thesis statement (main idea of your essay). This
+              statement should convey the points or arguments you are going to make.</li>
             <li>Paragraphs 2-4 should provide examples from the book that support your thesis statement. Each
-              paragraph should discuss a different point and use a different example. Using direct
+              paragraph should discuss a different point and use different examples. Using direct
               quotes from the novel can be effective in proving your point.
             </li>
             <li>Your conclusion should restate your thesis in a different way. End with a thoughtful summary.</li>
@@ -5592,6 +5617,8 @@ const LA8Component = ({ data }) => {
               <li>A villain</li>
               <li>The hero is changed</li>
             </ul></p>
+          <p className="topBottom">You can use the <a href={require ("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story Outline Worksheet</a> to get started.</p>
+
           <div className="rowimages">
             <div className="columnimages">
               <img src={require("../../public/images/stories/adventure1.jpg")}
@@ -5614,10 +5641,6 @@ const LA8Component = ({ data }) => {
                    alt="castle"/>
             </div>
           </div>
-          <p className="topBottom">You can use the <a
-            href={require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story
-            Outline Worksheet</a> to get started.
-          </p>
           <textarea className="textArea"
                     placeholder="Be sure to backup your work and send it to your parent or teacher."
                     onChange={onChangela8Listener176} value={la8Essay176}/>
@@ -5643,7 +5666,8 @@ const LA8Component = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/SgGARYH2vRg"/>
           <p className="topBottom">Your next two lessons will be to develop two great characters your readers will care
             about: a protagonist and an antagonist. Start thinking about what they are like. Consider their:
-            personality, physical appearance, strengths, weaknesses, special abilities (optional) and what they value.</p>
+            personality, physical appearance, strengths, weaknesses, special abilities (optional) and what they
+            value.</p>
           <p> Develop these characters in your mind and think about the following questions: </p>
           <ul className="list">
             <li>What does your character want or want to achieve?</li>
@@ -5656,7 +5680,8 @@ const LA8Component = ({ data }) => {
               adventure, fantasy, mythology, horror, mystery, fairy tale, etc.
             </li>
           </ul>
-          <p className="topBottom">Complete the assignment below. Your responses can be short bullet points. The main point of this assignment is to generate ideas.
+          <p className="topBottom">Complete the assignment below. Your responses can be short bullet points. The main
+            point of this assignment is to generate ideas.
 
             <ol className="vocab">
               <li>Close your eyes and imagine the protagonist for your next story. Briefly describe their external and
@@ -5731,28 +5756,28 @@ const LA8Component = ({ data }) => {
           <span className="days">LESSON 179 </span>
           <h4> Character Development - The Antagonist</h4>
           <p className="topBottom">Create the villain your protagonist will have to fight. <br/>
-              <ol className="vocab">
-                <li>What is your villain's name, gender and age?</li>
-                <li>What makes your villain a villain? What motivates them to do what they do? What is his backstory?
-                  Example: Lord
-                  Voldemort wanted to become the supreme leader of wizards and rid the wizarding world of Muggles. His
-                  mother had tricked his father
-                  into loving her. He was not born from love and didn't know love as a child.
-                </li>
-                <li>What makes your villain powerful? What skills, abilities and traits make them <i>nearly</i> impossible
-                  for your protagonist to defeat? They can have supernatural abilities, but this isn't required. For
-                  example, think about the Joker in Batman. The Joker has no superhuman abilities, but
-                  he is clever and uses chemical engineering to make poisonous weapons.
-                </li>
-                <li>What are their weaknesses? Will your hero be able to use a weakness against the villain to win?</li>
-                <li>What does your protagonist look like? Be specific, including height, facial features, and how they
-                  dress.
-                </li>
-                <li>Create a picture of your villain. You can sketch a picture or create your character on <a
-                  href="https://charactercreator.org/#" rel="noreferrer" target="_blank">Character Creator </a>online. Be
-                  sure to take a screen shot and save this to your device so you can include it with your story later.
-                </li>
-              </ol>
+            <ol className="vocab">
+              <li>What is your villain's name, gender and age?</li>
+              <li>What makes your villain a villain? What motivates them to do what they do? What is his backstory?
+                Example: Lord
+                Voldemort wanted to become the supreme leader of wizards and rid the wizarding world of Muggles. His
+                mother had tricked his father
+                into loving her. He was not born from love and didn't know love as a child.
+              </li>
+              <li>What makes your villain powerful? What skills, abilities and traits make them <i>nearly</i> impossible
+                for your protagonist to defeat? They can have supernatural abilities, but this isn't required. For
+                example, think about the Joker in Batman. The Joker has no superhuman abilities, but
+                he is clever and uses chemical engineering to make poisonous weapons.
+              </li>
+              <li>What are their weaknesses? Will your hero be able to use a weakness against the villain to win?</li>
+              <li>What does your protagonist look like? Be specific, including height, facial features, and how they
+                dress.
+              </li>
+              <li>Create a picture of your villain. You can sketch a picture or create your character on <a
+                href="https://charactercreator.org/#" rel="noreferrer" target="_blank">Character Creator </a>online. Be
+                sure to take a screen shot and save this to your device so you can include it with your story later.
+              </li>
+            </ol>
           </p>
           <textarea className="textArea" onChange={onChangela8Listener179} value={la8Essay179}/>
 
@@ -5778,12 +5803,9 @@ const LA8Component = ({ data }) => {
               <li>How will build up the story to its climax?</li>
               <li>Finally, what will the resolution be? How will the problem be solved?</li>
             </ul>
-            <br/> Write your story in the textbox below. Be sure to back up your work.
-          </p>
-          <p>You can use the <a
-            href={require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story
-            Outline Worksheet</a> to help you get started.</p>
-          <textarea className="textArea" onChange={onChangela8Listener180} value={la8Essay180}/>
+          </p>         
+          <p className="topBottom">You can use the <a href={require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story Outline Worksheet</a> to help you get started.</p>
+          <textarea className="textArea" placeholder="Write your story here. Be sure to back up your work."  onChange={onChangela8Listener180} value={la8Essay180}/>
         </div>
       </section>
       <Confetti/>
