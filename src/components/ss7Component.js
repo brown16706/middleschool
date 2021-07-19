@@ -4,6 +4,7 @@ import Video from "../components/video"
 import { Link } from "gatsby"
 import Confetti from "./confetti"
 
+
 function useLocalStorageState(key, defaultValue = "") {
   const [state, setState] = React.useState(
     () => window.localStorage.getItem(key) || defaultValue
@@ -3177,7 +3178,7 @@ const SS7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangeSS7Listener93} value={SS7Essay93}/>
 
           <span className="days">LESSON 96</span>
-          <p>Watch the video below: <b>Decolonization by </b> By Crash Course </p>
+          <p>Watch the video below: <b>Decolonization by </b> by Crash Course </p>
           <Video videoUrl="https://www.youtube.com/embed/FlMKqRCNX9c"/>     <p>Answer the following
           questions: <br/>
           1. List examples of Empires that ended before the 20th century.<br/> 2. What makes the recent decolonization
@@ -3229,7 +3230,7 @@ const SS7Component = ({ data }) => {
           <span className="days">LESSON 99</span>
           <p>Read <a href={require("../resources/social-studies/ss-pdfs7th/50_WarsinKoreaandVietnam.pdf")}
                      rel="noreferrer"
-                     target="_blank"> Struggles for Democracy :Wars in Korea and Vietnam </a></p>
+                     target="_blank"> Struggles for Democracy: Wars in Korea and Vietnam </a></p>
           <p> After you complete the reading, answer the following questions:<br/>
             1. For each term or name, write a sentence explaining its significance.
             <br/>
@@ -3745,7 +3746,7 @@ const SS7Component = ({ data }) => {
             countries are located by clicking on each country. The country's name will appear. When you're ready, click on "Start Quiz." Practice memorizing country location for 20 minutes. You can <a
             href="https://timer.athomemiddleschool.com/"
             rel="noreferrer"
-            target="_blank">set a 20 minute timer here</a>. After playing for 20 minutes, record your top score below.</span>
+            target="_blank">set a 20 minute timer here</a>. Record your top score below.</span>
           </p><br/>
 
           <textarea className="textArea" onChange={onChangeSS7Listener122} value={SS7Essay122}/>

@@ -779,7 +779,7 @@ const SpanishComponent = ({ data }) => {
 
           <Video videoUrl="https://www.youtube.com/embed/kzWZi03KM2U?list=PL_bC0YvGkS4Qv3DswsEkYTJqAU93HU9cz"/>
           <Video videoUrl="https://www.youtube.com/embed/POdNffXOJ-o"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>How common is the Spanish language in the world? Is it the 1st, 2nd, 3rd or 4th most commonly spoken
               language?
@@ -828,7 +828,7 @@ const SpanishComponent = ({ data }) => {
           <p>Instead of doing a lesson today on Duolingo, you will watch a video on how to get the most out of using the
             site to learn Spanish. Watch the video below and take notes on the tips the narrator gives.</p>
           <Video videoUrl="https://www.youtube.com/embed/Vhz2HGy6Eqc"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>How would you introduce yourself in Spanish?</li>
             <li>How do you say "I am going for tortillas" in Spanish?</li>
@@ -846,7 +846,7 @@ const SpanishComponent = ({ data }) => {
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/oG8jLhqAiuk?list=PL_bC0YvGkS4Qv3DswsEkYTJqAU93HU9cz"/>
           <Video videoUrl="https://www.youtube.com/embed/DAp_v7EH9AA?list=PL0Oc2Ifknsbw4iyT4mITzlhzLxbvY7xMa"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Is it easier to form sentences in Spanish or in English? Why is this?</li>
             <li>Give an example of how you write a question in Spanish.</li>
@@ -866,7 +866,7 @@ const SpanishComponent = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/3_xeBvVcXS4?list=PL_bC0YvGkS4Qv3DswsEkYTJqAU93HU9cz"/>
           <Video videoUrl="https://www.youtube.com/embed/bK4EBWp3suk?list=PL0Oc2Ifknsbw4iyT4mITzlhzLxbvY7xMa"/>
           <Video videoUrl="https://www.youtube.com/embed/ZAl_NoT2G_M"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>What are some things that are different when you write in Spanish?</li>
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
@@ -885,7 +885,7 @@ const SpanishComponent = ({ data }) => {
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/NGUncIE9hgU?list=PL_bC0YvGkS4Qv3DswsEkYTJqAU93HU9cz"/>
           <Video videoUrl="https://www.youtube.com/embed/4ehG-7v21NQ?list=PL0Oc2Ifknsbw4iyT4mITzlhzLxbvY7xMa"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
               English. Write these phrases in Spanish and then translate to English.
@@ -903,7 +903,7 @@ const SpanishComponent = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/H0jOKhPrSAU?list=PL_bC0YvGkS4Svpvjvpu7U-3stjplGJMR-"/>
           <Video videoUrl="https://www.youtube.com/embed/tP3HjcaqAlM?list=PL0Oc2Ifknsbw4iyT4mITzlhzLxbvY7xMa"/>
           <Video videoUrl="https://www.youtube.com/embed/Ni-YnsF72AY?list=PL0Oc2Ifknsbw4iyT4mITzlhzLxbvY7xMa"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Write the numbers 1-20 in spanish.</li>
             <li>List the seasons in Spanish.</li>
@@ -924,7 +924,7 @@ const SpanishComponent = ({ data }) => {
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/SoPiuMh6lnQ?list=PL_bC0YvGkS4Svpvjvpu7U-3stjplGJMR-"/>
           <Video videoUrl="https://www.youtube.com/embed/a2xGsvoW7Wk?list=PL0Oc2Ifknsbw4iyT4mITzlhzLxbvY7xMa"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>How do you greet someone in Spanish?</li>
             <li>Wite the numbers 21, 32, 43, 54, 65, 76, 87, 98, 100 in Spanish.</li>
@@ -943,7 +943,7 @@ const SpanishComponent = ({ data }) => {
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/EQ2637RI7ns?list=PL_bC0YvGkS4Svpvjvpu7U-3stjplGJMR-"/>
           <Video videoUrl="https://www.youtube.com/embed/NNt_O6slObg?list=PL0Oc2Ifknsbw4iyT4mITzlhzLxbvY7xMa"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>How do you ask someone in Spanish if they speak English?</li>
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
@@ -961,7 +961,7 @@ const SpanishComponent = ({ data }) => {
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/ppbVQZ89h20?list=PL_bC0YvGkS4Svpvjvpu7U-3stjplGJMR-"/>
           <Video videoUrl="https://www.youtube.com/embed/6cQPHAPROnY?list=PL0Oc2Ifknsbw4iyT4mITzlhzLxbvY7xMa"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>How do you apologize in Spanish?</li>
             <li>How do you ask someone how they are feeling?</li>
@@ -980,7 +980,7 @@ const SpanishComponent = ({ data }) => {
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/lZMMqMvY1d0?list=PLjHgrj6tC7AaUmiqReLL3VxDKKwX4QhZ2"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>What are the names of the characters in the video?</li>
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
@@ -997,7 +997,7 @@ const SpanishComponent = ({ data }) => {
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/EgJDqM3sDL8?list=PLjHgrj6tC7AaUmiqReLL3VxDKKwX4QhZ2"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>How do you ask what time it is in Spanish?</li>
             <li>Briefly describe what happens in this episode of "Learn Spanish for Beginners."</li>
@@ -1015,7 +1015,7 @@ const SpanishComponent = ({ data }) => {
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/F_cKEcoIHAU?list=PLjHgrj6tC7AaUmiqReLL3VxDKKwX4QhZ2"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>In Spanish, state in a complete sentence where the characters go on a date in this episode of "Learn
               Spanish for Beginners."
@@ -1034,7 +1034,7 @@ const SpanishComponent = ({ data }) => {
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/xPsn35IudKc?list=PLjHgrj6tC7AaUmiqReLL3VxDKKwX4QhZ2"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Describe in Spanish what happens in this episode of "Learn Spanish for Beginners."</li>
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
@@ -1053,7 +1053,7 @@ const SpanishComponent = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/SSjmWPgpphI?list=PL0Oc2Ifknsbw4iyT4mITzlhzLxbvY7xMa"/>
           <Video videoUrl="https://www.youtube.com/embed/6KwxK1MCMbo?list=PL_bC0YvGkS4Svpvjvpu7U-3stjplGJMR-"/>
           <Video videoUrl="https://www.youtube.com/embed/hsLYD1Jyf3A?list=PLkjyx6Il3YUZNNLN104RhAW_NdanQgVEN"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Write 10 words you learned. Write them in both Spanish and English. For example: <i>por favor =
               please</i></li>
@@ -1073,7 +1073,7 @@ const SpanishComponent = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/kJL-e2iJxHA?list=PL_bC0YvGkS4Qv3DswsEkYTJqAU93HU9cz"/>
           <p>No sign ups or subscriptions are required to watch this video or complete this course.</p>
           <Video videoUrl="https://www.youtube.com/embed/t7-nb1wlnyA?list=PL_bC0YvGkS4Svpvjvpu7U-3stjplGJMR-"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Write 10 words you learned. Write them in Spanish and in English. <br/>For example: <i>1. por favor =
               please.</i></li>
@@ -1090,7 +1090,7 @@ const SpanishComponent = ({ data }) => {
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/_ugU3pU89pY?list=PL_bC0YvGkS4Svpvjvpu7U-3stjplGJMR-"/>
           <Video videoUrl="https://www.youtube.com/embed/CzOmAG729Lw?list=PL_bC0YvGkS4Svpvjvpu7U-3stjplGJMR-"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Write the body parts you learned in Spanish. Write them in Spanish and translate to English.</li>
             <li>Write 6 vegetables in Spanish and then translate to English.</li>
@@ -1105,7 +1105,7 @@ const SpanishComponent = ({ data }) => {
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/jHqxgPXGr-M?list=PLjHgrj6tC7AaUmiqReLL3VxDKKwX4QhZ2"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>What goes wrong at the concert? What did they find in the theatre? Answer in a complete sentences in
               Spanish.
@@ -1124,7 +1124,7 @@ const SpanishComponent = ({ data }) => {
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/aVNf1B0nNf4?list=PLjHgrj6tC7AaUmiqReLL3VxDKKwX4QhZ2"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Describe in Spanish what happens in this episode of "Learn Spanish for Beginners."</li>
             <li>What are the different flavors of ice cream shown in the video? Write them in Spanish.</li>
@@ -1197,7 +1197,7 @@ const SpanishComponent = ({ data }) => {
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/gOZFrwTTgok"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <p>Translate the following words from the video into Spanish: </p>
             <li>pen</li>
@@ -1248,7 +1248,7 @@ const SpanishComponent = ({ data }) => {
             You can slow down the playback speed if they speak too quickly.</p>
           <Video videoUrl="https://www.youtube.com/embed/6lGEo-KXIuA?list=PLhjShqHC6R2Z7sPtji2GQtOgs7u7PxQHd"/>
           <Video videoUrl="https://www.youtube.com/embed/sQND3WdnIjg?list=PLA5UIoabheFM7agDaTy7VItg8vu_UuFs6"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Write 20 of your favorite words from the video. Write them in Spanish, then English.
               For example: <i>el barco = the boat</i></li>
@@ -1263,7 +1263,7 @@ const SpanishComponent = ({ data }) => {
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/F-hu-kxZ-xc?list=PLA5UIoabheFM7agDaTy7VItg8vu_UuFs6"/>
           <Video videoUrl="https://www.youtube.com/embed/prFaX69m-wo?list=PLkjyx6Il3YUYWNS7C1N_qnPS-w-NWEgD9"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>What did Baruch see in the library? Answer in Spanish in complete sentences.</li>
             <li>List all the different ways to say "hot" in Spanish.</li>
@@ -1278,7 +1278,7 @@ const SpanishComponent = ({ data }) => {
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/82nmyWfWBYg?list=PLA5UIoabheFM7agDaTy7VItg8vu_UuFs6"/>
           <Video videoUrl="https://www.youtube.com/embed/zqbwd3natNA?list=PL0Oc2Ifknsbw4iyT4mITzlhzLxbvY7xMa"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Write 5 new Spanish phrases you learned from the video. 
             </li>
@@ -1292,7 +1292,7 @@ const SpanishComponent = ({ data }) => {
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/3J8_JM7Qiss?list=PLhj8d_ZijD0vopuloaa0QW-OHZfD--Ntb"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>What are some tips to sound more like a native Spanish speaker?</li>
             <li>What are the most common mistakes made when speaking Spanish?</li>
@@ -1341,7 +1341,7 @@ const SpanishComponent = ({ data }) => {
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/kHFWV-wvwCM?list=PLkjyx6Il3YUZNNLN104RhAW_NdanQgVEN"/>
           <Video videoUrl="https://www.youtube.com/embed/AxXvPAmP6Qc?list=PLA5UIoabheFM7agDaTy7VItg8vu_UuFs6"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Describe when you would use Usted versus Tú.</li>
             <li>Write 3 sentences in Spanish using the word "para."</li>
@@ -1375,7 +1375,7 @@ const SpanishComponent = ({ data }) => {
               href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/4FjSyvyFmvM?list=PLkjyx6Il3YUZNNLN104RhAW_NdanQgVEN"/>
           <Video videoUrl="https://www.youtube.com/embed/iELHkBHiKMc?list=PLA5UIoabheFM7agDaTy7VItg8vu_UuFs6"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>What are the 12 months of the year in Spanish?</li>
             <li>Describe in Spanish how Mexicans celebrate Christmas?</li>
@@ -1406,7 +1406,7 @@ const SpanishComponent = ({ data }) => {
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/BFmmvdANZl0?list=PLkjyx6Il3YUZNNLN104RhAW_NdanQgVEN"/>
           <Video videoUrl="https://www.youtube.com/embed/j9vRrhheCUM?list=PLA5UIoabheFM7agDaTy7VItg8vu_UuFs6"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>What is the differences between "ser" and "estar"?</li>
             <li>Write a sentence that uses the verb ser.</li>
@@ -1426,7 +1426,7 @@ const SpanishComponent = ({ data }) => {
               href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/oR1XOb7zPsM?list=PLkjyx6Il3YUZNNLN104RhAW_NdanQgVEN"/>
           <Video videoUrl="https://www.youtube.com/embed/Giu9wFPA0Wg?list=PLA5UIoabheFM7agDaTy7VItg8vu_UuFs6"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>How would you write, "It is 7:00?"</li>
             <li>How would you write, "It is 8:30?"</li>
@@ -1443,7 +1443,7 @@ const SpanishComponent = ({ data }) => {
           <span className="days">LESSON 37 </span>
           <p className="topBottom">Watch the video and answer the questions below.</p>
           <Video videoUrl="https://www.youtube.com/embed/LGMKg6MUdxI?list=PLkjyx6Il3YUZqkAN9UqsY66cvWvnIa7mF"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Which 10 phrases from the video do you believe you would use the most if you went to a
               Spanish speaking country? Be sure to write the responses in Spanish with the translation included. Also,
@@ -1474,7 +1474,7 @@ const SpanishComponent = ({ data }) => {
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/Ip7cs1D5tTQ?list=PLA5UIoabheFM7agDaTy7VItg8vu_UuFs6"/>
           <Video videoUrl="https://www.youtube.com/embed/UctLSz971Vk?list=PLkjyx6Il3YUZNNLN104RhAW_NdanQgVEN"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Write 5 different ways to say goodbye in Spanish. Which one is your favorite or the one you are likely
               to use most?
@@ -1516,7 +1516,7 @@ const SpanishComponent = ({ data }) => {
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/ylKWkYVNzuk"/>
           <Video videoUrl="https://www.youtube.com/embed/0UmLNeqW39c?list=PLA5UIoabheFM7agDaTy7VItg8vu_UuFs6"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>How do you write "Children play with sand at the beach" in Spanish?</li>
             <li>Write 5 new phrases you learned from either video.</li>
@@ -1559,7 +1559,7 @@ const SpanishComponent = ({ data }) => {
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/_94m267xLEA?list=PLhj8d_ZijD0vopuloaa0QW-OHZfD--Ntb"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Describe the different meanings that the verb quedar has.</li>
             <li>Write 5 sentences that use the verb quedar. Each sentence should use a different meaning than the
@@ -1574,7 +1574,7 @@ const SpanishComponent = ({ data }) => {
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/BQOPSJ67fbQ?list=PLkjyx6Il3YUZlnm7Y1CzL3nwh6JJcxEfW"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>What is a mistake often made when someone says "I like". What is the proper way to say you like
               something in Spanish?
@@ -1606,7 +1606,7 @@ const SpanishComponent = ({ data }) => {
 
           <Video videoUrl="https://www.youtube.com/embed/jZR9Urqs7DQ?list=PLkjyx6Il3YUZNNLN104RhAW_NdanQgVEN"/>
           <Video videoUrl="https://www.youtube.com/embed/by7hNcJamYI?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>How would you say, "Is the cat fat?" in Spanish?</li>
             <li>How would you say, "The girl is tall" in Spanish?</li>
@@ -1622,7 +1622,7 @@ const SpanishComponent = ({ data }) => {
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/b33kXdfvf84?list=PLkjyx6Il3YUZqkAN9UqsY66cvWvnIa7mF"/>
           <Video videoUrl="https://www.youtube.com/embed/0btEK0H3B2M?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>How would you order 4 tortillas and 3 drinks in Spanish?</li>
             <li>How would you ask for the bill in Spanish?</li>
@@ -1638,7 +1638,7 @@ const SpanishComponent = ({ data }) => {
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/KD28uPyLjlU?list=PLkjyx6Il3YUZNNLN104RhAW_NdanQgVEN"/>
           <Video videoUrl="https://www.youtube.com/embed/XcS-qKBm7UE?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>What are the 10 most common questions in Spanish? Number your responses.</li>
             <li>Write 5 new phrases you learned from Easy Spanish.</li>
@@ -1652,7 +1652,7 @@ const SpanishComponent = ({ data }) => {
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/awswL1EMRoc?list=PLkjyx6Il3YUZNNLN104RhAW_NdanQgVEN"/>
           <Video videoUrl="https://www.youtube.com/embed/JAU3bdK2h10?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Write out the number 1230 in Spanish.</li>
             <li>Write out the number 967 in Spanish.</li>
@@ -1667,7 +1667,7 @@ const SpanishComponent = ({ data }) => {
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/qEwEkpPAXkg"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>What happens in this episode of Extra Spanish? Write your answer in Spanish.
               You may use a <a href="https://www.spanishdict.com/" rel="noreferrer" target="_blank">translator</a> to
@@ -1683,7 +1683,7 @@ const SpanishComponent = ({ data }) => {
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/z7L9dYqSW1g?list=PLhj8d_ZijD0vopuloaa0QW-OHZfD--Ntb"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>What was your favorite idiom form the video?</li>
             <li>Write 5 idioms you learned in the video. Write your answer in Spanish and then translate it.</li>
@@ -1697,7 +1697,7 @@ const SpanishComponent = ({ data }) => {
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/K3XN9ohrXYU?list=PLkjyx6Il3YUZqkAN9UqsY66cvWvnIa7mF"/>
           <Video videoUrl="https://www.youtube.com/embed/2UUR2665lbY?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li><i>Translate the following into Spanish:</i> How is the weather?</li>
             <li>It is very cold.</li>
@@ -1714,7 +1714,7 @@ const SpanishComponent = ({ data }) => {
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/2SYio0mbDUw?list=PLhj8d_ZijD0vopuloaa0QW-OHZfD--Ntb"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>What is Spangish and why should you try to avoid using it.</li>
             <li>Write 2 <i>Spanglish</i> phrases you heard in the video or make up your own.</li>
@@ -1727,7 +1727,7 @@ const SpanishComponent = ({ data }) => {
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/jV0f73QeM2I?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Write 5 new phrases you learned from the video.</li>
             <li>What do you think the future will look like? Write your answer in Spanish. You may use a <a
@@ -1773,7 +1773,7 @@ const SpanishComponent = ({ data }) => {
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/Dw7GsfcoZP4?list=PLCdEl60d0eroQ1M0lc-S6rD1aQCE6HRwl"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Write 8 new words you learned in the video.</li>
             <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
@@ -1785,7 +1785,7 @@ const SpanishComponent = ({ data }) => {
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/4Er6TzleQTg?list=PLCdEl60d0eroQ1M0lc-S6rD1aQCE6HRwl"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Write 5 new verbs you learned. Write the words in Spanish and then English.</li>
             <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
@@ -1986,7 +1986,7 @@ const SpanishComponent = ({ data }) => {
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/cXBGS3lDBQo?list=PLCdEl60d0eroQ1M0lc-S6rD1aQCE6HRwl"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Write 5 adverbs in Spanish and translate them to English.</li>
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
@@ -2002,7 +2002,7 @@ const SpanishComponent = ({ data }) => {
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/pe5p-mUFIZM?list=PLkjyx6Il3YUZlnm7Y1CzL3nwh6JJcxEfW"/>
           <Video videoUrl="https://www.youtube.com/embed/BKJDlyQrHLk?list=PLCdEl60d0eroQ1M0lc-S6rD1aQCE6HRwl"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>What's the difference between tomar and beber? When do you use each verb?</li>
             <li>Use the verb beber in a sentence.</li>
@@ -2020,7 +2020,7 @@ const SpanishComponent = ({ data }) => {
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/zwyhqLAknf4?list=PLkjyx6Il3YUYWNS7C1N_qnPS-w-NWEgD9"/>
           <Video videoUrl="https://www.youtube.com/embed/VhAiG4vUUXY?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Write 5 ways to say "No" in Spanish.</li>
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
@@ -2047,7 +2047,7 @@ const SpanishComponent = ({ data }) => {
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/HYDPe6gRPTk?list=PLkjyx6Il3YUYWNS7C1N_qnPS-w-NWEgD9"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>What are the different ways to say 'I'm sorry' in Spanish?</li>
             <li>Write 5 new words you learned.</li>
@@ -2060,7 +2060,7 @@ const SpanishComponent = ({ data }) => {
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/dSFC4URKaXs?list=PLkjyx6Il3YUYWNS7C1N_qnPS-w-NWEgD9"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Write 5 new phrases and 5 new words you learned in the video on love expressions.</li>
             <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
@@ -2085,7 +2085,7 @@ const SpanishComponent = ({ data }) => {
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/9JZ8jdqOuKw?list=PLkjyx6Il3YUYWNS7C1N_qnPS-w-NWEgD9"/>
           <Video videoUrl="https://www.youtube.com/embed/bwuHgN_OKqs?list=PLCdEl60d0eroQ1M0lc-S6rD1aQCE6HRwl"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Write 5 different ways you can agree with someone in Spanish.</li>
             <li>Use the verb 'saber' in a sentence and translate it to English.</li>
@@ -2104,7 +2104,7 @@ const SpanishComponent = ({ data }) => {
 
           <Video videoUrl="https://www.youtube.com/embed/Hb-vdn70f4s?list=PLkjyx6Il3YUYWNS7C1N_qnPS-w-NWEgD9"/>
           <Video videoUrl="https://www.youtube.com/embed/szFpEUW9u_s?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Explain what 'ya' means.</li>
             <li> Give 2 examples of how to use 'ya' in a sentence.</li>
@@ -2119,7 +2119,7 @@ const SpanishComponent = ({ data }) => {
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/vrwROaFslII?list=PLCdEl60d0eroQ1M0lc-S6rD1aQCE6HRwl"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Which verbs are the '3 Enemigos'?</li>
             <li>Why does Jordan describe them this way in the video?</li>
@@ -2155,7 +2155,7 @@ const SpanishComponent = ({ data }) => {
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/5ZNdo5kHL-E?list=PLhj8d_ZijD0vopuloaa0QW-OHZfD--Ntb"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>What are 5 words that don't exist in Spanish?</li>
             <li>Write 5 new phrases you learned from the video.</li>
@@ -2201,7 +2201,7 @@ const SpanishComponent = ({ data }) => {
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/VNnJ94fZXT4?list=PLCdEl60d0eroQ1M0lc-S6rD1aQCE6HRwl"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>How do you say in Spanish "Give me a Coke please."</li>
             <li>Write 5 new words you learned in the video.</li>
@@ -2296,7 +2296,7 @@ const SpanishComponent = ({ data }) => {
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/exI7iHgMKRs"/>
           <Video videoUrl="https://www.youtube.com/embed/qhHW5JGhX6A?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Write 5 new Spanish phrases you learned from the video. Using complete sentences, write your answers in Spanish and then translate them into English.
             </li>
@@ -2364,7 +2364,7 @@ const SpanishComponent = ({ data }) => {
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/Ua0_D7GxNuc?list=PLkjyx6Il3YUZlnm7Y1CzL3nwh6JJcxEfW"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>What are the five ways to use the verb 'alcanzar'?</li>
             <li>Write 5 new Spanish phrases you learned from the video. Write them in Spanish and then translate them to
@@ -2510,9 +2510,8 @@ const SpanishComponent = ({ data }) => {
                     <p><strong>QUESTIONS - Using complete sentences, write your answers in Spanish and then translate them into English.</strong></p>
           <ol className="vocab">
             <li>Describe when you use the verb <i>tocar</i> versus jugar. What is the difference?</li>
-            <li>Use tocar in a sentence</li>
-            <li>Use jugar in a sentence.</li>
-
+            <li>Use the verb tocar in a sentence</li>
+            <li>Use the verb jugar in a sentence.</li>
             <li>Write 5 new Spanish phrases you learned from the video. 
             </li>
             <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
@@ -2528,7 +2527,7 @@ const SpanishComponent = ({ data }) => {
                     <p><strong>QUESTIONS - Using complete sentences, write your answers in Spanish and then translate them into English.</strong></p>
           <ol className="vocab">
             <li>Do you believe in any superstitions? If so, explain what they are and if not explain why you don't
-              believe in them in Spanish
+              believe in them (in Spanish).
             </li>
             <li>Which superstition discussed in the video was the most interesting?</li>
 
@@ -2638,7 +2637,7 @@ const SpanishComponent = ({ data }) => {
                     <p><strong>QUESTIONS - Using complete sentences, write your answers in Spanish and then translate them into English.</strong></p>
           <ol className="vocab">
             <li>Did you learn anything interesting or new about Mexico or Canada that you didn't know before?</li>
-            <li>What were the differences between Canada and Mexico discussed. Respond in Spanish.</li>
+            <li>What were the differences between Canada and Mexico that were discussed in the video. Answer in Spanish.</li>
             <li>Write 5 new Spanish phrases you learned from the video. 
             </li>
             <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
@@ -2725,7 +2724,7 @@ const SpanishComponent = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/kQUE3FJoG30?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <p><strong>QUESTIONS - Using complete sentences, write your answers in Spanish and then translate them into English.</strong></p>
           <ol className="vocab">
-            <li>In Spanish describe who you look up to.</li>
+            <li>In Spanish, describe who you look up to and why.</li>
             <li>Write 5 new Spanish phrases you learned from the video. 
             </li>
             <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
@@ -2752,7 +2751,7 @@ const SpanishComponent = ({ data }) => {
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/IGvH1c532pg?list=PLkjyx6Il3YUZlnm7Y1CzL3nwh6JJcxEfW"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Write 5 statements in Spanish using the verb "to go". Use a different pronoun for each sentence. (Yo,
               Tu, Usted, Nosotros, Ustedes)
@@ -2824,7 +2823,7 @@ const SpanishComponent = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/17TFsZFtf4E?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <p><strong>QUESTIONS - Using complete sentences, write your answers in Spanish and then translate them into English.</strong></p>
           <ol className="vocab">
-            <li>What would you do in Barcelona with 10 Euros? This is close to 10 dollars. Answer in Spanish.</li>
+            <li>What would you do in Barcelona with 10 Euros? This is close to 10 US dollars. Answer in Spanish.</li>
 
             <li>Write 5 new Spanish phrases you learned from the video. 
             </li>
@@ -2839,7 +2838,7 @@ const SpanishComponent = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/n7Ma6Vu7COs?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <p><strong>QUESTIONS - Using complete sentences, write your answers in Spanish and then translate them into English.</strong></p>
           <ol className="vocab">
-            <li>Which Spanish dish sounded the best. Explain why in Spanish.</li>
+            <li>Which Spanish dish sounded the best? Explain why in Spanish.</li>
             <li>Write 5 new Spanish phrases you learned from the video. 
             </li>
             <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
@@ -2926,7 +2925,7 @@ const SpanishComponent = ({ data }) => {
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/TnFLuQPPoYg?list=PLkjyx6Il3YUZlnm7Y1CzL3nwh6JJcxEfW"/>
-          <p><strong>QUESTIONS - Using complete sentences, write your answers in Spanish and then translate them into English.</strong></p>
+          <p><strong>QUESTIONS - Write your answers in Spanish and then translate them into English.</strong></p>
           <ol className="vocab">
             <li>Write 10 new verbs you learned from the video.</li>
             <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
@@ -3051,7 +3050,7 @@ const SpanishComponent = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/8a9vlDiHEYY?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <p><strong>QUESTIONS - Using complete sentences, write your answers in Spanish and then translate them into English.</strong></p>
           <ol className="vocab">
-            <li>In 2-3 sentences, describe your dream job in Spanish.</li>
+            <li>In 2-3 sentences, describe in Spanish your dream job.</li>
 
             <li>Write 5 new Spanish phrases you learned from the video. 
             </li>
@@ -3065,7 +3064,7 @@ const SpanishComponent = ({ data }) => {
             on <a
               href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/P1fAHU8HvVk?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Describe when you would use the word muy versus mucho.</li>
             <li>Describe when you would use the word bien versus bueno.</li>
@@ -3115,7 +3114,7 @@ const SpanishComponent = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/ULkojXvrUVE?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <p><strong>QUESTIONS - Using complete sentences, write your answers in Spanish and then translate them into English.</strong></p>
           <ol className="vocab">
-            <li>In 3-4 sentences, describe your house in Spanish</li>
+            <li>In 3-4 sentences, describe your house and where you live. </li>
             <li>Write 5 new Spanish phrases you learned from the video. 
             </li>
             <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
@@ -3161,7 +3160,7 @@ const SpanishComponent = ({ data }) => {
             on <a
               href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/76jg_xxMBSY?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Describe one of your favorite childhood memories.</li>
             <li>Write 5 new Spanish phrases you learned from the video. 
@@ -3176,10 +3175,10 @@ const SpanishComponent = ({ data }) => {
             on <a
               href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/rZlgsB2Jj3w?list=PLkjyx6Il3YUZlnm7Y1CzL3nwh6JJcxEfW"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Give 8 different different examples of how to use the verb <i>dejar</i> in a sentence. Make sure your
-              examples are all different from each other.
+              examples are all different from each other and you translate them to English.
             </li>
             <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
                                                                  target="_blank"> Duolingo. </a></li>
@@ -3210,7 +3209,7 @@ const SpanishComponent = ({ data }) => {
             on <a
               href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/RNeBpdZxOnU?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>In Spanish, how would you ask "What do you have to do today?"</li>
             <li>In Spanish, how would you say "I must go to see my mother tomorrow."</li>
@@ -3321,7 +3320,7 @@ const SpanishComponent = ({ data }) => {
           <Video videoUrl="https://www.youtube.com/embed/6jje84ArIOo?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
           <p><strong>QUESTIONS - Using complete sentences, write your answers in Spanish and then translate them into English.</strong></p>
           <ol className="vocab">
-            <li>Write a text to a friend in Spanish (2-3 lines).</li>
+            <li>Write a text to a friend in Spanish (2-4 lines). Ask them how they are and share with them things you've been doing lately. </li>
             <li>Write 5 new Spanish phrases you learned from the video. 
             </li>
             <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
@@ -3462,8 +3461,7 @@ const SpanishComponent = ({ data }) => {
           <p><strong>QUESTIONS - Using complete sentences, write your answers in Spanish and then translate them into English.</strong></p>
           <ol className="vocab">
             <li>In Spanish, describe what you think would be the most exciting profession.</li>
-            <li>What do you think would be the most difficult profession to pursue? Explain why it would be so
-              difficult.
+            <li>What do you think would be the most difficult or unappealing profession to pursue? Explain why.
             </li>
             <li>Write 5 new Spanish phrases you learned from the video. 
             </li>
@@ -3494,7 +3492,7 @@ const SpanishComponent = ({ data }) => {
             on <a
               href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/E_5odbq_Hlc?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Write 5 Spanish sayings you learned from the video and translate them to English.</li>
             <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
@@ -3524,9 +3522,9 @@ const SpanishComponent = ({ data }) => {
             on <a
               href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/e13APANAP0I?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
-            <li>In Spanish, describe yourself, on the inside and outside. Write no less than 5 sentences).</li>
+            <li>In Spanish, describe yourself, on the inside and outside. Write no less than 5 sentences.</li>
             <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
                                                                  target="_blank"> Duolingo. </a></li>
           </ol>
@@ -3555,7 +3553,7 @@ const SpanishComponent = ({ data }) => {
             on <a
               href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/SCS1dJ35lig?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Describe in Spanish what you are doing today.</li>
             <li>Write 5 new Spanish phrases you learned from the video. 
@@ -3569,7 +3567,7 @@ const SpanishComponent = ({ data }) => {
           <p className="topBottom">Watch the video, answer the questions below and complete a full lesson on <a
             href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/34ghjnIX3D4?list=PLhj8d_ZijD0vopuloaa0QW-OHZfD--Ntb"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>What does "Este Wey" translate to in English?</li>
             <li>What does "y lo voy a sacar" mean?</li>
@@ -3584,24 +3582,16 @@ const SpanishComponent = ({ data }) => {
             on <a
               href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/F1D_L94WDJk?list=PLQGxDRfENoxLjuS5SVOsASrAuJfakQQ13"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">
             <li>Earlier in this course there was an Easy Spanish video where people in Mexico City (Lesson 139)
               and Parque Mexico (Lesson 165)
               were asked similar questions about their professions. What were differences between
-              the people in Mexico's cities and people in Barcelona? Explain.
-            </li>
-            <li>The accents of people in Barcelona are different than people in Mexico. Which do you find easier to
-              understand?
-            </li>
-            <li>Not everyone in the video said they pursued their dream job; for example, the nurse did not. How
-              important
-              do you think it is for a person to pursue their dream job? Answer in Spanish.
-            </li>
+              the people in Mexico's cities and people in Barcelona, Spain? Explain.</li>
+            <li>The accents of people in Barcelona are different than people in Mexico. Which do you find easier to understand?</li>
+            <li>Not everyone in the video said they pursued their dream job; for example, the nurse did not. How important do you think it is for a person to pursue their dream job? Answer in Spanish.</li>
             <li>Which job seemed the most interesting to you from this video? Explain why in Spanish.</li>
-
-            <li>Write 5 new Spanish phrases you learned from the video. 
-            </li>
+            <li>Write 5 new Spanish phrases you learned from the video.</li>
             <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
                                                                  target="_blank"> Duolingo. </a></li>
           </ol>
@@ -3688,7 +3678,7 @@ const SpanishComponent = ({ data }) => {
             on <a
               href="https://www.duolingo.com/" rel="noreferrer" target="_blank">Duolingo.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/_ePLrIJk_Ow?list=PLkjyx6Il3YUYWNS7C1N_qnPS-w-NWEgD9"/>
-          <h4>QUESTIONS</h4>
+          <p><strong>QUESTIONS</strong></p>
           <ol className="vocab">In Spanish, how would you say the following:<br/>
             <li>I am worried.</li>
             <li>You are confused.</li>
@@ -3716,7 +3706,7 @@ const SpanishComponent = ({ data }) => {
             <li>Which country do you hope to travel to one day? Explain why in Spanish.</li>
             <li>Write 5 new Spanish phrases you learned from the video.</li>
             <li>Imagine you won a free trip. You get to select from any of the Spanish speaking destinations below.
-              Which place do you pick and why would you like to go there? Write your response in Spanish.
+              Which place would you pick and why would you like to go there? Write your response in Spanish.
             </li>
             <li>Write the name of the lesson you completed on <a href="https://www.duolingo.com/" rel="noreferrer"
                                                                  target="_blank"> Duolingo. </a>AND the total number of

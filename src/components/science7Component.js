@@ -779,7 +779,7 @@ const Science7Component = ({ data }) => {
                                                     rel="noreferrer" target="_blank"> account with
                   CK12, </a> you will be prompted to create one when you start the Practice.
                 </li>
-                <li>Answer the questions below (based on the reading and videos).</li>
+                <li>Answer the questions below (based on the reading and videos). For all assignments, answer in complete sentences.</li>
               </ul>
             </p>
             <p className="lessons">
@@ -826,7 +826,7 @@ const Science7Component = ({ data }) => {
                 href="https://flexbooks.ck12.org/cbook/ck-12-middle-school-earth-science-flexbook-2.0/section/1.3/primary/lesson/development-of-hypotheses-ms-es"
                 rel="noreferrer" target="_blank"> 1.3 Developing Hypotheses. </a>
             </p>
-            <p className="lessons">Answer the questions below. <br/>
+            <p className="lessons">Answer the questions below using complete sentences. <br/>
               1. What is a hypothesis?<br/>
               2. Why is it important to have a specific hypothesis?<br/>
               3. How can you test a scientific hypothesis?<br/>
@@ -870,7 +870,6 @@ const Science7Component = ({ data }) => {
               police cause crime? Then why are there more police in Washington, D.C.?
               <br/>
               7. Explain why people often confuse correlation and causation.<br/>
-              8. What was your score on the The Nature of Science: Challenge 1? <br/>
             </p>
             <textarea className="textArea" placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc." onChange={onChangeSci7Listener5} value={sci7Essay5}/>
 
@@ -1066,6 +1065,7 @@ const Science7Component = ({ data }) => {
               7. What is the primary source of the NED's new elevation data?<br/>
               8. What else is LIDAR used for?<br/>
               9. Why is the continued funding of this project important?<br/>
+              10. What was your score on Introduction to Earth Science: Challenge 1?<br/>
             </p>
             <textarea className="textArea" onChange={onChangeSci7Listener16} value={sci7Essay16}/>
 
@@ -1152,6 +1152,8 @@ const Science7Component = ({ data }) => {
               7. How is texture captured?<br/>
               8. What is groundtruthing, and why is it necessary?<br/>
               9. Why is this project important?<br/>
+              10. What was your score on Introduction to Earth Science: Challenge 2?<br/>
+
             </p>
             <textarea className="textArea" onChange={onChangeSci7Listener20} value={sci7Essay20}/>
 
@@ -1218,11 +1220,12 @@ const Science7Component = ({ data }) => {
               7. What is Landsat?<br/>
               8. Why is it important?<br/>
               9. What has been learned from Landsat images?<br/>
+              10. What was your score on Introduction to Earth Science: Challenge 3?<br/>
+
             </p>
             <textarea className="textArea" onChange={onChangeSci7Listener23} value={sci7Essay23}/>
 
-            <span className="days">LESSON 24 </span>
-            <span className="days">Planet Earth  </span>
+            <span className="days">LESSON 24 - Planet Earth  </span>
             <p>Complete the reading, watch the videos and answer the 'Start Practice' questions for
               <a
                 href="https://flexbooks.ck12.org/cbook/ck-12-middle-school-earth-science-flexbook-2.0/section/3.1/primary/lesson/atoms-to-molecules-ms-es"
@@ -1288,7 +1291,7 @@ const Science7Component = ({ data }) => {
               1. What is an axis of rotation? Where is Earth's axis of rotation?<br/>
               2. Why do the Sun, Moon, and stars appear to rise in the east and set in the west?<br/>
               3. What is the length of a day-night cycle? Is it the same everywhere on Earth?<br/>
-              Based on the video <i>Why? Tell Me Why!: Earth Spin</i><br/>
+              Based on the video <i>Why? Tell Me Why! Earth Spin</i><br/>
               4. What is an axis of rotation? Where is Earth's axis of rotation?<br/>
               5. Why do the Sun, Moon, and stars appear to rise in the east and set in the west?<br/>
               6. What is the length of a day-night cycle? Is it the same everywhere on Earth?<br/>
@@ -1343,7 +1346,7 @@ const Science7Component = ({ data }) => {
                 href="https://flexbooks.ck12.org/cbook/ck-12-middle-school-earth-science-flexbook-2.0/section/3.7/primary/lesson/seasons-ms-es"
                 rel="noreferrer" target="_blank"> 3.7 Seasons </a>
             </p>
-            <p>Complete the <a
+            <p>Complete  <a
               href="https://flexbooks.ck12.org/cbook/ck-12-middle-school-earth-science-flexbook-2.0/section/unittest/Test-for-ESC-Unit6-5292199/"
               rel="noreferrer" target="_blank"> Planet Earth Challenge </a></p>
             <p className="lessons">Answer the questions below. <br/>
@@ -1351,6 +1354,8 @@ const Science7Component = ({ data }) => {
               What is happening in the Southern Hemisphere?<br/>
               2. Describe why Earth has seasons. <br/>
               3. What are equinoxes? When do they come?<br/>
+              4. What was your score on Planet Earth Challenge?<br/>
+
             </p>
             <textarea className="textArea" onChange={onChangeSci7Listener30} value={sci7Essay30}/>
 
@@ -1400,6 +1405,8 @@ const Science7Component = ({ data }) => {
                 href="https://flexbooks.ck12.org/cbook/ck-12-middle-school-earth-science-flexbook-2.0/section/3.14/primary/lesson/earths-inner-layers-ms-es"
                 rel="noreferrer" target="_blank"> 3.14 Earth's Inner Layers </a>
             </p>
+            <Video videoUrl="https://www.youtube.com/embed/JGXi_9A__Vc"/>
+
             <p className="lessons">Answer the questions below. <br/>
               1. What are the the layers of Earth, based on composition? Where are they located?<br/>
               2. What is the composition of the different layers?<br/>
@@ -1510,12 +1517,12 @@ const Science7Component = ({ data }) => {
               11. What is at the center of the Earth? Where is it?<br/>
               12. What is the inner core made of? Is it solid, liquid or gas? Why?<br/>
               13. How do scientists know what is below the crust?<br/>
-              14. Write your score for the challenge.<br/>
+              14. What was your score on Planet Earth Challenge 3?<br/>
+
             </p>
             <textarea className="textArea" onChange={onChangeSci7Listener37} value={sci7Essay37}/>
 
-            <span className="days">LESSON 38 </span>
-            <span className="days">Plate Tectonics</span>
+            <span className="days">LESSON 38 - Plate Tectonics</span>
             <p>Complete the reading, watch the videos and answer the 'Start Practice' questions for
               <a
                 href="https://flexbooks.ck12.org/cbook/ck-12-middle-school-earth-science-flexbook-2.0/section/5.1/primary/lesson/continental-drift-ms-es"
@@ -1558,8 +1565,8 @@ const Science7Component = ({ data }) => {
             <Video videoUrl="https://www.youtube.com/embed/rDKiNwTwaNw"/>
             <p className="lessons">Answer the questions below. <br/>
               1. What is the mid-Atlantic Ridge?<br/>
-              2. One day the continents are likely to drift back together. How many years will this take??<br/>
-              3. Who was Alfred Wegner and what did he discover?<br/></p>
+              2. One day the continents are likely to drift back together. How many years will this take?<br/>
+              3. Describe one new thing you learned from the videos.<br/></p>
               <textarea className="textArea" onChange={onChangeSci7Listener40} value={sci7Essay40}/>
 
             <span className="days">LESSON 41 </span>
@@ -1618,8 +1625,8 @@ const Science7Component = ({ data }) => {
             <p className="lessons">Answer the questions below. <br/>
               1. How does the pattern of magnetic stripes give evidence for seafloor spreading?<br/>
               2. How does the topography of the seafloor give evidence for seafloor spreading?<br/>
-              3. How does seafloor spreading fit into the idea that continents move about on Earth’s surface?<br/></p>
-            <textarea className="textArea" onChange={onChangeSci7Listener44} value={sci7Essay44}/>
+              3. How does seafloor spreading fit into the idea that continents move about on Earth’s surface?<br/>
+          4. What was your score for Plate Tectonics: Challenge 1?<br/> </p> <textarea className="textArea" onChange={onChangeSci7Listener44} value={sci7Essay44}/>
 
             <span className="days">LESSON 45 </span>
             <p>Complete the reading, watch the videos and answer the 'Start Practice' questions for
@@ -1704,7 +1711,9 @@ const Science7Component = ({ data }) => {
             <p className="lessons">Answer the questions below. <br/>
               1. What is the direction of plate motion at a transform plate boundary?<br/>
               2. Why are transform faults prone to massive earthquakes?<br/>
-              3. Why are earthquakes at the San Andreas Fault so large?<br/></p>
+              3. Why are earthquakes at the San Andreas Fault so large?<br/>
+              4. What was your score on Plate Tectonics: Challenge 2?<br/>
+            </p>
             <textarea className="textArea" onChange={onChangeSci7Listener50} value={sci7Essay50}/>
 
             <span className="days">LESSON 51 </span>
@@ -1790,11 +1799,12 @@ const Science7Component = ({ data }) => {
             <p className="lessons">Answer the questions below. <br/>
               1. What is a hotspot?<br/>
               2. How do scientists use hotspot volcanism to tell the direction and speed of a plate?<br/>
-              3. Compare and contrast hotspots in the oceans and on continents.<br/></p>
+              3. Compare and contrast hotspots in the oceans and on continents.<br/>
+              4. What was your score on Plate Tectonics Challenge 3?<br/>
+            </p>
             <textarea className="textArea" onChange={onChangeSci7Listener56} value={sci7Essay56}/>
 
-            <span className="days">LESSON 57 </span>
-            <span className="days">Earth's Fresh Water</span>
+            <span className="days">LESSON 57  -  Earth's Fresh Water</span>
             <p>Complete the reading, watch the videos and answer the 'Start Practice' questions for
               <a
                 href="https://flexbooks.ck12.org/cbook/ck-12-middle-school-earth-science-flexbook-2.0/section/8.1/primary/lesson/distribution-of-water-on-earth-ms-es"
@@ -1905,7 +1915,9 @@ const Science7Component = ({ data }) => {
               6. What can make tap water taste better?<br/>
               7. How much water does a front-loading washer save?<br/>
               8. How long should you shower?<br/>
-              9. When should you water your garden? Why?<br/></p>
+              9. When should you water your garden? Why?<br/>
+              10. What was your score on Earth's Fresh Water: Challenge 1?<br/>
+            </p>
             <textarea className="textArea" onChange={onChangeSci7Listener63} value={sci7Essay63}/>
 
             <span className="days">LESSON 64 </span>
@@ -1973,7 +1985,10 @@ const Science7Component = ({ data }) => {
               7. What are the two continental glaciers that remain today? What did North America look like during the
               last Ice Age?<br/>
               8. What happens in the zone of accumulation if more snow accumulates than ice melts? What happens if there
-              is more melting than snowfall?<br/></p>
+              is more melting than snowfall?<br/>
+              9. What was your score on Earth's Fresh Water: Challenge 2 ?<br/>
+            </p>
+            
             <textarea className="textArea" onChange={onChangeSci7Listener67} value={sci7Essay67}/>
 
             <span className="days">LESSON 68 </span>
@@ -2020,6 +2035,8 @@ const Science7Component = ({ data }) => {
               1. What causes a spring?<br/>
               2. Describe how a geyser erupts. <br/>
               3. Where do the minerals in mineral springs come from?<br/>
+              4. What was your score on Earth's Fresh Water: Challenge 3?<br/>
+
             </p>
             <textarea className="textArea" onChange={onChangeSci7Listener70} value={sci7Essay70}/>
 
@@ -2112,11 +2129,12 @@ const Science7Component = ({ data }) => {
               that?<br/>
               8. What is the goal at Hanford?<br/>
               9. What is being done to clean the contaminated groundwater?<br/>
-              10. How are barriers used to clean groundwater?<br/></p>
+              10. How are barriers used to clean groundwater?<br/>
+              11. What was your score on Earth's Fresh Water: Challenge 4?<br/>
+            </p>
             <textarea className="textArea" onChange={onChangeSci7Listener75} value={sci7Essay75}/>
 
-            <span className="days">LESSON 76 </span>
-            <span className="days">Oceans</span>
+            <span className="days">LESSON 76  -  Oceans</span>
             <p>Complete the reading, watch the videos and answer the 'Start Practice' questions for
               <a
                 href="https://flexbooks.ck12.org/cbook/ck-12-middle-school-earth-science-flexbook-2.0/section/9.1/primary/lesson/importance-of-the-oceans-ms-es"
@@ -2168,7 +2186,9 @@ const Science7Component = ({ data }) => {
               6. Where is the dark zone? What lives there?<br/>
               7. Why is little life found in the dark zone?<br/>
               8. What is the abyss? Where is it found?<br/>
-              9. Why are trenches so deep?<br/></p>
+              9. Why are trenches so deep?<br/>
+              10. What was your score on Earth's Oceans: Challenge 1?<br/>
+            </p>
             <textarea className="textArea" onChange={onChangeSci7Listener78} value={sci7Essay78}/>
 
             <span className="days">LESSON 79 </span>
@@ -2205,10 +2225,12 @@ const Science7Component = ({ data }) => {
             <textarea className="textArea" onChange={onChangeSci7Listener80} value={sci7Essay80}/>
 
             <span className="days">LESSON 81 </span>
-            <p>Watch the videos below on coastal pollution.  </p>
+            <p>Watch the videos below on coastal pollution and answer the questions that follow.  
             <Video videoUrl="https://www.youtube.com/embed/fsjvwQclGLo"/>
             <Video videoUrl="https://www.youtube.com/embed/vrPBYS5zzF8?list=RDCMUC9uD-W5zQHQuAVT2GdcLCvg"/>
-
+              1. How are animals in the ocean affected by plastics dumped into the ocean? <br/>
+              2. How big is the Great Pacific Garbage Patch?  <br/> 
+            3. What are three things that you learned or found surprising in the videos?<br/></p>
             <textarea className="textArea" onChange={onChangeSci7Listener81} value={sci7Essay81}/>
 
             <span className="days">LESSON 82 </span>
@@ -2223,11 +2245,12 @@ const Science7Component = ({ data }) => {
             <p className="lessons">Answer the questions below. <br/>
               1. What happened caused the Gulf of Mexico oil spill?<br/>
               2. How can an oil spill be cleaned up? Does cleanup return the region to it's normal state?<br/>
-              3. What can you do to reduce the chance of oil entering the oceans?<br/></p>
+              3. What can you do to reduce the chance of oil entering the oceans?<br/>
+              4. What was your score on Earth's Oceans: Challenge 3?<br/>
+            </p>
             <textarea className="textArea" onChange={onChangeSci7Listener82} value={sci7Essay82}/>
 
-            <span className="days">LESSON 83 </span>
-            <span className="days">Atmospheric Processes</span>
+            <span className="days">LESSON 83  -  Atmospheric Processes</span>
             <p>Complete the reading, watch the videos and answer the 'Start Practice' questions for
               <a
                 href="https://flexbooks.ck12.org/cbook/ck-12-middle-school-earth-science-flexbook-2.0/section/10.1/primary/lesson/importance-of-the-atmosphere-ms-es"
@@ -2307,7 +2330,9 @@ const Science7Component = ({ data }) => {
             <p className="lessons">Answer the questions below. <br/>
               1. What causes convection in the atmosphere?<br/>
               2. How are the layers of the atmosphere divided?<br/>
-              3. What is temperature gradient? If you know that, then what is pressure gradient?<br/></p>
+              3. What is temperature gradient? If you know that, then what is pressure gradient?<br/>
+              10. What was your score on Atmospheric Processes: Challenge 1?<br/>
+            </p>
             <textarea className="textArea" onChange={onChangeSci7Listener87} value={sci7Essay87}/>
 
             <span className="days">LESSON 88 </span>
@@ -2323,11 +2348,10 @@ const Science7Component = ({ data }) => {
             <textarea className="textArea" onChange={onChangeSci7Listener88} value={sci7Essay88}/>
 
             <span className="days">LESSON 89 </span>
-            <p>Complete the reading, watch the videos and answer the 'Start Practice' questions for
-              {/*<a href="" rel="noreferrer" target="_blank"> </a>*/}
-            </p>
-            <p className="lessons">Answer the questions below. <br/></p>
-            <textarea className="textArea" onChange={onChangeSci7Listener89} value={sci7Essay89}/>
+            <p>Watch the videos and answer the questions below.
+            <Video videoUrl="https://www.youtube.com/embed/6LkmD6B2ncs"/>
+              1. Write two new things you learned from this video.<br/></p>
+              <textarea className="textArea" onChange={onChangeSci7Listener89} value={sci7Essay89}/>
 
             <span className="days">LESSON 90 </span>
             <p>Complete the reading, watch the videos and answer the 'Start Practice' questions for
@@ -2380,7 +2404,9 @@ const Science7Component = ({ data }) => {
               7. What is a solar storm?<br/>
               8. How long does it take a solar storm to reach Earth?<br/>
               9. What protects us from solar storms?<br/>
-              10. Why do the aurora typically take place only in the polar regions?<br/></p>
+              10. Why do the aurora typically take place only in the polar regions?<br/>
+              11. What was your score on the Atmospheric Processes: Challenge 2? <br/>
+            </p>
             <textarea className="textArea" onChange={onChangeSci7Listener92} value={sci7Essay92}/>
 
             <span className="days">LESSON 93 </span>
@@ -2504,7 +2530,9 @@ const Science7Component = ({ data }) => {
               9. What type of clouds form at warm fronts?<br/>
               10. What type of precipitation is produced from a warm front?<br/>
               11. What is a stationary front?<br/>
-              12. What type of weather can occur at an occluded front?<br/></p>
+              12. What type of weather can occur at an occluded front?<br/>
+              13. What was your score on Weather: Challenge 1? <br/>
+            </p>
             <textarea className="textArea" onChange={onChangeSci7Listener100} value={sci7Essay100}/>
 
             <span className="days">LESSON 101 </span>
@@ -2534,7 +2562,7 @@ const Science7Component = ({ data }) => {
             <p className="lessons">Answer the questions below. <br/>
 
               1. What causes the tornadoes of Tornado Alley?<br/>
-              2. Draw a diagram showing why tornadoes strike the middle of the U.S.<br/>
+              2. Explain why tornadoes strike the middle of the U.S.<br/>
               3. What circumstances led to all the tornadoes in April 2011?<br/></p>
             <textarea className="textArea" onChange={onChangeSci7Listener102} value={sci7Essay102}/>
 
@@ -2601,7 +2629,9 @@ const Science7Component = ({ data }) => {
               5. What will become the norm in Europe and the Mediterranean?<br/>
               6. What happened in the summer of 2003?<br/>
               7. How many people died in Europe that summer?<br/>
-              8. Why was this catastrophe, caused or exacerbated by global warming, unique?<br/></p>
+              8. Why was this catastrophe, caused or exacerbated by global warming, unique?<br/>
+            9. What was your score on Weather: Challenge 2? <br/>
+            </p>
             <textarea className="textArea" onChange={onChangeSci7Listener106} value={sci7Essay106}/>
 
             <span className="days">LESSON 107 </span>
@@ -2694,7 +2724,9 @@ const Science7Component = ({ data }) => {
               8. What are the characteristics (wind, precipitation, vegetation) seen on the windward side of the Sierra
               Nevada Mountains?<br/>
               9. What are the characteristics (wind, precipitation, vegetation) seen on the leeward side of the Sierra
-              Nevada Mountains?<br/></p>
+              Nevada Mountains?<br/>
+              10. What was your score on Climate: Challenge 1? <br/>
+            </p>
             <textarea className="textArea" onChange={onChangeSci7Listener111} value={sci7Essay111}/>
 
             <span className="days">LESSON 112 </span>
@@ -2780,7 +2812,9 @@ const Science7Component = ({ data }) => {
             <p className="lessons">Answer the questions below. <br/>
               1. What is permafrost?  Where do you think it is found?<br/>
               2. What is tundra?  Why is tundra found at the polar regions and in the high mountains?<br/>
-              3. What are ice caps?  How does the ice accumulate?<br/></p>
+              3. What are ice caps?  How does the ice accumulate?<br/>
+              4. What was your score on Polar Climates: Challenge 2? <br/>
+            </p>
             <textarea className="textArea" onChange={onChangeSci7Listener117} value={sci7Essay117}/>
 
             <span className="days">LESSON 118 </span>
@@ -2879,8 +2913,9 @@ const Science7Component = ({ data }) => {
               <a
                 href="https://flexbooks.ck12.org/cbook/ck-12-middle-school-earth-science-flexbook-2.0/section/12.17/primary/lesson/impact-of-continued-global-warming-ms-es"
                 rel="noreferrer" target="_blank"> 12.17 Impact of Continued Global Warming </a>
-            </p>
-            <p className="lessons">Answer the questions below. <br/>
+              <Video videoUrl="https://www.youtube.com/embed/wbR-5mHI6bo"/></p>
+
+              <p className="lessons">Answer the questions below. <br/>
               1. Pretend that the temperature today is 5° C (9° F) higher than yesterday. Now consider an increase of 5°
               C (9° F) in average global temperature. How are these two scenarios different?<br/>
               2. Why is a rise in sea level significant?<br/>
@@ -2890,6 +2925,7 @@ const Science7Component = ({ data }) => {
               6. Describe the effects of two degrees of warming.<br/>
               7. What changes will occur with three degrees of warming?<br/>
               8. Describe the consequences of four degrees of warming.<br/>
+              9. What are some reasons that stopping climate change is complicated?<br/>
 
             </p>
             <textarea className="textArea" onChange={onChangeSci7Listener123} value={sci7Essay123}/>
@@ -2916,7 +2952,9 @@ const Science7Component = ({ data }) => {
               7. What is CCS being used for today?<br/>
               8. How is CCS done?<br/>
               9. What type of stone is carbon dioxide pumped into?  Why?<br/>
-              10. Why are cap rocks important?  How do scientists know cap rocks work?<br/></p>
+              10. Why are cap rocks important?  How do scientists know cap rocks work?<br/>
+             11. What was your score on the Climate: Challenge 3? <br/>
+            </p>
             <textarea className="textArea" onChange={onChangeSci7Listener124} value={sci7Essay124}/>
 
             <span className="days">LESSON 125 </span>
@@ -2976,7 +3014,9 @@ const Science7Component = ({ data }) => {
             <p className="lessons">Answer the questions below. <br/>
               1. What were the sources of gases in Earth's early atmosphere?<br/>
               2. Where did oxygen come from?  Why is oxygen so important for life on Earth?<br/>
-              3. How did the first oceans form?<br/></p>
+              3. How did the first oceans form?<br/>
+            4. What was your score on the Earth's History: Challenge 1? <br/>
+            </p>
             <textarea className="textArea" onChange={onChangeSci7Listener128} value={sci7Essay128}/>
 
             <span className="days">LESSON 129 </span>
@@ -3055,7 +3095,9 @@ const Science7Component = ({ data }) => {
               1. Why do we know so much more about the Cenozoic than the other eras of geologic time?<br/>
               2. How do plate tectonics processes explain the Rocky Mountains?  The San Andreas Fault?  The
               Himalayas?<br/>
-              3. What were the Pleistocene ice ages?  What did the ice ages do to the evolution of life?<br/></p>
+              3. What were the Pleistocene ice ages?  What did the ice ages do to the evolution of life?<br/>
+              4. What was your score on Earth's History: Challenge 2? <br/>
+            </p>
             <textarea className="textArea" onChange={onChangeSci7Listener133} value={sci7Essay133}/>
 
             <span className="days">LESSON 134 </span>
@@ -3168,7 +3210,9 @@ const Science7Component = ({ data }) => {
             <p className="lessons">Answer the questions below. <br/>
               1. Why is extinction considered a normal part of Earth's history?<br/>
               2. What are some of the possible causes of mass extinctions?<br/>
-              3. Why do many new species evolve after a mass extinction?<br/></p>
+              3. Why do many new species evolve after a mass extinction?<br/>
+              4. What was your score on Evolution and Population: Challenge 1? <br/>
+            </p>
             <textarea className="textArea" onChange={onChangeSci7Listener140} value={sci7Essay140}/>
 
             <span className="days">LESSON 141 </span>
@@ -3253,7 +3297,7 @@ const Science7Component = ({ data }) => {
               7. What is happening to Total Fertility Rate in Africa?  Why does that affect the future prediction of
               population?<br/>
               8. How could the average woman give birth to 0.8 children in her lifetime in Singapore?  (What is 0.8
-              child?<br/>)
+              child?)<br/>
               9. Why is Africa’s total fertility rate relatively high?<br/>
               10. How many people are predicted to live in sub-Saharan Africa by 2100?<br/></p>
             <textarea className="textArea" onChange={onChangeSci7Listener144} value={sci7Essay144}/>
@@ -3299,7 +3343,9 @@ const Science7Component = ({ data }) => {
               7. Why didn't the United States sign the Kyoto treaty?<br/>
               8. List examples of renewable energy sources.<br/>
               9. What can we do to reduce our carbon footprint?<br/>
-              10. How can we reduce the demand for fossil fuels?<br/></p>
+              10. How can we reduce the demand for fossil fuels?<br/>
+              11. What was your score on Evolution and Populations: Challenge 2? <br/>
+            </p>
             <textarea className="textArea" onChange={onChangeSci7Listener146} value={sci7Essay146}/>
 
             <span className="days">LESSON 147 </span>
@@ -3392,7 +3438,9 @@ const Science7Component = ({ data }) => {
               7. What contributes nitrogen to the soil?<br/>
               8. What happens to soil nitrites?<br/>
               9. How is nitrogen released from the soil?<br/>
-              10. Why is this called the nitrogen cycle?<br/></p>
+              10. Why is this called the nitrogen cycle?<br/>
+              11. What was your score on Ecosystems: Challenge 1? <br/>
+            </p>
             <textarea className="textArea" onChange={onChangeSci7Listener151} value={sci7Essay151}/>
 
             <span className="days">LESSON 152 </span>
@@ -3464,7 +3512,9 @@ const Science7Component = ({ data }) => {
               11. What is the mesopelagic zone?  Which organisms live there?<br/>
               12. What color are most of the animals in this zone and why?<br/>
               13. What is bioluminescence?<br/>
-              14. What is the deep scattering layer?<br/></p>
+              14. What is the deep scattering layer?<br/>
+              15. What was your score on Ecosystems: Challenge 2? <br/>
+            </p>
             <textarea className="textArea" onChange={onChangeSci7Listener155} value={sci7Essay155}/>
 
             <span className="days">LESSON 156 </span>
@@ -3596,7 +3646,9 @@ const Science7Component = ({ data }) => {
             <p className="lessons">Answer the questions below. <br/>
               1. Why do we not know exactly when life first evolved on Earth?<br/>
               2. When did life become abundant?<br/>
-              3. Where do humans appear in this graphic?  Is that where you would expect them to be?<br/></p>
+              3. Where do humans appear in this graphic?  Is that where you would expect them to be?<br/>
+              4. What was your score on History of Life on Earth: Challenge? <br/>
+            </p>
             <textarea className="textArea" onChange={onChangeSci7Listener163} value={sci7Essay163}/>
 
             <span className="days">LESSON 164 </span>
@@ -3749,7 +3801,9 @@ const Science7Component = ({ data }) => {
             <p className="lessons">Answer the questions below. <br/>
               1. Why does ore need to be extracted from rock?<br/>
               2. How is ore extracted from rock?<br/>
-              3. Why does extracting ore from rock take a lot of energy?<br/></p>
+              3. Why does extracting ore from rock take a lot of energy?<br/>
+              4. What was your score on Earth's Materials: Challenge 1? <br/>
+            </p>
             <textarea className="textArea" onChange={onChangeSci7Listener172} value={sci7Essay172}/>
 
             <span className="days">LESSON 173 </span>
@@ -3788,7 +3842,9 @@ const Science7Component = ({ data }) => {
             <p className="lessons">Answer the questions below. <br/>
               1. How do the Superfund Act and other government regulations prevent lands from being contaminated?<br/>
               2. What can you do to prevent or lessen the generation of hazardous wastes?<br/>
-              3. How should you dispose of toxic wastes?<br/></p>
+              3. How should you dispose of toxic wastes?<br/>
+              4. What was your score on Earth's Materials: Challenge 2? <br/>
+            </p>
             <textarea className="textArea" onChange={onChangeSci7Listener175} value={sci7Essay175}/>
 
             <span className="days">LESSON 176 </span>
@@ -3833,7 +3889,9 @@ const Science7Component = ({ data }) => {
               10. How do positive and negative charges help to recycle the metal?<br/>
               11. How are gold salts created?<br/>
               12. Are all of the metals used again in computers?  What else could these metals be used for?<br/>
-              13. What do satellites and the space shuttle use gold for?<br/></p>
+              13. What do satellites and the space shuttle use gold for?<br/>
+              14. What was your score on Earth's Materials: Challenge 3? <br/>
+            </p>
             <textarea className="textArea" onChange={onChangeSci7Listener177} value={sci7Essay177}/>
 
             <span className="days">LESSON 178 </span>
@@ -3891,13 +3949,16 @@ const Science7Component = ({ data }) => {
             <p className="lessons">Answer the questions below. <br/>
               1. What are sunspots?  What is a sunspot cycle?<br/>
               2. How are solar prominences related to sunspots?<br/>
-              3. What is being learned from the Solar Dynamics Observatory?<br/></p>
+              3. What is being learned from the Solar Dynamics Observatory?<br/>
+              8. What was your score on the The Solar System: Challenge 1? <br/>
+
+            </p>
             <textarea className="textArea" onChange={onChangeSci7Listener181} value={sci7Essay181}/>
           </div>
         </section>
         <Confetti/>
         <h3 style={{ textAlign: "center", height: "100vh" }}>
-          You finished 7th Grade Science! </h3>
+          You finished 7th Grade Earth Science! </h3>
       </form>
 
     )
