@@ -766,8 +766,7 @@ const SS6Component = ({ data }) => {
           <h1 className="section-title fadeIn">Ancient Civilizations &#38; Geography</h1>
           <span className="days fadeIn">LESSON 1</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/1.1_the_tools_of_history.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read Chapter 1.1 The Tools of History</a></p>
+                target="_blank">Click here to read Chapter 1.1 The Tools of History</a></p>
           <p> After you complete the reading, answer the following questions:<br/>
             1. How does the climate where you live affect your life?<br/>
             2. When you think about the cave paintings found in Lascaux, France, what do you think were the
@@ -795,8 +794,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 2</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/1.2_the_tools_of_history.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>Chapter 1.2 The Tools of History</i></a></p>
+                target="_blank">Click here to read <i>Chapter 1.2 The Tools of History</i></a></p>
           <p>Watch the video below: <b>What can you do with geography? </b></p>
           <Video videoUrl="https://www.youtube.com/embed/6Mj8MTWZX4M"/>
           <p>Answer the following questions. The first 3 are based on the reading.<br/>
@@ -813,8 +811,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 3</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/mapping-the-world.pdf")} rel="noreferrer"
-                target="_blank">Click here to
-            read <i>Mapping the World</i></a></p>
+                target="_blank">Click here to read <i>Mapping the World</i></a></p>
           <p>Watch the video below: <b>Why All World Maps are Wrong</b></p>
 
           <Video videoUrl="https://www.youtube.com/embed/kIID5FDi2JQ"/>
@@ -830,13 +827,12 @@ const SS6Component = ({ data }) => {
 
           <textarea className="textArea"
                     placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
-                    placeholder="Back up your work." onChange={onChangeSS6Listener3}
+                  onChange={onChangeSS6Listener3}
                     value={SS6Essay3}/>
 
           <span className="days">LESSON 4</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/1.3_the_tools_of_history.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>Chapter 1.3 The Tools of History</i></a></p>
+                target="_blank">Click here to read  <i>Chapter 1.3 The Tools of History</i></a></p>
           <p>After you complete the reading, answer the following questions:<br/>
             1. What can archaeologists learn by studying artifacts and fossils?<br/>
             2. What kinds of changes probably encouraged the development of early hominid societies?<br/>
@@ -868,8 +864,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 6</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/1.4_the_tools_of_history.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>Chapter 1.4 The Tools of History</i></a></p>
+                target="_blank">Click here to read  <i>Chapter 1.4 The Tools of History</i></a></p>
           <p>After you complete the reading, answer the following questions:<br/>
             1. How is primary source different from secondary source?<br/>
             2. What are questions historians ask themselves when they study the past?<br/>
@@ -883,8 +878,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 7</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/2.1_the_earliest_human_societies.pdf")}
-                rel="noreferrer" target="_blank">Click
-            here to read <i>Chapter 2.1 The earliest human societies</i></a></p>
+                rel="noreferrer" target="_blank">Read  <i>Chapter 2.1 The earliest human societies</i></a></p>
           <p>Watch the video <b>How Humans Migrated Across The Globe</b></p>
           <Video videoUrl="https://www.youtube.com/embed/CJdT6QcSbQ0"/>
           <p>Watch the video <b>Human Prehistory 101 (Part 1 of 3): Out of (Eastern) Africa </b></p>
@@ -904,8 +898,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 8</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/2.2_the_earliest_human_societies.pdf")}
-                rel="noreferrer" target="_blank">Click
-            here to read <i>Chapter 2.2 The earliest human societies </i></a>
+                rel="noreferrer" target="_blank">Read  <i>Chapter 2.2 The earliest human societies </i></a>
           </p>
           <p>Watch the video <b> Human Prehistory 101 (Part 3 of 3): Agriculture Rocks Our World</b></p>
           <Video videoUrl="https://www.youtube.com/embed/IVHD9wGlbho"/>
@@ -944,8 +937,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 10</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/2.3_the_earliest_human_societies.pdf")}
-                rel="noreferrer" target="_blank">Click
-            here to read <i>Chapter 2.3 The earliest human societies</i></a>
+                rel="noreferrer" target="_blank">Read  <i>Chapter 2.3 The earliest human societies</i></a>
           </p>
           <p>After you complete the reading, answer the following questions:<br/>
             1. How did farming villages develop?<br/>
@@ -968,8 +960,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 12</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/3.1_ancient_mesopotamia.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>Chapter 3.1 Ancient Mesopotamia</i></a>
+                target="_blank">Read <i>Chapter 3.1 Ancient Mesopotamia</i></a>
           </p>
           <p>Watch the video <b>Ancient Mesopotamia 101</b></p>
           <Video videoUrl="https://www.youtube.com/embed/xVf5kZA0HtQ"/>
@@ -986,8 +977,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 13</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/3.2_ancient_mesopotamia.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>Chapter 3.2 Ancient Mesopotamia</i></a>
+                target="_blank">Read <i>Chapter 3.2 Ancient Mesopotamia</i></a>
           </p>
           <p>Watch the video <b>The Rise of Sumer</b></p>
           <Video videoUrl="https://www.youtube.com/embed/MHpmLrWBjnM"/>
@@ -1005,8 +995,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 14</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/3.3_ancient_mesopotamia.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>Chapter 3.3 Ancient Mesopotamia</i></a>
+                target="_blank">Read <i>Chapter 3.3 Ancient Mesopotamia</i></a>
           </p>
 
           <p>Watch the video <b>Mesopotamia: Crash Course World History</b></p>
@@ -1052,8 +1041,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 16</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/4.1_early_empires.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>Chapter 4.1 Early Empires</i></a>
+                target="_blank">Read <i>Chapter 4.1 Early Empires</i></a>
           </p>
           <p>Watch the video <b>Turning Points in History - Hammurabi's Code of Laws</b></p>
           <Video videoUrl="https://www.youtube.com/embed/oDALXORbtR4"/>
@@ -1070,8 +1058,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 17</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/4.2_early_empires.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>Chapter 4.2 Early Empires</i></a>
+                target="_blank">Read <i>Chapter 4.2 Early Empires</i></a>
           </p>
           <p>Watch the video <b>The rise and fall of the Assyrian Empire </b> by Marian H Feldman</p>
           <Video videoUrl="https://www.youtube.com/embed/7pa54hWROpQ"/>
@@ -1086,8 +1073,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 18</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/4.3_early_empires.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>Chapter 4.3 Early Empires</i></a>
+                target="_blank">Read <i>Chapter 4.3 Early Empires</i></a>
           </p>
           <p>Watch the video <b>Cyrus the Great establishes the Achaemenid Empire </b></p>
           <Video videoUrl="https://www.youtube.com/embed/EqEEndY0sT8"/>
@@ -1141,8 +1127,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 20</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/5.1_ancient_egypt.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>Chapter 5.1 Ancient Egypt</i></a>
+                target="_blank">Read <i>Chapter 5.1 Ancient Egypt</i></a>
           </p>
           <p>Watch the video <b>Ancient Egypt </b>by Crash Course</p>
           <Video videoUrl="https://www.youtube.com/embed/Z3Wvw6BivVI"/>
@@ -1157,8 +1142,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 21</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/5.2_ancient_egypt.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>Chapter 5.2 Ancient Egypt</i></a></p>
+                target="_blank">Read <i>Chapter 5.2 Ancient Egypt</i></a></p>
 
           <p>Watch the video <b>Ancient Egypt </b>by Crash Course</p>
           <Video videoUrl="https://www.youtube.com/embed/Z3Wvw6BivVI"/>
@@ -1175,8 +1159,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 22</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/5.3_ancient_egypt.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>Chapter 5.3 Ancient Egypt</i></a>
+                target="_blank">Read <i>Chapter 5.3 Ancient Egypt</i></a>
           </p>
 
           <p>Watch the video <b>Who Built the Pyramids?</b></p>
@@ -1196,8 +1179,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 23</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/5.4_ancient_egypt.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>Chapter 5.4 Ancient Egypt</i></a>
+                target="_blank">Read <i>Chapter 5.4 Ancient Egypt</i></a>
           </p>
 
           <p>Watch the video <b>The Egyptian myth of the death of Osiris </b>by Alex Gendler </p>
@@ -1220,8 +1202,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 24</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/6.1_kush_and_other_african_kingdoms.pdf")}
-                rel="noreferrer" target="_blank">Click here
-            to read <i>Chapter 6.1 Kush and Other African Kingdoms</i></a>
+                rel="noreferrer" target="_blank">Read <i>Chapter 6.1 Kush and Other African Kingdoms</i></a>
           </p>
           <p>Watch the video <b>The Kush Empire </b>by National Geographic</p>
           <Video videoUrl="https://www.youtube.com/embed/b86XE3TbXg0"/>
@@ -1237,8 +1218,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 25</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/6.2_kush_and_other_african_kingdoms.pdf")}
-                rel="noreferrer" target="_blank">Click here
-            to read <i>Chapter 6.2 Kush and Other African Kingdoms</i></a>
+                rel="noreferrer" target="_blank">Read <i>Chapter 6.2 Kush and Other African Kingdoms</i></a>
           </p>
           <p>Watch the video <b>AD and BC Explained </b>(as well as CE and BCE)</p>
           <Video videoUrl="https://www.youtube.com/embed/kDNH4G9iacw"/>
@@ -1260,8 +1240,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 26</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/6.3_kush_and_other_african_kingdoms.pdf")}
-                rel="noreferrer" target="_blank">Click here
-            to read <i>Chapter 6.3 Kush and Other African Kingdoms</i></a>
+                rel="noreferrer" target="_blank">Read <i>Chapter 6.3 Kush and Other African Kingdoms</i></a>
           </p>
           <p>
             1. What were some of the environments that
@@ -1305,8 +1284,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 29</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/8.1_ancient_china.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>Chapter 8.1 Ancient China</i></a>
+                target="_blank">Read <i>Chapter 8.1 Ancient China</i></a>
           </p>
           <p>
             1. Why did Shang settlements begin along the Huang He?<br/>
@@ -1317,8 +1295,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 30</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/8.2_ancient_china.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>Chapter 8.2 Ancient China</i></a>
+                target="_blank">Read <i>Chapter 8.2 Ancient China</i></a>
           </p>
           <p>
             1. What actions did Confucius believe would bring order to China?<br/>
@@ -1332,8 +1309,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 31</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/8.3_ancient_china.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>Chapter 8.3 Ancient China</i></a>
+                target="_blank">Read <i>Chapter 8.3 Ancient China</i></a>
           </p>
           <p>Watch the video <b>The incredible history of China's terracotta warriors</b> by Megan Campisi and
             Pen-Pen Chen </p>
@@ -1353,8 +1329,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 32</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/8.4_ancient_china.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>Chapter 8.4 Ancient China</i></a>
+                target="_blank">Read <i>Chapter 8.4 Ancient China</i></a>
           </p>
           <p>Watch the video <b> </b></p>
           <Video videoUrl="https://www.youtube.com/embed/vn3e37VWc0k"/>
@@ -1516,8 +1491,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 41</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/10.1_the_hebrew_kingdoms.pdf")} rel="noreferrer"
-                target="_blank">Click
-            here to read <i>Chapter 10.1 The Hebrew Kingdoms</i></a>
+                target="_blank">Read  <i>Chapter 10.1 The Hebrew Kingdoms</i></a>
           </p>
           <p>After you complete the reading, answer the following questions:<br/>
             1. What is the central belief of the Hebrews? <br/>
@@ -1620,8 +1594,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 46</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/11.3_ancient_greece.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>Chapter 11.3 Ancient Greece</i></a>
+                target="_blank">Read <i>Chapter 11.3 Ancient Greece</i></a>
           </p>
           <p>Watch the video <b>A day in the life of an ancient Greek architect </b> by TedEd</p>
           <Video videoUrl="https://www.youtube.com/embed/tuZcS2Flabw"/>
@@ -1648,8 +1621,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 47</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/11.4_ancient_greece.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>Chapter 11.4 Ancient Greece</i></a>
+                target="_blank">Read <i>Chapter 11.4 Ancient Greece</i></a>
           </p>
           <p>Watch the video <b>This is Sparta </b> by TedEd</p>
           <Video videoUrl="https://www.youtube.com/embed/M7V1a1I5BL0"/>
@@ -1703,8 +1675,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 49</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/12.1_classical_greece.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>Chapter 12.1 Classical Greece</i></a>
+                target="_blank">Read <i>Chapter 12.1 Classical Greece</i></a>
           </p>
           <p>Watch the video <b> Pericles, the Golden Age of Athens</b> by NBC News</p>
           <Video videoUrl="https://www.youtube.com/embed/PoZfCO42nhA"/>
@@ -1730,8 +1701,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 50</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/12.2_classical_greece.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>Chapter 12.2 Classical Greece</i></a>
+                target="_blank">Read <i>Chapter 12.2 Classical Greece</i></a>
           </p>
           <p>Watch the video <b> Athens versus Sparta</b></p>
           <Video videoUrl="https://www.youtube.com/embed/GjbfS8RDoYo?list=PLRynuHml5ai0UD_qe7E1sdnN6egDKgxXV"/>
@@ -1772,8 +1742,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 52</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/12.3_classical_greece.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>Chapter 12.3 Classical Greece</i></a>
+                target="_blank">Read <i>Chapter 12.3 Classical Greece</i></a>
           </p>
           <p>After you do the reading, answer the following questions:<br/>
             1. Who conquered the Greek city-states?<br/>
@@ -1827,8 +1796,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 54</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/12.4_classical_greece.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>Chapter 12.4 Classical Greece</i></a>
+                target="_blank">Read <i>Chapter 12.4 Classical Greece</i></a>
           </p>
 
           <p>After you do the reading, answer the following questions:<br/>
@@ -1896,8 +1864,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 56</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/13.1_the_rise_of_rome.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>Chapter 13.1 The Rise of Rome</i></a>
+                target="_blank">Read <i>Chapter 13.1 The Rise of Rome</i></a>
           </p>
           <p>After you do the reading, answer the following
             questions:<br/>
@@ -1917,8 +1884,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 57</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/13.2_the_rise_of_rome.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>Chapter 13.2 The Rise of Rome</i></a>
+                target="_blank">Read <i>Chapter 13.2 The Rise of Rome</i></a>
           </p>
           Watch the video <b>A glimpse of teenage life in
           ancient Rome </b>by Ray Laurence
@@ -1981,8 +1947,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 59</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/13.3_the_rise_of_rome.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>Chapter 13.3 The Rise of Rome</i></a>
+                target="_blank">Read <i>Chapter 13.3 The Rise of Rome</i></a>
           </p>
           <p>After you do the reading, answer the following questions:<br/>
             1. What led to conflict in Rome?<br/>
@@ -2002,8 +1967,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 60</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/13.4_the_rise_of_rome.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>Chapter 13.4 The Rise of Rome</i></a>
+                target="_blank">Read <i>Chapter 13.4 The Rise of Rome</i></a>
           </p>
           <p>Watch the video <b>Four sisters in Ancient Rome </b>by Ray Laurence</p>
           <Video videoUrl="https://www.youtube.com/embed/RQMgLxVxsrw"/>
@@ -2103,8 +2067,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 64</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/14.2_the_birth_of_christianity.pdf")}
-                rel="noreferrer" target="_blank">Click
-            here to read <i>Chapter 14.2 The Birth of Christianity</i></a>
+                rel="noreferrer" target="_blank">Read  <i>Chapter 14.2 The Birth of Christianity</i></a>
           </p>
           <p>After you do the reading, answer the following questions:<br/>
             1. What did Jesus’ disciples do after his death?<br/>
@@ -2125,8 +2088,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 65</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/14.3_the_birth_of_christianity.pdf")}
-                rel="noreferrer" target="_blank">Click
-            here to read <i>Chapter 14.3 The Birth of Christianity</i></a>
+                rel="noreferrer" target="_blank">Read  <i>Chapter 14.3 The Birth of Christianity</i></a>
           </p>
           <p>After you do the reading, answer the following questions:<br/>
             1. Why was Rome hostile to Christians and Jews?<br/>
@@ -2220,8 +2182,7 @@ const SS6Component = ({ data }) => {
           <span className="days">LESSON 70</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/15.2_romes_decline_and_legacy.pdf")}
                 rel="noreferrer"
-                target="_blank">Click
-            here to read <i>Chapter 15.2 Rome's Decline and Legacy</i></a>
+                target="_blank">Read  <i>Chapter 15.2 Rome's Decline and Legacy</i></a>
           </p>
           <p>After you complete the reading, answer the following questions:<br/>
             1. Why did the Western Roman Empire weaken?<br/>
@@ -2292,7 +2253,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 73</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/Who-Were-the-Vikings.pdf")} rel="noreferrer"
-                target="_blank">Click here to read <i>Who were the Vikings? </i></a></p>
+                target="_blank">Read <i>Who were the Vikings? </i></a></p>
        
           <p>Watch the video <i>The Vikings </i>
           <Video videoUrl="https://www.youtube.com/embed/3xIy7FoiaQY"/>
@@ -2309,7 +2270,7 @@ const SS6Component = ({ data }) => {
           <span className="days">LESSON 74</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/Viking-Traders-and-Explorers.pdf")}
                 rel="noreferrer"
-                target="_blank">Click here to read <i>Viking Traders and Explorers </i></a>
+                target="_blank">Read <i>Viking Traders and Explorers </i></a>
           </p>
           <p>Watch the video <b>What is Norse Mythology? </b>
             <Video videoUrl="https://www.youtube.com/embed/TXBU9nWdq2g"/>
@@ -2393,8 +2354,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 78</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/16.1_Early_Middle_Ages.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>16.1 The Early
+                target="_blank">Read <i>16.1 The Early
               Middle Ages: </i>The Geography of Europe</a>
           </p>
 
@@ -2415,7 +2375,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 79</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/16.2_Early_Middle_Ages.pdf")} rel="noreferrer"
-                target="_blank">Click here to read <i>16.2 Europe After the Fall of Rome </i></a></p>
+                target="_blank">Read <i>16.2 Europe After the Fall of Rome </i></a></p>
           <p>
             1. What two groups of people were largely responsible for the northern spread of
             Christianity?<br/>
@@ -2431,8 +2391,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 80</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/16.3_Early_Middle_Ages.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>16.3 </i></a>
+                target="_blank">Read <i>16.3 </i></a>
           </p>
           <p>
             1. What were women's lives like during the Middle Ages?<br/>
@@ -2449,8 +2408,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 81</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/16.4_Early_Middle_Ages.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>16.4 Feudal Societies</i></a>
+                target="_blank">Read <i>16.4 Feudal Societies</i></a>
           </p>
           <p>
             1. What were three characteristics knights and samurai shared?<br/>
@@ -2470,8 +2428,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 82</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/16.5_Later_Middle_Ages.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>16.5 The Later Middle Ages: Popes &amp; Kings </i></a>
+                target="_blank">Read <i>16.5 The Later Middle Ages: Popes &amp; Kings </i></a>
           </p>
           <p>
             1. What was the pope's role in the Roman Catholic Church? <br/>
@@ -2488,8 +2445,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 83</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/16.6_Later_Middle_Ages.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>16.6 The Crusades</i></a>
+                target="_blank">Read <i>16.6 The Crusades</i></a>
           </p>
           <p>1. What was the main goal of the Crusades?<br/>
             2. Why do you think the Crusades changed the relationships between Christians
@@ -2505,8 +2461,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 84</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/16.7_Later_Middle_Ages.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>16.7 Christianity and Medieval Society </i></a>
+                target="_blank">Read <i>16.7 Christianity and Medieval Society </i></a>
           </p>
           <p>1. How did Christianity shape art and education in the Middle
             Ages?<br/>
@@ -2526,8 +2481,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 85</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/16.8_Later_Middle_Ages.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i> 16.8 Political and Social Change </i></a>
+                target="_blank">Read <i> 16.8 Political and Social Change </i></a>
           </p>
           <p>1. What was the Black Death, and how did it affect Europe?<br/>
             2. Why do some people consider Magna Carta to represent the beginning of
@@ -2545,8 +2499,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 86</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/16.9_Later_Middle_Ages.pdf")} rel="noreferrer"
-                target="_blank">Click here
-            to read <i>16.9 Challenges to Church Authority </i></a>
+                target="_blank">Read <i>16.9 Challenges to Church Authority </i></a>
           </p>
           <p>1. What is heresy?<br/>
             2. Why did the church send priests and friars to find heretics?<br/>
@@ -2696,8 +2649,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 94</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/18.1_Reformation_of_Christianity.pdf")}
-                rel="noreferrer" target="_blank">Click
-            here to read <i>18.1 Reformation of Christianity: </i>The Protestant Reformation</a>
+                rel="noreferrer" target="_blank">Read  <i>18.1 Reformation of Christianity: </i>The Protestant Reformation</a>
           </p>
           <p>
             1. What were three complaints people had about the Roman Catholic Church in the early 1500s?<br/>
@@ -2725,8 +2677,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 96</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/18.2_Reformation_of_Christianity.pdf")}
-                rel="noreferrer" target="_blank">Click
-            here to read <i>18.2 The Catholic Reformation</i></a>
+                rel="noreferrer" target="_blank">Read  <i>18.2 The Catholic Reformation</i></a>
           </p>
           <p>
             1. Why was the Catholic Church stronger in Spain than in many other parts of Europe?<br/>
@@ -2739,8 +2690,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 97</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/18.3_Reformation_of_Christianity.pdf")}
-                rel="noreferrer" target="_blank">Click
-            here to read <i>18.3 Effects of Reformation </i></a>
+                rel="noreferrer" target="_blank">Read  <i>18.3 Effects of Reformation </i></a>
           </p>
           <p>
             1. Why do you think the Catholic Church had more influence in southern Europe?<br/>

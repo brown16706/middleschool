@@ -849,8 +849,7 @@ const SS7Component = ({ data }) => {
           <span className="days">LESSON 4</span>
           <p><a href={require("../resources/social-studies/ss-pdfs7th/2_TheEnlightenmentInEurope.pdf")}
                 rel="noreferrer"
-                target="_blank">Click here to
-            read The Enlightenment in Europe </a></p>
+                target="_blank">Click here to read The Enlightenment in Europe </a></p>
           <p> After you complete the reading, answer the following questions:<br/>
             1. For each term or name, write a sentence explaining its significance. <br/>
             <ol className="ssList">
@@ -872,8 +871,7 @@ const SS7Component = ({ data }) => {
 
           <span className="days">LESSON 5</span>
           <p><a href={require("../resources/social-studies/ss-pdfs7th/3_TheEnlightenmentSpreads.pdf")}
-                rel="noreferrer" target="_blank">Click here to
-            read The Enlightenment Spreads </a></p>
+                rel="noreferrer" target="_blank">Read The Enlightenment Spreads </a></p>
           <p> After you complete the reading, answer the following questions:<br/>
             1. For each term or name, write a sentence explaining its significance.<br/>
             <ol className="ssList">
@@ -952,8 +950,7 @@ const SS7Component = ({ data }) => {
           <span className="days">LESSON 8</span>
           <p><a href={require("../resources/social-studies/ss-pdfs7th/4_TheAmericanRevolution.pdf")}
                 rel="noreferrer"
-                target="_blank">Click here to
-            read The American Revolution </a></p>
+                target="_blank">Read The American Revolution </a></p>
           <p>Watch the video below: <b> The story behind the Boston Tea Party </b> by Ben Labaree TedEd </p>
           <Video videoUrl="https://www.youtube.com/embed/1cT_Z0KGhP8"/>
           <p>Answer the following questions: <br/>
@@ -2655,7 +2652,7 @@ const SS7Component = ({ data }) => {
             <span className="days">LESSON 77</span>
             <p className="topBottom">It's time to travel again anywhere in the world. Where will you go this time?<br/>
               <ul className="list">
-                <li>National Park in Alaska?</li>
+                <li>Denali National Park in Alaska?</li>
                 <li>Wat Tum Sua Temple in Krabi, Thailand?</li>
                 <li>Alligator Swamps in Florida?</li>
                 <li>Mt. Fuji in Japan?</li>

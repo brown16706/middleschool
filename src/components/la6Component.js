@@ -621,7 +621,7 @@ const LA6Component = ({ data }) => {
       <section className="block-circles">
         <div className="circle one"
              style={{
-               animationDuration: "3s",
+               animationDuration: "4s",
                backgroundColor: "#89d4f0",
                transform: "translate3d(0px, 0px, 0px) scale(0.9921, 1)",
                opacity: "0.9881"
@@ -673,13 +673,13 @@ const LA6Component = ({ data }) => {
             this? <br/></p>
 
           <textarea className="textArea"
-                    placeholder="Write your responses here. Your work will automatically be saved to your Local Storage. 
+                    placeholder="Write your responses here. Your work will automatically be saved to your Local Storage.
                     -----
-                    If you clear your cookies, your answers will be erased! Be sure to back up your work by saving it in another 
-                    location. 
+                    If you clear your cookies, your answers will be erased! Be sure to back up your work by saving it in another
+                    location.
                     -----
-                    You can 'Select All' (select your answers inside this textbox by touching/clicking on (ctrl a)) and 
-                    copy/paste it into Google Docs, a Word Doc or into an email  and send it to your parent or teacher. 
+                    You can 'Select All' (select your answers inside this textbox by touching/clicking on (ctrl a)) and
+                    copy/paste it into Google Docs, a Word Doc or into an email  and send it to your parent or teacher.
                     -----
                     Some devices allow you to 'Select All' and then 'Share' via email or another app.
                     -----
@@ -2862,7 +2862,7 @@ const LA6Component = ({ data }) => {
           6. How does Katniss feel about Thresh?<br/>
           7. What does Katniss admit to Peeta?<br/>
           8. Describe how Peeta's crush on Katniss first started.<br/>
-          
+
           <p><i>Write definitions for the vocabulary words below and use each word in a sentence. </i><br/>
             1. irreverent <br/>
             2. fabricated <br/>
@@ -2969,7 +2969,7 @@ const LA6Component = ({ data }) => {
             develop within yourself? Why? How does that character demonstrate that
             trait/quality in the novel?<br/>
             7. What happened in The Hunger Games that reminds you of your own life or
-            something you have experienced? Explain by telling what happened in the book, 
+            something you have experienced? Explain by telling what happened in the book,
             then what happened to you (or how it reminds you of something in your life).<br/>
             8. What is the most important choice made by a character in the novel? Why
             does that character make that choice? Would you make the same choice?
@@ -3662,35 +3662,37 @@ const LA6Component = ({ data }) => {
           </p>
           <textarea className="textArea" onChange={onChangeLA6Listener127} value={la6Essay127}/>
 
-          <span className="days">WRITING STORIES </span>
-          <p><i>For each fictional writing assignment, address the items below to develop
-            your story:</i></p>
+          <span className="days" style={{ color: "#4f5979", fontSize: "130%" }}>WRITING STORIES </span>
+          <p className="topBottom">For each fictional writing assignment, address the items below to develop
+            your story:</p>
           <p>POINT OF VIEW: Whose story are you telling? Using "I" is first person. Using
-            "you" is second person. Third person uses "he" or "she." The third-person omniscient point of view tells the
+            "you" is second person. Third person uses he or she. The third-person omniscient point of view tells the
             thoughts and feelings of all the characters. </p>
-          <p>PLOT: What happens in the story? What are the sequence of events? </p>
+          <p className="topBottom">PLOT: What happens in the story? What are the sequence of events? </p>
           <p>SETTING: Where and when is it (past, present or future)? </p>
-          <p>CONFLICT: What is the challenge the main character must face in order to grow and
+          <p className="topBottom">CONFLICT: What is the challenge the main character must face in order to grow and
             change? What obstacles must be overcome? Most stories contain several small conflicts and one large or
             major conflict. </p>
           <p>RESOLUTION: How does the problem get solved? </p>
-          <p>CHARACTERS: Who is in your story? Who is the main character (protagonist)? Who
+          <p className="topBottom">CHARACTERS: Who is in your story? Who is the main character (protagonist)? Who
             are the supporting characters? </p>
-          <p>Developing your characters is important because your readers must care about what
-            happens to them. They don’t have to be likable, but they must be credible. Your readers should feel
-            the characters are real and be able to picture them clearly in their head. You should describe what they
-            look like and their personality. Include character traits (ex. humor, wit, introversion), strengths (ex.
-            intelligence, stamina, grit) and flaws (ex. short-temper, physical impairment). The main character
+          <p><strong>Developing your characters</strong> is important because your readers must
+            care about what
+            happens to them. They don’t have to be likable, but they must be credible. Your readers should be feel
+            the characters are real and be able to picture them clearly in their heads. You should describe what they
+            look like and their personality. </p>
+          <p className="topBottom">Include character traits (ex. humor, wit, introversion), strengths (ex.
+            intelligence, stamina, humor) and flaws (ex. short-temper, physical disability). The main character
             (protagonist) is the most important because the story tends to revolve around them. They determine the
             way the plot will develop and must solve a problem or solve a mystery. </p>
-          <p>Supporting characters are also important because they often help the main
+          <p className="topBottom" >Supporting characters are also important because they often help the main
             character or serve as their enemy, creating obstacles. It’s your job to get the readers to feel
             something for all of your characters; like them, hate them, root for them, feel devastated when they are
             harmed and happy when they triumph.</p>
-          <p>You can print out the <a
+          <p style={{paddingBottom:"1.5em"}}>You can print out the <a
             href={require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story
-            Outline Worksheet</a> to help you get
-            started on a rough draft for your stories. Include the following:<br/>
+            Outline Worksheet</a> to help you get started on a rough draft for your stories. It includes the
+            following:<br/>
             <ul className="assnList2">
               <li>Title of your story:</li>
               <li>In 1-2 sentences, say what your story is about:</li>
@@ -3846,27 +3848,26 @@ const LA6Component = ({ data }) => {
                                 rel="noreferrer"
                                 target="_blank">Five Paragraph Essay outline</a> to help you get started. Be sure to
             include the following elements in your biography:</p>
-          <p>
-            <ul className="assnList">
-              <li><strong>Introduction:</strong> state the person you chose and why you chose them.</li>
-              <li>Your thesis statement should cover the reasons why he/she inspires you and what this person has
+          <p className="margin-para">
+            <ul className="list">
+              <li><strong>Introduction:</strong> state the person you chose and why you chose them.  Your thesis statement should cover the reasons why he/she inspires you and what this person has
                 taught us.
               </li>
-              <li>In the body (2-3 paragraphs), include:</li>
-              <ol className="assnLetters">
-                <li>date and place of birth (death if appropriate)</li>
+              <li><strong>Body:</strong> Paragraphs 2 - 4 should include:</li>
+              <ul className="list" style={{paddingLeft:"20px"}}>
+                <li>date and place of birth (date of death if appropriate)</li>
                 <li>description of childhood and early adulthood</li>
                 <li>people and events that influenced them and helped them develop into the person they became</li>
                 <li>accomplishments and greatest achievements</li>
                 <li>their impact on society, historical significance</li>
                 <li>when appropriate use quotes and significant details from your research</li>
-              </ol>
-              <li><strong>Conclusion:</strong> summarize the most important points of your biography.
+              </ul>
+              <li><strong>Conclusion:</strong> the final paragraph should summarize the most important points of your biography.
               </li>
             </ul>
           </p>
-          <p className="margin-para">
-            <ul className="assnList">
+          <p style={{color:"#35516e"}}><strong>Inspiring People</strong><br/>
+            <ul className="assnList" style={{paddingLeft:"10px"}}>
               <li>Malala Yousafzai</li>
               <li>Thomas Jefferson</li>
               <li>Nelson Mandela</li>
@@ -3891,12 +3892,10 @@ const LA6Component = ({ data }) => {
             They imagine how life would be different with technological and scientific advances. Science fiction
             includes novels like<i> Ready Player One, Mad Max and The Martian.</i></p>
           <p>Select one of the images below to base your own science fiction story on.
-            After you watch the video below, <strong> The power of a great introduction</strong>, write your story in
-            the textbox.
-            Be sure to back up your work and send a copy to your parent or teacher. If you prefer to write a story not
-            based on an image, this is
-            fine. </p>
-          <div className="rowimages">
+            After you watch the video below, <strong> The power of a great introduction</strong>, write your story in the textbox. Be sure to back up your work and send a copy to your parent or teacher. If you prefer to write a story not based on an image, this is fine. </p>
+          <p className="topBottom">You can use the <a
+            href={require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story
+            Outline Worksheet</a> to get started.</p>    <div className="rowimages">
             <div className="columnimages">
               <img src={require("../../public/images/stories/scifi1.jpg")}
                    alt="cyborg girl"/>
@@ -3939,13 +3938,11 @@ const LA6Component = ({ data }) => {
           </p>
           <p>Your essay should follow the format below: </p>
           <ul className="assnList">
-            <li>Write a hook to grab your reader's attention.</li>
-            <li>Your first paragraph should have a clear thesis statement (main idea of your essay). This
-              statement should convey the points or arguments you are going to
-              make.
+            <li>Write a hook to grab your reader's attention.  Your first paragraph should have a clear thesis statement (main idea of your essay). This
+              statement should convey the points or arguments you are going to make.
             </li>
             <li>Paragraphs 2-4 should provide examples from the book that support your thesis statement. Each
-              paragraph should discuss a different point and use a different example. Using direct
+              paragraph should discuss a different point and use different examples. Using direct
               quotes from the novel can be effective in proving your point.
             </li>
             <li>Your conclusion should restate your thesis in a different way. End with a thoughtful summary.</li>
@@ -3980,6 +3977,7 @@ const LA6Component = ({ data }) => {
               <li>A villain</li>
               <li>The hero is changed</li>
             </ul></p>
+          <p className="topBottom">You can use the <a href={require ("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story Outline Worksheet</a> to get started.</p>
           <div className="rowimages">
             <div className="columnimages">
               <img src={require("../../public/images/stories/adventure1.jpg")}
@@ -4002,10 +4000,6 @@ const LA6Component = ({ data }) => {
                    alt="castle"/>
             </div>
           </div>
-          <p>You can use the <a
-            href={require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story
-            Outline Worksheet</a> to help you get started.
-          </p>
           <textarea className="textArea" onChange={onChangeLA6Listener135} value={la6Essay135}/>
 
           <span className="days">LESSON 156</span>
@@ -4730,8 +4724,11 @@ const LA6Component = ({ data }) => {
 
           <span className="days">LESSON 180 </span>
           <h4>How to Write a Poem</h4>
-          <p>The following is from <i>Literacy at Work: How to Write a Poem with Glenis Redmond.</i></p>
-          {/*<p>Taken from <i>Countdown to Poetry Writing</i> by Steve Bowkett</p>*/}
+          <p>This lesson is a segment from <a
+            href="https://www.hmhco.com/blog/how-to-write-a-poem-with-glenis-redmond?fbclid=IwAR19e-2fVoWsLiBxH2OG1s7yEG7m-kVCuvYlSstk1cGpfs8pfCpx5QECd2I"
+            rel="noreferrer" target="_blank"><i>Literacy at Work: How to Write a Poem with Glenis Redmond.</i></a> For
+            the full lesson and additional resources, click above. Glenis Redmond is a poet, teaching artist and
+            imagination activist. You can view more of her work at <a href="http://www.glenisredmond.com/" rel="noreferrer" target="_blank">her site.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/0w8PLcYP0sU"/>
           <p className="topBottom"> After you watch the video, complete the lists below. Then, use the lists to write
             your Self-Portrait Poem.</p>

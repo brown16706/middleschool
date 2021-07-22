@@ -775,7 +775,7 @@ const LA7Component = ({ data }) => {
           <p className="margin-para fadeIn">Until you get a copy, the first chapter of each book is linked as a PDF. The novels
             are available at your local library, local bookstore, or can be purchased online. If the books are out of copyright, they
             are provided below as PDFs. </p>
-          
+
           <p className="margin-para fadeIn">Users may encounter texts, videos or poetry they consider controversial, offensive, or inappropriate. It is the responsibility of the parent, guardian or teacher to review all materials before their student views them.</p>
 
           <span className="days">LESSON 1 </span>
@@ -832,13 +832,13 @@ const LA7Component = ({ data }) => {
             </ol>
           </p>
           <textarea className="textArea"
-                    placeholder="Write your responses here. Your work will automatically be saved to your Local Storage. 
+                    placeholder="Write your responses here. Your work will automatically be saved to your Local Storage.
                     -----
-                    If you clear your cookies, your answers will be erased! Be sure to back up your work by saving it in another 
-                    location. 
+                    If you clear your cookies, your answers will be erased! Be sure to back up your work by saving it in another
+                    location.
                     -----
-                    You can 'Select All' (select your answers inside this textbox by touching/clicking on (ctrl a)) and 
-                    copy/paste it into Google Docs, a Word Doc or into an email  and send it to your parent or teacher. 
+                    You can 'Select All' (select your answers inside this textbox by touching/clicking on (ctrl a)) and
+                    copy/paste it into Google Docs, a Word Doc or into an email  and send it to your parent or teacher.
                     -----
                     Some devices allow you to 'Select All' and then 'Share' via email or another app.
                     -----
@@ -3553,8 +3553,11 @@ const LA7Component = ({ data }) => {
 
           <span className="days">LESSON 90 </span>
           <h4>How to Write a Poem</h4>
-          <p>The following is from <i>Literacy at Work: How to Write a Poem with Glenis Redmond.</i></p>
-          {/*<p>Taken from <i>Countdown to Poetry Writing</i> by Steve Bowkett</p>*/}
+          <p>This lesson is a segment from <a
+            href="https://www.hmhco.com/blog/how-to-write-a-poem-with-glenis-redmond?fbclid=IwAR19e-2fVoWsLiBxH2OG1s7yEG7m-kVCuvYlSstk1cGpfs8pfCpx5QECd2I"
+            rel="noreferrer" target="_blank"><i>Literacy at Work: How to Write a Poem with Glenis Redmond.</i></a> For
+            the full lesson and additional resources, click above. Glenis Redmond is a poet, teaching artist and
+            imagination activist. You can view more of her work at <a href="http://www.glenisredmond.com/" rel="noreferrer" target="_blank">her site.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/0w8PLcYP0sU"/>
           <p> After you watch the video, complete the lists below. Then, use the lists to write
             your Self-Portrait Poem.</p>
@@ -5671,7 +5674,7 @@ const LA7Component = ({ data }) => {
           <textarea className="textArea" onChange={onChangela7Listener162} value={la7Essay162}/>
 
           <span className="days">LESSON 163 </span>
-          <p className="topBottom">Do you think there is a moral to this story? What did you learn by reading it? Address 
+          <p className="topBottom">Do you think there is a moral to this story? What did you learn by reading it? Address
             these questions in a five paragraph essay.</p>
           <ul className="assnList">
             <li>Spend a few minutes to think about the questions. Then write an outline for your essay.</li>

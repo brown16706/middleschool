@@ -802,13 +802,13 @@ const LA8Component = ({ data }) => {
             5. What do Santiago's parents hope he will do for his career? What is Santiago's plan for himself?<br/>
             6. What does Santiago plan to do in Tarifa?<br/>
           </p>
-          <textarea className="textArea" placeholder="Write your responses here. Your work will automatically be saved to your Local Storage. 
+          <textarea className="textArea" placeholder="Write your responses here. Your work will automatically be saved to your Local Storage.
                     -----
-                    If you clear your cookies, your answers will be erased! Be sure to back up your work by saving it in another 
-                    location. 
+                    If you clear your cookies, your answers will be erased! Be sure to back up your work by saving it in another
+                    location.
                     -----
-                    You can 'Select All' (select your answers inside this textbox by touching/clicking on (ctrl a)) and 
-                    copy/paste it into Google Docs, a Word Doc or into an email  and send it to your parent or teacher. 
+                    You can 'Select All' (select your answers inside this textbox by touching/clicking on (ctrl a)) and
+                    copy/paste it into Google Docs, a Word Doc or into an email  and send it to your parent or teacher.
                     -----
                     Some devices allow you to 'Select All' and then 'Share' via email or another app.
                     -----
@@ -2234,8 +2234,8 @@ const LA8Component = ({ data }) => {
             Death. </i> </strong> Then, read the poem and answer the questions below. </p>
           <Video videoUrl="https://www.youtube.com/embed/5GOfjV6u0Co"/>
           <Video videoUrl="https://www.youtube.com/embed/4eGFMw3U1ts"/>
-          <p><i style={{ color: "#6e7693", fontWeight: "bold" }}> Because I Could Not Stop for Death</i> by Emily
-            Dickinson.
+          <p><i style={{ color: "#6e7693", fontWeight: "bold" }}> Because I Could Not Stop for Death by Emily
+            Dickinson.</i>
             <blockquote
               cite="https://www.poetryfoundation.org/poems/47652/because-i-could-not-stop-for-death-479">Because I
               could not stop for Death – <br/>
@@ -4049,12 +4049,15 @@ const LA8Component = ({ data }) => {
 
           <span className="days">LESSON 134 </span>
           <p>The author left the conclusion of <i> The Giver </i> ambiguous. <strong>Create a new ending for the
-            story </strong> in which you tell readers what happened to Jonas and Gabe. Watch the video below and then rewrite the final chapter, making it clear how the story ends
+            story </strong> in which you tell readers what happened to Jonas and Gabe. Watch the video below and then
+            rewrite the final chapter, making it clear how the story ends
             (4 - 5 paragraphs).
             <Video videoUrl="https://www.youtube.com/embed/dcYgWiZd2XU"/>
 
           </p>
-          <textarea className="textArea" placeholder="Rewrite the final chapter of The Giver here. Be sure to email a copy of your work to your parent or teacher or copy/paste to another document." onChange={onChangela8Listener134} value={la8Essay134}/>
+          <textarea className="textArea"
+                    placeholder="Rewrite the final chapter of The Giver here. Be sure to email a copy of your work to your parent or teacher or copy/paste to another document."
+                    onChange={onChangela8Listener134} value={la8Essay134}/>
 
           <span className="days">LESSON 135 </span>
           <p>Thinking about the themes: The Giver<br/>
@@ -4097,7 +4100,9 @@ const LA8Component = ({ data }) => {
             4. What do you think the leaders in Jonas’s community would say about censorship?<br/>
             5. What would Jonas and the Giver say?<br/>
             6. How do you imagine <i> The Giver</i> ends?<br/>
-            7. In a previous assignment, you rewrote the final chapter of <i>The Giver</i> to clarify what happened to Gabe and Jonas.  Do you like that the author left you guessing about what happened to them at the end of the story or 
+            7. In a previous assignment, you rewrote the final chapter of <i>The Giver</i> to clarify what happened to
+            Gabe and Jonas. Do you like that the author left you guessing about what happened to them at the end of the
+            story or
             would you like to see the ending more spelled out? Explain why you feel this way.<br/>
           </p>
           <textarea className="textArea" onChange={onChangela8Listener137} value={la8Essay137}/>
@@ -4117,7 +4122,9 @@ const LA8Component = ({ data }) => {
             4. A review (your opinion) about the book. Your summary and review should be 5-6 paragraphs and
             can be written in the textbox below.<br/>
           </p>
-          <textarea className="textArea" placeholder="Write your summary and review here. Copy/paste your work into another document and send it with your book cover to your parent or teacher." onChange={onChangela8Listener138} value={la8Essay138}/>
+          <textarea className="textArea"
+                    placeholder="Write your summary and review here. Copy/paste your work into another document and send it with your book cover to your parent or teacher."
+                    onChange={onChangela8Listener138} value={la8Essay138}/>
 
           <img src={require("../../public/images/poems/poetry.jpg")} alt="poetry"/><br/>
           <span className="days">LESSON 139 </span>
@@ -4236,16 +4243,19 @@ const LA8Component = ({ data }) => {
               describe your own life right now with a metaphor, what object would you compare your life to? (You can
               use a simile if that’s easier, and write the phrase "My life feels like a _______" as a way to get
               started.) Once you’ve picked the object, describe the object for a few sentences. (What you’re doing
-              here is making up and exploring a new extended metaphor of your own.)</li>
+              here is making up and exploring a new extended metaphor of your own.)
+            </li>
             <li> Do you think that a description of a cricket would be read the same way or mean the same thing if
               it had been in a science paper about crickets instead of a poem? Do we read things in different ways
               at different times, and can you say why a person might want to read a poem (or listen to the words of
-              a song) at all?</li>
+              a song) at all?
+            </li>
             <li> What is a metaphor? Define it using your own words.</li>
             <li> What is a simile?</li>
             <li> "An elephant in the room" is a way of saying what?</li>
             <li> How would you describe the mother in Langston Hughes's poem "Mother to Son"? What kind of life has
-              she had? Why do you think she is telling her son all of this? </li>
+              she had? Why do you think she is telling her son all of this?
+            </li>
             <li> Why do you believe poets enjoy using metaphors so much?</li>
           </ol>
           <textarea className="textArea" onChange={onChangela8Listener141} value={la8Essay141}/>
@@ -4686,11 +4696,13 @@ const LA8Component = ({ data }) => {
           <ol className="vocab">
             <li> What are four things that you find the most intriguing or captivating about this image?</li>
             <li> Close your eyes and imagine the picture is in color. Describe what you see and describe the colors
-              in detail.</li>
+              in detail.
+            </li>
             <li> Now focus on the sound and imagine what sounds you can hear.</li>
             <li> Now imagine you can step into the picture. Describe what it is like. Is there a breeze? Do you
               smell anything? What do things feel like? Is it warm or cold? What do you see when you turn around? Is
-              there anything surprising there that isn’t in the picture?</li>
+              there anything surprising there that isn’t in the picture?
+            </li>
             <li> If this picture could tell a story, what is the story about? What will about to happen next?</li>
             <li> Describe this picture in 12 words or less. Twelve is not many words so choose each one carefully.
             </li>
@@ -4786,7 +4798,8 @@ const LA8Component = ({ data }) => {
             </li>
             <li> Why do you think Dickinson only wore white?</li>
             <li> Name two stylistic choices that Dickinson makes when she wants to avoid closure in her poetry.</li>
-            <li> Emily Dickinson's personal life receives as much attention, or even more attention, than her poetry. Why do you think this is so?
+            <li> Emily Dickinson's personal life receives as much attention, or even more attention, than her poetry.
+              Why do you think this is so?
             </li>
             <li> To what extent was Emily Dickinson the eccentric recluse she is often portrayed as being?</li>
             <li> Describe some of the reasons that Dickinson did not gain fame as a poet during her lifetime.</li>
@@ -4834,7 +4847,7 @@ const LA8Component = ({ data }) => {
             <li> List two phrases from the final stanzas that suggest the horrors of slavery.</li>
             <li> How did the poem impact you or make you feel?</li>
             <p> Based on the poem <a href=" https://www.poetryfoundation.org/poems/46477/alone-56d2265f2667d"
-                                     rel="noreferrer" target="_blank">Alone</a>  by Edgar Allan Poe</p>
+                                     rel="noreferrer" target="_blank">Alone</a> by Edgar Allan Poe</p>
             <li> What is the "mystery" that the speaker describes? What is the effect of the speaker's refusal to
               tell us more about it?
             </li>
@@ -4891,8 +4904,11 @@ const LA8Component = ({ data }) => {
 
           <span className="days">LESSON 156 </span>
           <h4>How to Write a Poem</h4>
-          <p>The following is from <i>Literacy at Work: How to Write a Poem with Glenis Redmond.</i></p>
-          {/*<p>Taken from <i>Countdown to Poetry Writing</i> by Steve Bowkett</p>*/}
+          <p>This lesson is a segment from <a
+            href="https://www.hmhco.com/blog/how-to-write-a-poem-with-glenis-redmond?fbclid=IwAR19e-2fVoWsLiBxH2OG1s7yEG7m-kVCuvYlSstk1cGpfs8pfCpx5QECd2I"
+            rel="noreferrer" target="_blank"><i>Literacy at Work: How to Write a Poem with Glenis Redmond.</i></a> For
+            the full lesson and additional resources, click above. Glenis Redmond is a poet, teaching artist and
+            imagination activist. You can view more of her work at <a href="http://www.glenisredmond.com/" rel="noreferrer" target="_blank">her site.</a></p>
           <Video videoUrl="https://www.youtube.com/embed/0w8PLcYP0sU"/>
           <p> After you watch the video, complete the lists below. Then, use the lists to write
             your Self-Portrait Poem.</p>
@@ -5271,7 +5287,8 @@ const LA8Component = ({ data }) => {
           <span className="days">LESSON 169 </span>
           <p><strong>Write an epilogue based on Cirque Du Freak. </strong> An epilogue is a section
             at the end of a book that tells readers the fate of the main characters and wraps up any loose ends.</p>
-          <p className="topBottom">Imagine that the author asks you to write an epilogue for the novel in which Darren meets Steve in 10
+          <p className="topBottom">Imagine that the author asks you to write an epilogue for the novel in which Darren
+            meets Steve in 10
             years. You have the freedom to have this chapter go however you like. </p>
           <p>Watch the video below and then complete the writing assignment.</p>
           <Video videoUrl="https://www.youtube.com/embed/RSoRzTtwgP4"/>
@@ -5287,7 +5304,9 @@ const LA8Component = ({ data }) => {
               <li> Point of View - Will you use first, second, or third person narrative?</li>
               <li> Conflict - What is the challenge the main character must face in order to grow and change?</li>
             </ul></p>
-          <textarea className="textArea" placeholder="Write your Epilogue for Cirque du Freak here. Be sure to back up your work. Email it to your parent or teacher or copy/paste it into another document." onChange={onChangela8Listener169} value={la8Essay169}/>
+          <textarea className="textArea"
+                    placeholder="Write your Epilogue for Cirque du Freak here. Be sure to back up your work. Email it to your parent or teacher or copy/paste it into another document."
+                    onChange={onChangela8Listener169} value={la8Essay169}/>
 
           <span className="days" style={{ color: "#4f5979", fontSize: "130%" }}>WRITING STORIES </span>
           <h4 style={{ color: "#4f5979" }}>The remainder of this class will focus on writing stories and non-fiction
@@ -5311,15 +5330,15 @@ const LA8Component = ({ data }) => {
             happens to them. They don’t have to be likable, but they must be credible. Your readers should be feel
             the characters are real and be able to picture them clearly in their heads. You should describe what they
             look like and their personality. </p>
-           <p className="topBottom">Include character traits (ex. humor, wit, introversion), strengths (ex.
+          <p className="topBottom">Include character traits (ex. humor, wit, introversion), strengths (ex.
             intelligence, stamina, humor) and flaws (ex. short-temper, physical disability). The main character
             (protagonist) is the most important because the story tends to revolve around them. They determine the
             way the plot will develop and must solve a problem or solve a mystery. </p>
-          <p className="topBottom" >Supporting characters are also important because they often help the main
+          <p className="topBottom">Supporting characters are also important because they often help the main
             character or serve as their enemy, creating obstacles. It’s your job to get the readers to feel
             something for all of your characters; like them, hate them, root for them, feel devastated when they are
             harmed and happy when they triumph.</p>
-          <p style={{paddingBottom:"1.8em"}}>You can print out the <a
+          <p style={{ paddingBottom: "1.8em" }}>You can print out the <a
             href={require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story
             Outline Worksheet</a> to help you get started on a rough draft for your stories. It includes the
             following:<br/>
@@ -5415,11 +5434,12 @@ const LA8Component = ({ data }) => {
             supernatural elements. Many novels have a real-world setting, like Twilight, while other novels are set
             in an imaginary world. This genre has no connection to reality or science. For example, Lord of the
             Rings is set in Middle Earth, with races and creatures the author created.</p>
-            <p>There are numerous subgenres of fantasy fiction. A few include high or epic fantasy (Lord of the Rings),
+          <p>There are numerous subgenres of fantasy fiction. A few include high or epic fantasy (Lord of the Rings),
             low fantasy (Indian in the Cupboard), dark fantasy (Twilight), contemporary fantasy (Harry Potter),
             sword and sorcery (The Sorcerer's Apprentice), fables (The Alchemist), fairy
             tales (Cinderella), and superhero fiction (Spiderman). </p>
-          <p className="topBottom"><strong>Select one of the images below as your book cover and then write a fantasy story
+          <p className="topBottom"><strong>Select one of the images below as your book cover and then write a fantasy
+            story
             based on the image.</strong></p>
           <p>What story unfolds in your imagination when you look at the image? Write your
             story (5 paragraph minimum) in the textbox below. </p>
@@ -5490,24 +5510,26 @@ const LA8Component = ({ data }) => {
             include the following elements in your biography:</p>
           <p className="margin-para">
             <ul className="list">
-              <li><strong>Introduction:</strong> state the person you chose and why you chose them.  Your thesis statement should cover the reasons why he/she inspires you and what this person has
+              <li><strong>Introduction:</strong> state the person you chose and why you chose them. Your thesis
+                statement should cover the reasons why he/she inspires you and what this person has
                 taught us.
               </li>
               <li><strong>Body:</strong> Paragraphs 2 - 4 should include:</li>
-              <ul className="list" style={{paddingLeft:"20px"}}>
-              <li>date and place of birth (date of death if appropriate)</li>
+              <ul className="list" style={{ paddingLeft: "20px" }}>
+                <li>date and place of birth (date of death if appropriate)</li>
                 <li>description of childhood and early adulthood</li>
                 <li>people and events that influenced them and helped them develop into the person they became</li>
                 <li>accomplishments and greatest achievements</li>
                 <li>their impact on society, historical significance</li>
-              <li>when appropriate use quotes and significant details from your research</li>
+                <li>when appropriate use quotes and significant details from your research</li>
               </ul>
-              <li><strong>Conclusion:</strong> the final paragraph should summarize the most important points of your biography.
-            </li>
+              <li><strong>Conclusion:</strong> the final paragraph should summarize the most important points of your
+                biography.
+              </li>
             </ul>
           </p>
-          <p style={{color:"#35516e"}}><strong>Inspiring People</strong><br/>
-            <ul className="assnList" style={{paddingLeft:"10px"}}>
+          <p style={{ color: "#35516e" }}><strong>Inspiring People</strong><br/>
+            <ul className="assnList" style={{ paddingLeft: "10px" }}>
               <li>Malala Yousafzai</li>
               <li>Thomas Jefferson</li>
               <li>Nelson Mandela</li>
@@ -5532,8 +5554,10 @@ const LA8Component = ({ data }) => {
             They imagine how life would be different with technological and scientific advances. Science fiction
             includes novels like<i> Ready Player One, Mad Max and The Martian.</i></p>
           <p className="topBottom">Select one of the images below to base your own science fiction story on.
-            After you watch the video below, <strong> The power of a great introduction</strong>, write your story in the textbox.
-            Be sure to back up your work and send a copy to your parent or teacher. If you prefer to write a story not based on an image, this is fine. </p>
+            After you watch the video below, <strong> The power of a great introduction</strong>, write your story in
+            the textbox.
+            Be sure to back up your work and send a copy to your parent or teacher. If you prefer to write a story not
+            based on an image, this is fine. </p>
           <p className="topBottom">You can use the <a
             href={require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story
             Outline Worksheet</a> to get started.</p>
@@ -5578,8 +5602,10 @@ const LA8Component = ({ data }) => {
           </p>
           <p>Your essay should follow the format below: </p>
           <ul className="assnList">
-            <li>Write a hook to grab your reader's attention. Your first paragraph should have a clear thesis statement (main idea of your essay). This
-              statement should convey the points or arguments you are going to make.</li>
+            <li>Write a hook to grab your reader's attention. Your first paragraph should have a clear thesis statement
+              (main idea of your essay). This
+              statement should convey the points or arguments you are going to make.
+            </li>
             <li>Paragraphs 2-4 should provide examples from the book that support your thesis statement. Each
               paragraph should discuss a different point and use different examples. Using direct
               quotes from the novel can be effective in proving your point.
@@ -5617,7 +5643,9 @@ const LA8Component = ({ data }) => {
               <li>A villain</li>
               <li>The hero is changed</li>
             </ul></p>
-          <p className="topBottom">You can use the <a href={require ("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story Outline Worksheet</a> to get started.</p>
+          <p className="topBottom">You can use the <a
+            href={require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story
+            Outline Worksheet</a> to get started.</p>
 
           <div className="rowimages">
             <div className="columnimages">
@@ -5803,9 +5831,12 @@ const LA8Component = ({ data }) => {
               <li>How will build up the story to its climax?</li>
               <li>Finally, what will the resolution be? How will the problem be solved?</li>
             </ul>
-          </p>         
-          <p className="topBottom">You can use the <a href={require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story Outline Worksheet</a> to help you get started.</p>
-          <textarea className="textArea" placeholder="Write your story here. Be sure to back up your work."  onChange={onChangela8Listener180} value={la8Essay180}/>
+          </p>
+          <p className="topBottom">You can use the <a
+            href={require("../resources/languagearts/StoryOutlineWorksheet.pdf")} rel="noreferrer" target="_blank">Story
+            Outline Worksheet</a> to help you get started.</p>
+          <textarea className="textArea" placeholder="Write your story here. Be sure to back up your work."
+                    onChange={onChangela8Listener180} value={la8Essay180}/>
         </div>
       </section>
       <Confetti/>
