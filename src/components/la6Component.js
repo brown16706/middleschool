@@ -4102,7 +4102,7 @@ const LA6Component = ({ data }) => {
                 dress.
               </li>
               <li>Create a picture of your protagonist. You can sketch a picture or create your character on <a
-                href="https://charactercreator.org/#" rel="noreferrer" target="_blank">Character Creator </a>online. Be
+                href="https://charactercreator.org/#" rel="noreferrer" target="_blank">Character Creator </a> (you do NOT need to download a photo or sign up) online. Be
                 sure to take a screen shot and save this to your device so you can include it with your story later.
               </li>
             </ol>
@@ -4130,7 +4130,7 @@ const LA6Component = ({ data }) => {
                 dress.
               </li>
               <li>Create a picture of your villain. You can sketch a picture or create your character on <a
-                href="https://charactercreator.org/#" rel="noreferrer" target="_blank">Character Creator </a>online. Be
+                href="https://charactercreator.org/#" rel="noreferrer" target="_blank">Character Creator </a> (you do NOT need to download a photo or sign up) online. Be
                 sure to take a screen shot and save this to your device so you can include it with your story later.
               </li>
             </ol>

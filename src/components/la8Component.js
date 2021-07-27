@@ -2390,7 +2390,7 @@ const LA8Component = ({ data }) => {
             2. Create an image that depicts how you see Death's character using any medium you like.
             You can sketch an image on paper, use watercolors, markers, Photoshop, or <a
               href="https://charactercreator.org/#" rel="noreferrer" target="_blank"> an online character
-              creator.</a> When
+              creator (you do NOT need to download a photo or sign up).</a> When
             you finish, take a screen shot and send this to your teacher or parent with the written part of your
             assignment.<br/>
           </p>
@@ -5774,7 +5774,7 @@ const LA8Component = ({ data }) => {
                 dress.
               </li>
               <li>Create a picture of your protagonist. You can sketch a picture or create your character on <a
-                href="https://charactercreator.org/#" rel="noreferrer" target="_blank">Character Creator </a>online. Be
+                href="https://charactercreator.org/#" rel="noreferrer" target="_blank">Character Creator </a>online (you do NOT need to download a photo or sign up). Be
                 sure to take a screen shot and save this to your device so you can include it with your story later.
               </li>
             </ol>
@@ -5802,7 +5802,7 @@ const LA8Component = ({ data }) => {
                 dress.
               </li>
               <li>Create a picture of your villain. You can sketch a picture or create your character on <a
-                href="https://charactercreator.org/#" rel="noreferrer" target="_blank">Character Creator </a>online. Be
+                href="https://charactercreator.org/#" rel="noreferrer" target="_blank">Character Creator </a>online (you do NOT need to download a photo or sign up). Be
                 sure to take a screen shot and save this to your device so you can include it with your story later.
               </li>
             </ol>

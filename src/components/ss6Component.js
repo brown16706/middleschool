@@ -763,7 +763,19 @@ const SS6Component = ({ data }) => {
 
       <section className="section raise-top fadeIn">
         <div className="section-content">
-          <h1 className="section-title fadeIn">Ancient Civilizations &#38; Geography</h1>
+          <h1 className="section-title fadeIn" style={{color: "#35516e"}}>Ancient Civilizations &#38; Geography</h1>
+          <h1 className="section-title fadeIn">Course Summary</h1>
+          <p className="topBottom fadeIn">6th Grade Social Studies will cover Map Reading, the Geography of Europe, the Middle East,
+            North & Central America, The Earliest Human Societies, Ancient Mesopotamia, City-States in Mesopotamia,
+            Early Empires, Ancient Egypt, Pyramids on the Nile, Kush and Other African Kingdoms, Ancient India, Ancient
+            China, Ancient America, The Hebrew Kingdoms, Ancient Greece, Classical Greece, The Rise of Rome, The Birth
+            of Christianity, Rome’s Decline and Legacy, Vikings, Middle Ages, Renaissance, Reformation of Christianity,
+            Geography Europe, the Middle East, North & Central America, and the Vikings.
+          </p>
+          <p>Educational resources used in 6th Grade Social Studies include, but are not limited to, Crash Course,
+            National Geography, the History Channel, TedEd, Google Maps Carmen Santiago, Geography Now! and open source
+            history texts.</p><br/>
+
           <span className="days fadeIn">LESSON 1</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/1.1_the_tools_of_history.pdf")} rel="noreferrer"
                 target="_blank">Click here to read Chapter 1.1 The Tools of History</a></p>
@@ -776,13 +788,13 @@ const SS6Component = ({ data }) => {
             4. How do the five themes of geography help geographers?<br/>
           </p>
           <textarea className="textArea"
-                    placeholder="Write your answers here. Your work will automatically be saved to the Local Storage of your device. 
+                    placeholder="Write your answers here. Your work will automatically be saved to the Local Storage of your device.
                     -----
-                    If you clear your cookies, your answers will be erased! Be sure to back up your work by saving it in another 
-                    location. 
+                    If you clear your cookies, your answers will be erased! Be sure to back up your work by saving it in another
+                    location.
                     -----
-                    You can 'Select All' (select your answers inside this textbox by touching/clicking on (ctrl a)) and 
-                    copy/paste it into Google Docs, a Word Doc or into an email  and send it to your parent or teacher. 
+                    You can 'Select All' (select your answers inside this textbox by touching/clicking on (ctrl a)) and
+                    copy/paste it into Google Docs, a Word Doc or into an email  and send it to your parent or teacher.
                     -----
                     Some devices allow you to 'Select All' and then 'Share' via email or another app.
                     -----
@@ -827,12 +839,12 @@ const SS6Component = ({ data }) => {
 
           <textarea className="textArea"
                     placeholder="Copy/paste questions into this textbox and then write your answers here. Back up your work! Email it to your parent/teacher or copy/paste it into another doc."
-                  onChange={onChangeSS6Listener3}
+                    onChange={onChangeSS6Listener3}
                     value={SS6Essay3}/>
 
           <span className="days">LESSON 4</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/1.3_the_tools_of_history.pdf")} rel="noreferrer"
-                target="_blank">Click here to read  <i>Chapter 1.3 The Tools of History</i></a></p>
+                target="_blank">Click here to read <i>Chapter 1.3 The Tools of History</i></a></p>
           <p>After you complete the reading, answer the following questions:<br/>
             1. What can archaeologists learn by studying artifacts and fossils?<br/>
             2. What kinds of changes probably encouraged the development of early hominid societies?<br/>
@@ -864,7 +876,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 6</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/1.4_the_tools_of_history.pdf")} rel="noreferrer"
-                target="_blank">Click here to read  <i>Chapter 1.4 The Tools of History</i></a></p>
+                target="_blank">Click here to read <i>Chapter 1.4 The Tools of History</i></a></p>
           <p>After you complete the reading, answer the following questions:<br/>
             1. How is primary source different from secondary source?<br/>
             2. What are questions historians ask themselves when they study the past?<br/>
@@ -878,7 +890,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 7</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/2.1_the_earliest_human_societies.pdf")}
-                rel="noreferrer" target="_blank">Read  <i>Chapter 2.1 The earliest human societies</i></a></p>
+                rel="noreferrer" target="_blank">Read <i>Chapter 2.1 The earliest human societies</i></a></p>
           <p>Watch the video <b>How Humans Migrated Across The Globe</b></p>
           <Video videoUrl="https://www.youtube.com/embed/CJdT6QcSbQ0"/>
           <p>Watch the video <b>Human Prehistory 101 (Part 1 of 3): Out of (Eastern) Africa </b></p>
@@ -898,7 +910,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 8</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/2.2_the_earliest_human_societies.pdf")}
-                rel="noreferrer" target="_blank">Read  <i>Chapter 2.2 The earliest human societies </i></a>
+                rel="noreferrer" target="_blank">Read <i>Chapter 2.2 The earliest human societies </i></a>
           </p>
           <p>Watch the video <b> Human Prehistory 101 (Part 3 of 3): Agriculture Rocks Our World</b></p>
           <Video videoUrl="https://www.youtube.com/embed/IVHD9wGlbho"/>
@@ -937,7 +949,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 10</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/2.3_the_earliest_human_societies.pdf")}
-                rel="noreferrer" target="_blank">Read  <i>Chapter 2.3 The earliest human societies</i></a>
+                rel="noreferrer" target="_blank">Read <i>Chapter 2.3 The earliest human societies</i></a>
           </p>
           <p>After you complete the reading, answer the following questions:<br/>
             1. How did farming villages develop?<br/>
@@ -955,7 +967,8 @@ const SS6Component = ({ data }) => {
               href="https://earth.google.com/web/@17.90693717,-12.41937117,-34606.55899502a,57359668.97d,35y,0.00004064h,18.19296234t,0r/data=CjwSOhIgYmU3N2ZmYzU0MTc1MTFlOGFlOGZkMzdkYTU5MmE0MmEiFnNwbC14LXgteC1zcGxhc2hzY3JlZW4"
               target="_blank" rel="noreferrer">
               Click to play the Google Maps game Carmen Santiago: Crown Jewels. The game may take a few moments to load.
-              <img src={require("../../public/images/socialstudies/carmen-sandiego.png")} alt="carmen sandiego"/></a></p><br/>
+              <img src={require("../../public/images/socialstudies/carmen-sandiego.png")} alt="carmen sandiego"/></a>
+          </p><br/>
           {/*<textarea className="textArea" onChange={onChangeSS6Listener11} value={SS6Essay11}/>*/}
 
           <span className="days">LESSON 12</span>
@@ -1189,7 +1202,8 @@ const SS6Component = ({ data }) => {
             2. How did Akhenaton try to change Egyptian religion?<br/>
             3. How did Ramses II expand Egypt?<br/>
             4. Why do you think Thutmose tried to erase all records of Hatshepsut’s reign?<br/>
-            <span style={{ color: "#4f5979" }}>Based on the video <i> The Egyptian myth of the death of Osiris </i></span><br/>
+            <span
+              style={{ color: "#4f5979" }}>Based on the video <i> The Egyptian myth of the death of Osiris </i></span><br/>
             5. Briefly describe the warrior god Set. What was he the god of?<br/>
             6. Who was Set's wife?<br/>
             7. What was used to imprison Osiris?<br/>
@@ -1232,9 +1246,10 @@ const SS6Component = ({ data }) => {
             6. Based on the video, explain what the following abbreviations stand for: <br/>
             <ol className="assnLetters">
               <li>AD</li>
-                <li>BC</li>
+              <li>BC</li>
               <li>CE</li>
-              <li>BCE</li></ol>
+              <li>BCE</li>
+            </ol>
           </p>
           <textarea className="textArea" onChange={onChangeSS6Listener25} value={SS6Essay25}/>
 
@@ -1376,81 +1391,83 @@ const SS6Component = ({ data }) => {
             5. Why is farming a challenge in the Andes?<br/>
             6. How did farmers grow crops in the rainy lowlands of Mesoamerica?<br/></p>
 
-            <textarea className="textArea" onChange={onChangeSS6Listener34} value={SS6Essay34}/>
+          <textarea className="textArea" onChange={onChangeSS6Listener34} value={SS6Essay34}/>
 
-            <span className="days">LESSON 35</span>
-            <p><a href={require("../resources/social-studies/ss-pdfs6th/9.2_ancient_america_andean.pdf")}
-                  rel="noreferrer"
-                  target="_blank">Click
-              here
-              to read <i>Chapter 9.2 Ancient America</i></a>
-            </p>
-            <p>After you complete the reading, answer the following questions:<br/>
-              1. What was the Chavín civilization?<br/>
-              2. How did the Nazca adapt to their harsh environment?<br/>
-              3. What does Moche art tell us about their civilization?<br/>
-              4. How have archaeologists learned about the Moche civilization?<br/>
-              5. What are the Nazca Lines?<br/></p>
-            <textarea className="textArea" onChange={onChangeSS6Listener35} value={SS6Essay35}/>
+          <span className="days">LESSON 35</span>
+          <p><a href={require("../resources/social-studies/ss-pdfs6th/9.2_ancient_america_andean.pdf")}
+                rel="noreferrer"
+                target="_blank">Click
+            here
+            to read <i>Chapter 9.2 Ancient America</i></a>
+          </p>
+          <p>After you complete the reading, answer the following questions:<br/>
+            1. What was the Chavín civilization?<br/>
+            2. How did the Nazca adapt to their harsh environment?<br/>
+            3. What does Moche art tell us about their civilization?<br/>
+            4. How have archaeologists learned about the Moche civilization?<br/>
+            5. What are the Nazca Lines?<br/></p>
+          <textarea className="textArea" onChange={onChangeSS6Listener35} value={SS6Essay35}/>
 
-            <span className="days">LESSON 36</span>
-            <p><a href={require("../resources/social-studies/ss-pdfs6th/9.3_ancient_america_olmec.pdf")}
-                  rel="noreferrer"
-                  target="_blank">Click
-              here
-              to read <i>Chapter 9.3 Ancient America</i></a>
-            </p>
-            <p>After you complete the reading, answer the following questions:<br/>
-              1. What helped the Olmec develop the first civilization in the Americas?<br/>
-              2. Why were the Olmec able to build cities?<br/>
-              3. How were classes in the Olmec social structure ordered?
-              4. What does Olmec art tell us about their religious beliefs?<br/>
-              5. What was the effect of Olmec trade in Mesoamerica?<br/>
-              6. Why did historians change their minds abouthow people lived in ancient Mesoamerica?<br/>
-              7. Comparing and Contrasting How was the rise of Olmec civilization similar to that of ancient
-              Egypt?<br/></p>
-            <textarea className="textArea" onChange={onChangeSS6Listener36} value={SS6Essay36}/>
+          <span className="days">LESSON 36</span>
+          <p><a href={require("../resources/social-studies/ss-pdfs6th/9.3_ancient_america_olmec.pdf")}
+                rel="noreferrer"
+                target="_blank">Click
+            here
+            to read <i>Chapter 9.3 Ancient America</i></a>
+          </p>
+          <p>After you complete the reading, answer the following questions:<br/>
+            1. What helped the Olmec develop the first civilization in the Americas?<br/>
+            2. Why were the Olmec able to build cities?<br/>
+            3. How were classes in the Olmec social structure ordered?
+            4. What does Olmec art tell us about their religious beliefs?<br/>
+            5. What was the effect of Olmec trade in Mesoamerica?<br/>
+            6. Why did historians change their minds abouthow people lived in ancient Mesoamerica?<br/>
+            7. Comparing and Contrasting How was the rise of Olmec civilization similar to that of ancient
+            Egypt?<br/></p>
+          <textarea className="textArea" onChange={onChangeSS6Listener36} value={SS6Essay36}/>
 
-            <span className="days">LESSON 37</span>
-            <p><a href={require("../resources/social-studies/ss-pdfs6th/9.4_ancient_america_mayans.pdf")}
-                  rel="noreferrer"
-                  target="_blank">Click
-              here
-              to read <i>Chapter 9.4 Ancient America</i></a>
-            </p>
-            <p>Watch the video <b>Ancient Maya 101</b> by National Geographic </p>
-            <Video videoUrl="https://www.youtube.com/embed/Q6eBJjdca14"/>
-            <p>After you complete the reading and watch the video, answer the following questions:<br/>
-              1. Where did Mayan civilization rise?<br/>
-              2. How was Mayan society structured?<br/>
-              3. What were Mayan achievements in art and learning?<br/>
-              4. Why did the Maya develop a calendar?<br/>
-              5. Why do you think archaeologists were able to find many Mayan steles?<br/></p>
+          <span className="days">LESSON 37</span>
+          <p><a href={require("../resources/social-studies/ss-pdfs6th/9.4_ancient_america_mayans.pdf")}
+                rel="noreferrer"
+                target="_blank">Click
+            here
+            to read <i>Chapter 9.4 Ancient America</i></a>
+          </p>
+          <p>Watch the video <b>Ancient Maya 101</b> by National Geographic </p>
+          <Video videoUrl="https://www.youtube.com/embed/Q6eBJjdca14"/>
+          <p>After you complete the reading and watch the video, answer the following questions:<br/>
+            1. Where did Mayan civilization rise?<br/>
+            2. How was Mayan society structured?<br/>
+            3. What were Mayan achievements in art and learning?<br/>
+            4. Why did the Maya develop a calendar?<br/>
+            5. Why do you think archaeologists were able to find many Mayan steles?<br/></p>
 
-            <textarea className="textArea" onChange={onChangeSS6Listener37} value={SS6Essay37}/>
+          <textarea className="textArea" onChange={onChangeSS6Listener37} value={SS6Essay37}/>
 
-            <span className="days">LESSON 38</span>
-            <p>Watch the video <b>The Rise and Fall of the Inca empire</b> by TedEd</p>
-            <Video videoUrl="https://www.youtube.com/embed/UO5ktwPXsyM"/>
-            <p>Watch the video <b>The Americas and Time Keeping</b> by Crash Course</p>
-            <Video videoUrl="https://www.youtube.com/embed/dCBDUDwaeCA"/>
-            <p>After you watch the videos, answer the following questions:<br/>
-              1. What event led to the formation of the Inca empire?<br/>
-              2. Describe the falloff the Inca Empire. What events led to this?<br/>
-              3. Explain the legend of Ayar Manco and his siblings. What purpose do you think this legend
-              served?<br/>
-              4. What do you think were some of the most unique aspects of the Inca Empire?<br/>
-              5. Briefly summarize how they were able to keep time in the ancient Americas.<br/></p>
+          <span className="days">LESSON 38</span>
+          <p>Watch the video <b>The Rise and Fall of the Inca empire</b> by TedEd</p>
+          <Video videoUrl="https://www.youtube.com/embed/UO5ktwPXsyM"/>
+          <p>Watch the video <b>The Americas and Time Keeping</b> by Crash Course</p>
+          <Video videoUrl="https://www.youtube.com/embed/dCBDUDwaeCA"/>
+          <p>After you watch the videos, answer the following questions:<br/>
+            1. What event led to the formation of the Inca empire?<br/>
+            2. Describe the falloff the Inca Empire. What events led to this?<br/>
+            3. Explain the legend of Ayar Manco and his siblings. What purpose do you think this legend
+            served?<br/>
+            4. What do you think were some of the most unique aspects of the Inca Empire?<br/>
+            5. Briefly summarize how they were able to keep time in the ancient Americas.<br/></p>
 
-            <textarea className="textArea" onChange={onChangeSS6Listener38} value={SS6Essay38}/>
+          <textarea className="textArea" onChange={onChangeSS6Listener38} value={SS6Essay38}/>
 
-            <span className="days">LESSON 39</span>
+          <span className="days">LESSON 39</span>
           <p className="margin-para">
             <a
               href="https://earth.google.com/web/@1.50183132,-12.4193674,-30086.36432683a,63200085.51329613d,35y,0.00003868h,0t,0r/data=CjwSOhIgN2ZhM2Q1Njg0MDZlMTFlOTg2Y2U5OWYyYWQ2OTYwMTgiFnNwbC14LXgteC1zcGxhc2hzY3JlZW4?utm_source=referral&utm_campaign=keyword&utm_term=carmen2"
               target="_blank" rel="noreferrer">
-              Play the Google Maps game Carmen Santiago: Tutankhamun’s Mask Caper. The game may take a few moments to load.
-              <img src={require("../../public/images/socialstudies/carmen-sandiego.png")} alt="carmen sandiego"/></a></p><br/>
+              Play the Google Maps game Carmen Santiago: Tutankhamun’s Mask Caper. The game may take a few moments to
+              load.
+              <img src={require("../../public/images/socialstudies/carmen-sandiego.png")} alt="carmen sandiego"/></a>
+          </p><br/>
 
 
           {/*<textarea className="textArea" onChange={onChangeSS6Listener39} value={SS6Essay39}/>*/}
@@ -1491,7 +1508,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 41</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/10.1_the_hebrew_kingdoms.pdf")} rel="noreferrer"
-                target="_blank">Read  <i>Chapter 10.1 The Hebrew Kingdoms</i></a>
+                target="_blank">Read <i>Chapter 10.1 The Hebrew Kingdoms</i></a>
           </p>
           <p>After you complete the reading, answer the following questions:<br/>
             1. What is the central belief of the Hebrews? <br/>
@@ -1839,7 +1856,7 @@ const SS6Component = ({ data }) => {
             good?<br/>
             2. Which did you disagree with or think were bad?<br/>
             <span style={{ color: "#4f5979" }}>Based on the video<i> Plato’s Allegory of the Cave</i> </span><br/>
-            3.  Briefly describe what Plato hoped to show
+            3. Briefly describe what Plato hoped to show
             people through this allegory (or story with hidden
             meaning).<br/>
             4. How do the prisoners respond to being chained?<br/>
@@ -1991,10 +2008,10 @@ const SS6Component = ({ data }) => {
             16. Who wrote all the recorded history of Ancient Rome that we have today?<br/>
             17. How does the public know that a woman is betrothed to be married?<br/>
           </p>
-            <textarea className="textArea" onChange={onChangeSS6Listener59} value={SS6Essay59}/>
+          <textarea className="textArea" onChange={onChangeSS6Listener59} value={SS6Essay59}/>
 
-            <span className="days">LESSON 61</span>
-           <p> Watch the video <b>The Roman Empire. Or Republic. Or...Which Was It?</b> by Crash Course</p>
+          <span className="days">LESSON 61</span>
+          <p> Watch the video <b>The Roman Empire. Or Republic. Or...Which Was It?</b> by Crash Course</p>
           <Video videoUrl="https://www.youtube.com/embed/oPf27gAup9U"/>
 
           <p>After you watch the video, answer the following questions:<br/>
@@ -2010,7 +2027,8 @@ const SS6Component = ({ data }) => {
 
           <textarea className="textArea" onChange={onChangeSS6Listener101} value={SS6Essay101}/>
           <span className="days">LESSON 62</span>
-          <p className="topBottom">It's time to travel to another destination somewhere in the world. Where will you go this time?</p>
+          <p className="topBottom">It's time to travel to another destination somewhere in the world. Where will you go
+            this time?</p>
           <ul className="list">
             <li>The alien landscape of Cappadocia, Turkey?</li>
             <li>The Appalachian Trial?</li>
@@ -2039,7 +2057,7 @@ const SS6Component = ({ data }) => {
             8. What things/activities will you do when you get there?<br/>
             <br/></p>
           <textarea className="textArea" onChange={onChangeSS6Listener60} value={SS6Essay60}/>
-          
+
           <span className="days">LESSON 63</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/14.1_the_birth_of_christianity.pdf")}
                 rel="noreferrer" target="_blank">Click
@@ -2067,7 +2085,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 64</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/14.2_the_birth_of_christianity.pdf")}
-                rel="noreferrer" target="_blank">Read  <i>Chapter 14.2 The Birth of Christianity</i></a>
+                rel="noreferrer" target="_blank">Read <i>Chapter 14.2 The Birth of Christianity</i></a>
           </p>
           <p>After you do the reading, answer the following questions:<br/>
             1. What did Jesus’ disciples do after his death?<br/>
@@ -2088,7 +2106,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 65</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/14.3_the_birth_of_christianity.pdf")}
-                rel="noreferrer" target="_blank">Read  <i>Chapter 14.3 The Birth of Christianity</i></a>
+                rel="noreferrer" target="_blank">Read <i>Chapter 14.3 The Birth of Christianity</i></a>
           </p>
           <p>After you do the reading, answer the following questions:<br/>
             1. Why was Rome hostile to Christians and Jews?<br/>
@@ -2130,8 +2148,10 @@ const SS6Component = ({ data }) => {
             <a
               href="https://earth.google.com/web/@17.90693717,-12.41937117,-34606.55899502a,57359668.97d,35y,0.00004064h,18.19296234t,0r/data=CjwSOhIgZjJhMmExN2E0MDZlMTFlOTk5MGE5OWYyYWQ2OTYwMTgiFnNwbC14LXgteC1zcGxhc2hzY3JlZW4"
               target="_blank" rel="noreferrer">
-              Play the Google Maps game Carmen Santiago: The keys to the Kremlin Caper. The game may take a few moments to load.
-              <img src={require("../../public/images/socialstudies/carmen-sandiego.png")} alt="carmen sandiego"/></a></p><br/>
+              Play the Google Maps game Carmen Santiago: The keys to the Kremlin Caper. The game may take a few moments
+              to load.
+              <img src={require("../../public/images/socialstudies/carmen-sandiego.png")} alt="carmen sandiego"/></a>
+          </p><br/>
 
           {/*<textarea className="textArea" onChange={onChangeSS6Listener65} value={SS6Essay65}/>*/}
 
@@ -2182,7 +2202,7 @@ const SS6Component = ({ data }) => {
           <span className="days">LESSON 70</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/15.2_romes_decline_and_legacy.pdf")}
                 rel="noreferrer"
-                target="_blank">Read  <i>Chapter 15.2 Rome's Decline and Legacy</i></a>
+                target="_blank">Read <i>Chapter 15.2 Rome's Decline and Legacy</i></a>
           </p>
           <p>After you complete the reading, answer the following questions:<br/>
             1. Why did the Western Roman Empire weaken?<br/>
@@ -2254,16 +2274,18 @@ const SS6Component = ({ data }) => {
           <span className="days">LESSON 73</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/Who-Were-the-Vikings.pdf")} rel="noreferrer"
                 target="_blank">Read <i>Who were the Vikings? </i></a></p>
-       
+
           <p>Watch the video <i>The Vikings </i>
-          <Video videoUrl="https://www.youtube.com/embed/3xIy7FoiaQY"/>
+            <Video videoUrl="https://www.youtube.com/embed/3xIy7FoiaQY"/>
             1. Where did the Vikings come from (where was their homeland)?<br/>
             2. When the British first saw the Vikings, what did they do?<br/>
             3. Would you say that all of the Vikings were bad? Explain.<br/>
             4. The Vikings were pagans, meaning that they believed in more than one god and did not
-            follow the religious beliefs of much of the rest of the world. What religion were most people living in Britain?<br/>
+            follow the religious beliefs of much of the rest of the world. What religion were most people living in
+            Britain?<br/>
             5. The Vikings preferred the land in Britain to their own in Scandinavia. WHy was this?<br/>
-            6. What were some special characteristics of the Vikings' longboats that boats from other countries did not have?<br/>
+            6. What were some special characteristics of the Vikings' longboats that boats from other countries did not
+            have?<br/>
             7. What was the most interesting thing you learned about the Vikings?<br/></p>
           <textarea className="textArea" onChange={onChangeSS6Listener71} value={SS6Essay71}/>
 
@@ -2274,7 +2296,7 @@ const SS6Component = ({ data }) => {
           </p>
           <p>Watch the video <b>What is Norse Mythology? </b>
             <Video videoUrl="https://www.youtube.com/embed/TXBU9nWdq2g"/>
-            
+
             1. What countries did the Vikings sail to?<br/>
             2. What items did the Vikings trade?<br/>
             3. In the year 985, which Viking explorer "discovered" America by accident?<br/>
@@ -2290,7 +2312,7 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 75</span>
           <p>Watch the video <b>The Vikings </b>by Crash Course
-          <Video videoUrl="https://www.youtube.com/embed/Wc5zUK2MKNY"/>
+            <Video videoUrl="https://www.youtube.com/embed/Wc5zUK2MKNY"/>
             1. What are some countries that the Vikings came from?<br/>
             2. John Green states in the video that the Vikings were mostly "agriculturalists."
             What does that
@@ -2355,7 +2377,7 @@ const SS6Component = ({ data }) => {
           <span className="days">LESSON 78</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/16.1_Early_Middle_Ages.pdf")} rel="noreferrer"
                 target="_blank">Read <i>16.1 The Early
-              Middle Ages: </i>The Geography of Europe</a>
+            Middle Ages: </i>The Geography of Europe</a>
           </p>
 
           <p>
@@ -2623,13 +2645,18 @@ const SS6Component = ({ data }) => {
             Renaissance. <a href={require("../resources/social-studies/ss-pdfs6th/WriteAStory.pdf")} rel="noreferrer"
                             target="_blank">This attachment </a>
             will walk you through the steps on how to write your narrative. </p>
-          <p> <ul className="list"><li>Think about what will happen in your story. </li>
-            <li>How will you describe where and when it will take place?</li>
-            <li>Who will your characters be? Which character will tell the story?</li>
-            <li>What difficulty will your characters have to overcome?</li>
-            <li>How will your story end?</li></ul>
+          <p>
+            <ul className="list">
+              <li>Think about what will happen in your story.</li>
+              <li>How will you describe where and when it will take place?</li>
+              <li>Who will your characters be? Which character will tell the story?</li>
+              <li>What difficulty will your characters have to overcome?</li>
+              <li>How will your story end?</li>
+            </ul>
           </p>
-          <textarea className="textArea" placeholder="Write your Historical Narrative here.  Be sure to back up your work." onChange={onChangeSS6Listener90} value={SS6Essay90}/>
+          <textarea className="textArea"
+                    placeholder="Write your Historical Narrative here.  Be sure to back up your work."
+                    onChange={onChangeSS6Listener90} value={SS6Essay90}/>
 
           <span className="days">LESSON 93</span>
           <p>Watch the video <b>Luther and the Protestant Reformation</b> by Crash
@@ -2638,7 +2665,8 @@ const SS6Component = ({ data }) => {
           <br/>
 
           <p>
-            1. Before the Protestant Reformation, what was the dominant or main type of Christianity in Europe? What made it so powerful?<br/>
+            1. Before the Protestant Reformation, what was the dominant or main type of Christianity in Europe? What
+            made it so powerful?<br/>
             2. What were indulgences? Why did Martin Luther disagree with them, and how did he show it?<br/>
             3. How did the printing press help Luther become so influential?<br/>
             4. How did Luther's protests against the Church lead to other denominations or forms of Christianity?<br/>
@@ -2649,7 +2677,8 @@ const SS6Component = ({ data }) => {
 
           <span className="days">LESSON 94</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/18.1_Reformation_of_Christianity.pdf")}
-                rel="noreferrer" target="_blank">Read  <i>18.1 Reformation of Christianity: </i>The Protestant Reformation</a>
+                rel="noreferrer" target="_blank">Read <i>18.1 Reformation of Christianity: </i>The Protestant
+            Reformation</a>
           </p>
           <p>
             1. What were three complaints people had about the Roman Catholic Church in the early 1500s?<br/>
@@ -2657,7 +2686,8 @@ const SS6Component = ({ data }) => {
             3. How did Luther's ideas about interpreting the Bible differ from Catholics' ideas?<br/>
             4. What did King Henry VIII do that makes him a Reformation figure?<br/>
             5. How did John Calvin's ideas affect life in Geneva?<br/>
-            6. How might William Tyndale's life have been different if he had lived after Henry VIII broke away from the Catholic Church?<br/>
+            6. How might William Tyndale's life have been different if he had lived after Henry VIII broke away from the
+            Catholic Church?<br/>
           </p>
           <textarea className="textArea" onChange={onChangeSS6Listener92} value={SS6Essay92}/>
 
@@ -2670,27 +2700,29 @@ const SS6Component = ({ data }) => {
             2. What happened when the Catholic church made attempts to reform the church?<br/>
             3. What was the Papal Index?<br/>
             4. Describe the Jesuits and what they worked to accomplish.<br/>
-            5. Describe how Jesuits tried to adapt their strategies to different parts of the world in order to convince people in other countries and cultures to convert.<br/>
+            5. Describe how Jesuits tried to adapt their strategies to different parts of the world in order to convince
+            people in other countries and cultures to convert.<br/>
             6. Briefly summarize your thoughts/opinions about the Catholic Counter-Reformation.<br/>
           </p>
           <textarea className="textArea" onChange={onChangeSS6Listener93} value={SS6Essay93}/>
 
           <span className="days">LESSON 96</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/18.2_Reformation_of_Christianity.pdf")}
-                rel="noreferrer" target="_blank">Read  <i>18.2 The Catholic Reformation</i></a>
+                rel="noreferrer" target="_blank">Read <i>18.2 The Catholic Reformation</i></a>
           </p>
           <p>
             1. Why was the Catholic Church stronger in Spain than in many other parts of Europe?<br/>
             2. What religious order did Ignatius of Loyola create?<br/>
             3. How did the Catholic Church try to fight the spread of Protestant ideas?<br/>
-            4. Which do you think was a better way to reform the Catholic Church, new religious orders or the Council of Trent? Why?<br/>
+            4. Which do you think was a better way to reform the Catholic Church, new religious orders or the Council of
+            Trent? Why?<br/>
             5. Where did Catholic missionaries travel?<br/>
           </p>
           <textarea className="textArea" onChange={onChangeSS6Listener94} value={SS6Essay94}/>
 
           <span className="days">LESSON 97</span>
           <p><a href={require("../resources/social-studies/ss-pdfs6th/18.3_Reformation_of_Christianity.pdf")}
-                rel="noreferrer" target="_blank">Read  <i>18.3 Effects of Reformation </i></a>
+                rel="noreferrer" target="_blank">Read <i>18.3 Effects of Reformation </i></a>
           </p>
           <p>
             1. Why do you think the Catholic Church had more influence in southern Europe?<br/>
@@ -2725,10 +2757,10 @@ const SS6Component = ({ data }) => {
           <p>After you finish questions 1-7 above, go to <a href="https://tapmap.simpledzn.com" rel="noreferrer"
                                                             target="_blank">Tap
             Map to practice European geography for 20 minutes.</a><br/>
-            <span style={{color: "#4f5979"}}> a) Select Europe under 'Select Region Quiz' and play Tap Map until the timer goes off. 
+            <span style={{ color: "#4f5979" }}> a) Select Europe under 'Select Region Quiz' and play Tap Map until the timer goes off.
                Click <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">here to start a 20 MINUTE
                 TIMER. </a><br/>
-              b) Try to memorize each country's location.  When you tap on a country, the name will appear.  
+              b) Try to memorize each country's location.  When you tap on a country, the name will appear.
               After you practice, take the quiz on Europe. Each time you
               retake the quiz, your score should improve.  In a couple of weeks, you should be able to locate every European country!<br/>
                c) Record your final score below.</span></p>
@@ -2740,7 +2772,8 @@ const SS6Component = ({ data }) => {
           <p>Watch the video below about<b> Andorra.</b> Then answer the questions that follow:</p>
           <Video videoUrl="https://www.youtube.com/embed/POOvmkhlUD4?list=PLR7XO54Pktt-h8T-dtr4MXy0_MpbWukHW"/>
           <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the
-            meaning behind the colors and/or the design? If the flag is not discussed in the video, research it online.<br/>
+            meaning behind the colors and/or the design? If the flag is not discussed in the video, research it
+            online.<br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>
             3. Would you ever want to live there? Why or why not.<br/>
             4. Did you learn anything about their history, economy or government? If so, explain.<br/>
@@ -2749,12 +2782,12 @@ const SS6Component = ({ data }) => {
             7. List three things about the country you found to be very interesting or surprising.<br/>
             8. <a href="https://tapmap.simpledzn.com" rel="noreferrer" target="_blank">Tap Map</a> score for today.
           </p>
-          <p><span style={{color: "#4f5979"}}>After you finish the questions above, go to <a
+          <p><span style={{ color: "#4f5979" }}>After you finish the questions above, go to <a
             href="https://tapmap.simpledzn.com">Tap
             Map</a> to learn where countries are located.<br/>
             Practice for about 5-10 minutes, then spend another 10 -15 minutes taking the quiz. Go back to
-            practicing where countries are located after each quiz to memorize their location.  
-            Set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer. </a>  
+            practicing where countries are located after each quiz to memorize their location.
+            Set a <a href="https://timer.athomemiddleschool.com/" rel="noreferrer" target="_blank">20 minute timer. </a>
              Record your final score below. </span><br/></p>
           <textarea className="textArea" onChange={onChangeSS6Listener97} value={SS6Essay97}/>
 
@@ -3178,7 +3211,7 @@ const SS6Component = ({ data }) => {
             Now. </p>
           <Video videoUrl="https://www.youtube.com/embed/yWZiO7YNoPQ?list=PLR7XO54Pktt-h8T-dtr4MXy0_MpbWukHW"/>
           <Video videoUrl="https://www.youtube.com/embed/HpIPtsWH4KU"/>
-          
+
           <p> 1. Describe the country's flag. On a scale of 1 to 10, how much do you like it? What is the
             meaning behind the colors and/or the design? <br/>
             2. What language do they speak? If they speak more than one, list them all.<br/>

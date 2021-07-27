@@ -215,6 +215,15 @@ const Math7Component = ({ data }) => {
       </section>
       <section className="section math-section raise-top">
         <div className="section-content">
+
+          <h1 className="section-title fadeIn">Course Summary</h1>
+          <p className="fadeIn">7th Grade Math is aligned to the Common Core and covers  </p>
+          <p className="topBottom">This course uses Khan Academy, Math Antics, TecMath, TedEd and math riddles from
+            various sources. If you don't already have a free account on <a
+              href="https://support.khanacademy.org/hc/en-us/articles/204451324-How-do-I-create-my-account-"
+              rel="noreferrer" target="_blank">Khan Academy, set one up by clicking here. </a> Khan will track your
+            progress through 7th Grade Math.</p><br/>
+
           <h1 className="section-title daily-margin fadeIn" id="math">Daily Lessons</h1>
           <div className="md-content">
 
@@ -494,7 +503,7 @@ third is sure to match one of the other two."/>
               (who was pretty smart in arithmetic) said:
               "Tell you what, Mom. Suppose we do it this way.
               Today is the first of April. You give me a penny today.
-              Tomorrow, give me two pennies. The day after tomorrow, give me four pennies. 
+              Tomorrow, give me two pennies. The day after tomorrow, give me four pennies.
               Each day, give me twice as
               many pennies as you did the day before."
               "For how long?" asked Mom, looking wary.
@@ -1296,7 +1305,7 @@ moving locomotive is straight up. Therefore, the train is moving at a speed equa
               safe from their enemies. All the same, the man carries wolf, goat, and cabbage
               across the river.<br/>
               How? </p>
-            <MathPuzzle solution="A wolf does not eat cabbage, so the crossing can start with the goat. 
+            <MathPuzzle solution="A wolf does not eat cabbage, so the crossing can start with the goat.
 The man leaves the goat and returns, puts the cabbage in the boat and takes it across. On the other bank, he leaves the cabbage but takes the goat.  He leaves the goat on the first bank and takes the wolf across, He leaves the cabbage with the wolf and rows back alone.  He takes the goat across. "/>
 
             <span className="days">Lesson 59</span>
@@ -2658,7 +2667,7 @@ Since 1/4 block of cheese weighs 3/4 pound, an entire block weighs 3 pounds."/>
               <a
                 href="https://www.khanacademy.org/math/get-ready-for-8th-grade/x465f0793a1788a3f:get-ready-for-numbers-and-operations/x465f0793a1788a3f:estimating-with-multiplying-and-dividing-decimals/v/estimating-decimal-multiplication"
                 rel="noreferrer" target="_blank"> Estimating with multiplying and dividing decimals </a></p>
-            
+
             <h2 style={{color: "#3d5e7f", padding: "10px 0 15px" }}>Getting Ready for the 8th Grade</h2>
 
             <span className="days">Lesson 134 </span>

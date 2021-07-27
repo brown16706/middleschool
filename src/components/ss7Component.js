@@ -775,7 +775,22 @@ const SS7Component = ({ data }) => {
 
       <div className="section raise-top">
         <div className="section-content">
-          <h1 className="section-title fadeIn">World History Daily Lessons</h1>
+          <h1 className="section-title fadeIn" style={{ color: "#35516e" }}>World History & Geography</h1>
+          <h1 className="section-title fadeIn">Course Summary</h1>
+          <p className="topBottom">7th Grade Social Studies will include Revolution and Enlightenment, The French
+            Revolution and Napoleon, Industrialization and Nationalism, Mass Society and Democracy, The Height of
+            Imperialism, East Asia Under Challenge, War and Revolution, The West Between the Wars, Nationalism Around
+            the World, World War II, Cold War and Postwar Changes, The Contemporary Western World, Latin America, Africa
+            and the Middle East, to Present, Asia and the Pacific, to present, Changing Global Patterns, World War I,
+            The Russian Revolution of 17, The Mexican Revolution, The Great Depression, World War II, The Holocaust, An
+            Interdependent World (14-Present), Cold War, Nationalism, Independence Movements and Popular Resistance,
+            Modern Global Culture, Arab-Israeli Conflict and Islamic Fundamentalism, Mass Genocide, Ethnic Cleansing and
+            Human Rights Violations, South America, Africa, Asia, Oceania, and the geography of South America, Africa,
+            Asia, and Oceania. Geographical regions not covered here are covered in 6th and 8th Grade Social Studies.</p>
+          <p>Educational resources used in 7th Grade Social Studies include Crash Course, National Geography, the
+            History Channel, Google Maps, Geography Now! and open source history texts.</p><br/>
+
+          <h1 className="section-title fadeIn">Daily Lessons</h1>
           <span className="days fadeIn">LESSON 1</span>
           <p><a href={require("../resources/social-studies/ss-pdfs7th/1_TheScientificRevolution.pdf")}
                 rel="noreferrer"
@@ -799,13 +814,13 @@ const SS7Component = ({ data }) => {
                     4.
                     5.
                     6.
-                    Write your responses here. Your work will automatically be saved to your Local Storage. 
+                    Write your responses here. Your work will automatically be saved to your Local Storage.
                     -----
-                    If you clear your cookies, your answers will be erased! Be sure to back up your work by saving it in another 
-                    location. 
+                    If you clear your cookies, your answers will be erased! Be sure to back up your work by saving it in another
+                    location.
                     -----
-                    You can 'Select All' (select your answers inside this textbox by touching/clicking on (ctrl a)) and 
-                    copy/paste it into Google Docs, a Word Doc or into an email  and send it to your parent or teacher. 
+                    You can 'Select All' (select your answers inside this textbox by touching/clicking on (ctrl a)) and
+                    copy/paste it into Google Docs, a Word Doc or into an email  and send it to your parent or teacher.
                     -----
                     Some devices allow you to 'Select All' and then 'Share' via email or another app.
                     -----
