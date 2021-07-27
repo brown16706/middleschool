@@ -182,35 +182,12 @@ a:focus:after, a:hover:after {
     background: #eef3ff
 }
 
-    .mainTitle {
-        margin-top: 10%;
-        padding: 10% 10% 5%;
-        text-align: left;
-        position: relative;
-        font-weight: 500;
-        font-size: 90px;
-        color: #353944;
-        line-height: 120px;
-    }
-
-
 @media screen and (max-width: 801px) {
-    .mainTitle {
-        font-size: 70px;
-        line-height: 90px;
-        padding: 10% 0 5%;
-    }
     .giantText {
         font-size: .9em;
     }
 }
 
-@media screen and (max-width: 540px) {
-    .mainTitle {
-        font-size: 42px;
-        line-height: 60px;
-    }
-}
 
 .content {
     z-index: 1;
@@ -288,4 +265,3 @@ a:focus:after, a:hover:after {
 .eight {
     text-align: right;
 }
-
